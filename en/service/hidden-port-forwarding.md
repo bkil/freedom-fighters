@@ -51,10 +51,14 @@
 
 * https://www.harding.motd.ca/autossh/
 
+### GoTeleport.com
+
+* https://goteleport.com/pricing/
+
 ### Nebula
 
 * https://github.com/slackhq/nebula
 
 ### Tinc
 
-* https://en.m.wikipedia.org/wiki/Tinc_(protocol)
+* https://en.wikipedia.org/wiki/Tinc_(protocol)
