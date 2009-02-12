@@ -13,15 +13,29 @@
 * OpenVPN, IKEv2, WireGuard
 * UDP, TCP
 
-### VPNGate
+### Psiphone
 
-* https://www.vpngate.net/EN/
-* OpenVPN, L2TP/IPsec, MS-SSTP
+* https://en.wikipedia.org/wiki/Psiphon
+* link: custom update protocol (VPN, SSH, HTTP proxy)
+* service: HTTPS
+* supports rotation over an array of proxy servers
+
+### Tor
+
+* https://en.wikipedia.org/wiki/Tor_(network)
+* link: custom
+* service: TCP client and server
+* supports rotation over an array of proxy servers (exit nodes)
 
 ### Urban-VPN
 
 * https://www.urban-vpn.com/free-products/chrome-proxy-settings/
 * SOCKS5
+
+### VPNGate
+
+* https://www.vpngate.net/EN/
+* OpenVPN, L2TP/IPsec, MS-SSTP
 
 ### ZoogVPN
 
