@@ -210,6 +210,12 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 
 * jelenleg csak meghívóval lehet csatlakozni
 
+### RocketNine.space
+
+* https://code.rocketnine.space/
+* Gitea
+* nincs API CORS
+
 ### SourceHut.org
 
 * motorja: Sourcehut
