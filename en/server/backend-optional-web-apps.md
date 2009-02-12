@@ -89,3 +89,5 @@ You may look into microservices for an inspiration, but you don't need to overdo
 * https://en.wikipedia.org/wiki/Static_web_page
 * https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 * https://en.wikipedia.org/wiki/Shared_web_hosting_service
+* https://github.com/sandhawke/crosscloud
+* https://github.com/linkeddata/cimba/
