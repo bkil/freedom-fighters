@@ -7,19 +7,79 @@
 
 ## Self-hosted FOSS client and server
 
+### Chisel
+
+* https://github.com/jpillora/chisel
+* link: HTTP (encrypted using SSH)
+* service: UDP, TCP, SOCKS5, HTTP CONNECT proxy
+
+### FRP
+
+* https://github.com/fatedier/frp
+* link: UDP (KCP), QUIC, TCP, optional TLS, HTTP_PROXY, HTTP CONNECT
+* service: UDP, TCP, HTTP, HTTPS
+
+### go-http-tunnel
+
+* https://github.com/mmatczuk/go-http-tunnel
+* link: HTTP 2.0
+* service: TCP, HTTP, vhosting, SNI
+* authorization: client TLS certificates
+
+### SirTunnel
+
+* https://github.com/anderspitman/SirTunnel
+* link: SSH
+* service: HTTP, HTTPS
+
+### sshuttle
+
+* https://github.com/sshuttle/sshuttle
+* link: SSH
+* service: SSH, transparent proxy
+
 ## Hosted FOSS client and server
+
+### Expose.dev
+
+* https://github.com/beyondcode/expose
+* link: WebSocket
+* service: HTTP, HTTPS
+* random subdomain
 
 ### LocalTunnel.me
 
 * https://github.com/localtunnel/localtunnel
+  * https://github.com/localtunnel/server
+* link: TCP
+* service: HTTP, HTTPS
 
 ### sish
 
 * https://github.com/antoniomika/sish
-* link: SSH, HTTP, vhosting, SNI
-* service: TCP
+* link: SSH
+* service: TCP, HTTP, HTTPS, WebSocket, WSS, vhosting, SNI
+
+### Telebit.Cloud
+
+* https://telebit.cloud/
+* https://git.coolaj86.com/coolaj86/telebit.js
+* link: WebSocket
+* service: TCP, HTTP, HTTPS
+
+### tunneller
+
+* https://github.com/skx/tunneller
+* link: MQTT (mosquitto)
+* service: HTTP
 
 ## FOSS client
+
+### jprq
+
+* https://github.com/azimjohn/jprq
+* link: TCP
+* service: TCP, HTTP
 
 ### localhost.run
 
@@ -33,10 +93,22 @@
 
 * https://ngrok.com/pricing
 * https://github.com/sleirsgoevy/ngrok-free
-* TCP, HTTP
+* link: TCP
+* service: TCP, HTTP
 * adds TLS
 * 1 port
 * up to 40 requests/minute
+
+### OpenPort.io
+
+* https://openport.io/pricing
+  * https://github.com/openportio/openport-go
+  * https://github.com/openportio/openport
+* link: HTTP (?)
+* service: TCP, HTTP
+* 10MB/month traffic
+* 1 device, 1 connection per device
+* 1 day connection timeout
 
 ### Portmap.io
 
@@ -59,23 +131,23 @@
 * 15 minute tunnel timeout
 * "Interstitial page"
 
-### OpenPort.io
-
-* https://openport.io/pricing
-* service: TCP, HTTP
-* 10MB/month traffic
-* 1 device, 1 connection per device
-
 ### Packetriot.com
 
 * https://packetriot.com/
-* service: TCP
+* link: HTTP/HTTPS (?)
+* service: TCP, HTTP, HTTPS, SNI vhosting
 * 1 port
 * 1GB/month traffic
+
+### Staqlab-tunnel
+
+* https://github.com/cocoflan/Staqlab-tunnel
+* link: SSH
 
 ### UltraHook.com
 
 * https://www.ultrahook.com/faq
+* link: HTTPS
 * service: HTTP POST only
 
 ### WebhookRelay.com
@@ -97,5 +169,4 @@
 * https://www.npmjs.com/package/beame-gatekeeper
 * https://github.com/beameio
 * https://pagekite.net/pricing/
-* https://github.com/azimjohn/jprq
 * https://serveo.net/
