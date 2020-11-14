@@ -14,7 +14,8 @@ láthatóság szabályozása|csoportok, egyének|publikus, követők vagy egyén
 kategóriák|igen|nem|nem|
 követés|emberek, címkék|emberek|emberek, címkék|
 események|igen|nem|nem|nem
-protokoll|AP, DSCN|AP|DSCN|AP
+protokoll|AP, Diaspora|AP|Diaspora|AP
+törölhetőség|||nincs|
 külső illeszthetőség|RSS, Blogger, Discourse, LiveJournal, Tumblr, WordPress, email|||
 feed kimenet|||atom|
 manuális falszűrők|igen|||
@@ -31,4 +32,6 @@ web: PeerTube|lejátszó|lejátszó|bélyegkép|
 web: emoji választó|statikus, karakteres|kereshető, színes képek|nincs|
 web: PixelFed|bélyegkép, leírás|nem|bélyegkép, leírás|
 web: Mobilizon|kép, leírás|nem|bélyegkép, leírás|
-beágyazható megosztás gomb|"""Advanced Sharer"""|igen|"""Advanced Sharer"""|még nincs
+asztali kliens|Choqok, Friendiqa|Choqok, Tootle, WhaleBird, TheDesk, Gakki, Olifant, Kaiteki||WhaleBird, Kaiteki
+mobil kliens|Fedilab, Fedilab Lite, DiCa-MianXian|Husky, Tusky, AndStatus, Twidere, Fedilab, Fedilab Lite, SubwayTooter, DiCa-MianXian|Dandelion, Insporation, DiCa-MianXian|Husky, Fedilab, Fedilab Lite
+beágyazható megosztás gomb|"""Advanced Sharer"""|igen|"""Advanced Sharer"", Simple Diaspora Sharing"|még nincs
