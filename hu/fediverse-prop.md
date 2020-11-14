@@ -1,5 +1,5 @@
 név |Friendica|Mastodon|Diaspora|Pleroma
--||||
+-|-|-|-|-
 kezdés|2010|2016|2010|2017
 magyarítva|nem|igen|igen|félig
 utolsó havi fejlesztők|5|15|5|25
