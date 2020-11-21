@@ -1,0 +1,61 @@
+# Zeneszolgáltatások
+
+## Cél
+
+* Új zenék megismerése
+* Megoszthassuk közösségi hálónkkal, hogy mit hallgatunk vagy milyen stílusokat szeretünk
+* Ideálisan régebbi eszközeinken is hallgathassuk illetve amennyiben nem vagyunk internet közelben vagy rossz a térerő
+* A vállalati monopóliumi status quo decentralizálása a független alkotók, szabad tartalmak és szabad szoftverek irányába
+  * https://en.wikipedia.org/wiki/Comparison_of_on-demand_music_streaming_services#Current_services
+* Előnyben: fenntartható, ingyenes, nem követő, fizetős esetben DRM-mentes, esetleg FLOSS kliensből használható, közösségi médián mély hivatkozással megosztható (deep-linkelhető) alternatívák
+
+### Kerülendő
+
+* Youtube, Music: követ, egyre több és tolakodóbb reklámot mutat, a jövőben nyugtalanítóan halad a vendor lock-in irányába
+* Deezer: regisztráció nélkül csak az első 30 másodperc hallgatható
+* Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes egyre több és tolakodóbb reklámért cserebe lehetővé teszi kiválasztott számok lejátszását is
+
+## Szoftverek
+
+### Szerver
+
+* PeerTube
+* https://funkwhale.audio/
+* https://github.com/airsonic/airsonic
+* https://github.com/sentriz/gonic
+
+### Kliens
+
+* mplayer
+* VLC
+* Clementine
+* https://f-droid.org/en/packages/net.programmierecke.radiodroid2/
+
+## Ajánlott szolgáltatók
+
+* Hallgatás: regisztráció nélkül ingyen meghallgatható teljes egészében igény szerinti szám amire lehet mélyen is hivatkozni
+* Letöltés: regisztráció nélkül ingyen letölthető teljes egészében igény szerinti szám amire lehet mélyen is hivatkozni
+* Rádiózás: regisztráció nélkül ingyen hallgatható a tartalmak adott részhalmaza (csatornája, stílusa, lejátszólistája, stb) melyekre nekünk nincs finomabb ráhatásunk és mély hivatkozást sem tudunk megosztani amivel más belehallgathat a kiválasztott számokba
+
+### Főleg szabad tartalmak
+
+* Hallgatás/letöltés https://www.jamendo.com/ Hipstereknek különösen ajánlott, mert ez nagyon indie (Clementine támogatás)
+* Rádiózás/néha letöltés: https://www.scenestream.net/demovibes/streams/
+* Letöltés: https://files.scene.org/
+* Letöltés https://modarchive.org/
+* Hallgatás/letöltés https://www.pouet.net/ "videoklipeket" is ad, bár néha YouTube-on hosztolják, akad HTTP/FTP vagy egyéb letöltés is, de akár otthon is generálható
+* Hallgatás/letöltés https://open.audio/
+* Letöltés: https://www.europeana.eu/en/search?page=1&qf=TYPE%3A%22SOUND%22&query=RIGHTS%3A*creative*
+* Hallgatás/letöltés https://commons.wikimedia.org/
+* Hallgatás/letöltés https://freemusicarchive.org/
+* Letöltés http://ccmixter.org/
+* Hallgatás/letöltés https://archive.org/details/audio_music
+
+### Főleg ingyenes tartalmak
+
+* Hallgatás/letöltés: https://soundcloud.com/
+* Hallgatás/letöltés: https://www.mixcloud.com/
+* Rádiózás: https://www.jango.com/ igény szerinti hallgatáshoz csak külsős YouTube linkeket biztosítanak
+* Rádiózás: MindigTV UHF Petőfi rádió esti rontom bontom dj set (bár az utóbbi években sokat változott a stílusuk), online egy kicsit sok Javascriptet futtat
+* Rádiózás: https://tilos.hu/ vagy FM, letöltés https://tilos.hu/mixes/dj
+* Hallgatás/letöltés https://bandcamp.com/tag/free-download A hallgatás mindig ingyenes, de van amelyik szám letöltése fizetős, amelyik ingyenes, azt regisztráció nélkül is le lehet tölteni
