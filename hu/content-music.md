@@ -11,9 +11,12 @@
 
 ### Kerülendő
 
-* Youtube, Music: követ, egyre több és tolakodóbb reklámot mutat, a jövőben nyugtalanítóan halad a vendor lock-in irányába
-* Deezer: regisztráció nélkül csak az első 30 másodperc hallgatható
+* YouTube.com, Music.YouTube.com: követ, egyre több és tolakodóbb reklámot mutat, a jövőben nyugtalanítóan halad a vendor lock-in irányába
 * Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes egyre több és tolakodóbb reklámért cserebe lehetővé teszi kiválasztott számok lejátszását is
+* https://music.amazon.com/ csak regisztrációval használható, ingyenes regisztrációval csak rádiózást tud
+* https://Deezer.com/ regisztráció nélkül csak az első 30 másodperc hallgatható, ingyenes regisztrációval csak rádiózás tud
+* https://listen.tidal.com/ fizetős regisztráció, anélkül csak az első 30 másodperc hallgatható
+* https://music.apple.com/ fizetős regisztráció, anélkül csak az első 30 másodperc hallgatható
 
 ## Szoftverek
 
