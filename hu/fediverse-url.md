@@ -13,6 +13,16 @@
 
 * https://the-federation.info/#protocols Szerver és és protokoll statisztikák
 * https://podupti.me/ Szerver kereső táblázat
+  * javasolt szűrőfeltételek:
+    * Signups=yes
+    * Pod: könnyű legyen kimondani telefonon keresztül
+    * Rendezés minél több: 1m Users, Users, Posts
+    * Version: nem túl régi
+    * Uptime > 99%
+    * Months minél több
+    * IPv6=yes
+    * Country != US
+    * esetleg: Language=EN
 
 Friendica:
 
@@ -27,16 +37,21 @@ Diaspora:
 * http://wk3.org/tags/fun
 * http://diaspora.psyco.fr/tags/fun
 * https://pod.hoizi.net/tags/humor
-* http://iviv.hu/ Vicces nevű
+* http://iviv.hu/tags/humor Vicces nevű
 
 Mastodon:
 
 * https://mastodon.grin.hu/public (deklarálta, hogy csak hobbiból futtatja és ne építsünk rá)
-* https://qoto.org/public
-* https://fosstodon.org/public
-* https://mamot.fr/public
+* https://fosstodon.org/tags/humor
+* https://mamot.fr/tags/humor
+* https://mas.to/tags/humor
+
 
 Pleroma
 
 * https://pleroma.site/tag/humor
 * https://pleroma.fr/tag/humor
+
+Hubzilla
+
+* https://https://hub.netzgemeinde.eu/
