@@ -1,8 +1,14 @@
 # Legolcsóbb szerverszolgáltatások
 
+## Javaslatok
+
 Tipikusan tesztelési vagy egyszemélyes felhasználásra.
 
-Az ötlet, hogyha egy informatikában kicsit jártasabb ismerősünk meglátja a self-holted szabad szoftveres alternatívánkat akkor tudjunk neki egy konkrét szolgáltatót és árat ajánlani, illetve egy kattintásos telepítési utasítást.
+Az ötlet, hogyha egy informatikában kicsit jártasabb ismerősünk meglátja a magunk által üzemeltetett szabad szoftveres alternatívákra mutató linkjeinket akkor tudjunk kérésre neki is egy konkrét szolgáltatót és árat ajánlani, illetve egy kattintásos telepítési utasítást. Ezt akár egy kis szöveges bannerrel is megtehetjük minden oldalunk alján.
+
+Az alapvetés, hogy normál felhasználásra KVM-es gépek legalább félig dedikált magokkal, SSD-vel, biztonsági mentéssel ajánlhatók. Minden más (OpenVZ, LXC, üresjáratból szétosztott CPU, HDD) főleg csak próbálkozásra vagy nagyon minimális és CDN útján gyorsítótárazott szolgáltatásokra javasolt amit egyszerre csak 1-2 felhasználó fog megnyitni.
+
+Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan helyet keresni ahol vannak nagyobb, de még mindig jó ár-érték arányú csomagok és biztosított a próbahónap vagy rövid távú fizetős konstrukció is, hogyha kevésnek találjuk a teljesítményt, tudjunk bővíteni.
 
 ## Magyarok
 
@@ -12,7 +18,7 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 
 ### Legolcsóbb magyarok
 
-* https://rackoonet.hu/openvz-7-vps/ 490 + áfa
+* https://rackoonet.hu/openvz-7-vps/ 490 (alanyi adómentes)
 * https://atw.hu/vps 549 + áfa
 * https://vps4you.hu/hu/ssdvps 600 + áfa
 * https://xethost.hu/vps-berles/ 890 + áfa
@@ -40,8 +46,8 @@ Néhány lehetséges ok ami érdekessé teheti az itt megemlítetteket (nem mind
 * megbízhatók privacy szempontból
 * másoknak is ajánlható  szabad szoftveres tömegigényt elégíthetnek ki
   * sima jelenlét
-  * vagy extra tárhely biztonsági mentésnek vagy videóknak
-  * vagy jelentős havi átvitelt biztosítanak
+  * vagy extra tárhelyet nyújtanak biztonsági mentésnek vagy videóknak
+  * vagy jelentős havi adatátvitelt biztosítanak
 
 ### Akciók
 
@@ -62,11 +68,14 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://www.hetzner.com/sb pl. dedicated: core i7-2600 2x4TB HDD 16GB RAM 34 EUR/hó
 * https://www.kimsufi.com/en/servers.xml KS-2 Atom, 4GB RAM, 2TB HDD 8 EUR/hó
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
-* https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi 3700X20TB 46 EUR/hó
+* https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi Ryzen 3700X 20TB 46 EUR/hó
 
 ### Kiemelt olcsó, szabad szoftvert kiszolgáló cégek
 
-* https://www.owncube.com/index_en.php Megbízható múltra visszatekintő, van hosted NextCloud, Storage VPS kiterjesztett tárhellyel (500GB 15 EUR/hó, 20TB 80 EUR/hó),, Onlyoffice, Collabora, Jitsi, Rocket.chat, BBB
+* https://www.owncube.com/index_en.php
+  * Megbízható múltra visszatekintő
+  * Storage VPS kiterjesztett tárhellyel (500GB 15 EUR/hó, 20TB 80 EUR/hó)
+  * Van hosted NextCloud, Onlyoffice, Collabora, Jitsi, Rocket.chat, BBB
 
 ## Árösszehasonlító oldalak
 
