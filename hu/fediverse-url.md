@@ -54,4 +54,4 @@ Pleroma
 
 Hubzilla
 
-* https://https://hub.netzgemeinde.eu/
+* https://hub.netzgemeinde.eu/search?tag=humour
