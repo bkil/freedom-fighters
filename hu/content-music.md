@@ -67,7 +67,7 @@
 * Rádiózás https://www.jango.com/ igény szerinti hallgatáshoz csak külsős YouTube linkeket biztosítanak
 * Rádiózás MindigTV UHF Petőfi rádió esti rontom bontom dj set (bár az utóbbi években sokat változott a stílusuk), online egy kicsit sok Javascriptet futtat
 * Rádiózás https://tilos.hu/ vagy FM, letöltés https://tilos.hu/mixes/dj
-* Rádiózás https://www.di.fm/
+* Rádiózás https://www.di.fm/ 30 percet regisztráció nélkül is lejátszik, utána ingyenes regisztrációt vár el
 * Hallgatás/letöltés https://bandcamp.com/tag/free-download A hallgatás mindig ingyenes, de van amelyik szám letöltése fizetős, amelyik ingyenes, azt regisztráció nélkül is le lehet tölteni
 * Hallgatás https://bleep.com/ a letöltés mindig fizetős
 
