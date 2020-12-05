@@ -25,6 +25,7 @@
 * https://en.wikipedia.org/wiki/Comparison_of_online_music_stores
 * https://www.beatport.com/ vásárlás előtt enged regisztráció nélkül 2 percet belehallgatni
 * https://www.pastemagazine.com/noisetrade/music/ reklámbejátszásmentes, a regisztráció ingyenes, anélkül csak az első 30 másodperc hallgatható, azzal akár le is tölthető vagy a készítők is támogathatóak
+* http://www.8bitpeoples.com/ Letöltés csak regisztráció után, sokszor ingyen
 
 ## Szoftverek
 
@@ -51,10 +52,6 @@
 ### Főleg szabad tartalmak
 
 * Hallgatás/letöltés https://www.jamendo.com/ Hipstereknek különösen ajánlott, mert ez nagyon indie (Clementine és Libre.fm támogatás)
-* Rádiózás/néha letöltés https://www.scenestream.net/demovibes/streams/
-* Letöltés https://files.scene.org/
-* Letöltés https://modarchive.org/
-* Hallgatás/letöltés https://www.pouet.net/ "videoklipeket" is ad, bár néha YouTube-on hosztolják, akad HTTP/FTP vagy egyéb letöltés is, de akár otthon is generálható
 * Hallgatás/letöltés https://open.audio/
 * Letöltés https://www.europeana.eu/en/search?page=1&qf=TYPE%3A%22SOUND%22&query=RIGHTS%3A*creative*
 * Hallgatás/letöltés https://commons.wikimedia.org/
@@ -70,5 +67,19 @@
 * Rádiózás https://www.jango.com/ igény szerinti hallgatáshoz csak külsős YouTube linkeket biztosítanak
 * Rádiózás MindigTV UHF Petőfi rádió esti rontom bontom dj set (bár az utóbbi években sokat változott a stílusuk), online egy kicsit sok Javascriptet futtat
 * Rádiózás https://tilos.hu/ vagy FM, letöltés https://tilos.hu/mixes/dj
+* Rádiózás https://www.di.fm/
 * Hallgatás/letöltés https://bandcamp.com/tag/free-download A hallgatás mindig ingyenes, de van amelyik szám letöltése fizetős, amelyik ingyenes, azt regisztráció nélkül is le lehet tölteni
 * Hallgatás https://bleep.com/ a letöltés mindig fizetős
+
+### Vegyes demoscene és retro chiptune
+
+* Rádiózás/néha letöltés https://www.scenestream.net/demovibes/streams/
+* Letöltés https://files.scene.org/
+* Letöltés https://modarchive.org/
+* Letöltés ftp://ftp.hornet.org/pub/demos/music/contests/
+* Letöltés http://www.chiptune.com/
+* Letöltés https://chipmusic.org/
+* Letöltés http://www.8bitpeoples.com/
+* Letöltés http://www.traxinspace.com/ (TODO: regisztráció szükséges?)
+* Rádiózás http://www.kohina.com/
+* Hallgatás/letöltés https://www.pouet.net/ "videoklipeket" is ad, bár néha YouTube-on hosztolják, akad HTTP/FTP vagy egyéb letöltés is, de akár otthon is generálható
