@@ -20,8 +20,8 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 ## Magyarországon fizetős
 
 * https://www.mikrovps.net/hu/email-hosting/basic 15GB tárhely, 3000 Ft+áfa/év (0.89 EUR/hó) (MikroVPS Kft.)
-* https://megacp.com/hosting.php?aid=urb40687&spt=1 Induló tárhely csomag pont, 500 MB tárhely, saját domén, korlátlan cím, 5600 Ft + ÁFA / 2 év (bruttó 300 Ft/hó) (3 in 1 Hosting Bt.)
-* https://www.forpsi.hu/email/ bruttó 1905 Ft/hó domén mellé, 1GB
+* https://megacp.com/hosting.php?aid=urb40687&spt=1 Induló tárhely csomag, 500 MB tárhely, saját domén, korlátlan címek, 5600 Ft + ÁFA / 2 év (bruttó 300 Ft/hó) (3 in 1 Hosting Bt.)
+* https://www.forpsi.hu/email/ bruttó 1905 Ft/év domén mellé, 1GB
 * https://mailbox.hu/ 1 EUR/hó
 
 ## Magyarországon másodlagos email cím ingyen
@@ -45,3 +45,9 @@ Regisztrácíóhoz meglévő működő elektronikus levélcím szükséges, visz
 
 * https://www.privacytools.io/providers/email/
 * https://en.wikipedia.org/wiki/Comparison_of_webmail_providers#General
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2563434#comment-2563434

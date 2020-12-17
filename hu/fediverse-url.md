@@ -11,7 +11,7 @@
 
 Összehasonlítások:
 
-* https://the-federation.info/#protocols Szerver és és protokoll statisztikák
+* https://the-federation.info/#protocols Szerver és protokoll statisztikák
 * https://podupti.me/ Szerver kereső táblázat
   * javasolt szűrőfeltételek:
     * Signups=yes
@@ -55,3 +55,10 @@ Pleroma
 Hubzilla
 
 * https://hub.netzgemeinde.eu/search?tag=humour
+* https://hubzilla.pepecyb.hu/pubstream
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2555753#comment-2555753

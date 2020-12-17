@@ -83,3 +83,9 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://en.metadedi.net/
 * https://getfastvps.com/
 * http://www.lowendstock.com/
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2555753#comment-2555753
