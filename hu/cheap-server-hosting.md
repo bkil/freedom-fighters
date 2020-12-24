@@ -22,7 +22,6 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 * https://atw.hu/vps 549 + áfa
 * https://vps4you.hu/hu/ssdvps 600 + áfa
 * https://xethost.hu/vps-berles/ 890 + áfa
-* https://www.arubacloud.hu/vps/virtualis-privat-szerver-ajanlat-tipusok.aspx 900 + áfa
 
 ### Normál árú magyarok
 
@@ -65,6 +64,8 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 
 ### Nemzetközi példák normál felhasználásra
 
+* https://www.arubacloud.hu/vps/virtualis-privat-szerver-ajanlat-tipusok.aspx 900 + áfa
+  * **Cloud VPS Small**, VMWare, 1 vCPU, 1GB RAM, 20GB SSD, 2TB/hó adatforgalom, IPv4 + IPv6
 * https://www.hetzner.com/sb pl. dedicated: core i7-2600 2x4TB HDD 16GB RAM 34 EUR/hó
 * https://www.kimsufi.com/en/servers.xml KS-3 Atom 2c/4t 1.86GHz, 4GB RAM, 2TB HDD 8 EUR/hó+áfa
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
