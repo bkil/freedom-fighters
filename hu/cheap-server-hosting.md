@@ -66,7 +66,7 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 ### Nemzetközi példák normál felhasználásra
 
 * https://www.hetzner.com/sb pl. dedicated: core i7-2600 2x4TB HDD 16GB RAM 34 EUR/hó
-* https://www.kimsufi.com/en/servers.xml KS-2 Atom, 4GB RAM, 2TB HDD 8 EUR/hó
+* https://www.kimsufi.com/en/servers.xml KS-3 Atom 2c/4t 1.86GHz, 4GB RAM, 2TB HDD 8 EUR/hó+áfa
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
 * https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi Ryzen 3700X 20TB 46 EUR/hó
 
