@@ -10,6 +10,30 @@ Az alapvetés, hogy normál felhasználásra KVM-es gépek legalább félig dedi
 
 Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan helyet keresni ahol vannak nagyobb, de még mindig jó ár-érték arányú csomagok és biztosított a próbahónap vagy rövid távú fizetős konstrukció is, hogyha kevésnek találjuk a teljesítményt, tudjunk bővíteni.
 
+### LXC és OpenVZ alatt nem megy
+
+* Saját kernel fordítás, hangolás
+* Kernel frissítés
+* Nem alapértelmezett kernel modulok betöltése vagy paraméterezése
+* A legtöbb sysctl
+* Docker
+* OpenVPN vagy IPv6 tunnel (TUN/TAP engedélyezése vagy annak kérelmezése szüksége a VPS-re)
+* IPsec (net_admin képesség és néhány kernel modulnak be kell lennie töltve)
+* Bizonyos architektúra-implementáció specifikus biztonsági áthallás elleni védelmek
+* /dev/loopN
+* Titkosított kötetek
+* Pontos idő beállítása
+
+### LXC és OpenVZ alatt is megy
+
+* iptables tűzfal beállítások, ipset
+* Csomagtelepítés
+* PPP alapú VPN (PPTP/L2TP)
+* WireGuard-go
+* ssh tunnel, ssh socks proxy
+* FUSE
+* OpenVZ alatt LXC konténerek indítása
+
 ## Magyarok
 
 Itt az lenne a koncepció, hogy a személyes adataink ne hagyják el az országot.
