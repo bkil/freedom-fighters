@@ -13,7 +13,7 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 
 * https://freemail.hu/ 10GB tárhely (Magyar Telekom Nyrt.)
 * https://indamail.hu/ 2GB tárhely, POP3, IMAP (Indamedia csoport, volt VIPmail, Indexmail, DrótPostaGalamb)
-* https://www.citromail.hu/ 2GB tárhely, max. 5MB csatolmányok (Sanoma Budapest Zrt.)
+* https://www.citromail.hu/ 2GB tárhely, max. 5MB/csatolmány (Sanoma Budapest Zrt.)
 * https://www.euromail.hu/ 50MB (Humankraft Kft.)
 * https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
 
@@ -26,7 +26,7 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 
 ## Magyarországon másodlagos email cím ingyen
 
-Regisztrácíóhoz meglévő működő elektronikus levélcím szükséges, viszont mondjuk az elsődleges címhez képest további vagy jobb szolgáltatásokat biztosít.
+Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszont mondjuk az elsődleges címhez képest további vagy jobb szolgáltatásokat biztosít.
 
 * https://www.nethely.hu/ingyenes-tarhely
 * https://atw.hu/ingyenes-webtarhely
@@ -36,6 +36,10 @@ Regisztrácíóhoz meglévő működő elektronikus levélcím szükséges, visz
 * http://protonmail.com/ Svájc, csak webmail ingyenes, 500MB tárhely, 150 üzenet/nap
 * https://tutanota.com/ Németország, csak webmail ingyenes, 1GB tárhely
 * https://disroot.org/en/services/email Hollandia, nem alanyi jogon jár, regisztrációhoz átmenetileg szükséges egy elsődleges email fiók megadása
+
+## Etikus országban másodlagos email cím ingyen
+
+* https://webmail.vivaldi.net/ 5GB tárhely, max. 20MB/csatolmány, webmail, IMAPs, SMTPs, POP3s, Norvégia (Vivaldi Technologies AS)
 
 ## Etikus országban fizetős
 
