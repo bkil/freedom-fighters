@@ -14,7 +14,7 @@
 ### Előfizetések
 
 * YouTube.com, Music.YouTube.com: követ, a jövőben nyugtalanítóan halad a vendor lock-in irányába, a webes egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
-* Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
+* Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes csak DRM bekapcsolásával használható, de egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
 * https://music.amazon.com/ csak regisztrációval használható, ingyenes regisztrációval csak rádiózást tud
 * https://Deezer.com/ regisztráció nélkül csak az első 30 másodperc hallgatható, ingyenes regisztrációval csak rádiózás tud
 * https://listen.tidal.com/ fizetős regisztráció, anélkül csak az első 30 másodperc hallgatható
@@ -87,3 +87,9 @@
 ### Ingyenes háttérzenék
 
 * Hallgatás/letöltés https://incompetech.com/
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2568145#comment-2568145
