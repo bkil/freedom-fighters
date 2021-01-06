@@ -1,7 +1,7 @@
 név |Friendica|Mastodon|Diaspora|Pleroma|Hubzilla
 -|-|-|-|-|-
 kezdés|2010|2016|2010|2017|2012-2015
-magyarítva|nem|igen|igen|félig|nem
+magyarítva|igen|igen|igen|félig|nem
 utolsó havi fejlesztők|5|15|5|25|3
 utolsó félévi közreműködők|100+|100+|100+|100+|51
 kódtároló könyvjelző|894|22300|12600|178|43
@@ -16,21 +16,22 @@ követés|emberek, címkék|emberek, max 4 címke|emberek, címkék||emberek
 események|igen|nem|nem|nem|igen
 protokoll|AP, Diaspora|AP|Diaspora|AP|AP, Diaspora, Zot, OStatus
 törölhetőség|||nincs||igen
-elévíthetőség|||||igen
+elévíthetőség|beállításokban||||üzenetenként
 külső illeszthetőség|RSS, Blogger, Discourse, LiveJournal, Tumblr, WordPress, email||||
 feed kimenet|||atom||
 manuális falszűrők|igen||||
 üzenethossz|korlátlan?|500|vertikálisan lenyitható pár sor után||vertikálisan lenyitható pár sor után
 export|igen|igen|igen||
 import|korlátozott|korlátozott|nem||
-fiók átirányítás||igen|||
+fiók átirányítás||igen|||igen
 válaszok kedvelése|igen|igen|nem||igen
-címke böngészés|publikus||publikus|publikus|publikus
-lokális üzenőfal|publikus|publikus|||
+reactji számláló|nem|nem|nem|igen|nem
+címke böngészés|publikus|választható|publikus|publikus|publikus
+lokális üzenőfal|publikus|publikus|nem|nem|választható
 web: kép|fix|nézőke|fix||nézőke
 web: animált kép|automatikus|automatikussá tehető|automatikus||automatikus
 web: PeerTube|lejátszó|lejátszó|bélyegkép||bélyegkép
-web: emoji választó|statikus, karakteres|kereshető, színes képek|nincs||szöveges autocomplete, 11 statikus
+web: emoji választó|statikus, karakteres|kereshető, színes képek|nincs|kereshető, színes képek|szöveges autocomplete, 11 statikus
 web: PixelFed|bélyegkép, leírás|nem|bélyegkép, leírás||kép, leírás
 web: Mobilizon|kép, leírás|nem|bélyegkép, leírás||kép, leírás
 web kliens||sengi, Pinaforce, Halcyon, Cuckoo+|||
