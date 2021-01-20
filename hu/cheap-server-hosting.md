@@ -12,6 +12,7 @@ Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan hely
 
 ### LXC és OpenVZ alatt nem megy
 
+* Egyedi operációs rendszer telepítés (csak sablonból)
 * Saját kernel fordítás, hangolás
 * Kernel frissítés
 * Nem alapértelmezett kernel modulok betöltése vagy paraméterezése
@@ -23,6 +24,7 @@ Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan hely
 * /dev/loopN
 * Titkosított kötetek
 * Pontos idő beállítása
+* swap (vagy RAM-ban vswap) csak ha engedélyezték és fix méretű
 
 ### LXC és OpenVZ alatt is megy
 
@@ -33,6 +35,11 @@ Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan hely
 * ssh tunnel, ssh socks proxy
 * FUSE
 * OpenVZ alatt LXC konténerek indítása
+
+### LXC és OpenVZ előnyei
+
+* Erőforrás bővítéshez nem kell leállítani
+* Nagyon gyors boot
 
 ## Magyarok
 
