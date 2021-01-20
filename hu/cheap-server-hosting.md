@@ -50,7 +50,7 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 ### Legolcsóbb magyarok
 
 * https://ugyfelkapu.hostingbazis.hu/cart.php?a=add&pid=212 301 + áfa (383, 1 év)
-  * **LXC VPS Micro**, LXC, 1 vCPU (2.8GHz), 1GB RAM, 10GB HDD (SAS RAID10), korlátlan adatforgalom, 1Gb/s, IPv4 + IPv6 (elvileg magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
+  * **LXC VPS Micro**, LXC, 1 vCPU (2.8GHz), 1GB RAM, 10GB HDD (SAS RAID10), 0 swap, korlátlan adatforgalom, 1Gb/s, IPv4 + IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
 * https://rackoonet.hu/openvz-7-vps/ 490 (alanyi adómentes)
   * **OVZ7-START (2020)**: OpenVZ 7, 1 vCPU (HP DL380, 2x Intel Xeon 6-core +HT, 3GHz), 512MB RAM, 5GB HDD (6x HP 10k SAS, HP HW RAID10 + FBWC), korlátlan adatforgalom, 200Mb/s, IPv4 (elvileg magyar: Victor Hugo 18-22)
 * https://atw.hu/vps 445 + áfa (2 év)
