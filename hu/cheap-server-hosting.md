@@ -6,9 +6,17 @@ Tipikusan tesztelési vagy egyszemélyes felhasználásra.
 
 Az ötlet, hogyha egy informatikában kicsit jártasabb ismerősünk meglátja a magunk által üzemeltetett szabad szoftveres alternatívákra mutató linkjeinket akkor tudjunk kérésre neki is egy konkrét szolgáltatót és árat ajánlani, illetve egy kattintásos telepítési utasítást. Ezt akár egy kis szöveges bannerrel is megtehetjük minden oldalunk alján.
 
-Az alapvetés, hogy normál felhasználásra KVM-es gépek legalább félig dedikált magokkal, SSD-vel, biztonsági mentéssel ajánlhatók. Minden más (OpenVZ, LXC, üresjáratból szétosztott CPU, HDD) főleg csak próbálkozásra vagy nagyon minimális és CDN útján gyorsítótárazott szolgáltatásokra javasolt amit egyszerre csak 1-2 felhasználó fog megnyitni.
+Az alapvetés, hogy normál felhasználásra KVM/Xen-es gépek legalább félig dedikált magokkal, SSD-vel, biztonsági mentéssel ajánlhatók. Minden más (OpenVZ, LXC, üresjáratból szétosztott CPU, HDD) főleg csak próbálkozásra vagy nagyon minimális és CDN útján gyorsítótárazott szolgáltatásokra javasolt amit egyszerre csak 1-2 felhasználó fog megnyitni.
 
 Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan helyet keresni ahol vannak nagyobb, de még mindig jó ár-érték arányú csomagok és biztosított a próbahónap vagy rövid távú fizetős konstrukció is, hogyha kevésnek találjuk a teljesítményt, tudjunk bővíteni.
+
+
+Ha nem tudjuk, hogy milyen technológiát futtat egy adott szolgáltató:
+
+```
+apt install virt-what &&
+virt-what
+```
 
 ### LXC és OpenVZ alatt nem megy
 
@@ -49,13 +57,13 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 
 ### Legolcsóbb magyarok
 
-* https://ugyfelkapu.hostingbazis.hu/cart.php?a=add&pid=212 301 + áfa (383, 1 év)
+* https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142 301 + áfa (383, 1 év)
   * **LXC VPS Micro**, LXC, 1 vCPU (2.8GHz), 1GB RAM, 10GB HDD (SAS RAID10), 0 swap, korlátlan adatforgalom, 1Gb/s, IPv4 + IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
-* https://rackoonet.hu/openvz-7-vps/ 490 (alanyi adómentes)
+* https://rackoonet.hu/openvz-7-vps/ 417 (1 év, alanyi adómentes)
   * **OVZ7-START (2020)**: OpenVZ 7, 1 vCPU (HP DL380, 2x Intel Xeon 6-core +HT, 3GHz), 512MB RAM, 5GB HDD (6x HP 10k SAS, HP HW RAID10 + FBWC), korlátlan adatforgalom, 200Mb/s, IPv4 (elvileg magyar: Victor Hugo 18-22)
 * https://atw.hu/vps 445 + áfa (2 év)
   * **egyéni VPS konfigurátor**, KVM, 1 vCPU, 512MB RAM, 5GB SSD (DRBD mirror), 1Gb/s, IPv4 + IPv6 (elvileg magyar: Victor Hugo 11-15, 18-22)
-* https://vps4you.hu/hu/ssdvps 600 (alanyi adómentes?)
+* https://vps4you.hu/hu/ssdvps 699 (alanyi adómentes?)
   * **SSD VPS 512MB**, KVM, 1 vCPU (Dell C6100, Intel Xeon CPU X5650 @ 2.67GHz), 512MB RAM (DDR3 ECC), 5GB SSD (Intel PC RAID), ~30TB/hó adatforgalom (<100Mb/s), 1Gb/s (2*1Gb/s szerverenként), IPv4 + IPv6 (elvileg magyar: DENINET Kft 1188 Budapest, Bercsényi Miklós utca 79/b)
 * https://szerverplex.hu/virtualis-szerver-berles/ 529 + áfa (1 év)
   * **KVM VPS 1/1/10 HDD 2020**, KVM, 1 vCPU (HP DL580 4x Intel E7 szériás 8-10 magos), 1GB RAM (DDR3 ECC), 10GB HDD (HP SAS 6G, 10K RPM, HW RAID10, FBWC), korlátlan adatforgalom, 1Gb/s (garantált 20% belföld, 5% külföld, 10Gb/s szerverenként), IPv4 + IPv6 (elvileg magyar: Victor Hugo 18-22)
@@ -134,6 +142,7 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://www.serverhunter.com/
 * https://en.metadedi.net/
 * https://getfastvps.com/
+* https://www.comparevps.com/
 * http://www.lowendstock.com/
 
 ## Pingback
@@ -141,3 +150,4 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
 
 * https://hup.hu/comment/2555753#comment-2555753
+* https://hup.hu/comment/2589108#comment-2589108
