@@ -143,7 +143,7 @@ wc -l /proc/fs/ext4/loop*/mb_groups |
 head -n -1 |
 awk '{print ($1 - 1) / 8}' |
 sed "
-s~^5$~& 1 1 450~; t e
+s~^5$~& 1 0.5 450~; t e
 s~^10$~& 1 1 450~; t e
 s~^20$~& 1 2 790~; t e
 s~^40$~& 2 4 1580~; t e
@@ -158,9 +158,10 @@ awk '
     c += $2;
     r += $3;
     f += $4;
-    print}
+    print
+  }
   END {
-    print "= " s "GB HDD, " c " vCPU, " r "GB RAM " f " HUF/month"
+    print "= " s " GB HDD, " c " vCPU, " r " GB RAM, " f " HUF/month"
   }' |
 sort |
 uniq -c |
