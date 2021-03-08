@@ -10,13 +10,9 @@ Az alapvetés, hogy normál felhasználásra KVM/Xen-es gépek legalább félig 
 
 Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan helyet keresni ahol vannak nagyobb, de még mindig jó ár-érték arányú csomagok és biztosított a próbahónap vagy rövid távú fizetős konstrukció is, hogyha kevésnek találjuk a teljesítményt, tudjunk bővíteni.
 
+Érdemes az alábbi szempontokat is figyelembe venni:
 
-Ha nem tudjuk, hogy milyen technológiát futtat egy adott szolgáltató:
-
-```
-apt install virt-what &&
-virt-what
-```
+* [iaas-testing.md](iaas-testing.md)
 
 ### LXC és OpenVZ alatt nem megy
 
