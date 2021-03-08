@@ -23,8 +23,12 @@
 ### GitHub
 
 * https://pages.github.com/
+* https://docs.github.com/en/github/working-with-github-pages/about-github-pages
 * 1GB tárhely
 * 100GB/hó forgalom
+  * korlátozott lekérésszám (CDN javasolt)
+* csak non-kereskedelmi felhasználásra
+  * https://docs.github.com/en/github/site-policy/github-additional-product-terms#4-pages
 * CI: Jekyll (esetleg Travis útján más)
 
 ### BitBucket
@@ -61,3 +65,17 @@
 ### Surge
 
 * https://surge.sh/
+
+### Cloudflare Pages
+
+* https://pages.cloudflare.com/
+* CI
+* korlátlan forgalom
+* CDN
+
+### MongoDB
+
+* https://www.mongodb.com/pricing
+* Shared Clusters adatbázis
+* AWS, Azure vagy GCP felhasználásra
+* 512MB tárhely
