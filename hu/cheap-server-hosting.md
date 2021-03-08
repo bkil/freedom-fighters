@@ -58,7 +58,7 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 ### Legolcsóbb magyarok
 
 * https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142 301 + áfa (383, 1 év)
-  * **LXC VPS Micro**, LXC, 1 vCPU (2.8GHz), 1GB RAM, 10GB HDD (SAS RAID10), 0 swap, korlátlan adatforgalom, 1Gb/s, IPv4 + IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
+  * **LXC VPS Micro**, LXC, 1 vCPU (HP ProLiant DL360e Gen8, 2 * E5-2430L v2 @ 2.6-2.8GHz), 1GB RAM (DDR3 ECC), 10GB SSD (SAS RAID10), 1GB vSwap, 8 napi mentés, korlátlan adatforgalom, 1Gb/s, IPv4 + IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
 * https://rackoonet.hu/openvz-7-vps/ 417 (1 év, alanyi adómentes)
   * **OVZ7-START (2020)**: OpenVZ 7, 1 vCPU (HP DL380, 2x Intel Xeon 6-core +HT, 3GHz), 512MB RAM, 5GB HDD (6x HP 10k SAS, HP HW RAID10 + FBWC), korlátlan adatforgalom, 200Mb/s, IPv4 (elvileg magyar: Victor Hugo 18-22)
 * https://atw.hu/vps 445 + áfa (2 év)
@@ -132,6 +132,9 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 
 ### Kiemelt olcsó, szabad szoftvert kiszolgáló cégek
 
+* https://hosting55.hu/?nextcloud-tarhely
+  * NextCloud
+  * 2700 Ft/hó, 100 GB tárhely, korlátlan felhasználó
 * https://www.owncube.com/index_en.php
   * Megbízható múltra visszatekintő
   * Storage VPS kiterjesztett tárhellyel (500GB 15 EUR/hó, 20TB 80 EUR/hó)
