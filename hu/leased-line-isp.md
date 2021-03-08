@@ -67,7 +67,7 @@ A hátrányos helyzetűek kommunikációs képességeinek megteremtése.
 
 Sajnos már a legkisebb mértékű  megosztás is alkalmas lehet arra, hogy az esetek el nem hanyagolható részében lemondják a szomszédok az előfizetésüket, mondjuk 1Gb/s-ből 1Mb/s is elég kommunikációra, vagy 5Mb/s már alap videózáshoz is.
 
-Külön nehezítő tényező, amennyiben a szolgáltató érdekelt a mobil telekommunikációs hálózatokban is, mivel ilyenkor az ingyenes VoIP vagy üzenetküldés biztosítása harmadik fél számára közvetlen érdekellentétet képvisel. Ez 2021-ben már fennáll minden nagy szereplő esetén: Telekom, Vodafone, Digi és Telenor (mobilnet) esetén is.
+Külön nehezítő tényező, amennyiben a szolgáltató érdekelt a mobil telekommunikációs hálózatokban is. Ekkor közvetlen érdekellentétet képvisel ha harmadik fél számára elérhetővé válik rajtunk keresztül az ingyenes VoIP vagy üzenetküldés. Ez 2021-ben már fennáll minden nagy szereplő esetén: Telekom, Vodafone (UPC), Digi (Invitel) és Telenor (mifi).
 
 Azt gondolhatnánk, hogy ez kevésbé aggályos akkor, ha olyan mobilnetet osztunk meg ami alacsony benne foglalt adatkerettel rendelkezik. Viszont vegyük figyelembe, hogy ezen adatkeretek árazása úgy lett kialakítva, hogy a felhasználók azok jelentős részét nem használják ki egyéni szinten. Szintén áremelkedéshez vezetne ha nőne a kihasználtság.
 
@@ -79,13 +79,15 @@ Reálisabb alternatívaként lehetne regisztráltatni a felhasználókat és ren
 
 ### Kliens caching web proxy
 
-Elvileg ÁSZF szempontjából nem támadható az a megoldás, hogy valaki a háztartása részére üzemeltet egy hálózaton belüli caching web proxy-t (például hogy ne töltse le minden gép ugyanazt a frissítést külön-külön). Ekkor a cache adattartama az eredeti weboldalak szerzői jogi védelme alá esnek. Ellenben ezt szem előtt tartva ennek a cache-nek a továbbosztása nem esik már az internetszolgáltatónk érdekkörébe, tehát akár harmadik fél számára is továbbadható.
+Elvileg ÁSZF szempontjából nem támadható az a megoldás, ha valaki a háztartása részére üzemeltet egy hálózaton belüli caching web proxy-t (például hogy ne töltse le minden gép ugyanazt a frissítést külön-külön). Ekkor a háztartási gyorsítótár adattartama az eredeti weboldalak szerzői jogi védelme alá esnek. Ezt szem előtt tartva ennek a gyorsítótárnak a továbbosztása nem esik már az internetszolgáltatónk érdekkörébe, tehát akár harmadik fél számára is továbbadható.
 
-Ez nagyjából azt jelenti, hogy etikus, de szürke területként harmadik személy passzív módban használhatja a caching web proxy eszközünket, azaz oly módon, hogy a harmadik személy ne tudja befolyásolni, hogy a proxy milyen kéréseket továbbít az internet felé, ennek következményeként nem generálhat az internet szolgáltató által megfigyelhető forgalmat, tehát terhelést sem.
+Ez nagyjából azt jelenti, hogy etikus, de szürke területként harmadik személy használhatja a caching web proxy eszközünket passzív módban, azaz oly módon, hogy a harmadik személy ne tudja befolyásolni, hogy a proxy milyen kéréseket továbbít az internet felé, ennek következményeként nem generálhat az internet szolgáltató által megfigyelhető forgalmat, tehát többlet terhelést sem.
 
 ### Kliens biorobotok
 
-Egy nem skálázható, de jogilag érvelhető érdekes körüljárás még, hogyha otthoni előfizetők önkéntes "biorobotként" töltenek le weboldalakat rászoruló harmadik felek kérésére. Ekkor a szolgáltatás használója az előfizető lesz, így nem áll fenn a megosztás tényállása. Amennyiben ez a folyamat teljes mértékben automatizálásra kerülne, a használat jogi tényállása a harmadik félre állna fenn, amit viszont az ÁSZF már tilt.
+Egy nem skálázható, de jogilag érvelhető érdekes körüljárás még, hogyha otthoni előfizetők önkéntes "biorobotként" töltenek le weboldalakat rászoruló harmadik felek kérésére. Ekkor az adott szolgáltatás használója az adott otthoni előfizető lesz, így nem áll fenn a megosztás tényállása.
+
+Amennyiben ez a folyamat teljes mértékben automatizálásra kerülne, így az otthoni előfizető személyes közreműködése már nem volna szükséges, a **használat** jogi tényállása már a harmadik félre állna fenn, amit viszont az ÁSZF tilt.
 
 ### Kliens független hálózaton
 
@@ -109,7 +111,7 @@ Már ebből is látszik, hogy nem véletlenül kerül 5 ezerbe az otthoni gigabi
 
 ## Példák tovább nem osztható bérelt vonalra
 
-Kínálnak vállalatoknak olyan csomagokat amik szintén tiltják a hálózati szolgáltatás nyújtását és továbbértékesítést, viszont ahol a szerver üzemeltetése már megengedett. Egyedi ajánlat keretében ők is engedélyezhetik.
+Kínálnak vállalatoknak olyan csomagokat ahol szerver üzemeltetése már megengedett, bár itt alapból szintén tiltják a hálózati szolgáltatás nyújtását és továbbértékesítést. Elképzelhető, hogy egyedi ajánlat keretében ők is engedélyezhetik.
 
 * http://www.wla.hu/Araink/4/
   * 14500 Ft/hó: 8/8 Mb/s
