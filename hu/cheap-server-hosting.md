@@ -44,6 +44,7 @@ Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan hely
 
 * Erőforrás bővítéshez nem kell leállítani
 * Nagyon gyors boot
+* Kicsit több memória áll rendelkezésre: bájtra pontosan annyit foglalhatunk le folyamatainkkal mint a specifikációban szerepel, mivel nem jön le belőle kernel vagy BIOS által félretett terület a lemezpuffereken felül
 
 ## Magyarok
 
