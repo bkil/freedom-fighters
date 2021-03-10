@@ -25,7 +25,7 @@
 * https://en.wikipedia.org/wiki/Comparison_of_online_music_stores
 * https://www.beatport.com/ vásárlás előtt enged regisztráció nélkül 2 percet belehallgatni
 * https://www.pastemagazine.com/noisetrade/music/ reklámbejátszásmentes, a regisztráció ingyenes, anélkül csak az első 30 másodperc hallgatható, azzal akár le is tölthető vagy a készítők is támogathatóak
-* http://www.8bitpeoples.com/ Letöltés csak regisztráció után, sokszor ingyen
+* http://www.8bitpeoples.com/ Letöltés csak regisztráció után, sokszor ingyen, retro chiptune
 
 ## Szoftverek
 
@@ -79,7 +79,6 @@
 * Letöltés ftp://ftp.hornet.org/pub/demos/music/contests/
 * Letöltés http://www.chiptune.com/
 * Letöltés https://chipmusic.org/
-* Letöltés http://www.8bitpeoples.com/
 * Letöltés http://www.traxinspace.com/ (TODO: regisztráció szükséges?)
 * Rádiózás http://www.kohina.com/
 * Hallgatás/letöltés https://www.pouet.net/ "videoklipeket" is ad, bár néha YouTube-on hosztolják, akad HTTP/FTP vagy egyéb letöltés is, de akár otthon is generálható
