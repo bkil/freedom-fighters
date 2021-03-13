@@ -9,7 +9,7 @@
 
 ## Meglévő példányok
 
-Összehasonlítások:
+### Összehasonlítások:
 
 * https://the-federation.info/#protocols Szerver és protokoll statisztikák
 * https://podupti.me/ Szerver kereső táblázat
@@ -24,13 +24,13 @@
     * Country != US
     * esetleg: Language=EN
 
-Friendica:
+### Friendica
 
 * https://fika.grin.hu/search?tag=humor (deklarálta, hogy csak hobbiból futtatja és ne építsünk rá)
 * https://libranet.de/community
 * https://nerdica.net/community (6 havonta legalább egyszer be kell lépni)
 
-Diaspora:
+### Diaspora
 
 * https://spora.grin.hu/tags/fun (deklarálta, hogy csak hobbiból futtatja és ne építsünk rá)
 * https://sysad.org/tags/fun
@@ -39,7 +39,7 @@ Diaspora:
 * https://pod.hoizi.net/tags/humor
 * http://iviv.hu/tags/humor Vicces nevű
 
-Mastodon:
+### Mastodon
 
 * https://mastodon.grin.hu/public (deklarálta, hogy csak hobbiból futtatja és ne építsünk rá)
 * https://fosstodon.org/tags/humor
@@ -47,12 +47,12 @@ Mastodon:
 * https://mas.to/tags/humor
 
 
-Pleroma
+### Pleroma
 
 * https://pleroma.site/tag/humor
 * https://pleroma.fr/tag/humor
 
-Hubzilla
+### Hubzilla
 
 * https://hub.netzgemeinde.eu/search?tag=humour
 * https://hubzilla.pepecyb.hu/pubstream
@@ -62,3 +62,4 @@ Hubzilla
 Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
 
 * https://hup.hu/comment/2555753#comment-2555753
+* http://ubuntu.hu/node/45534#comment-581432
