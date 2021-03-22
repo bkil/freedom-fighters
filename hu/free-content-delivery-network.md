@@ -59,18 +59,12 @@
 * 25000/hó transzformáció
 * CDN: Akamai, Fastly, CloudFront
 
-### ArvanCloud
+### ArvanCloud Cloud CDN
 
 * https://www.arvancloud.com/en/products/cdn
 * Egyéni tartalmak:
   * 50+50GB/hó forgalom
   * 1M/hó lekérés
-
-### ArvanCloud library
-
-* https://lib.arvancloud.com/en
-* Előre megszabott elérhető tartalom:
-  * JavaScript, CSS, fontok
 
 ### Hostry
 
@@ -120,6 +114,12 @@
 * https://code.jquery.com/
 * jQuery Core, UI, Mobile, Color, QUnit, PEP
 * CDN: StackPath
+
+### Arvan Library
+
+* https://lib.arvancloud.com/en
+* Előre megszabott elérhető tartalom:
+  * JavaScript, CSS, fontok
 
 ## Nagy szereplők
 
