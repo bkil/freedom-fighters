@@ -45,6 +45,8 @@
 * 100 beküldütt űrlap/hó
 * 1000 azonosított felhasználó/hó
 * serverless functions
+* SSL
+* CDN: CloudFlare
 
 ### Vercel
 
@@ -79,3 +81,19 @@
 * Shared Clusters adatbázis
 * AWS, Azure vagy GCP felhasználásra
 * 512MB tárhely
+
+### Wordpress.com
+
+* http://wordpress.com/
+* blog SaaS
+* 3GB tárhely
+* Let's Encrypt SSL
+* Inspiráció egy régi bővítményből: https://wordpress.org/plugins/really-static/
+
+### CodeSandbox
+
+* https://codesandbox.io/s/
+* 20MB tárhely
+* Maximális fájlméret 7MB
+* CDN
+* online IDE fejlesztői környezet számos funkcióval
