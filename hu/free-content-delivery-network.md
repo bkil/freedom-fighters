@@ -148,6 +148,18 @@
   * Snippets CDN
   * 3kB alatt ingyen
 
+### BootCDN
+
+* https://www.bootcdn.cn/
+* Előre megszabott elérhető tartalom:
+  * Kb. 4000 projekt
+  * JavaScript és CSS könyvtárak
+
+### Staticfile CDN
+
+* https://staticfile.org/
+* Előre megszabott elérhető tartalmak
+
 ## Rutinkönyvtárak
 
 ### BootstrapCDN
@@ -167,6 +179,23 @@
 * https://lib.arvancloud.com/en
 * Előre megszabott elérhető tartalom:
   * JavaScript, CSS, fontok
+
+### UpYun Library
+
+* http://jscdn.upai.com/
+* Előre megszabott elérhető tartalom:
+  * jQuery, MooTools, Modernizr, Dojo, Ember.js
+
+### Sina App Engine Public Resources
+
+* https://lib.sinaapp.com/
+* Előre megszabott elérhető tartalom:
+  * angular.js, backbone, bootstrap, dojo, ext-core, highcharts, highstock, jq.mobi, jquery, jquery-mobile, jquery-ui, jquery.cookie, jquery.migrate, jquerytools, json2, lesscss, mootools, prototype, qunit, scriptaculous, swfobject, underscore, webfont, wlige, yui, zepto
+
+### Plyr
+
+* https://github.com/sampotts/plyr#javascript
+* CDN: Fastly
 
 ## Nagy szereplők
 
@@ -190,3 +219,14 @@
 * https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview#Third-Party_Files_on_the_CDN_23
 * Előre megszabott elérhető tartalom:
   * jQuery, Modernizr, JSHint, Knockout, Globalize, Respond, Bootstrap, Hammer.js, ASP.NET MVC, SignalR
+
+### Yandex
+
+* https://yandex.ru/dev/jslibs/
+* Előre megszabott elérhető tartalom:
+  * bem-components, bem-core, Yandex.Maps, jQuery, Lo-Dash, SWFObject
+
+### baidustatic CDN
+
+* https://github.com/liangmingyi/baidu-cdn-data
+* http://libs.baidu.com/
