@@ -66,10 +66,57 @@
   * 50+50GB/hó forgalom
   * 1M/hó lekérés
 
+### Server Room Video CDN
+
+* https://www.serverroom.net/cdn/pricing/
+* 1TB/hó ingyen
+* H.264 videók
+
+### Server Room Internet Radio
+
+* https://www.serverroom.net/radio/pricing/
+* 32kb/s hang
+* Legfeljebb 1000 párhuzamos hallgató
+* 1 folyam
+* 1Gb/s osztott sávszélesség
+
 ### Hostry
 
 * https://hostry.com/products/cdn/
 * 10GB/hó forgalom
+
+### Shift8 CDN
+
+* https://shift8cdn.com/compare
+* Egyéni tartalmak:
+  * 1TB/hó forgalom
+  * maximum 2 URL (weboldal)
+  * CSS, JS, képek, fontok
+* Architektúra
+  * Nginx
+
+### AnyoneCDN
+
+* https://www.anyonecdn.com/
+* gzip tömörítés
+* korlátlan forgalom
+* kizárólag HTTPS weboldallal használható a 443-as porton
+* CORS
+* 30 nap elévülés
+* egyedileg jóváhagyott regisztráció
+  * kizárt: pornó, szerencsejáték, hang- és videó streaming, letöltések, még el nem készült oldal
+
+### Jetpack
+
+* https://jetpack.com/features/comparison/
+* Számos kiegészítő WordPress funkció
+* Site Accelerator: alapértelmezetten ki van kapcsolva
+* Egyedi tartalok:
+  * Képek: gif, jpg, png
+  * 80/HTTP, 443/HTTPS portok
+  * automatikus webp újratömörítés
+* Előre megszabott elérhető tartalom:
+  * JavaScript és CSS: WordPress Core, Jetpack, WooCommerce
 
 ## Független népszerű tartalmakra
 
