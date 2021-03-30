@@ -27,7 +27,7 @@
 * 1GB tárhely
 * 100GB/hó forgalom
   * korlátozott lekérésszám (CDN javasolt)
-* csak non-kereskedelmi felhasználásra
+* csak nem-kereskedelmi felhasználásra
   * https://docs.github.com/en/github/site-policy/github-additional-product-terms#4-pages
 * CI: Jekyll (esetleg Travis útján más)
 
