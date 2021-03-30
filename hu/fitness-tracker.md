@@ -46,6 +46,7 @@
 
 * https://en.wikipedia.org/wiki/Runkeeper
 * https://runkeeper.com/cms/
+* A felhasználási feltételekben kikötik, hogy az általunk előállított bármely tartalmat felhasználhatják bármire, bármeddig
 
 ### Endomondo
 
