@@ -125,6 +125,18 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://www.hetzner.com/sb pl. dedicated: core i7-2600 2x4TB HDD 16GB RAM 34 EUR/hó
 * https://www.kimsufi.com/en/servers.xml KS-3 Atom 2c/4t 1.86GHz, 4GB RAM, 2TB HDD, 100 Mb/s, Franciaország/Kanada, 8 EUR/hó+áfa
 * https://contabo.com/en/vps/ 4 vCPU, 8GB RAM, 200GB SSD, 200 Mb/s, Németország, 5 EUR/hó
+* https://www.time4vps.com/linux-vps/ Litvánia (Vilnus), KVM, 100 Mb/s hálózat, IPv4 + IPv6
+  * **Linux 2**: 4 EUR/hó, 1 vCPU (2.6GHz, Intel Xeon Gold 6132), 2GB RAM (DDR4-2666 ECC), 20GB SSD, 2TB/hó átvitel
+  * **Linux 16**: 18 EUR/hó, 4 vCPU, 16GB RAM, 160GB SSD, 16TB/hó átvitel
+  * SSID: RAID, 250 MB/s, 1000 IOPS, +1 EUR/hó gyorsítás
+  * +1 EUR/hó 1GB/s hálózat
+  * 50% kedvezmény az első havi vagy éves számlából
+  * HP ProLiant DL360 Gen10, UPS, dízel generátorok
+* https://www.time4vps.com/storage-vps/ Litvánia (Vilnus), OpenVZ, 100Mb/s hálózat, IPv4 + IPv6
+  * **0.25TB**: 3 EUR/hó, 1 vCPU (Intel Xeon E5-2603 v4), 0.5GB RAM (DDR4-1866 ECC), 256GB HDD (RAID, 200 IOPS), 2TB/hó átvitel
+  * **2TB**: 10 EUR/hó , 1 vCPU, 4GB RAM, 2TB HDD, 16TB/hó átvitel
+  * +1 EUR/hó 1GB/s hálózat
+  * 50% kedvezmény az első havi vagy éves számlából
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
 * https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi Ryzen 3700X 20TB 46 EUR/hó
 
