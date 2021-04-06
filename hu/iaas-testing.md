@@ -90,8 +90,36 @@ cat /proc/loadavg
 * Redundáns-e a hálókártya, tápegység?
 
 ```
-apt install &&
+sudo apt install dmidecode &&
 dmidecode | less
+```
+
+#### lshw
+
+Több eszköz kimenetének összefoglaló nézete.
+
+```
+sudo apt install lshw &&
+lshw | less
+```
+
+### PCIe hardverelemek
+
+Nem mindig mond többet mint a [#dmidecode](#dmidecode), de nevesítve feloldja amire az csak számokkal hivatkozik, például a hálózati kártya típusát. Előfordulhat, hogy mondjuk a háttértár típusa is felfedezhető vele.
+
+```
+sudo apt install pciutils &&
+lspci -nn
+```
+
+### USB hardverelemek
+
+Szerverekben nem gyakori.
+
+```
+sudo apt install lsusb &&
+lsusb &&
+lsusb -t
 ```
 
 ### Memória
@@ -103,7 +131,7 @@ dmidecode | less
 grep "^DirectMap" /proc/meminfo
 ```
 
-### vSwap
+#### vSwap
 
 Ezt tipikusan nem háttértáron alakítják ki, hanem virtuálisan lassított RAM-on.
 
@@ -122,6 +150,26 @@ grep '' /sys/devices/pci0000:00/0000:00*/0000*/hwmon/hwmon*/* 2>/dev/null
 grep '' /sys/devices/platform/coretemp.*/hwmon/hwmon*/temp*_{label,input} | sort
 ```
 
+### Hálózat
+
+Bár mivel a legtöbb forgalom le van választva ezért nem láthatjuk közvetlenül a hálózat leterheltségét, a multicast és broadcast csomagok hozzánk is megérkeznek monitor módban. Ezekből a többiek nevére, címére és néhány ellenoldali címre is lehet következtetni. Ilyenek például:
+
+* ARP IP címfeloldás
+* 802.1d STP útkeresés (spanning tree protocol)
+* CDPv1 Cisco switch felismerés
+* DHCP címkérés
+* IPv6 szomszédságfelfedezés
+* SSDP
+* SMB
+
+```
+sudo apt install net-tools tcpdump tshark iftop
+route -n
+tcpdump -vni eth0 "not host SshKliensemCime" # vagy: "not tcp"
+tshark -nVx "not tcp"
+iftop
+```
+
 ### Tárhely
 
 * Mennyi helyünk van
@@ -134,7 +182,7 @@ cat /proc/partitions
 ls /proc/fs/ext4/loop*/mb_groups | wc -l
 ```
 
-#### Kihasználtsági becslés
+## Kihasználtsági becslés
 
 A fenti csatolások és a szolgáltató árlistája alapján meg tudjuk becsülni, hogy a felhasználók mekkora részesedést szereznek fajlagosan memória, tárhely és CPU tekintetében. Itt egy példa számítás, ki lehetne indulni a `partitions` vagy más alapján is:
 
