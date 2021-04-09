@@ -41,7 +41,7 @@
 * 1 aldomén rendelkezésre áll
 * nincsenek időzített cron folyamatok
 
-## Külföldi
+## Külföldi reklámmentes
 
 ### Crosshost
 
@@ -74,8 +74,97 @@
 * 3GB/hó forgalom
 * 1 cronjob
 
+### Freehostia
+
+* https://www.freehostia.com/free-cloud-hosting/
+* 250MB tárhely
+* PHP 4, 5, 7
+* Perl, Python
+* 10MB MySQL v5
+* 6GB/hó forgalom
+* 3 postafiók
+* tucatnyi aldoménből választhatunk, 5 név használható egyszerre
+* saját domén
+* Let's Encrypt SSL
+* szerver: 24 mag, 64GB RAM, Apache, 2.5Gb/s, UPS & dízel aggregátor
+
+### Objectis
+
+* http://www.objectis.org/
+* Zope/Plone (Python) keretrendszert futtat
+  * https://en.wikipedia.org/wiki/Zope
+
+### UHostAll
+
+* http://www.uhostall.com/free-hosting.php
+* korlátlan tárhely és forgalom
+* SSL
+* aldomén
+* email postafiók, webmail
+* MySQL
+* cron
+
+### iXHosti
+
+* https://ixhosti.com/
+* magán csomagban 50GB tárhely
+* üzleti csomagban korlátlan tárhely
+* korlátlan forgalom
+* régi nevén: 3Jelly
+* SSL
+* telefonszám megadása kötelező
+
+### Freedomaini
+
+* https://freedomaini.com/cart.php?a=add&pid=2
+* 25GB tárhely
+* nincs aldomén
+
+### Free Hosting No Ads
+
+* https://freehostingnoads.net/
+* 1GB tárhely
+* 5GB/hó forgalom
+* PHP 5.x, 7.4.2
+* MySQL 5.7: 30MB adatbázis
+* email fiók
+* saját domén vagy aldomén
+* nincs cron
+
+### Freeost
+
+* http://freeost.com/premiumplan.php
+* 500MB tárhely
+* 500MB/hó forgalom
+* max. 1000 új látogató/nap
+* max. 2500 SQL kapcsolat/óra
+* saját domén vagy aldomén
+* 3 cron feladat
+
+## Domén regisztrációhoz kötött
+
+A következőknél a tárhelyért nem számítanak fel külön díjat, viszont ehhez náluk kell a doménnevet fenntartani.
+
+### Pipni
+
+* https://pipni.cz/?akce=jazyk&jazyk=EN
+* 10GB tárhely
+* 1TB/hó forgalom
+* PHP, JSP, ASP
+* adatbázis
+* email fiók
+
 ## Összehasonlítások
 
 Százával akadnak még külföldi alternatívák:
 
 * http://www.free-webhosts.com/
+
+### Megszűnt
+
+* http://www.hostfree.pw/
+* http://gdk.mx/
+* http://globalwebbrands.com/
+* http://www.99on.com/
+* http://888webhost.com/
+* http://www.000a.biz/
