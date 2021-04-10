@@ -43,16 +43,14 @@
 
 ## Külföldi reklámmentes
 
-### Crosshost
+### 000webhost
 
-* http://crosshost.0lx.net/freehosting.php
-* 250MB tárhely
-* 6GB/hó forgalom
+* https://www.000webhost.com/cheap-web-hosting
+* 300MB tárhely
 * PHP
 * MySQL
-* email fiók
-* 5 aldomén rendelkezésre áll
-* saját domén is használható
+* 3GB/hó forgalom
+* 1 cronjob
 
 ### Byet
 
@@ -65,14 +63,22 @@
 * aldomén
 * saját domén
 
-### 000webhost
+### Crosshost
 
-* https://www.000webhost.com/cheap-web-hosting
-* 300MB tárhely
+* http://crosshost.0lx.net/freehosting.php
+* 250MB tárhely
+* 6GB/hó forgalom
 * PHP
 * MySQL
-* 3GB/hó forgalom
-* 1 cronjob
+* email fiók
+* 5 aldomén rendelkezésre áll
+* saját domén is használható
+
+### Freedomaini
+
+* https://freedomaini.com/cart.php?a=add&pid=2
+* 25GB tárhely
+* nincs aldomén
 
 ### Freehostia
 
@@ -87,38 +93,6 @@
 * saját domén
 * Let's Encrypt SSL
 * szerver: 24 mag, 64GB RAM, Apache, 2.5Gb/s, UPS & dízel aggregátor
-
-### Objectis
-
-* http://www.objectis.org/
-* Zope/Plone (Python) keretrendszert futtat
-  * https://en.wikipedia.org/wiki/Zope
-
-### UHostAll
-
-* http://www.uhostall.com/free-hosting.php
-* korlátlan tárhely és forgalom
-* SSL
-* aldomén
-* email postafiók, webmail
-* MySQL
-* cron
-
-### iXHosti
-
-* https://ixhosti.com/
-* magán csomagban 50GB tárhely
-* üzleti csomagban korlátlan tárhely
-* korlátlan forgalom
-* régi nevén: 3Jelly
-* SSL
-* telefonszám megadása kötelező
-
-### Freedomaini
-
-* https://freedomaini.com/cart.php?a=add&pid=2
-* 25GB tárhely
-* nincs aldomén
 
 ### Free Hosting No Ads
 
@@ -141,6 +115,32 @@
 * saját domén vagy aldomén
 * 3 cron feladat
 
+### iXHosti
+
+* https://ixhosti.com/
+* magán csomagban 50GB tárhely
+* üzleti csomagban korlátlan tárhely
+* korlátlan forgalom
+* régi nevén: 3Jelly
+* SSL
+* telefonszám megadása kötelező
+
+### Objectis
+
+* http://www.objectis.org/
+* Zope/Plone (Python) keretrendszert futtat
+  * https://en.wikipedia.org/wiki/Zope
+
+### UHostAll
+
+* http://www.uhostall.com/free-hosting.php
+* korlátlan tárhely és forgalom
+* SSL
+* aldomén
+* email postafiók, webmail
+* MySQL
+* cron
+
 ## Domén regisztrációhoz kötött
 
 A következőknél a tárhelyért nem számítanak fel külön díjat, viszont ehhez náluk kell a doménnevet fenntartani.
@@ -162,9 +162,9 @@ Százával akadnak még külföldi alternatívák:
 
 ### Megszűnt
 
-* http://www.hostfree.pw/
+* http://www.000a.biz/
+* http://888webhost.com/
+* http://www.99on.com/
 * http://gdk.mx/
 * http://globalwebbrands.com/
-* http://www.99on.com/
-* http://888webhost.com/
-* http://www.000a.biz/
+* http://www.hostfree.pw/
