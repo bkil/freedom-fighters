@@ -11,11 +11,34 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 
 ## Magyarországon ingyen
 
-* https://freemail.hu/ 10GB tárhely (Magyar Telekom Nyrt.)
-* https://indamail.hu/ 2GB tárhely, POP3, IMAP (Indamedia csoport, volt VIPmail, Indexmail, DrótPostaGalamb)
-* https://www.citromail.hu/ 2GB tárhely, max. 5MB/csatolmány (Sanoma Budapest Zrt.)
-* https://www.euromail.hu/ 50MB (Humankraft Kft.)
-* https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
+### Freemail
+
+* https://freemail.hu/
+* 10GB tárhely
+* érdekeltség: Magyar Telekom Nyrt.
+
+### indamail
+
+* https://indamail.hu/
+* 2GB tárhely
+* POP3, IMAP
+* korábbi nevén: VIPmail, Indexmail, DrótPostaGalamb
+* érdekeltség: Indamedia csoport
+
+### Citromail
+
+* https://www.citromail.hu/
+* 2GB tárhely
+* max. 5MB/csatolmány
+* érdekeltség: Sanoma Budapest Zrt.
+
+### euromail
+
+* https://www.euromail.hu/
+* 50MB tárhely
+* csak webmail (nincs IMAP/POP3/SMTP)
+* Google Captcha regisztrációnál és bejelentkezésnél
+* érdekeltség: Humankraft Kft. (független)
 
 ## Magyarországon fizetős
 
@@ -49,6 +72,10 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 * https://www.privacytools.io/providers/email/
 * https://en.wikipedia.org/wiki/Comparison_of_webmail_providers#General
+
+## Megszűnt
+
+* https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
 
 ## Pingback
 
