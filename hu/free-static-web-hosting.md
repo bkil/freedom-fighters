@@ -97,3 +97,12 @@
 * Maximális fájlméret 7MB
 * CDN
 * online IDE fejlesztői környezet számos funkcióval
+
+## Nagy szereplők
+
+### Blogger
+
+* https://www.blogger.com/
+* 15GB tárhely
+  * max. 1MB/oldal
+* bizonyos korlátozások a HTML, CSS, JS testreszabásával kapcsolatban
