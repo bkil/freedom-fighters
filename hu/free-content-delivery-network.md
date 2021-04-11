@@ -118,6 +118,12 @@
 * Előre megszabott elérhető tartalom:
   * JavaScript és CSS: WordPress Core, Jetpack, WooCommerce
 
+### QUIC.cloud
+
+* https://quic.cloud/cost/
+* 1GB/hó forgalom
+* Egyedi tartalmak
+
 ## Független népszerű tartalmakra
 
 ### cdnjs
