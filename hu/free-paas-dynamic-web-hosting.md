@@ -41,7 +41,7 @@
 * 1 aldomén rendelkezésre áll
 * nincsenek időzített cron folyamatok
 
-## Külföldi reklámmentes
+## Külföldi reklámmentes aldoménre is
 
 ### 000webhost
 
@@ -52,33 +52,80 @@
 * 3GB/hó forgalom
 * 1 cronjob
 
-### Byet
+### 1Apps
 
-* https://byet.host/free-hosting
-* 5GB tárhely
-* PHP
-* MySQL
-* email fiók
+* http://www.1apps.net/
+* 1GB tárhely
+* 100GB/hó forgalom
+* ASP 3.0, MS Access adatbázis
+* korlátlan domén, 1 aldomén
+* Windows 2012 R2
+
+### 1freehosting
+
+* https://www.1freehosting.com/
+* regisztrációs link nem működik!
+* 10GB tárhely
+* 100GB/hó forgalom (kötelező: >0 B/hó)
+* PHP5
+* korlátlan domének, 5 aldomén
+* 5 email fiók
+* 5 * MySQL 5 adatbázis
 * cron
-* aldomén
-* saját domén
+* Apache
 
-### Crosshost
+### 50Webs
 
-* http://crosshost.0lx.net/freehosting.php
-* 250MB tárhely
-* 6GB/hó forgalom
+* https://www.50webs.com/web-hosting/free/
+* 500MB tárhely
+* 5GB/hó forgalom
+* Perl, Python, SSI
+* nincs MySQL
+* 10 domén, 100 aldomén
+* 100 email postafiók, 10 alias
+
+### AspOne
+
+* https://www.aspone.cz/cz/Webhosting/Freehosting/
+* tárhely 40MB
+* korlátlan forgalom
+* ASP.NET 4.0, MS Access, IIS 7, MS SQL 2008 R2
+
+### BoomHost
+
+* üzemeltetője: MyOwnFreeHost
+* http://booomhost.com/about-free-hosting.php
+* 10GB tárhely
+  * max. 10MB fájlméret
+* 100GB/hó forgalom
+* 10 aldomén
 * PHP
-* MySQL
-* email fiók
-* 5 aldomén rendelkezésre áll
-* saját domén is használható
+* 10 MySQL korlátlan adatbázis
+* cronjob
+* Apache
 
-### Freedomaini
+### FnHost
 
-* https://freedomaini.com/cart.php?a=add&pid=2
-* 25GB tárhely
-* nincs aldomén
+* https://www.fnhost.org/
+* korlátlan tárhely
+* korlátlan forgalom
+* 100 * MySQL 5.6 adatbázis
+* PHP 5.4, 5.5, 5.6, 7.0
+* Apache 2.4
+* aldomén, korlátlan domén
+* SSL
+* 10 email fiók
+
+### FreeCloudHost
+
+* https://freecloudhost.org/
+* 1GB tárhely
+* 10GB/hó forgalom
+* PHP
+* 1 MySQL adatbázis
+* SSL
+* LiteSpeed Enterprise quic.cloud CDN
+* elvárás a fórumban való aktív részvétel
 
 ### Freehostia
 
@@ -93,16 +140,19 @@
 * saját domén
 * Let's Encrypt SSL
 * szerver: 24 mag, 64GB RAM, Apache, 2.5Gb/s, UPS & dízel aggregátor
+* Chicago, USA
 
-### Free Hosting No Ads
+### FreeHostingEU
 
-* https://freehostingnoads.net/
-* 1GB tárhely
-* 5GB/hó forgalom
-* PHP 5.x, 7.4.2
-* MySQL 5.7: 30MB adatbázis
+* https://www.freehostingeu.com/
+* 200MB tárhely
+  * max. 15MB fájlméret
+* 4GB/hó forgalom
+* 1 domén, 5 domén
+* ad 5 aldomént
+* PHP 5, 7, CGI, Perl
+* 1 * 30MB MySQL 5
 * email fiók
-* saját domén vagy aldomén
 * nincs cron
 
 ### Freeost
@@ -111,9 +161,43 @@
 * 500MB tárhely
 * 500MB/hó forgalom
 * max. 1000 új látogató/nap
-* max. 2500 SQL kapcsolat/óra
+* max. 2500 SQL kérés/óra
 * saját domén vagy aldomén
 * 3 cron feladat
+
+### HelioHost
+
+* https://www.heliohost.org/
+* PHP, ASP.NET, Java/JSP, Ruby on Rails, Django, Python, Perl
+* MySQL, PostgreSQL, SQLite
+  * korlátlan számú adatbázis
+* email fiók
+* 1GB tárhely
+* korlátlan forgalom
+
+### Host-ed
+
+* http://www.host-ed.net/web-hosting.php
+* 1GB HDD tárhely
+  * max. 5MB fájlméret
+  * 25000 i-node
+  * 256kB/s
+  * minimum 1MB használata kötelező
+* 10GB/hó forgalom (minimum 1MB/hó kötelező)
+* 16% CPU
+  * max. 5 párhuzamos web szerver lekérés
+  * max. 10 párhuzamos folyamat
+  * 100MB RAM
+* 1 * 10MB MySQL, 1 * 10MB PostgreSQL
+  * 2% CPU
+  * 256kB/s I/O
+* PHP 5, ASP.NET, Perl, CGI, Ruby, SSI
+* 1 crontab (max 1/óra)
+* 3 saját domén, 1 aldomén
+* email fiók
+  * max 1 email/óra
+* SSL
+* CloudLinux alapú szerver
 
 ### iXHosti
 
@@ -131,9 +215,169 @@
 * Zope/Plone (Python) keretrendszert futtat
   * https://en.wikipedia.org/wiki/Zope
 
+### Webhosting-For-Free
+
+* http://webhosting-for-free.com/free-web-hosting.html
+* üzemeltető: axspace.com
+* 100MB tárhely
+* 1GB/hó forgalom
+* 5 email fiók
+* domén, aldomén
+
+## RunHosting
+
+* 1GB tárhely
+  * 25000 i-node
+  * max. 2MB fájlméret (15MB?)
+* 5GB/hó forgalom
+  * kötelező >0 B/12hó
+* PHP 5.x, 7.4.2, Perl, CGI
+* 1 * 30MB MySQL 5.7 adatbázis
+  * max. 30 párhuzamos kapcsolat
+  * max. 12000 kérés/óra
+* 1 domén, 3 aldomén
+* email fiók
+* SSL
+* Apache
+* nincs cron
+
+### AwardSpace
+
+* https://www.awardspace.com/free-hosting/
+* a ResellerCluster üzemeltetője
+* kötelező 365 naponta belépni
+
+### ResellerCluster
+
+* almárkái:
+  * 125MB https://www.125mb.com/
+  * AcesHost http://aceshost.com/
+  * AgilityHoster https://www.agilityhoster.com/
+  * AlotSpace https://www.alotspace.com/
+  * AtSpace https://www.atspace.com/web-hosting/free-hosting/free-hosting-all-features-table/
+    * korlátlan forgalmat ígérnek (elírásnak tűnik)
+  * BatCave https://www.batcave.net/
+  * Free Hosting No Ads: https://freehostingnoads.net/
+  * Free-Host-Pro http://www.freehostpro.com/
+  * Free-Host-Space: https://www.freehostspace.com/free-web-hosting.html
+  * FreeSiteHosting: http://freesitehosting.com/
+  * FreeWebPageHost: http://freewebpagehost.net/
+  * iBestHosting http://ibesthosting.com/
+  * RedWebHost: https://www.redwebhost.com/free-web-hosting.html
+  * RoyalWebHosting https://royalwebhosting.net/free-web-hosting.html
+  * TekCities https://www.tekcities.com/
+  * WebFreeHosting: https://webfreehosting.net/
+* regisztrációhoz címadatokat kér
+
+## iFastNet
+
+* külföldi reklámmentes
+* whitelabel szolgáltató számol almárkável, üzemeltetője: ifastnet.com, regisztráció: securesignup.net
+* PHP 5
+* korlátlan MySQL adatbázis
+* max. 10MB fájlméret
+* ad aldomént
+* Apache
+* email fiók
+* cron
+
+### 1-WS
+
+* http://1-ws.com/
+* korlátlan tárhely
+* korlátlan forgalom
+* SSL
+
+### 5hark.net
+
+* http://5hark.net/free-web-hosting.html
+* http://v90.us/free-web-hosting.html
+* 10GB tárhely
+* 100GB/hó forgalom
+* 10 MySQL
+* 10 domén, 10 aldomén
+
+### Byet
+
+* https://byet.host/free-hosting
+* 1GB tárhely
+* 50GB/hó forgalom
+
+### Cart Webhosting
+
+* http://www.cartwebhosting.com/freehosting.php
+* 300MB tárhely
+* 5GB/hó forgalom
+* 1 domén, 5 aldomén
+* 1 MySQL adatbázis
+
+### Cloudy.eu.org
+
+* http://cloudy.eu.org/about-free-hosting.php
+* 1GB tárhely
+  * max. 10MB fájlméret
+* 10GB/hó forgalom
+* 3 * MySQL korlátlan adatbázis
+* 3 domén, 3 aldomén
+
+### Crosshost
+
+* http://crosshost.0lx.net/freehosting.php
+* regisztráció: securesignup.net
+* 250MB tárhely
+* 6GB/hó forgalom
+* 5 aldomén rendelkezésre áll
+* saját domén is használható
+
+### dc7.us
+
+* http://dc7.us/free-web-hosting.html
+* 10GB tárhely
+* 100GB/hó forgalom
+
+### Free-Hoster
+
+* http://free-hoster.net/free-hosting.php
+* 10GB tárhely
+* 100GB/hó forgalom
+* 10 * MySQL korlátlan adatbázis
+* 10 domén, 10 aldomén
+
+### GetWeb.Cf
+
+* http://getweb.cf/free-hosting.php
+* 10GB tárhely
+* 100GB/hó forgalom
+
+### Host Free
+
+* http://www.hostfree.pw/
+* Ide átirányít: http://www.vhostfull.com/
+
+### J77.us
+
+* http://j77.us/free-web-hosting.html
+* 7777MB tárhely
+  * max. 10MB fájlméret
+* 77777MB/hó forgalom
+* 7 MySQL korlátlan adatbázis
+
+### Mipropia
+
+* https://mipropia.com/free-hosting/php/
+* 3GB tárhely
+  * max fájlméret 10MB
+* 50GB/hó forgalom
+* PHP 5.4, 5.5, 5.6, 7.0
+* 4 * MySQL korlátlan méretű
+* SSL
+* 4 domén, 4 aldomén
+* 158MB RAM
+
 ### UHostAll
 
 * http://www.uhostall.com/free-hosting.php
+* regisztráció: vastserve.com
 * korlátlan tárhely és forgalom
 * SSL
 * aldomén
@@ -141,7 +385,99 @@
 * MySQL
 * cron
 
-## Domén regisztrációhoz kötött
+### U Host Full
+
+* http://www.uhostfull.com/free-hosting.php
+* regisztráció: ihostfull.com
+* korlátlan tárhely
+* korlátlan forgalom
+* PHP
+* MySQL
+* SSL
+* email fiók
+* aldomén
+* cronjob
+* < 70% CPU
+
+## Külföldi reklámmentes teljes doménre
+
+### Freedomaini
+
+* https://freedomaini.com/cart.php?a=add&pid=2
+* 25GB tárhely
+* nincs aldomén
+
+### Nexus Bytes
+
+* https://my.nexusbytes.com/cart.php?gid=1
+* régi nevén: ServedEz
+* korlátlan tárhely
+  * 10MB/s I/O
+  * 150000 i-node
+* korlátlan forgalom
+* nincs aldomén (csak 1 saját domén használatával)
+* 3 * MySQL adatbázis
+* 3 email fiók
+* SSL
+* PHP, Node.js, Python
+* 25% CPU
+  * 512MB RAM
+  * 40 párhuzamos folyamat
+
+## Külföldi reklámos
+
+### 100Webspace
+
+* https://www.100webspace.com/web-hosting/free-plan/
+* 100MB tárhely
+* 3GB/hó forgalom
+* PHP 4, 5, 7, Perl, Python
+* 5MB MySQL 5
+* 1 domén (lehet, hogy subdomaint nem ad)
+* 3 email fiók
+* SSL
+* telefonszám és egyéb adatok megadása kötelező
+
+### FreeWebHostingArea
+
+* https://www.freewebhostingarea.com/
+  * https://freewha.com/
+* 1500MB tárhely
+  * max. 12MB fájlméret
+* korlátlan forgalom
+* Apache 2.4 mod_rewrite, .htaccess
+* PHP 5.6, 7.1, 7.2, 7.3
+* MariaDB 10.4
+* SSI
+
+### Miarroba
+
+* https://hosting.miarroba.com/features.php
+* 500MB tárhely
+  * Bizonyos tartalmakra akár 5GB tárhelyet is biztosítanak
+* korlátlan forgalom
+* PHP 5
+* MySQL
+
+### SimGames
+
+* https://simgames.net/free-hosting/
+* Kizárólag angol nyelvű, játékokkal és számítástechnikával ("gaming and technology") kapcsolatos weboldalak részére
+* korlátlan tárhely, forgalom
+* PHP CGI, Perl 5.8, SSI
+* MySQL adatbázis
+* korlátlan levelezés
+
+### Somee
+
+* https://somee.com/default.aspx
+* 150MB tárhely
+* 5GB/hó forgalom
+* ASP.Net 2.0-4.8, ASP.Net Core 3.1
+* 30MB MSSQL 2014, 2016, 2019
+* Windows 2016
+
+## Külföldi domén regisztrációhoz kötött
 
 A következőknél a tárhelyért nem számítanak fel külön díjat, viszont ehhez náluk kell a doménnevet fenntartani.
 
@@ -158,13 +494,50 @@ A következőknél a tárhelyért nem számítanak fel külön díjat, viszont e
 
 Százával akadnak még külföldi alternatívák:
 
+* http://www.fhdir.com/
+* https://freehostsdir.com/
 * http://www.free-webhosts.com/
+
+### Elévült
+
+Megszűntnek látszik az alapján, hogy nagyon régen nem volt frissítve, nem működik a regisztráció vagy az ingyenes ajánlat már lejárt és csak fizetős elérhető:
+
+* https://angelfire.lycos.com/hosting
+* https://www.brinkster.com/
+* https://buttobi.net/?n=service&l=en Regisztráció nem működik: surgesecure.net
+* http://www.communityarchitect.com/
+  * http://www.20m.com/
+  * http://www.50megs.com/
+  * http://www.biz.ly/
+  * http://www.biz.tc/
+* https://www.hostmedia.co.uk/
+* https://www.netfirms.com/
+* https://vimlyhost.net/
 
 ### Megszűnt
 
+A domén vagy már szabad, vagy árulják, vagy reklámokat és ártó kódokat szolgálnak ki róla.
+
 * http://www.000a.biz/
+* http://www.5freehosting.com/
 * http://888webhost.com/
 * http://www.99on.com/
+* http://www.bravenet.com/
+* http://codenamecodi.ml/
+* http://d33r.com/
+* http://dwswebhosting.cf/
+* http://fa5t.us/
+* http://free-4u.eu/
+* http://freehostinghero.com/
+* http://www.freehostingking.com/
+* http://www.freesite.org/
+* http://www.freewebsitehosting.com/
 * http://gdk.mx/
 * http://globalwebbrands.com/
-* http://www.hostfree.pw/
+* http://www.hostcare.ml/
+* http://i60.us/
+* http://info8-hosting.info/ deceptive oldal, pedig iFastnet
+* http://www.mzzhost.com/
+* http://www.vlexofree.com/
+* http://wehostyou360.ml/
+* http://xhosting.ml/
