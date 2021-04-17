@@ -23,7 +23,7 @@ Lásd még:
 ## Domain
 
 * Az árak a hosszabbításra vonatkoznak - eleinte sok helyen adnak kedvezményt.
-* névszerver kiszolgálás (fenntartás vagy "NS/DNS hosting") is benne foglalva
+* Névszerver kiszolgálás (avagy fenntartás vagy "NS/DNS hosting") is benne foglalva: alapból 2 szerverrel
 
 ### 024reg domain és dinamikus tárhely
 
@@ -53,6 +53,17 @@ Lásd még:
   * `.eu` 3216 Ft/év
   * `.com` 3331 Ft/év
   * `.net` 5401 Ft/év
+
+### megacp domain
+
+* Promóciós partnerlink ha támogatnátok: https://megacp.com/check.php?aid=urb40687
+* Árak
+  * `.hu` 1651 Ft/év
+  * `.eu` 2210 Ft/év
+  * `.com` 3810 Ft/év
+  * `.net` 5334 Ft/év
+* Kedvezmény: tárhely csomagjaik mellé a `.hu`, `.eu`, `.com`, `.at`, `.ro` vagy `.co.uk` TLD alatti regisztráció ingyenes az első számlázási periódusra
+* 3 névszerver és 3 MX bejegyzés
 
 ### RackForest domain
 
@@ -105,8 +116,8 @@ Lásd még:
 * 1GB SSD tárhely
 * Korlátlan forgalom
   * 1Gb/s
-* Korlátlan email: webmail, POP3, IMAP
-* Korlatlan domain használat
+* Korlátlan email postafiók: webmail, POP3, IMAP
+* Korlátlan használható domain
 * HTTPS
 * cron
 
@@ -126,6 +137,26 @@ Lásd még:
 * PHP 5.5-7.4
 * Korlátlan MySQL 5.7
 * Biztonsági mentés
+
+### megacp tárhely
+
+* Promóciós partnerlink ha támogatnátok: https://megacp.com/hosting.php?aid=urb40687&spt=1
+* Székhely: 2310 Szigetszentmiklós, Brassó u. 4/A. 3 in 1 Hosting Bt.
+* Infrastruktúra
+  * magyar cPanel: Victor Hugo utcai (ATW Internet Kft. - "Dataland") vagy Kozma utcai (Invitech Megoldások Zrt. - "Invitel") szerverteremben: IPv4
+  * magyar Interworx nem klaszter: budaörsi "Datanet" (Magyar Telekom Nyrt.) szerverteremben: IPv4 + IPv6
+* **Induló tárhely csomag I, cPanel, magyar**: 4318 Ft/év (2 évente fizetve)
+* 750MB SSD tárhely (RAID10)
+* Korlátlan forgalom, 1Gb/s
+* Korlátlan email postafiók: Horde és Roundcube webmail, POP3, IMAP, SMTP, továbbítók
+* Korlátlan > domain
+* HTTPS: cPanel AutoSSL, aldomainekre is
+* PHP 7.4, Perl, CGI
+* Korlátlan MySQL 5.7
+* cron
+* Napi tárhely és adatbázis mentés
+* Fantastico telepítő
+* Kiszolgáló hardver: 2 * 8 magos CPU, 64GB RAM, 10Gb/s a webszerver és adatbázis szerver között, független terembe replikált adatbázis
 
 ### RackForest tárhely
 
