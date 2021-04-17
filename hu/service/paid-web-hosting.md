@@ -36,12 +36,13 @@ Lásd még:
   * `.com` 5715 Ft/év
   * `.net` 5715 Ft/év
 * Jár hozzá ingyen dinamikus tárhely vagy bővíthető
-  * 2GB webtárhely, + 1GB email tárhely
+  * 2GB webtárhely + 1GB email tárhely
   * PHP
     * 128MB RAM
   * 1 MySQL adatbázis
   * 15 email fiók: POP3, SMTP
   * HTTPS
+  * nincs telepítő
 
 ### HostingBázis domain
 
@@ -120,10 +121,11 @@ Lásd még:
 * Korlátlan használható domain
 * HTTPS
 * cron
+* Telepítő
 
 #### CPanel webtárhely small
 
-* infrastruktúra: BIX adatközpontban (talán ugyanott van mint a VPS szolgáltatásuk? SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
+* infrastruktúra: BIX adatközpontban (Talán ugyanott van mint a VPS szolgáltatásuk? Ha igen: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
 * CPanel vezérlőpult
 * CloudLinux
 * PHP 5.6-8.0
@@ -149,7 +151,7 @@ Lásd még:
 * 750MB SSD tárhely (RAID10)
 * Korlátlan forgalom, 1Gb/s
 * Korlátlan email postafiók: Horde és Roundcube webmail, POP3, IMAP, SMTP, továbbítók
-* Korlátlan > domain
+* Korlátlan használható domain
 * HTTPS: cPanel AutoSSL, aldomainekre is
 * PHP 7.4, Perl, CGI
 * Korlátlan MySQL 5.7
@@ -175,20 +177,21 @@ Lásd még:
 * MySQL 5.5 korlátlan adatbázis
 * Korlátlan email: webmail, továbbítók
   * max. 500 db/óra küldhető
-* 5 domén használat
+* 5 domén használható
 * Apache, rewrite
 * CloudLinux
   * 100% CPU
   * 768MB RAM
   * 20 belépő folyamat
   * 80 folyamat összesen
+* Softaculous telepítő
 
 ### WebHostIcon tárhely
 
 * Promóciós partnerlink ha támogatnátok: https://webhosticon.hu/ugyfelkapu/aff.php?aff=461
   * `Tárhely` menüpont
   * **Hangya tárhely**: 2131 Ft/év (3 évente fizetve), 200MB
-  * _Manó tárhely: 3387 Ft/év, 750MB_
+  * _WebManó tárhely: 3387 Ft/év, 750MB_
   * _WebKobold: 5588 Ft/év, 1.5GB_
 * Székhely: 1081 Budapest Légszesz u. 4.
 * Infrastruktúra szolgáltató: ezit.hu
@@ -198,7 +201,7 @@ Lásd még:
 * 60GB/hó forgalom, ÁSZF:
   * max. 1000 egyedi látogató/nap
   * max. 5000 oldalletöltés/nap
-* 5 domén használat
+* 5 domén használható
 * korlátlan email fiók
   * webmail, POP3, IMAP, SMTP, továbbítók
   * max. 200 db/nap küldhető
@@ -228,3 +231,4 @@ Lásd még:
   * Tiltott függvények: apache_child_terminate, apache_setenv, define_syslog_variables, dl, escapeshellarg, escapeshellcmd, exec, highlight_file, ini_alter, ini_restore, mail, openlog, passthru, popen, pclose, posix_getpwnam, posix_getpwuid, posix_kill, posix_mkfifo, posix_setpgid, posix_setgid, posix_setsid, posix_setuid, proc_close, proc_get_status, proc_nice, proc_open, proc_terminate, shell_exec, show_source, symlink, syslog, system, virtual
   * Tiltott országok: JP, TH, KR, HK, TW, BR, UA
   * Webáruház nem engedélyezett: Hangya és WebManó csomagban
+* Softaculous telepítő
