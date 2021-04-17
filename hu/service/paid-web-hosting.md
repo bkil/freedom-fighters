@@ -24,6 +24,10 @@ Lásd még:
 
 * Az árak a hosszabbításra vonatkoznak - eleinte sok helyen adnak kedvezményt.
 * Névszerver kiszolgálás (avagy fenntartás vagy "NS/DNS hosting") is benne foglalva: alapból 2 szerverrel
+* Védjegy adatbázisok:
+  * Később elvehetik tőlünk a nevünket ha nem ellenőrizzük - hiába volt eredetileg szabad
+  * Magyar: [Szellemi Tulajdon Nemzeti Hivatala](http://epub.hpo.hu/e-nyilvantartas/?lang=HU)
+  * EU: [EUIPO](http://euipo.europa.eu/eSearch/)
 
 ### 024reg domain és dinamikus tárhely
 
@@ -43,6 +47,31 @@ Lásd még:
   * 15 email fiók: POP3, SMTP
   * HTTPS
   * nincs telepítő
+
+### Domdom domain és statikus tárhely
+
+* https://www.domdom.hu/domain/domain-regisztracio
+* Árak
+  * `.hu` 1512 Ft/év
+    * _Ez csak időszakos kedvezmény?_
+  * `.eu` 5068 Ft/év
+  * `.com` 6979 Ft/év
+  * `.net` 8884 Ft/év
+* 3 névszerver
+* Jár hozzá ingyen statikus tárhely
+  * 50MB tárhely
+    * FTPS
+  * Korlátlan email átirányítás
+
+### HonlapTárhely domain
+
+* https://honlaptarhely.hu/domain
+* Székhely: 8441 Márkó, Búzavirág u. 9. PlexNET Informatikai Kft.
+* Árak
+  * `.hu` 1384 Ft/év
+  * `.eu` 4433 Ft/év
+  * `.com` 4433 Ft/év
+  * `.net` 4433 Ft/év
 
 ### HostingBázis domain
 
@@ -87,7 +116,7 @@ Lásd még:
   * `.net` 6096 Ft/év
 * Jár hozzá ingyen statikus tárhely vagy rendelhető dinamikus
   * 50MB tárhely
-    * FTP
+    * FTPS
     * SSI
     * .htaccess részlegesen
     * Egyedi hibaoldalak
