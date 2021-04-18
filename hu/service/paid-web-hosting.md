@@ -189,6 +189,39 @@ Lásd még:
 * Fantastico telepítő
 * Kiszolgáló hardver: 2 * 8 magos CPU, 64GB RAM, 10Gb/s a webszerver és adatbázis szerver között, független terembe replikált adatbázis
 
+### mhosting
+
+* https://www.mhosting.hu/tarhely/webtarhely
+  * **Start**: 1892 Ft/hó
+* Székhely: 1132 Budapest Victor Hugo u. 18-22. Magyar Hosting Kft.
+* 250MB SSD tárhely
+* Korlátlan adatforgalom
+* PHP 5.3, 5.6, 7.1, 7.2, 7.3, 7.4, 8.0
+  * memory_limit 256MB
+  * host_max_size 50MB
+  * upload_max_filesize 50MB
+  * session_gc_maxlifetime 1440s
+  * ImageMagick, cURL, Zend Optimizer (Guard Loader), ionCube Loader, APC PHP gyorsító, eAccelerator, Xcache, OPCache, memcached
+* CloudLinux
+  * 200% CPU
+  * korlátlan vMEM
+  * 512MB pMEM
+  * 32 belépő folyamat (concurrent connections)
+* 1 MariaDB 10.1.40 (MySQL) adatbázis
+* 1 email fiók
+  * webmail, IMAP, POP3, SMTP, catch-all, továbbítók
+  * 150 db/óra küldhető
+* cPanel vezérlőpult
+  * Installatron telepítő
+  * telepíthető webshop is
+* Biztonsági mentés: napi, heti, havi
+* 10 domain használható (vhost alias)
+* cron
+* Apache 2.4
+  * mod_pagespeed
+  * Perl 5, SSI
+  * HTTPS: osztott, saját vagy Let's Encrypt
+
 ### RackForest tárhely
 
 * https://rackforest.com/szolgaltatasok/tarhely/
