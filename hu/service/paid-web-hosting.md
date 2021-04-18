@@ -20,6 +20,13 @@ Lásd még:
 * Ingyen dinamikus tárhelyek: [free-paas-dynamic-web-hosting.md](../free-paas-dynamic-web-hosting.md)
 * Olcsó VPS: [cheap-server-hosting.md](../cheap-server-hosting.md)
 
+## Fogalmak
+
+* https://en.wikipedia.org/wiki/CloudLinux_OS
+* https://www.cloudlinux.com/index.php/lve-manager
+* https://www.cloudlinux.com/index.php/mysql-governor
+* https://docs.cloudlinux.com/cloudlinux_os_components/#general-information-and-requirements-4
+
 ## Domain
 
 * Az árak a hosszabbításra vonatkoznak - eleinte sok helyen adnak kedvezményt.
@@ -45,7 +52,7 @@ Lásd még:
     * 128MB RAM
   * 1 MySQL adatbázis
   * 15 email fiók: POP3, SMTP
-  * HTTPS
+  * nincs HTTPS csak a fizetős tárhely csomagjaikkal
   * nincs telepítő
 
 ### Domdom domain és statikus tárhely
@@ -183,13 +190,13 @@ Lásd még:
 * Korlátlan használható domain
 * HTTPS: cPanel AutoSSL, aldomainekre is
 * PHP 7.4, Perl, CGI
-* Korlátlan MySQL 5.7
+* Korlátlan MySQL 5.7 adatbázis
 * cron
 * Napi tárhely és adatbázis mentés
 * Fantastico telepítő
 * Kiszolgáló hardver: 2 * 8 magos CPU, 64GB RAM, 10Gb/s a webszerver és adatbázis szerver között, független terembe replikált adatbázis
 
-### mhosting
+### mhosting tárhely
 
 * https://www.mhosting.hu/tarhely/webtarhely
   * **Start**: 1892 Ft/hó
@@ -236,7 +243,7 @@ Lásd még:
 * ssh bejelentkezés
 * PHP 4.4-7.4, Perl, Python 2.6.6
 * cron
-* MySQL 5.5 korlátlan adatbázis
+* Korlátlan MySQL 5.5 adatbázis
 * Korlátlan email: webmail, továbbítók
   * max. 500 db/óra küldhető
 * 5 domén használható
@@ -289,6 +296,7 @@ Lásd még:
 * Apache vagy OpenLiteSpeed
   * max. 200 kapcsolat/IP
   * max. 300 sec/folyamat
+  * Van HTTPS https://webhosticon.hu/ugyfelkapu/index.php?rp=/knowledgebase/238
 * Korlátozások
   * Tiltott függvények: apache_child_terminate, apache_setenv, define_syslog_variables, dl, escapeshellarg, escapeshellcmd, exec, highlight_file, ini_alter, ini_restore, mail, openlog, passthru, popen, pclose, posix_getpwnam, posix_getpwuid, posix_kill, posix_mkfifo, posix_setpgid, posix_setgid, posix_setsid, posix_setuid, proc_close, proc_get_status, proc_nice, proc_open, proc_terminate, shell_exec, show_source, symlink, syslog, system, virtual
   * Tiltott országok: JP, TH, KR, HK, TW, BR, UA
