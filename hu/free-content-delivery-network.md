@@ -26,6 +26,23 @@
   * CDN: Fastly, CloudFlare, BunnyCDN, (Amazon Cloudfront, Google Cloud CDN?)
 * Támogatók: DigitalOcean, dewaweb, WP2Static
 
+### rawgithack
+
+* https://raw.githack.com/
+* Egyéni tartalmak forrása:
+  * GitHub
+  * Bitbucket
+  * GitLab
+  * sourcehut
+* Architektúra:
+  * Szabad szoftver, reprodukálható: Docker, nginx, lua
+  * CDN: CloudFlare
+* Fájltípusok
+  * Minifikáció: JavaScript, CSS
+  * HTML
+  * Szinte mindent támogat: https://github.com/neoascetic/rawgithack/blob/master/rawgithack.conf#L19
+* korlátlan forgalom
+
 ### jsDelivr
 
 * https://en.wikipedia.org/wiki/JSDelivr
