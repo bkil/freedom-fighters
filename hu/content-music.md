@@ -59,7 +59,7 @@
 * Letöltés http://ccmixter.org/
 * Hallgatás/letöltés https://archive.org/details/audio_music
 * Hallgatás/letöltés http://magnatune.com/info/whynotevil (ingyen is használható, de etikusan felkér az adakozásra)
-* Letöltés https://www.liberliber.it/
+* Letöltés https://www.liberliber.it/ (European Classical Music)
 
 ### Főleg ingyenes tartalmak
 
@@ -87,6 +87,10 @@
 ### Ingyenes háttérzenék
 
 * Hallgatás/letöltés https://incompetech.com/
+
+## Külső felsorolások
+
+* https://www.defectivebydesign.org/guide/audio
 
 ## Pingback
 
