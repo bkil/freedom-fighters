@@ -26,12 +26,14 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 
 * https://en.wikipedia.org/wiki/Freemium
 * https://en.wikipedia.org/wiki/Razor_and_blades_model
+* https://en.wikipedia.org/wiki/Product_bundling
 
 ### Reklámok
 
 #### Reklámetika
 
 * https://en.wikipedia.org/wiki/Ad_blocking#Reasons_for_blocking_ads
+  * https://en.wikipedia.org/wiki/Criticism_of_advertising
 * https://www.eff.org/dnt-policy
 * https://www.ethicalads.io/advertisers/
 
@@ -53,6 +55,7 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 * közvetlen kapcsolat a hirdetőkkel
 * szponzoráció
   * https://en.wikipedia.org/wiki/Branded_content
+  * https://en.wikipedia.org/wiki/Content_marketing
 
 ## Önkéntes
 
@@ -64,6 +67,10 @@ Lehet kampányszerű vagy rendszeres
   * http://liberapay.com/
   * https://en.wikipedia.org/wiki/Patreon
   * https://en.wikipedia.org/wiki/DonorBox
+* https://en.wikipedia.org/wiki/Micropayment#Recent_systems
+  * https://en.wikipedia.org/wiki/Flattr
+  * https://www.theverge.com/2020/1/28/21111865/scroll-ad-free-website-subscription-launches
+  * Általános előfizetés a reklámok kiváltására, de sajnos ehhez követniük kell a látogatókat
 
 ## Közvetlen
 
@@ -71,8 +78,12 @@ Lehet kampányszerű vagy rendszeres
   * Alkalmazáson keresztüli azonnali fizetéshez QR kód
   * Bankkártya elfogadóhely (fizetésfeldolgozó partnerek keresztül)
 * https://en.wikipedia.org/wiki/PayPal#PayPal_Giving_Fund
-* Kriptovaluták
+* https://en.wikipedia.org/wiki/List_of_cryptocurrencies
+  * https://www.coinbase.com/price
   * https://en.wikipedia.org/wiki/Bitcoin
+  * https://en.wikipedia.org/wiki/Ethereum
+  * https://en.wikipedia.org/wiki/Dogecoin
+  * https://en.wikipedia.org/wiki/Litecoin
   * https://en.wikipedia.org/wiki/Monero
 
 ## Nagy szereplők
