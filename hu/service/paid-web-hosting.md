@@ -19,6 +19,7 @@ Lásd még:
 * Ingyen statikus tárhelyek: [free-static-web-hosting.md](../free-static-web-hosting.md)
 * Ingyen dinamikus tárhelyek: [free-paas-dynamic-web-hosting.md](../free-paas-dynamic-web-hosting.md)
 * Olcsó VPS: [cheap-server-hosting.md](../cheap-server-hosting.md)
+* Az összes jogosult `.hu` regisztrátor (közvetlen értékesítő): https://www.domain.hu/regisztratorok/
 
 ## Fogalmak
 
@@ -39,8 +40,9 @@ Lásd még:
 ### 024reg domain és dinamikus tárhely
 
 * https://www.024reg.com/tarhely/
-* Székhely: 2724 Újlengyel, Petőfi Sándor utca 48.
-* Infrastruktúra: (Weboldaluk IP címe alapján talán Rackhost Kft.)
+* Székhely: 2724 Újlengyel, Petőfi Sándor utca 48. Euromarknet Kft.
+  * regisztrátor
+  * Infrastruktúra: (Weboldaluk IP címe alapján talán Rackhost Kft.)
 * Árak
   * `.hu` 3500 Ft/év
   * `.eu` 5715 Ft/év
@@ -58,6 +60,8 @@ Lásd még:
 ### Domdom domain és statikus tárhely
 
 * https://www.domdom.hu/domain/domain-regisztracio
+* Do Média Kft.
+  * regisztrátor
 * Árak
   * `.hu` 1512 Ft/év
     * _Ez csak időszakos kedvezmény?_
@@ -74,6 +78,7 @@ Lásd még:
 
 * https://honlaptarhely.hu/domain
 * Székhely: 8441 Márkó, Búzavirág u. 9. PlexNET Informatikai Kft.
+  * nem regisztrátor, ismeretlen partner, honlapjának regisztrátora EV2 Internet Kft.
 * Árak
   * `.hu` 1384 Ft/év
   * `.eu` 4433 Ft/év
@@ -84,7 +89,8 @@ Lásd még:
 
 * Promóciós partnerlink ha támogatnátok: https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142
   * `Domain` menüpont
-* Székhely: 4642 Tornyospálca, Mándoki út 40.
+* Székhely: 4642 Tornyospálca, Mándoki út 40. HostingBazis Bt.
+  * nem regisztrátor, ismeretlen partner, honlapjának regisztrátora Rackhost Zrt.
 * Árak
   * `.hu` 2500 Ft/év
   * `.eu` 3216 Ft/év
@@ -94,6 +100,7 @@ Lásd még:
 ### megacp domain
 
 * Promóciós partnerlink ha támogatnátok: https://megacp.com/check.php?aid=urb40687
+  * regisztrátor
 * Árak
   * `.hu` 1651 Ft/év
   * `.eu` 2210 Ft/év
@@ -106,6 +113,7 @@ Lásd még:
 
 * https://rackforest.com/szolgaltatasok/domain-regisztracio/
 * 1132 Budapest, Victor Hugo u. 18-22.
+  regisztrátor
 * Árak
   * `.hu` 2286 Ft/év
   * `.eu` 3416 Ft/év
@@ -116,6 +124,8 @@ Lásd még:
 
 * Promóciós partnerlink ha támogatnátok: https://webhosticon.hu/ugyfelkapu/aff.php?aff=461
   * `Domain` menüpont
+* Székhely: 1081 Budapest Légszesz u. 4.
+  * regisztrátora: 8790 Zalaszentgrót, Virág utca 9. 0-24 Domain Regisztrátor Kft. http://domainregisztratorkft.hu/ (csak viszonteladó)
 * Árak
   * `.hu` 1715 Ft/év
   * `.eu` 3048 Ft/év
@@ -149,7 +159,7 @@ Lásd még:
 * Promóciós partnerlink ha támogatnátok: https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142
   * `Webtárhely` menüpont
   * 3000 Ft/év (alanyi adómentes)
-* Székhely: 4642 Tornyospálca, Mándoki út 40.
+* Székhely: 4642 Tornyospálca, Mándoki út 40. HostingBazis Bt.
 * 1GB SSD tárhely
 * Korlátlan forgalom
   * 1Gb/s
@@ -201,6 +211,7 @@ Lásd még:
 * https://www.mhosting.hu/tarhely/webtarhely
   * **Start**: 1892 Ft/hó
 * Székhely: 1132 Budapest Victor Hugo u. 18-22. Magyar Hosting Kft.
+  * regisztrátor
 * 250MB SSD tárhely
 * Korlátlan adatforgalom
 * PHP 5.3, 5.6, 7.1, 7.2, 7.3, 7.4, 8.0
