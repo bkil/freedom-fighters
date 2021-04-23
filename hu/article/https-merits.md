@@ -68,7 +68,7 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
 * A titkosítás platformtól függően egy kis processzor- és fogyasztástöbbletet okozhat minden átküldött adatra
 * Publikus kulcsú titkosítási rész: kliens oldalon kevésbé, szerver oldalon jobban
 * Osztott kulcsú titkosítás: hasonlóan terheli mindkettőt
-* Súlyosbítja: böngészők párhuzamosan akár 4 kapcsolatot is nyithatnak ugyanarra a szerverre
+* Súlyosbítja: böngészők párhuzamosan akár 6 kapcsolatot is nyithatnak ugyanarra a szerverre
 * Nagyban függ a használati esettől, számítás vs. kiszolgálási idő, új látogatók száma
 * 2021-es asztali CPU-kon ez már csak pár százalék
   * Régi vagy beágyazott rendszereken több
@@ -87,13 +87,17 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
   * Regisztrációkor személyes adataink megadása
   * Jogi felelősség vállalása
   * A szerverünket és azon futó szoftvereket folyamatosan nyomon követik
-  * Elméletileg közrejátszhatnának látogatóink közbeékelésénél személyre szabott hátsó ajtókkal
+  * _Elméletileg_ közrejátszhatnának látogatóink közbeékelésénél személyre szabott hátsó ajtókkal
   * Weboldalunk látogatottsága és közössége alapján ránk is levonhatnak következtetések, amit súlyosbíthatja a weboldal publikus DNS bejegyzése
+    * Még ha a szerződés szerint a látogatókról személyes OCSP profilt nem is építenek, gyakorlatilag az üzemeltetőről ezt már megtehetik, például ha tüntetések idején bizonyos helyszínekről bizonyos demográfiák nagy számban látogatják oldalunkat
   * Az összegyűjtött profil legfeljebb 10 évig tárolható és semmilyen törlési kérésnek nem tudnak engedni
   * A tanúsítványunk egy nyilvános listára is felkerül https://en.wikipedia.org/wiki/Certificate_Transparency
+  * Az tanúsítványkibocsátónk adatvédelmi nyilatkozata bármikor egyoldalúan változhat, emiatt az üzemeltetőnek folyamatosan figyeltetnie kell, a változásokat publikálni a saját oldalán és/vagy amennyiben a módosítás igényli, cselekedni
 * Látogató
   * Tanúsítványlánc bejárása
   * OCSP ellenőrzés során: IP cím, böngésző, operációs rendszer és egyéb metaadat
+    * https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting akár aktívan is vehetnek ujjlenyomatot a látogató gépéről
+    * _Elméletileg_ ha a tanúsítványkibocsátónál (és kollaboránsainál) tárolt adatokat profillá szervezik, következtethetnek a böngésző bővítményekre vagy gyorsítótárazás alapján szokásokra a végrehajtott vagy kihagyott oldalbetöltésekből.
 * https://letsencrypt.org/privacy
 
 ### Nyomkövetés OCSP útján
