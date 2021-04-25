@@ -35,7 +35,6 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 * https://en.wikipedia.org/wiki/Ad_blocking#Reasons_for_blocking_ads
   * https://en.wikipedia.org/wiki/Criticism_of_advertising
 * https://www.eff.org/dnt-policy
-* https://www.ethicalads.io/advertisers/
 
 * https://adblockplus.org/acceptable-ads#privacy-friendly-acceptable-ads
 
@@ -49,6 +48,7 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 #### Reklámhálózatok
 
 * https://en.wikipedia.org/wiki/Category:Online_advertising_services_and_affiliate_networks
+* https://www.ethicalads.io/advertisers/
 
 #### Egyedi reklámelhelyezés
 
