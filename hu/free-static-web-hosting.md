@@ -98,6 +98,13 @@
 * CDN
 * online IDE fejlesztői környezet számos funkcióval
 
+## CI/CD
+
+### Agola
+
+* https://agola.io/
+* forrás: GitHub, GitLab, gitea, egyéb git tároló
+
 ## Nagy szereplők
 
 ### Blogger
