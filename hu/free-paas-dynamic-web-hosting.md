@@ -46,10 +46,11 @@
 ### 000webhost
 
 * https://www.000webhost.com/cheap-web-hosting
+  * ennek az almárkája: https://www.hostinger.com/
 * 300MB tárhely
+* 3GB/hó forgalom
 * PHP
 * MySQL
-* 3GB/hó forgalom
 * 1 cronjob
 
 ### 1Apps
@@ -164,6 +165,21 @@
 * max. 2500 SQL kérés/óra
 * saját domén vagy aldomén
 * 3 cron feladat
+
+### GoogieHost
+
+* https://googiehost.com/freehosting.html
+* 1GB tárhely
+* 100GB/hó forgalom
+* PHP 5.3, 7.0.1
+* 2 MySQL adatbázis
+* 2 email postafiók
+* Cloud Linux
+* SSL
+* cPanel vezérlőpult
+  * Softaculous Auto-Installer telepítő
+* CloudFlare CDN
+* ssh
 
 ### HelioHost
 
