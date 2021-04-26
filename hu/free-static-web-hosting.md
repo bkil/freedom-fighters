@@ -9,8 +9,9 @@
 
 ## Magyar
 
-* https://www.ucoz.hu/pricing/ 400MB
+* https://dotroll.com/hu/szolgaltatasok/tarhely/ 50MB
 * http://www.ingyenweb.hu/ 200MB
+* https://www.ucoz.hu/pricing/ 400MB
 
 ## Külföldi
 
