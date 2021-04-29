@@ -48,7 +48,7 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 #### Reklámhálózatok
 
 * https://en.wikipedia.org/wiki/Category:Online_advertising_services_and_affiliate_networks
-* https://www.ethicalads.io/advertisers/
+* https://www.ethicalads.io/advertisers/ Célcsoport: szoftverfejlesztők (data science, backend, frontend, security, devops)
 
 #### Egyedi reklámelhelyezés
 
