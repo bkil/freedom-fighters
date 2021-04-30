@@ -273,3 +273,7 @@ tr -s " " |
 grep -E "^ *(NET_TX|NET_RX|BLOCK):" |
 gawk --bignum --field-separator=" " '{s=0;for(i=2;i<=NF;i++){s+=$i};printf("%s %ld\n", $1, s);}'
 ```
+
+## Hivatkozások
+
+* https://www.researchgate.net/publication/319410880_ContainerLeaks_Emerging_Security_Threats_of_Information_Leakages_in_Container_Clouds
