@@ -266,6 +266,23 @@ Lásd még:
   * 80 folyamat összesen
 * Softaculous telepítő
 
+### VPS4You tárhely
+
+* Promóciós partnerlink ha támogatnátok: https://vps4you.hu/r/vives
+  * `Webtárhely` menüpont
+  * **Web 250M** 249 Ft/év
+  * _Web 1G 999 Ft/év_
+* Infrastruktúra szolgáltató: DENINET Kft 1132 Budapest, Victor Hugo 18-22
+* 250MB tárhely
+  * max. 100000 fájl
+  * tilos a "nagy számú" média fájl tárolása
+* PHP 5.6, 7.2, 7.3, 7.4, 8.0 (igény szerint más verzió)
+* MySQL
+  * max. 15sec/lekérés
+* SSL
+* email cím
+  * max. 100db/óra/felhasználó, max. 100db/óra/domain, nagy mennyiségű fogadás sem megengedett
+
 ### WebHostIcon tárhely
 
 * Promóciós partnerlink ha támogatnátok: https://webhosticon.hu/ugyfelkapu/aff.php?aff=461
