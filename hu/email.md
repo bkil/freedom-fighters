@@ -37,8 +37,11 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 * https://www.euromail.hu/
 * 50MB tárhely
 * csak webmail (nincs IMAP/POP3/SMTP)
-* Google Captcha regisztrációnál és bejelentkezésnél
+* Google Captcha regisztrációnál és sokszor bejelentkezésnél is
 * érdekeltség: Humankraft Kft. (független)
+* nem támogatott ekvivalencia: ".", "-", "_"
+* nem támogatott subaddressing alias: "%", "=", "-", "+"
+* támogatott ekvivalencia: kis-nagybetű, "\", "\\"
 
 ## Magyarországon fizetős
 
@@ -56,9 +59,14 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 ## Etikus országban ingyen
 
-* http://protonmail.com/ Svájc, csak webmail ingyenes, 500MB tárhely, 150 üzenet/nap
 * https://tutanota.com/ Németország, csak webmail ingyenes, 1GB tárhely
 * https://disroot.org/en/services/email Hollandia, nem alanyi jogon jár, regisztrációhoz átmenetileg szükséges egy elsődleges email fiók megadása
+
+### Protonmail
+
+* http://protonmail.com/ Svájc, csak webmail ingyenes, 500MB tárhely, 150 üzenet/nap
+* támogatott ekvivalencia: ".", "-", kis-nagybetű
+* támogatott subaddressing: "+"
 
 ## Etikus országban másodlagos email cím ingyen
 
