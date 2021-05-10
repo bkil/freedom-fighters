@@ -96,6 +96,7 @@ Nem jó:
 * p: a lezáró után sortörést rak
 * thead: nem különül el
 * details, summary: mindkét szöveget mutatja egyszerre
+* Amennyiben `a href`-ben ékezetes UTF-8 karakterek szerepelnek nyersen percentile kódolás nélkül
 
 ### Geany markdown plugin
 
