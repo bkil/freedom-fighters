@@ -5,18 +5,25 @@
 ### Nethely
 
 * https://www.nethely.hu/ingyenes-tarhely
+* Elhegyezkedés: BIX
 * 256MB tárhely
-* Nginx, Apache
-* MySQL 5.7, PostgreSQL 11, privát phpMyAdmin
-* PHP 5.6, 7.0, 7.4, 7.2, 7.3, 7.4, 8.0, CGI
-* email fiók és átirányítás
+* Nginx és Apache
+* vagy 1 MySQL 5.7 vagy 1 PostgreSQL 11 adatbázis, korlátlan hellyel, privát phpMyAdmin
+* PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, CGI
+* 1 email postafiók
+  * 1 átirányítás
+  * mérete korlátozható
+  * webmail (RoundCube, Rainloop, Squirrelmail), SMTP, POP3, IMAP
+  * max. 50 email/óra küldhető
 * 9 aldomén is rendelkezésre áll, SSL nélkül, prefix `[0-9a-z]{3,}`
-* saját domén is használható, Let's Encrypt SSL varázslóval
+* Let's Encrypt SSL: csak saját domén esetén használható, varázslóval
 * nincsenek időzített cron folyamatok
 * Egy kérés időkorlátja: kb. 22 másodperc, bár max_execution_time=60
 * regisztráció: nem fogadja el a plusz karaktert email címben, email megerősítés és Google ReCAPTCHA
 * nincs biztonsági mentés
-* egy tesztelt kiszolgáló: 200GB HDD, 10GB RAM, AMD EPYC 7351P 16-Core @ 2.4GHz
+* egy tesztelt kiszolgáló: 200GB HDD RAID-1, 10GB RAM, AMD EPYC 7351P 16-Core @ 2.4GHz
+* CMS alkalmazás telepítő
+* csak a fizetős csomagban: cron időzített folyamatok, PHP gyorsító, SSD, részletes látogatottsági statisztika, HTTP/2, biztonsági mentés (Budapesten és Szegeden)
 
 ## Magyar reklámos
 
