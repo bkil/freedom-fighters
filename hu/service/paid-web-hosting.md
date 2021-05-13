@@ -330,3 +330,15 @@ Lásd még:
   * Tiltott országok: JP, TH, KR, HK, TW, BR, UA
   * Webáruház nem engedélyezett: Hangya és WebManó csomagban
 * Softaculous telepítő
+
+### Wombathosting tárhely
+
+* https://wombathosting.hu/hosting/
+* **KisWombat csomag parkoló domaineknek**: 394 Ft/év
+* 100MB tárhely
+* korlátlan adatforgalom
+* PHP
+* MySQL
+* 5 postafiók, 10 alias: webmail, IMAP, POP3, SMTP
+* napi és havi biztonsági mentés
+* cron
