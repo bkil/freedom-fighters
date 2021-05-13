@@ -11,11 +11,25 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 
 ## Magyarországon ingyen
 
+### c2 webmail
+
+* https://www.c2.hu/new_user_registration/index.html
+* üzemeltető: OFFICEline Magyarország Kft.
+
 ### Freemail
 
 * https://freemail.hu/
 * 10GB tárhely
 * érdekeltség: Magyar Telekom Nyrt.
+
+### GMail.hu
+
+* https://gmail.hu/
+* üzemeltető: Egonet Work Kft.
+* 1GB tárhely
+* webmail, mobil, POP3, SMTP
+* @gportal.hu végződés is elérhető
+* 120 naponta be kell lépni
 
 ### indamail
 
@@ -80,6 +94,12 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 * https://www.privacytools.io/providers/email/
 * https://en.wikipedia.org/wiki/Comparison_of_webmail_providers#General
+* https://github.com/arnt/freemail
+* https://gist.github.com/tbrianjones/5992856
+* https://github.com/igor-alexandrov/ped/blob/master/lib/ped/domains.rb
+* https://github.com/Kikobeats/free-email-domains/blob/master/domains.json
+* https://github.com/goware/emailproviders/blob/master/generate/domains.txt
+* https://gist.github.com/jpadilla/8468419 (2014)
 
 ## Megszűnt
 
