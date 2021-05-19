@@ -319,6 +319,49 @@ C kódból visszafejtve kb.
 /^[0-9a-z.+_%-]+@[0-9a-z_-.]*\.[0-9a-z_-]+$/i
 ```
 
+## Címlista tisztítók
+
+### emailCheck.sh
+
+* https://github.com/deajan/linuxscripts/blob/master/emailCheck.sh#L73
+
+```
+^[a-z0-9!#\$%&'*+/=?^_\`{|}~-]+(\.[a-z0-9!#$%&'*+/=?^_\`{|}~-]+)*@([a-z0-9]([a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]([a-z0-9-]*[a-z0-9])?\$
+```
+
+### email_inquire
+
+- https://github.com/gimmethat-hq/email_inquire/blob/master/lib/email_inquire/validator/email_format.rb#L9
+
+```
+NAME_ALLOWED_CHARS = /[a-z0-9._%+-]/
+
+NAME_REGEXP = /
+  \A
+  [a-z0-9]
+  [#{NAME_ALLOWED_CHARS}]{0,63}
+  \z
+/
+
+DOMAIN_REGEXP = /
+  \A
+  (?:
+    (?=
+      [a-z0-9-]{1,63}
+      \.
+    )
+    [a-z0-9]+
+    (?:
+      -
+      [a-z0-9]+
+    )*
+    \.
+  ){1,8}
+  [a-z]{2,63}
+  \z
+/
+```
+
 ## Dokumentáció
 
 - https://emailregex.com/email-validation-summary/
