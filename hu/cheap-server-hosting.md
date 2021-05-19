@@ -115,7 +115,8 @@ Itt rendszeresen osztanak meg akciókat egymással a tagok:
 
 ### Nemzetközi példák minimális jelenlétre
 
-* https://clients.inceptionhosting.com/cart.php?gid=22 "OpenVZ UK OVZ256" 0.83 EUR/hó
+* https://clients.inceptionhosting.com/cart.php?gid=22 "OpenVZ UK OVZ512", OpenVZ 7, IPv4 + /64 IPv6, 512MB RAM, 15GB HDD, 500GB/hó forgalom, 1.17 EUR/hó
+* https://hosting.gullo.me/order/main/packages/nat-ipv4-vps-de/?group_id=5 OpenVZ 7, NAT (20 port + 1 SSH port) + /80 IPv6, 128MB RAM, 3GB HDD, 125GB/hó forgalom, 0.29 USD/hó
 
 Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, évekig vagy akár korlátlanul teljesen ingyen szervert futtatni, de ezek tipikusan nem etikus szolgáltatók:
 
