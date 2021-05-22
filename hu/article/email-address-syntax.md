@@ -319,6 +319,22 @@ C kódból visszafejtve kb.
 /^[0-9a-z.+_%-]+@[0-9a-z_-.]*\.[0-9a-z_-]+$/i
 ```
 
+### phpBB make_clickable
+
+- https://github.com/phpbb/phpbb/blob/c0f031ba3a689bb54121060c32a05c5dae6ef6ba/phpBB/includes/functions.php#L2727
+
+```
+((?:[\w\!\#$\%\&\'\*\+\-\/\=\?\^\`{\|\}\~]+\.)*(?:[\w\!\#$\%\'\*\+\-\/\=\?\^\`{\|\}\~]|&amp;)+)@\
+((((([a-z0-9]{1}[a-z0-9\-]{0,62}[a-z0-9]{1})|[a-z])\.)+[a-z]{2,63})|\
+(\d{1,3}\.){3}\d{1,3}(\:\d{1,5})?)
+```
+
+- https://github.com/phpbb/phpbb/blob/dc966787e144d262dee74ac64bd449887a336f28/phpBB/includes/functions_content.php#L1000
+
+```
+/(^|[\n\t (>])(' . $email . ')/iu
+```
+
 ## Címlista tisztítók
 
 ### emailCheck.sh
