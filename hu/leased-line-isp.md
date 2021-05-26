@@ -106,6 +106,9 @@ Sajnos üzleti okokból csak nagyon ritkán publikus az árjegyzék és valósz�
   * 40 ezer Ft/hó: 20/20 Mb/s
 * http://tranzittelekom.hu/szolgaltatasok-bereltvonal.php
   * 70 ezer Ft/hó: 20/20 Mb/s, 2 év
+* https://www.bix.hu/dokumentumok/bix_dijak
+  * nettó 120 ezer Ft/év alapdíj + 30 ezer Ft/hó 1Gb/s port + 30 ezer Ft/hó 2U Co-Location
+  * Ez azért ennyire "olcsó", mert ehhez be kell költözni hozzájuk és/vagy onnan kihúzni saját magunknak kábelt vagy vezeték nélkül jelismétlőket a célterületünkre, amihez karónként és kábelcsatornánként a helyi önkormányzatok is elvárnak engedélyt és havidíjat illetve kizárólagosság esetén az NMHH frekvenciahasználati koncessziót
 
 Már ebből is látszik, hogy nem véletlenül kerül 5 ezerbe az otthoni gigabites internet a városban - ha ezt elkezdenék az emberek kihasználni, 100x annyiért kéne adni.
 
