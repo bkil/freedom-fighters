@@ -144,6 +144,9 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://my.nexusbytes.com/cart.php?gid=10
   * **Storage-0.5T**: 4 USD/hó, 512MB RAM, 2 vCPU (3.5GHz), 500GB HDD, 2500GB/hó átvitel, IPv4 + /64 IPv6
   * Németország, New York City, Miami, Los Angeles
+* https://www.prometeus.net/site/terakvm.php
+  * **TERAKVM-1000**: 12.5 EUR/hó +ÁFA (1 évre), KVM, 2 vCPU, 4GB RAM, 100GB SSD + 1TB HDD (RAIDZ ZFS), 10TB/hó adatforgalom, IPv4 + /64 IPv6
+  * Olaszország, Hollandia
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
 * https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi Ryzen 3700X 20TB 46 EUR/hó
 
