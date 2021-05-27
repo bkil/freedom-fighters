@@ -230,6 +230,8 @@
   * maximális fájlméret 512MB
   * alapértelmezésből a HTML-en és videón kívül a legtöbb kiterjesztést gyorsítótárazza
   * további kiterjesztések engedélyezhetőek a vezérlőpulton
+* Kritika
+  * https://git.nixnet.services/you/stop_cloudflare/src/branch/master/instructions.md
 
 ### Google Hosted Libraries
 
