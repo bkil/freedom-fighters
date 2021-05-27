@@ -109,6 +109,18 @@ Lásd még:
 * Kedvezmény: tárhely csomagjaik mellé a `.hu`, `.eu`, `.com`, `.at`, `.ro` vagy `.co.uk` TLD alatti regisztráció ingyenes az első számlázási periódusra
 * 3 névszerver és 3 MX bejegyzés
 
+### njalla domain
+
+* https://njal.la/
+* kriptovaluta elfogadott
+* PGP és XMPP kommunikáció
+* névtelen bejegyzés is támogatott
+* Árak
+  * `.eu` 15 EUR/év
+  * `.com` 15 EUR/év
+  * `.net` 15 EUR/év
+* További elérhető szolgáltatások: VPS, VPN
+
 ### RackForest domain
 
 * https://rackforest.com/szolgaltatasok/domain-regisztracio/
