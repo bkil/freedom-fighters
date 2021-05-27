@@ -21,7 +21,6 @@ Van ahol javított változatban szerepel:
 
 - _(a szöveges leírásban Unicode karaktereket említenek)_
 - _(a több email címes parszernél azt írják le kell venni a vesszők körül a whitespace karaktereket)_
-- _(a fentieknél az és-jel honnan jön?)_
 
 ### GitHub flavored Markdown explicit
 
@@ -238,7 +237,7 @@ PHP kódból visszafejtve, alapvetően kb.:
 * https://github.com/roundcube/roundcubemail/blob/0044673e112d3f1e553333ac3d6fa6e896b1223b/program/lib/Roundcube/rcube_utils.php#L711
 
 ```
-/(.*)@([a-z0-9\.\-\[\]\:]+)
+/^(.*)@([a-z0-9\.\-\[\]\:]+)/$
 ```
 
 ### RoundCube idn_convert
@@ -266,8 +265,12 @@ PHP kódból visszafejtve, alapvetően kb.:
 Python kódból visszafejtve kb:
 
 ```
-/^[^\]\[()<>|:;^,\\"\000-\037\177-\377@ ]+@$([a-z0-9][-a-z0-9]*\.)+[a-z0-9][-a-z0-9]*/i
+/^[^\]\[()<>|:;^,\\"\000-\037\177-\377@ ]+@([a-z0-9][-a-z0-9]*\.)+[a-z0-9][-a-z0-9]*$/i
 ```
+
+Viszont a webes felület kiakad néhány jel meglététől (**TODO**: sokszor kiakad olyanoktól is mint a `#`, `?` vagy `/`):
+
+- https://salsa.debian.org/mailman-team/mailman2/-/blob/master/Mailman/Utils.py#L280
 
 ### Mailman3
 
@@ -276,7 +279,7 @@ Python kódból visszafejtve kb:
 Python kódból visszafejtve kb. _(figyelembe véve a `split_email()` miatti localpart `@` korlátozást is)_:
 
 ```
-/^[-0-9a-z!#$%&'*+./=?_`{}~]+@([0-9a-z]([-0-9a-z]*[0-9a-z])?\.)+[0-9a-z]([-0-9a-z]*[0-9a-z])?/i
+/^[-0-9a-z!#$%&'*+./=?_`{}~]+@([0-9a-z]([-0-9a-z]*[0-9a-z])?\.)+[0-9a-z]([-0-9a-z]*[0-9a-z])?$/i
 ```
 
 ### Django
@@ -289,7 +292,7 @@ Python kódból visszafejtve kb. _(figyelembe véve a `split_email()` miatti loc
 @(\
 ((?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+)(?:[A-Z0-9-]{2,63}(?<!-))\Z\
 |\[([A-f0-9:.]+)\]\Z\
-|localhost)/i
+|localhost)$/i
 ```
 
 - A Mailman Postorius is használja.
