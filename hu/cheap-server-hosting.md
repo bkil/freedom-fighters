@@ -160,6 +160,12 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
   * Storage VPS kiterjesztett tárhellyel (500GB 15 EUR/hó, 20TB 80 EUR/hó)
   * Van hosted NextCloud, Onlyoffice, Collabora, Jitsi, Rocket.chat, BBB
 
+### Privátszféra
+
+* https://njal.la/ kriptovaluta elfogadott, PGP és XMPP kommunikáció
+  * 15 EUR/hó, 1 vCPU, 1.5GB RAM, 15GB SSD tárhely, 1.5TB/hó adatforgalom
+  * Svédország
+
 ## Árösszehasonlító oldalak
 
 * https://www.serverhunter.com/
