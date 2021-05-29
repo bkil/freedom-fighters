@@ -1,5 +1,13 @@
 # Zárt forrású centralizált szolgáltatók
 
+## Adobe
+
+- https://www.gnu.org/proprietary/malware-adobe.html
+
+## Amazon
+
+- https://www.gnu.org/proprietary/malware-amazon.html
+
 ## Facebook
 
 - https://en.wikipedia.org/wiki/Censorship_of_Facebook
@@ -30,6 +38,7 @@
 
 ## Google
 
+- https://www.gnu.org/proprietary/malware-google.en.html
 - https://en.wikipedia.org/wiki/Privacy_concerns_regarding_Google
 - https://en.wikipedia.org/wiki/Filter_bubble
 - https://en.wikipedia.org/wiki/Search_engine_manipulation_effect
@@ -63,6 +72,7 @@
 
 ## Apple
 
+- https://www.gnu.org/proprietary/malware-apple.html
 - https://24.hu/tech/2020/11/19/113-milliot-fizet-az-apple-a-lassitott-iphone-ok-miatt/
 - https://arstechnica.com/?p=1723572 Mac certificate check stokes fears that Apple logs every app you run
 - https://www.pcmag.com/news/ios-flaw-couldve-let-hackers-take-over-nearby-iphones-in-seconds AWDL
@@ -70,6 +80,7 @@
 
 ## Microsoft
 
+- https://www.gnu.org/proprietary/malware-microsoft.html
 - https://index.hu/techtud/2019/07/22/7_3_milliard_forint_a_microsoft_magyarorszag_korrupcios_buntetese/
 
 ## Viber
