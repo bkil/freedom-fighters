@@ -2,6 +2,14 @@
 
 ## Független egyéni tartalomra
 
+### surge.sh
+
+* https://surge.sh/
+* Fájltípusok
+  * HTML, CSS, JS
+* Egyéni tartalmak forrása:
+  * parancssorból kell deployolni
+
 ### Statically
 
 * https://statically.io/
@@ -221,6 +229,11 @@
 * CDN: Fastly
 
 ## Nagy szereplők
+
+Kritikák:
+
+* https://git.nixnet.services/you/stop_cloudflare/src/branch/master/subfiles/cloudflare-alternatives.md
+* https://git.nixnet.services/you/stop_cloudflare/src/branch/master/article.txt
 
 ### CloudFlare
 
