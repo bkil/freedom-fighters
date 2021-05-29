@@ -5,4 +5,5 @@
 * https://fontawesome.com/
 * https://illlustrations.co/
 * https://iradesign.io/
+* https://openclipart.org/
 * https://undraw.co/
