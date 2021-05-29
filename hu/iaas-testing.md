@@ -251,6 +251,7 @@ Bár mivel a legtöbb forgalom le van választva ezért nem láthatjuk közvetle
 ```
 sudo apt install net-tools tcpdump tshark iftop
 route -n
+cat /proc/net/arp
 tcpdump -vni eth0 "not host SshKliensemCime" # vagy: "not tcp"
 tshark -nVx "not tcp"
 iftop
