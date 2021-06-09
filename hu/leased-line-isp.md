@@ -10,6 +10,16 @@
 Mind a belföldi globális internet összeköttetés, mind a nemzetközi adatkicserélési pontok jelentős költséggel épültek ki és kerülnek üzemeltetésre. A 90-es években jelentősen növelte az internet elterjedését az az üzleti gyakorlat, mi szerint az előfizetőknek nem dedikált erőforrásokat osztanak ki, hanem azokat masszív csoportokba összefogva statisztikai alapon azzal számolnak, hogy adott időpillanatban mindenki csak a lehetséges maximum elhanyagolhatóan kis részét fogja kihasználni. Ez az arány 1:10 és 1:100 között szokott lenni.
 
 * https://en.wikipedia.org/wiki/Overselling#Communications_access_networks_(last-mile)
+* https://en.wikipedia.org/wiki/Peering
+* https://en.wikipedia.org/wiki/Border_Gateway_Protocol
+* https://en.wikipedia.org/wiki/Autonomous_system_(Internet)
+* https://en.wikipedia.org/wiki/Administrative_distance
+* https://en.wikipedia.org/wiki/Internet_exchange_point
+* https://en.wikipedia.org/wiki/Internet_backbone#Economy_of_the_backbone
+* https://en.wikipedia.org/wiki/Backhaul_(telecommunications)
+* https://en.wikipedia.org/wiki/Upstream_(networking)
+* https://en.wikipedia.org/wiki/Middle_mile
+* https://en.wikipedia.org/wiki/Average_per-bit_delivery_cost
 
 Ez már csak azért is szükségszerű, mivel a népsűrűség alacsony szintje miatt racionálisan nem szőhetünk át egy egész város minden utcáját terabites kapcsolatokkal azért, hogy minden háztartás tudjon szerver üzemeltetni amin akár a teljes sávot is kitolhatja. Ennél sokkal ésszerűbb és hatékonyabb ha a kicserélő központok vannak kapacitással átszőve és oda magas sűrűséggel és felügyelettel helyeznek el szervereket az üzemeltetők.
 
