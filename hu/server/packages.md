@@ -19,6 +19,13 @@
 * https://disroot.org/en/#services
 * NextCloud, XMPP Chat, Etherpad, Ethercalc, Pastebin, Online polls, Gitea
 
+### Feneas.org
+
+* http://feneas.org/
+* jelenleg 12 EUR/év a tagdíj, de van amelyik szolgáltatásuk díjmentes
+* WeDistribute (hírek, leírások), Fediverse.party (népszerűsítés)
+* Searx (kereső), Matrix/Element (csevegés), Friendica (közösségi háló), Diaspora (közösségi háló), Etherpad (közös jegyzetelés), GitLab (kód), Nextcloud (biztonsági mentésnek vagy doksik, stb), Collabora (dokumentumszerkesztés), Discourse (fórum)
+
 ### Framasoft
 
 * https://degooglisons-internet.org/en/list
@@ -41,7 +48,8 @@
 ### teknik.io
 
 * https://teknik.io/
-* szakmai hírek (blog, podcast), Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, Személyes blogok
+* szakmai hírek (blog, podcast)
+* Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, személyes blogok
 
 ## Szabad szolgáltatáscsomag telepítők
 
@@ -79,9 +87,21 @@
   * Wallabag
   * ssh, mosh, htop
 
+### streisand
+
+* https://github.com/StreisandEffect/streisand
+* Ansible
+* nginx (sslh), OpenSSH (Tinyproxy), OpenConnect (ocserv), OpenVPN (dnsmasq, stunnel), Shadowsocks (libev, AEAD, V2ray-plugin), Tor bridge relay (Obfsproxy), WireGuard, ufw, unattended-upgrades, DNS-over-HTTPS
+* Amazon EC2, Microsoft Azure, Digital Ocean, Google GCE, Linode, Rackspace
+
 ## Zárt szolgáltatáscsomag telepítők
 
 * https://www.cloudron.io/store/index.html https://git.cloudron.io/cloudron a receptek szabadok
+* https://docs.start9.com/misc-guides/available-services.html
+  * Tor
+  * kriptovalutákhoz: Bitcoin, Bitcoin Proxy, Lightning Network Daemon (LND), c-lightning, Ride the Lightning (RTL), Spark Wallet, BTCPayServer, Sphinx Chat
+  * egyéb szolgáltatások: Bitwarden, Burn After Reading, Cups Messenger, File Browser, Mastodon, Embassy Pages
+  * licenc: https://github.com/Start9Labs/embassy-os/blob/master/LICENSE.md
 
 ## Megcélzott szolgáltatások
 
@@ -92,8 +112,10 @@
 ### Teljes csomag
 
 * '''TODO''': Külön kéne választani egy minimális részhalmazt ami olcsó VPS-en együtt futtatható
+* felhasználói jogosultságkezelés és SSO: Keycloak
+  * esetleg helyette openldap + dex
 * email (Dovecot?), webmail, levlista
-* (statikus vagy PHP-) webtárhely, Wordpress
+* (statikus vagy PHP-) webtárhely, Wordpress (CMS weboldalakhoz)
 * VPN
 * Lemmy kérdéseknek és linkmegosztás
 * közösségi háló: Friendica, (Pleroma, NextCloud Social)
@@ -101,8 +123,10 @@
 * monitoring: Monitorix, NetData, YunoMonitor, Zabbix
 * file sync: NextCloud (+contact), Syncthing, Seafile
 * VCS: Gitea/Gogs
+  * drone-ci -> ci ami remekül működik a gitea-val
 * névjegyek sync: Radicale, Baikal
 * dokumentum kollaboráció: OnlyOffice, (NextCloud, Collabora Online, CryptPad, Feng Office Community Edition, EtherPad, EtherCalc, TikiWiki Groupware, mediawiki)
+  * egy gyakori kombináció: NextCloud + Collabora
 * kérdőívek, szavazások: Framaforms
 * prezentáció: Strut
 * zero knowledge dokumentum kollaboráció: CryptPad
@@ -124,10 +148,14 @@
 * Személyi kapcsolati kezelő (Personal relationship manager, ~CRM): Monica
 * FreeSwitch SIP szerver
   * TODO: Jitsi (NextCloud Talk?)
+  * TODO: konferencia beszélgetések: Big Blue Button + Greenlight
   * TODO: https://github.com/edumeet/edumeet
   * STUN, TURN
-* Moodle
+* Moodle: elearning platform
+* weblate: fordító platform
 * TODO: PageKite/LocalTunnel
+  * és/vagy dinamikus DNS kiszolgálás végfelhasználói IoT eszközök részére (vagy távmunka, biztonsági mentés, stb)
+    * dinamikus DNS kiszolgálás csomagüzemeltetők részére
 * OSM Tasking Manager
 * monitoring
 * biztonsági másolat
