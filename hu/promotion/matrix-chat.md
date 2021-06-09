@@ -1,5 +1,11 @@
 # Mátrix népszerűsítés
 
+## Bevezetők
+
+* https://wordsmith.social/matrix-magyarul/matrix-kezdoknek
+* https://blogg.grin.hu/2021/01/114-matrix_a_decentralizalt_nyilt_kommunikacios_platform_hasznalata/
+* https://video.ploud.fr/search?languageOneOf=hu&tagsAllOf=Matrix&sort=-match&searchTarget=local
+
 ## Hogyan lehetne népszerűsíteni a Matrixot
 
 @notramo felvetése.
