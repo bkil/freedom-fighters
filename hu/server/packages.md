@@ -56,10 +56,12 @@
 Érdemes összehasonlítani a kínálatukat, illetve érdekes volna kombinálni a palettákat valamilyen módon.
 
 * https://freedombone.net/apps.html
-* https://wiki.debian.org/FreedomBox/Features https://wiki.debian.org/FreedomBox/Manual#Apps
+* https://wiki.debian.org/FreedomBox/Manual#Apps
+  * https://wiki.debian.org/FreedomBox/Features
 * https://yunohost.org/en/apps?q=%2Fapps
 * https://apps.sandstorm.io/
-* https://github.com/arkOScloud/applications (https://en.wikipedia.org/wiki/ArkOS) _elévült_
+* https://github.com/arkOScloud/applications _elévült_
+  * https://en.wikipedia.org/wiki/ArkOS
 * https://homelabos.com/docs/#categories
   * https://gitlab.com/NickBusey/HomelabOS/
 * Docker
@@ -157,8 +159,33 @@
   * és/vagy dinamikus DNS kiszolgálás végfelhasználói IoT eszközök részére (vagy távmunka, biztonsági mentés, stb)
     * dinamikus DNS kiszolgálás csomagüzemeltetők részére
 * OSM Tasking Manager
-* monitoring
 * biztonsági másolat
+
+### Kisvállalati csomag
+
+* Alkalmazottaknak
+  * felhasználói jogosultságkezelés és SSO
+  * email postafiók
+  * szöveges azonnali üzenetküldő
+  * levelező listák vagy valami más intraweb (pl. Friendica)
+  * VPN
+  * videokonferencia
+  * időpont egyeztetés
+  * naptáreseményre jelentkezés
+  * kérdőívek
+  * kanban tábla
+  * valami tudásbázis (pl. wiki vagy git, lehetne szimulálni NextCloud alatt is kézi könyvtárakkal, de az kicsit fapados)
+    * forráskód tároló, CI/CD
+    * dokumentum archívum és fájlmegosztás (pl. NextCloud vagy git)
+    * PeerTube az ügyféloldali reklámvideóknak és a belső továbbképzéshez
+    * Moodle a belső továbbképzéshez
+* Ügyfeleknek
+  * statikus weblap
+  * CMS
+    * webshop
+* Infrastruktúra
+  * biztonsági másolat szerverekről vagy kliensekről
+  * monitoring
 
 ## Külső hivatkozások
 
