@@ -103,6 +103,11 @@ Amennyiben ez a folyamat teljes mértékben automatizálásra kerülne, így az 
 
 Persze a legtisztább megoldásként bármikor kiépíthetnénk egy az internettől teljesen függetlenített [mesh networking](https://en.wikipedia.org/wiki/Mesh_networking)/[delay-tolerant networking](https://en.wikipedia.org/wiki/Delay-tolerant_networking) kommunikációs hálózatot, de ehhez egy sor új alkalmazásra volna szükség illetve további véleményformálásra.
 
+## IXP példák
+
+* https://deninet.hu/szerver-hosting
+  * 17900 Ft/hó + ÁFA: 1Gb/s szerver elhelyezés (átlagos 100Mb/s, garantált: 80Mb/s BIX, 30Mb/s külföld)
+
 ## Példák bérelt vonalakra
 
 Sajnos üzleti okokból csak nagyon ritkán publikus az árjegyzék és valószínűleg alkuképes is a szándéktól és konkrét helyszíntől függően. Pont a nagyobb, feltételezhetően olcsóbb szolgáltatóktól nincsenek adataink, de nagyságrendi becslés az alábbiak alapján is tehető:
