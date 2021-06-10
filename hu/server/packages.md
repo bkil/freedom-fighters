@@ -114,8 +114,10 @@
 ### Teljes csomag
 
 * '''TODO''': Külön kéne választani egy minimális részhalmazt ami olcsó VPS-en együtt futtatható
-* felhasználói jogosultságkezelés és SSO: Keycloak
-  * esetleg helyette openldap + dex
+* felhasználói jogosultságkezelés és SSO: Keycloak, alternatívák:
+  * openldap + dex
+  * ory hydra + ory kratos
+  * https://forge.tedomum.net/acides/hiboo/hiboo
 * email (Dovecot?), webmail, levlista
 * (statikus vagy PHP-) webtárhely, Wordpress (CMS weboldalakhoz)
 * VPN
@@ -151,7 +153,7 @@
 * FreeSwitch SIP szerver
   * TODO: Jitsi (NextCloud Talk?)
   * TODO: konferencia beszélgetések: Big Blue Button + Greenlight
-  * TODO: https://github.com/edumeet/edumeet
+  * TODO: https://github.com/edumeet/edumeet https://letsmeet.no/
   * STUN, TURN
 * Moodle: elearning platform
 * weblate: fordító platform
