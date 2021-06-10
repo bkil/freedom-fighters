@@ -9,6 +9,24 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 * Magyar földön legyen üzemeltetve
 * Magánszférát tiszteletben tartó, jogbiztonsággal rendelkező országban legyen üzemeltetve
 
+## Aliasok
+
+* https://en.wikipedia.org/wiki/Email_address#Common_local-part_semantics
+
+A spam elleni küzdelem és a személyes adatok védelme érdekében sokszor elkülönített címeket is ki tudunk adni amire beérkező leveleket ugyanazzal az egy fiókunkkal tudunk kezelni.
+
+Egyes szolgáltatóknak egy prémium funkciója és a felületükön be lehet állítani erre átirányítást illetve a feladó címének állítását.
+
+### Fogadás
+
+Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fiókunkba, ha azt a címünk bizonyos torzított változataira adták fel.
+
+* Subaddressing ("alcímzés"): fióknevünk után (és a "@" elé) bizonyos karaktersorozattal elválasztva tetszőleges szöveg beírható. Ez különféle szolgáltatóknál tipikusan lehet: "+", "-", "--", "%", "=", "/", de az [RF5233](https://tools.ietf.org/html/rfc5233) szerint a szolgáltató által választott bármilyen megengedett jel állhatna itt. Lásd: [../article/email-address-syntax.md](../article/email-address-syntax.md)
+* Ekvivalencia: néha a kis- és a nagybetűs változat is egyenértékű, illetve további karakterek egyszeri vagy többszöri beékelése a fióknévbe szintén figyelmen kívül hagyott, gyakran ezek: ".", "-", "_", "\".
+* Nehezítés, hogy a legszigorúbb validátorok csak ezt fogadják el a lokális fióknév részben a @ előtt: `[0-9a-zA-Z_.-]`, de még a "+" és "%" is gyakran támogatott.
+
+### Küldés
+
 ## Magyarországon ingyen
 
 ### c2 webmail
@@ -63,6 +81,9 @@ Többféle célcsoportunk különböző, de kapcsolódó igényekkel rendelkezik
 * https://megacp.com/hosting.php?aid=urb40687&spt=1 Induló tárhely csomag, 500 MB tárhely, saját domén, korlátlan címek, 5600 Ft + ÁFA / 2 év (bruttó 300 Ft/hó) (3 in 1 Hosting Bt.)
 * https://www.forpsi.hu/email/ bruttó 1905 Ft/év domén mellé, 1GB
 * https://mailbox.hu/ 1 EUR/hó
+* https://www.mhosting.hu/tarhely email csomag 1892Ft/év+áfa, 250MB
+  * támogatott ekvivalencia: kis-nagybetű, "\", localpart idézőjelezés
+  * nem támogatott: ".", "-", "%", "+"
 
 ## Magyarországon másodlagos email cím ingyen
 
@@ -92,6 +113,7 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 ## Külső összehasonlító oldalak
 
+* https://www.fsf.org/resources/webmail-systems
 * https://www.privacytools.io/providers/email/
 * https://en.wikipedia.org/wiki/Comparison_of_webmail_providers#General
 * https://github.com/arnt/freemail
