@@ -30,6 +30,13 @@
 
 * https://degooglisons-internet.org/en/list
 
+### monocles.de
+
+* https://monocles.de/more/
+* Szolgáltatások: ocean Cloud (4GB NextCloud), confer (videó konerencia, NextCloud Spreed.ME), email (1GB, Rainloop és egy másik webmail), interact chat (XMPP, 1 hónap csevegéstörténettel), monocles Web search (searx), monocles translator (LibreTranslate - Argos Translate), monocles live (Invidious), monocles social (Mastodon)
+* Alkalmazások: Android webböngésző, Android XMPP kliens
+* monetizáció: levelezőboríték, banki átutalás, Transferwise, PayPal, IOTA (crypto), tagdíj (24 EUR/6 hó)
+
 ### poddery.com
 
 * https://poddery.com/
