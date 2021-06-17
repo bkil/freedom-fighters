@@ -11,6 +11,8 @@
 
 ## Szabad szoftverek
 
+## Szabad szoftverek mobilra
+
 ### opentracksapp
 
 * https://f-droid.org/en/packages/de.storchp.opentracks.osmplugin/
@@ -32,6 +34,15 @@
 
 * https://f-droid.org/packages/de.tadris.fitness/
 * https://codeberg.org/jannis/FitoTrack
+
+## Szabad szoftverek számítógépre
+
+### ZombieTrackerGPS
+
+* https://www.zombietrackergps.net/ztgps/
+* Qt, OpenStreetMap
+
+> Fitness Tracking and GPS Track Management for Linux
 
 ## Zárt alternatívák
 
