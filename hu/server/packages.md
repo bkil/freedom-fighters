@@ -103,6 +103,12 @@
 * nginx (sslh), OpenSSH (Tinyproxy), OpenConnect (ocserv), OpenVPN (dnsmasq, stunnel), Shadowsocks (libev, AEAD, V2ray-plugin), Tor bridge relay (Obfsproxy), WireGuard, ufw, unattended-upgrades, DNS-over-HTTPS
 * Amazon EC2, Microsoft Azure, Digital Ocean, Google GCE, Linode, Rackspace
 
+## Szabad kézi üzemeltetés
+
+Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy bevált recepteket konfigurációval összekötni, hanem megoldják saját implementációval:
+
+* https://git.envs.net/envs/ops
+
 ## Zárt szolgáltatáscsomag telepítők
 
 * https://www.cloudron.io/store/index.html https://git.cloudron.io/cloudron a receptek szabadok
@@ -168,7 +174,8 @@
   * és/vagy dinamikus DNS kiszolgálás végfelhasználói IoT eszközök részére (vagy távmunka, biztonsági mentés, stb)
     * dinamikus DNS kiszolgálás csomagüzemeltetők részére
 * OSM Tasking Manager
-* biztonsági másolat
+* biztonsági másolat szerverekről vagy kliensekről
+* Optimalizáló web proxy
 
 ### Kisvállalati csomag
 
