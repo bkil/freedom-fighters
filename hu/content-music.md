@@ -6,7 +6,7 @@
 * Megoszthassuk közösségi hálónkkal, hogy mit hallgatunk vagy milyen stílusokat szeretünk
 * Ideálisan régebbi eszközeinken is hallgathassuk illetve amennyiben nem vagyunk internet közelben vagy rossz a térerő
 * A vállalati monopóliumi status quo decentralizálása a független alkotók, szabad tartalmak és szabad szoftverek irányába
-  * https://en.wikipedia.org/wiki/Comparison_of_on-demand_music_streaming_services#Current_services
+  * https://en.wikipedia.org/wiki/Comparison_of_music_streaming_services
 * Előnyben: fenntartható, ingyenes, nem követő, fizetős esetben DRM-mentes, esetleg FLOSS kliensből használható, közösségi médián mély hivatkozással megosztható (deep-linkelhető) alternatívák
 
 ## Fizetés nélkül nem teljes értékű
