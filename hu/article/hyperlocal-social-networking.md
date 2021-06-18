@@ -2,7 +2,7 @@
 
 ## Célja
 
-Egy nem-hiperlokális portállal szemben a cél reputáció építése (kalákakör) és az ismerkedés. Ha "tudom hol laksz", akkor jobban beengedek egy "idegent" is takarítani a lakásába, illetve a kölcsönösség kikényszeríti a "jó munkát".
+Egy nem-hiperlokális portállal szemben a cél publikus, de kisközösségben releváns reputáció építése (nyilvántartott kalákakör) és az ismerkedés. Ha "tudom hol lakik", akkor jobban beengedek egy "idegent" is takarítani a lakásába, illetve a kölcsönösség kikényszeríti a "jó munkát".
 
 A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szándékú, akkor is "elsodorja az élet" egymástól őket és/vagy jóhiszeműen is elfelejtődik. Viszont ha valakit napi szinten látunk, ez nem történhet meg. Emiatt a hiperlokalitás kiterjeszthető lehet munkahelyekre és más épülettömbökre is.
 
@@ -29,6 +29,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * gift economy
   * a kalákakörnél egyszerűbb, mivel ebben nem kell nyilvántartani a szívességeket, hanem a résztvevők adaptív visszacsatolással modulálják a kínált szívességeik elsütési rátáját a kapott szívességek rátájával arányban, valamelyest egy neurális háló mintájára
   * https://en.wikipedia.org/wiki/Gift_economy
+  * pszichológiailag valószínűleg akkor a legjobb az ajándékozás amennyiben privát, tehát ha ellentételezésként még a dicsőségfalon sem jár érte hely
 
 ### Példák összetartó lakóközösségi léptékű interakcióra
 
@@ -37,7 +38,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * összejövetelek (bulik, grillezés, temetés, esküvő)
 * határidők
 * közös költség összege
-* kertészkedés tervezés/feladatok
+* kertészkedés tervezés (produktum elosztása), kivitelezés, karbantartási feladatok (komposztáló keverés, fűnyírás, trágyázás, palántázás, locsolás)
 * benti növényzet kialakítása vagy locsolási rendje
 * fogyó eszközök, munkaeszközök
 * postás
@@ -61,6 +62,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * nálatok sincs víz/villany/internet? Közműszünet alatt: xy óra-perckor lesz átmenetileg központi aggregátorról áram x órára.
 * nálatok sem vitték el a kukát?
 * hozzátok is jár a mókus/nyest?
+* mi ez a hangzavar az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák, feltörik az autót, ablakot, ajtót)
 * messziről rendel valaki valamit és postaköltség megosztás
 * telekocsi
 * zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka)
