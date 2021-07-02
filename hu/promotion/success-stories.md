@@ -35,3 +35,7 @@ https://netzpolitik.org/2021/interview-zu-behoerden-in-sozialen-netzwerken-masto
 
 - https://netzpolitik.org/2021/interview-zu-behoerden-in-sozialen-netzwerken-mastodon-ist-kein-vollstaendiger-aber-doch-ein-guter-twitter-ersatz/
 - https://xn--baw-joa.social/@lfdi
+
+Részletesen kielemzi a buktatókat, motivációkat és egy javasolt akciótervet amivel a 100 fős közösségünket egy hálóba tudjuk szervezni:
+
+- https://RunYourOwn.social/
