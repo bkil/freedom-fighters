@@ -62,6 +62,7 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * https://www.citromail.hu/
 * 2GB tárhely
 * max. 5MB/csatolmány
+* TODO: IMAP, POP3
 * érdekeltség: Sanoma Budapest Zrt.
 
 ### euromail
@@ -110,6 +111,12 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 ## Etikus országban fizetős
 
 * https://mailbox.org/ 1 EUR/hó, 2 GB levelezőtárhelyet, 100 MB felhőtárhely, webmail, IMAP, WebDAV/CalDAV/CardDAV címtár és naptár, Open-Xchange, Németország (Heinlein Support GmbH)
+
+## Csak Tor
+
+* https://elude.in/
+* http://mail2tor.com/
+* https://dnmx.org/
 
 ## Külső összehasonlító oldalak
 
