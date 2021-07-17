@@ -8,22 +8,28 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 
 * gazdag az API-ja
 * CI/CD, statikus webkiszolgálás
+* cenzúrázva: Kuba
 
 ### Savannah
 
 * https://savannah.gnu.org/
 * https://savannah.nongnu.org/
+* cenzúrázatlan: Kuba
 
 ### LaunchPad.net
 
 * fiók: Ubuntu One
 * Bazaar, Git
+* cenzúrázatlan: Kuba
 
 ### Pagure.io
 
 * fiók: Fedora FAS
+* cenzúrázatlan: Kuba
 
 ### SourceForge.net
+
+* cenzúrázva: Kuba
 
 ## Új, kis szereplők
 
@@ -32,21 +38,25 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 * 2019
 * motorja: gitea
 * helyszín: Németország
+* cenzúrázatlan: Kuba
 
 ### Gitea.com
 
 * 2019
 * motorja: gitea
 * helyszín: Kína
+* cenzúrázatlan: Kuba
 
 ### NotABug.org
 
 * motorja: Gogs https://gogs.io/
 * helyszín: Németország
+* cenzúrázatlan: Kuba
 
 ### teknik.io
 
 * motorja: gitea
+* cenzúrázatlan: Kuba
 
 ## Korlátozott tagsággal
 
@@ -82,6 +92,7 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 
 * CI/CD, statikus webkiszolgálás
 * nem magunk által üzemeltethető
+* cenzúrázatlan: Kuba
 
 ## Külső hivatkozások
 
