@@ -97,9 +97,10 @@
   * adott domain, aldomainek, külső hosztok
   * HTML, navigációs ikonok, CSS, JavaScript, fotók
 * Az eredeti forrástól takarékosabb változat lekérése
-  * weboldalak asztali változatának átirányítása mobil változatra
+  * weboldalak asztali változatának átirányítása mobil vagy WAP változatra
   * wiki forrásának lekérése és abból helyi weboldal formázás (akár fele-harmadakkora, és még ebből is sokszor range request levághatná fejléceket)
     * https://en.wikipedia.org/w/api.php?action=parse&prop=wikitext&format=json&page=Wikipedia
+    * https://en.wikipedia.org/wiki/Special:Export/Wikipedia
   * olyan `User-Agent` feltüntetése aminek hatására kisebb változatot adnak vissza oldalak például keresőmotorok részére
   * főoldal meglátogatása előtt felajánlani az RSS/Atom feed megjelenését vagy keresést a portálon
 
@@ -116,4 +117,9 @@
 * https://www.ghacks.net/2019/04/24/google-deprecates-chrome-data-saver-extension-for-the-desktop/
   * https://blog.browsernative.com/data-compression-feature-of-chrome-mobile-175/
 * https://www.groovypost.com/howto/amazon-kindle-fire-silk-browser-disable-cloud-page-accelerator/
+  * https://en.wikipedia.org/wiki/Amazon_Silk#Architecture
 * https://en.wikipedia.org/wiki/Puffin_Browser
+* https://en.wikipedia.org/wiki/MarioNet_split_web_browser#Proof_of_concept
+* https://en.wikipedia.org/wiki/Bolt_(web_browser)#Server-assisted_data_compression
+* https://en..wikipedia.org/wiki/Skweezer
+* https://en.wikipedia.org/wiki/Vision_Mobile_Browser
