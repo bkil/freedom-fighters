@@ -51,6 +51,13 @@
   * Szinte mindent támogat: https://github.com/neoascetic/rawgithack/blob/master/rawgithack.conf#L19
 * korlátlan forgalom
 
+### GitCDN
+
+* https://gitcdn.xyz/
+* Egyéni tartalmak:
+  * forrása: GitHub
+* CDN: Cloudflare
+
 ### jsDelivr
 
 * https://en.wikipedia.org/wiki/JSDelivr
@@ -148,6 +155,14 @@
 * https://quic.cloud/cost/
 * 1GB/hó forgalom
 * Egyedi tartalmak
+
+### combinatronics
+
+* https://combinatronics.com/
+* Egyéni tartalmak:
+  * HTML, CSS, JavaScript
+  * forrása: GitHub
+* az ingyenes csomagban csak 1 PoP
 
 ## Független népszerű tartalmakra
 
