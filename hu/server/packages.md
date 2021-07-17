@@ -14,10 +14,18 @@
 * https://www.autistici.org/services/
 * email, blog (WordPress + BuddyPress), levlista, statikus web tárhely (a közelmúltig volt dinamikus is), csevegés (IRC, XMPP), konferencia (Jitsi, VLC live streaming), feladó rejtett email (anonymous remailer vagy nym)
 
+### buzon.uy
+
+* https://buzon.uy/
+* Webmail ("mail"), Taiga ("procyectos"), Mattermost ("team"), PrivateBin ("paste"), Searx ("searx"), Prosody (Jabber/XMPP), IRC ("irc"), RSS ("rss"), EtherPad ("pad")
+* adományok fogadása: PayPal
+
 ### disroot.org
 
 * https://disroot.org/en/#services
-* NextCloud, XMPP Chat, Etherpad, Ethercalc, Pastebin, Online polls, Gitea
+* tagsághoz kötött: email, NextCloud, fórum (Discourse), XMPP Chat ("webchat"), projekt menedzsment tábla (Taiga, "board"), kódtároló (Gitea, "git")
+* szabad: kereső (SearX, "search")
+* ingyenes "covid19 kit": Etherpad ("pad"), Ethercalc ("calc"), pastebin (PrivateBin, "bin"), fájlmegosztás (Lufi, "upload"), szavazás (Framadate, "poll"), videokonferencia (Jitsi Meet, "calls"), hanghívás (Mumble, "mumble"), dokumentum kollaboráció (CryptPad, "cryptpad")
 
 ### Feneas.org
 
@@ -37,6 +45,12 @@
 * Alkalmazások: Android webböngésző, Android XMPP kliens
 * monetizáció: levelezőboríték, banki átutalás, Transferwise, PayPal, IOTA (crypto), tagdíj (24 EUR/6 hó)
 
+### nogafam.es
+
+* https://www.nogafam.es/#servicios
+* Szolgaltatások: Mastodon ("masto"), Friendica, Pixelfed ("pixel"), PeerTube ("video"), Lemmy ("forum"), Funkwhale ("music"), Matrix Synapse ("matrix"), XMPP, email ("mail", RainLoop), Jitsi Meet ("jitsi"), Mumble ("turn"), Nextcloud ("cloud"), Searx ("searx"), Plume ("plume", blog), WriteFreely ("writeas"), Miniflux ("rss", RSS aggregátor), Wallabag ("share"), [Porl](https://github.com/cydrobolt/polr) ("u", linkrövidítő)
+* adományok fogadása: LibrePay, PayPal, bankszámla
+
 ### poddery.com
 
 * https://poddery.com/
@@ -47,16 +61,35 @@
 * https://www.privacytools.io/services/
 * Searx, Mastodon, Matrix Synapse, Discourse, Peertube, Write Freely, PrivateBin
 
+### reisub
+
+* https://reisub.nsupdate.info/reisub/servicios.txt
+* Friendica ("friendicarg"), Activitypub relay ("relay"), Imagebin ("imagebin", képfeltöltés), Pastebin ("paste"), Mumble, "bbs", Tiny Tiny RSS ("rss") [PlanetLibre](https://github.com/selairi/planetlibre) (RSS olvasó, "planeta"), XMPP, linkrövidítő ("url"), BoZoN (fájlmegosztás, "filebin"), nginx/FTP, Wordpress weblapok, IRC (+bouncer), EasyPad ("pad"), "poll" (szavazás, egyéni), Gitweb ("git"), NextCloud, BitTorrent tracker ("torrent"), "smail" (biztonságos levelezés, egüeni), Flyspray (hibajegykezelő, "bugs"), "wiki", "phpftp" (ftp kliens), Gemini (+proxy), NTP szerver
+
 ### riseup.net
 
 * https://riseup.net/
 * email (1GB, IMAP, Roundcube), XMPP chat (lekapcsolás alatt!), VPN, levlista (sympa), wiki (crabgrass), etherpad, Up1 (kliens oldali titkosítású pastebin és imagebin)
+
+### snopyta.org
+
+* https://snopyta.org/
+* jelenleg szünetel a regisztráció
+* Searx kereső ("search"), PrivateBin (pastebin, "bin"), HedgeDoc (markdown koeditálás, "pad"), Etherpad (WYSIWYG koeditálás), EtherCalc, XMPP, Mastodon ("social"), Jitsi Meet ("talk"), Framadate ("poll"), CyberChef ("toolbox"), Tiny Tiny RSS, Invidious, Nitter, Bibliogram
+  * https://github.com/gchq/CyberChef
+* Tor hidden service átjáró a legtöbb szolgáltatásukra
 
 ### teknik.io
 
 * https://teknik.io/
 * szakmai hírek (blog, podcast)
 * Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, személyes blogok
+
+### undernet.uy
+
+* https://undernet.uy/
+* Webmail ("mail", Roundcube, IMAP), ownCloud ("cloud"), Airsonic ("air"), Mumble, Minetest ("mine"), Mastodon ("mastodon"), PeerTube ("tube"), [Honk](https://humungus.tedunangst.com/r/honk) ("muro", ActivityPub közösségi háló), Jabber ("jabber")
+* adományok fogadása: PayPal
 
 ## Szabad szolgáltatáscsomag telepítők
 
