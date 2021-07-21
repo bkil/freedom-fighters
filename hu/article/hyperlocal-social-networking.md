@@ -63,6 +63,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * nálatok sem vitték el a kukát?
 * hozzátok is jár a mókus/nyest?
 * mi ez a hangzavar az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák, feltörik az autót, ablakot, ajtót)
+  * egész éjszaka ugat valakinek a kutyája, kéretik kezelni a problémát (TODO: hangfelismeréssel akár automatizálható a tulajdonos felkeresése)
 * messziről rendel valaki valamit és postaköltség megosztás
 * telekocsi
 * zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka)
