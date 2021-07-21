@@ -14,6 +14,13 @@
 * https://www.autistici.org/services/
 * email, blog (WordPress + BuddyPress), levlista, statikus web tárhely (a közelmúltig volt dinamikus is), csevegés (IRC, XMPP), konferencia (Jitsi, VLC live streaming), feladó rejtett email (anonymous remailer vagy nym)
 
+### breadpunk.club
+
+* https://breadpunk.club/
+* tildeverse tag
+* ssh, IRC (InspIRCd, weechat, irssi), NNTP, webtárhely, gopher, gemini, email
+* monetizáció: LibrePay
+
 ### buzon.uy
 
 * https://buzon.uy/
@@ -26,6 +33,34 @@
 * tagsághoz kötött: email, NextCloud, fórum (Discourse), XMPP Chat ("webchat"), projekt menedzsment tábla (Taiga, "board"), kódtároló (Gitea, "git")
 * szabad: kereső (SearX, "search")
 * ingyenes "covid19 kit": Etherpad ("pad"), Ethercalc ("calc"), pastebin (PrivateBin, "bin"), fájlmegosztás (Lufi, "upload"), szavazás (Framadate, "poll"), videokonferencia (Jitsi Meet, "calls"), hanghívás (Mumble, "mumble"), dokumentum kollaboráció (CryptPad, "cryptpad")
+* korlátozva van az időegységen belül kiküldhető emailek száma
+
+### envs.net
+
+* https://envs.net/
+* tildeverse tag
+* linkrövidítő, nullpointer (parancssoros fájlfeltöltő), getwtxt ("twtxt", mikroblogging), gitea ("git"), hedgedoc ("hedgedoc", kollaboratív markdown szerkesztés), "matrix" (Matrix Synapse, Element, Dimension, mjolnir), pleroma ("pleroma"), privatebin ("pb", pastebin képeknek), Searx ("searx"), tiny tiny RSS ("rss"), Modoboa ("mail", webmail, 250MB), Mailman3 ("lists"), "bbj" (fórum), drone CI ("drone"), IP címünk információ ("ip"), webtárhely (statikus, SSI, jelszóvédelem, PHP, sh, perl, Python, lua, cgi-bin), blog (ttbp, bashblog), adatbázis (sqlite, kérésre mysql), gopher (+proxy), gemini, webirc, znc, DNS (DNS-over-TLS)
+* ssh
+  * 1GB tárhely
+  * max. 200 egyidejű szál
+  * mosh
+  * systemctl/loginctl linger
+  * finger
+  * cron, at
+* CryptPad ("pad")
+  * cryptdrive ("drive")
+  * rich text ("pad")
+  * táblázatkezelő ("sheet")
+  * markdown szerkesztő ("code")
+  * prezentáció ("slide")
+  * szavazás ("poll")
+  * ütemezés ("kanban")
+  * "whiteboard"
+  * file drop ("file")
+  * teendők ("todo")
+  * névjegyek ("contacts")
+* monetizáció: LibrePay
+* infrastruktúra: https://git.envs.net/envs/ops
 
 ### Feneas.org
 
@@ -33,6 +68,7 @@
 * jelenleg 12 EUR/év a tagdíj, de van amelyik szolgáltatásuk díjmentes
 * WeDistribute (hírek, leírások), Fediverse.party (népszerűsítés)
 * Searx (kereső), Matrix/Element (csevegés), Friendica (közösségi háló), Diaspora (közösségi háló), Etherpad (közös jegyzetelés), GitLab (kód), Nextcloud (biztonsági mentésnek vagy doksik, stb), Collabora (dokumentumszerkesztés), Discourse (fórum)
+* infrastruktúra: https://git.feneas.org/feneas/infrastructure/ansible
 
 ### Framasoft
 
@@ -70,6 +106,7 @@
 
 * https://riseup.net/
 * email (1GB, IMAP, Roundcube), XMPP chat (lekapcsolás alatt!), VPN, levlista (sympa), wiki (crabgrass), etherpad, Up1 (kliens oldali titkosítású pastebin és imagebin)
+* erősen korlátozva van az időegységen belül kiküldhető emailek száma
 
 ### snopyta.org
 
@@ -140,7 +177,7 @@
 
 Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy bevált recepteket konfigurációval összekötni, hanem megoldják saját implementációval:
 
-* https://git.envs.net/envs/ops
+* https://github.com/tildeclub/tilde.club/tree/master/docs
 
 ## Zárt szolgáltatáscsomag telepítők
 
