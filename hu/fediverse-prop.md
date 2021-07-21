@@ -16,6 +16,7 @@ kategóriák|igen|nem|nem||igen|
 követés|emberek, címkék|emberek, max 4 címke|emberek, címkék||emberek|
 események|igen|nem|nem|nem|igen|
 protokoll|AP, Diaspora|AP|Diaspora|AP|AP, Diaspora, Zot, OStatus|
+képeknek proxy|igen|N/A (nem támogat beágyazást)|választható (Camo)||nem|
 törölhetőség|||nincs||igen|
 elévíthetőség|beállításokban||||üzenetenként|
 külső illeszthetőség|RSS, Blogger, Discourse, LiveJournal, Tumblr, WordPress, email|||||
