@@ -69,6 +69,14 @@ Mivel ilyenkor nem a HTML `<noscript>` blokk érvényesül, így egyes weboldala
 
 * Léteznek böngésző kiegészítések, melyek hivatkozáskor felajánlják az adott fájlok vagy kiszolgálók futtatásának tiltását (uMatrix, ScriptSafe)
 
+## Kerülendő példák
+
+### Enable-JavaScript
+
+Egyes fejlesztők ahelyett, hogy a `<noscript>` részekbe alternatív tartalmat raknának a megnyithatóság érdekében azoknak akik letiltották a JavaScriptet, egy előre legyártott sablonszöveggel irányítanak egy olyan weboldalra ami elmagyarázza hogyan kell _bekapcsolni_ a JavaScriptet:
+
+* https://enable-javascript.com/
+
 ## Statisztikák
 
 Statisztikák adhatnak torzított becslést a fentiek miatt.
