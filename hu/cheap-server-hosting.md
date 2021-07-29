@@ -149,6 +149,18 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
   * Olaszország, Hollandia
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
 * https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi Ryzen 3700X 20TB 46 EUR/hó
+* https://www.wishosting.com/order/config/index/VPS/?group_id=2&pricing_id=42
+  * nem találni információkat a cégről
+  * **KVM NAT Storage**: $5/hó (3 hó), 1 vCPU i7-3770, 1GB RAM, 1TB HDD RAID-5, 250Mb/s, korlátlan forgalom, NAT, Németország
+
+#### Készlethiányos ajánlatok
+
+* https://buyvm.net/kvm-dedicated-server-slices/
+  * **SLICE 512**: $1.67/hó, 1 vCPU, 512MB RAM, korlátlan forgalom, IPv4
+  * USA cég, elérhető adatközpontok: Las Vegas, New York, Miami, Luxembourg
+  * https://buyvm.net/block-storage-slabs/ https://my.frantech.ca/cart.php?gid=46
+    * +1TB HDD $5/hó, +10TB $50/hó
+    * +10% biztonsági mentés
 
 ### Kiemelt olcsó, szabad szoftvert kiszolgáló cégek
 
