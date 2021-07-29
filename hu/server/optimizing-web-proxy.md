@@ -57,7 +57,14 @@
   * a válaszból kimaradt elévülési idők és etag pótlása
   * a kérésben kényszerített újratöltés felülvizsgálata
   * az elévült dokumentum etag vagy dátum alapú frissítése a forrástól
-  * opcionálisan a frissítés megszakítása ha a forrás a metaadatok alapján hibásan gyorsítótárazik (Content-Length, Last-Modified, ETag, stb)
+  * opcionálisan a frissítés megszakítása ha a forrás a metaadatok alapján hibásan gyorsítótárazik (Content-Length, Last-Modified, ETag, Instance Digest, metalink mirrors, Content-MD5 stb)
+    * https://datatracker.ietf.org/doc/html/rfc6249#section-6 _Metalink/HTTP: Mirrors and Hashes_
+    * https://datatracker.ietf.org/doc/html/rfc3230#section-4.3.2 _Instance Digests in HTTP_
+    * https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.15 _HTTP/1.1 Header Field Definitions_
+    * https://www.ietf.org/rfc/rfc1864.txt _The Content-MD5 Header Field_
+  * máshol is megtalálható osztott erőforrások kicserélése hálózati szinten
+    * amennyiben fájlnév és hívási környezet alapján vélelmezhető, hogy máshonnan is elérhető, a webszerver szoftver ismeretében lekéréskor próbálhatnánk `If-None-Match` fejléceket generálni (ha nem kell az i-node, csak a dátum és a méret), különben `HEAD` alapján előre ellenőrizni, esetleg különleges esetekben még az `If-Modified-Since` (`If-Unmodified-Since`?) is szóba jöhet
+    * amennyiben az egyezés ki nem zárható és az adott fájl tartalmában (ideálisan elején) kimutatható egyedi azonosításra alkalmas rész (például HTML authoring metaadatok, könyvtárverzió, git hash, dátum és idő, CRC32, bejegyzésszámláló, stb) akkor azt is figyelembe véve mérlegelni a behelyettesíthetőséget
   * adott fájlok struktúrájának vagy változástörténetének ismerete szerint céltudatos ofszettel frissíteni, majd szintetizálni az új változatot
     * RSS feed: ha az elejére kerülnek az új bejegyzések és adott számú bejegyzés van benne, annak elég csak elejét olvasni a végét pedig eldobni, méret alapján visszaellenőrizni
     * honlap: sok egyszerűbb hír- és hirdetőoldalon csak a reklám változik, az időjárás, névnap, utolsó frissítés dátuma, ezen kívül az új bejegyzések a HTML tetejére kerülnek
@@ -84,7 +91,9 @@
 * manifest blokkolása
 * HTTP kérés fejléceiből a redundáns mezők kitörlése (tulajdonságok, referer, felesleges sütik)
   * Ideálisan a Vary fejléceket is a gyorsítótárazásért
-* CDN-en kiszolgált osztott erőforrás hivatkozások (JavaScript, CSS, fontok) kicserélése egységesre ami jobban gyorsítótárazható
+* CDN-eken (is) megtalálható osztott erőforrás hivatkozások (JavaScript, CSS, fontok) kicserélése egységesre ami jobban gyorsítótárazható
+  * https://www.w3.org/TR/SRI/ _Subresource Integrity (SRI) hash digest_
+  * http://microformats.org/wiki/hash-examples#Existing_Practices "Link Fingerprints"
 * takarékos üzemmódban az előrelátóan történő letöltések tiltása
 * heurisztikus optimalizációk (kattintásra visszavonhatóak ha elrontják a megjelenést)
   * képek betöltésre kattintásra, addig a helyükön elérési út alapján számolt színek és/vagy formák
