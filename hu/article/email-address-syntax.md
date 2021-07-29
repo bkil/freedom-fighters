@@ -338,6 +338,15 @@ C kódból visszafejtve kb.
 /(^|[\n\t (>])(' . $email . ')/iu
 ```
 
+### phpBB regisztráció
+
+- `^.{6,60}$`
+  - https://github.com/phpbb/phpbb/blob/dc966787e144d262dee74ac64bd449887a336f28/phpBB/includes/ucp/ucp_register.php#L272
+- kisbetűsítve ellenőrzi az egyediségét
+  - https://github.com/phpbb/phpbb/blob/c6ecef9769db14fc597e6c880009a26a15fe484e/phpBB/includes/functions_user.php#L1933
+- létezzen `A` vagy `MX` DNS rekord a domain alatt
+  - https://github.com/phpbb/phpbb/blob/c6ecef9769db14fc597e6c880009a26a15fe484e/phpBB/includes/functions_user.php#L1912
+
 ## Címlista tisztítók
 
 ### emailCheck.sh
@@ -395,3 +404,4 @@ DOMAIN_REGEXP = /
 - https://tools.ietf.org/html/rfc6068 _The 'mailto:' URI scheme, October 2010_
 - https://tools.ietf.org/html/rfc6532 _Internationalized Email Headers, 2012_
 - https://tools.ietf.org/html/rfc6854 _Update to Internet Message Format to Allow Group Syntax in the "From:" and "Sender:" Header Fields, March 2013_
+- https://www.linuxjournal.com/article/9585 _Validate an E-Mail Address with PHP, the Right Way by Douglas Lovell on June 1, 2007_
