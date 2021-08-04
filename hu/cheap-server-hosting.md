@@ -147,6 +147,9 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://www.prometeus.net/site/terakvm.php
   * **TERAKVM-1000**: 12.5 EUR/hó +ÁFA (1 évre), KVM, 2 vCPU, 4GB RAM, 100GB SSD + 1TB HDD (RAIDZ ZFS), 10TB/hó adatforgalom, IPv4 + /64 IPv6
   * Olaszország, Hollandia
+* https://www.netcup.eu/vserver/vstorage.php
+  * **S 1000 G7**: 18 EUR/hó (19% ÁFA-val), 1 vCPU, 2GB DDR4 RAM (ECC), 1.5TB HDD (SAS, RAID 6), KVM, 99.9% SLA, 1Gb/s hálózat (200Mb/s átlagos teljesítmény, 15 perces csúszóablakban 80Mb/s), 1 IPv4 + /64 IPv6
+  * adatközpont: Nürnberg, Németország
 * https://clients.inceptionhosting.com/cart.php?gid=30 "USA storage KVM 1000" 1TB 4.24 EUR/hó
 * https://www.euserv.com/en/dedicated-server/instant64-rootserver/v6/instant64-ar-hdd-v6.php dedi Ryzen 3700X 20TB 46 EUR/hó
 * https://www.wishosting.com/order/config/index/VPS/?group_id=2&pricing_id=42
@@ -156,7 +159,7 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 #### Készlethiányos ajánlatok
 
 * https://buyvm.net/kvm-dedicated-server-slices/
-  * **SLICE 512**: $1.67/hó, 1 vCPU, 512MB RAM, korlátlan forgalom, IPv4
+  * **SLICE 512**: $1.67/hó, 1 vCPU, 512MB RAM, 10GB SSD, korlátlan forgalom, IPv4
   * USA cég, elérhető adatközpontok: Las Vegas, New York, Miami, Luxembourg
   * https://buyvm.net/block-storage-slabs/ https://my.frantech.ca/cart.php?gid=46
     * +1TB HDD $5/hó, +10TB $50/hó
@@ -174,9 +177,22 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 
 ### Privátszféra
 
-* https://njal.la/ kriptovaluta elfogadott, PGP és XMPP kommunikáció
+* https://njal.la/
   * 15 EUR/hó, 1 vCPU, 1.5GB RAM, 15GB SSD tárhely, 1.5TB/hó adatforgalom
+  * kriptovaluta elfogadott
+  * PGP és XMPP ügyfélszolgálati kommunikáció
   * Svédország
+* https://pay.privex.io/order/package/vmicro-se
+  * **VMICRO-SE**: $0.99/hó, 2 vCPU, 256MB RAM, 5GB SSD tárhely, 100Mb/s, csak IPv6
+  * **WEBBOX-SE-V1**: $5/hó, 4 vCPU, 1GB RAM, 20GB SSD tárhely, IPv4 + IPv6
+  * kriptovaluta elfogadott: HIVE, HBD, EOS, Doge, Monero, LTC, BTC
+  * email és Discord ügyfélszolgálati kommunikáció
+  * Svédország
+* https://cockbox.org/
+  * $10/hó, 0.5 vCPU, 1GB DDR4 RAM, 30GB SSHD (SSD cached HDD), 10Gb/s "igazságosan megosztott" átvitel (a többi csomagnál ez 1TB/hó)
+  * kriptovaluta elfogadott: Bitcoin
+  * szerver: Románia
+  * cég: Seychelle-szigetek
 
 ## Árösszehasonlító oldalak
 
