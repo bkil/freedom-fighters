@@ -74,6 +74,11 @@
 
 * https://degooglisons-internet.org/en/list
 
+### libranet.de
+
+* https://libranet.de/
+* Friendica, XMPP, NextCloud ("nc")
+
 ### monocles.de
 
 * https://monocles.de/more/
