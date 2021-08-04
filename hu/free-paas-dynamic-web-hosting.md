@@ -5,7 +5,7 @@
 ### Nethely
 
 * https://www.nethely.hu/ingyenes-tarhely
-* Elhegyezkedés: BIX
+* Elhelyezkedés: BIX
 * 256MB tárhely
 * Nginx és Apache
 * vagy 1 MySQL 5.7 vagy 1 PostgreSQL 11 adatbázis, korlátlan hellyel, privát phpMyAdmin
@@ -24,6 +24,28 @@
 * egy tesztelt kiszolgáló: 200GB HDD RAID-1, 10GB RAM, AMD EPYC 7351P 16-Core @ 2.4GHz
 * CMS alkalmazás telepítő
 * csak a fizetős csomagban: cron időzített folyamatok, PHP gyorsító, SSD, részletes látogatottsági statisztika, HTTP/2, biztonsági mentés (Budapesten és Szegeden)
+
+### iHost
+
+* https://robot.ihost.hu/cart.php?gid=2
+* "Try" csomag
+* 512MB tárhely (NVMe SSD)
+* PHP 5.4-7.4
+* CloudLinux
+  * 200% CPU
+  * 2GB fizikai RAM, 2GB virtualis RAM
+  * 30 belépő folyamat
+* korlátlan adatforgalom
+* 3 adatbázis
+* 3 hozzáadható domain, 3 aldomain
+* ingyen SSL
+* 3 email fiók (POP3, SMTP, IMAP)
+* cPanel vezérlőpult
+  * automata telepítő
+* cron futtatás
+* LiteSpeed Cache szerver oldali támogatás
+  * HTTP/2
+* biztonsági mentés: Jet backup
 
 ## Magyar reklámos
 
@@ -520,6 +542,7 @@ Százával akadnak még külföldi alternatívák:
 * http://www.fhdir.com/
 * https://freehostsdir.com/
 * http://www.free-webhosts.com/
+* https://hu.hostadvice.com/hosting-services/free-hosting/
 
 ### Elévült
 
