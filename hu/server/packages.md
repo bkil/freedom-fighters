@@ -127,6 +127,35 @@
 * szakmai hírek (blog, podcast)
 * Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, személyes blogok
 
+### trom.tf
+
+* https://trom.tf/
+* szabad szolgáltatások
+  * Friendica ("social")
+  * NextCloud ("files", 5GB tárhely)
+  * PeerTube ("videos", korlátlan tárhely)
+  * [facilmap](https://github.com/FacilMap/facilmap) ("maps", OpenStreetMap különféle rétegekkel)
+  * CryptPad ("office", 300MB tárhely)
+  * [snweb](https://github.com/standardnotes/web) ("notes", standardnotes)
+  * Searx ("search")
+  * Lufi ("send", fájlküldés, max. 3GB, max. 7 napra)
+  * [RSS bridge](https://github.com/RSS-Bridge/rss-bridge) ("rss", RSS csatornát biztosít sokféle zárt weboldalhoz)
+  * Wallabag2 ("bag", könyvjelző)
+  * [diagramsnet](https://github.com/jgraph/drawio) ("diagrams")
+  * OpenSondage ("poll")
+  * EtherPad Mypads ("text")
+  * [wemawema](https://framagit.org/luc/wemawema) ("meme", mém generátor)
+  * [haste](https://github.com/toptal/haste-server) ("paste", pastebin)
+  * [SPF Toolbox](https://github.com/charlesabarnes/SPFtoolbox) ("check")
+  * [LibreSpeed SpeedTest](https://github.com/librespeed/speedtest) ("speed")
+  * [LibreQR](https://code.antopie.org/miraty/libreqr/) ("qr")
+* zárt szolgáltatások
+  * [Nitter](https://github.com/zedeus/nitter) ("bird", Twitter proxy)
+  * Invidious ("ytb", YouTube proxy)
+  * Bibliogram ("insta", Instagram proxy)
+  * Youtube music engine ("musik", Last.fm és YouTube proxy)
+* adományok: LibrePay
+
 ### undernet.uy
 
 * https://undernet.uy/
