@@ -32,10 +32,38 @@ Lásd még:
 
 * Az árak a hosszabbításra vonatkoznak - eleinte sok helyen adnak kedvezményt.
 * Névszerver kiszolgálás (avagy fenntartás vagy "NS/DNS hosting") is benne foglalva: alapból 2 szerverrel
-* Védjegy adatbázisok:
+* .hu TLD szabályok
   * Később elvehetik tőlünk a nevünket ha nem ellenőrizzük - hiába volt eredetileg szabad
-  * Magyar: [Szellemi Tulajdon Nemzeti Hivatala](http://epub.hpo.hu/e-nyilvantartas/?lang=HU)
-  * EU: [EUIPO](http://euipo.europa.eu/eSearch/)
+  * https://www.domain.hu/a-domain-nev-valasztas-formai-kovetelmenyei-magyar-karakterek/
+    * Legalább 2, legfeljebb 63 karakter (punnycode-ban), viszont az összes 2 betűs .hu már foglalt
+    * Betűkészlet [0-9a-záéíóöőúüű], kötőjel nem lehet az elején-végén vagy kötőjel után
+  * https://www.domain.hu/specialis-nevek/
+    * Második szintű közdomainek
+    * Védett nevek: minden közdomain alatt védett nevek, csak közvetlenül a .hu alatt védett nevek
+    * Településnevek
+    * Országnevek
+    * gov.hu
+    * olimpia vonatkozásúak
+  * https://www.domain.hu/miert-szukseges-korultekintes-a-nevvalasztasnal/
+    * Védjegyek
+      * Magyar: [Szellemi Tulajdon Nemzeti Hivatala](http://epub.hpo.hu/e-nyilvantartas/?lang=HU), [2](https://www.sztnh.gov.hu/hu/szakmai-oldalak/vedjegy/adatbazisok)
+      * EU: [EUIPO](http://euipo.europa.eu/eSearch/)
+      * [World Intellectual Property Organization](https://www3.wipo.int/branddb/en/)
+      * [TMview nemzetközi védjegy adatbázis](https://www.tmdn.org/tmview/welcome.html?lang=hu)
+    * Jogi személyek nevei
+    * Megbotránkozást, gyűlölet-, vagy félelmet keltő nevek
+    * Megtévesztő domain nevek
+    * Személynevek: 2020-07-30 után megszűnt szabály
+* .eu TLD szabályok
+  * https://eurid.eu/en/register-a-eu-domain/rules-for-eu-domains/
+    * EU állampolgár
+  * https://eurid.eu/media/filer_public/b7/fb/b7fbb549-420f-4a8e-baaf-084d695e3a79/idna.pdf
+    * csak a cirill, görög vagy latin karakterkészlet egyike használható és az egész névre ugyanaz
+  * https://eurid.eu/en/register-a-eu-domain/rules-for-eu-domains/list-blocked-names/
+    * tiltott nevek
+  * EURid által fenntartott nevek
+  * https://eurid.eu/d/374/2015_516_EN.pdf
+    * bármely tagállam aki további fenntartási igényt nyújtott be
 
 ### 024reg domain és dinamikus tárhely
 
