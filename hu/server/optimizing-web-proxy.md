@@ -85,6 +85,9 @@
 ### Böngésző vagy helyi proxy szolgáltatások
 
 * túl nagy képek betöltése kattintatás után (főleg távoli proxy nélkül hasznos), esetleg betöltés közben kattintásra megszakítás
+  * Matrix Element Web
+    * hangulatjelek és vezérlők helyett nagyobb Unicode karakterek (tud is ilyet betöltési hiba esetén)
+    * 1-1 eseményobjektumról el lehetne dönteni, hogy a blurhash, előnézeti vagy teljes változatot jelenítsük meg - néha az előnézeti több helyet foglal mint az eredeti vagy más formátumban van (jobban lekérdezhető részlegesen)
 * videók blokkolása, legkisebb minőségűre kényszerítése, előre letöltés csökkentése
 * betűtípusok blokkolása
 * favicon blokkolása vagy cseréje egy másik, gyorsítótárazott képre
