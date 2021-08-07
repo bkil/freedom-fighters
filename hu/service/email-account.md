@@ -52,10 +52,14 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 ### indamail
 
 * https://indamail.hu/
-* 2GB tárhely
+* 2GB tárhely, legfeljebb 1GB-es levélcsatolmány
 * POP3, IMAP
 * korábbi nevén: VIPmail, Indexmail, DrótPostaGalamb
 * érdekeltség: Indamedia csoport
+* választható végződések: indamail.hu, vipmail.hu, webmail.hu
+* további szolgáltatások:
+  * Index.hu, Totalcar.hu, Totalbike.hu, Nepitelet.hu, Divany.hu, Femina.hu, Port.hu, Indavideo.hu, Blog.hu, Indamail.hu, Forum.index.hu, Indafoto.hu, Penge.hu, Indafax.hu
+  * Velvet.hu, Konyvek.index.hu, Totalcarmagazine.com, Napi.hu, konferenciak.napi.hu, Retikul.hu, Noifriss.hu, Feminamedia.hu, Feminaklub.hu, Színház.hu, FeminaShop.hu, otthonterkep.hu, ingatlantajolo.hu, irodahaz.info, raktar.info
 
 ### Citromail
 
