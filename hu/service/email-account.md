@@ -33,6 +33,15 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 
 * https://www.c2.hu/new_user_registration/index.html
 * üzemeltető: OFFICEline Magyarország Kft.
+* legrövidebb használható felhasználónév: 2 karakter
+* webmail, IMAP, POP3, SMTP
+* 100MB tárhely regisztráció után, de minden nap "használat" (belépés?) után emelkedik egészen 10GB-ig
+* ha nem történik sem webmail belépés, sem kliens lekérés:
+  * 90 (60?) nap után nem fogad új leveleket (inaktiválódik)
+  * 270 nap után törlődik minden adat
+  * bármikor újra be lehet lépni
+* megszüntetett fiók újra nem regisztrálható
+* belépési adatokat (időpont, IP cím) 1 évig tárolnak
 
 ### Freemail
 
