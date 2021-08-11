@@ -48,6 +48,10 @@ Csoportokba soroljuk attól függően, hogy pontosan milyen feltételeket teljes
     * "`Bejelentés`" gomb az üzenetei mellett
 * Megbízható
 
+Hasonló Discourse alatt a megbízhatósági szint:
+
+* https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/
+
 ## Oldal hozzáférési nehezítések JavaScript nélkül
 
 * Opcionális: valami egyedi hibaoldal keretében (401?) visszaadni a tartalmat
