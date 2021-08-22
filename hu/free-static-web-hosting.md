@@ -57,24 +57,9 @@
 * kedvezmény a fizetős csomagokból szabad szoftveres projekteknek
 * serverless functions
 
-### Firebase
-
-* https://firebase.google.com/pricing/
-* 10GB tárhely, 360MB/nap forgalom
-* Firestore (szinkronizált NoSQL dokumentumtár): 1GB tár, 10GB/hó letöltési forgalom, 20k dokumentumírás/nap
-* Firebase realtime database (valós időben kliensekkel szinkronizált): 1GB tár, 10GB/hó letöltés
-* Firebase Storage (GCP bucket): 5GB tár, 1GB/nap letöltés, 20K/nap feltöltés
-
 ### Surge
 
 * https://surge.sh/
-
-### Cloudflare Pages
-
-* https://pages.cloudflare.com/
-* CI
-* korlátlan forgalom
-* CDN
 
 ### MongoDB
 
@@ -90,6 +75,17 @@
 * 3GB tárhely
 * Let's Encrypt SSL
 * Inspiráció egy régi bővítményből: https://wordpress.org/plugins/really-static/
+
+### Wix.com
+
+* https://www.wix.com/free/web-hosting
+* 500MB tárhely
+* 500MB/hó forgalom
+* HTTPS
+* CDN
+* weblapszerkesztő, kész sablonok, SEO eszköztár
+  * egyedi HTML megengedett
+* ingyenes csomag korlátai: reklámot jelenít meg, csak aldomain
 
 ### CodeSandbox
 
@@ -114,3 +110,28 @@
 * 15GB tárhely
   * max. 1MB/oldal
 * bizonyos korlátozások a HTML, CSS, JS testreszabásával kapcsolatban
+
+### Cloudflare Pages
+
+* https://pages.cloudflare.com/
+* CI
+* korlátlan forgalom
+* CDN
+
+### Firebase
+
+* https://firebase.google.com/pricing/
+* 10GB tárhely, 360MB/nap forgalom
+* Firestore (szinkronizált NoSQL dokumentumtár): 1GB tár, 10GB/hó letöltési forgalom, 20k dokumentumírás/nap
+* Firebase realtime database (valós időben kliensekkel szinkronizált): 1GB tár, 10GB/hó letöltés
+* Firebase Storage (GCP bucket): 5GB tár, 1GB/nap letöltés, 20K/nap feltöltés
+
+### Google Sites
+
+* https://en.wikipedia.org/wiki/Google_Sites
+* weblapszerkesztő
+* Classic
+  * 100MB tárhely (független Google Drive-től)
+    * max. 50MB csatolmány
+  * 10 új létrehozható portál 5 napos csúszóablakkal
+    * korlátlan oldalszám
