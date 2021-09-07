@@ -162,6 +162,45 @@
 * Webmail ("mail", Roundcube, IMAP), ownCloud ("cloud"), Airsonic ("air"), Mumble, Minetest ("mine"), Mastodon ("mastodon"), PeerTube ("tube"), [Honk](https://humungus.tedunangst.com/r/honk) ("muro", ActivityPub közösségi háló), Jabber ("jabber")
 * adományok fogadása: PayPal
 
+### Wakoma
+
+* https://wakoma.co/nimble/
+  * Video and audio calling and messaging: Jitsi, Synapse
+  * High-speed file-sharing and synchronization: NextCloud
+  * Voucher Sales (Share and sell access to your internet connection): RADIUSDesk, UniFi
+  * Wireless network management: UniFi, OpenWISP
+  * Social eLearning: build, run and take courses offline or online: Wakoma Learn
+  * Accessing educational content: Kiwix
+  * Building and hosting local websites and blogs: WordPress
+  * Media streaming: Jellyfin, AVideo, Plex
+  * Playing games and hosting game servers
+  * Collaborative document and spreadsheet creation: Nextcloud, OnlyOffice
+  * Downloading files (like Kiwix education ZIMs): Transmission
+  * Social Networking and forums: Discourse, Wakoma Learn
+  * Reading and organizing e-books: Calibre Web
+  * Building photo and video galleries: Piwigo, Lychee
+  * Conducting surveys, polls and questionnaires: Kobo/Enketo
+  * Collecting ethical usage and traffic analytics: Matomo, AWStats
+* https://github.com/Wakoma/Lokal/tree/main/config
+  * https://wakoma.co/lokal/
+  * Kiwix
+  * Nextcloud
+  * Jitsi
+  * Wordpress
+  * Jellyfin: Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream media to any device.
+  * UniFi Controller: Network Management Software that binds gateways, switches and wireless access points together with one graphical front end. (Not open source)
+  * Transmission
+  * Calibre Web
+  * Matomo: Google Analytics alternative that protects your data and your customers’ privacy.
+  * Collabora Office
+  * Grafana: From dashboards to metrics, logs and traces. Choose what works best for you and your team.
+  * Prometheus: Power your metrics and alerting with a leading open-source monitoring solution.
+  * ResourceSpace: ResourceSpace open source Digital Asset Management software is the simple, fast, & free way to organise your digital assets.
+  * AzuraCast: azuracast is a free and open-source self hosted web radio management suite.
+  * Moodle
+  * Kolibri: An education content library for easy access to Khan Academy and more.
+  * TODO: Matrix Synapse, Matrix Element Web, OpenVPN
+
 ## Szabad szolgáltatáscsomag telepítők
 
 Érdemes összehasonlítani a kínálatukat, illetve érdekes volna kombinálni a palettákat valamilyen módon.
