@@ -6,29 +6,44 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 
 ### GitLab.com
 
+* https://gitlab.com/
 * gazdag az API-ja
+  * https://docs.gitlab.com/ee/api/
 * CI/CD, statikus webkiszolgálás
 * cenzúrázva: Kuba
 
 ### Savannah
 
 * https://savannah.gnu.org/
-* https://savannah.nongnu.org/
+  * https://savannah.nongnu.org/
+  * https://git.savannah.gnu.org/cgit/administration/savane.git/
+* nincs kifejezett REST API, de a frontendről elérhetők a projekt menedzsment funkciók és levelezés
+  * https://savannah.gnu.org/maintenance/SavannahInternals/
 * cenzúrázatlan: Kuba
 
 ### LaunchPad.net
 
+* https://LaunchPad.net/
 * fiók: Ubuntu One
+* REST API funkciók: projekt menedzsment, hibajegy kezelés
+  * https://help.launchpad.net/API/Hacking
 * Bazaar, Git
 * cenzúrázatlan: Kuba
 
 ### Pagure.io
 
+* https://Pagure.io/
 * fiók: Fedora FAS
+* REST API funkciók: projekt menedzsment, PR és hibajegy kezelés
+  * https://src.fedoraproject.org/api
 * cenzúrázatlan: Kuba
 
 ### SourceForge.net
 
+* https://sourceforge.net/
+  * forrás: https://allura.apache.org/
+* REST API funkciók: hibajegyek, üzenetek, wiki oldal és blogbejegyzés
+  * https://forge-allura.apache.org/docs/getting_started/administration.html#public-api-documentation
 * cenzúrázva: Kuba
 
 ## Új, kis szereplők
@@ -45,6 +60,9 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 * 2019
 * motorja: gitea
 * helyszín: Kína
+* wiki
+* gazdag REST API funkciók: projekt menedzsment, hibajegyek, változáscsomagok, fájlok létrehozása
+  * https://docs.gitea.io/en-us/api-usage/
 * cenzúrázatlan: Kuba
 
 ### NotABug.org
@@ -76,22 +94,30 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 
 ### SourceHut.org
 
-& motorja: Sourcehut
+* motorja: Sourcehut
 * később fizetősnek tervezik
 
 ## Negatív példák
 
 ### GitHub.com
 
+* https://github.com/
 * gazdag az API-ja
+  * https://docs.github.com/en/free-pro-team@latest/rest
 * CI/CD, statikus webkiszolgálás
 * nem magunk által üzemeltethető
 * üzemeltető: Microsoft
+* cenzúrázatlan: Kuba
 
 ### BitBucket.com
 
+* https://bitbucket.com/
+* gazdag az API-ja
+  * https://developer.atlassian.com/server/bitbucket/reference/rest-api/
 * CI/CD, statikus webkiszolgálás
 * nem magunk által üzemeltethető
+* üzemeltető: Atlassian
+* cég: Ausztrália
 * cenzúrázatlan: Kuba
 
 ## Külső hivatkozások
