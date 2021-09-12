@@ -106,7 +106,7 @@ Előnye, hogy olyan protokollt és titkosítást telepítünk rá amilyet szeret
 * SugarSync http://sugarsync.com/
 * Tardigrade
 * Uptobox
-* Yandex Disk
+* Yandex Disk 10GB
 * Zoho WorkDrive
 * Alfresco Cloud http://www.alfresco.com/
 * Windows Azure BLOB http://www.microsoft.com/windowsazure/windowsazure/
@@ -115,7 +115,7 @@ Előnye, hogy olyan protokollt és titkosítást telepítünk rá amilyet szeret
 * Ceph http://ceph.com/
 * Cleversafe https://www.cleversafe.com/
 * Cloudian http://www.cloudian.com/
-* CloudMe (iCloud) http://www.cloudme.com/
+* 3GB CloudMe (iCloud) 1GB http://www.cloudme.com/
 * CMIS http://docs.oasis-open.org/cmis/CMIS/v1.0/cmis-spec-v1.0.html
 * Dell EMC ECS http://www.emc.com/storage/atmos/atmos.htm
 * Dell EMC Elastic Cloud Storage https://portal.ecstestdrive.com/
@@ -161,6 +161,18 @@ Előnye, hogy olyan protokollt és titkosítást telepítünk rá amilyet szeret
 * Trend Micro http://us.trendmicro.com/us/products/personal/safe-sync/
 * Wasabi
 * Zimbra http://www.zimbra.com/
+* 6GB https://en.wikipedia.org/wiki/Baidu_Cloud
+* https://en.wikipedia.org/wiki/Dropmysite
+* https://en.wikipedia.org/wiki/ElephantDrive
+* 5GB https://en.wikipedia.org/wiki/IDrive_Inc.
+* 2GB https://en.wikipedia.org/wiki/Jumpshare
+* 10GB https://en.wikipedia.org/wiki/MediaFire
+* 7GB https://en.wikipedia.org/wiki/MiMedia
+* 10GB https://en.wikipedia.org/wiki/Syncplicity
+* 3GB https://en.wikipedia.org/wiki/Tresorit
+* 10GB https://en.wikipedia.org/wiki/Attic_(backup_software)#Borg
+* 100MB https://en.wikipedia.org/wiki/SecureSafe
+* 10GB https://em.wikipedia.org/wiki/Tencent_Weiyun
 * általános szolgáltatók: FTP, SFTP, HTTP, WebDAV
 
 ## Nem ingyenes
@@ -186,7 +198,9 @@ Jelenleg Magyarországon nem ingyenes. Amazon Prime előfizetés és Kindle Fire
 
 ### Amazon S3
 
-* 12 hónapra 5GB Amazon S3 (+ VM block storage)
+* 5GB tárhely
+* Amazon S3 (+ EC2/EBS VM block storage)
+* 12 hónap próbaidő
 
 ### Box
 
@@ -212,3 +226,5 @@ Jelenleg Magyarországon nem ingyenes. Amazon Prime előfizetés és Kindle Fire
 
 * https://rclone.org/overview/
 * https://eu.storagemadeeasy.com/cloud_list/
+* https://en.wikipedia.org/wiki/Comparison_of_online_backup_services
+* https://en.wikipedia.org/wiki/Comparison_of_file_hosting_services
