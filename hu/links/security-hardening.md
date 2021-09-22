@@ -7,3 +7,5 @@
 * https://github.com/Whonix/security-misc
 * https://git.nixnet.services/you/stop_cloudflare/src/branch/master/subfiles/change-firefox-dns.md
 * https://github.com/a13xp0p0v/linux-kernel-defence-map
+* https://github.com/lfit/itpol/blob/master/linux-workstation-security.md
+* https://github.com/wesaphzt/block-all-google
