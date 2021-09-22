@@ -53,13 +53,16 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 
 ### Példák utca léptékű interakcióra
 
-* elkapta a szél az antennát/cserepet
+* elkapta a szél az antennát, cserepet, ágat
 * vagyonbiztonság
+  * szól az autó- vagy lakásriasztó
   * nyitva maradt az ajtó
   * kitört az ablak
   * ki vannak teregetve a ruhák és jön a vihar
   * mi volt amit láttam vagy hallottam, hívjuk a 112-t?
 * nálatok sincs víz/villany/internet? Közműszünet alatt: xy óra-perckor lesz átmenetileg központi aggregátorról áram x órára.
+* patakzik a víz az úton (csőtörés, tűzcsap)
+* elromlott utcabútor
 * nálatok sem vitték el a kukát?
 * hozzátok is jár a mókus/nyest?
 * mi ez a hangzavar az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák, feltörik az autót, ablakot, ajtót)

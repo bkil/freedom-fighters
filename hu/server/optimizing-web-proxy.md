@@ -110,6 +110,7 @@
   * HTML, navigációs ikonok, CSS, JavaScript, fotók
 * Az eredeti forrástól takarékosabb változat lekérése
   * weboldalak asztali változatának átirányítása mobil vagy WAP változatra
+    * https://i.reddit.com/
   * wiki forrásának lekérése és abból helyi weboldal formázás (akár fele-harmadakkora, és még ebből is sokszor range request levághatná fejléceket)
     * https://en.wikipedia.org/w/api.php?action=parse&prop=wikitext&format=json&page=Wikipedia
     * https://en.wikipedia.org/wiki/Special:Export/Wikipedia
@@ -135,3 +136,4 @@
 * https://en.wikipedia.org/wiki/Bolt_(web_browser)#Server-assisted_data_compression
 * https://en..wikipedia.org/wiki/Skweezer
 * https://en.wikipedia.org/wiki/Vision_Mobile_Browser
+* http://ssb22.user.srcf.net/adjuster/ _Tornado-based, domain-rewriting proxy for applying custom processing to Web pages_

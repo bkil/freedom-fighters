@@ -16,7 +16,7 @@
 ### Biztonsági szempontból
 
 * Csökkenti a szoftverhibák kihasználhatóságának támadási felületet
-* Megszünteti az architekturális információszivárgást (például a [spekulatív végrehajtás](https://en.m.wikipedia.org/wiki/Spectre_%28security_vulnerability%29) kapcsán)
+* Megszünteti az architekturális információszivárgást (például a [spekulatív végrehajtás](https://en.wikipedia.org/wiki/Spectre_%28security_vulnerability%29) kapcsán)
 * Jelentősen visszaszorítja az irányítási és jelentési csatornákat
 
 ### Nélkülözhetőség
@@ -33,13 +33,18 @@ A felesleges JavaScript mellőzésének hatékonysága, tipikusan:
 * Csökkenti a böngésző processzor terhelését és az ezzel kapcsolatos késleltetéseket és interakciózavarokat mind a parszolás, mind a tényleges futás következtében
 * Előfordul, hogy néha JavaScript nélküli, sokkal takarékosabb változatra irányít a szerver (vélhetően keresőrobotok előnyben részesítése miatt)
 
+### Hozzáférhetőség
+
+Egyes weboldalak kevésbé hozzáférhetőek "progressive enhancement" hatására, azaz miután JavaScript alól gazdagabbá tették a navigációs felületet.
+Ezen esetekben is segíthet a JavaScript teljes vagy részleges tiltása a gyakorlatban.
+
 ## JavaScript megoldások előnyei
 
 ### Kliens oldali feldolgozás
 
 * A magunk által üzemeltethetőség népszerűsítését és ingyenes szolgáltatások fenntartható nyújtását elősegíti a szerver bonyolultságának és terhelésének csökkentése
 * Megteremti a lehetőségét, hogy egyes titkokat ne juttassanak el a felhasználók (titkosítatlanul) a szerverre
-* Speciális megoldásokkal kifejezetten csökkenthető a reakcióidő és/vagy az adatforgalom a gyakorlatban, de ez 2021-ben csak elhanyagolható számú helyen fordul elő.
+* Speciális megoldásokkal kifejezetten csökkenthető a reakcióidő és/vagy az adatforgalom a gyakorlatban, de ezt 2021-ben csak elhanyagolható számú helyen alkalmazzák.
 
 ### Visszaélés elleni védelem
 
