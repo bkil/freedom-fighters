@@ -39,7 +39,30 @@
 
 * https://envs.net/
 * tildeverse tag
-* linkrövidítő, nullpointer (parancssoros fájlfeltöltő), getwtxt ("twtxt", mikroblogging), gitea ("git"), hedgedoc ("hedgedoc", kollaboratív markdown szerkesztés), "matrix" (Matrix Synapse, Element, Dimension, mjolnir), pleroma ("pleroma"), privatebin ("pb", pastebin képeknek), Searx ("searx"), tiny tiny RSS ("rss"), Modoboa ("mail", webmail, 250MB), Mailman3 ("lists"), "bbj" (fórum), drone CI ("drone"), IP címünk információ ("ip"), webtárhely (statikus, SSI, jelszóvédelem, PHP, sh, perl, Python, lua, cgi-bin), blog (ttbp, bashblog), adatbázis (sqlite, kérésre mysql), gopher (+proxy), gemini, webirc, znc, DNS (DNS-over-TLS)
+* szolgáltatások
+  * linkrövidítő
+  * nullpointer (parancssoros fájlfeltöltő)
+  * getwtxt ("twtxt", mikroblogging)
+  * gitea ("git")
+  * hedgedoc ("hedgedoc", kollaboratív markdown szerkesztés)
+  * "matrix" (Matrix Synapse, Element, Dimension, mjolnir)
+  * pleroma ("pleroma")
+  * privatebin ("pb", pastebin képeknek)
+  * Searx ("searx")
+  * tiny tiny RSS ("rss")
+  * Modoboa ("mail", webmail, 250MB)
+  * Mailman3 ("lists")
+  * "bbj" (fórum)
+  * drone CI ("drone")
+  * IP címünkkel kapcsolatos információk ("ip")
+  * webtárhely (statikus, SSI, jelszóvédelem, PHP, sh, perl, Python, lua, cgi-bin)
+  * blog (ttbp, bashblog)
+  * adatbázis (sqlite, kérésre mysql)
+  * gopher (+proxy)
+  * gemini
+  * webirc
+  * znc
+  * DNS (DNS-over-TLS)
 * ssh
   * 1GB tárhely
   * max. 200 egyidejű szál
@@ -89,7 +112,25 @@
 ### nogafam.es
 
 * https://www.nogafam.es/#servicios
-* Szolgaltatások: Mastodon ("masto"), Friendica, Pixelfed ("pixel"), PeerTube ("video"), Lemmy ("forum"), Funkwhale ("music"), Matrix Synapse ("matrix"), XMPP, email ("mail", RainLoop), Jitsi Meet ("jitsi"), Mumble ("turn"), Nextcloud ("cloud"), Searx ("searx"), Plume ("plume", blog), WriteFreely ("writeas"), Miniflux ("rss", RSS aggregátor), Wallabag ("share"), [Porl](https://github.com/cydrobolt/polr) ("u", linkrövidítő)
+* Szolgaltatások
+  * Mastodon ("masto")
+  * Friendica ("friends")
+  * Pixelfed ("pixel")
+  * PeerTube ("video")
+  * Lemmy ("forum")
+  * Funkwhale ("music")
+  * Matrix Synapse ("matrix")
+  * XMPP
+  * email ("mail", RainLoop)
+  * Jitsi Meet ("jitsi")
+  * Mumble ("turn")
+  * Nextcloud ("cloud")
+  * Searx ("searx")
+  * Plume ("plume", blog)
+  * WriteFreely ("writeas")
+  * Miniflux ("rss", RSS aggregátor)
+  * Wallabag ("share")
+  * [Porl](https://github.com/cydrobolt/polr) ("u", linkrövidítő)
 * adományok fogadása: LibrePay, PayPal, bankszámla
 
 ### poddery.com
@@ -154,6 +195,7 @@
   * Invidious ("ytb", YouTube proxy)
   * Bibliogram ("insta", Instagram proxy)
   * Youtube music engine ("musik", Last.fm és YouTube proxy)
+* infrastruktúra: YunoHost
 * adományok: LibrePay
 
 ### undernet.uy
@@ -221,6 +263,7 @@
   * https://github.com/davestephens/ansible-nas
   * https://github.com/osm-fr/ansible-peertube
   * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
+  * https://github.com/JeroenED/Ansible-Role-Friendica
 
 ### sovereign
 
@@ -260,6 +303,10 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
   * kriptovalutákhoz: Bitcoin, Bitcoin Proxy, Lightning Network Daemon (LND), c-lightning, Ride the Lightning (RTL), Spark Wallet, BTCPayServer, Sphinx Chat
   * egyéb szolgáltatások: Bitwarden, Burn After Reading, Cups Messenger, File Browser, Mastodon, Embassy Pages
   * licenc: https://github.com/Start9Labs/embassy-os/blob/master/LICENSE.md
+* https://softaculous.com/apps
+* https://installatron.com/apps
+* https://netenberg.com/fantastico-scripts.html
+* https://www.plesk.com/extensions/category/web_app/
 
 ## Megcélzott szolgáltatások
 
