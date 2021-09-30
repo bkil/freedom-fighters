@@ -10,7 +10,7 @@
 ### Személyes adatok védelme
 
 * megnehezíti az adatszivárogtatást a meglátogatott oldalak vagy harmadik fél részére
-  * böngésző ujjlenyomat, szupersütik és biometria
+  * böngésző ujjlenyomat (Tor), szupersütik és biometria
 * megnehezíti a komplex, rendszerszintű visszaéléseket (mind a meglévők mint az XSS, mind eddig fel nem fedezett esetekben)
 
 ### Biztonsági szempontból
@@ -31,6 +31,7 @@ A felesleges JavaScript mellőzésének hatékonysága, tipikusan:
 * Csökkenti a letöltendő adatmennyiséget ami gyorsítja a betöltést és még költségvonzatban is jelentkezhet
   * Lásd még: [../server/optimizing-web-proxy.md](../server/optimizing-web-proxy.md)
 * Csökkenti a böngésző processzor terhelését és az ezzel kapcsolatos késleltetéseket és interakciózavarokat mind a parszolás, mind a tényleges futás következtében
+  * https://en.wikipedia.org/wiki/Unobtrusive_JavaScript
 * Előfordul, hogy néha JavaScript nélküli, sokkal takarékosabb változatra irányít a szerver (vélhetően keresőrobotok előnyben részesítése miatt)
 
 ### Hozzáférhetőség
