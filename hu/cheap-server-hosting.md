@@ -59,7 +59,8 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 * https://rackoonet.hu/openvz-7-vps/ 417 (1 év, alanyi adómentes)
   * **OVZ7-START (2020)**: OpenVZ 7, 1 vCPU (HP DL380, 2x Intel Xeon 6-core +HT, 3GHz), 512MB RAM, 5GB HDD (6x HP 10k SAS, HP HW RAID10 + FBWC), korlátlan adatforgalom, 200Mb/s, IPv4 (elvileg magyar: Victor Hugo 18-22)
 * https://atw.hu/vps 445 + áfa (2 év)
-  * **egyéni VPS konfigurátor**, KVM, 1 vCPU, 512MB RAM, 5GB SSD (DRBD mirror), 1Gb/s, IPv4 + /56 IPv6 (elvileg magyar: Victor Hugo 11-15, 18-22)
+  * **egyéni VPS konfigurátor**, KVM, 1 vCPU, 512MB RAM, 5GB SSD (DRBD mirror), 1Gb/s, IPv4 + /56 IPv6 (magyar: Victor Hugo 11-15, 18-22)
+  * cég: magyar; ATW Internet Kft.; H-1138 Budapest, Esztergomi út 66. fsz. 1.; Adószám: 13471868-2-41; Cégjegyzékszám: 01-09-736956
 * https://vps4you.hu/r/vives 699 Ft/hó vagy 6962 Ft/év (alanyi adómentes)
   * **SSD VPS 512MB**, KVM, 1 vCPU (Dell C6100, Intel Xeon CPU X5650 @ 2.67GHz), 512MB RAM (DDR3 ECC), 5GB SSD (ZFS SSD RAID), ~30TB/hó adatforgalom (<100Mb/s), 1Gb/s (2*1Gb/s szerverenként), IPv4 + /128 IPv6 (magyar: DENINET Kft 1132 Budapest, Victor Hugo 18-22)
   * 3 nap tesztelés ingyen
