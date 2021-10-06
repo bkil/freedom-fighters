@@ -38,7 +38,7 @@ Az `opcionális:` jelölés alatt azt értjük, hogy mivel a többihez képest j
 * külső erőforrások kliens oldali opcionális lekérhetőségének és gyorsítótárazhatóságának javítása, deduplikáció
   * opcionális: a (nagyobb) inline erőforrások törlése vagy külső hivatkozásra cserélése
     * JavaScript, CSS, CSS háttérkép, SVG, tetszőleges egyéb `data:` URI
-  * opcionális: heurisztikasan nagyobb, hosszabb távon változatlan vagy nem szükségszerű részeinek kiszervezése iframe-ekbe
+  * opcionális: heurisztikasan HTML nagyobb, hosszabb távon változatlan vagy nem szükségszerű részeinek kiszervezése iframe-ekbe
   * `integrity` címke hozzáadása: JavaScript, CSS
   * a tartalom hashének fájlnévbe (query vagy anchor?) kódolása
 * mozgó gif megállítása, minőségrontása vagy WebM újratömörítése
@@ -96,7 +96,14 @@ Az `opcionális:` jelölés alatt azt értjük, hogy mivel a többihez képest j
 
 ### Böngésző vagy helyi proxy szolgáltatások
 
-* túl nagy képek betöltése kattintatás után (főleg távoli proxy nélkül hasznos), esetleg betöltés közben kattintásra megszakítás
+* képek hivatkozásának cseréje kisebbre
+  * amennyiben a webes CMS keretrendszer rendelkezésre bocsát a környezetből levezethető URI alatt alternatívát
+  * pl. mediawiki thumbnail tud szélesség és fájlformátum szerint dinamikusan átalakítani
+  * lusta betöltést biztosító konstrukció beépítése
+* képek betöltése kattintatás után (főleg távoli proxy nélkül hasznos), esetleg betöltés közben kattintásra megszakítás
+  * akár méretkorlát szerint
+  * addig a helyükön elérési út alapján számolt színek és/vagy formák
+  * igény esetén lehetőség navigációs ikonok tömeges betöltésére
   * Matrix Element Web
     * hangulatjelek és vezérlők helyett nagyobb Unicode karakterek (tud is ilyet betöltési hiba esetén, csak kicsit nagyobban kellene)
     * 1-1 eseményobjektumról el lehetne dönteni, hogy a blurhash, előnézeti vagy teljes változatot jelenítsük meg - néha az előnézeti több helyet foglal mint az eredeti vagy más formátumban van (jobban lekérdezhető részlegesen)
@@ -115,8 +122,6 @@ Az `opcionális:` jelölés alatt azt értjük, hogy mivel a többihez képest j
   * http://microformats.org/wiki/hash-examples#Existing_Practices "Link Fingerprints"
 * takarékos üzemmódban az előrelátóan történő letöltések tiltása
 * opcionális: heurisztikus optimalizációk (kattintásra visszavonhatóak ha elrontják a megjelenést)
-  * képek betöltésre kattintásra, addig a helyükön elérési út alapján számolt színek és/vagy formák
-    * igény esetén lehetőség navigációs ikonok tömeges betöltésére
   * A leggyakrabban előforduló JavaScript framework és implementációs praktikák ismeretében betöltés előtt olyan user-CSS (JavaScript) kiegészítések, aminek hatására minél több távolról letöltött erőforrás (JavaScript, CSS, fontok, képek) nélkül is használható legyen az oldal.
     * `<details>...<summary>` lenyílók
     * pipálások táblázatos feature mátrixban (van ahol képekből vagy egyedi font alapján rakják össze)
