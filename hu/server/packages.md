@@ -204,6 +204,22 @@
 * Webmail ("mail", Roundcube, IMAP), ownCloud ("cloud"), Airsonic ("air"), Mumble, Minetest ("mine"), Mastodon ("mastodon"), PeerTube ("tube"), [Honk](https://humungus.tedunangst.com/r/honk) ("muro", ActivityPub közösségi háló), Jabber ("jabber")
 * adományok fogadása: PayPal
 
+### Weho.st
+
+* https://weho.st/
+* szolgáltatások
+  * NextCloud ("cloud")
+  * VPN
+  * Searx ("search")
+  * Etherpad ("pad")
+  * EtherCalc ("calc")
+  * Cryptpad ("cryptpad")
+  * email (közreműködőknek)
+  * gogs.io ("git")
+  * Mastodon ("social")
+  * draw.io ("draw")
+* ország: Amszterdam, Hollandia
+
 ### Wakoma
 
 * https://wakoma.co/nimble/
