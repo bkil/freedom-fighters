@@ -337,7 +337,10 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
   * openldap + dex
   * ory hydra + ory kratos
   * https://forge.tedomum.net/acides/hiboo/hiboo
-* email (Dovecot?), webmail, levlista
+* email postafiók (Dovecot?)
+  * webmail
+  * email továbbító alias címek, időkorlátos fogadó címek
+  * felhasználók által létrehozott levlisták
 * (statikus vagy PHP-) webtárhely, Wordpress (CMS weboldalakhoz)
 * VPN
 * Lemmy kérdéseknek és linkmegosztás
@@ -381,7 +384,13 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
     * dinamikus DNS kiszolgálás csomagüzemeltetők részére
 * OSM Tasking Manager
 * biztonsági másolat szerverekről vagy kliensekről
-* Optimalizáló web proxy
+* web proxy-k
+  * optimalizáló
+  * anonimizáló
+  * Tor uplink
+    * cache-elés, gyorsítás érdekében
+    * ahol kliens oldalon tiltott a Tor
+    * megosztó tartalmakhoz - akár a nem-Tor uplinkesek széleskörű családi szűrőket alkalmaznának a jogi aggályokat elkerülendő
 
 ### Kisvállalati csomag
 
@@ -413,3 +422,4 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 
 * https://www.autistici.org/links
 * https://riseup.net/en/security/resources/radical-servers
+* https://www.systemli.org/en/friends/
