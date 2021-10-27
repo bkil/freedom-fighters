@@ -38,5 +38,5 @@ web: PixelFed|bélyegkép, leírás|nem|bélyegkép, leírás||kép, leírás|
 web: Mobilizon|kép, leírás|nem|bélyegkép, leírás||kép, leírás|
 web kliens||sengi, Pinaforce, Halcyon, Cuckoo+||||
 asztali kliens|Choqok, Friendiqa|Choqok, Tootle, WhaleBird, TheDesk, Gakki, Olifant, Kaiteki, sengi, Hyperspace||WhaleBird, Kaiteki, sengi||TheDesk, Deskey, TenCha
-mobil kliens|Fedilab, Fedilab Lite, DiCa-MianXian|Husky, Tusky, AndStatus, Twidere, Fedilab, Fedilab Lite, SubwayTooter, DiCa-MianXian|Dandelion, Insporation, DiCa-MianXian|Husky, Fedilab, Fedilab Lite|Nomad|MisskeyAndroidClient, KaisendonMk2
+mobil kliens|Friendiqa, Fedilab, Fedilab Lite, DiCa-MianXian|Husky, Tusky, AndStatus, Twidere, Fedilab, Fedilab Lite, SubwayTooter, DiCa-MianXian|Dandelion, Insporation, DiCa-MianXian|Husky, Fedilab, Fedilab Lite|Nomad|MisskeyAndroidClient, KaisendonMk2
 beágyazható megosztás gomb|"""Advanced Sharer"""|igen|"""Advanced Sharer"", Simple Diaspora Sharing"|még nincs||

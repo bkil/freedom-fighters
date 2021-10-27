@@ -12,7 +12,7 @@
 ### Összehasonlítások:
 
 * https://the-federation.info/#protocols Szerver és protokoll statisztikák
-* https://podupti.me/ Szerver kereső táblázat
+* https://friendica.fediverse.observer/ Szerver kereső táblázat (régi nevén: podupti.me)
   * javasolt szűrőfeltételek:
     * Signups=yes
     * Pod: könnyű legyen kimondani telefonon keresztül
