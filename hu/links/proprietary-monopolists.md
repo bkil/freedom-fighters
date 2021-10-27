@@ -28,6 +28,12 @@
 
 - https://threatpost.com/facebook-fixes-vulnerability-that-led-to-account-takeover-pays-researcher-16k/120688/
 
+- https://news.ycombinator.com/item?id=28801908
+- https://slate.com/technology/2021/10/facebook-unfollow-everything-cease-desist.html
+> _Facebook Banned Me for Life Because I Help People Use It Less_
+> The tool I created, a browser extension called Unfollow Everything, allowed users to delete their News Feed by unfollowing their friends, groups, and pages. 
+> Facebook sent me a cease-and-desist letter. The company demanded that I take down the tool. It also told me that it had permanently disabled my Facebook account—an account that I’d had for more than 15 years, and that was my primary way of staying in touch with family and friends around the world. Pointing to **a provision in its terms of service that purports to bind even _former users_ of Facebook**, Facebook also demanded that I never again create a tool that interacts with Facebook or its many other services in any way.
+
 ## Instagram
 
 - https://www.forbes.com/sites/zakdoffman/2019/09/12/new-instagram-hack-exclusive-facebook-confirms-user-accounts-and-phone-numbers-at-risk/
@@ -61,6 +67,22 @@
 - https://www.reddit.com/r/DataHoarder/comments/j61wcg/g_suite_becomes_google_workspace_12month/ G Suite becomes Google Workspace ($12/month Unlimited plan becomes $12/month 2tb plan)
 - https://edition.cnn.com/2019/07/22/tech/google-street-view-privacy-lawsuit-settlement/index.html
 - https://forbes.com/sites/thomasbrewster/2021/10/04/google-keyword-warrants-give-us-government-data-on-search-users/ _Exclusive: Government Secretly Orders Google To Identify Anyone Who Searched A Sexual Assault Victim’s Name, Address And Telephone Number_
+
+- https://ec.europa.eu/commission/presscorner/detail/en/IP_21_3143
+> Antitrust: Commission opens investigation into possible anticompetitive conduct by Google in the online advertising technology sector
+> Press release 22 June 2021 Brussels
+> The formal investigation will notably examine whether Google is distorting competition by restricting access by third parties to user data for advertising purposes on websites and apps, while reserving such data for its own use.
+
+- https://www.msn.com/en-us/news/technology/revealed-google-and-facebook-s-jedi-blue-pact-on-online-ads/ar-BB1c8XFM
+> REVEALED: Google and Facebook's 'Jedi Blue' pact on online ads
+> an internal Facebook document described the Jedi Blue deal as 'relatively cheap' when compared with direct competition.
+> Google and Facebook were aware that their agreement could trigger antitrust investigations and discussed how to deal with them.
+
+- https://reddit.com/r/patient_hackernews/comments/qeop04/google_had_a_plan_called_project_nera_to_turn_the/
+- https://twitter.com/fasterthanlime/status/1452053941504684036
+> Google had a plan called “Project NERA” to turn the web into a walled garden
+> "Not Owned But Operated". A core component of this was the forced logins to the chrome browser you've probably experienced
+> Google has worked with Facebook and Microsoft to discourage them from increasing user privacy, lamenting occasions where they prioritized their reputation over their collective business interest
 
 ## Twitter
 
