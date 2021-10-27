@@ -1,0 +1,95 @@
+# Játékfejlesztőknek backend üzemeltetése
+
+## Bevezetés
+
+Ha a hobbi játékfejlesztő szeretne a jövőben minél szélesebb körök által is kipróbálható többjátékos (akár föderált) játékokat implementálni, nem tudna-e ingyen üzemeltetni backendet ahová a játékosok kliensei csatlakozhatnak?
+Ezen játékok egy része nagyjából valós idejű, míg mások lehetnek késleltetéstűrők, körökre osztottak is.
+Kifejleszthető egy játék úgy is, hogy nagyrészt P2P módon végezze a számításait és a kommunikációt (<https://unhosted.org/>).
+
+### Minimális követelmények
+
+- Webes kiszolgálás
+  - statikus webalkalmazásnál HTML frontend
+  - egyébként letölthető telepítőcsomagok
+  - dokumentáció
+- Tartós felhasználói tár: például ranglista, mentések, játékórák, szintlépések
+- Tűzfal mögötti játékosok összekötése játéktér szinkronizáció vagy esetleg üzenetküldés okán
+- Játékszabály ellenőrzés
+
+## Egyedi szerverként
+
+- (Ingyenes) virtuális felhőszerveren
+  - https://gitlab.com/bkil/hardware/-/blob/master/doc/hu/free-cloud.md
+  - [../cheap-server-hosting.md](../cheap-server-hosting.md)
+  - Sok rendszergazdai tudással és többletfeladattal jár
+- Ingyenes PaaS webszolgáltatás
+  - [../free-paas-dynamic-web-hosting.md](../free-paas-dynamic-web-hosting.md)
+  - Egy ilyen versenyen lehetőleg a játékra szeretnének koncentrálni, és ha lehet, nem a körítésre amennyiben nulláról kellene a backendet is implementálni.
+
+## Bővítményként
+
+Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sakkfórumon sakkozni, egy pókercsoportban pókerezni?
+Érdemes a világszinten legelterjedtebb keretrendszereket megvizsgálni.
+
+### Föderált rendszerek bővítményeként
+
+- https://github.com/friendica/friendica-addons
+- https://framagit.org/hubzilla/addons
+- Matrix Synapse plugin/module (lásd mjolnir)
+- https://wordpress.org/plugins/
+  - https://wordpress.org/plugins/activitypub/
+- https://www.drupal.org/docs/contributed-modules
+  - https://www.drupal.org/project/activitypub
+- https://apps.nextcloud.com/
+  - https://nextcloud.com/blog/category/federation/
+  - https://nextcloud.com/federation/
+
+### Egyéb bővítményként
+
+- https://extensions.joomla.org/
+  - https://github.com/joomla/rfc/pull/13
+- https://www.mediawiki.org/wiki/Category:Extensions
+- https://marketplace.magento.com/extensions.html
+- https://addons.prestashop.com/en/2-modules-prestashop
+- https://extensions.typo3.org/
+- https://www.phpbb.com/extensions/
+- https://moodle.org/plugins/
+- https://apps.oscommerce.com/
+- https://github.com/e107inc/e107/tree/master/e107_plugins
+- https://getgrav.org/downloads/plugins#extras
+- https://marketplace.concretecms.com/marketplace/addons
+- https://www.opencart.com/index.php?route=marketplace/extension&filter_license=0
+- https://wagtail.io/packages/
+- https://marketplace.django-cms.org/en/addons/browse/
+- https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone
+  - https://www.plone.org/download/add-ons
+- https://github.com/publify/publify/wiki/In-Page-Plugins
+  - https://github.com/typoplugins?tab=repositories
+- https://community.nodebb.org/category/7/nodebb-plugins
+- https://guides.alchemy-cms.com/about.html#the-core-modules
+- https://plugins.movabletype.org/featured/plugins/
+- https://ghost.org/integrations/
+- https://marketplace.magnolia-cms.com/all-extensions.html
+- https://hub.alfresco.com/t5/alfresco-content-services-add/bd-p/add-ons
+  - https://docs.alfresco.com/content-services/6.2/develop/repo-ext-points/
+
+### Frontend widget
+
+- https://git.sr.ht/~spiral/misskey/tree/main/item/src/docs/en-US/create-plugin.md
+  - https://git.sr.ht/~spiral/misskey/tree/main/item/src/docs/en-US/features/widgets.md
+- https://element.io/element-matrix-store
+  - https://github.com/matrix-org/matrix-react-sdk/blob/develop/docs/widget-layouts.md
+  - https://github.com/matrix-org/matrix-react-sdk/tree/78b1f6c0b13efd57031a329a1ac62baba948dad3/src/widgets
+  - https://github.com/matrix-org/matrix-react-sdk/blob/78b1f6c0b13efd57031a329a1ac62baba948dad3/docs/jitsi.md
+  - https://github.com/matrix-org/matrix-widget-api
+
+### Univerzális frontend
+
+- [web browser extensions](https://en.wikipedia.org/wiki/Browser_extension)
+- [userscript](https://en.wikipedia.org/wiki/Userscript)
+- [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+
+### Lehetőségek
+
+- https://en.wikipedia.org/wiki/List_of_content_management_systems
+- https://whatcms.org/Tech_Reports
