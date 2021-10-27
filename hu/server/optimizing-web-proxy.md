@@ -170,13 +170,18 @@ Stílusok:
 * https://github.com/topics/userstyle
 * https://github.com/topics/user-styles
 
-### Proxy
+### Szabad proxy példák
 
 * https://wiki.mozilla.org/Mobile/Janus
   * https://blog.browsernative.com/mozilla-janus-firefox-data-compression-391/
   * https://github.com/mozilla/node-janus
   * https://github.com/mozilla/janus-addon
 * https://github.com/asciimoo/morty
+* http://ssb22.user.srcf.net/adjuster/ _Tornado-based, domain-rewriting proxy for applying custom processing to Web pages_
+* https://en.wikipedia.org/wiki/Ziproxy
+
+### Zárt proxy példák
+
 * https://en.wikipedia.org/wiki/Opera_Mini
   * https://www.ghacks.net/2011/04/14/opera-turbo-overview-discovering-opera-part-1/
 * https://en.wikipedia.org/wiki/UC_Browser
@@ -187,6 +192,7 @@ Stílusok:
 * https://en.wikipedia.org/wiki/Puffin_Browser
 * https://en.wikipedia.org/wiki/MarioNet_split_web_browser#Proof_of_concept
 * https://en.wikipedia.org/wiki/Bolt_(web_browser)#Server-assisted_data_compression
-* https://en..wikipedia.org/wiki/Skweezer
+* https://en.wikipedia.org/wiki/Skweezer
 * https://en.wikipedia.org/wiki/Vision_Mobile_Browser
-* http://ssb22.user.srcf.net/adjuster/ _Tornado-based, domain-rewriting proxy for applying custom processing to Web pages_
+* https://en.wikipedia.org/wiki/OnSpeed
+* https://en.m.wikipedia.org/wiki/Heigh_Speed
