@@ -10,7 +10,9 @@
 ### Személyes adatok védelme
 
 * megnehezíti az adatszivárogtatást a meglátogatott oldalak vagy harmadik fél részére
-  * böngésző ujjlenyomat (Tor), szupersütik és biometria
+  * böngésző ujjlenyomat (Tor), szupersütik és biometria, viszont enélkül sem lehetetlen
+    * https://fingerprintjs.com/blog/disabling-javascript-wont-stop-fingerprinting/
+    * https://noscriptfingerprint.com/
 * megnehezíti a komplex, rendszerszintű visszaéléseket (mind a meglévők mint az XSS, mind eddig fel nem fedezett esetekben)
 
 ### Biztonsági szempontból
