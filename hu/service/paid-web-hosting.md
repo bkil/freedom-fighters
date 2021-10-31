@@ -149,6 +149,12 @@ Lásd még:
   * `.net` 15 EUR/év
 * További elérhető szolgáltatások: VPS, VPN
 
+### BitLaunch VPS
+
+* http://bitlaunch.io/
+* névtelen fizetés is támogatott: cryptocurrency
+* szerverek: saját, DigitalOcean, Vultr, Linode
+
 ### RackForest domain
 
 * https://rackforest.com/szolgaltatasok/domain-regisztracio/
