@@ -85,9 +85,9 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 
 ### Univerzális frontend
 
-- [web browser extensions](https://en.wikipedia.org/wiki/Browser_extension)
-- [userscript](https://en.wikipedia.org/wiki/Userscript)
-- [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+- https://en.wikipedia.org/wiki/Browser_extension
+- https://en.wikipedia.org/wiki/Userscript
+- https://en.wikipedia.org/wiki/Bookmarklet
 
 ### Lehetőségek
 
