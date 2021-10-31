@@ -84,6 +84,10 @@
 > "Not Owned But Operated". A core component of this was the forced logins to the chrome browser you've probably experienced
 > Google has worked with Facebook and Microsoft to discourage them from increasing user privacy, lamenting occasions where they prioritized their reputation over their collective business interest
 
+- https://poolp.org/posts/2019-12-15/decentralised-smtp-is-for-the-greater-good/
+> Decentralised SMTP
+> Self-hosting and encouraging smaller providers is for the greater good
+
 ## Twitter
 
 - https://reclaimthenet.org/twitter-censors-all-links-to-bitchute/
