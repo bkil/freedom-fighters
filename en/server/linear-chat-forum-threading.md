@@ -7,8 +7,8 @@ Construct a discussion medium for a given community that can be accessed casuall
 ### Interfaces
 
 * email mailing list
-  * unlimited via unfederated localhost POP3/IMAP
-  * limited amount directly towards external servers
+  * unlimited utilization via unfederated localhost POP3/IMAP
+  * message exchanging quotas for users residing on an external mailbox wishing to interact with direct email
   * a bit high limit if opting in to hierarchical forwarding
 * not preferred: IRC
 * Matrix
@@ -21,11 +21,32 @@ Construct a discussion medium for a given community that can be accessed casuall
 * mediawiki "Talk pages" for both articles and personal space
 * eventing systems: Meetup.com, GetTogether.community, Mobilizon, mediawiki attendance list, Facebook (probably one way anonymous)
 
+#### Mutability
+
+* immutable: mailing list, IRC, OSM changeset comments, OSM map notes
+* only the last message is mutable: XMPP MUC (moderators may redact previous messages)
+* Epicyon status
+  * a message is only mutable within 5 minutes and only up to certain similarity
+  * https://gitlab.com/bashrc2/epicyon/-/blob/main/posts.py#L5131
+  * https://gitlab.com/bashrc2/epicyon/-/blob/main/content.py#L1185
+* only redaction supported:
+  * Mastodon
+    * https://github.com/mastodon/mastodon/blob/52e5c07948c4c91b73062846e1f19ea278ec0e24/app/javascript/mastodon/features/status/index.js#L65
+    * https://github.com/mastodon/mastodon/blob/a8a7066e977cb0aa1988d340ef8b7c542f179b14/app/javascript/mastodon/reducers/compose.js#L424)
+  * Diaspora
+  * Pleroma
+    * https://git.pleroma.social/pleroma/pleroma/-/issues/1429
+* Discourse
+  * immutable at first
+  * only the most recent message mutable later on
+  * fully mutable after reaching a certain level of reputation within the system
+* fully mutable: Matrix, FluxBB, Friendica, Hubzilla, Epicyon blog post (plans to limit this to 5 minutes), issue tracker, OSM diary, mediawiki
+
 ### Features
 
 * Internationalization
 * Ability to deploy on free hosting (via PHP or Haxe)
-  * Option to piggyback the backend on some widespread server, similarly to [../service/game-backend.md](../service/game-backend.md).
+  * Option to piggyback the backend on some widespread server, similarly to [../../hu/service/game-backend.md](../../hu/service/game-backend.md).
   * Option to avoid reaching quotas, like email send/receive limits
 * Federated credentials
   * Multiple admins may run this same system concurrently where they might share the responsibility and/or load balance receiving or sending messages to interfaces.
@@ -38,6 +59,7 @@ Construct a discussion medium for a given community that can be accessed casuall
 ### Forwarding order
 
 Forward newly posted messages in the following order:
+
 * Immediately: mutable real time interfaces
 * After 5 min: if the poster is a trusted peer and passing basic sanity checking (check for accidental copy&paste, spam, etc.)
 * After 10 min: if the poster is a trusted peer
@@ -59,7 +81,7 @@ How do we reconstruct threads, given that one posts on a linearized interface (M
 
 #### Reply button
 
-E.g. in Matrix or XMPP 
+E.g. in Matrix or XMPP
 
 #### Citing part of a previous message
 
@@ -93,6 +115,24 @@ E.g. in Matrix or XMPP
 * Within 1h if the most recent message is mine
 * Reconstruct the time of day activity of the participants and evaluate whether the most recent message was posted when most were not active.
 
+#### Clash detection
+
+* When messages are exchanged rapidly, a given new message might have been typed while the poster was not aware of some other recent message being shared in parallel to theirs.
+* Evaluate how probable it might be that our new message was just a continuation of our previous message and/or a former reply not destined to the most recent message on the channel.
+  * Signals: elapsed time, speed of reading, typing indicators, read receipts
+  * Delay compensation
+    * Network latency
+    * Client-server processing latency
+    * Federation latency
+    * Latency introduced by this bridge itself
+    * The human poster itself may willingly let the anomaly go if it was within a few seconds
+* Where later refactoring of threads is feasible
+  * Ideally when the participants that clash and/or who are on the thread are on the same interface or on a mutable interface.
+  * It would be desirable to analyze 3-4 consecutive messages to determine whether the two actors were interacting
+  * Possibly with a slight shift, but still on the same thread
+  * If a later message can be proven to be much more probably a reply to the clashing peer message, reconsider decoupling the earlier one from the thread
+    * See all other listed indicators (especially: pressing the `reply` button, at-mentioning a user by name or citing)
+
 #### Content heuristics
 
 Allow for more slack if the message does not contain:
@@ -118,6 +158,7 @@ Allow for more slack if the message does not contain:
 * Choices:
   1. new topic
   2. continuation of my last message
+     * possibly someone typed something in parallel to me and submitted their line a few seconds earlier
   3. reply to most recent message posted by someone else
   4. reply to someone else, type in name
 
@@ -143,10 +184,25 @@ Allow for more slack if the message does not contain:
 
 #### Topic name generation
 
-* If the first sentence is short enough, use it as is
+* If the first sentence is short enough and unique without stop words and low-entropy words, use it as is
 * Otherwise drop stop words and copy the initial part
 * Later: summarize via NLP
 * Allow changing it via slash command for the poster or a moderator
+
+#### Reactji
+
+* Certain platforms support annotating the message of any user with one or more emoji and showing an aggregate count besides the message
+  * Some support only a limited set: `like`/`star` (AP), sometimes `dislike` (Friendica), sometimes up to a dozen more common ones (GitHub)
+  * Full Unicode characters, full Unicode string
+  * Arbitrary uploaded images, possibly animated
+* These might be aggregated and sent in as a reply in tabular form
+  * Display the emoji, the aggregate count and the list of users who have added it so far since starting the topic
+  * Should probably only add the ones that are missing on the given platform
+  * Optionally send them in natively as well using a one-way mapping
+    * e.g., count both `+1` and `thumbs-up` (or anything with positive valence) towards `like` and count ones with negative valence towards `dislike`
+    * for interfaces having only a single native reaction, map everything to that one, so at least the number of interactions can be clearly seen in overviews
+  * Process daily, ideally waiting for some idle time within the channel
+    * If a topic had not seen an activity for a long time, send in the reaction after a much shorter delay (within 1-60 minutes)
 
 ## TODO
 
