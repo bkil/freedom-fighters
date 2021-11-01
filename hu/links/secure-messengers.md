@@ -18,6 +18,7 @@ Lásd még:
   * https://www.messenger-matrix.de/messenger-matrix.html (német)
 * https://securechatguide.org/featuresmatrix.html
 * https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/htmlview
+* https://berty.tech/faq#what-are-the-advantages-of-berty-compared-to-the-other-messengers
 
 ## Kifejtő elemzések
 
@@ -41,3 +42,4 @@ Lásd még:
 
 * https://www.forbes.com/sites/thomasbrewster/2021/07/29/paragon-is-an-nso-competitor-and-an-american-funded-israeli-surveillance-startup-that-hacks-encrypted-apps-like-whatsapp-and-signal/
 * https://web.archive.org/web/20210804205638/https://serpentsec.1337.cx/matrix _Matrix metadata leaks_
+* https://infosec-handbook.eu/articles/xmpp-aitm/ _XMPP: Admin-in-the-middle: Server-side parties can transparently modify, log, and monitor nearly everything when communicating via XMPP_
