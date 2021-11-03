@@ -53,6 +53,11 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 - https://addons.prestashop.com/en/2-modules-prestashop
 - https://extensions.typo3.org/
 - https://www.phpbb.com/extensions/
+- https://docs.flarum.org/extend/
+  - https://github.com/topics/flarum-extension
+  - https://discuss.flarum.org/t/extensions
+  - https://extiverse.com/
+  - https://freeflarum.com/extensions
 - https://moodle.org/plugins/
 - https://apps.oscommerce.com/
 - https://github.com/e107inc/e107/tree/master/e107_plugins
