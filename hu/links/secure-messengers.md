@@ -43,3 +43,5 @@ Lásd még:
 * https://www.forbes.com/sites/thomasbrewster/2021/07/29/paragon-is-an-nso-competitor-and-an-american-funded-israeli-surveillance-startup-that-hacks-encrypted-apps-like-whatsapp-and-signal/
 * https://web.archive.org/web/20210804205638/https://serpentsec.1337.cx/matrix _Matrix metadata leaks_
 * https://infosec-handbook.eu/articles/xmpp-aitm/ _XMPP: Admin-in-the-middle: Server-side parties can transparently modify, log, and monitor nearly everything when communicating via XMPP_
+* https://hackea.org/notas/matrix.html _Matrix? No, thanks._
+* https://gist.github.com/maxidorius/5736fd09c9194b7a6dc03b6b8d7220d0 _Notes on privacy and data collection of Matrix.org_
