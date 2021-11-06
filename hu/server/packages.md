@@ -351,7 +351,17 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * VCS: Gitea/Gogs
   * drone-ci -> ci ami remekül működik a gitea-val
 * névjegyek sync: Radicale, Baikal
-* dokumentum kollaboráció: OnlyOffice, (NextCloud, Collabora Online, CryptPad, Feng Office Community Edition, EtherPad, EtherCalc, TikiWiki Groupware, mediawiki)
+* dokumentum kollaboráció:
+  * OnlyOffice
+  * NextCloud
+  * Collabora Online
+  * CryptPad
+  * Feng Office Community Edition
+  * EtherPad
+  * EtherCalc
+  * TikiWiki Groupware
+  * mediawiki
+  * https://github.com/hackmdio/codimd
   * egy gyakori kombináció: NextCloud + Collabora
 * kérdőívek, szavazások: Framaforms
 * prezentáció: Strut
