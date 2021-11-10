@@ -19,6 +19,7 @@ Lásd még:
 * https://securechatguide.org/featuresmatrix.html
 * https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/htmlview
 * https://berty.tech/faq#what-are-the-advantages-of-berty-compared-to-the-other-messengers
+* https://www.freie-messenger.de/systemvergleich/#schnell%C3%BCbersicht
 
 ## Kifejtő elemzések
 
@@ -30,6 +31,7 @@ Lásd még:
 * https://lukesmith.xyz/articles/matrix-vs-xmpp _What are XMPP and Matrix and what makes them special?_
 * https://blog.jabberhead.tk/2019/03/10/a-look-at-matrix-orgs-olm-megolm-encryption-protocol/
 * https://soundcloud.com/user-98066669/205-five-shows-in-one _XMPP with OMEMO is similar to Matrix MEGOLM for E2EE_
+* https://restoreprivacy.com/secure-encrypted-messaging-apps/telegram/ _Telegram Messenger Review - January 19, 2021 By Heinrich Long_
 
 ## Hírek
 
@@ -44,4 +46,6 @@ Lásd még:
 * https://web.archive.org/web/20210804205638/https://serpentsec.1337.cx/matrix _Matrix metadata leaks_
 * https://infosec-handbook.eu/articles/xmpp-aitm/ _XMPP: Admin-in-the-middle: Server-side parties can transparently modify, log, and monitor nearly everything when communicating via XMPP_
 * https://hackea.org/notas/matrix.html _Matrix? No, thanks._
-* https://gist.github.com/maxidorius/5736fd09c9194b7a6dc03b6b8d7220d0 _Notes on privacy and data collection of Matrix.org_
+* https://github.com/libremonde-org/paper-research-privacy-matrix.org _Privacy research on Matrix.org_
+  * https://gist.github.com/maxidorius/5736fd09c9194b7a6dc03b6b8d7220d0 _Notes on privacy and data collection of Matrix.org_
+  * https://gitlab.com/libremonde-org/papers/research/privacy-matrix.org
