@@ -3,13 +3,16 @@
 ## Goal
 
 Construct a discussion medium for a given community that can be accessed casually and comfortable on as many interfaces as possible.
+It is useful where discussion threads of individual issues or about shared content flare up and die out rapidly, perhaps revolving around recurring themes that are cross linked.
+It is sometimes desirable to build a tagged, searchable knowledge base from the threads and to highlight answers (like a FAQ).
+Note that such a system is not suitable for groups that are mostly conversational.
 
 ### Interfaces
 
 * email mailing list
   * unlimited utilization via unfederated localhost POP3/IMAP
   * message exchanging quotas for users residing on an external mailbox wishing to interact with direct email
-  * a bit high limit if opting in to hierarchical forwarding
+  * a bit higher limit if opting into hierarchical forwarding
 * not preferred: IRC
 * Matrix
 * XMPP MUC
@@ -18,8 +21,11 @@ Construct a discussion medium for a given community that can be accessed casuall
 * Friendica (posts to personal circles, forums, event calendar)
 * issue tracker: GitHub, GitLab, (BitBucket?)
 * domain specific: OSM changeset comments, OSM diary, OSM map notes, Wordpress
-* mediawiki "Talk pages" for both articles and personal space
-* eventing systems: Meetup.com, GetTogether.community, Mobilizon, mediawiki attendance list, Facebook (probably one way anonymous)
+  * mediawiki "Talk pages" for both articles and personal space
+  * Tiki Wiki CMS blog posts & comments to them
+  * Static HTML with word cloud histograms, threads and RSS
+    * Perhaps via producing input for some existing static site generator
+* Eventing systems: Meetup.com, GetTogether.community, Mobilizon, mediawiki attendance list, Facebook (probably one way anonymous)
 
 #### Mutability
 
@@ -46,13 +52,14 @@ Construct a discussion medium for a given community that can be accessed casuall
 
 * Internationalization
 * Ability to deploy on free hosting (via PHP or Haxe)
+  * Depending on cron, this may introduce significant delays on certain interfaces (up to 1 hour), so a more real time connector is also desirable.
   * Option to piggyback the backend on some widespread server, similarly to [../../hu/service/game-backend.md](../../hu/service/game-backend.md).
   * Option to avoid reaching quotas, like email send/receive limits
 * Federated credentials
   * Multiple admins may run this same system concurrently where they might share the responsibility and/or load balance receiving or sending messages to interfaces.
   * Some of the admins or users may have elevated privileges on some of the platforms that they would like to share with a trusted peer group (or their personal circle of trust).
     * e.g.: Meetup.com, GetTogether.community event updates (Facebook?)
-* Users may desire to map their own personal identities between the interfaces if they had registered accounts on more than one.
+* Users may desire to map their own personal identities (nickname) between the interfaces if they had registered accounts on more than one.
 
 ## Implementation
 
@@ -118,12 +125,14 @@ E.g. in Matrix or XMPP
 #### Clash detection
 
 * When messages are exchanged rapidly, a given new message might have been typed while the poster was not aware of some other recent message being shared in parallel to theirs.
+* In some cases, a member shares a message or link during an ongoing conversation, but the participants of that thread ignore it and resume their thread instead.
 * Evaluate how probable it might be that our new message was just a continuation of our previous message and/or a former reply not destined to the most recent message on the channel.
   * Signals: elapsed time, speed of reading, typing indicators, read receipts
   * Delay compensation
     * Network latency
     * Client-server processing latency
     * Federation latency
+      * Note that this needs to be tracked per pairs of servers and continuously adapted - it had happened multiple times in the past that matrix.org encountered hours of latency one way or both for days.
     * Latency introduced by this bridge itself
     * The human poster itself may willingly let the anomaly go if it was within a few seconds
 * Where later refactoring of threads is feasible
@@ -132,6 +141,16 @@ E.g. in Matrix or XMPP
   * Possibly with a slight shift, but still on the same thread
   * If a later message can be proven to be much more probably a reply to the clashing peer message, reconsider decoupling the earlier one from the thread
     * See all other listed indicators (especially: pressing the `reply` button, at-mentioning a user by name or citing)
+
+#### Participant heuristics
+
+* In some cases, the participants in the simultaneously running threads are quite disjoint.
+* For those who overlap, other heuristics might be enough.
+
+#### Member personality
+
+* Certain members are more prone to using a random conversational tone be it on-topic or off-topic (rather than focusing on discussing topics)
+* Members themselves or mods may set options to signal such a personality so fuzzy heuristics will pick up their messages less often.
 
 #### Content heuristics
 
@@ -149,7 +168,10 @@ Allow for more slack if the message does not contain:
 #### Combinations
 
 * One can click the `reply` button on an earlier message or mention one by name, and then type in some more messages afterwards.
-* Consider whether these messages are part of the same thread/reply and aggregate them as needed.
+* The following messages may need to be aggregated to find out where they belong:
+  * Part of the thread that was referenced via the `reply` or @-mention
+  * Part of the thread that was ongoing just before the message with an explicit reference
+  * A new thread
 
 #### Interaction
 
@@ -189,7 +211,7 @@ Allow for more slack if the message does not contain:
 * Later: summarize via NLP
 * Allow changing it via slash command for the poster or a moderator
 
-#### Reactji
+### Reactji
 
 * Certain platforms support annotating the message of any user with one or more emoji and showing an aggregate count besides the message
   * Some support only a limited set: `like`/`star` (AP), sometimes `dislike` (Friendica), sometimes up to a dozen more common ones (GitHub)
@@ -203,6 +225,29 @@ Allow for more slack if the message does not contain:
     * for interfaces having only a single native reaction, map everything to that one, so at least the number of interactions can be clearly seen in overviews
   * Process daily, ideally waiting for some idle time within the channel
     * If a topic had not seen an activity for a long time, send in the reaction after a much shorter delay (within 1-60 minutes)
+
+### Privacy
+
+* The fact of bridging must be mentioned in the topic on each interface
+* Pseudonymous forwarding
+  * May be requested with a slash command
+  * Grace period
+    * Perhaps apply in the first week after installing the bridge
+    * Perhaps apply for the first few messages of each user until they explicitly consent with the bot
+* A random name/address should be generated when forwarding the messages of a given user.
+  * Special care must be taken to hide email addresses in mailing lists
+  * Ideally constructed via encryption and rotating the ephemeral salt & pepper (weekly?)
+  * A given user may choose to be forwarded fully anonymously
+  * The pseudonym should be rotated as often as feasible without compromising thread readability
+    * May be desirable to hold onto a mapping for a bit longer within a single thread and subthreads, but can be immediately uncorrelated between unrelated threads
+  * Option to look for the names and nicks of participants within the message body as well and attempt to replace them there
+* Consent of users must be gathered on each interface before installing the bridge
+  * No forwarding of messages must be done before the point of announcement
+  * Provide to opt out after the announcement, for example by leaving the room
+* GDPR, right to be forgotten
+  * after giving a slash command before leaving a room, all activities of the user must be redacted on all mutable interfaces
+  * Random pseudonyms would not make this possible in general, nonetheless, moderators can already redact any past message if deemed sensitive or on reasonable request by a member
+    * May optionally be solved with public key cryptography and signing from the client side (perhaps with a special client), but this will make the whole system very complicated for negligible benefit in practice
 
 ## TODO
 
