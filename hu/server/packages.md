@@ -280,6 +280,8 @@
   * https://github.com/osm-fr/ansible-peertube
   * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
   * https://github.com/JeroenED/Ansible-Role-Friendica
+* Kubernetes
+  * https://github.com/bobbyd0g/k8s-tube
 
 ### sovereign
 
@@ -310,6 +312,8 @@
 Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy bevált recepteket konfigurációval összekötni, hanem megoldják saját implementációval:
 
 * https://github.com/tildeclub/tilde.club/tree/master/docs
+* https://rasmus.remotes.club/remotes.html
+* https://rasmus.remotes.club/remotes2.html
 
 ## Zárt szolgáltatáscsomag telepítők
 
@@ -433,3 +437,9 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://www.autistici.org/links
 * https://riseup.net/en/security/resources/radical-servers
 * https://www.systemli.org/en/friends/
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2697779#comment-2697779
