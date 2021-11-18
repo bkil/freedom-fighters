@@ -152,3 +152,4 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
 
 * https://hup.hu/comment/2563434#comment-2563434
+* https://hup.hu/comment/2697779#comment-2697779

@@ -19,3 +19,10 @@ Nem érdemes publikus szervert üzemeltetni ilyen név alatt:
 Nem tartanak nyilván regisztrációnként személyes adatokat vagy email címet, csak egy kívánt aldomain nevet és egy jelszót:
 
 * https://freemyip.com/
+
+## Egyéb szolgáltatók
+
+* https://www.dynu.com/
+* https://entrydns.net/
+* https://www.duckdns.org/
+* http://freedns.afraid.org/

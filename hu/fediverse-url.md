@@ -12,6 +12,8 @@
 ### Összehasonlítások:
 
 * https://the-federation.info/#protocols Szerver és protokoll statisztikák
+* https://fediverse.party/en/miscellaneous szoftver kereső
+* https://fediverse.party/en/portal/servers kategorikus példány kereső
 * https://friendica.fediverse.observer/ Szerver kereső táblázat (régi nevén: podupti.me)
   * javasolt szűrőfeltételek:
     * Signups=yes

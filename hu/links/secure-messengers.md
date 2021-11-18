@@ -49,3 +49,6 @@ Lásd még:
 * https://github.com/libremonde-org/paper-research-privacy-matrix.org _Privacy research on Matrix.org_
   * https://gist.github.com/maxidorius/5736fd09c9194b7a6dc03b6b8d7220d0 _Notes on privacy and data collection of Matrix.org_
   * https://gitlab.com/libremonde-org/papers/research/privacy-matrix.org
+* https://soatok.blog/2021/11/05/threema-three-strikes-youre-out/ _Threema: Three Strikes, You’re Out - Threema boldly claims to be more secure than Signal. Does this hold up to scrutiny?_
+  * https://old.reddit.com/r/Threema/comments/qn870u/threema_three_strikes_youre_out/hjxi28l/?context=3
+* https://mtpsym.github.io/ _Security Analysis of Telegram (Symmetric Part)_
