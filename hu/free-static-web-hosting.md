@@ -13,7 +13,20 @@
 * http://www.ingyenweb.hu/ 200MB
 * https://www.ucoz.hu/pricing/ 400MB
 
+## Magyar megszűnt
+
+* https://mlap.hu/
+  * http://mindenkilapja.hu/
+  * Bejelentkezési hibát ír, 2018 óta senki nem frissítette a portálját rajta
+  * grafikus honlapépítővel
+  * alapértelmezésben Creative Commons Nevezd meg!-Ne add el!-Így add tovább! 2.5 Magyarország licenc a feltöltött tartalmakra
+  * üzemeltető: Belvárosi Hirdető Kft.
+
 ## Külföldi
+
+Lásd még:
+
+* [service/free-shell-account.md](service/free-shell-account.md)
 
 ### GitLab
 
