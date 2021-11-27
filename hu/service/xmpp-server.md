@@ -8,6 +8,10 @@
 ## Szerverlisták
 
 * https://list.jabber.at/
+* https://xmpp.net/directory.php
+* https://xmpp-servers.404.city/
+  * https://github.com/E-404/xmpp-servers
+* https://www.jabberes.org/servers/
 * https://xmpp.is/account/register/
 
 ## Szobakereső
