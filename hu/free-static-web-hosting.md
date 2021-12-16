@@ -12,8 +12,71 @@
 * https://dotroll.com/hu/szolgaltatasok/tarhely/ 50MB
 * http://www.ingyenweb.hu/ 200MB
 * https://www.ucoz.hu/pricing/ 400MB
+* blog.hu TODO
+
+## Magyar ISP
+
+Otthoni, háztartási internet hozzáférési előfizetés mellé gyakran jár (járt) számtalan publikus többletszolgáltatás, mint például: weboldal kiszolgálása, email cím.
+Ezek sajnos "elkoptak".
+
+### Digi.hu ISP
+
+* https://digi.hu/sites/default/files/dokumentumtar/pdf/altalanos/digiugyfelkapu_segedlet_2021_v2.pdf
+* 30MB tárhely
+* azonos domain alatti almappa
+  * `http://w3\.hdsnet\.hu/[a-z0-9_-]{1,25}/`
+* email postafiók is igényelhető
+  * `[a-z0-9_-]{1,64}@digikabel.hu`
+  * a fiókra bejövő levelek átirányítása külső címre
+* nginx
+* privát FTP hozzáférés
+* nincs https
+* SSI/shtml tiltva
+* egyéni hibaoldalak nincsenek
+* naplófájlok elérése nincs
+
+### jacsa.net
+
+* http://www.jacsa.net/cms/content/view/13/26/
+* "C" internetcsomag vagy afelett
+  * min. 500MB
+  * Apache, PHP, Python, MySQL
+  * korlátlan számú postafiók
+  * TLS
+  * SFTP feltöltés
+  * kérésre SSH
+  * saját domain
+    * https://ipinfo.io/AS197112#block-domains
+* email cím:
+  * min. 2 fiók
+  * 100MB tárhely/fiók
+
+### Techno-Tel.hu
+
+* https://www.techno-tel.hu/internet/mikrohullamu-vezetek-nelkuli
+* honlap
+  * 50MB tárhely
+  * 1 aldomain
+  *  http://xxxxx.technotel.hu/
+* 5 email postafiók
+  * 25MB tárhely
 
 ## Magyar megszűnt
+
+### Telekom.hu ISP
+
+* Megszűnt az újak igénylése: 2018-09-01, de a korábbi ügyfeleknek még üzemeltetik
+* https://www.telekom.hu/lakossagi/ugyintezes/gyakori-kerdesek/1909/hogyan_erhetem_el_a_webtarhelyem_
+* `http://web.t-online.hu/.../index.html`
+* CGI engedélyezve: `public_html/cgi-bin/*`
+* 50MB tárhely
+* privát FTP hozzáférés
+  * ftp://ftp.t-online.hu
+* email
+  * 500MB tárhely
+  * https://www.telekom.hu/lakossagi/szolgaltatasok/mobil/kapcsolodo-szolgaltatasok/uzenetkuldes/t-email
+
+### mlap.hu
 
 * https://mlap.hu/
   * http://mindenkilapja.hu/
@@ -21,6 +84,15 @@
   * grafikus honlapépítővel
   * alapértelmezésben Creative Commons Nevezd meg!-Ne add el!-Így add tovább! 2.5 Magyarország licenc a feltöltött tartalmakra
   * üzemeltető: Belvárosi Hirdető Kft.
+
+### UPC.hu ISP
+
+* Megszűnt: ~2021-11-01 nagyjából a Vodafone felvásárlással együtt
+* https://www.upc.hu/pdf/aszf/kozlemeny_ASZF_20200324.pdf (404)
+* 10MB tárhely
+* email
+* http://members.chello.hu/azonosito (404)
+* http://members.upclive.hu/azonosito (404)
 
 ## Külföldi
 
