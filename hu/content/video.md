@@ -13,6 +13,7 @@
 * https://en.wikipedia.org/wiki/Comparison_of_video_hosting_services
 * https://en.wikipedia.org/wiki/List_of_online_video_platforms
 * https://videa.hu/
+* http://videok.hu/
 * https://hu.wikipedia.org/wiki/Indavide%C3%B3
 
 ## Szoftver
