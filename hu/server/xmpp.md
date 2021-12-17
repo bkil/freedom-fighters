@@ -22,6 +22,7 @@
 
 ### Proxy
 
+* Spectrum 2 https://spectrum.im/documentation/about.html
 * Metre https://github.com/surevine/Metre
 
 ## Elévült
