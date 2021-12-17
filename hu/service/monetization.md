@@ -50,6 +50,7 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 * https://en.wikipedia.org/wiki/Category:Online_advertising_services_and_affiliate_networks
 * https://en.wikipedia.org/wiki/Advertising_network#Notable_advertising_networks
 * https://www.ethicalads.io/advertisers/ Célcsoport: szoftverfejlesztők (data science, backend, frontend, security, devops)
+* https://www.etarget.hu/
 
 #### Egyedi reklámelhelyezés
 
