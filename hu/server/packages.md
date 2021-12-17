@@ -314,6 +314,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://github.com/tildeclub/tilde.club/tree/master/docs
 * https://rasmus.remotes.club/remotes.html
 * https://rasmus.remotes.club/remotes2.html
+* https://github.com/drduh/Debian-Privacy-Server-Guide
 
 ## Zárt szolgáltatáscsomag telepítők
 
