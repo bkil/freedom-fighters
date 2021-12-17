@@ -7,16 +7,139 @@
 * https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 * https://en.wikipedia.org/wiki/Static_web_page
 
-## Magyar
+## Magyar tárhely
 
-* https://dotroll.com/hu/szolgaltatasok/tarhely/ 50MB
-* http://www.ingyenweb.hu/ 200MB
-* https://www.ucoz.hu/pricing/ 400MB
-* blog.hu TODO
+Támogat tetszőleges HTML dokumentumok, benne CSS és JavaScript közzétételét.
+Teljes HTML testreszabást ad.
+Tipikusan FTP klienssel is feltölthető.
+
+### DotRoll
+
+* https://dotroll.com/hu/szolgaltatasok/tarhely/
+* 50MB tárhely
+* FTP feltöltés
+
+### IngyenWeb
+
+* http://www.ingyenweb.hu/
+* 200MB tárhely
+* FTP feltöltés
+
+### uCoz
+
+* https://www.ucoz.hu/pricing/
+* 400MB tárhely
+* FTP feltöltés
+
+## Magyar honlapépítő
+
+FTP hozzáférést és teljes HTML testreszabást nem ad.
+
+### 5mp.eu
+
+* tulajdonos: Gáspár György EV
+* infrastruktúra: Revo Systems Kft.
+* 10MB tárhely
+* reklámot helyez el
+* nincs fájlfeltöltés
+
+### eOldal.hu
+
+* https://www.eoldal.hu/
+* 200MB tárhely
+* tulajdonos: Central Médiacsoport Zrt.
+* infrastruktúra: Websitemaster a.s. a NETHOST s.r.o., Csehország
+* legalább 3 havonta be kell lépni az adminisztrációs felületre
+
+### ewk.hu
+
+* https://ewk.hu/
+* tulajdonos: Vilmányi Gergő EV, Vilmányi Xénia EV
+* infrastruktúra: NLG-System Bt.
+* 50MB tárhely
+* nincs fájlfeltöltés
+* reklámot helyeznek el
+
+### HuPont.hu
+
+* https://www.hupont.hu/
+* tárhely: korlátlan szövegeknek és képeknek
+* reklámot helyeznek el
+* tulajdonos: Mass Presence Kft.
+* infrastruktúra: INTEGRITY Kft. (1132 Budapest, Victor Hugo u. 18-22.)
+* nincs fájlfeltöltés
+* nincs iframe beágyazás (csak YouTube)
+* korlátozott HTML szerkeszthetőség
+
+### ini.hu
+
+* http://ini.hu/
+* 30MB tárhely
+* 10 email cím
+* üzemeltető: Deltha Rendszerház Kft.
+* regisztráció csak papíron, levélben vagy faxolva beküldve, évente meg kell újítani!
+* reklámokat helyez el
+
+## Magyar blog
+
+A közzétehető dokumentumok köre megszorított.
+A legkorlátozottabbakban szinte csak alapvető formázással szöveg osztható meg.
+A rugalmasabb számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozott JavaScript-et is.
+
+### Blog.hu
+
+* https://blog.hu/
+* Felvásárolta ezt: blogol.hu
+* Indamedia Network Zrt. csoport tagja (IndaPass), szolgáltató: Port.hu
+* feltölthető fájl
+  * jpg, jpeg, gif, png, txt, csv, xls, doc, ppt, css, htm, html, mp3, flv
+  * max. 2 MB/db
+* egyedi kód
+  * https://segitseg.blog.hu/2014/07/29/megujult_sablonszerkeszto
+  * https://segitseg.blog.hu/2012/04/01/hogyan_tudok_tetszoleges_html_tartalmaz_berakni_az_oldaldobozokhoz
+  * egyedi HTML és CSS
+  * JavaScript kód is beszúrható
+
+### Blogger.hu
+
+* https://blogger.hu/regisztracio
+* üzemeltető: Epicenter Market Limited, Anglia
+* infrastruktúra: World Web Data Kft.?
+* tárhely: korlátlan
+* további érdekeltségek
+  * Chat.hu
+  * Data.hu
+  * Bringahirado.hu Kezilabda.hu Sporthirado.hu
+  * Linkedin.hu
+  * Love.hu
+  * Talalka.hu
+  * myVIP.com
+
+### G-Portal.hu
+
+* http://g-portal.hu/gindex.php?pg=15&qid=5790206
+* 300MB tárhely
+  * max. 1.5MB/képtár fájl (gif, png, jpeg, swf)
+  * médiatár
+    * max. 16 MB/fájl
+    * feltölthető számtalan dokumentum és multimédia is
+  * iframe, CSS, JavaScript részletek
+  * http://g-portal.hu/gindex.php?pg=15&qid=5790277
+  * http://g-portal.hu/gindex.php?pg=15&qid=5790281
+* üzemeltető: Egonet Kft.
+
+### Reblog.hu
+
+* https://reblog.hu/
+* üzemeltető: ew Wave Media Group Kommunikációs és Szolgáltató Kft.
+* további érdekeltségek
+  * videa.hu
+  * videakid.hu
+  * videaloop.hu
 
 ## Magyar ISP
 
-Otthoni, háztartási internet hozzáférési előfizetés mellé gyakran jár (járt) számtalan publikus többletszolgáltatás, mint például: weboldal kiszolgálása, email cím.
+Otthoni, háztartási internet hozzáférési előfizetés mellé gyakran jár (járt) felár nélkül számtalan publikus többletszolgáltatás, mint például: weboldal kiszolgálása, email cím.
 Ezek sajnos "elkoptak".
 
 ### Digi.hu ISP
@@ -35,7 +158,7 @@ Ezek sajnos "elkoptak".
 * egyéni hibaoldalak nincsenek
 * naplófájlok elérése nincs
 
-### jacsa.net
+### jacsa.net ISP
 
 * http://www.jacsa.net/cms/content/view/13/26/
 * "C" internetcsomag vagy afelett
@@ -51,7 +174,7 @@ Ezek sajnos "elkoptak".
   * min. 2 fiók
   * 100MB tárhely/fiók
 
-### Techno-Tel.hu
+### Techno-Tel.hu ISP
 
 * https://www.techno-tel.hu/internet/mikrohullamu-vezetek-nelkuli
 * honlap
@@ -63,18 +186,48 @@ Ezek sajnos "elkoptak".
 
 ## Magyar megszűnt
 
-### Telekom.hu ISP
+### BlogTer
 
-* Megszűnt az újak igénylése: 2018-09-01, de a korábbi ügyfeleknek még üzemeltetik
-* https://www.telekom.hu/lakossagi/ugyintezes/gyakori-kerdesek/1909/hogyan_erhetem_el_a_webtarhelyem_
-* `http://web.t-online.hu/.../index.html`
-* CGI engedélyezve: `public_html/cgi-bin/*`
-* 50MB tárhely
-* privát FTP hozzáférés
-  * ftp://ftp.t-online.hu
-* email
-  * 500MB tárhely
-  * https://www.telekom.hu/lakossagi/szolgaltatasok/mobil/kapcsolodo-szolgaltatasok/uzenetkuldes/t-email
+* http://blogter.hu/
+  * http://blogter.com/
+  * http://wiki.archiveteam.org/index.php/Blogter.hu
+* 2005-2014
+
+### B13
+
+* http://b13.hu/
+
+### CafeBlog
+
+* már nem lehet regisztrálni
+* https://cafeblog.hu/
+* üzemeltető: Central Médiacsoport Zrt.
+
+### Extra.hu
+
+* 1998-2010
+* http://wiki.archiveteam.org/index.php/Extra.hu
+
+### FreeBlog.hu
+
+* https://freeblog.hu/
+  * http://wiki.archiveteam.org/index.php/Freeblog.hu
+
+### FreeWeb
+
+* 2001-2019, regisztráció azóta megszűnt, de a korábbi oldalak még elérhetők
+* http://freeweb.hu/
+  * http://wiki.archiveteam.org/index.php/Freeweb.hu
+* új tulajdonos: Sas.hu
+
+### ininet.hu
+
+* 2012-2017, azóta ingyenes regisztráció megszűnt
+* http://wiki.archiveteam.org/index.php/Ininet.hu
+
+### InterNetMedia
+
+* http://InterNetMedia.hu/
 
 ### mlap.hu
 
@@ -85,20 +238,78 @@ Ezek sajnos "elkoptak".
   * alapértelmezésben Creative Commons Nevezd meg!-Ne add el!-Így add tovább! 2.5 Magyarország licenc a feltöltött tartalmakra
   * üzemeltető: Belvárosi Hirdető Kft.
 
+### Sarok
+
+* http://sarok.org/
+
+### Tar.hu
+
+* 1999-2011
+* http://wiki.archiveteam.org/index.php/Tar.hu
+
+### Telekom.hu ISP
+
+* Megszűnt az újak igénylése: 2018-09-01, de a korábbi ügyfeleknek még üzemeltetik
+* https://www.telekom.hu/lakossagi/ugyintezes/gyakori-kerdesek/1909/hogyan_erhetem_el_a_webtarhelyem_
+* `http://web.t-online.hu/xxxxx/index.html`
+* CGI engedélyezve: `public_html/cgi-bin/*`
+* 50MB tárhely
+* privát FTP hozzáférés
+  * ftp://ftp.t-online.hu
+* email
+  * 500MB tárhely
+  * https://www.telekom.hu/lakossagi/szolgaltatasok/mobil/kapcsolodo-szolgaltatasok/uzenetkuldes/t-email
+
+### UltraWeb
+
+* 2002-2020, azóta az ingyenes szolgáltatás megszűnt
+* http://www.ultraweb.hu/
+  * http://wiki.archiveteam.org/index.php/Ultraweb.hu
+
 ### UPC.hu ISP
 
-* Megszűnt: ~2021-11-01 nagyjából a Vodafone felvásárlással együtt
+* Megszűnt: ~2020-11-01 nagyjából a Vodafone felvásárlással együtt
 * https://www.upc.hu/pdf/aszf/kozlemeny_ASZF_20200324.pdf (404)
+  * https://24.hu/tech/2021/02/02/vodafone-upc-email-level-meghosszabbitas-webtarhely/
 * 10MB tárhely
 * email
 * http://members.chello.hu/azonosito (404)
 * http://members.upclive.hu/azonosito (404)
+
+### X3.hu
+
+* 2000-2011
+* http://wiki.archiveteam.org/index.php/X3.hu
+
+### XFree.hu
+
+* A regisztrációs űrlap már nem működik
+* https://xfree.hu/
+* üzemeltető: TVN.HU Kft.
 
 ## Külföldi
 
 Lásd még:
 
 * [service/free-shell-account.md](service/free-shell-account.md)
+
+### WebNode.info
+
+* https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
+* magyar felület (sok helyen gépi fordítás)
+* blog CMS
+* üzemeltető: Webnode AG, Svájc
+* 100MB tárhely
+  * 1GB/hó átvitel
+  * feltölthető fájlok: képek, dokumentumok, multimédia, egyéb
+  * https://www.webnode.info/tartalomszerkesztes/a-webhelyre-feltoltheto-elfogadott-fajlok-listaja
+* egyedi HTML
+  * egy bejegyzésbe bizonyos HTML címkék beszúrhatók (pl. iframe, JavaScript)
+    * https://www.webnode.info/tartalomszerkesztes/hogyan-adj-html-kodot-az-oldaladhoz
+  * CSS szerkesztése nem támogatott
+    * https://www.webnode.info/szerkeszto-es-tartalom
+  * egyedi HTML kód szúrható a fejlécbe és láblécbe is ami JavaScriptet is tartalmazhat
+    * https://www.webnode.info/kozossegi-oldalak-es-widgetek/hogyan-illessz-be-facebook-widgetet
 
 ### GitLab
 
@@ -189,7 +400,7 @@ Lásd még:
 
 ## Nagy szereplők
 
-### Blogger
+### Blogger.com
 
 * https://www.blogger.com/
 * 15GB tárhely
