@@ -38,6 +38,16 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
   * Időszakonkénti lekérési vagy sebességkorlát
   * Hirdetések
 
+## FOSS alternatívák
+
+### Filen.io
+
+* https://filen.io/
+  * https://github.com/FilenCloudDienste
+* 10GB ingyen tárhely
+* zero-knowledge
+* böngészős-, asztali- és mobilalkalmazással
+
 ## Kevéssé etikus alternatívák
 
 ### Kevésbé etikus VPS
