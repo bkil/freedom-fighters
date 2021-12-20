@@ -66,10 +66,11 @@
 
 ## Mátrix homeszerverek
 
-* https://www.hello-matrix.net/public_servers.php
-* https://the-federation.info/matrix%7Csynapse
-* https://publiclist.anchel.nl/
-* https://glowers.club/wiki/doku.php?id=wiki:newfriends#what_homeserver_should_i_use
+* https://austinhuang.me/matrix-homeservers.html
 * https://github.com/ara4n/matrixservers#matrix-server-list
+* https://glowers.club/wiki/doku.php?id=wiki:newfriends#what_homeserver_should_i_use
+* https://hello-matrix.net/public_servers.php
 * https://matrix.grin.hu/rooms/
-* joinmatrix.rocks = homeservers.mx
+* https://publiclist.anchel.nl/
+* https://the-federation.info/matrix%7Csynapse
+* TODO: joinmatrix.rocks = homeservers.mx
