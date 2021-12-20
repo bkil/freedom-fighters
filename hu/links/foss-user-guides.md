@@ -10,8 +10,9 @@ Lásd még:
 
 ## Szabad szoftver listák angolul
 
-* https://github.com/diegoleme/awesome-open-source-alternatives
 * https://github.com/awesome-selfhosted/awesome-selfhosted
+* https://github.com/diegoleme/awesome-open-source-alternatives
+* https://github.com/mendel5/alternative-front-ends
 
 ## Magánszféra listák angolul
 
