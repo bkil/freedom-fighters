@@ -49,6 +49,7 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 - https://extensions.joomla.org/
   - https://github.com/joomla/rfc/pull/13
 - https://www.mediawiki.org/wiki/Category:Extensions
+- https://www.dokuwiki.org/extensions
 - https://marketplace.magento.com/extensions.html
 - https://addons.prestashop.com/en/2-modules-prestashop
 - https://extensions.typo3.org/
