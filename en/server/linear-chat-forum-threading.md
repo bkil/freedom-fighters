@@ -159,6 +159,7 @@ Allow for more slack if the message does not contain:
 * a question mark
 * a URL
 * media attachment
+* hashtags
 
 #### Aggregation
 
@@ -254,3 +255,7 @@ Allow for more slack if the message does not contain:
 * check threaded view HS in Matrix blog PoC
 * How to integrate well with Lemmy? Create a new thread/topic for each subthread?
   * Also simulate this if one changes the "subject" when replying in FluxBB?
+* http://fudforum.org/
+  * http://cvs.prohost.org/index.php FUDforum
+* https://sourceforge.net/projects/m2f/
+* https://amrhein.eu/newsportal
