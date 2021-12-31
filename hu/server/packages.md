@@ -281,7 +281,7 @@
   * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
   * https://github.com/JeroenED/Ansible-Role-Friendica
 * Kubernetes
-  * https://github.com/bobbyd0g/k8s-tube
+  * https://github.com/bobbyd0g/commlab
 
 ### sovereign
 
