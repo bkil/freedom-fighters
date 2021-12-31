@@ -32,5 +32,5 @@ Hasznos opcionális szolgáltatások:
 ## Nagy szereplők
 
 * https://en.wikipedia.org/wiki/Google_Groups
-* https://en.m.wikipedia.org/wiki/Meetup
+* https://en.wikipedia.org/wiki/Meetup
   * nem teljes értékű lista

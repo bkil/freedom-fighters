@@ -195,4 +195,4 @@ Stílusok:
 * https://en.wikipedia.org/wiki/Skweezer
 * https://en.wikipedia.org/wiki/Vision_Mobile_Browser
 * https://en.wikipedia.org/wiki/OnSpeed
-* https://en.m.wikipedia.org/wiki/Heigh_Speed
+* https://en.wikipedia.org/wiki/Heigh_Speed
