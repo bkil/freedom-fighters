@@ -12,6 +12,7 @@
 Támogat tetszőleges HTML dokumentumok, benne CSS és JavaScript közzétételét.
 Teljes HTML testreszabást ad.
 Tipikusan FTP klienssel is feltölthető.
+A kiszolgált oldal legfeljebb reklámbeszúrásban térhet el.
 
 ### DotRoll
 
@@ -23,12 +24,6 @@ Tipikusan FTP klienssel is feltölthető.
 
 * http://www.ingyenweb.hu/
 * 200MB tárhely
-* FTP feltöltés
-
-### uCoz
-
-* https://www.ucoz.hu/pricing/
-* 400MB tárhely
 * FTP feltöltés
 
 ## Magyar honlapépítő
@@ -82,9 +77,10 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 
 ## Magyar blog
 
+A tárhely általában korlátlan.
 A közzétehető dokumentumok köre megszorított.
 A legkorlátozottabbakban szinte csak alapvető formázással szöveg osztható meg.
-A rugalmasabb számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozott JavaScript-et is.
+A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozott JavaScript-et is.
 
 ### Blog.hu
 
@@ -131,7 +127,7 @@ A rugalmasabb számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozott 
 ### Reblog.hu
 
 * https://reblog.hu/
-* üzemeltető: ew Wave Media Group Kommunikációs és Szolgáltató Kft.
+* üzemeltető: New Wave Media Group Kommunikációs és Szolgáltató Kft.
 * további érdekeltségek
   * videa.hu
   * videakid.hu
@@ -287,29 +283,21 @@ Ezek sajnos "elkoptak".
 * https://xfree.hu/
 * üzemeltető: TVN.HU Kft.
 
-## Külföldi
+## Külföldi tárhely
 
 Lásd még:
 
 * [service/free-shell-account.md](service/free-shell-account.md)
 
-### WebNode.info
+### uCoz
 
-* https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
-* magyar felület (sok helyen gépi fordítás)
-* blog CMS
-* üzemeltető: Webnode AG, Svájc
-* 100MB tárhely
-  * 1GB/hó átvitel
-  * feltölthető fájlok: képek, dokumentumok, multimédia, egyéb
-  * https://www.webnode.info/tartalomszerkesztes/a-webhelyre-feltoltheto-elfogadott-fajlok-listaja
-* egyedi HTML
-  * egy bejegyzésbe bizonyos HTML címkék beszúrhatók (pl. iframe, JavaScript)
-    * https://www.webnode.info/tartalomszerkesztes/hogyan-adj-html-kodot-az-oldaladhoz
-  * CSS szerkesztése nem támogatott
-    * https://www.webnode.info/szerkeszto-es-tartalom
-  * egyedi HTML kód szúrható a fejlécbe és láblécbe is ami JavaScriptet is tartalmazhat
-    * https://www.webnode.info/kozossegi-oldalak-es-widgetek/hogyan-illessz-be-facebook-widgetet
+* https://www.ucoz.hu/pricing/
+* magyar felület
+* 400MB tárhely
+* üzemeltető: uCoz Media (Mail.ru csoport), Oroszország
+* FTP feltöltés
+* Kombinálható,CMS komponensek
+  * szerver oldali JavaScript (TODO???)
 
 ### GitLab
 
@@ -364,25 +352,6 @@ Lásd még:
 * AWS, Azure vagy GCP felhasználásra
 * 512MB tárhely
 
-### Wordpress.com
-
-* http://wordpress.com/
-* blog SaaS
-* 3GB tárhely
-* Let's Encrypt SSL
-* Inspiráció egy régi bővítményből: https://wordpress.org/plugins/really-static/
-
-### Wix.com
-
-* https://www.wix.com/free/web-hosting
-* 500MB tárhely
-* 500MB/hó forgalom
-* HTTPS
-* CDN
-* weblapszerkesztő, kész sablonok, SEO eszköztár
-  * egyedi HTML megengedett
-* ingyenes csomag korlátai: reklámot jelenít meg, csak aldomain
-
 ### CodeSandbox
 
 * https://codesandbox.io/s/
@@ -398,6 +367,64 @@ Lásd még:
 * https://agola.io/
 * forrás: GitHub, GitLab, gitea, egyéb git tároló
 
+## Külföldi honlapépítő
+
+### WebNode.info
+
+* https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
+* magyar felület (sok helyen gépi fordítás)
+* blog CMS
+* üzemeltető: Webnode AG, Svájc
+* 100MB tárhely
+  * 1GB/hó átvitel
+  * feltölthető fájlok: képek, dokumentumok, multimédia, egyéb
+  * https://www.webnode.info/tartalomszerkesztes/a-webhelyre-feltoltheto-elfogadott-fajlok-listaja
+* egyedi HTML
+  * egy bejegyzésbe bizonyos HTML címkék beszúrhatók (pl. iframe, JavaScript)
+    * https://www.webnode.info/tartalomszerkesztes/hogyan-adj-html-kodot-az-oldaladhoz
+  * CSS szerkesztése nem támogatott
+    * https://www.webnode.info/szerkeszto-es-tartalom
+  * egyedi HTML kód szúrható a fejlécbe és láblécbe is ami JavaScriptet is tartalmazhat
+    * https://www.webnode.info/kozossegi-oldalak-es-widgetek/hogyan-illessz-be-facebook-widgetet
+
+### Weebly.com
+
+* https://www.weebly.com/pricing
+* üzemeltető: Block Inc., USA
+* 500MB tárhely
+* TLS
+* egyedi HTML, CSS
+
+## Külföldi blog
+
+### Wix.com
+
+* https://www.wix.com/free/web-hosting
+* 500MB tárhely
+* 500MB/hó forgalom
+* HTTPS
+* CDN
+* weblapszerkesztő, kész sablonok, SEO eszköztár
+  * egyedi HTML megengedett
+  * beszúrt CSS
+  * bizonyos JavaScript funkciók
+* ingyenes csomag korlátai: reklámot jelenít meg, csak aldomain
+* reklámokat szúr be
+* bővítmények
+  * https://www.wix.com/app-market
+
+### Wordpress.com
+
+* http://wordpress.com/
+* blog SaaS
+* 3GB tárhely
+* Let's Encrypt SSL
+* bővítmények
+  * Inspiráció egy régi bővítményből: https://wordpress.org/plugins/really-static/
+* reklámokat szúr be
+* biztonsági mentés
+* egyedi HTML
+
 ## Nagy szereplők
 
 ### Blogger.com
@@ -406,6 +433,7 @@ Lásd még:
 * 15GB tárhely
   * max. 1MB/oldal
 * bizonyos korlátozások a HTML, CSS, JS testreszabásával kapcsolatban
+* üzemeltető: Google
 
 ### Cloudflare Pages
 
@@ -421,6 +449,7 @@ Lásd még:
 * Firestore (szinkronizált NoSQL dokumentumtár): 1GB tár, 10GB/hó letöltési forgalom, 20k dokumentumírás/nap
 * Firebase realtime database (valós időben kliensekkel szinkronizált): 1GB tár, 10GB/hó letöltés
 * Firebase Storage (GCP bucket): 5GB tár, 1GB/nap letöltés, 20K/nap feltöltés
+* üzemeltető: Google
 
 ### Google Sites
 
@@ -431,3 +460,11 @@ Lásd még:
     * max. 50MB csatolmány
   * 10 új létrehozható portál 5 napos csúszóablakkal
     * korlátlan oldalszám
+* üzemeltető: Google
+
+### Tumblr
+
+* https://en.m.wikipedia.org/wiki/Tumblr
+* korlátlan tárhely
+* üzemeltető: Automattic, USA
+* egyedi HTML, CSS, JavaScript
