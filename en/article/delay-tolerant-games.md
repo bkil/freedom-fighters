@@ -52,6 +52,12 @@
 
 ## Games for inspiration
 
+### Popular
+
+* https://en.wikipedia.org/wiki/List_of_types_of_games
+* https://en.wikipedia.org/wiki/Mind_Sports_Olympiad#Games_at_the_MSO
+* https://en.wikipedia.org/wiki/World_Mind_Sports_Games#Sports
+
 ### Single player
 
 * `sgt-puzzles`
@@ -60,8 +66,10 @@
 ### 2-player
 
 * chess
+  * https://en.wikipedia.org/wiki/Arimaa
 * backgammon
 * checkers
+* https://en.wikipedia.org/wiki/Pokemon_card_game
 
 ### More than 3 players
 
@@ -76,12 +84,15 @@
   * https://en.wikipedia.org/wiki/Drawception
 * https://en.wikipedia.org/wiki/Draw_Something
   * https://en.wikipedia.org/wiki/Pictionary_(video_game)
+* https://en.wikipedia.org/wiki/Chain_Reaction_(game_show)#Main_game
+  * up to 4 players to be sane but more possible
+* https://en.wikipedia.org/wiki/Yu-Gi-Oh!_Trading_Card_Game
+  * 1 vs. 1 or 2 vs. 2
+* https://en.wikipedia.org/wiki/Magic:_The_Gathering
+* https://en.wikipedia.org/wiki/The_Ungame
+* https://en.wikipedia.org/wiki/Acquire
+* https://en.wikipedia.org/wiki/Risk_(game)
 
 ### TODO
 
-* tavlou
-* Chain Reaction (up to 4 players to be sane but more possible)
 * strategy card games
-  * something similar to pokemon
-  * something similar to "magic the gathering"
-  * YuGiOh-like
