@@ -135,6 +135,7 @@
 
 - https://www.forbes.com/sites/thomasbrewster/2019/01/29/discord-the-2-billion-gamers-paradise-coming-to-terms-with-data-thieves-child-groomers-and-fbi-investigators/
 - https://ganker.com/discord-has-a-furry-pedophile-problem/
+- https://cadence.moe/blog/2020-06-06-why-you-shouldnt-trust-discord
 
 ## Slack
 
