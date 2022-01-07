@@ -73,4 +73,8 @@
 * https://matrix.grin.hu/rooms/
 * https://publiclist.anchel.nl/
 * https://the-federation.info/matrix%7Csynapse
+* https://wiki.asra.gr/en:public_servers
+* https://joinmatrix.org/servers/
+  * https://github.com/austinhuang0131/joinmatrix/
+* https://fediverse.blog/~/FossMessenger/matrix-server
 * TODO: joinmatrix.rocks = homeservers.mx
