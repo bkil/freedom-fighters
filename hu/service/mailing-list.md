@@ -29,6 +29,10 @@ Hasznos opcionális szolgáltatások:
 
 * https://sourceforge.net/create/ publikus
 
+## Külföldi általános
+
+* https://www2.vcn.bc.ca/free-mailing-lists/ talán csak helyiek regisztrálhatnak
+
 ## Nagy szereplők
 
 * https://en.wikipedia.org/wiki/Google_Groups
