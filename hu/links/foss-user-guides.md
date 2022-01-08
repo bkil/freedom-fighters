@@ -50,6 +50,7 @@ Lásd még:
 
 * https://tracking.exposed/
 * https://github.com/pyllyukko/user.js
+* https://github.com/arkenfox/user.js
 * https://ffprofile.com/
 * https://librewolf.net/docs/faq/ _A fork of Firefox, focused on privacy, security and freedom_
   * https://github.com/arkenfox/user.js _Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening_
