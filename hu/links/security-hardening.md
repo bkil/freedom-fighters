@@ -9,3 +9,4 @@
 * https://github.com/a13xp0p0v/linux-kernel-defence-map
 * https://github.com/lfit/itpol/blob/master/linux-workstation-security.md
 * https://github.com/wesaphzt/block-all-google
+* https://librewolf.net/docs/faq/ _A fork of Firefox, focused on privacy, security and freedom_
