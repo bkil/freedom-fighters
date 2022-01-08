@@ -198,5 +198,5 @@ If you understand cryptography, also take a look at https://sockpuppet.org/blog/
 
 Preferred: age (https://github.com/FiloSottile/age)
 
-When PGP public keys are available, PGP.
+When only PGP public keys are available, PGP.
 
