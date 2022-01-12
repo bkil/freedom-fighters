@@ -99,3 +99,4 @@ Statisztikák adhatnak torzított becslést a fentiek miatt.
 * https://ux.stackexchange.com/questions/15140/is-it-ok-to-require-certain-users-to-have-javascript-enabled
 * https://softwareengineering.stackexchange.com/questions/23535/how-important-is-graceful-degradation-of-javascript
 * http://www.punkchip.com/why-support-javascript-disabled/
+* https://www.wired.com/2015/11/i-turned-off-javascript-for-a-whole-week-and-it-was-glorious/
