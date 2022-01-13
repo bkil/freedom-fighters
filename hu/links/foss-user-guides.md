@@ -40,12 +40,16 @@ Lásd még:
 * https://github.com/m1lkweed/nomad-guide
 * https://alternativeto.net/
 * https://switching.software/
+* https://privacy-handbuch.de/
 
 ### Böngésző magánszféra javítás
 
 * https://tracking.exposed/
 * https://github.com/pyllyukko/user.js
 * https://ffprofile.com/
+* https://librewolf.net/docs/faq/ _A fork of Firefox, focused on privacy, security and freedom_
+  * https://github.com/arkenfox/user.js _Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening_
+* https://git.nixnet.services/you/stop_cloudflare/src/branch/master/subfiles/change-firefox-dns.md
 
 ### Android magánszféra javítás
 
