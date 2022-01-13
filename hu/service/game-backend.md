@@ -33,18 +33,18 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 
 ### Föderált rendszerek bővítményeként
 
-- https://github.com/friendica/friendica-addons
-- https://framagit.org/hubzilla/addons
-- Matrix Synapse plugin/module (lásd mjolnir)
-- https://wordpress.org/plugins/
+- https://github.com/friendica/friendica-addons PHP
+- https://framagit.org/hubzilla/addons PHP
+- Matrix Synapse plugin/module (lásd mjolnir) Python
+- https://wordpress.org/plugins/ PHP
   - https://wordpress.org/plugins/activitypub/
-- https://www.drupal.org/docs/contributed-modules
+- https://www.drupal.org/docs/contributed-modules PHP
   - https://www.drupal.org/project/activitypub
-- https://apps.nextcloud.com/
+- https://apps.nextcloud.com/ PHP
   - https://nextcloud.com/blog/category/federation/
   - https://nextcloud.com/federation/
 
-### Egyéb bővítményként
+### PHP bővítményként
 
 - https://extensions.joomla.org/
   - https://github.com/joomla/rfc/pull/13
@@ -53,6 +53,7 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 - https://marketplace.magento.com/extensions.html
 - https://addons.prestashop.com/en/2-modules-prestashop
 - https://extensions.typo3.org/
+  - https://github.com/typoplugins?tab=repositories
 - https://www.phpbb.com/extensions/
 - https://docs.flarum.org/extend/
   - https://github.com/topics/flarum-extension
@@ -65,19 +66,34 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 - https://getgrav.org/downloads/plugins#extras
 - https://marketplace.concretecms.com/marketplace/addons
 - https://www.opencart.com/index.php?route=marketplace/extension&filter_license=0
+
+### Python bővítményként
+
 - https://wagtail.io/packages/
 - https://marketplace.django-cms.org/en/addons/browse/
 - https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone
   - https://www.plone.org/download/add-ons
-- https://github.com/publify/publify/wiki/In-Page-Plugins
-  - https://github.com/typoplugins?tab=repositories
-- https://community.nodebb.org/category/7/nodebb-plugins
-- https://guides.alchemy-cms.com/about.html#the-core-modules
+
+### Perl bővítményként
+
 - https://plugins.movabletype.org/featured/plugins/
+
+### JavaScript bővítményként
+
+- https://community.nodebb.org/category/7/nodebb-plugins
 - https://ghost.org/integrations/
+
+### Java bővítményként
+
 - https://marketplace.magnolia-cms.com/all-extensions.html
 - https://hub.alfresco.com/t5/alfresco-content-services-add/bd-p/add-ons
   - https://docs.alfresco.com/content-services/6.2/develop/repo-ext-points/
+
+### Ruby bővítményként
+
+- https://github.com/publify/publify/wiki/In-Page-Plugins
+- https://guides.alchemy-cms.com/about.html#the-core-modules
+- https://www.redmine.org/plugins?page=1
 
 ### Frontend widget
 
