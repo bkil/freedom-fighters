@@ -64,7 +64,11 @@ Az üzemeltetőnek kell betanítani és tesztelni.
 * http://www.statmt.org/paracrawl-benchmarks/
 * https://github.com/pytorch/translate#requirements-and-installation
 * https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md
-* https://github.com/LibreTranslate/LibreTranslate
+* https://github.com/LibreTranslate/LibreTranslate Argos Translate
+  * https://github.com/argosopentech/argos-translate
+  * https://github.com/OpenNMT/OpenNMT-tf
+  * https://github.com/OpenNMT/OpenNMT-py
+  * https://github.com/OpenNMT/CTranslate2
 
 ## Szótár
 
