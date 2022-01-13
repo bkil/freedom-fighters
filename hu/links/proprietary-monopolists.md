@@ -144,3 +144,7 @@
 ## Telegram
 
 - https://www.forbes.com/sites/zakdoffman/2019/08/25/chinese-agencies-crack-telegram-a-timely-warning-for-end-to-end-encryption/
+
+## Dropbox
+
+- https://www.wired.com/2011/05/dropbox-ftc/ _Dropbox Lied to Users About Data Security, Complaint to FTC Alleges_
