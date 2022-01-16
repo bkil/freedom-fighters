@@ -67,6 +67,7 @@
 - https://www.reddit.com/r/DataHoarder/comments/j61wcg/g_suite_becomes_google_workspace_12month/ G Suite becomes Google Workspace ($12/month Unlimited plan becomes $12/month 2tb plan)
 - https://edition.cnn.com/2019/07/22/tech/google-street-view-privacy-lawsuit-settlement/index.html
 - https://forbes.com/sites/thomasbrewster/2021/10/04/google-keyword-warrants-give-us-government-data-on-search-users/ _Exclusive: Government Secretly Orders Google To Identify Anyone Who Searched A Sexual Assault Victim’s Name, Address And Telephone Number_
+- https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal
 
 - https://ec.europa.eu/commission/presscorner/detail/en/IP_21_3143
 > Antitrust: Commission opens investigation into possible anticompetitive conduct by Google in the online advertising technology sector
