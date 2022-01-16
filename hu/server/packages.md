@@ -263,6 +263,7 @@
 
 Érdemes összehasonlítani a kínálatukat, illetve érdekes volna kombinálni a palettákat valamilyen módon.
 
+* https://github.com/awesome-selfhosted/awesome-selfhosted#user-content-self-hosting-solutions továbbiak felsorolása
 * https://freedombone.net/apps.html
 * https://wiki.debian.org/FreedomBox/Manual#Apps
   * https://wiki.debian.org/FreedomBox/Features
@@ -272,14 +273,30 @@
   * https://en.wikipedia.org/wiki/ArkOS
 * https://homelabos.com/docs/#categories
   * https://gitlab.com/NickBusey/HomelabOS/
+* https://github.com/DFabric/dppm-packages-source
+* https://gitlab.com/flap-box/flap
+* https://ubos.net/apps/
+* https://github.com/nextcloud/nextcloudpi
 * Docker
   * https://dockstarter.com/
     * https://github.com/GhostWriters/DockSTARTer/
+* https://gitlab.com/bitsii/Bitsii/-/wikis/home
+  * Raspberry Pi: Snap, nginx, NextCloud, Domoticz, Syncthing, webshell, File browser, Notebook, Webcam
+  * https://gitlab.com/bitsii/BBridge/-/blob/master/resources/bpinstalls.json
+* https://dietpi.com/dietpi-software.html
+  * Raspberry Pi
+* https://www.openmediavault.org/?page_id=1562
+* https://wikisuite.org/Source-Code
+* https://syncloud.org/apps.html
+  * https://github.com/syncloud/platform
 * Ansible
-  * https://github.com/davestephens/ansible-nas
+  * https://github.com/DaveStephens/ansible-nas
+  * https://github.com/Cloudbox/Cloudbox
   * https://github.com/osm-fr/ansible-peertube
   * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
   * https://github.com/JeroenED/Ansible-Role-Friendica
+  * https://gitlab.com/nodiscc/xsrv/#roles
+    * https://github.com/nodiscc/xsrv#user-content-roles
 * Kubernetes
   * https://github.com/bobbyd0g/commlab
 
