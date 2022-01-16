@@ -50,6 +50,7 @@ Lásd még:
 * https://librewolf.net/docs/faq/ _A fork of Firefox, focused on privacy, security and freedom_
   * https://github.com/arkenfox/user.js _Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening_
 * https://git.nixnet.services/you/stop_cloudflare/src/branch/master/subfiles/change-firefox-dns.md
+* https://github.com/claustromaniac/detect-cloudflare-plus/blob/cdcfe71a6217f263cbba331bee6296bb8e34be74/src/background/classes.js
 
 ### Android magánszféra javítás
 
