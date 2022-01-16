@@ -53,7 +53,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 
 ### Példák utca léptékű interakcióra
 
-* elkapta a szél az antennát, cserepet, ágat
+* elkapta a szél az antennát, tetőcserepet, virágcserepet, ágat
 * vagyonbiztonság
   * szól az autó- vagy lakásriasztó
   * nyitva maradt az ajtó
@@ -64,12 +64,17 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * patakzik a víz az úton (csőtörés, tűzcsap)
 * elromlott utcabútor
 * nálatok sem vitték el a kukát?
+  * szelektív- vagy zöldhulladékgyűjtési szabályok változása
 * hozzátok is jár a mókus/nyest?
 * mi ez a hangzavar az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák, feltörik az autót, ablakot, ajtót)
   * egész éjszaka ugat valakinek a kutyája, kéretik kezelni a problémát (TODO: hangfelismeréssel akár automatizálható a tulajdonos felkeresése)
-* messziről rendel valaki valamit és postaköltség megosztás
-* telekocsi
-* zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka)
+* zajjal járó munkálatok előzetes bejelentése
+* költségmegosztás
+  * messziről rendel valaki valamit és postaköltség megosztás
+  * telekocsi
+  * konténer rendelés
+  * kötegelve végezhető, rövid ideig tartó szakmunkák, mint a parkolóhely festés
+* zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka, gyermekfelügyelet)
 * lomtalanítás
 * megmaradt építőanyagok elvihetők
 * csere-bere, könyvek
