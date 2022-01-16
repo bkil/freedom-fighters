@@ -40,6 +40,13 @@ Ideális, ha nem épít profil a tevékenységünkből, illetve ha API segítsé
 
 * https://translate.yandex.com/
 
+### Amazon Translate
+
+* https://aws.amazon.com/translate/
+* AWS fiók regisztráció szükséges
+* 2 millió betű/hó ingyen
+* https://crowdin.com/ is ezt használja
+
 ## Magyar nyelvet nem támogató szövegfordító
 
 ### PROMT.One
