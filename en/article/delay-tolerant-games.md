@@ -52,6 +52,9 @@
 
 ## Games for inspiration
 
+The intellectual property behind some of these games may still be protected by copyright, patents or trademarks.
+Hence the ones which are not public domain needs to be rethought from scratch under a copyleft license.
+
 ### Popular
 
 * https://en.wikipedia.org/wiki/List_of_types_of_games
@@ -70,6 +73,7 @@
 * backgammon
 * checkers
 * https://en.wikipedia.org/wiki/Pokemon_card_game
+* https://en.wikipedia.org/wiki/Battleship_(game)
 
 ### More than 3 players
 
@@ -92,6 +96,9 @@
 * https://en.wikipedia.org/wiki/The_Ungame
 * https://en.wikipedia.org/wiki/Acquire
 * https://en.wikipedia.org/wiki/Risk_(game)
+* https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht
+  * called _"Man, Don't Get Angry"_ in English, _"Ki nevet a végén?"_ in Hungarian
+  * mostly a game of chance
 
 ### TODO
 
