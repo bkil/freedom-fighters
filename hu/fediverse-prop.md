@@ -8,7 +8,7 @@ utolsó félévi közreműködők|100+|100+|100+|100+|51|51
 kódtároló könyvjelző|894|22300|12600|178|43|1500
 szerver példányok|262|2829|163|758|kevés|123
 felhasználók|7k|3M|757k|58k|kevés|8k
-szerver erőforrásigény|közepes|közepes|közepes|kicsi|közepes|közepes
+szerver erőforrásigény|kicsi|közepes|közepes|kicsi|kicsi|közepes
 PaaS|PHP|Ruby on Rails|Ruby on Rails|Elixir|PHP|TypeScript
 követők|csoportosítható|zárolható|csoportosítható||jogosultságok|
 láthatóság szabályozása|csoportok, egyének|publikus, követők vagy egyén|csoportok||csoportok, egyének|
@@ -17,15 +17,17 @@ követés|emberek, címkék|emberek, max 4 címke|emberek, címkék||emberek|
 események|igen|nem|nem|nem|igen|
 protokoll|AP, Diaspora|AP|Diaspora|AP|AP, Diaspora, Zot, OStatus|
 képeknek proxy|igen|N/A (nem támogat beágyazást)|választható (Camo)||nem|
-törölhetőség|||nincs||igen|
+törölhetőség|igen|igen|igen|igen|igen|igen
+szerkeszthetőség|igen|nem|nem|nem|igen|nem
 elévíthetőség|beállításokban||||üzenetenként|
 külső illeszthetőség|RSS, Blogger, Discourse, LiveJournal, Tumblr, WordPress, email|||||
 feed kimenet|||atom|||
 manuális falszűrők|igen|||||
 üzenethossz|korlátlan?|500|vertikálisan lenyitható pár sor után||vertikálisan lenyitható pár sor után|
+formázás|BBCode, Markdown|URI|Markdown|HTML, BBCode, Markdown|BBCode, Markdown|Markdown
 export|igen|igen|igen|||
 import|korlátozott|korlátozott|nem|||
-fiók átirányítás||igen|||igen|
+fiók átirányítás|korlátozott|igen|||igen|
 válaszok kedvelése|igen|igen|nem||igen|
 reactji számláló|nem|nem|nem|igen|nem|igen
 címke böngészés|publikus|választható|publikus|publikus|publikus|
