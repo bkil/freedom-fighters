@@ -291,6 +291,8 @@
   * https://github.com/syncloud/platform
 * Ansible
   * https://github.com/DaveStephens/ansible-nas
+  * https://github.com/jaywink/ansible-diaspora
+    * https://github.com/jaywink?tab=repositories&q=ansible&type=&language=&sort=
   * https://github.com/Cloudbox/Cloudbox
   * https://github.com/osm-fr/ansible-peertube
   * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
