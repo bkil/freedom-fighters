@@ -32,6 +32,7 @@ Lásd még:
 * https://blog.jabberhead.tk/2019/03/10/a-look-at-matrix-orgs-olm-megolm-encryption-protocol/
 * https://soundcloud.com/user-98066669/205-five-shows-in-one _XMPP with OMEMO is similar to Matrix MEGOLM for E2EE_
 * https://restoreprivacy.com/secure-encrypted-messaging-apps/telegram/ _Telegram Messenger Review - January 19, 2021 By Heinrich Long_
+* https://dt.gl/tag/messengers/
 
 ## Hírek
 
@@ -52,3 +53,4 @@ Lásd még:
 * https://soatok.blog/2021/11/05/threema-three-strikes-youre-out/ _Threema: Three Strikes, You’re Out - Threema boldly claims to be more secure than Signal. Does this hold up to scrutiny?_
   * https://old.reddit.com/r/Threema/comments/qn870u/threema_three_strikes_youre_out/hjxi28l/?context=3
 * https://mtpsym.github.io/ _Security Analysis of Telegram (Symmetric Part)_
+* https://words.filippo.io/dispatches/telegram-ecdh/ _THE MOST BACKDOOR-LOOKING BUG I’VE EVER SEEN: discovered and fixed in Telegram's self-rolled cryptographic protocol about seven years ago_
