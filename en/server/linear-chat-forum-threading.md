@@ -42,6 +42,8 @@ Note that such a system is not suitable for groups that are mostly conversationa
   * Diaspora
   * Pleroma
     * https://git.pleroma.social/pleroma/pleroma/-/issues/1429
+  * MissKey
+    * https://misskeypy.readthedocs.io/en/latest/module_Misskey.html#Misskey.Misskey.Misskey.notes_delete
 * Discourse
   * immutable at first
   * only the most recent message mutable later on
