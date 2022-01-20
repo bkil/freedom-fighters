@@ -24,12 +24,18 @@ DDOS felszívás
 
 ### Hálózati ujjlenyomat
 
-* User-Agent és egyéb HTTP kérés fejlécek asztali és mobil böngészőkön leggyakrabban megfigyelhető kombinációi
+* HTTP kérés fejlécek asztali és mobil böngészőkön leggyakrabban megfigyelhető kombinációi
+  * Accept, Accept-Encoding, Accept-Language, User-Agent
 * GeoIP, reverse DNS és traceroute: kiszűrni a proxy, IaaS és PaaS címeket (DNSBL?)
 * Késleltetés és hopszám mérése
+  * WAN kapcsolódás típus közeli adatközponthoz képesti késleltetés és jitter alapján
+* Fel- és letöltési átviteli sebesség becslése nagyobb dokumentumok és helykitöltő alapján
 * https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting
   * TCP dugóelhárító algoritmus, ablakméret, opciók, csomagvesztés kezelése, TLS jellemzők
   * szekvencia és időbélyegző lötyögésé és sebessége alapján követés
+* CPU sebesség becslése TLS műveletek alapján
+* DNS feloldó: átirányításokkal, TTL, késleltetések, feloldói oldali gyorsítótár
+* DNS feloldás: kliens oldali gyorsítótár
 
 ## Szürkezóna
 
@@ -58,6 +64,7 @@ Hasonló Discourse alatt a megbízhatósági szint:
 * Opcionális: szerver oldali scriptekkel egy új megnyitáskor egy hibaoldalt visszaadni (4xx/5xx?) amiben emberi nyelven meg van fogalmazva, hogy be kell nyomni a frissítés gombot és utána hibakód nélkül visszaadja a tartalmat
 * Opcionális: folyamatkijelzés mellett nagyon lassan streamelni az oldalt, időtúllépésben bízva (31 másodperc?)
 * Opcionális: hivatkozzunk a fejben egy `.css`-re és csak azután adjuk vissza a tartalmat iframe-ben miután lekérik a hivatkozást
+* Opcionális: CSS alapú ujjlenyomat
 * Opcionális: meta-refresh várakoztatás után kérje le és adja vissza az igazi tartalmat
   * Inspiráció: A botok csak bizonyos ideig futtatják az oldalt és utána vesznek egy DOM snapshotot
   * Valószínűleg a jobb botok a refresh URI-t is le fogják crawlolni
