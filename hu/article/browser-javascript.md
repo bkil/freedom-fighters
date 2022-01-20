@@ -11,8 +11,15 @@
 
 * megnehezíti az adatszivárogtatást a meglátogatott oldalak vagy harmadik fél részére
   * böngésző ujjlenyomat (Tor), szupersütik és biometria, viszont enélkül sem lehetetlen
-    * https://fingerprintjs.com/blog/disabling-javascript-wont-stop-fingerprinting/
-    * https://noscriptfingerprint.com/
+    * https://github.com/fingerprintjs/blog-nojs-fingerprint-demo
+      * https://noscriptfingerprint.com/
+      * https://fingerprintjs.com/blog/disabling-javascript-wont-stop-fingerprinting/
+    * https://github.com/OliverBrotchie/CSS-Fingerprint
+    * https://github.com/kkuchta/css-only-chat
+    * https://www.bleepingcomputer.com/news/security/researcher-finds-css-only-method-to-track-mouse-movements/
+    * https://github.com/jbtronics/CrookedStyleSheets
+    * https://csstracking.dev/
+    * [passive-abuse-prevention.md](../server/passive-abuse-prevention.md#h%C3%A1l%C3%B3zati-ujjlenyomat)
 * megnehezíti a komplex, rendszerszintű visszaéléseket (mind a meglévők mint az XSS, mind eddig fel nem fedezett esetekben)
 
 ### Biztonsági szempontból
