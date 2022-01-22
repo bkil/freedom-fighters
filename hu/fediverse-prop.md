@@ -19,7 +19,7 @@ protokoll|AP, Diaspora|AP|Diaspora|AP|AP, Diaspora, Zot, OStatus|
 képeknek proxy|igen|N/A (nem támogat beágyazást)|választható (Camo)||nem|
 törölhetőség|igen|igen|igen|igen|igen|igen
 szerkeszthetőség|igen|nem|nem|nem|igen|nem
-elévíthetőség|beállításokban||||üzenetenként|
+elévíthetőség|felhasználó beállításaiban|nincs|nincs|szerveren (MRF policy)|üzenetenként|nincs
 külső illeszthetőség|RSS, Blogger, Discourse, LiveJournal, Tumblr, WordPress, email|||||
 feed kimenet|||atom|||
 manuális falszűrők|igen|||||
