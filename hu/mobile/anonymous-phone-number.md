@@ -6,9 +6,15 @@ Például Signal vagy Telegram regisztrációhoz.
 
 * http://smspva.com/
 
+### onlinesim.ru
+
 * https://onlinesim.ru/en
 > Virtual phone numbers for online text message reception from social networking websites, messengers, and other platforms
 > Text message reception to free virtual phone numbers
+
+* Teszteltük
+  * Kriptovalutával könnyű volt fizetni
+  * Telegram blokkolta az összes számukat, de Signal és battle.net elfogadja
 
 ## Hívásokra is
 
