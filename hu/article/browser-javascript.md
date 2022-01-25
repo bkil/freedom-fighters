@@ -19,6 +19,7 @@
     * https://www.bleepingcomputer.com/news/security/researcher-finds-css-only-method-to-track-mouse-movements/
     * https://github.com/jbtronics/CrookedStyleSheets
     * https://csstracking.dev/
+    * https://developer.mozilla.org/en-US/docs/Web/CSS/@import
     * [passive-abuse-prevention.md](../server/passive-abuse-prevention.md#h%C3%A1l%C3%B3zati-ujjlenyomat)
 * megnehezíti a komplex, rendszerszintű visszaéléseket (mind a meglévők mint az XSS, mind eddig fel nem fedezett esetekben)
 
