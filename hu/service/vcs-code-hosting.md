@@ -48,6 +48,11 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 
 ## Új, kis szereplők
 
+### ChiselApp.com
+
+* https://chiselapp.com/
+* Fossil SCM
+
 ### codeberg.org
 
 * 2019
