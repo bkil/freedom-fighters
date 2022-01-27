@@ -20,6 +20,8 @@ Lásd még:
 * https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/htmlview
 * https://berty.tech/faq#what-are-the-advantages-of-berty-compared-to-the-other-messengers
 * https://www.freie-messenger.de/systemvergleich/#schnell%C3%BCbersicht
+* https://threema.ch/en/messenger-comparison
+* https://eylenburg.github.io/im_comparison.htm
 
 ## Kifejtő elemzések
 

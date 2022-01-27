@@ -238,3 +238,4 @@ Jelenleg Magyarországon nem ingyenes. Amazon Prime előfizetés és Kindle Fire
 * https://eu.storagemadeeasy.com/cloud_list/
 * https://en.wikipedia.org/wiki/Comparison_of_online_backup_services
 * https://en.wikipedia.org/wiki/Comparison_of_file_hosting_services
+* https://eylenburg.github.io/cloud_comparison.htm
