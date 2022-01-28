@@ -22,6 +22,7 @@ Lásd még:
 * https://www.freie-messenger.de/systemvergleich/#schnell%C3%BCbersicht
 * https://threema.ch/en/messenger-comparison
 * https://eylenburg.github.io/im_comparison.htm
+* https://community.signalusers.org/t/wiki-in-depth-feature-comparison-between-private-messaging-apps/12238
 
 ## Kifejtő elemzések
 
