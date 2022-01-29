@@ -6,6 +6,7 @@
 * https://en.wikipedia.org/wiki/Category:Free_static_website_generators
 * https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 * https://en.wikipedia.org/wiki/Static_web_page
+* https://staticadventures.netlib.re/blog/entering-the-static-web/
 
 ## Magyar tárhely
 
@@ -288,6 +289,14 @@ Ezek sajnos "elkoptak".
 Lásd még:
 
 * [service/free-shell-account.md](service/free-shell-account.md)
+
+### FreeHosting.io
+
+* https://www.freehosting.io/hosting
+* korlátlan tárhely
+* korlátlan forgalom
+* ingyen freesite.vip aldomain
+* iFastNet partner
 
 ### uCoz
 
