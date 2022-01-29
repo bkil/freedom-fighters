@@ -222,9 +222,10 @@
 
 ### Host-ed
 
-* http://www.host-ed.net/web-hosting.php
+* https://www.host-ed.net/web-hosting.php
 * 1GB HDD tárhely
   * max. 5MB fájlméret
+  * max. 2MB feltölthető fájlméret
   * 25000 i-node
   * 256kB/s
   * minimum 1MB használata kötelező
@@ -232,7 +233,8 @@
 * 16% CPU
   * max. 5 párhuzamos web szerver lekérés
   * max. 10 párhuzamos folyamat
-  * 100MB RAM
+  * 100MB fizikai RAM
+  * 32MB PHP memory_limit
 * 1 * 10MB MySQL, 1 * 10MB PostgreSQL
   * 2% CPU
   * 256kB/s I/O
@@ -240,7 +242,8 @@
 * 1 crontab (max 1/óra)
 * 3 saját domén, 1 aldomén
 * email fiók
-  * max 1 email/óra
+  * webmail, POP3, nincs IMAP, "korlátozott" SMTP
+  * max 1 küldött email/óra
 * SSL
 * CloudLinux alapú szerver
 
@@ -296,6 +299,7 @@
 
 * almárkái:
   * 125MB https://www.125mb.com/
+  * 200MB Host http://200mbhost.com/
   * AcesHost http://aceshost.com/
   * AgilityHoster https://www.agilityhoster.com/
   * AlotSpace https://www.alotspace.com/
@@ -317,7 +321,7 @@
 ## iFastNet
 
 * külföldi reklámmentes
-* whitelabel szolgáltató számol almárkável, üzemeltetője: ifastnet.com, regisztráció: securesignup.net
+* whitelabel szolgáltató számos almárkável, üzemeltetője: ifastnet.com, regisztráció: securesignup.net
 * PHP 5
 * korlátlan MySQL adatbázis
 * max. 10MB fájlméret
@@ -399,6 +403,19 @@
 * http://www.hostfree.pw/
 * Ide átirányít: http://www.vhostfull.com/
 
+### InfinityFree
+
+* https://infinityfree.net/
+* 5GB tárhely
+* korlátlan forgalom
+* PHP 7.4
+* 400 MySQL 5.7 adatbázis
+* TLS
+* reklámmentes
+* hozott domain vagy 25 aldomain valamelyike
+* alkalmazástelepítő: Softaculous
+* legfeljebb 3 fiók regisztrálható felhasználónként
+
 ### J77.us
 
 * http://j77.us/free-web-hosting.html
@@ -451,6 +468,27 @@
 * https://freedomaini.com/cart.php?a=add&pid=2
 * 25GB tárhely
 * nincs aldomén
+
+### FreeHosting.com
+
+* https://www.freehosting.com/free-hosting.html
+* 10GB tárhely
+* korlátlan forgalom
+* PHP
+  * 256MB memory_limit
+  * nincs `mail()` és `sendmail` csak fizetős csomagban
+  * 1 MySQL adatbázis
+* Linux, Apache
+  * .htaccess
+* nincs aldomén
+* hozott vagy új domainhez
+* felhasználók blokkolva:  Brazília, Kuba, Irán, Szudán, Szíria, Vietnám.
+* cPanel vezérlőpult
+  * alkalmazástelepítő
+* 1 webmail, IMAP, POP3, SMTP email
+* nincs TLS
+* reklámmentes
+* székhely: Csehország
 
 ### Nexus Bytes
 
@@ -539,10 +577,18 @@ A következőknél a tárhelyért nem számítanak fel külön díjat, viszont e
 
 Százával akadnak még külföldi alternatívák:
 
+* https://www.100-best-free-webspace.com/webspace_01.php
+* https://www.absolutely-free-hosting.com/free_hosts_01.php
 * http://www.fhdir.com/
+* https://freehosting1.net/hosting.aspx
 * https://freehostsdir.com/
 * http://www.free-webhosts.com/
+* https://www.free-webspace.org/webspace_01.php
 * https://hu.hostadvice.com/hosting-services/free-hosting/
+* https://hostingfunda.com/free-hosting/
+* https://www.hostsearch.com/free-web-hosting
+* https://www.thefreecountry.com/webhosting/freewebhosts.shtml
+* https://www.thefreesite.com/Free_Web_Space/
 
 ### Elévült
 
@@ -559,6 +605,7 @@ Megszűntnek látszik az alapján, hogy nagyon régen nem volt frissítve, nem m
 * https://www.hostmedia.co.uk/
 * https://www.netfirms.com/
 * https://vimlyhost.net/
+* https://x10hosting.com/ "a regisztráció átmenetileg szünetel"
 
 ### Megszűnt
 
@@ -566,6 +613,7 @@ A domén vagy már szabad, vagy árulják, vagy reklámokat és ártó kódokat 
 
 * http://www.000a.biz/
 * http://www.5freehosting.com/
+* http://www.5gbfree.com/
 * http://888webhost.com/
 * http://www.99on.com/
 * http://www.bravenet.com/
@@ -583,7 +631,12 @@ A domén vagy már szabad, vagy árulják, vagy reklámokat és ártó kódokat 
 * http://www.hostcare.ml/
 * http://i60.us/
 * http://info8-hosting.info/ deceptive oldal, pedig iFastnet
+* http://www.jabry.net/
 * http://www.mzzhost.com/
+* http://www.orgfree.com/
+* http://www.sitepalace.com/
 * http://www.vlexofree.com/
+* http://www.webng.com/
+* http://www.webspawner.com/
 * http://wehostyou360.ml/
 * http://xhosting.ml/
