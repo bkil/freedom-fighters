@@ -15,6 +15,7 @@ Lásd még:
 * https://github.com/mendel5/alternative-front-ends
 * https://eylenburg.github.io/cloud_comparison.htm
 * https://eylenburg.github.io/browser_comparison.htm
+* https://divestos.org/index.php?page=browsers
 
 ## Magánszféra listák angolul
 

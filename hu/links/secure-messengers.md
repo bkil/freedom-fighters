@@ -23,6 +23,8 @@ Lásd még:
 * https://threema.ch/en/messenger-comparison
 * https://eylenburg.github.io/im_comparison.htm
 * https://community.signalusers.org/t/wiki-in-depth-feature-comparison-between-private-messaging-apps/12238
+* https://divestos.org/index.php?page=messengers
+* https://bkil.gitlab.io/secuchart/
 
 ## Kifejtő elemzések
 

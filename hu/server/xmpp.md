@@ -45,3 +45,4 @@
 * https://xmpp.org/software/servers/
   * https://new.xmpp.org/software/servers
 * https://en.wikipedia.org/wiki/Comparison_of_XMPP_server_software#Comparison_by_XEP_implementation_status
+* https://wiki.xmpp.org/web/Roundup/Software#Servers
