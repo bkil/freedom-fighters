@@ -425,6 +425,16 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
     * cache-elés, gyorsítás érdekében
     * ahol kliens oldalon tiltott a Tor
     * megosztó tartalmakhoz - akár a nem-Tor uplinkesek széleskörű családi szűrőket alkalmaznának a jogi aggályokat elkerülendő
+* TODO: energiatakarékos mobil értesítéseke kiszolgálása
+  * https://github.com/uniqush/uniqush-push
+  * https://github.com/pmagaz/webpush-notification-server
+  * https://unifiedpush.org/
+    * https://bubu1.eu/openpush/
+    * https://f-droid.org/en/2020/02/03/openpush-talk.html
+    * https://unifiedpush.org/users/distributors/nextpush/
+    * https://github.com/UP-NextPush/server-app
+    * https://unifiedpush.org/users/distributors/ntfy/
+    * https://gitlab.com/Nextcloud-Push/direct-push-proxy-v2
 
 ### Kisvállalati csomag
 
