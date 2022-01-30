@@ -54,8 +54,9 @@
 * https://atw.hu/ingyenes-webtarhely
 * Apache (+Nginx terheléselosztók)
 * PHP
+  * max. 20 küldött email/nap (`mail()`)
 * MySQL
-* email fiók
+* email fiók: POP3, IMAP, SMTP, 5MB tárhely!
 * 1 aldomén rendelkezésre áll
 * cron
 
@@ -134,43 +135,23 @@
 * cronjob
 * Apache
 
-### FnHost
-
-* https://www.fnhost.org/
-* korlátlan tárhely
-* korlátlan forgalom
-* 100 * MySQL 5.6 adatbázis
-* PHP 5.4, 5.5, 5.6, 7.0
-* Apache 2.4
-* aldomén, korlátlan domén
-* SSL
-* 10 email fiók
-
-### FreeCloudHost
-
-* https://freecloudhost.org/
-* 1GB tárhely
-* 10GB/hó forgalom
-* PHP
-* 1 MySQL adatbázis
-* SSL
-* LiteSpeed Enterprise quic.cloud CDN
-* elvárás a fórumban való aktív részvétel
-
 ### Freehostia
 
 * https://www.freehostia.com/free-cloud-hosting/
 * 250MB tárhely
+  * max. 2MB fájlméret
 * PHP 4, 5, 7
-* Perl, Python
+  * Perl, Python, SSI
+  * alkalmazástelepítő
 * 10MB MySQL v5
 * 6GB/hó forgalom
-* 3 postafiók
+* 3 postafiók, RoundCube webmail
+  * SMTP tiltva
 * tucatnyi aldoménből választhatunk, 5 név használható egyszerre
-* saját domén
+  * saját domén
 * Let's Encrypt SSL
 * szerver: 24 mag, 64GB RAM, Apache, 2.5Gb/s, UPS & dízel aggregátor
-* Chicago, USA
+  * Chicago, USA
 
 ### FreeHostingEU
 
@@ -199,7 +180,7 @@
 
 * https://googiehost.com/freehosting.html
 * 1GB tárhely
-* 100GB/hó forgalom
+* 100GB/hó forgalom, afelett 100Mb/s
 * PHP 5.3, 7.0.1
 * 2 MySQL adatbázis
 * 2 email postafiók
@@ -207,8 +188,11 @@
 * SSL
 * cPanel vezérlőpult
   * Softaculous Auto-Installer telepítő
-* CloudFlare CDN
+* LiteSpeed
+  * CloudFlare CDN
 * ssh
+  * cron talán
+    * https://client.googiehost.com/index.php/knowledgebase/86/How-to-setup-Cron-Job-.html
 
 ### HelioHost
 
@@ -216,9 +200,15 @@
 * PHP, ASP.NET, Java/JSP, Ruby on Rails, Django, Python, Perl
 * MySQL, PostgreSQL, SQLite
   * korlátlan számú adatbázis
-* email fiók
+* email fiókok korlátlan számban
+  * korlátlan levlista
 * 1GB tárhely
 * korlátlan forgalom
+* TLS
+* Softaculous telepítő
+* 30 naponta cPanel belépés szükséges
+* 10 másodperces időablakban max. 20% CPU, max. 20% RAM
+* 1 cronjob, max. 2 futás/nap
 
 ### Host-ed
 
@@ -253,9 +243,12 @@
 * magán csomagban 50GB tárhely
 * üzleti csomagban korlátlan tárhely
 * korlátlan forgalom
-* régi nevén: 3Jelly
+* max. 35 párhuzamos bejövő HTTP kapcsolat
+* email
+  * egy kimenő levélnek max. 500 címzettje lehet
 * SSL
 * telefonszám megadása kötelező
+* régi nevén: 3Jelly
 
 ### Objectis
 
@@ -378,11 +371,39 @@
 * 5 aldomén rendelkezésre áll
 * saját domén is használható
 
+### FreeCloudHost
+
+* https://freecloudhost.org/
+* Ez is szerepel a FAQ-ban: Cloudy.eu.org
+* 1GB tárhely
+  * 10MB fájlméret korlát
+* 10GB/hó forgalom
+* PHP
+  * 24MB PHP memory_limit
+* 1 MySQL adatbázis
+* SSL
+* LiteSpeed Enterprise quic.cloud CDN
+* elvárás a fórumban való aktív részvétel
+* nincs cron ("cannot run stand-alone, unattended server-side processes")
+
 ### dc7.us
 
 * http://dc7.us/free-web-hosting.html
 * 10GB tárhely
 * 100GB/hó forgalom
+
+### FnHost
+
+* https://www.fnhost.org/
+* "Sponsored by iFastNet", oda irányít a prémium regisztráció is
+* korlátlan tárhely
+* korlátlan forgalom
+* 100 * MySQL 5.6 adatbázis
+* PHP 5.4, 5.5, 5.6, 7.0
+* Apache 2.4
+* aldomén, korlátlan domén
+* SSL
+* 10 email fiók
 
 ### Free-Hoster
 
@@ -423,18 +444,6 @@
   * max. 10MB fájlméret
 * 77777MB/hó forgalom
 * 7 MySQL korlátlan adatbázis
-
-### Mipropia
-
-* https://mipropia.com/free-hosting/php/
-* 3GB tárhely
-  * max fájlméret 10MB
-* 50GB/hó forgalom
-* PHP 5.4, 5.5, 5.6, 7.0
-* 4 * MySQL korlátlan méretű
-* SSL
-* 4 domén, 4 aldomén
-* 158MB RAM
 
 ### UHostAll
 
@@ -528,10 +537,13 @@
 * 1500MB tárhely
   * max. 12MB fájlméret
 * korlátlan forgalom
+  * 1-3 havonta kötelező látogatót hozni
+  * nagy tárhely foglaltság (>100MB) esetén legyen legalább naponta 1 látogató
 * Apache 2.4 mod_rewrite, .htaccess
 * PHP 5.6, 7.1, 7.2, 7.3
 * MariaDB 10.4
 * SSI
+* `mail()` függvény alapból tiltott, de forgalmas, minőségi oldalak kérhetik a felkapcsolását
 
 ### Miarroba
 
@@ -640,3 +652,16 @@ A domén vagy már szabad, vagy árulják, vagy reklámokat és ártó kódokat 
 * http://www.webspawner.com/
 * http://wehostyou360.ml/
 * http://xhosting.ml/
+
+#### Mipropia
+
+* https://mipropia.com/free-hosting/php/
+* szolgáltató: iFastNet
+* 3GB tárhely
+  * max fájlméret 10MB
+* 50GB/hó forgalom
+* PHP 5.4, 5.5, 5.6, 7.0
+* 4 * MySQL korlátlan méretű
+* SSL
+* 4 domén, 4 aldomén
+* 158MB RAM
