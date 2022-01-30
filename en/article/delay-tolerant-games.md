@@ -58,8 +58,14 @@ Hence the ones which are not public domain needs to be rethought from scratch un
 ### Popular
 
 * https://en.wikipedia.org/wiki/List_of_types_of_games
-* https://en.wikipedia.org/wiki/Mind_Sports_Olympiad#Games_at_the_MSO
-* https://en.wikipedia.org/wiki/World_Mind_Sports_Games#Sports
+* https://en.wikipedia.org/wiki/Mind_Sports_Olympiad#Games_at_the_MSO chess, bridge, draughts, shogi, backgammon, Chinese chess, Othello, poker, cribbage, Mastermind, Abalone, Bōku, Continuo, Entropy, Kamisado, Lines of Action, Pacru, TwixT
+* https://en.wikipedia.org/wiki/Ultimate_Brain_Games#Games chess, checkers, backgammon, dominoes, reversi, battleship, connect four, mahjong solitaire
+* https://en.wikipedia.org/wiki/World_Mind_Sports_Games#Sports contract bridge, chess, checkers, go, Chinese chess, poker, mahjong
+* https://en.wikipedia.org/wiki/GameSpy3D#Games YARN storytelling, Reversi, Checkers, Chess, Backgammon
+* https://en.wikipedia.org/wiki/Yahoo!_Games#Games
+* https://en.wikipedia.org/wiki/PlayOK#Games_available
+* https://en.wikipedia.org/wiki/Clubhouse_Games#Gameplay
+* https://en.wikipedia.org/wiki/Clubhouse_Games:_51_Worldwide_Classics#Game_list
 
 ### Single player
 
