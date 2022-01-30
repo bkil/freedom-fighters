@@ -14,6 +14,7 @@
 ### Előfizetések
 
 * YouTube.com, Music.YouTube.com: követ, a jövőben nyugtalanítóan halad a vendor lock-in irányába, a webes egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
+  * https://youtube.com/audiolibrary letölthető háttérzenék és effektek főleg YouTube videók készítéséhez
 * Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes csak DRM bekapcsolásával használható, de egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
 * https://music.amazon.com/ csak regisztrációval használható, ingyenes regisztrációval csak rádiózást tud
 * https://Deezer.com/ regisztráció nélkül csak az első 30 másodperc hallgatható, ingyenes regisztrációval csak rádiózás tud
@@ -28,6 +29,7 @@
 * http://www.8bitpeoples.com/ Letöltés csak regisztráció után, sokszor ingyen, retro chiptune
 * https://www.mp3va.com/ vásárlás előtt enged 1 percet belehallgatni
 * https://www.junodownload.com/ vásárlás előtt enged egyben 2 percet belehallgatni vagy 30 másodpercenként tetszőlegesen áttekerni
+* https://dalok.hu/ vásárlás előtt enged 1 percet belehallgatni, DRM mentes, FLAC vagy 320 kbps MP3 (régi fájlokra 192 kbps)
 
 ## Szoftverek
 
