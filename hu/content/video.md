@@ -20,6 +20,12 @@
 
 * https://en.wikipedia.org/wiki/Comparison_of_streaming_media_software
 
+## Művek
+
+* https://en.wikipedia.org/wiki/List_of_animated_films_in_the_public_domain_in_the_United_States
+* https://en.wikipedia.org/wiki/List_of_films_in_the_public_domain_in_the_United_States
+* https://en.wikipedia.org/wiki/Open-source_film
+
 ## Külső felsorolások
 
 * https://www.defectivebydesign.org/guide/video
