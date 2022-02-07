@@ -16,6 +16,7 @@ Lásd még:
 * https://eylenburg.github.io/cloud_comparison.htm
 * https://eylenburg.github.io/browser_comparison.htm
 * https://divestos.org/index.php?page=browsers
+* https://privacytests.org/
 
 ## Magánszféra listák angolul
 
