@@ -1,5 +1,9 @@
 # Ingyenes statikus webtárhely
 
+Egyes szoftver projekt tárolóknak is része a statikus webkiszolgálás és a CI/CD amivel honlapgenerálás is megvalósítható:
+
+* <service/free-vcs-code-hosting.md>
+
 ## Keretrendszerek
 
 * https://en.wikipedia.org/wiki/Category:Static_website_generators
@@ -230,7 +234,7 @@ Ezek sajnos "elkoptak".
 
 * https://mlap.hu/
   * http://mindenkilapja.hu/
-  * Bejelentkezési hibát ír, 2018 óta senki nem frissítette a portálját rajta
+  * Bejelentkezési hibát ír, 2018 óta senki nem frissítette a portálját rajta, 2022 óta `HTTP 502 Bad Gateway`
   * grafikus honlapépítővel
   * alapértelmezésben Creative Commons Nevezd meg!-Ne add el!-Így add tovább! 2.5 Magyarország licenc a feltöltött tartalmakra
   * üzemeltető: Belvárosi Hirdető Kft.
@@ -305,7 +309,7 @@ Lásd még:
 * 400MB tárhely
 * üzemeltető: uCoz Media (Mail.ru csoport), Oroszország
 * FTP feltöltés
-* Kombinálható,CMS komponensek
+* Kombinálható, CMS komponensek
   * szerver oldali JavaScript (TODO???)
 
 ### GitLab
@@ -336,6 +340,7 @@ Lásd még:
 * 100GB tárhely
 * 100GB/hó forgalom
 * 300perc/hó CI
+  * https://www.netlify.com/products/build/
 * 100 beküldütt űrlap/hó
 * 1000 azonosított felhasználó/hó
 * serverless functions
@@ -368,13 +373,6 @@ Lásd még:
 * Maximális fájlméret 7MB
 * CDN
 * online IDE fejlesztői környezet számos funkcióval
-
-## CI/CD
-
-### Agola
-
-* https://agola.io/
-* forrás: GitHub, GitLab, gitea, egyéb git tároló
 
 ## Külföldi honlapépítő
 

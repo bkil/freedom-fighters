@@ -2,6 +2,11 @@
 
 Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt szabad célokra mind magunk által is üzemeltethető ha migrálnánk.
 
+Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor harmadik fél által üzemeltetett szolgáltatásként is beköthető:
+
+* <service/free-continuous-integration.md>
+* <../free-static-web-hosting.md>
+
 ## Régi, nagy publikus szereplők
 
 ### GitLab.com
@@ -57,8 +62,12 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 
 * 2019
 * motorja: gitea
+* feldolgozás nélküli statikus webkiszolgálás (Gitea Pages)
 * helyszín: Németország
 * cenzúrázatlan: Kuba
+* CI/CD kutatás alatt
+  * Woodpecker CI - Drone.io fork
+  * https://codeberg.org/Codeberg-CI/request-access
 
 ### Gitea.com
 
@@ -100,6 +109,8 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 ### SourceHut.org
 
 * motorja: Sourcehut
+* CI/CD
+  * https://man.sr.ht/builds.sr.ht/compatibility.md
 * később fizetősnek tervezik
 
 ## Negatív példák
@@ -109,7 +120,9 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * https://github.com/
 * gazdag az API-ja
   * https://docs.github.com/en/free-pro-team@latest/rest
-* CI/CD, statikus webkiszolgálás
+* CI/CD: GitHub Actions
+  * https://github.com/features/actions
+* statikus webkiszolgálás
 * nem magunk által üzemeltethető
 * üzemeltető: Microsoft
 * cenzúrázatlan: Kuba
@@ -119,7 +132,11 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * https://bitbucket.com/
 * gazdag az API-ja
   * https://developer.atlassian.com/server/bitbucket/reference/rest-api/
-* CI/CD, statikus webkiszolgálás
+* CI/CD
+  * https://bitbucket.org/product/features/pipelines
+  * https://www.atlassian.com/software/bitbucket/pricing
+  * 50 perc/hó futás
+* statikus webkiszolgálás
 * nem magunk által üzemeltethető
 * üzemeltető: Atlassian
 * cég: Ausztrália
