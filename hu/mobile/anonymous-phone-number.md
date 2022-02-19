@@ -23,3 +23,4 @@ Például Signal vagy Telegram regisztrációhoz.
 * https://jmp.chat/
 * http://silent.link/
 * https://mysudo.com/
+* https://telnum.net/pay-with-cryptocurrencies/
