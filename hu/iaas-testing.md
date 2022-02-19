@@ -2,11 +2,13 @@
 
 ## Cél
 
-Egy VPS közös erőforrásokra épül. Azért adhatják egy dedikált fizikai hardverhez képes törtrész áron ([cheap-cheap-server-hosting.md](cheap-server-hosting.md)), mivel a felhasználók nem használják ki minden pillanatban minden erőforrásukat. Sőt - a gépek jelentős része általában tétlen állapotban várja a kéréseket.
+Egy VPS közös erőforrásokra épül. Azért adhatják egy dedikált fizikai hardverhez képes törtrész áron ([cheap-server-hosting.md](cheap-server-hosting.md)), mivel a felhasználók nem használják ki minden pillanatban minden erőforrásukat.
+Sőt - a gépek jelentős része általában tétlen állapotban várja a kéréseket.
 
 ### CPU megosztás
 
-Emiatt az megszokott, hogy egy szolgáltató az adott szerverén több VPS vCPU magot adjon el, mint amivel a gép fizikailag rendelkezik és azt minden időpillanatban igazságosan osztja el az igényekhez mérten. 2-3x túlfoglalás jónak számít, de régen a legolcsóbb akciós helyeken nem volt ritka a 10-20x arány sem.
+Emiatt az megszokott, hogy egy szolgáltató az adott szerverén több VPS vCPU magot adjon el, mint amivel a gép fizikailag rendelkezik és azt minden időpillanatban igazságosan osztja el az igényekhez mérten.
+2-3x túlfoglalás jónak számít, de régen a legolcsóbb akciós helyeken nem volt ritka a 10-20x arány sem.
 
 ### Tárhely és memória megosztás
 
