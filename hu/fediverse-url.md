@@ -48,7 +48,6 @@
 * https://mamot.fr/tags/humor
 * https://mas.to/tags/humor
 
-
 ### Pleroma
 
 * https://pleroma.site/tag/humor
@@ -58,6 +57,13 @@
 
 * https://hub.netzgemeinde.eu/search?tag=humour
 * https://hubzilla.pepecyb.hu/pubstream
+
+## Kit kövessünk
+
+* https://communitywiki.org/trunk categorical directory, find interesting Mastodon & fediverse accounts to follow based on special interests
+
+* https://dir.friendica.social/ akik publikussá tették a profiljukat
+* https://forum.friendi.ca/directory Friendica támogatói csoportok
 
 ## Pingback
 
