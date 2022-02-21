@@ -78,6 +78,17 @@ Depending on the replication strategy, synonyms and typos should be either:
 * added to the index or
 * looked up
 
+### Hyperlinking
+
+* If the content to be indexed supports hyperlinks
+* Linked documents in HTML wiki, markdown, gemini
+* Labeling embedded media files
+* In case of forum threads, detect hyperlinks based on direct replies, citation, repeated keywords in text and user name
+* Propagate ranking based on popularity
+  * https://en.wikipedia.org/wiki/Pagerank#Simplified_algorithm
+* Weigh often cited parts as being more important
+* Inherit some of the keywords from the text surrounding each link origin
+
 ### Search
 
 * Quoted phrase: decompose to n-grams
@@ -86,6 +97,7 @@ Depending on the replication strategy, synonyms and typos should be either:
 * date field
 * author field
 * offer to index and search both individual documents (comments) and when combined as chains (threads)
+* attachment
 
 ### Ranking
 
@@ -94,28 +106,44 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://en.wikipedia.org/wiki/Tf%E2%80%93idf
 * https://en.wikipedia.org/wiki/Okapi_BM25
 
-### Persistent document storage
+## Storage
 
-* No input content to avoid copyright infringement
-* May be admissible: URL's, dates, times, numeric values and OSM tags occurring within content
-* SHA256 sum
+### Persistent document metadata
+
 * Original URL
-* How many times does each word and n-gram occur within the document
-* Message-ID
-* Subject (pointer to separate table)
+* May encode the post date on some platforms
+* SHA256 sum of original input: to ensure integrity before showing user
+* Should not contain free form textual content from input to avoid copyright infringement
+* May be admissible: URL's, dates, times, numeric values and OSM tags occurring within content
+* Attachment name, kind, size: for preview and filtering
+* Thread references, In-Reply-To and implicit links based on which other item it cites: for PageRank and result tree visualization
+* Message-ID: to facilitate reply
+* Subject text: pointer to separate table, for preview or regexp search
+* If possible, the whole set could be fully replicated on the client
 
-### Ephemeral global storage
+### Persistent document mirror
+
+* If the input text is copyleft
+* The whole original file for navigating and for previewing if the document is short (<4kB compressed)
+* Slices of overlapping ranges of the input if the document is a long form webpage or source code (i.e., items usually >>4kB)
+* Each slice may contain the matadata for the whole document to spare a separate query in case it is not replicated fully on the client
+
+### Persistent document index
+
+* How many times does each word and n-gram occur within the document: for index
+
+### Ephemeral global index
 
 * Total number of documents
 
-### Ephemeral document storage
+### Ephemeral document index
 
 * Total word count within each document
 * How many times does the word with the highest incidence occur within each document
 * For each document, which word within a given document occurs in the most documents and how often?
-* Which phrases within the document have been cited in other documents? Their weight weight should be increased at the origin and decreased at points of citation.
+* Which phrases within the document have been cited in other documents? Their weight should be increased at the origin and decreased at points of citation.
 
-### Ephemeral word storage
+### Ephemeral word index
 
 * Count of documents that contain a word
 * optional: Number of times a word occurs globally
