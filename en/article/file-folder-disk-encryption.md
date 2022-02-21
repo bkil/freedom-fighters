@@ -1,28 +1,32 @@
-File, Folder and Disk encryption
+# File, Folder and Disk encryption
 
 This article is still a work in progress.
 
 This article offers no warranty of any kind about the correctness of the information provided. It is meant to be used as a starting point: a collection of links to get you started, giving the reader a general overview about the available software and their use cases.
 
-# Disk encryption
+## Disk encryption
 
-## FDE - Full Disk Encryption
+### FDE - Full Disk Encryption
 
 Can encrypt entire drives - including your operating system.
 
 Pros:
+
 - hides your filesystem from people with physical access to your computer (if it is turned off)
   - this includes hiding your sensitive files and software
   - makes it harder (if not impossible) for people with physical access to purposely modify your files to add malware to your computer
 
 Cons:
+
 - losing your password means your data is lost
 
 Options on windows:
+
 - veracrypt
 - microsoft bitlocker (windows pro only)
 
 On linux:
+
 - Many distros ship installers with an "encrypt disk" option, which often uses LUKS
 - Possible to set up yourself
   - https://wiki.archlinux.org/title/Dm-crypt
@@ -31,10 +35,11 @@ On linux:
 SSD users should read about TRIM (see the warning in the section plausible deniability).
 
 Known possible attacks:
+
 - Evil Maid attack (https://www.kicksecure.com/wiki/AEM)
 - Cold boot attack (https://en.wikipedia.org/wiki/Cold_boot_attack)
 
-## Filesystem level encryption
+### Filesystem level encryption
 
 Fscrypt (https://wiki.archlinux.org/title/Fscrypt) natively supported in ext4, f2fs and ubifs filesystems can provide encryption on the directory level.
 
@@ -43,16 +48,18 @@ Metadata, such as timestamps, sizes and numbers of files are not encrypted.
 # Plausible deniability
 
 There are two general ways to do plausible deniability:
+
 - a disk that seemingly only contains random data
 - a disk/volume that can be unlocked with 2 different keys
 
-## Headerless encrypted disks
+### Headerless encrypted disks
 
 Well encrypted disks will appear seemingly random, when there is no header used.
 This cannot be used to boot systems from, so it is only recommended to use for
 external HDDs.
 
 Tools that can achieve this:
+
 - plain dm-crypt (GUI through zulucrypt) [1]
   - major drawback: limited portability between applications or between different versions of the same application (see [1])
 - veracrypt [1]
@@ -63,11 +70,12 @@ Tools that can achieve this:
 
 WARNING! SSD users need to be aware of this: https://wiki.archlinux.org/title/Dm-crypt/Specialties#Discard/TRIM_support_for_solid_state_drives_(SSD)
 
-## Hidden volumes
+### Hidden volumes
 
 Existing volumes that contain a second area of encrypted data at a specific offset.
 
 Tools that can achieve this:
+
 - veracrypt (see [3] and [4])
 - plain dm-crypt with an offset (can be set up by zulucrypt [1])
   - recommended to use the FAT filesystem in the preceding part
@@ -75,12 +83,12 @@ Tools that can achieve this:
 
 ## Sources
 
-[1] https://raw.githubusercontent.com/mhogomchungu/zuluCrypt/master/docs/zuluCrypt.pdf
-[2] https://veracrypt.eu/en/docs/plausible-deniability/
-[3] https://veracrypt.eu/en/docs/hidden-volume/
-[4] https://veracrypt.eu/en/docs/hidden-operating-system/
+- [1] https://raw.githubusercontent.com/mhogomchungu/zuluCrypt/master/docs/zuluCrypt.pdf
+- [2] https://veracrypt.eu/en/docs/plausible-deniability/
+- [3] https://veracrypt.eu/en/docs/hidden-volume/
+- [4] https://veracrypt.eu/en/docs/hidden-operating-system/
 
-# Folder encryption
+## Folder encryption
 
 There are different reasons for why you would want to create an encrypted folder. All of these use cases could point to a different tool to be used.
 
@@ -99,22 +107,26 @@ The different tools available are:
 
 First, the different tools are discussed.
 
-## Stacked filesystems
+### Stacked filesystems
 
 Stacked filesystems create a folder, which contains the encrypted data. These folders can be mounted through the specific software with a password (and/or keyfile).
 
 Pros:
+
 - Possibility for mounting (which is not the case with archives)
 - Can be synchronized to clouds more easily
 
 Cons:
+
 - Leaks more metadata (often: sizes of files, modification time of specific files, some solutions: folder structure)
 
 Good use cases:
+
 - encrypting before uploading to a cloud
 - sensitive folders
 
 Tools that can achieve this:
+
 - ecryptfs (https://wiki.archlinux.org/title/ECryptfs)
 - gocryptfs (https://nuetzlich.net/gocryptfs/)
 - cryfs (https://www.cryfs.org/)
@@ -136,7 +148,7 @@ CryFS provides more metadata resistance, such as protecting the folder structure
 
 Hence, the final suggestion is to use cryptomator if android/ios support is needed, and choose between gocryptfs and cryptomator if it is not needed.
 
-## Archives
+### Archives
 
 Folders can be compressed into a single file through tools such as zip or 7z. These programs often provide the user the option of password-protecting the archive.
 
@@ -166,14 +178,16 @@ Rars have weird licensing and compression does not work on linux.
 
 Tars by themselves do not provide any encryption, so file encryption tools have to be used.
 
-## Volumes
+### Volumes
 
 Large files that contain an entire encrypted filesystem.
 
 Pros:
+
 - leaks less metadata than stacked filesystems.
 
 Use cases:
+
 - a sensitive folder
 - backups, archives
 
@@ -183,18 +197,18 @@ If you understand cryptography, also take a look at https://sockpuppet.org/blog/
 
 ## Sources
 
-[1] https://www.cryfs.org/comparison
-[2] https://nuetzlich.net/gocryptfs/comparison/
-[3] https://defuse.ca/audits/gocryptfs.htm
-[4] https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44
-[5] https://github.com/cryfs/cryfs
-[6] https://security.stackexchange.com/questions/35818/are-password-protected-zip-files-secure
-[7] https://superuser.com/questions/1255917/do-windows-8-1-or-10-support-aes-256-in-zip-files
-[8] https://www.kicksecure.com/wiki/Full_Disk_Encryption#Encrypted_Containers
+- [1] https://www.cryfs.org/comparison
+- [2] https://nuetzlich.net/gocryptfs/comparison/
+- [3] https://defuse.ca/audits/gocryptfs.htm
+- [4] https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44
+- [5] https://github.com/cryfs/cryfs
+- [6] https://security.stackexchange.com/questions/35818/are-password-protected-zip-files-secure
+- [7] https://superuser.com/questions/1255917/do-windows-8-1-or-10-support-aes-256-in-zip-files
+- [8] https://www.kicksecure.com/wiki/Full_Disk_Encryption#Encrypted_Containers
 
-# File encryption
+## File encryption
 
-## Public/private key single-file encryption
+### Public/private key single-file encryption
 
 Preferred: age (https://github.com/FiloSottile/age)
 
