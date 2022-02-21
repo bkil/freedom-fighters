@@ -4,8 +4,8 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 
 Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor harmadik fél által üzemeltetett szolgáltatásként is beköthető:
 
-* <service/free-continuous-integration.md>
-* <../free-static-web-hosting.md>
+* [service/free-continuous-integration.md](service/free-continuous-integration.md)
+* [../free-static-web-hosting.md](../free-static-web-hosting.md)
 
 ## Régi, nagy publikus szereplők
 

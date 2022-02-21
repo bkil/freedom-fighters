@@ -26,14 +26,14 @@ The risk of being exploited through hosting such content is also considered low.
 
 A great multitude of services are built around providing free web hosting either separately, part of a portfolio or as a side effect of providing a service.
 
-* <../../hu/free-static-web-hosting.md>
-* <../../hu/free-content-delivery-network.md>
-* <../../hu/free-paas-dynamic-web-hosting.md>
-* <../../hu/service/vcs-code-hosting.md>
-* <../../hu/service/free-storage.md>
-* <../../hu/service/free-shell-account.md>
-* <../../hu/service/free-continuous-integration.md>
-* <../../hu/service/paid-web-hosting.md>
+* [../../hu/free-static-web-hosting.md](../../hu/free-static-web-hosting.md)
+* [../../hu/free-content-delivery-network.md](../../hu/free-content-delivery-network.md)
+* [../../hu/free-paas-dynamic-web-hosting.md](../../hu/free-paas-dynamic-web-hosting.md)
+* [../../hu/service/vcs-code-hosting.md](../../hu/service/vcs-code-hosting.md)
+* [../../hu/service/free-storage.md](../../hu/service/free-storage.md)
+* [../../hu/service/free-shell-account.md](../../hu/service/free-shell-account.md)
+* [../../hu/service/free-continuous-integration.md](../../hu/service/free-continuous-integration.md)
+* [../../hu/service/paid-web-hosting.md](../../hu/service/paid-web-hosting.md)
 
 ### Batch processing
 
@@ -52,8 +52,8 @@ You can also host at a dynamic web hosting provider, but disallow any kind of di
 
 You may run freely as a module on top of some other (FOSS) system.
 
-* <../../hu/service/game-backend.md>
-* <../article/delay-tolerant-games.md>
+* [../../hu/service/game-backend.md](../../hu/service/game-backend.md)
+* [../article/delay-tolerant-games.md](../article/delay-tolerant-games.md)
 
 ### Common off the shelf
 
@@ -74,7 +74,7 @@ You may look into microservices for an inspiration, but you don't need to overdo
 
 ## Examples
 
-* <backend-optional-portal-search.md>
+* [backend-optional-portal-search.md](backend-optional-portal-search.md)
 
 ## References
 

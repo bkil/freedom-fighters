@@ -2,7 +2,7 @@
 
 Egyes szoftver projekt tárolóknak is része a statikus webkiszolgálás és a CI/CD amivel honlapgenerálás is megvalósítható:
 
-* <service/free-vcs-code-hosting.md>
+* [service/free-vcs-code-hosting.md](service/free-vcs-code-hosting.md)
 
 ## Keretrendszerek
 
@@ -448,6 +448,8 @@ Lásd még:
 * CI
 * korlátlan forgalom
 * CDN
+* serverless functions
+  * https://workers.cloudflare.com/
 
 ### Firebase
 

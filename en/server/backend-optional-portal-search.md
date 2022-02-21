@@ -6,7 +6,7 @@
 * Up to a few items will be changed (wiki) or inserted (forum) every day.
 * Multiple days of indexing latency is acceptable.
 * The task is to provide full text search through static web hosting.
-* <backend-optional-web-apps.md>
+* [backend-optional-web-apps.md](backend-optional-web-apps.md)
 
 ## Architectural considerations
 

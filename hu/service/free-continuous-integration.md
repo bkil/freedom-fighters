@@ -2,7 +2,7 @@
 
 Egyes szoftver projekt tárolóknak is része:
 
-* <vcs-code-hosting.md>
+* [vcs-code-hosting.md](vcs-code-hosting.md)
 
 ## Ajánlott
 
