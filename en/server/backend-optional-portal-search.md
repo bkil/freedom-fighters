@@ -1,14 +1,22 @@
-# Backend optional portal search
+# Backend-optional portal search
 
 ## Problem statement
 
-* Given a knowledge repository for user generated content, for example a wiki or a forum.
+* Given a knowledge repository for user generated content
 * Up to a few items will be changed (wiki) or inserted (forum) every day.
 * Multiple days of indexing latency is acceptable.
 * The task is to provide full text search through static web hosting.
 * [backend-optional-web-apps.md](backend-optional-web-apps.md)
 
+### Use cases
+
+* wiki article or section: history size, editor count and watcher count as article popularity, view count if available
+* forum, mailing list: include reply count as popularity of thread, view count if available
+* source code or documentation within a VCS code hosting repository: include changeset comments and co-occurrence as weak links, count of changesets, committers, commit days or merges as file popularity, fewer TODO/FIXME, consider indexing all versions of documents
+
 ## Architectural considerations
+
+### Deciding factors
 
 * Whether it is acceptable to show stale content
 * What is the total size of the database
@@ -47,6 +55,13 @@ Request a separate file for each keyword and use further indirection for dedupli
 * Ideally cryptographically sign the bundles on the server side so clients can replicate them between other clients over WebRTC
 * It may reduce server storage due to block size overheads
 
+## Crawler
+
+* Incremental reindexing
+* Continuation
+* Ideally provide a feed of changed items (or even the diff)
+* Ignore unchanged items based on hash
+
 ## Algorithms
 
 ### Database indexing tiers
@@ -54,13 +69,14 @@ Request a separate file for each keyword and use further indirection for dedupli
 If a document to be indexed can be decomposed into parts that differ in orders of magnitude, they can be indexed separately.
 For example, a document may have a title, keywords, picture alt texts and summary along with its textual body.
 
-In certain cases, it could be feasible to handle the smaller subsets with full replication that can also offer a live preview in search results.
+In certain cases, it could be feasible to handle the smaller subsets with full replication that can also offer a 0RTT live autocomplete and live preview in search results
 
 ### Normalization
 
 * Stop words should be removed.
 * Case folding
-* Stemming
+* Accent folding
+* Stemming: store the root in place of or in addition to the word (with lower weight)
 * Try to find word compositions and add their individual constituents with a lower weight to the index
 
 ### n-grams
@@ -69,6 +85,7 @@ In certain cases, it could be feasible to handle the smaller subsets with full r
 * It would be desirable to at least index 2-grams.
 * Detect whether certain phrases are prone to misspelling with regards to one word, two words and hyphenated form. Weekly connect them during indexing or lookup if yes.
 * Insert word pairs within up to 5 words of distance as near-pairs
+* Insert word pairs within the same document as co-occurring pairs if the result set of a single word would be too large
 * OpenStreetMap key-value tags
 
 ### Alternatives
@@ -85,7 +102,7 @@ Depending on the replication strategy, synonyms and typos should be either:
 * Labeling embedded media files
 * In case of forum threads, detect hyperlinks based on direct replies, citation, repeated keywords in text and user name
 * Propagate ranking based on popularity
-  * https://en.wikipedia.org/wiki/Pagerank#Simplified_algorithm
+* https://en.wikipedia.org/wiki/Pagerank#Simplified_algorithm
 * Weigh often cited parts as being more important
 * Inherit some of the keywords from the text surrounding each link origin
 
@@ -98,13 +115,26 @@ Depending on the replication strategy, synonyms and typos should be either:
 * author field
 * offer to index and search both individual documents (comments) and when combined as chains (threads)
 * attachment
+* similarity to item: if the search box is on each page or based on user query or interaction
+* limited wildcard search: prefixes only if path index replicated, infixes and suffixes only if the confusion set is small (<10 words)
+* word stemming
+
+### Single word autocomplete
+
+* based on the item suffix tree
+* edit distance based spelling suggestion for typos based on path index
+
+### Multi-word autocomplete
+
+* intersect single word suggestion with result set for previous words
 
 ### Ranking
 
 * filter or rank based on whether it is present in the title, keywords, picture alt texts or summary
-* rank based on relative incidence count
+* rank based on relative word incidence count, PageRank, date of creation and last update, searches (if server log available)
 * https://en.wikipedia.org/wiki/Tf%E2%80%93idf
 * https://en.wikipedia.org/wiki/Okapi_BM25
+* https://mediawiki.org/wiki/Search/Old#Search_Weighting_Ideas
 
 ## Storage
 
@@ -120,6 +150,7 @@ Depending on the replication strategy, synonyms and typos should be either:
 * Message-ID: to facilitate reply
 * Subject text: pointer to separate table, for preview or regexp search
 * If possible, the whole set could be fully replicated on the client
+* Available analytics related to popularity: count of views, reactions, watchers, edits, editors, days of edits
 
 ### Persistent document mirror
 
@@ -138,10 +169,19 @@ Depending on the replication strategy, synonyms and typos should be either:
 
 ### Ephemeral document index
 
+* How many links point towards the document
+* Which other documents are similar
+* https://en.wikipedia.org/wiki/SimRank
 * Total word count within each document
 * How many times does the word with the highest incidence occur within each document
 * For each document, which word within a given document occurs in the most documents and how often?
 * Which phrases within the document have been cited in other documents? Their weight should be increased at the origin and decreased at points of citation.
+
+### Ephemeral document path index
+
+* For autocomplete
+* Also enables bundling indexes of multiple documents together without having to do a binary search for endpoint existence checking
+* May include the rank of each path (maximum in case of bundles)
 
 ### Ephemeral word index
 
@@ -149,3 +189,7 @@ Depending on the replication strategy, synonyms and typos should be either:
 * optional: Number of times a word occurs globally
 * Computed global correction factor of a word (idf)
 * Which documents contain a word, how many times and with what adjusted frequency (optional: at which positions if copyright permits)
+
+## References
+
+* https://sphider.worldspaceflight.com/about.php
