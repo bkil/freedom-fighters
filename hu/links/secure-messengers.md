@@ -18,12 +18,17 @@ Lásd még:
   * https://www.messenger-matrix.de/messenger-matrix.html (német)
 * https://securechatguide.org/featuresmatrix.html
 * https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/htmlview
+  * https://gitlab.com/dessalines/Messaging-Services-Comparison
+  * https://github.com/dessalines/Messaging-Services-Comparison
 * https://berty.tech/faq#what-are-the-advantages-of-berty-compared-to-the-other-messengers
 * https://www.freie-messenger.de/systemvergleich/#schnell%C3%BCbersicht
 * https://threema.ch/en/messenger-comparison
 * https://eylenburg.github.io/im_comparison.htm
 * https://community.signalusers.org/t/wiki-in-depth-feature-comparison-between-private-messaging-apps/12238
 * https://divestos.org/index.php?page=messengers
+* https://jayxt.github.io/MessengerComparison/en/
+* https://wiki.tox.chat/include/clients_features
+* https://secushare.org/comparison
 * https://bkil.gitlab.io/secuchart/
 
 ## Kifejtő elemzések
@@ -38,6 +43,7 @@ Lásd még:
 * https://soundcloud.com/user-98066669/205-five-shows-in-one _XMPP with OMEMO is similar to Matrix MEGOLM for E2EE_
 * https://restoreprivacy.com/secure-encrypted-messaging-apps/telegram/ _Telegram Messenger Review - January 19, 2021 By Heinrich Long_
 * https://dt.gl/tag/messengers/
+* https://privacyguides.org/real-time-communication/
 
 ## Hírek
 
@@ -59,3 +65,4 @@ Lásd még:
   * https://old.reddit.com/r/Threema/comments/qn870u/threema_three_strikes_youre_out/hjxi28l/?context=3
 * https://mtpsym.github.io/ _Security Analysis of Telegram (Symmetric Part)_
 * https://words.filippo.io/dispatches/telegram-ecdh/ _THE MOST BACKDOOR-LOOKING BUG I’VE EVER SEEN: discovered and fixed in Telegram's self-rolled cryptographic protocol about seven years ago_
+* https://spyware.neocities.org/articles/discord.html
