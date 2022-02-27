@@ -2,7 +2,7 @@
 
 Egyes szoftver projekt tárolóknak is része a statikus webkiszolgálás és a CI/CD amivel honlapgenerálás is megvalósítható:
 
-* [service/free-vcs-code-hosting.md](service/free-vcs-code-hosting.md)
+* [service/vcs-code-hosting.md](service/vcs-code-hosting.md)
 
 ## Keretrendszerek
 
