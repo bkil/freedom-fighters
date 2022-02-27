@@ -6,6 +6,13 @@
 * Szeretnénk időben elhárítani amennyiben szoftveres vagy hálózati okokból belassul a szolgáltatásunk vagy elérhetetlenné válik egyes felhasználóknak.
 * Terhelés utólagos elemzése, ez alapján a jövőbeli szoftveres vagy hálózati architektúra finomhangolása.
 
+## Variációk
+
+* publikus szolgáltatásra network monitoring: ping, TCP/IP fingerprinting, az alkalmazás réteg szerint HTTP/FTP/IMAP/stb lekérési próbálkozások, azok teljesítmény jellemzőik (késleltetés, átviteli sebesség, time to first byte)
+* telepített ágenssel vagy ssh alapú belépéssel
+  * általános rendszerinformációk
+  * alkalmazás specifikus metrikák (BOINC termelékenység)
+
 ## Saját üzemeltetés
 
 Hátránya, hogy a megfigyelt szerver(ek)en kívül rendelkezésünkre kell álljon egy független helyszínen biztosított monitoring szervernek is.
@@ -13,6 +20,11 @@ Hátránya, hogy a megfigyelt szerver(ek)en kívül rendelkezésünkre kell áll
 Alternatívaként amennyiben már eleve futtatunk több központból is szolgáltatásokat, akkor azon gépek segítségével figyeltethetnénk egymást is. Ehhez még a metrikák aggregálására is szükség lesz és gondoskodni kell a megfelelő vizualizációról is. Még ez sem tökéletes alternatíva ha nem csak az elérhetőségre vagyunk kíváncsiak, hanem más reprezentatívan mért teljesítménymutatókra is.
 
 * https://en.wikipedia.org/wiki/Comparison_of_network_monitoring_systems
+* https://en.wikipedia.org/wiki/System_monitor#List_of_software_monitors
+
+Akár naplófájlok utólagos elemzéséhez:
+
+* https://en.wikipedia.org/wiki/List_of_web_analytics_software#Free_/_Open_source_(FLOSS)
 
 ## Ingyenes szolgáltatók
 
