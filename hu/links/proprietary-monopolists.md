@@ -89,6 +89,10 @@
 > Decentralised SMTP
 > Self-hosting and encouraging smaller providers is for the greater good
 
+- https://qz.com/1131515/google-collects-android-users-locations-even-when-location-services-are-disabled/
+> Google collects Android users’ locations even when location services are disabled
+> if you actively turn off location services, haven’t used any apps, and haven’t even inserted a carrier SIM card?
+
 ## Twitter
 
 - https://reclaimthenet.org/twitter-censors-all-links-to-bitchute/
