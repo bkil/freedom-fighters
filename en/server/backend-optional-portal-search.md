@@ -13,6 +13,8 @@
 * wiki article or section: history size, editor count and watcher count as article popularity, view count if available
 * forum, mailing list: include reply count as popularity of thread, view count if available
 * source code or documentation within a VCS code hosting repository: include changeset comments and co-occurrence as weak links, count of changesets, committers, commit days or merges as file popularity, fewer TODO/FIXME, consider indexing all versions of documents
+* FOSS cross-project translation memory
+* text within OpenStreetMap: consider nearby or overlapping entities, fuzzy handling of house number, street and locality
 
 ## Architectural considerations
 
@@ -23,7 +25,7 @@
 * How many items does our database contain
 * How often the database needs to be updated
 * The amount of incremental difference between database updates
-* Server storage quota
+* Server storage quota: size and inode count (files and directories)
 * Server monthly network transfer quota both for updating and visits
 * The number of actions and repeat visits a single user will make
 * The initial and repeated action latency that a user can tolerate
@@ -53,7 +55,7 @@ Request a separate file for each keyword and use further indirection for dedupli
 
 * Bundle records together based on correlation, predicting future requests or by preseeding globally popular records
 * Ideally cryptographically sign the bundles on the server side so clients can replicate them between other clients over WebRTC
-* It may reduce server storage due to block size overheads
+* It may reduce server storage due to block size overheads and inode count
 
 ## Crawler
 
@@ -76,8 +78,11 @@ In certain cases, it could be feasible to handle the smaller subsets with full r
 * Stop words should be removed.
 * Case folding
 * Accent folding
-* Stemming: store the root in place of or in addition to the word (with lower weight)
 * Try to find word compositions and add their individual constituents with a lower weight to the index
+* Stemming: store the root in place of or in addition to the word (with lower weight)
+* https://tartarus.org/martin/PorterStemmer/
+* https://snowballstem.org/algorithms/
+* https://en.wikipedia.org/wiki/Lemmatisation
 
 ### n-grams
 
@@ -86,6 +91,7 @@ In certain cases, it could be feasible to handle the smaller subsets with full r
 * Detect whether certain phrases are prone to misspelling with regards to one word, two words and hyphenated form. Weekly connect them during indexing or lookup if yes.
 * Insert word pairs within up to 5 words of distance as near-pairs
 * Insert word pairs within the same document as co-occurring pairs if the result set of a single word would be too large
+* Deduplicate index: remove a higher level n-gram if the results and ranking would be the same without it (i.e., they co-occur within the same sets of documents)
 * OpenStreetMap key-value tags
 
 ### Alternatives
@@ -182,6 +188,7 @@ Depending on the replication strategy, synonyms and typos should be either:
 * For autocomplete
 * Also enables bundling indexes of multiple documents together without having to do a binary search for endpoint existence checking
 * May include the rank of each path (maximum in case of bundles)
+* With partial replication, only list intermediate non-leaf paths that provide path dereferencing to access lower levels
 
 ### Ephemeral word index
 
