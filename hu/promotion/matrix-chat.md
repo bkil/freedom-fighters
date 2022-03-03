@@ -77,4 +77,6 @@
 * https://joinmatrix.org/servers/
   * https://github.com/austinhuang0131/joinmatrix/
 * https://fediverse.blog/~/FossMessenger/matrix-server
+* https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html
+  * https://tatsumoto-ren.github.io/matrix/
 * TODO: joinmatrix.rocks = homeservers.mx
