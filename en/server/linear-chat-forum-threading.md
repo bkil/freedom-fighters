@@ -252,6 +252,32 @@ Allow for more slack if the message does not contain:
   * Random pseudonyms would not make this possible in general, nonetheless, moderators can already redact any past message if deemed sensitive or on reasonable request by a member
     * May optionally be solved with public key cryptography and signing from the client side (perhaps with a special client), but this will make the whole system very complicated for negligible benefit in practice
 
+## Alternatives
+
+### Discourse as a mailing list
+
+Using Discourse over email is inferior to a real mailing list for the following reasons:
+
+* The only supported mode is treating the whole Discourse instance as a single mailing list. I.e., you can't subscribe to a single category, but you will receive all emails from everyone in every language, most of which you probably don't speak.
+* No digest mode.
+* On most mailing lists, you receive the sender address as well so you can start a private conversation with the original poster about something confidential. Not sure whether Discourse does some kind of a proxy to translate those to direct messages.
+* Given the email address of your peers either coming from your own mailbox or a mail archive on the web, you can reach them even years after the mailing list has been shut down.
+* You may have the option to subscribe to a mailing list from your MUA, not having to install a web browser at all on a vintage platform.
+* Some mailing lists may even enable you to post without registration, allowing for sending your announcement or patch via cc: to multiple related lists at the same time if this is requested in the project page for example.
+* You need to register and log in on the site with JavaScript to configure email notifications. This precludes using any alternative web browser lacking a full JavaScript engine other than the 2 big ones.
+* In instances without OAuth 2, you will also need to come up with and remember a username, password and sometimes further profile recovery options.
+* Not sure whether it has settings for switching between HTML and text mails or chopping off attachment and images.
+* Not sure whether it can translate HTML email to posts with its own markup.
+* A mailing list can preserve a bunch of metadata that is useful for spam filtering, while such notifications are usually synthesized according to a template on Discourse.
+* email is federated - you can be present on multiple mailing lists with the same email address, while you need to create a new account on each individual centralized Discourse instance that you use.
+* You can universally unfollow a topic or poster in your email client as well: it's usually called Archive, Mute, Ignore, etc.
+
+Based on:
+
+* https://meta.discourse.org/t/what-is-mailing-list-mode/46008
+
+> “Mailing list mode” is a red herring, and will email you for every new post across the entirety of our Discourse instance, so don’t enable it, unless you want that of course!
+
 ## TODO
 
 * check threaded view HS in Matrix blog PoC
