@@ -50,14 +50,31 @@ Includes device fingerprinting, user behavior profiling or user biometrics via e
 
 ### CSS-only
 
+HTTP Accept, Accept-Language, Accept-Encoding request header, @supports (-webkit-app-region, -moz-appearance, -apple-pay-button-style, -webkit-touch-callout, -moz-osx-font-smoothing, accent-color), @media (hover, any-hover, pointer, any-pointer, color, color-gamut, forced-colors, inverted-colors, monochrome, prefers-color-scheme, prefers-contrast, prefers-reduced-motion, dynamic-range, device-width, device-height and -webkit-device-pixel-ratio), @font-face (Roboto, Ubuntu, Calibri, MS UI Gothic, Gill Sans, Helvetica Neue, Arimo)
+
 * https://github.com/fingerprintjs/blog-nojs-fingerprint-demo
 * https://noscriptfingerprint.com/
 * https://fingerprintjs.com/blog/disabling-javascript-wont-stop-fingerprinting/
+
+HTTP 308, HTTP 410 responses, an exhaustive list of @media queries and fonts:
+
 * https://github.com/OliverBrotchie/CSS-Fingerprint
-* https://github.com/kkuchta/css-only-chat
-* https://www.bleepingcomputer.com/news/security/researcher-finds-css-only-method-to-track-mouse-movements/
-* https://github.com/jbtronics/CrookedStyleSheets
 * https://csstracking.dev/
+
+Keyboard biometrics:
+
+* https://github.com/kkuchta/css-only-chat
+
+Pointer biometrics:
+
+* https://www.bleepingcomputer.com/news/security/researcher-finds-css-only-method-to-track-mouse-movements/
+
+Mostly just examples, @supports (-webkit-appearance, -ms-ime-align, -moz-appearance), @font-face (Calibri), hover duration via @keyframes, checkbox :checked, textbox pattern :valid, @media (orientation, min-device-width, min-device-height)
+
+* https://github.com/jbtronics/CrookedStyleSheets
+
+Further possibility:
+
 * https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 
 ### Biometrics

@@ -14,6 +14,8 @@ Unique emanations or even information leakage can also occur on channels other t
 
 https://en.wikipedia.org/wiki/Side-channel_attack
 
+* collecting fingerprints from door knobs, doorbells, a glass, pens or other objects
+* collecting DNA from plastic cups, candy wrappers, chairs and coat hangers
 * hidden cameras: facial recognition, object recognition
 * microphones hidden or bounced via a laser from a distance: typing biometrics, conversation, ultrasonic emanation
 * high speed photodetectors: flickering of display or LEDs
