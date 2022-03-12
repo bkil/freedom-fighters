@@ -99,3 +99,10 @@ Manually by tricking the user into clicking onto links that look differently bas
 * https://varun.ch/history
 
 > Retrieving your browsing history through a CAPTCHA
+
+### Services where you are logged in
+
+Certain services may have images, scripts, styles, pages or other assets that produce different side effects based on whether the user is logged in or not.
+There are various technicalities for embedding.
+
+https://www.grepular.com/Abusing_HTTP_Status_Codes_to_Expose_Private_Information
