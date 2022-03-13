@@ -106,3 +106,9 @@ Certain services may have images, scripts, styles, pages or other assets that pr
 There are various technicalities for embedding.
 
 https://www.grepular.com/Abusing_HTTP_Status_Codes_to_Expose_Private_Information
+
+### Content Security Policy reports
+
+* The exact format of the JSON sent by the browser varies.
+* They may also differ in nuance ways in parsing the policy itself.
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
