@@ -2,10 +2,10 @@
 
 ## Introduction
 
-Assume that the fingerprinting actor does not have physical proximity to our devices.
+The fingerprinting actor does not need to be near our devices.
 They may observe our transmission through a MITM position or by operating or compromising a server or client that we connect to.
 
-See local options in case of proximity:
+See local options in case of physical proximity:
 
 * [local-fingerprinting.md](local-fingerprinting.md)
 
@@ -28,21 +28,33 @@ Serve a benign purpose in agreement with the terms of service to mitigate abuse:
 * HTTP headers
   * Accept, Accept-Encoding, Accept-Language, User-Agent
 * the wall clock at the user: binary search using caching headers or wildcard certification expiry
-* GeoIP, reverse DNS and traceroute, firewall determination
+* GeoIP, reverse DNS
+* traceroute, intermediate firewall determination
 * measure round trip time and hop count
   * depending on WAN uplink technology, fine grain measurement of latency and jitter to nearest data centers to triangulate
   * based on TLS handshake and TCP ACK timing
-* speed test based on dummy fillers
+* network speed test based on dummy fillers
 * https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting
+  * local NAT port range of outgoing connections
   * TCP congestion control algorithm, window size, options, handling of simulated packet loss, TLS properties
   * sequence number and timestamp jitter and rate
   * header sizes, padding
   * MTU
   * how often does it flush its buffers and how fast does it close the connection
-* CPU speed estimate based on TLS operations
 * DNS resolver: redirects, TTL, latency, resolver side cache
 * DNS resolving: client side cache
 * IPv6 address, behavior, preference
+
+### CPU speed estimate
+
+* based on TLS operations
+* based on overhead of chunked HTTP encoding with very short chunks
+* how fast are further resources pulled in after sending a deliberately huge or complicated payload
+  * almost zip-bomb like extremely well compressible stream of either text or nested HTML markup
+  * calibrate network transfer overhead of a similar amount of normal data
+  * predict implemented decompression algorithm
+  * predict parser kind for HTTP/HTML/CSS/Javascript/images/fonts, inline vs. file content
+  * estimate CPU speed and cache amount
 
 ## Application level options
 
@@ -112,3 +124,15 @@ https://www.grepular.com/Abusing_HTTP_Status_Codes_to_Expose_Private_Information
 * The exact format of the JSON sent by the browser varies.
 * They may also differ in nuance ways in parsing the policy itself.
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+
+## Display refresh rate
+
+* Ideally via WebGL in JavaScript, but might be approximated via CSS animation
+* Determine which coarse display refresh rate bin did the system _attempt_ to use
+* Also determine precise oscillator skew between _achieved_ display refresh vs. system
+* Determine whether the display is refreshed horizontally or vertically based on flickering
+* Needs manual cooperation from the user (e.g., CAPTCHA): make certain links (or thin lines) more or less visible based on clock ratio and phase
+* https://en.wikipedia.org/wiki/Wagon-wheel_effect
+* https://en.wikipedia.org/wiki/Beat_(acoustics)
+* https://en.wikipedia.org/wiki/Aliasing
+* https://bkil.gitlab.io/static-wonders.css/fingerprint/display-refresh-rate.html
