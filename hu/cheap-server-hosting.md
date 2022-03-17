@@ -22,6 +22,7 @@ Amennyiben kiszemeltünk egy ilyet és van erre lehetőség, érdemes olyan hely
 * Nem alapértelmezett kernel modulok betöltése vagy paraméterezése
 * A legtöbb sysctl
 * Docker
+* ??? Docker + systemd-nspawn (amennyiben `sysctl kernel.unprivileged_userns_clone` = 1)
 * OpenVPN vagy IPv6 tunnel (TUN/TAP engedélyezése vagy annak kérelmezése szüksége a VPS-re)
 * IPsec (net_admin képesség és néhány kernel modulnak be kell lennie töltve)
 * Bizonyos architektúra-implementáció specifikus biztonsági áthallás elleni védelmek
@@ -56,6 +57,8 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 
 * https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142 301 + áfa (383, 1 év)
   * **LXC VPS Micro**, LXC, 1 vCPU (HP ProLiant DL360e Gen8, 2 * E5-2430L v2 @ 2.6-2.8GHz), 1GB RAM (DDR3 ECC), 10GB SSD (SAS RAID10), 1GB vSwap, 8 napi mentés, korlátlan adatforgalom, 1Gb/s, IPv4 + /128 IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
+  * fizetés: Stripe bankkártya, banki átutalás, OTP bankfiók befizetés, PayPal checkout, PayPal fizetés
+  * bejelentkezés: egy kattintásos reCAPTCHA
 * https://rackoonet.hu/openvz-7-vps/ 417 (1 év, alanyi adómentes)
   * **OVZ7-START (2020)**: OpenVZ 7, 1 vCPU (HP DL380, 2x Intel Xeon 6-core +HT, 3GHz), 512MB RAM, 5GB HDD (6x HP 10k SAS, HP HW RAID10 + FBWC), korlátlan adatforgalom, 200Mb/s, IPv4 (elvileg magyar: Victor Hugo 18-22)
 * https://atw.hu/vps 445 + áfa (2 év)
@@ -171,6 +174,10 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://hosting55.hu/?nextcloud-tarhely
   * NextCloud
   * 2700 Ft/hó, 100 GB tárhely, korlátlan felhasználó
+* https://maxer.hu/felho-tarhely.html
+  * NextCloud
+  * 5900 Ft/hó+ÁFA, 100 GB
+  * ingyenes promóció? https://cloudtarhely.com/felhotarhely.html
 * https://www.owncube.com/index_en.php
   * Megbízható múltra visszatekintő
   * Storage VPS kiterjesztett tárhellyel (500GB 15 EUR/hó, 20TB 80 EUR/hó)
