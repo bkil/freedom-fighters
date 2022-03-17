@@ -22,13 +22,29 @@
 * regisztráció: nem fogadja el a plusz karaktert email címben, email megerősítés és Google ReCAPTCHA
 * nincs biztonsági mentés
 * egy tesztelt kiszolgáló: 200GB HDD RAID-1, 10GB RAM, AMD EPYC 7351P 16-Core @ 2.4GHz
-* CMS alkalmazás telepítő
+* CMS alkalmazás telepítő: WebAppInstaller (WAI)
 * csak a fizetős csomagban: cron időzített folyamatok, PHP gyorsító, SSD, részletes látogatottsági statisztika, HTTP/2, biztonsági mentés (Budapesten és Szegeden)
+
+## Magyar reklámos
+
+### ATW
+
+* https://atw.hu/ingyenes-webtarhely
+* Apache (+Nginx terheléselosztók)
+* PHP
+  * max. 20 küldött email/nap (`mail()`)
+* MySQL
+* email fiók: POP3, IMAP, SMTP, 5MB tárhely!
+* 1 aldomén rendelkezésre áll
+* cron
+
+## Magyar megszűnt
 
 ### iHost
 
 * https://robot.ihost.hu/cart.php?gid=2
 * "Try" csomag
+  * jelen pillanatban nem működik az ingyenes regisztrációs link
 * 512MB tárhely (NVMe SSD)
 * PHP 5.4-7.4
 * CloudLinux
@@ -46,21 +62,6 @@
 * LiteSpeed Cache szerver oldali támogatás
   * HTTP/2
 * biztonsági mentés: Jet backup
-
-## Magyar reklámos
-
-### ATW
-
-* https://atw.hu/ingyenes-webtarhely
-* Apache (+Nginx terheléselosztók)
-* PHP
-  * max. 20 küldött email/nap (`mail()`)
-* MySQL
-* email fiók: POP3, IMAP, SMTP, 5MB tárhely!
-* 1 aldomén rendelkezésre áll
-* cron
-
-## Magyar megszűnt
 
 ### P8
 
@@ -175,6 +176,25 @@
 * max. 2500 SQL kérés/óra
 * saját domén vagy aldomén
 * 3 cron feladat
+
+### GearHost
+
+* https://www.gearhost.com/documentation/add-a-credit-card-to-your-account
+  * https://github.com/GearHost/Docs/blob/master/docs/how-does-hourly-pricing-work.md
+  * https://github.com/GearHost/Docs/blob/master/docs/how-to-scale-your-cloudsite.md
+* 1 vCPU, max. 5% CPU kihasználtság
+* max. 1 worker
+* 256MB RAM
+* 1GB/hó hálózati forgalom
+* 100MB tárhely
+* hitelkártya nélkül fejlesztői csomag
+* cron WebJob
+  * https://github.com/GearHost/Docs/blob/master/docs/create-a-webjob.md
+* email
+  * max. 100 kimenő email/óra, max. 100MB/óra, afelett pufferel
+  * max. 100 kimenő email/30 perc, afelett letilt és csak manuális terméktámogatási jegy útján oldják fel
+  * max. 200 kapcsolódás/10 perc egyenként: IMAP, SMTP, POP3
+  * https://github.com/GearHost/Docs/blob/master/docs/email-sending-policy-and-restrictions.md
 
 ### GoogieHost
 
@@ -472,6 +492,20 @@
 
 ## Külföldi reklámmentes teljes doménre
 
+### Flaunt7
+
+* https://flaunt7.com/free-hosting/
+* 10GB NVMe SSD tárhely
+* korlátlan hálózati forgalom
+  * max. 100 egyedi látogatói látogatás/nap
+* DirectAdmin vezérlőpult
+  * Softaculous App Installer telepítő
+* ingyen Let's Encrypt TLS tanúsítvány
+* CloudLinux
+  * LiteSpeed web szerver
+  * SSH
+* székhely: Hollandia
+
 ### Freedomaini
 
 * https://freedomaini.com/cart.php?a=add&pid=2
@@ -485,7 +519,7 @@
 * korlátlan forgalom
 * PHP
   * 256MB memory_limit
-  * nincs `mail()` és `sendmail` csak fizetős csomagban
+  * nincs `mail()`,  és `sendmail` csak fizetős csomagban
   * 1 MySQL adatbázis
 * Linux, Apache
   * .htaccess
