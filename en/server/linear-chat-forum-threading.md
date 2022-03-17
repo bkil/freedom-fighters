@@ -259,7 +259,7 @@ Allow for more slack if the message does not contain:
 Using Discourse over email is inferior to a real mailing list for the following reasons:
 
 * The only supported mode is treating the whole Discourse instance as a single mailing list. I.e., you can't subscribe to a single category, but you will receive all emails from everyone in every language, most of which you probably don't speak.
-* No digest mode.
+* No digest mode. `mailto:` links within a digest mail or on the archive page can be used to reply with correct threading.
 * On most mailing lists, you receive the sender address as well so you can start a private conversation with the original poster about something confidential. Not sure whether Discourse does some kind of a proxy to translate those to direct messages.
 * Given the email address of your peers either coming from your own mailbox or a mail archive on the web, you can reach them even years after the mailing list has been shut down.
 * You may have the option to subscribe to a mailing list from your MUA, not having to install a web browser at all on a vintage platform.
