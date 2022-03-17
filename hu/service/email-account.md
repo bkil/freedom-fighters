@@ -47,7 +47,9 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 
 * https://freemail.hu/
 * 10GB tárhely
+* üzemeltető: New Wave Media Group Kft.
 * érdekeltség: Magyar Telekom Nyrt.
+* láthatatlan Google ReCaptcha bejelentkezésnél
 
 ### GMail.hu
 
@@ -66,9 +68,11 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * korábbi nevén: VIPmail, Indexmail, DrótPostaGalamb
 * érdekeltség: Indamedia csoport
 * választható végződések: indamail.hu, vipmail.hu, webmail.hu
+* 120 naponta be kell lépni a weboldalon, különben felfüggesztik a levélfogadást
 * további szolgáltatások:
   * Index.hu, Totalcar.hu, Totalbike.hu, Nepitelet.hu, Divany.hu, Femina.hu, Port.hu, Indavideo.hu, Blog.hu, Indamail.hu, Forum.index.hu, Indafoto.hu, Penge.hu, Indafax.hu
   * Velvet.hu, Konyvek.index.hu, Totalcarmagazine.com, Napi.hu, konferenciak.napi.hu, Retikul.hu, Noifriss.hu, Feminamedia.hu, Feminaklub.hu, Színház.hu, FeminaShop.hu, otthonterkep.hu, ingatlantajolo.hu, irodahaz.info, raktar.info
+* a forras szerint Citromail a webmail
 
 ### Citromail
 
@@ -76,7 +80,12 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * 2GB tárhely
 * max. 5MB/csatolmány
 * TODO: IMAP, POP3
-* érdekeltség: Sanoma Budapest Zrt.
+* érdekeltség: Central Médiacsoport Zrt. (volt Sanoma Budapest Zrt.)
+* utolsó belépést követő:
+  * 110 nap után nem fogad leveleket
+  * 240 nap után törlődik minden levél
+  * 720 nap után nem lehet belépni
+  * https://www.citromail.hu/adatvedelmi-nyilatkozat/aktualis
 
 ### euromail
 
