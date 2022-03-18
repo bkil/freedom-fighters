@@ -144,13 +144,19 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 * https://www.fsf.org/resources/webmail-systems
 * https://www.privacytools.io/providers/email/
+* https://github.com/deltachat/eppdperf
+* https://providers.delta.chat/
 * https://en.wikipedia.org/wiki/Comparison_of_webmail_providers#General
 * https://github.com/arnt/freemail
 * https://gist.github.com/tbrianjones/5992856
 * https://github.com/igor-alexandrov/ped/blob/master/lib/ped/domains.rb
 * https://github.com/Kikobeats/free-email-domains/blob/master/domains.json
 * https://github.com/goware/emailproviders/blob/master/generate/domains.txt
+* https://github.com/renlight10/Email-verification-API/blob/master/trusted_domain.txt
+* https://gist.github.com/mavieth/418b0ba7b3525517dd85b31ee881b2ec
 * https://gist.github.com/jpadilla/8468419 (2014)
+* https://gist.github.com/benstr/78e6a126849d12ceff22ffa614d7cf22
+* https://github.com/andrebradshaw/regular_expressions/blob/master/personal_email_domain.txt
 
 ## Megszűnt
 
