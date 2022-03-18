@@ -174,6 +174,7 @@ Ezek sajnos "elkoptak".
 * email cím:
   * min. 2 fiók
   * 100MB tárhely/fiók
+  * xxxx@jacsanet.hu
 
 ### Techno-Tel.hu ISP
 
@@ -181,9 +182,11 @@ Ezek sajnos "elkoptak".
 * honlap
   * 50MB tárhely
   * 1 aldomain
-  *  http://xxxxx.technotel.hu/
+  * http://xxxxx.technotel.hu/
 * 5 email postafiók
   * 25MB tárhely
+  * xxxxx@mail.techno-tel.hu
+  * xxxxx@techno-tel.hu
 
 ## Magyar megszűnt
 
