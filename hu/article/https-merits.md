@@ -85,6 +85,7 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
 * Ez egy újabb ÁSZF és GDPR adatkezelési nyilatkozat amit mind az üzemeltetőnek, mind a felhasználónak el kell fogadnia
 * Üzemeltető
   * Regisztrációkor személyes adataink megadása
+  * Regisztráció után az _igénylő_ gépének IP címét publikálják: ha például manuális módban máshol igényeljük mint ahová majd telepítjük
   * Jogi felelősség vállalása
   * A szerverünket és azon futó szoftvereket folyamatosan nyomon követik
   * _Elméletileg_ közrejátszhatnának látogatóink közbeékelésénél személyre szabott hátsó ajtókkal
@@ -93,12 +94,13 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
   * Az összegyűjtött profil legfeljebb 10 évig tárolható és semmilyen törlési kérésnek nem tudnak engedni
   * A tanúsítványunk egy nyilvános listára is felkerül https://en.wikipedia.org/wiki/Certificate_Transparency
   * Az tanúsítványkibocsátónk adatvédelmi nyilatkozata bármikor egyoldalúan változhat, emiatt az üzemeltetőnek folyamatosan figyeltetnie kell, a változásokat publikálni a saját oldalán és/vagy amennyiben a módosítás igényli, cselekedni
+  * https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf
 * Látogató
   * Tanúsítványlánc bejárása
   * OCSP ellenőrzés során: IP cím, böngésző, operációs rendszer és egyéb metaadat
     * https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting akár aktívan is vehetnek ujjlenyomatot a látogató gépéről
     * _Elméletileg_ ha a tanúsítványkibocsátónál (és kollaboránsainál) tárolt adatokat profillá szervezik, következtethetnek a böngésző bővítményekre vagy gyorsítótárazás alapján szokásokra a végrehajtott vagy kihagyott oldalbetöltésekből.
-* https://letsencrypt.org/privacy
+  * https://letsencrypt.org/privacy
 
 ### Nyomkövetés OCSP útján
 
