@@ -78,11 +78,15 @@
 
 * https://www.000webhost.com/cheap-web-hosting
   * ennek az almárkája: https://www.hostinger.com/
+* regisztráció:
+  * hCaptcha és/vagy Google reCAPTCHA
+  * csak a következő email címekről: aol.com (aim) mail.com live.com (outlook, hotmail, msn) icloud.com yandex.by yandex.kz gmx.com gmail.com facebook.com comcast.net
 * 300MB tárhely
 * 3GB/hó forgalom
 * PHP
 * MySQL
 * 1 cronjob
+* nincs email fiók
 
 ### 1Apps
 
@@ -122,19 +126,6 @@
 * tárhely 40MB
 * korlátlan forgalom
 * ASP.NET 4.0, MS Access, IIS 7, MS SQL 2008 R2
-
-### BoomHost
-
-* üzemeltetője: MyOwnFreeHost
-* http://booomhost.com/about-free-hosting.php
-* 10GB tárhely
-  * max. 10MB fájlméret
-* 100GB/hó forgalom
-* 10 aldomén
-* PHP
-* 10 MySQL korlátlan adatbázis
-* cronjob
-* Apache
 
 ### Freehostia
 
@@ -334,7 +325,9 @@
 ## iFastNet
 
 * külföldi reklámmentes
-* whitelabel szolgáltató számos almárkável, üzemeltetője: ifastnet.com, regisztráció: securesignup.net
+* US
+* whitelabel szolgáltató (Byet?) számos almárkával, üzemeltetője: ifastnet.com, regisztráció: securesignup.net
+* https://github.com/InfinityFreeHosting/mofh-client
 * PHP 5
 * korlátlan MySQL adatbázis
 * max. 10MB fájlméret
@@ -358,6 +351,32 @@
 * 100GB/hó forgalom
 * 10 MySQL
 * 10 domén, 10 aldomén
+
+### BooomHost
+
+* http://booomhost.com/about-free-hosting.php
+* üzemeltetője: MyOwnFreeHost, MX és hostname: ByetCluster.com, terméktámogatás: SecureSignup.net, iFastNet.com, byet.net
+* 10GB tárhely
+  * max. 10MB fájlméret
+  * max. 30k inode
+* 100GB/hó forgalom
+  * max. 50k betöltés/nap
+* 10 aldomén
+  * xxxx.boomhost.com
+  * booomhost.com powertechpoint.com suprahost.cu.cc 22web.org 10001mb.com 2kool4u.net 66ghz.com a0001.net fast-page.org html-5.me iblogger.org is-best.net is-great.net is-great.org likesyou.org loveslife.biz my-board.org my-style.in mydiscussion.net nichesite.org social-networking.me synergize.co talk4fun.net totalh.net web1337.net
+* PHP 7.4.8
+* cPanel vezérlőpult
+  * Softaculous Apps Installer telepítő
+  * nginx (Apache .htaccess értelmezés)
+  * az oldalaink megnyitásához JavaScript szükséges amivel injektál egy sütit a további lekérésekhez (talán reklámokhoz?)
+* TLS tanúsítvány beállítható, de csak fizetős, nem Let's Encrypt, mivel JavaScript nélkül nem érhető el a kihívás
+* 10 MySQL korlátlan adatbázis
+* cronjob
+  * 5 másodpercen belül be kell fejeződnie vagy eltávolítják
+  * akár 2 percenkénti gyakorisággal
+  * akár több feladat
+  * csak egy saját URI-t (scriptet) tud meghívni
+* email: csak fizetős csomagban
 
 ### Byet
 
