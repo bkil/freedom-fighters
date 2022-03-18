@@ -102,8 +102,9 @@ Further possibility:
 * Visual acuity
 * Color blindness
 
-### Browsing history
+### Visited links
 
+Infer browsing history by styling difference of anchor links.
 Could be achieved automatically via fine grained timing and CPU cache side channels.
 
 Manually by tricking the user into clicking onto links that look differently based on whether the user has visited a certain unrelated site or not:
@@ -111,6 +112,21 @@ Manually by tricking the user into clicking onto links that look differently bas
 * https://varun.ch/history
 
 > Retrieving your browsing history through a CAPTCHA
+
+### History API
+
+The `length()` method can still be read:
+
+* https://developer.mozilla.org/en-US/docs/Web/API/History
+
+* If our portal requires page switching navigation, we could occasionally navigate the tab way back into her history before they opened our page.
+* Either just when clicking their back/forward button, or when opening links.
+* If they then reopen our page, we could establish more referrers.
+
+The app layout could allow showing the same content even for small perturbations of the scroll position.
+We could introduce a small perturbation into the scroll position for new visitors and possibly use than for limited tracking.
+
+* https://developer.mozilla.org/en-US/docs/Web/API/History/scrollRestoration
 
 ### Services where you are logged in
 
