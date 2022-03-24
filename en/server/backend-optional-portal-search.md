@@ -200,3 +200,4 @@ Depending on the replication strategy, synonyms and typos should be either:
 ## References
 
 * https://sphider.worldspaceflight.com/about.php
+* https://lunrjs.com/docs/index.html

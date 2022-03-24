@@ -87,4 +87,11 @@ Az üzemeltetőnek kell betanítani és tesztelni.
 
 * https://en.wikipedia.org/wiki/Wiktionary
 * https://freedict.org/
-* https://gitlab.com/fsfhu/forditas-hogyan/-/tree/master/ informatikai terminológiai szótár
+* https://bkil.gitlab.io/openscope-dict-eng-hun/ informatikai terminológiai szótár
+
+Csak személyes felhasználásra:
+
+* https://www1.dict.cc/translation_file_request.php?l=e
+* [Letölthető Microsoft .tbx terminológiai szótár és fogalommagyarázat](https://microsoft.com/en-us/language/terminology)
+* [Kereshető, szabadon hozzáférhető, online Microsoft Glossary](https://microsoft.com/en-us/language/Search): a terminológiai szótárban is és a felületi fordításokban is keres
+* [Letölthető](https://web.archive.org/web/20070316004131/http://download.microsoft.com/download/f/7/8/f788e754-4107-4330-a468-c179168a846f/Microsoft_Terminology_20070130.zip), [2007-es többnyelvű Microsoft Glossary](https://web.archive.org/web/20070203195501/http://www.microsoft.com/globaldev/tools/MILSGlossary.mspx)

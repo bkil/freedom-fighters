@@ -93,6 +93,12 @@
 > Google collects Android users’ locations even when location services are disabled
 > if you actively turn off location services, haven’t used any apps, and haven’t even inserted a carrier SIM card?
 
+- https://reclaimthenet.org/android-messages-and-dialer-apps-quietly-send-data-to-google-report-alleges/
+> Android messages and dialer apps quietly send data to Google, report alleges
+> Google’s Messages and Dialer send data to Google’s Firebase Analytics and Google Play Services Clearcut.
+> “The data sent by Google Messages includes a hash of the message text, allowing linking of sender and receiver in a message exchange,” the paper says. “The data sent by Google Dialer includes the call time and duration, again allowing linking of the two handsets engaged in a phone call. Phone numbers are also sent to Google.”
+
+
 ## Twitter
 
 - https://reclaimthenet.org/twitter-censors-all-links-to-bitchute/

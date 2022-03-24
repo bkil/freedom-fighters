@@ -115,7 +115,7 @@ Manually by tricking the user into clicking onto links that look differently bas
 
 ### History API
 
-The `length()` method can still be read:
+The `history.length` property can still be read:
 
 * https://developer.mozilla.org/en-US/docs/Web/API/History
 

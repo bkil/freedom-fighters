@@ -365,7 +365,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
   * webmail
   * email továbbító alias címek, időkorlátos fogadó címek
   * felhasználók által létrehozott levlisták
-* (statikus vagy PHP-) webtárhely, Wordpress (CMS weboldalakhoz)
+* (statikus vagy PHP-) webtárhely, Wordpress (CMS weboldalakhoz, esetleg Drupal)
 * VPN
 * Lemmy kérdéseknek és linkmegosztás
 * közösségi háló: Friendica, (Pleroma, NextCloud Social)
