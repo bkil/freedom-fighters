@@ -28,6 +28,15 @@
 * Csökkenti a szoftverhibák kihasználhatóságának támadási felületet
 * Megszünteti az architekturális információszivárgást (például a [spekulatív végrehajtás](https://en.wikipedia.org/wiki/Spectre_%28security_vulnerability%29) kapcsán)
 * Jelentősen visszaszorítja az irányítási és jelentési csatornákat
+* https://bleepingcomputer.com/news/security/google-pushes-emergency-chrome-update-to-fix-zero-day-used-in-attacks/ 2021
+* https://bleepingcomputer.com/news/security/emergency-google-chrome-update-fixes-zero-day-used-in-attacks/ 2022
+* https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-exploits.html 2017, 2019, 2020
+* https://mytechdecisions.com/network-security/google-chrome-zero-days/ 2022
+* https://www.zdnet.com/article/firefox-gets-fixes-for-two-zero-days-exploited-in-the-wild/ 2020
+* https://bleepingcomputer.com/news/security/apple-fixes-ninth-zero-day-bug-exploited-in-the-wild-this-year/ 2021
+* https://www.csa.gov.sg/singcert/Alerts/al-2022-010
+* https://extremetech.com/computing/178587-firefox-is-still-the-least-secure-web-browser-falls-to-four-zero-day-exploits-at-pwn2own 2014
+* https://ubuntu.com/security/notices/USN-4335-1 2020
 
 ### Nélkülözhetőség
 
