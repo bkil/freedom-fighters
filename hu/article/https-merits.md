@@ -55,6 +55,10 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
 * Néha külső függéseink hozzák be amire nincs ráhatásunk
 * User Generated Content is érintett: amikor egy platformon a bejegyzésekben külső hivatkozásokkal szeretnének beágyazni, ami ellen néha egy lokális proxy működő körüljárás lehet, de nem mindenhol skálázódik jól
 
+Körüljárásokért lásd:
+
+* [../../en/article/circumvent-https-mixed-content.md](../../en/article/circumvent-https-mixed-content.md)
+
 ### Lassabb oldallekérések
 
 * Egy idő után az első oldallekérésnek jelentősen nagyobb a késleltetése (képességek egyeztetése, kulcsgenerálás, tanúsítvány ellenőrzés)
@@ -88,12 +92,12 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
   * Regisztráció után az _igénylő_ gépének IP címét publikálják: ha például manuális módban máshol igényeljük mint ahová majd telepítjük
   * Jogi felelősség vállalása
   * A szerverünket és azon futó szoftvereket folyamatosan nyomon követik
-  * _Elméletileg_ közrejátszhatnának látogatóink közbeékelésénél személyre szabott hátsó ajtókkal
-  * Weboldalunk látogatottsága és közössége alapján ránk is levonhatnak következtetések, amit súlyosbíthatja a weboldal publikus DNS bejegyzése
+  * Weboldalunk látogatottsága és közössége alapján ránk is levonhatnak következtetések, amit súlyosbíthat a weboldal publikus DNS bejegyzése
     * Még ha a szerződés szerint a látogatókról személyes OCSP profilt nem is építenek, gyakorlatilag az üzemeltetőről ezt már megtehetik, például ha tüntetések idején bizonyos helyszínekről bizonyos demográfiák nagy számban látogatják oldalunkat
   * Az összegyűjtött profil legfeljebb 10 évig tárolható és semmilyen törlési kérésnek nem tudnak engedni
-  * A tanúsítványunk egy nyilvános listára is felkerül https://en.wikipedia.org/wiki/Certificate_Transparency
-  * Az tanúsítványkibocsátónk adatvédelmi nyilatkozata bármikor egyoldalúan változhat, emiatt az üzemeltetőnek folyamatosan figyeltetnie kell, a változásokat publikálni a saját oldalán és/vagy amennyiben a módosítás igényli, cselekedni
+  * A tanúsítványunk egy nyilvános listára is felkerül
+    * https://en.wikipedia.org/wiki/Certificate_Transparency
+  * A tanúsítványkibocsátónk adatvédelmi nyilatkozata bármikor egyoldalúan változhat, emiatt az üzemeltetőnek folyamatosan figyeltetnie kell, a változásokat publikálni a saját oldalán és/vagy amennyiben a módosítás igényli, cselekedni
   * https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf
 * Látogató
   * Tanúsítványlánc bejárása
@@ -101,6 +105,12 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
     * https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting akár aktívan is vehetnek ujjlenyomatot a látogató gépéről
     * _Elméletileg_ ha a tanúsítványkibocsátónál (és kollaboránsainál) tárolt adatokat profillá szervezik, következtethetnek a böngésző bővítményekre vagy gyorsítótárazás alapján szokásokra a végrehajtott vagy kihagyott oldalbetöltésekből.
   * https://letsencrypt.org/privacy
+
+### Cenzúra
+
+* A kibocsátó bármikor visszavonhatja a tanúsítványunkat, ezzel gyakorlatilag elérhetetlenné téve az oldalt
+* OCSP ellenőrzés esetén ezt akár látogatónként is személyre szabhatják
+* _Elméletileg_ közrejátszhatnának látogatóink közbeékelésében is személyre szabott hátsó ajtókkal
 
 ### Nyomkövetés OCSP útján
 
@@ -127,7 +137,7 @@ Körülményesebb virtuális kiszolgálókon (megosztott webszerveren és IP cí
 
 * Enélkül nem szabad vagy nem érdemes bizonyos szolgáltatásokat üzemeltetni (fizetés, belépés)
 * A böngészők HTTPS nélkül letiltanak bizonyos funkciókat
-  * HTTP `secure` süti attribútum: JavaScript kiolvasás ellen véd
+  * HTTP `Secure` és `HttpOnly` süti attribútum: JavaScript kiolvasás ellen véd
   * HTTP/2 (és elődje az SPDY)
   * brotli tömörítés: állítólag régi proxy-k és víruskeresők elleni körüljárás akik rosszul kezelték a nem-gzip és nem-deflate tartalmakat - megakadályozza a közbeékelést
   * fizetés (Payment Request API)
