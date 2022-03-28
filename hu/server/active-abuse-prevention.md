@@ -71,6 +71,8 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/vector-im/riot-web/issues/3606
 * https://github.com/matrix-org/matrix-doc/issues/1281
 * https://github.com/zeratax/matrix-registration
+* https://codeberg.org/Codeberg-Infrastructure/CaptchaService#user-content-other-solutions
+* https://switching.software/replace/google-recaptcha/
 
 ### FOSS CAPTCHA
 
@@ -81,6 +83,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://www.w3.org/WAI/GL/wiki/Captcha_Alternatives_and_thoughts
 * https://captcheck.netsyms.com/
   * Piktogramok közt kell választani
+  * https://source.netsyms.com/Netsyms/Captcheck
 * https://github.com/desirepath41/visualCaptcha
   * Piktogramok közt kell választani
   * Példa: https://demo.visualcaptcha.net/
@@ -91,6 +94,9 @@ Korábban bennük is felmerültek alternatívák:
 * https://www.drupal.org/project/captcha_pack
   * Többféle típus kombinációja
   * Példák: https://www.drupal.org/files/images/captcha_pack_examples.png
+* https://django-simple-captcha.readthedocs.io/en/latest/
+* https://github.com/Lokno/click-captcha
+* https://github.com/hasadna/OpenCaptcha
 
 ### Google reCAPTCHA
 
@@ -103,6 +109,10 @@ Korábban bennük is felmerültek alternatívák:
 * A Cloudflare is lecserélte a Google reCAPTCHA-t erre
   * https://blog.cloudflare.com/moving-from-recaptcha-to-hcaptcha/
 
+### FriendlyCaptcha
+
+* https://friendlycaptcha.com/
+
 ### GeeTest
 
 * https://www.geetest.com/en
@@ -114,6 +124,11 @@ Korábban bennük is felmerültek alternatívák:
 ### KeyCaptcha
 
 * https://www.keycaptcha.com/
+
+### mCaptcha
+
+* https://mcaptcha.org/
+* proof of work
 
 ### Capy
 
