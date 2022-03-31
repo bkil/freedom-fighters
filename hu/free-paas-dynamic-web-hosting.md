@@ -80,7 +80,7 @@
   * ennek az almárkája: https://www.hostinger.com/
 * regisztráció:
   * hCaptcha és/vagy Google reCAPTCHA
-  * csak a következő email címekről: aol.com (aim) mail.com live.com (outlook, hotmail, msn) icloud.com yandex.by yandex.kz gmx.com gmail.com facebook.com comcast.net
+  * csak a következő email címekről: aol.com (aim) mail.com live.com (outlook, hotmail, msn) icloud.com yandex.by yandex.kz gmx.com gmail.com facebook.com comcast.net usa.com inbox.lv
 * 300MB tárhely
 * 3GB/hó forgalom
 * PHP
@@ -96,19 +96,6 @@
 * ASP 3.0, MS Access adatbázis
 * korlátlan domén, 1 aldomén
 * Windows 2012 R2
-
-### 1freehosting
-
-* https://www.1freehosting.com/
-* regisztrációs link nem működik!
-* 10GB tárhely
-* 100GB/hó forgalom (kötelező: >0 B/hó)
-* PHP5
-* korlátlan domének, 5 aldomén
-* 5 email fiók
-* 5 * MySQL 5 adatbázis
-* cron
-* Apache
 
 ### 50Webs
 
@@ -362,14 +349,17 @@
 * 100GB/hó forgalom
   * max. 50k betöltés/nap
 * 10 aldomén
-  * xxxx.boomhost.com
+  * xxxx.booomhost.com
   * booomhost.com powertechpoint.com suprahost.cu.cc 22web.org 10001mb.com 2kool4u.net 66ghz.com a0001.net fast-page.org html-5.me iblogger.org is-best.net is-great.net is-great.org likesyou.org loveslife.biz my-board.org my-style.in mydiscussion.net nichesite.org social-networking.me synergize.co talk4fun.net totalh.net web1337.net
 * PHP 7.4.8
 * cPanel vezérlőpult
   * Softaculous Apps Installer telepítő
   * nginx (Apache .htaccess értelmezés)
-  * az oldalaink megnyitásához JavaScript szükséges amivel injektál egy sütit a további lekérésekhez (talán reklámokhoz?)
-* TLS tanúsítvány beállítható, de csak fizetős, nem Let's Encrypt, mivel JavaScript nélkül nem érhető el a kihívás
+  * az oldalaink első megnyitásához JavaScript szükséges amivel injektál egy sütit a további lekérésekhez (talán reklámokhoz?)
+* TLS tanúsítvány beállítható
+  * elsősorban csak fizetős
+  * a Let's Encrypt .well-known HTTP kihívása nem működik mivel JavaScript nélkül nem elérhető
+  * CNAME beállítható, így TXT proxy útján körüljárható Let's Encrypt is
 * 10 MySQL korlátlan adatbázis
 * cronjob
   * 5 másodpercen belül be kell fejeződnie vagy eltávolítják
@@ -671,6 +661,19 @@ Megszűntnek látszik az alapján, hogy nagyon régen nem volt frissítve, nem m
 * https://www.netfirms.com/
 * https://vimlyhost.net/
 * https://x10hosting.com/ "a regisztráció átmenetileg szünetel"
+
+#### 1freehosting
+
+* https://www.1freehosting.com/
+* regisztrációs link nem működik!
+* 10GB tárhely
+* 100GB/hó forgalom (kötelező: >0 B/hó)
+* PHP5
+* korlátlan domének, 5 aldomén
+* 5 email fiók
+* 5 * MySQL 5 adatbázis
+* cron
+* Apache
 
 ### Megszűnt
 
