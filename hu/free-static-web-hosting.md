@@ -188,6 +188,10 @@ Ezek sajnos "elkoptak".
   * xxxxx@mail.techno-tel.hu
   * xxxxx@techno-tel.hu
 
+### Tarr ISP
+
+* xxxxx@tolna.net
+
 ## Magyar megszűnt
 
 ### BlogTer
