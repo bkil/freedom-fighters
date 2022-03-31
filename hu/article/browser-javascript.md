@@ -52,6 +52,9 @@ A felesleges JavaScript mellőzésének hatékonysága, tipikusan:
 * Csökkenti a böngésző processzor terhelését és az ezzel kapcsolatos késleltetéseket és interakciózavarokat mind a parszolás, mind a tényleges futás következtében
   * https://en.wikipedia.org/wiki/Unobtrusive_JavaScript
 * Előfordul, hogy néha JavaScript nélküli, sokkal takarékosabb változatra irányít a szerver (vélhetően keresőrobotok előnyben részesítése miatt)
+* https://timkadlec.com/remembers/2019-01-31-putting-some-limits-on-javascript/
+* https://timkadlec.com/remembers/2018-09-06-chromes-noscript-intervention/
+* https://v8.dev/blog/cost-of-javascript-2019
 
 ### Hozzáférhetőség
 
@@ -65,6 +68,7 @@ Ezen esetekben is segíthet a JavaScript teljes vagy részleges tiltása a gyako
 * A magunk által üzemeltethetőség népszerűsítését és ingyenes szolgáltatások fenntartható nyújtását elősegíti a szerver bonyolultságának és terhelésének csökkentése
 * Megteremti a lehetőségét, hogy egyes titkokat ne juttassanak el a felhasználók (titkosítatlanul) a szerverre
 * Speciális megoldásokkal kifejezetten csökkenthető a reakcióidő és/vagy az adatforgalom a gyakorlatban, de ezt 2021-ben csak elhanyagolható számú helyen alkalmazzák.
+* https://css-tricks.com/should-a-website-work-without-javascript/
 
 ### Visszaélés elleni védelem
 
