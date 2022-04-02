@@ -157,6 +157,7 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 * https://gist.github.com/jpadilla/8468419 (2014)
 * https://gist.github.com/benstr/78e6a126849d12ceff22ffa614d7cf22
 * https://github.com/andrebradshaw/regular_expressions/blob/master/personal_email_domain.txt
+* https://digdeeper.neocities.org/ghost/email.html
 
 ## Megszűnt
 
