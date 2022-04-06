@@ -39,6 +39,7 @@ These are not restricted by CORS and can be used for two-way communication:
 
 * CSS stylesheets
 * `<script>`: sometimes blocked for privacy, performance or bandwidth
+* https://en.wikipedia.org/wiki/JSONP
 
 Not restricted by CORS, but awkward due to navigating away and back via a callback:
 
