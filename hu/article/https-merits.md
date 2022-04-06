@@ -64,7 +64,7 @@ Körüljárásokért lásd:
 * Egy idő után az első oldallekérésnek jelentősen nagyobb a késleltetése (képességek egyeztetése, kulcsgenerálás, tanúsítvány ellenőrzés)
   * Valamelyest ellensúlyozza: HTTP/2, HTTP/3 (QUIC), HTTP 1.1 Pipelining, Keep-Alive, TLS False Start, TLS 1.3 0-RTT SSL Early Data, session cache, session tickets, OCSP Stapling, dinamikus rekordméretezés
   * Súlyosbítja: interkontinentális távolság vagy gyengébb térerejű vezeték nélküli kapcsolat (lassú mobilnet, túlterhelt vagy zavart wifi)
-* Minden oldallekérés egy kis konstans hop számmal több és pár kilobájttal
+* Minden oldallekérés tovább tart: egy kis konstans RTT és pár kilobájt
 * Valamelyest ellensúlyozhatja ha a bizalmasságot feladva igénybe veszünk CDN-eket a statikus tartalmakra
 
 ### Többlet erőforrásigény
