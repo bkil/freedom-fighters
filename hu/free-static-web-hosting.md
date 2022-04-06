@@ -37,6 +37,7 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 
 ### 5mp.eu
 
+* https://www.5mp.eu/
 * tulajdonos: Gáspár György EV
 * infrastruktúra: Revo Systems Kft.
 * 10MB tárhely
@@ -128,6 +129,7 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * http://g-portal.hu/gindex.php?pg=15&qid=5790277
   * http://g-portal.hu/gindex.php?pg=15&qid=5790281
 * üzemeltető: Egonet Kft.
+* további szolgáltatás: gmail.hu (g-mail.hu)
 
 ### Reblog.hu
 
@@ -353,6 +355,18 @@ Lásd még:
 * serverless functions
 * SSL
 * CDN: CloudFlare
+
+### gatsbyjs
+
+* https://gatsbyjs.com/pricing#plan-FREE
+* 1 egyedi domain
+* 100GB/hó forgalom
+  * 1M lekérés/hó
+  * 100k serverless function/hó
+* CI/CD: 1 vCPU, 1GB RAM
+* forrás: GitHub, GitLab, BitBucket
+* CDN: 33 POPS
+* ingyenes kimenet: Netlify
 
 ### Vercel
 
