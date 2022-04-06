@@ -3,11 +3,13 @@
 ## Bevezetés
 
 Ennek az áttekintés és az inspiráció a lényege, nem az ajánlás.
-Nem skálázható ha az egész világot néhány kis független szolgáltató szolgálná ki.
+Nem skálázható ha az egész világot mindössze néhány kis független szolgáltató szolgálná ki.
+Helyette egy-egy szakembernek kellene a 100-1000 fős köreinek biztosítani ezt.
 
 Lásd még:
 
-* [packages.md](packages.md)
+* [palette-installer.md](palette-installer.md)
+* [../service/free-shell-account.md](../service/free-shell-account.md)
 
 ## Meglévő szolgáltatók
 
