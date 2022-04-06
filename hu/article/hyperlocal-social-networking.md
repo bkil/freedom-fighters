@@ -39,7 +39,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * határidők
 * közös költség összege
 * kertészkedés tervezés (produktum elosztása), kivitelezés, karbantartási feladatok (komposztáló keverés, fűnyírás, trágyázás, palántázás, locsolás)
-* benti növényzet kialakítása vagy locsolási rendje
+* benti növényzet kialakítása, cserepes virágok tulajdonlása vagy locsolási rendje
 * fogyó eszközök, munkaeszközök
 * postás
 * szórólapok
@@ -50,6 +50,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * összefogások (pl. internet szolgáltató váltás)
 * lakás eladó-kiadó
 * közös tulajdon dekorációja
+* Ki parkolt a helyemre az autójával? Ki pakolt a lépcsőházba, ajtó elé?
 
 ### Példák utca léptékű interakcióra
 
@@ -59,20 +60,21 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
   * nyitva maradt az ajtó
   * kitört az ablak
   * ki vannak teregetve a ruhák és jön a vihar
-  * mi volt amit láttam vagy hallottam, hívjuk a 112-t?
+  * Hívjuk-e a 112-t? Mi az amit látok vagy hallok (feltörik az autót, ablakot, ajtót, lövöldözés, sírás, veszekedés)?
 * nálatok sincs víz/villany/internet? Közműszünet alatt: xy óra-perckor lesz átmenetileg központi aggregátorról áram x órára.
 * patakzik a víz az úton (csőtörés, tűzcsap)
 * elromlott utcabútor
 * nálatok sem vitték el a kukát?
-  * szelektív- vagy zöldhulladékgyűjtési szabályok változása
-* hozzátok is jár a mókus/nyest?
-* mi ez a hangzavar az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák, feltörik az autót, ablakot, ajtót)
+  * szelektív- vagy zöldhulladék-gyűjtési szabályok változása
+* hozzátok is jár a mókus vagy nyest?
+* mi ez a hangzavar, akár az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák)
   * egész éjszaka ugat valakinek a kutyája, kéretik kezelni a problémát (TODO: hangfelismeréssel akár automatizálható a tulajdonos felkeresése)
+* utólag érdeklődni a közelmúltban tapasztalt szokatlan események okáról (kit vitt el a mentő, rendőr, milyen ügyben jöttek űrruhások, mi lett a szokásos postással)
 * zajjal járó munkálatok előzetes bejelentése
 * költségmegosztás
-  * messziről rendel valaki valamit és postaköltség megosztás
+  * postaköltség megosztása ha messziről rendel valaki valamit
   * telekocsi
-  * konténer rendelés
+  * sittes konténer rendelése
   * kötegelve végezhető, rövid ideig tartó szakmunkák, mint a parkolóhely festés
 * zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka, gyermekfelügyelet)
 * lomtalanítás
