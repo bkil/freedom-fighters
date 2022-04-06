@@ -71,6 +71,7 @@ The ultimate goal here is to write and run as little backend code of your own as
 You may look into microservices for an inspiration, but you don't need to overdo it.
 
 * https://en.wikipedia.org/wiki/Microservice
+* https://jamstack.org/what-is-jamstack/
 
 ## Examples
 
