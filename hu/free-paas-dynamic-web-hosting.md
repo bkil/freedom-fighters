@@ -542,6 +542,21 @@
 * reklámmentes
 * székhely: Csehország
 
+### HostPoco
+
+* https://www.hostpoco.com/free-hosting.php
+* 200MB tárhely
+* 200MB/hó forgalom
+* PHP
+* 1 mySQL adatbázis
+* nem biztosít aldomaint, de saját domain és 2 aldomain beköthető
+* 2 FTP fiók
+* 2 email fiók
+* ingyen automatikus TLS
+* cPanel vezérlőpult
+* Softaculous alkalmazás telepítő
+* regisztráció 24 órás manuális jóváhagyás után, elvárnak 10 napon belül egy publikus értékelést
+
 ### Nexus Bytes
 
 * https://my.nexusbytes.com/cart.php?gid=1
