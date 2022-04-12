@@ -263,28 +263,46 @@
 * 5 email fiók
 * domén, aldomén
 
-## RunHosting
+## AttractSoft reseller
 
-* 1GB tárhely
-  * 25000 i-node
-  * max. 2MB fájlméret (15MB?)
+* a ResellerCluster üzemeltetője
+* https://www.attractsoft.com/services/web-hosting-solutions/
+* AttractSoft GmbH, Németország
+* honlap segítő widget: livechat2.supportindeed.com
+* ÁSZF visszaélés bejelentő email: abuse@supportindeed.com
 * 5GB/hó forgalom
-  * kötelező >0 B/12hó
-* PHP 5.x, 7.4.2, Perl, CGI
+  * kötelező >0 B/12hó, különben inaktivitás miatt figyelmeztetés után törlik a fiókot
+  * 12 havonta be kell lépni a vezérlőpultba
+* 1GB tárhely
+  * FTP
+  * max. 15MB fájlméret (régen: 2MB)
+  * max. 25k inode
+  * webes fájlkezelő
+* 1 email fiók
+  * webmail, POP3, IMAP, SMTP
+  * küldés: max. 31 küldött email/hó, max 5 címzett/levél, max. 2MB csatolmány
+  * max 3000 fogadott email/hó
+  * 1 alias
+  * max. 50MB levélfiók tárhely
+* kimenő TCP kapcsolatok tiltva
+* Apache
+  * SSL
+  * tilos a hotlinking
+* PHP 5.x, 7.4.2
+  * GD library
+  * nincs: SSI, cURL, ImageMagick, egyéni hibaoldalak, ssh, basic auth, naplófájlok
+  * van: látogató statisztika, erőforrás kihasználtság
+  * tiltott függvények: allow_url_fopen, fsockopen, pfsockpen, getrusage, get_current_user, set_time_limit, getmyuid, getmypid, dl, leak, listen, chown, chgrp, realpath, link. 
+* CGI/Perl, PERL modulok
 * 1 * 30MB MySQL 5.7 adatbázis
   * max. 30 párhuzamos kapcsolat
   * max. 12000 kérés/óra
-* 1 domén, 3 aldomén
-* email fiók
-* SSL
-* Apache
-* nincs cron
-
-### AwardSpace
-
-* https://www.awardspace.com/free-hosting/
-* a ResellerCluster üzemeltetője
-* kötelező 365 naponta belépni
+* max. 4 weboldal
+  * max. 3 aldomain biztosított (.c1.biz)
+  * 1 saját domain
+* Zacky alkalmazástelepítő, ingyenesen elérhető: Joomla, WordPress
+* nincs crontab
+* regisztrációhoz címadatokat kér
 
 ### ResellerCluster
 
@@ -296,20 +314,30 @@
   * AlotSpace https://www.alotspace.com/
   * AtSpace https://www.atspace.com/web-hosting/free-hosting/free-hosting-all-features-table/
     * korlátlan forgalmat ígérnek (elírásnak tűnik)
+  * AwardSpace https://www.awardspace.com/free-hosting/
   * BatCave https://www.batcave.net/
+  * biz.nf https://biz.nf/web-hosting.php
+  * CGI WebHost https://www.cgiwebhost.com/free-web-hosting.html
+  * Free 150 http://free150.com/
   * Free Hosting No Ads: https://freehostingnoads.net/
   * Free-Host-Pro http://www.freehostpro.com/
   * Free-Host-Space: https://www.freehostspace.com/free-web-hosting.html
   * FreeSiteHosting: http://freesitehosting.com/
   * FreeWebPageHost: http://freewebpagehost.net/
   * iBestHosting http://ibesthosting.com/
+  * iwebzhost https://iwebzhost.net/free-web-hosting.html
   * RedWebHost: https://www.redwebhost.com/free-web-hosting.html
   * RoyalWebHosting https://royalwebhosting.net/free-web-hosting.html
+  * RunHosting
+    * https://go.runhosting.com/index.html
+    * https://go.runhosting.com/free-web-hosting.html
   * TekCities https://www.tekcities.com/
   * WebFreeHosting: https://webfreehosting.net/
-* regisztrációhoz címadatokat kér
+  * ZettaHost
+    * https://zettahost.com/free-website-hosting/
+    * ZETTA HOSTING SOLUTIONS ltd. - ResellerCluster tulajdonosa?
 
-## iFastNet
+## iFastNet reseller
 
 * külföldi reklámmentes
 * US
