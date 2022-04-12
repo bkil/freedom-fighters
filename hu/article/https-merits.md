@@ -19,6 +19,7 @@ Időbe kerül beállítani, kitesztelni és karbantartani.
 * TLS tanúsítvány igénylése, automatikus megújítása, webszerver beállítása
 * https://en.wikipedia.org/wiki/OCSP_stapling
   * https://blog.mozilla.org/security/2015/11/23/improving-revocation-ocsp-must-staple-and-short-lived-certificates/
+  * https://scotthelme.co.uk/ocsp-must-staple/
   * https://securemachinery.com/2017/10/09/ocsp-validation-and-ocsp-stapling-with-letsencrypt/
 * https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
 * https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
