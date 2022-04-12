@@ -397,6 +397,24 @@ Lásd még:
 
 ## Külföldi honlapépítő
 
+### jimdo
+
+* https://www.jimdo.com/website/how-to-create/
+  * https://help.jimdo.com/hc/en-us/articles/360000205806-Wie-viel-Speicherplatz-und-Bandbreite-habe-ich-zur-Verf%C3%BCgung-
+* 500MB tárhely
+* 2GB/hó forgalom
+* egyedi HTML, CSS
+  * fájltípusok: js, gif, jpeg, png, svg, css, pdf, ttf, woff, eot
+  * https://help.jimdo.com/hc/en-us/articles/115005512006-Which-file-types-can-I-use-in-the-File-Download-Element-
+  * https://funnycat.jimdo.com/en/jimdotutorials-1/change-the-css-of-a-template/
+
+### site123
+
+* https://site123.com/pricing#accordion-1213
+* 250MB tárhely
+* 250MB/hó forgalom
+* aldomain
+
 ### WebNode.info
 
 * https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
@@ -498,3 +516,7 @@ Lásd még:
 * korlátlan tárhely
 * üzemeltető: Automattic, USA
 * egyedi HTML, CSS, JavaScript
+
+## Megszűnt
+
+* EzyWebs
