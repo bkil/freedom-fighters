@@ -311,6 +311,18 @@ Lásd még:
 * ingyen freesite.vip aldomain
 * iFastNet partner
 
+### Ubuntu membership
+
+* https://wiki.ubuntu.com/Membership#The_Perks
+* 1GB webtárhely: SFTP, Apache
+* blog
+* 1 email átirányítás
+* Libera.Chat IRC cloak (álnév)
+* Ubuntu Advanage (livepatches)
+* domén regisztrációs kedvezmény
+
+> Use of this service should be with the aim of helping Ubuntu in some way
+
 ### uCoz
 
 * https://www.ucoz.hu/pricing/

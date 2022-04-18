@@ -14,7 +14,7 @@ A következők ezt pont tiltják:
 
 Ezek nagyjánál nincs ingyen a privát tároló és/vagy a tárolók ilyen hasznosítása atipikus:
 
-* [vcs-cod-hosting.md](vcs-code-hosting.md)
+* [vcs-code-hosting.md](vcs-code-hosting.md)
 
 Az API elérés olyan használati eseteket tehet lehetővé, mint a világszintű föderált fotógaléria vagy élő gyűjteményes open data adatbázisok elosztott tárolása és felhasználási helyen történő fúziója.
 

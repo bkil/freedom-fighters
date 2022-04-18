@@ -114,6 +114,26 @@
 * korlátlan forgalom
 * ASP.NET 4.0, MS Access, IIS 7, MS SQL 2008 R2
 
+### Debian Developers
+
+* https://wiki.debian.org/MemberBenefits
+  * https://wiki.debian.org/ServicesHosting#Hosting_possibilities
+  * https://wiki.debian.org/DebianDeveloper/JoinTheProject#Actually_joining_the_Project
+  * https://www.rsync.net/debian.html
+    * 500GB biztonsági másolat tárhely
+* különböző szinteken kérvényezhetők különböző szolgáltatások (tárhely, VPS, dedikált gépek)
+* debian.org subdomain
+* libera.chat IRC cloak (álnév)
+* ssh
+  * https://db.debian.org/machines.cgi
+* statikus webtárhely
+  * ssh/scp public_html/
+  * https://people.debian.org/~xxxxxx/
+  * Apache
+
+> Everybody who contributes to Debian is automatically a Debian Contributor.
+> Benefits available to Debian members and contributors are listed below.
+
 ### Freehostia
 
 * https://www.freehostia.com/free-cloud-hosting/
@@ -262,6 +282,18 @@
 * 1GB/hó forgalom
 * 5 email fiók
 * domén, aldomén
+
+### Wikimedia Cloud Services
+
+* 10-80 GB tárhely (bővíthető)
+* 0.5-1 vCPU (bővíthető)
+* 512MB-4GB RAM (bővíthető)
+* választható: WMCS Cloud Services Introduction, VPS, IaaS, PaaS, DaaS, Toolforge, OpenStack, GridEngine, Kubernetes, K8s, infrastructure, Gerrit, Phabricator, bot, analytics, project, PHP7, Java, Mono, Python, Ruby, Golang, Node.js, Docker, screen, cron, tool, webservice, lighttpd, nginx
+* https://wikitech.wikimedia.org/wiki/Help:Cloud_Services_Introduction
+* https://wikitech.wikimedia.org/wiki/Wikitech:Cloud_Services_Terms_of_use#What_uses_of_Cloud_Services_do_we_like?
+* https://wikitech.wikimedia.org/wiki/Help:Toolforge/Rules#Toolforge_rules
+
+> to host your software tools for the Wikimedia movement, without charge.
 
 ## AttractSoft reseller
 

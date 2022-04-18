@@ -31,6 +31,13 @@ Lásd még:
 * Webmail ("mail"), Taiga ("procyectos"), Mattermost ("team"), PrivateBin ("paste"), Searx ("searx"), Prosody (Jabber/XMPP), IRC ("irc"), RSS ("rss"), EtherPad ("pad")
 * adományok fogadása: PayPal
 
+### Debian Social
+
+* https://wiki.debian.org/Teams/DebianSocial
+* szolgáltatások: Pleroma, PixelFed, PeerTube, WriteFreely, Wordpress, Matrix Synapse & Element, Plume, Jitsi
+* lásd még:
+* [../free-paas-dynamic-web-hosting.md#debian-developers](../free-paas-dynamic-web-hosting.md#debian-developers)
+
 ### disroot.org
 
 * https://disroot.org/en/#services
