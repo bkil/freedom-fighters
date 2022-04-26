@@ -121,3 +121,29 @@ Nem jó:
 
 * data-mx*
 * a href mailto, magnet, ftp
+
+### Discord t2bot bridge
+
+Jó:
+
+* del strike
+* b strong i em u
+* br
+* hr: néhány mínuszjellel és sortöréssel helyettesíti
+* ol ul
+* code
+* pre
+* spoiler (nincs szöveges tájékoztatás, csak egy fekete téglalappal van eltakarva)
+* színezés: pre + code + class="language-haxe"
+* a href https:// + előnézet
+
+Nem jó:
+
+* h1, h2 nagybetűs
+* h1, h2, h3, h4, h5, h6 félkövér
+* sub sup p
+* color, bg-color
+* table
+* summary-details
+* mxc:// img képbeszúrás
+* a href mailto, magnet:, ftp://
