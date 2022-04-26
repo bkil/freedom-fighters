@@ -51,6 +51,14 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * https://forge-allura.apache.org/docs/getting_started/administration.html#public-api-documentation
 * cenzúrázva: Kuba
 
+### Debian Salsa GitLab
+
+* engedélyezve az összes GitLab szolgáltatás, beleértve a CI/CD és Pages (https://*.pages.debian.net/)
+* https://wiki.debian.org/Salsa/Doc#Web_page_hosting
+* https://wiki.debian.org/Salsa/FAQ#How_can_I_use_salsa.debian.org_without_JavaScript.3F
+
+> What can be hosted on salsa? The answer is simple: As long as it is opensource and/or can be included in Debian, it is fine to use salsa. If in doubt, ask.
+
 ## Új, kis szereplők
 
 ### ChiselApp.com
