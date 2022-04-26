@@ -119,7 +119,8 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
 
 ### G-Portal.hu
 
-* http://g-portal.hu/gindex.php?pg=15&qid=5790206
+* https://g-portal.hu/gindex.php?pg=15&qid=5790206
+  * https://gportal.hu/
 * 300MB tárhely
   * max. 1.5MB/képtár fájl (gif, png, jpeg, swf)
   * médiatár
@@ -311,9 +312,41 @@ Lásd még:
 * ingyen freesite.vip aldomain
 * iFastNet partner
 
+### Gnome membership
+
+* https://wiki.gnome.org/MembershipCommittee/MembershipBenefits
+* https://foundation.gnome.org/membership/
+  * https://circle.gnome.org/
+  * https://gitlab.gnome.org/Teams/Circle/-/blob/master/README.md#who-can-apply
+* email átirányítás
+* Wordpress blog (httsp://blogs.gnome.org/xxxxx/)
+  * https://wiki.gnome.org/Infrastructure/NewBlogRequest
+* Discourse https://discourse.gnome.org/
+* Indico https://events.gnome.org/
+  * https://github.com/indico/indico
+* Gandi E-Rate kedvezmény domain és tárhely csomagokra
+* Rocket.Chat https://chat.gnome.org/
+* https://wiki.gnome.org/Infrastructure/NewAccounts
+  * NextCloud https://cloud.gnome.org/
+  * BigBlueButton https://meet.gnome.org/
+  * GitLab https://gitlab.gnome.org/
+    * GitLab Snippets https://paste.gnome.org/
+    * https://gitlab.gnome.org/Infrastructure/static-web
+    * https://static.gnome.org/
+  * ssh
+  * statikus webtárhely megszűnt
+    * https://mail.gnome.org/archives/desktop-devel-list/2022-March/msg00004.html
+    * https://people.gnome.org/~xxxxx/
+
+> Please don't request a GNOME (LDAP) Account unless you have contributed to an existing GNOME project for a medium/long term period of time.
+> Developers who need to directly commit code to modules in the core GNOME GitLab group
+> Contributors who need to use services which are restricted to GNOME accounts owners. This includes Nextcloud, Openshift and meet.gnome.org.
+
 ### Ubuntu membership
 
 * https://wiki.ubuntu.com/Membership#The_Perks
+  * https://wiki.ubuntu.com/PeopleUbuntuCom
+  * https://people.ubuntu.com/~username/
 * 1GB webtárhely: SFTP, Apache
 * blog
 * 1 email átirányítás
