@@ -46,6 +46,11 @@
 * VLC
 * Clementine
 * https://f-droid.org/en/packages/net.programmierecke.radiodroid2/
+* https://github.com/ebruck/radiotray-ng
+* https://sourceforge.net/projects/streamtuner2/
+  * http://fossil.include-once.org/streamtuner2/index
+* https://sourceforge.net/projects/glrp/
+* https://wiki.gnome.org/Apps/Rhythmbox/Plugins
 
 ## Ajánlott szolgáltatók
 
