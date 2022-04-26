@@ -1,4 +1,4 @@
-# Remote device fingerprinting from the distant
+# Remote device fingerprinting from the distance
 
 ## Introduction
 
@@ -23,17 +23,31 @@ Serve a benign purpose in agreement with the terms of service to mitigate abuse:
 
 * [../../hu/server/passive-abuse-prevention.md](../../hu/server/passive-abuse-prevention.md)
 
-## Network level options
+## Network level
 
-* HTTP headers
-  * Accept, Accept-Encoding, Accept-Language, User-Agent
-* the wall clock at the user: binary search using caching headers or wildcard certification expiry
+Assuming that the user agent application can be anything that uses TCP/TLS or a generic HTTP transport.
+
+### Location, ISP subscription
+
 * GeoIP, reverse DNS
 * traceroute, intermediate firewall determination
 * measure round trip time and hop count
   * depending on WAN uplink technology, fine grain measurement of latency and jitter to nearest data centers to triangulate
   * based on TLS handshake and TCP ACK timing
-* network speed test based on dummy fillers
+* IPv6 address, behavior, preference
+
+### Network speed test
+
+* based on dummy fillers
+* if this varies within a session or between sessions for a non-mobile ISP, consider the maximum and correlate dips with local access technology (spotty wifi)
+
+### Network reliability
+
+* gather statistics and build a detailed model on buffering events, reloads or speed dips
+* both in general and according to time of day
+
+### Network level software and settings
+
 * https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting
   * local NAT port range of outgoing connections
   * TCP congestion control algorithm, window size, options, handling of simulated packet loss, TLS properties
@@ -41,24 +55,82 @@ Serve a benign purpose in agreement with the terms of service to mitigate abuse:
   * header sizes, padding
   * MTU
   * how often does it flush its buffers and how fast does it close the connection
-* DNS resolver: redirects, TTL, latency, resolver side cache
-* DNS resolving: client side cache
-* IPv6 address, behavior, preference
+* DNS resolver: redirects, TTL, latency, resolver side cache, internationalized domain names
 
-### CPU speed estimate
+### Network CPU speed estimate
 
-* based on TLS operations
-* based on overhead of chunked HTTP encoding with very short chunks
-* how fast are further resources pulled in after sending a deliberately huge or complicated payload
-  * almost zip-bomb like extremely well compressible stream of either text or nested HTML markup
-  * calibrate network transfer overhead of a similar amount of normal data
-  * predict implemented decompression algorithm
-  * predict parser kind for HTTP/HTML/CSS/Javascript/images/fonts, inline vs. file content
-  * estimate CPU speed and cache amount
+* based on TLS handshake operations
+* based on overhead of chunked HTTP encoding with very short chunks or a short TLS record size
+
+### Clock pinpointing
+
+* the wall clock at the user: binary search using caching headers or wildcard certificate expiry
+
+### Network based user behavior
+
+* IP, ASN or domain name filters set by the user or ISP
+* time and intensity of activity per day and per week
+
+### Correlate overlapping connections of the same user
+
+* if some other application or web connection also happened to overlap with a compatible fingerprint, merge profiles
+* for example, if streaming music or a video while also checking e-mail or chatting in a browser
+
+### Correlate overlapping connections of different users
+
+* if a guest who has trackers installed connects to the home wireless network of another user
+* if similar networking conditions apply to mobile users in proximity, share their location data and attempt to connect them socially as well
+* https://patents.justia.com/patent/10111059
+
+> Systems and methods for utilizing wireless communications to suggest connections for a user - Facebook
 
 ## Application level options
 
-Includes device fingerprinting, user behavior profiling or user biometrics via either JavaScript or only with CSS
+### Headers
+
+* HTTP: Accept, Accept-Encoding, Accept-Language, User-Agent
+* SIP options
+* XEP-0030 Service Discovery
+* other client options related to rich protocols
+
+### Application based user behavior
+
+* generate a few HTTP redirects
+* see which redirect was cached
+* see which domains were cached by the client resolver: repeated poll to determine expiry (and hence time of the previous resolution)
+
+### HTTP redirect handling
+
+* limits
+* loops
+* GET vs. POST transformation
+* caching of answer
+
+### Fuzzing
+
+* Perturbate markup and binary streams in ways that result in undefined behavior according to the standards
+* Vary between visits the content and HTTP/RTMP headers for main entry point (HTML or stream)
+* Vary within the same visit for subresources: HTTP headers, media, CSS, JavaScript, iframes or frames
+* Detect application interpretation automatically: reconnection or buffering changes for stream recovery, CSS/JavaScript or HTTP GET for browsers
+* Determine application interpretation by user behavior (i.e., visibility)
+
+## Browser level options
+
+Assuming that the user agent is a web browser. Includes device fingerprinting, user behavior profiling or user biometrics via either JavaScript or only with CSS.
+
+### HTTP cache
+
+* HTTP client side cache status of various locally generated assets or global CDN referenced ones
+* client side handling of various HTTP caching headers
+
+### Browser CPU speed estimate
+
+* how fast are further resources pulled in after sending a deliberately huge or complicated payload
+* almost zip-bomb like extremely well compressible stream of either text or nested HTML markup
+* calibrate network transfer overhead of a similar amount of normal data
+* predict implemented decompression algorithm
+* predict parser kind for HTTP/HTML/CSS/Javascript/images/fonts, inline vs. file content
+* estimate CPU speed and cache amount
 
 ### CSS-only
 
