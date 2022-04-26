@@ -64,7 +64,7 @@ Assuming that the user agent application can be anything that uses TCP/TLS or a 
 
 ### Clock pinpointing
 
-* the wall clock at the user: binary search using caching headers or wildcard certificate expiry
+* the wall clock at the user: binary search using caching HTTP headers or wildcard certificate expiry
 
 ### Network based user behavior
 
@@ -106,17 +106,21 @@ Assuming that the user agent application can be anything that uses TCP/TLS or a 
 * GET vs. POST transformation
 * caching of answer
 
-### Fuzzing
+### Application level Fuzzing
 
 * Perturbate markup and binary streams in ways that result in undefined behavior according to the standards
 * Vary between visits the content and HTTP/RTMP headers for main entry point (HTML or stream)
-* Vary within the same visit for subresources: HTTP headers, media, CSS, JavaScript, iframes or frames
-* Detect application interpretation automatically: reconnection or buffering changes for stream recovery, CSS/JavaScript or HTTP GET for browsers
-* Determine application interpretation by user behavior (i.e., visibility)
+* Detect application interpretation automatically: reconnection, seeking or buffering changes for stream recovery
 
 ## Browser level options
 
 Assuming that the user agent is a web browser. Includes device fingerprinting, user behavior profiling or user biometrics via either JavaScript or only with CSS.
+
+### Browser level fuzzing
+
+* Vary within the same visit for subresources: HTTP headers, media, CSS, JavaScript, iframes or frames
+* Detect application interpretation automatically: CSS/JavaScript or HTTP GET for browsers
+* Determine application interpretation by user behavior (i.e., visibility)
 
 ### HTTP cache
 
