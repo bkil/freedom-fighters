@@ -382,6 +382,10 @@
 * Apache
 * email fiók
 * cron
+* az oldalaink első megnyitásához JavaScript szükséges amivel injektál egy sütit a további lekérésekhez
+  * https://forum.infinityfree.net/t/ensuring-only-web-browsers-can-access-your-website/49353
+* kimenő hálózati forgalom engedélyezett bizonyos portokon (pl. HTTP, HTTPS, SMTP, FTP)
+  * https://forum.infinityfree.net/t/can-i-use-sockets/49348
 
 ### 1-WS
 
@@ -415,7 +419,6 @@
 * cPanel vezérlőpult
   * Softaculous Apps Installer telepítő
   * nginx (Apache .htaccess értelmezés)
-  * az oldalaink első megnyitásához JavaScript szükséges amivel injektál egy sütit a további lekérésekhez (talán reklámokhoz?)
 * TLS tanúsítvány beállítható
   * elsősorban csak fizetős
   * a Let's Encrypt .well-known HTTP kihívása nem működik mivel JavaScript nélkül nem elérhető
@@ -522,7 +525,7 @@
 * 400 MySQL 5.7 adatbázis
 * TLS
 * reklámmentes
-* hozott domain vagy 25 aldomain valamelyike
+* hozott domain vagy 25 aldomain valamelyike (pl. epizy.com  freecluster.eu infinityfreeapp.com)
 * alkalmazástelepítő: Softaculous
 * legfeljebb 3 fiók regisztrálható felhasználónként
 
@@ -533,6 +536,20 @@
   * max. 10MB fájlméret
 * 77777MB/hó forgalom
 * 7 MySQL korlátlan adatbázis
+
+### ProFreeHost.com
+
+* https://profreehost.com/
+* korlátlan tárhely
+* korlátlan forgalom
+* PHP
+* 10 MySQL adatbázis
+* honlapépítő
+* email fiók: webmail, átirányítás
+* subdomain: ezyro.com
+* max. 10 domain, max. 10 aldomain
+* max. 10 MB fájlméret
+* SSL
 
 ### UHostAll
 
