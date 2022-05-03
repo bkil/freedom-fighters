@@ -29,6 +29,9 @@
 * https://www.csa.gov.sg/singcert/Alerts/al-2022-010
 * https://extremetech.com/computing/178587-firefox-is-still-the-least-secure-web-browser-falls-to-four-zero-day-exploits-at-pwn2own 2014
 * https://ubuntu.com/security/notices/USN-4335-1 2020
+* https://github.com/Escapingbug/awesome-browser-exploit
+* https://github.com/tunz/js-vuln-db
+* https://github.com/Metnew/uxss-db
 
 ### Nélkülözhetőség
 
