@@ -146,12 +146,32 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
 Otthoni, háztartási internet hozzáférési előfizetés mellé gyakran jár (járt) felár nélkül számtalan publikus többletszolgáltatás, mint például: weboldal kiszolgálása, email cím.
 Ezek sajnos "elkoptak".
 
+### BorsodWeb ISP
+
+* https://www.borsodweb.hu/images/article/186/J.%20Internet-hozz%C3%A1f%C3%A9r%C3%A9si%20szolg%C3%A1ltat%C3%A1sok%20le%C3%ADr%C3%B3%20t%C3%A1bl%C3%A1zata_(A)%20t%C3%A1bl%C3%A1zat.pdf
+* https://www.borsodweb.hu/images/article/191/ASZF_2022.05.01_Internet_TV.pdf
+* 20MB webtárhely
+* http://xxxxxx.borsodweb.hu/
+* email postafiók: xxxxxx@borsodweb.hu
+
+### CellKabel ISP
+
+* Celldömölki Kábeltelevízió Kft.
+* https://cellkabel.hu/documents/aszf_internet_2020_11_01_kivonat.pdf
+* 50-100MB tárhely
+  * http://xxxxxx.cellkabel.hu/
+* email
+  * https://cellkabel.hu/levelezes
+  * 1-3 email postafiók
+  * xxxxxx@cellkabel.hu
+
 ### Digi.hu ISP
 
 * https://digi.hu/sites/default/files/dokumentumtar/pdf/altalanos/digiugyfelkapu_segedlet_2021_v2.pdf
 * 30MB tárhely
 * azonos domain alatti almappa
   * `http://w3\.hdsnet\.hu/[a-z0-9_-]{1,25}/`
+* dinamikus DNS: a-b-c-d.static.hdsnet.hu
 * email postafiók is igényelhető
   * `[a-z0-9_-]{1,64}@digikabel.hu`
   * a fiókra bejövő levelek átirányítása külső címre
@@ -161,6 +181,24 @@ Ezek sajnos "elkoptak".
 * SSI/shtml tiltva
 * egyéni hibaoldalak nincsenek
 * naplófájlok elérése nincs
+* van könyvtárlistázás
+
+### Externet ISP
+
+* https://www.externet.hu/ugyintezes/dokumentumok-segedletek-aszf/otthoni-elofizetoi-szerzodesek
+* 50MB webtárhely
+  * http://yhosts.externet.hu/xxxxxx/
+* 3db email cím, 20MB postafiókméret, alias
+  * xxxxxx@mail.externet.hu
+
+### HWR Telecom ISP
+
+* https://hwr.hu/wp-content/uploads/2022/03/HWR-Telecom-Kft._Internet_ASZF_2022.04.20.pdf
+* FTP
+  * 100-500MB tárhely
+  * http://web.hwr.hu/xxxxxx
+* 5-20db email cím
+  * xxxxxx@hwr.hu
 
 ### jacsa.net ISP
 
@@ -179,6 +217,20 @@ Ezek sajnos "elkoptak".
   * 100MB tárhely/fiók
   * xxxx@jacsanet.hu
 
+### NordTelekom ISP
+
+* http://nordtelekom.hu/detail.php?p=759&ih=1
+* 100MB webtárhely
+  * http://web.nordtelekom.hu/xxxxxx
+* 5db email cím
+  * xxxxxx@nordtelekom.hu
+
+### SzivarvanyNet ISP
+
+* https://www.szivarvanynet.hu/lakossagi+dijcsomagok.html
+* 2GB tárhely
+* 5db email cím (5 * 10GB postafiók méret)
+
 ### Techno-Tel.hu ISP
 
 * https://www.techno-tel.hu/internet/mikrohullamu-vezetek-nelkuli
@@ -194,6 +246,20 @@ Ezek sajnos "elkoptak".
 ### Tarr ISP
 
 * xxxxx@tolna.net
+* webtárhely
+  * FTP
+  * http://www.tolna.net/~xxxxx
+
+### TVnetwork.hu ISP
+
+* http://www.tvnetwork.hu/egyeni/akciok/szolgaltatas_net_csomagok.html
+  * http://www.tvnetwork.hu/?action=statikus.view&name=signet_dij
+* 20-500MB webtárhely
+  * http://web.tvnetwork.hu/xxxxxx/
+  * http://web.tvnetwork.hu/~xxxxxx/
+* 1db email cím
+  * 500MB postafiók
+  * email xxxxxx@tvnetwork.hu
 
 ## Magyar megszűnt
 
@@ -213,6 +279,14 @@ Ezek sajnos "elkoptak".
 * már nem lehet regisztrálni
 * https://cafeblog.hu/
 * üzemeltető: Central Médiacsoport Zrt.
+
+### DataTrans ISP
+
+* https://www.datatrans.hu/
+* 250 MB FTP tárhely
+  * http://xxxxxx.datatrans.hu/
+  * csak az üzleti csomagokhoz járt (nem sokkal drágább), de 2022-ben megszűnt ez a lehetőség és kiszervezték külön díjcsomagba
+* https://www.datatrans.hu/wp-content/uploads/2021/04/Datatrans-ASZF_20210501.pdf
 
 ### Extra.hu
 
@@ -248,6 +322,11 @@ Ezek sajnos "elkoptak".
   * grafikus honlapépítővel
   * alapértelmezésben Creative Commons Nevezd meg!-Ne add el!-Így add tovább! 2.5 Magyarország licenc a feltöltött tartalmakra
   * üzemeltető: Belvárosi Hirdető Kft.
+
+### Pr-Telecom ISP
+
+* https://cellkabel.hu/impressum
+* megszűnt email: xxxxxx@pr.hu
 
 ### Sarok
 
