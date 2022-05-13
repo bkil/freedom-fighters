@@ -180,3 +180,4 @@ Van amelyiknek az információtartama elévült, de az elméletet jól szemlélt
 * https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite
 * https://www.httpvshttps.com/ HTTP vs. HTTPS sebességmérő
 * https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html
+* [../../en/service/acme-tls.md](../../en/service/acme-tls.md)
