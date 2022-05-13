@@ -38,7 +38,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * összejövetelek (bulik, grillezés, temetés, esküvő)
 * határidők
 * közös költség összege
-* kertészkedés tervezés (produktum elosztása), kivitelezés, karbantartási feladatok (komposztáló keverés, fűnyírás, trágyázás, palántázás, locsolás)
+* kertészkedés tervezés (produktum elosztása), kivitelezés, karbantartási feladatok beosztása (komposztáló keverés, fűnyírás, trágyázás, palántázás, locsolás)
 * benti növényzet kialakítása, cserepes virágok tulajdonlása vagy locsolási rendje
 * fogyó eszközök, munkaeszközök
 * postás
@@ -46,14 +46,17 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * szerelőt többen egyszerre beszervezni
 * ingyen bevásárlás
 * kölcsönkérni: adathordozó, alap élelmiszer, gyógyszer
-* vészhelyzet: félrenyelt, elesett, csőtörés, gázszivárgás, épületszerkezeti hiba
+* vészhelyzet: félrenyelt, elesett, csőtörés
+* Locsoljunk lefelé vagy oldalra egy kis vizet mert keletkezett egy kis tűz az egyik szomszédos erkélyen, ablakdíszen vagy dekoráción
 * összefogások (pl. internet szolgáltató váltás)
 * lakás eladó-kiadó
 * közös tulajdon dekorációja
 * Ki parkolt a helyemre az autójával? Ki pakolt a lépcsőházba, ajtó elé?
+* Hol kell elzárni a vizet, gázt, villanyt, padlást, pincét és kinél van a kulcsa?
 
 ### Példák utca léptékű interakcióra
 
+* vészhelyzet: hagyjuk el az épülettömböt vagy szomszédságot mert gázszivárgás, tűz vagy épületszerkezeti hiba keletkezett, majd utána amikor visszamehetünk a lakásunkba
 * elkapta a szél az antennát, tetőcserepet, virágcserepet, ágat
 * vagyonbiztonság
   * szól az autó- vagy lakásriasztó
@@ -61,25 +64,30 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
   * kitört az ablak
   * ki vannak teregetve a ruhák és jön a vihar
   * Hívjuk-e a 112-t? Mi az amit látok vagy hallok (feltörik az autót, ablakot, ajtót, lövöldözés, sírás, veszekedés)?
-* nálatok sincs víz/villany/internet? Közműszünet alatt: xy óra-perckor lesz átmenetileg központi aggregátorról áram x órára.
 * patakzik a víz az úton (csőtörés, tűzcsap)
-* elromlott utcabútor
-* nálatok sem vitték el a kukát?
-  * szelektív- vagy zöldhulladék-gyűjtési szabályok változása
 * hozzátok is jár a mókus vagy nyest?
 * mi ez a hangzavar, akár az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák)
   * egész éjszaka ugat valakinek a kutyája, kéretik kezelni a problémát (TODO: hangfelismeréssel akár automatizálható a tulajdonos felkeresése)
 * utólag érdeklődni a közelmúltban tapasztalt szokatlan események okáról (kit vitt el a mentő, rendőr, milyen ügyben jöttek űrruhások, mi lett a szokásos postással)
 * zajjal járó munkálatok előzetes bejelentése
+* zajjal járó rendszeres munkák (fűnyírás) egyeztetése, hogy azt minél többen végezzék párhuzamosan, ezáltal minimalizálva a zajjal terhelt órákat
 * költségmegosztás
   * postaköltség megosztása ha messziről rendel valaki valamit
   * telekocsi
   * sittes konténer rendelése
   * kötegelve végezhető, rövid ideig tartó szakmunkák, mint a parkolóhely festés
+
+### Példák utcákon átívelő interakcióra
+
+* nálatok sincs víz/villany/internet? Közműszünet alatt: xy óra-perckor lesz átmenetileg központi aggregátorról áram x óra ideig.
+* elromlott utcabútor
+* nálatok sem vitték el a kukát?
+  * szelektív- vagy zöldhulladék-gyűjtési szabályok változása
 * zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka, gyermekfelügyelet)
-* lomtalanítás
 * megmaradt építőanyagok elvihetők
 * csere-bere, könyvek
+* lomtalanítás
+* Elszabadult veszélyes haszonállat, háziállat
 
 ## Megvalósítás
 
