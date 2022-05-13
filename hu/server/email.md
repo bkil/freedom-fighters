@@ -23,6 +23,8 @@
 
 * https://mailcow.email/
 * https://mailinabox.email/
+* https://mailu.io/
+* https://github.com/jeekkd/iRedMail-scripts
 * Lásd még: [packages.md](packages.md)
 
 ### Telepítési útmutatók
