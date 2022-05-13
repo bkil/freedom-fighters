@@ -53,7 +53,7 @@ Note that such a system is not suitable for groups that are mostly conversationa
 ### Features
 
 * Internationalization
-* Ability to deploy on free hosting (via PHP or Haxe)
+* Ability to deploy on free hosting (C++ CGI or PHP from Haxe)
   * Depending on cron, this may introduce significant delays on certain interfaces (up to 1 hour), so a more real time connector is also desirable.
   * Option to piggyback the backend on some widespread server, similarly to [../../hu/service/game-backend.md](../../hu/service/game-backend.md).
   * Option to avoid reaching quotas, like email send/receive limits
@@ -62,6 +62,16 @@ Note that such a system is not suitable for groups that are mostly conversationa
   * Some of the admins or users may have elevated privileges on some of the platforms that they would like to share with a trusted peer group (or their personal circle of trust).
     * e.g.: Meetup.com, GetTogether.community event updates (Facebook?)
 * Users may desire to map their own personal identities (nickname) between the interfaces if they had registered accounts on more than one.
+
+### Scheduling
+
+* Scheduled polling from cron or a busy loop
+* Sitting in an IMAP IDLE loop
+* Event driven callback hooks
+  * Matrix notification pusher
+  * ActivityPub S2S API
+  * XMPP S2S API
+  * git Webhooks: GitHub, GitLab, gitea, BitBucket, SourceForge, LaunchPad, Pagure, gogs
 
 ## Implementation
 
