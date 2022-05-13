@@ -34,6 +34,14 @@
 > The tool I created, a browser extension called Unfollow Everything, allowed users to delete their News Feed by unfollowing their friends, groups, and pages. 
 > Facebook sent me a cease-and-desist letter. The company demanded that I take down the tool. It also told me that it had permanently disabled my Facebook account—an account that I’d had for more than 15 years, and that was my primary way of staying in touch with family and friends around the world. Pointing to **a provision in its terms of service that purports to bind even _former users_ of Facebook**, Facebook also demanded that I never again create a tool that interacts with Facebook or its many other services in any way.
 
+- https://forbes.com/sites/zakdoffman/2021/10/23/apple-iphone-users-delete-facebook-app-after-new-tracking-warning/
+- https://en.wikipedia.org/wiki/Dark_pattern#Privacy_Zuckering
+> Security Researcher Finds Facebook App Tracking iPhone Movements:
+> Facebook still captures location data using the metadata from your photos and your IP address, even if you update your settings “never” to track your location.
+> [Facebook, Instagram and WhatsApp] can still infer your exact location only by grouping you with users matching the same vibration pattern that your phone accelerometer records.
+> Apps can figure out the user's heart rate, movements, and even precise location.
+> Facebook actually has a patent application to use wireless phone signals to connect strangers.
+
 ## Instagram
 
 - https://www.forbes.com/sites/zakdoffman/2019/09/12/new-instagram-hack-exclusive-facebook-confirms-user-accounts-and-phone-numbers-at-risk/
