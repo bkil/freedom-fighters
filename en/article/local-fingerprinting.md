@@ -48,7 +48,7 @@ https://en.wikipedia.org/wiki/Side-channel_attack
 * SMB
 * HTTP URLs
 * TLS SNI
-* some of the HTTPS websites and URLs may be identified by packet size distribution
+* some of the HTTPS websites and URLs may be identified: packet size distribution, size of bursts per each port (file transfer per connection), histogram of ingress packet count between two egress packets
 
 ## Wireless options
 
