@@ -93,7 +93,7 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 * https://szerverpark.eu/vps 1250 + áfa (1 év)
   * **VPS START**, 1 vCPU, 1GB RAM, 15GB HDD, korlátlan adatforgalom, 100Mb/s (elvileg magyar: Victor Hugo 11-15)
 * http://www.profivps.hu/vps 1260 + áfa (1600)
-  * **Magyar VPS minimál**, OpenVZ (kérésre teljes virtualizáció), 2 vCPU (1500MHz), 512MB RAM, 10GB HDD (SAS), korlátlan adatforgalom, 1 IPv4 + 5 IPv6 (elvileg magyar: DENINET Kft 1188 Budapest, Bercsényi Miklós utca 79/b)
+  * **Magyar VPS minimál**, OpenVZ (kérésre teljes virtualizáció), 2 vCPU (1500MHz), 512MB RAM, 10GB HDD (SAS), korlátlan adatforgalom, 1 IPv4 + 5 IPv6 (elvileg magyar: DENINET Kft -> Victor Hugo 18-22)
 * https://jztkft.hu/vpshosting.php#level-1-0 1500 + ?
   * **Linux VPS Mini**, Xen, 1 vCPU (Intel Xeon X5675), 2GB RAM (DDR3L 1333MHz ECC), 20GB HDD (WD Gold Enterprise, Dell Raid10), korlátlan adatforgalom, 1Gb/s (10Gb/s szerverenként), IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22)
 * https://rackforest.com/szolgaltatasok/vps/#linux-vps 1500 + áfa
