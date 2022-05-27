@@ -49,6 +49,19 @@ Lásd még:
 * Kubernetes
   * https://github.com/bobbyd0g/commlab
 
+### CapRover
+
+* https://github.com/caprover/one-click-apps/tree/master/public/v4/apps
+* https://caprover.com/docs/one-click-apps.html
+* https://github.com/caprover/caprover
+
+### CoopCloud
+
+* https://recipes.coopcloud.tech/
+* https://docs.coopcloud.tech/intro/faq/
+* https://git.coopcloud.tech/coop-cloud/
+* https://autonomic.zone/blog/co-op-cloud/
+
 ### sovereign
 
 * https://github.com/sovereign/sovereign
