@@ -24,3 +24,9 @@ Például Signal vagy Telegram regisztrációhoz.
 * http://silent.link/
 * https://mysudo.com/
 * https://telnum.net/pay-with-cryptocurrencies/
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2784741#comment-2784741

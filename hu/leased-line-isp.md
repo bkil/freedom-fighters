@@ -137,3 +137,9 @@ Kínálnak vállalatoknak olyan csomagokat ahol szerver üzemeltetése már mege
   * 19500 Ft/hó: 25/8 Mb/s garantált, 2 év hűség, fix IP
 * http://net-portal.hu/szolgaltatasok/mikro-internet/
   * 40 ezer Ft/hó: 5/5 Mb/s
+
+## Pingback
+
+Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
+
+* https://hup.hu/comment/2784250#comment-2784250
