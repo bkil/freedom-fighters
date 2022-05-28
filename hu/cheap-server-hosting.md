@@ -209,6 +209,7 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://getfastvps.com/
 * https://www.comparevps.com/
 * http://www.lowendstock.com/
+https://monovm.com/linux-vps/
 
 ## Pingback
 
