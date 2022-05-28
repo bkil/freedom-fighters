@@ -201,6 +201,13 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
   * kriptovaluta elfogadott: Bitcoin
   * szerver: Románia
   * cég: Seychelle-szigetek
+* https://monovm.com/linux-vps/
+  * **Linux 512 MB**: 1 vCPU, 512MB RAM, 15GB SSD, 500GB/hó adatforgalom
+  * VMware ESXi
+  * https://monovm.com/buy-vps-with-bitcoin/
+  * kriptovaluta elfogadott
+  * cég: Litvánia
+  * szerver: USA(San Jose, Chicago, New York), UK(Manchester), Netherlands(Amsterdam), Germany(Frankfurt), Canada(Montreal), France(Paris)
 
 ## Árösszehasonlító oldalak
 
@@ -209,7 +216,6 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 * https://getfastvps.com/
 * https://www.comparevps.com/
 * http://www.lowendstock.com/
-https://monovm.com/linux-vps/
 
 ## Pingback
 
