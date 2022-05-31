@@ -96,6 +96,10 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://github.com/drduh/Debian-Privacy-Server-Guide
 * https://git.hcoop.net/?a=project_list;o=age;pf=hcoop
 
+### Rendszergazdai automatizmusok
+
+* https://codeberg.org/Sapphire/sapphire-butler
+
 ## Zárt szolgáltatáscsomag telepítők
 
 * https://www.cloudron.io/store/index.html https://git.cloudron.io/cloudron a receptek szabadok
