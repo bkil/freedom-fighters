@@ -19,7 +19,7 @@ It can be advantageous if our server has access to our data:
 * to serve public content
 * metadata and buffering: ease client exchanges, discovery, detect threats and unwanted content
 * costly batch transformations: multimedia editing, conversion
-* replicating the whole dataset of users: facilitate filter, join and aggregation of one or more users
+* replicating the whole dataset of users: facilitate filter, join and aggregation over multiple users
 * deduplication
 * improve battery and network bandwidth efficiency
 
@@ -36,7 +36,7 @@ You can't verify the deployment configuration or human operation security practi
 
 * full disk block device encryption
 * FUSE filesystem driver
-* general encrypting database or file access driver abstraction
+* general driver abstraction for encrypted access of files or databases
 
 ### Computational drawback
 
@@ -45,16 +45,16 @@ You can't verify the deployment configuration or human operation security practi
 ### Data at rest benefits
 
 * If the host drive was not encrypted and is stolen, returned for warranty claims or cloned offline by an adversary
-* If the host hypervisor is compromised in a way that allows reading the storage of guests, but not their memory
+* If the host hypervisor is compromised in a way that allows for reading content from the storage of guests, but not their memory
 * If storage is transferred over compromised network elements in a decrypted/reencrypted form (e.g., during replication)
 
 ## Scoped encryption
 
 * part of the key material could be provided remotely from the request of a client or a scheduled batch process
 * the application can do custom encryption of database records and files individually
-* only unencrypt data for the duration of each request
-* ideally shard subsets of data of a single user using different encryption keys per scope so that not all requests would need to decrypt all data fields of a user
-* only unencrypt subsets of data fields daily: for example contact details for recovery or batch notifications (email, phone), protecting them if exploit is eliminated within 24 hours
+* only decrypt data for the duration of each request
+* ideally, shard subsets of data of a single user while applying different encryption keys per scope so that not all requests would need to decrypt all data fields of a user
+* only decrypt subsets of data fields daily: for example, contact details for recovery or batch notifications (email, phone), protecting them if the exploit is eliminated within 24 hours
 
 ### Guest infiltration
 
@@ -64,4 +64,4 @@ You can't verify the deployment configuration or human operation security practi
 ### Host administrator infiltration
 
 * if the infiltration allows for patching the application binary or reading arbitrary memory within the guest or the host
-* protect data of users who did not log in between executing and eliminating a root exploit and subsets of data of others
+* protect data of users who did not log in between executing and eliminating a root exploit and subsets of data of others (for example, only new messages, not the whole message history)
