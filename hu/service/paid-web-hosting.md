@@ -26,6 +26,7 @@ Lásd még:
 * https://en.wikipedia.org/wiki/CloudLinux_OS
 * https://www.cloudlinux.com/index.php/lve-manager
 * https://www.cloudlinux.com/index.php/mysql-governor
+* https://docs.cloudlinux.com/limits/
 * https://docs.cloudlinux.com/cloudlinux_os_components/#general-information-and-requirements-4
 
 ## Domain
@@ -177,19 +178,38 @@ Lásd még:
   * `.eu` 3048 Ft/év
   * `.com` 4191 Ft/év
   * `.net` 6096 Ft/év
-* Jár hozzá ingyen statikus tárhely vagy rendelhető dinamikus
+* Jár hozzá felármentesen statikus tárhely vagy rendelhető dinamikus
   * 50MB tárhely
-    * FTPS
-    * SSI
-    * .htaccess részlegesen
-    * Egyedi hibaoldalak
-  * 60GB/hó forgalom (a vezérlőpulton korlátlan), ÁSZF:
+  * FTPS
+  * CloudLinux
+    * max. 100% SPEED (MHZ)
+    * max. 128MB PMEM, max. 256MB VMEM
+    * max. 64 kB/s HDD
+    * max. 10 EP (belépő folyamat), max. 35 NPROC (párhuzamos folyamat)
+    * max. 1024 IOPS
+  * LiteSpeed webszerver
+  * SSI
+  * CGI
+    * 120 másodperc HTTP feldolgozási időkorlát
+    * írható web mappa
+    * bash, sed, gawk, curl, wget
+    * PERL: Algorithm::Diff AppConfig Archive::Tar BSD::Resource CPAN::Meta CPAN::Meta::Requirements CPAN::Meta::YAML Compress::Raw::Bzip2 Compress::Raw::Zlib Crypt::OpenSSL::RSA Crypt::OpenSSL::Random DBI Date::Parse Digest::HMAC Digest::SHA Digest::SHA1 Encode::Detect Encode::Locale Error ExtUtils::CBuilder File::Listing Geography::Countries HTML::Parser HTML::Tagset HTTP::Cookies HTTP::Daemon HTTP::Date HTTP::Message HTTP::Negotiate IO::Compress IO::HTML IO::Socket::INET6 IO::Socket::SSL IO::Zlib IP::Country IPC::Cmd JSON JSON::PP LWP LWP::MediaTypes Locale::Maketext::Simple Mail Mail::DKIM Mail::SpamAssassin Module::Build Module::CoreList Module::Load Module::Load::Conditional Module::Metadata Mozilla::CA Net::DNS Net::DNS::Resolver::Programmable Net::HTTP Net::Ident Net::SSLeay NetAddr::IP Params::Check Parse::CPAN::Meta Perl Perl::OSType Razor2::Client::Agent Socket6 Spiffy Sys::Syslog Template Test::Base Test::Simple Test::YAML Text::Diff Time::HiRes URI WWW::RobotRules YAML parent version
+    * Python: Babel, argparse, clsudo, dbus, dbus_bindings, distribute, easy_install, hwdata, iniparse, lprettytable, nose, pciutils, python_dateutil, pytz, rhnlib, rpmUtils, secureio, setools, setuptools, six, urlgrabber, virtualenv, yum, yumutils, libxslt
+    * gcc, make, automake, autoconf, cmake, git
+  * .htaccess
+  * Egyedi hibaoldalak
+  * 60GB/hó forgalom (a vezérlőpult szerint korlátlan)
+  * ÁSZF:
     * max. 1000 egyedi látogató/nap
     * max. 5000 oldalletöltés/nap
-  * 10 email fiók: webmail, POP3, IMAP, SMTP, TLS
+    * PHP csak fizetős csomagban
+    * Tiltott országok: JP, TH, KR, HK, TW, BR, UA
+    * Legfeljebb 90 másodpercig terhelhető a CPU vagy memória több mint 20%-a
+    * cron: 15 perc minimális intervallum
+  * 10 email fiók: webmail, POP3, IMAP, SMTP, TLS (Dovecot)
   * Napi webszerver naplók
   * Nincs HTTPS
-  * Tiltott országok: JP, TH, KR, HK, TW, BR, UA
+  * Dell, 2 * 4 * 2 GHz Intel Xeon E5504, 24 GB RAM
 
 ## Email
 
@@ -349,25 +369,27 @@ Lásd még:
   * webmail, POP3, IMAP, SMTP, továbbítók
   * max. 200 db/nap küldhető
 * cron
-* PHP 5.x-7.x
+* PHP 5.x, 7.x, 8.0
   * max_execution_time = 30
   * max_input_time = 60
   * memory_limit = 128M
   * post_max_size = 32M
   * upload_max_filesize = 32M
-  * Ioncube loader, Zend Optimizer, ImageMagick, GD2
+  * Ioncube loader, Zend Optimizer (PHP APN eaccelerator?), ImageMagick, GD2
+  * nodeJS?
 * 1 MySQL adatbázis
   * MAX_QUERIES_PER_HOUR = 30000
   * MAX_UPDATES_PER_HOUR = 20000
   * MAX_CONNECTIONS_PER_HOUR = 5000
   * MAX_USER_CONNECTIONS = 100
+  * PostgreSQL?
 * CloudLinux
   * 50% CPU
   * 512MB VMEM (virtual), 256MB PMEM (physical)
   * 10 belépő folyamat
   * 20 folyamat összesen
   * max. 200MB RAM/folyamat
-* Apache vagy OpenLiteSpeed
+* Apache (+suPHP) vagy OpenLiteSpeed
   * max. 200 kapcsolat/IP
   * max. 300 sec/folyamat
   * Van HTTPS https://webhosticon.hu/ugyfelkapu/index.php?rp=/knowledgebase/238
@@ -375,7 +397,7 @@ Lásd még:
   * Tiltott függvények: apache_child_terminate, apache_setenv, define_syslog_variables, dl, escapeshellarg, escapeshellcmd, exec, highlight_file, ini_alter, ini_restore, mail, openlog, passthru, popen, pclose, posix_getpwnam, posix_getpwuid, posix_kill, posix_mkfifo, posix_setpgid, posix_setgid, posix_setsid, posix_setuid, proc_close, proc_get_status, proc_nice, proc_open, proc_terminate, shell_exec, show_source, symlink, syslog, system, virtual
   * Tiltott országok: JP, TH, KR, HK, TW, BR, UA
   * Webáruház nem engedélyezett: Hangya és WebManó csomagban
-* Softaculous telepítő
+* Softaculous és Installatron telepítő
 
 ### Wombathosting tárhely
 
