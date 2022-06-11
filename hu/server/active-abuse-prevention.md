@@ -73,6 +73,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/zeratax/matrix-registration
 * https://codeberg.org/Codeberg-Infrastructure/CaptchaService#user-content-other-solutions
 * https://switching.software/replace/google-recaptcha/
+* https://gitlab.com/gitlab-org/gitlab-foss/-/issues/45684
 
 ### FOSS CAPTCHA
 
@@ -120,6 +121,7 @@ Korábban bennük is felmerültek alternatívák:
 ### Arkose Labs FunCaptcha
 
 * https://www.arkoselabs.com/
+* also used by GitHub
 
 ### KeyCaptcha
 
