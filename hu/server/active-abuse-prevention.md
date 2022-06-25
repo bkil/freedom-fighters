@@ -98,11 +98,16 @@ Korábban bennük is felmerültek alternatívák:
 * https://django-simple-captcha.readthedocs.io/en/latest/
 * https://github.com/Lokno/click-captcha
 * https://github.com/hasadna/OpenCaptcha
+* https://github.com/produck/svg-captcha
+* https://gitlab.com/shaswata56/sKRATCHIE-Project
+* https://github.com/librecaptcha/lc-core
 
 ### Google reCAPTCHA
 
-* kritika
-  * https://github.com/neuroradiology/InsideReCaptcha
+kritika:
+
+* https://github.com/neuroradiology/InsideReCaptcha
+* https://fastcompany.com/90369697/googles-new-recaptcha-has-a-dark-side
 
 ### hCaptcha
 
