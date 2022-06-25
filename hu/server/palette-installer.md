@@ -91,6 +91,10 @@ Lásd még:
 Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy bevált recepteket konfigurációval összekötni, hanem megoldják saját implementációval:
 
 * https://github.com/tildeclub/tilde.club/tree/master/docs
+* https://tildegit.org/team/tilde.club
+* https://tildegit.org/thunix/ansible
+* https://tildegit.org/thunix/makeuser
+* https://codeberg.org/southerntofu/ansible-selfhosted
 * https://rasmus.remotes.club/remotes.html
 * https://rasmus.remotes.club/remotes2.html
 * https://github.com/drduh/Debian-Privacy-Server-Guide
