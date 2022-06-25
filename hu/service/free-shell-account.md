@@ -8,7 +8,12 @@
 
 Áttekintés:
 
+* https://tildeverse.org/members/
+* https://tilde.wiki/wiki/Known_tildes
+* https://tilde.wiki/wiki/Member_tildes
 * https://tilde.team/wiki/?page=other-tildes
+* http://tilde.club/~pfhawkins/othertildes.html
+* https://tilde.town/~nossidge/tildeverse/
 
 ## TildeVerse
 

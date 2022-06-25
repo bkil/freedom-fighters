@@ -49,7 +49,7 @@ Lásd még:
 ### envs.net
 
 * https://envs.net/
-* tildeverse tag
+* volt tildeverse tag (IRC közreműködés hiányában kiléptették)
 * szolgáltatások
   * linkrövidítő
   * nullpointer (parancssoros fájlfeltöltő)
