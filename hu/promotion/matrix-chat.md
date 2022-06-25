@@ -66,17 +66,16 @@
 
 ## Mátrix homeszerverek
 
-* https://austinhuang.me/matrix-homeservers.html
 * https://github.com/ara4n/matrixservers#matrix-server-list
 * https://glowers.club/wiki/doku.php?id=wiki:newfriends#what_homeserver_should_i_use
 * https://hello-matrix.net/public_servers.php
 * https://matrix.grin.hu/rooms/
-* https://publiclist.anchel.nl/
+* https://web.archive.org/web/20210612203339/publiclist.anchel.nl/
 * https://the-federation.info/matrix%7Csynapse
 * https://wiki.asra.gr/en:public_servers
 * https://joinmatrix.org/servers/
   * https://github.com/austinhuang0131/joinmatrix/
-* https://fediverse.blog/~/FossMessenger/matrix-server
+* https://web.archive.org/web/20211225063836/fediverse.blog/~/FossMessenger/matrix-server
 * https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html
   * https://tatsumoto-ren.github.io/matrix/
 * TODO: joinmatrix.rocks = homeservers.mx
