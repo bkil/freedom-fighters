@@ -25,7 +25,8 @@
 * https://mailinabox.email/
 * https://mailu.io/
 * https://github.com/jeekkd/iRedMail-scripts
-* Lásd még: [packages.md](packages.md)
+* https://github.com/modoboa/modoboa
+* Lásd még: [palette-installer.md](palette-installer.md)
 
 ### Telepítési útmutatók
 
