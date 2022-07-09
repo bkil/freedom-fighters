@@ -45,7 +45,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * szórólapok
 * szerelőt többen egyszerre beszervezni
 * ingyen bevásárlás
-* kölcsönkérni: adathordozó, alap élelmiszer, gyógyszer
+* kölcsönkérni: adathordozó, alap élelmiszer, gyógyszer, szárazelem, powerbank töltés, víz (vízhiány)
 * vészhelyzet: félrenyelt, elesett, csőtörés
 * Locsoljunk lefelé vagy oldalra egy kis vizet mert keletkezett egy kis tűz az egyik szomszédos erkélyen, ablakdíszen vagy dekoráción
 * összefogások (pl. internet szolgáltató váltás)
@@ -79,7 +79,12 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 
 ### Példák utcákon átívelő interakcióra
 
-* nálatok sincs víz/villany/internet? Közműszünet alatt: xy óra-perckor lesz átmenetileg központi aggregátorról áram x óra ideig.
+Egyes elemek akár ismeretlenek között név megismerése nélkül
+
+* vészhelyzet: ki hagyta a gépjárműben az élőlényt és mikor ér vissza?
+* nálatok sincs víz/villany/internet? Közműszünet alatt:
+  * xy óra-perckor lesz átmenetileg központi aggregátorról áram x óra ideig
+  * xy koordináta alatt található lajtos kocsiból kiszolgálva a víz, bejelentve ha kifogyott
 * elromlott utcabútor
 * nálatok sem vitték el a kukát?
   * szelektív- vagy zöldhulladék-gyűjtési szabályok változása
@@ -88,6 +93,8 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 * csere-bere, könyvek
 * lomtalanítás
 * Elszabadult veszélyes haszonállat, háziállat
+* Ki hagyta el XY koordinátán a kulcsát?
+* Kik hangoskodnak éjszaka XY koordinátán?
 
 ## Megvalósítás
 
