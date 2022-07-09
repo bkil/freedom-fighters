@@ -5,6 +5,7 @@ Például Signal vagy Telegram regisztrációhoz.
 ## SMS fogadás
 
 * http://smspva.com/
+* https://www.freereceivesms.com/
 
 ### onlinesim.ru
 
