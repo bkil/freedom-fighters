@@ -6,6 +6,7 @@ Például Signal vagy Telegram regisztrációhoz.
 
 * http://smspva.com/
 * https://www.freereceivesms.com/
+* https://mobilesms.io/
 
 ### onlinesim.ru
 
