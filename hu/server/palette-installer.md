@@ -37,6 +37,7 @@ Lásd még:
 * https://syncloud.org/apps.html
   * https://github.com/syncloud/platform
 * Ansible
+  * https://github.com/debops/debops/tree/master/ansible/playbooks
   * https://github.com/DaveStephens/ansible-nas
   * https://github.com/jaywink/ansible-diaspora
     * https://github.com/jaywink?tab=repositories&q=ansible&type=&language=&sort=
