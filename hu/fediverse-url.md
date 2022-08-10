@@ -15,6 +15,7 @@
 * https://fediverse.party/en/miscellaneous szoftver kereső
 * https://fediverse.party/en/portal/servers kategorikus példány kereső
 * https://dir.friendica.social/servers
+* https://instances.joinpeertube.org/instances PeerTube
 * https://instances.orion-hub.fr/instances PeerTube
 * https://friendica.fediverse.observer/ Szerver kereső táblázat (régi nevén: podupti.me)
   * javasolt szűrőfeltételek:
