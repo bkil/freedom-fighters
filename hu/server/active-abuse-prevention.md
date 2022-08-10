@@ -102,6 +102,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://gitlab.com/shaswata56/sKRATCHIE-Project
 * https://github.com/librecaptcha/lc-core
 * https://github.com/huacnlee/rucaptcha
+* https://github.com/bakape/captchouli
 
 ### Google reCAPTCHA
 
