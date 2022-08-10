@@ -36,6 +36,7 @@ Lásd még:
 * https://wikisuite.org/Source-Code
 * https://syncloud.org/apps.html
   * https://github.com/syncloud/platform
+* https://github.com/Wakoma/Lokal#user-content-current-services
 * Ansible
   * https://github.com/debops/debops/tree/master/ansible/playbooks
   * https://github.com/DaveStephens/ansible-nas
