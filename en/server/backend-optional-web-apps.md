@@ -76,6 +76,7 @@ You may look into microservices for an inspiration, but you don't need to overdo
 ## Examples
 
 * [backend-optional-portal-search.md](backend-optional-portal-search.md)
+* https://0data.app/glance/
 
 ## References
 
