@@ -75,7 +75,7 @@ Lásd még:
   * STUN, TURN
 * Moodle: elearning platform
 * weblate: fordító platform
-* TODO: PageKite/LocalTunnel
+* TODO: LocalTunnel (PageKite)/ https://github.com/antoniomika/sish
   * és/vagy dinamikus DNS kiszolgálás végfelhasználói IoT eszközök részére (vagy távmunka, biztonsági mentés, stb)
     * dinamikus DNS kiszolgálás csomagüzemeltetők részére
 * OSM Tasking Manager
