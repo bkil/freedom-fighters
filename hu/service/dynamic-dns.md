@@ -25,4 +25,5 @@ Nem tartanak nyilván regisztrációnként személyes adatokat vagy email címet
 * https://www.dynu.com/
 * https://entrydns.net/
 * https://www.duckdns.org/
+* https://dns.he.net/
 * http://freedns.afraid.org/
