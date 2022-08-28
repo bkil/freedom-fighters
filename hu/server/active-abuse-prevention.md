@@ -103,6 +103,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/librecaptcha/lc-core
 * https://github.com/huacnlee/rucaptcha
 * https://github.com/bakape/captchouli
+* https://github.com/DanWin/le-chat-php/blob/9056439295a203dac28aa7a0edfb92872beb5282/chat.php#L436
 
 ### Google reCAPTCHA
 
