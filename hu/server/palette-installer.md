@@ -101,6 +101,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://rasmus.remotes.club/remotes2.html
 * https://github.com/drduh/Debian-Privacy-Server-Guide
 * https://git.hcoop.net/?a=project_list;o=age;pf=hcoop
+* https://github.com/DanWin/hosting
 
 ### Rendszergazdai automatizmusok
 
