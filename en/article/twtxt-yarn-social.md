@@ -16,7 +16,40 @@
 * Improve barrier to entry by being more inclusive about the type, cost and specification of the devices and services that can participate
 * Remain similarly minimalist as Gemini: a well versed developer should be able to implement a full featured client (or server) on a single weekend
 
-## Suggestions
+## Client suggestions
+
+### Expiration
+
+* Applicable to a "forum" that is ephemeral in modality (chat group, room, channel)
+* For real time chat use cases (IRC, XMPP MUC), messages outside the event horizon of usual net splits or interruptions due to traveling is around a few hours
+* For catch-up type of ephemeral chat (XMPP MAM, Matrix), messages can be read across time zones and over weekends, so they should be kept for a few days or up to a week
+* If we don't need to support reading logs before joining, participants may leave out any message from their feed that received a #read_receipt from everyone
+* It doesn't matter if it isn't redacted in a timely manner.
+
+### gemini interface
+
+* A twtxt client for viewing feeds and interacting with content
+* Accessible over a gemini client
+* Server side rendered, possibly running on localhost
+
+### Friendica addon
+
+* Render our Friendica feed as twtxt
+* Ability to follow twtxt feeds in Friendica
+* Seamless interactions
+
+### CORS avoidance
+
+* [./circumvent-cors.md](./circumvent-cors.md)
+* To allow implementing a web client on a different domain without having to add headers that our web server outputs
+* Store a copy of each feed in .css
+
+### Mapping
+
+* If the URL maps to a path on the same machine, avoid duplication during #mirroring
+* If we are in the same LAN, use the private address of the machine instead
+
+## Protocol suggestions
 
 ### Subaccounts
 
@@ -91,14 +124,6 @@
 * Remove from the feed files
 * A person can redact either their own message or a message from a forum where they are a moderator
 
-### Expiration
-
-* Applicable to a "forum" that is ephemeral in modality (chat group, room, channel)
-* For real time chat use cases (IRC, XMPP MUC), messages outside the event horizon of usual net splits or interruptions due to traveling is around a few hours
-* For catch-up type of ephemeral chat (XMPP MAM, Matrix), messages can be read across time zones and over weekends, so they should be kept for a few days or up to a week
-* If we don't need to support reading logs before joining, participants may leave out any message from their feed that received a #read_receipt from everyone
-* It doesn't matter if it isn't redacted in a timely manner.
-
 ### Forked message correction
 
 * Possibility to reply to your own (misspelled) message in a relation that would hide or strike through the old one and show the corrected content instead.
@@ -116,11 +141,6 @@
 * A feed would also list mirrors within its metadata
 * May also list the usually observed lag or the most recent update of each
 
-### Mapping
-
-* If the URL maps to a path on the same machine, avoid duplication during #mirroring
-* If we are in the same LAN, use the private address of the machine instead
-
 ### Webhooks
 
 * https://github.com/buckket/twtxt/issues/109
@@ -133,7 +153,7 @@
 ### Email mentions
 
 * If somebody is not following us
-* Or if we have not received a read receipt from them for a long time (24 hours?)
+* Or if we have not received a #read_receipt from them for a long time (24 hours?)
 * They can broadcast their email address in the metadata
 * We can send an email to them to notify about the mention (follow request)
 
@@ -144,25 +164,14 @@
 * Sign
 * Also a good candidate for #mirroring
 
-### CORS avoidance
-
-* [./circumvent-cors.md](./circumvent-cors.md)
-* To allow implementing a web client on a different domain without having to add headers that our web server outputs
-* Store a copy of each feed in .css
-
-### gemini interface
-
-* A twtxt client for viewing feeds and interacting with content
-* Accessible over a gemini client
-* Server side rendered, possibly running on localhost
-
-### Friendica addon
-
-* Render our Friendica feed as twtxt
-* Ability to follow twtxt feeds in Friendica
-* Seamless interactions
-
 ### HTML formatting
 
 * Instead of storing markdown and requiring the newline extension
 * Store the supported rich text formatting subset with HTML markup
+
+### Abuser lists
+
+* Any user may share a file where they list feeds and email hashes of abusive accounts and filters for abusive content
+* The client could subscribe to any number of such lists
+* The client would have a default subscription after installation to one recommended by the software developer
+* The follow requests of listed accounts and content matching the filters would be hidden
