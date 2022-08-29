@@ -25,7 +25,7 @@
 * For real time chat use cases (IRC, XMPP MUC), messages outside the event horizon of usual net splits or interruptions due to traveling is around a few hours
 * For catch-up type of ephemeral chat (XMPP MAM, Matrix), messages can be read across time zones and over weekends, so they should be kept for a few days or up to a week
 * If we don't need to support reading chat history before joining, participants may leave out any message from their feed that had received a #read_receipt from every other participant
-* It is not important whether it is redacted in a timely manner or not.
+* It is not important whether it is removed in a timely manner or not.
 
 ### gemini interface
 
@@ -106,7 +106,7 @@
 ### Incremental updates
 
 * https://dev.twtxt.net/doc/archivefeedsextension.html
-* A publishing platform use case (personal blog, knowledge base forum) assumes that you wish to make your content available indefinitely (or until redacted)
+* A publishing platform use case (personal blog, knowledge base forum) assumes that you wish to make your content available indefinitely (or until #redaction )
 * We would like to reduce bandwidth requirement of syncing long timelines
 * Older messages should be archived either in fixed time frames (annually, monthly) or based on an order of magnitude of volume (like about 1000 messages) and paged
 * The feed with the most recent posts should be as short as possible and potentially pruned by the #read_receipt of our followers
@@ -130,7 +130,7 @@
 
 ### Federated message identifiers
 
-* We should be able to reference any single message (for threaded replies, #redaction #read_receipt)
+* We should be able to reference any single message (for threaded replies, #redaction #read_receipt #forked_message_correction #message_correction_suggestions)
 * Could be conveniently a URL
 * Should include the full URL of the feed
 * Should include an approximate timestamp
@@ -149,6 +149,13 @@
 
 * Possibility to reply to your own (misspelled) message in a relation that would hide or strike through the old one and show the corrected content instead.
 * Both previous replies to the old message and new ones should be linked to the new one, but in a way so that it would be obvious that they were in reaction to different text (click to reveal, etc.).
+
+### Message correction suggestions
+
+* Allow editing the posts of other users
+* Submit a suggested rewording to the author
+* They could accept it to be applied through #forked_message_correction
+* After the edit is applied, the edit suggestion could be removed
 
 ### Aggregated message reactions
 
