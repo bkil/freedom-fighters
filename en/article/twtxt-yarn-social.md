@@ -13,6 +13,7 @@
 
 * Solve the most common real world use cases that The Fediverse serves: interaction with followers, tags
 * Retain worldwide potential for scalability
+* Pull-based to remain compatible with static web hosting
 * Improve barrier to entry by being more inclusive about the type, cost and specification of the devices and services that can participate
 * Remain similarly minimalist as Gemini: a well versed developer should be able to implement a full featured client (or server) on a single weekend
 
@@ -23,8 +24,8 @@
 * Applicable to a "forum" that is ephemeral in modality (chat group, room, channel)
 * For real time chat use cases (IRC, XMPP MUC), messages outside the event horizon of usual net splits or interruptions due to traveling is around a few hours
 * For catch-up type of ephemeral chat (XMPP MAM, Matrix), messages can be read across time zones and over weekends, so they should be kept for a few days or up to a week
-* If we don't need to support reading logs before joining, participants may leave out any message from their feed that received a #read_receipt from everyone
-* It doesn't matter if it isn't redacted in a timely manner.
+* If we don't need to support reading chat history before joining, participants may leave out any message from their feed that had received a #read_receipt from every other participant
+* It is not important whether it is redacted in a timely manner or not.
 
 ### gemini interface
 
@@ -75,7 +76,7 @@
 * Time, place, description (website, end time)
 * Allow confirmed members to comment
 * Allow participants and guests to RSVP
-* Consider combining these features: forum, aggregated message reactions, webhooks, email mentions
+* Consider combining with the following features: #forums #aggregated_message_reactions #webhooks #email_mentions
 
 ### Poll frequency
 
@@ -113,9 +114,29 @@
 
 ### Read receipt
 
-* https://dev.twtxt.net/doc/useragentextension.html
 * Publish a feed with a list of IDs of the most recent messages within each followed feed that the client of the user has received
-* This should also be evident from the User-Agent HTTP request header, but it is not available on all platforms
+* This should also be evident from the User-Agent HTTP request header, but it is not available on all deployments
+* See also #gemini_follower_discovery #gopher_follower_discovery
+
+### gemini follower discovery
+
+* https://dev.twtxt.net/doc/useragentextension.html
+* The viewer could submit their identity as part of the URL input query
+
+### gopher follower discovery
+
+* https://dev.twtxt.net/doc/useragentextension.html
+* The viewer could submit their identity as a search request
+
+### Federated message identifiers
+
+* We should be able to reference any single message (for threaded replies, #redaction #read_receipt)
+* Could be conveniently a URL
+* Should include the full URL of the feed
+* Should include an approximate timestamp
+* Must include a hash generated from the message and its metadata
+* The existing hash extension requires that a server keeps (an index of) all messages in the world (or at least within the intersecting followership circles) loaded in memory
+* https://dev.twtxt.net/doc/twthashextension.html
 
 ### Redaction
 
@@ -175,3 +196,4 @@
 * The client could subscribe to any number of such lists
 * The client would have a default subscription after installation to one recommended by the software developer
 * The follow requests of listed accounts and content matching the filters would be hidden
+* Might allow for open forums if paired with #webhooks or #email_mentions
