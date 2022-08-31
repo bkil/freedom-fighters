@@ -19,6 +19,10 @@
 
 ## Client suggestions
 
+### Inline attachments
+
+* "data: URI" could be allowed to share tiny (few kB) GIF/SVG images or binaries
+
 ### Expiration
 
 * Applicable to a "forum" that is ephemeral in modality (chat group, room, channel)
@@ -50,6 +54,16 @@
 * If the URL maps to a path on the same machine, avoid duplication during #mirroring
 * If we are in the same LAN, use the private address of the machine instead
 
+### gemini follower discovery
+
+* https://dev.twtxt.net/doc/useragentextension.html
+* The viewer could submit their identity as part of the URL input query
+
+### gopher follower discovery
+
+* https://dev.twtxt.net/doc/useragentextension.html
+* The viewer could submit their identity as a search request
+
 ## Protocol suggestions
 
 ### Subaccounts
@@ -70,6 +84,8 @@
 * Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members)
 * Messages are proprietary to their submitter and will get hidden after the member leaves the group, but may attribute individual messages to the holder with a slash command to waive this right
 * Members have a separate subaccount to store their answers for each forum they participate in
+* https://git.mills.io/yarnsocial/yarn/issues/325
+* https://git.mills.io/yarnsocial/yarn/issues/344
 
 ### Calendar events
 
@@ -81,8 +97,25 @@
 ### Poll frequency
 
 * https://dev.twtxt.net/doc/metadataextension.html#refresh
+* https://git.mills.io/yarnsocial/yarn/issues/427
 * Some use cases call for frequent polling (chat) while others allow for daily or on demand updates (blog)
 * If the value would be stored in a separately signed metadata file, could also represent "online status" of sorts (poll within 1 minute vs. poll within 8 hours changing dynamically)
+* The poll rate should be adaptive based on the expected time of the next post. This could be extrapolated from the time of day, day of week and the weighted posting rate.
+
+### Poll quota
+
+* A user may be hosting their feed from metered shared hosting or from home through a metered connection
+* Followers should spread their intended polling schedule accordingly
+* Could also be enforced on the backend, but not all feeds are served from a backend
+* Daily and monthly upper bounds
+* Number of HTTP requests
+* Volume of data transferred
+* Divide by number of followers
+
+### Unlisted followers
+
+* Number of followers whose URL we do not publish
+* Number of feeds we follow whose URL we do not publish
 
 ### Backup accounts
 
@@ -97,6 +130,7 @@
 
 ### Signed feed
 
+* https://git.mills.io/yarnsocial/yarn/issues/770
 * https://github.com/buckket/twtxt/issues/122
 * To allow #mirroring
 * The poster should cryptographically sign either their whole feed or individual messages
@@ -109,6 +143,7 @@
 * A publishing platform use case (personal blog, knowledge base forum) assumes that you wish to make your content available indefinitely (or until #redaction )
 * We would like to reduce bandwidth requirement of syncing long timelines
 * Older messages should be archived either in fixed time frames (annually, monthly) or based on an order of magnitude of volume (like about 1000 messages) and paged
+* The archive links should be marked up with bounding timestamps to allow ID based partial lookups
 * The feed with the most recent posts should be as short as possible and potentially pruned by the #read_receipt of our followers
 * Honor HTTP If-Modified-Since
 
@@ -116,17 +151,7 @@
 
 * Publish a feed with a list of IDs of the most recent messages within each followed feed that the client of the user has received
 * This should also be evident from the User-Agent HTTP request header, but it is not available on all deployments
-* See also #gemini_follower_discovery #gopher_follower_discovery
-
-### gemini follower discovery
-
-* https://dev.twtxt.net/doc/useragentextension.html
-* The viewer could submit their identity as part of the URL input query
-
-### gopher follower discovery
-
-* https://dev.twtxt.net/doc/useragentextension.html
-* The viewer could submit their identity as a search request
+* See also #poll_frequency #gemini_follower_discovery #gopher_follower_discovery
 
 ### Federated message identifiers
 
@@ -137,6 +162,8 @@
 * Must include a hash generated from the message and its metadata
 * The existing hash extension requires that a server keeps (an index of) all messages in the world (or at least within the intersecting followership circles) loaded in memory
 * https://dev.twtxt.net/doc/twthashextension.html
+* https://git.mills.io/yarnsocial/yarn/issues/327
+* https://git.mills.io/yarnsocial/yarn/issues/42
 
 ### Redaction
 
@@ -153,25 +180,28 @@
 ### Message correction suggestions
 
 * Allow editing the posts of other users
-* Submit a suggested rewording to the author
+* Broadcast a suggested rewording for the author
 * They could accept it to be applied through #forked_message_correction
 * After the edit is applied, the edit suggestion could be removed
+* The suggestion may come from outside the followers of the author through either forwarding (unreviewed) or a vow (review) by shared contacts (or via moderators in case of a forum)
 
 ### Aggregated message reactions
 
+* https://git.mills.io/yarnsocial/yarn/issues/169
 * Typically used for Unicode emoji
 * At a minimum: like and dislike
-* To ease requirements, perhaps impose limits on the timeframe during which one can react, for example within 24 hours (then you have to reply and place new reactions on the reply)
+* To ease requirements, perhaps impose limits on the timeframe during which one can react, for example within 24 hours (after which you have to reply and place further reactions on the reply)
 
 ### Mirroring
 
 * Option to publicly follow a user in a way so that we also republish their #signed_feed
-* A feed would also list mirrors within its metadata
+* A feed would also list within its metadata those who mirror it
 * May also list the usually observed lag or the most recent update of each
 
 ### Webhooks
 
 * https://github.com/buckket/twtxt/issues/109
+* https://git.mills.io/yarnsocial/yarn/issues/91
 * For mentions of people who we don't follow
 * Either a dedicated real time, self-hosted endpoint
 * Or one or more registries used by us along with multiple people
@@ -194,12 +224,20 @@
 
 ### HTML formatting
 
+* https://git.mills.io/yarnsocial/yarn/issues/755
+* https://git.mills.io/yarnsocial/yarn/issues/846
+* https://git.mills.io/yarnsocial/yarn/issues/215
 * Instead of storing markdown and requiring the newline extension
 * Store the supported rich text formatting subset with HTML markup
 
 ### Abuser lists
 
-* Any user may share a file where they list feeds and email hashes of abusive accounts and filters for abusive content
+* https://git.mills.io/yarnsocial/yarn/issues/344
+* Any user may share a file where they share their recommendations for "censorship"
+* Abusive feed URLs
+* Hashes of email addresses for abusive accounts
+* Regexp content filters for abusive content
+* Lists of IDs for concrete abusive posts - effectively #redaction
 * The client could subscribe to any number of such lists
 * The client would have a default subscription after installation to one recommended by the software developer
 * The follow requests of listed accounts and content matching the filters would be hidden
