@@ -7,6 +7,8 @@
 
 ## Külföldi
 
+* https://upload.io/upload-js#js API alól is, 4 óra az elévülés
+
 ### P2P WebTorrent
 
 WebRTC alapú
