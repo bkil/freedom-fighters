@@ -43,6 +43,16 @@
 * Ability to follow twtxt feeds in Friendica
 * Seamless interactions
 
+### CORS headers
+
+* To allow implementing a web client on a different domain
+* twtxt.txt files should be served with permissive CORS headers where configuring this is possible
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+```
+Access-Control-Allow-Origin: *
+```
+
 ### CORS avoidance
 
 * [./circumvent-cors.md](./circumvent-cors.md)
@@ -197,6 +207,8 @@
 * Option to publicly follow a user in a way so that we also republish their #signed_feed
 * A feed would also list within its metadata those who mirror it
 * May also list the usually observed lag or the most recent update of each
+* Can be used when the origin is down, slow, in a load balanced fashion or if nearing its #poll_quota
+* Enabled those on the same host or LAN to share feeds to lower costs
 
 ### Webhooks
 
