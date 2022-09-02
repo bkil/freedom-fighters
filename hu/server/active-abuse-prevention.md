@@ -105,6 +105,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/bakape/captchouli
 * https://github.com/DanWin/le-chat-php/blob/9056439295a203dac28aa7a0edfb92872beb5282/chat.php#L436
 * https://github.com/steambap/captcha
+* https://gitea.com/go-chi/captcha/src/branch/master/image.go#L293
 
 ### Google reCAPTCHA
 
