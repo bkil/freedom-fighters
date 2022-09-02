@@ -274,6 +274,19 @@
 * Zope/Plone (Python) keretrendszert futtat
   * https://en.wikipedia.org/wiki/Zope
 
+### PythonAnywhere
+
+* https://eu.pythonanywhere.com/pricing/
+* 512MB tárhely
+* 1 aldomain, 1 webalkalmazás
+* korlátozott kimenő hálózati forgalom és CPU használat
+* Python 2.7, 3.6, 3.7, 3.8, 3.9, 3.10
+  * számos telepített modul
+* MySQL
+* cron: naponta
+* forrás feltöltése: git, mercurial, webes felület
+* üzemeltetési háttér: Amazon EC2
+
 ### Webhosting-For-Free
 
 * http://webhosting-for-free.com/free-web-hosting.html
@@ -625,7 +638,7 @@
 * 200MB tárhely
 * 200MB/hó forgalom
 * PHP
-* 1 mySQL adatbázis
+* 1 MySQL adatbázis
 * nem biztosít aldomaint, de saját domain és 2 aldomain beköthető
 * 2 FTP fiók
 * 2 email fiók
