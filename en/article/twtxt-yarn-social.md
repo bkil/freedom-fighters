@@ -59,6 +59,11 @@ Access-Control-Allow-Origin: *
 * To allow implementing a web client on a different domain without having to add headers that our web server outputs
 * Store a copy of each feed in .css
 
+### CORS proxy
+
+* To bridge the gap of following feeds not reachable by #cors_headers #cors_avoidance #mirroring
+* A server that can proxy a HTTP request and add #cors_headers
+
 ### Mapping
 
 * If the URL maps to a path on the same machine, avoid duplication during #mirroring
@@ -140,14 +145,20 @@ Access-Control-Allow-Origin: *
 
 ### Signed feed
 
-* https://git.mills.io/yarnsocial/yarn/issues/770
 * https://github.com/buckket/twtxt/issues/122
 * To allow #mirroring
-* The poster should cryptographically sign either their whole feed or individual messages
-* The feed should have a stable hash to allow efficient content addressed replication
-* The feed should include a monotonic timestamp that is signed separately and updated regularly to declare that "no further messages were created until this time instant"
+* The poster should cryptographically sign their whole feed
+* The feed should include a monotonic timestamp that is signed separately and updated regularly to declare that "no messages were created since the last message up to this time instant"
 
-### Incremental updates
+### Signed messages
+
+* https://git.mills.io/yarnsocial/yarn/issues/770
+* May allow for feed aggregating services such as trustless decentralized #forums via #mirroring
+* The poster could cryptographically sign individual messages
+* Include a monotonic message counter to better inform about skipped messages
+* A message could be signed along with the hash of its predecessor if forming a blockchain is desirable
+
+### Compaction
 
 * https://dev.twtxt.net/doc/archivefeedsextension.html
 * A publishing platform use case (personal blog, knowledge base forum) assumes that you wish to make your content available indefinitely (or until #redaction )
@@ -155,7 +166,12 @@ Access-Control-Allow-Origin: *
 * Older messages should be archived either in fixed time frames (annually, monthly) or based on an order of magnitude of volume (like about 1000 messages) and paged
 * The archive links should be marked up with bounding timestamps to allow ID based partial lookups
 * The feed with the most recent posts should be as short as possible and potentially pruned by the #read_receipt of our followers
+
+### Incremental updates
+
 * Honor HTTP If-Modified-Since
+* Lazily only fetch as few archives resulted by #compaction as possible to satisfy a user action
+* Where supported, scan backwards (forwards?) in the file with HTTP range requests to only fetch metadata updates and newly appended entries
 
 ### Read receipt
 
@@ -208,7 +224,8 @@ Access-Control-Allow-Origin: *
 * A feed would also list within its metadata those who mirror it
 * May also list the usually observed lag or the most recent update of each
 * Can be used when the origin is down, slow, in a load balanced fashion or if nearing its #poll_quota
-* Enabled those on the same host or LAN to share feeds to lower costs
+* Enables those on the same host or LAN to share feeds to lower costs
+* Reshare a feed with greater accessibility for #cors_avoidance - i.e., with CORS headers or CSS encapsulation as a workaround
 
 ### Webhooks
 
