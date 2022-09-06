@@ -19,40 +19,61 @@ Here are some reasons why this is not desirable:
 
 ### Qwant
 
+* https://lite.qwant.com/
 * FR
+* also uses Bing
+* can be used without JavaScript
 
 ### Mojeek
 
+* https://mojeek.com/
 * GB
+* can be used without JavaScript
 
 ### MetaGer
 
+* http://metager.de/
 * DE
 * uses various other providers under the hood
+* returns results within an iframe - opening the link directly allows viewing the results without JavaScript
 
 ## Worrisome
 
 ### ExaLead
 
+* https://www.exalead.com/search/
 * FR
 * TODO: what other providers does it use?
+* can be used without JavaScript
 
 ### Gigablast
 
-* GB
+* https://gigablast.com/
+* USA
 * FOSS, can also be self-hosted
+* requires JavaScript, but copying the `rand=` and `pxb=` values from the HTML source and appending `&fromjs=1&rand=...&opxb=...` to the end shows the results
 
 ### DuckDuckGo
 
+* https://lite.duckduckgo.com/lite/
 * USA
 * uses Bing and Yandex under the hood
+* can be used without JavaScript
 
 ### Startpage
 
+* http://startpage.com/
 * NL
 * owned by adtech company System1
 * forwards your search to Google
 * formerly: lxquick
+* prescribes the use of JavaScript, but results are actually visible with the following CSS addition:
+
+```
+.layout-web__body .show-results {
+  visibility: initial;
+}
+```
 
 ### Monopolists
 
@@ -61,7 +82,6 @@ Here are some reasons why this is not desirable:
 * https://en.wikipedia.org/wiki/Yacy
 * https://domainsproject.org/
 * https://github.com/tb0hdan/domains
-
 
 ## Own crawler
 
