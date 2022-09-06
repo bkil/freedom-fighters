@@ -34,7 +34,7 @@ Here are some reasons why this is not desirable:
 
 ### ExaLead
 
-# FR
+* FR
 * TODO: what other providers does it use?
 
 ### Gigablast
@@ -46,6 +46,13 @@ Here are some reasons why this is not desirable:
 
 * USA
 * uses Bing and Yandex under the hood
+
+### Startpage
+
+* NL
+* owned by adtech company System1
+* forwards your search to Google
+* formerly: lxquick
 
 ### Monopolists
 
