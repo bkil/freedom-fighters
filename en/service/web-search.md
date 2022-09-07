@@ -36,6 +36,7 @@ Here are some reasons why this is not desirable:
 * DE
 * uses various other providers under the hood
 * returns results within an iframe - opening the link directly allows viewing the results without JavaScript
+* https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
 
 ## Worrisome
 
@@ -52,6 +53,7 @@ Here are some reasons why this is not desirable:
 * USA
 * FOSS, can also be self-hosted
 * requires JavaScript, but copying the `rand=` and `pxb=` values from the HTML source and appending `&fromjs=1&rand=...&opxb=...` to the end shows the results
+* https://github.com/bkil/static-wonders.js/blob/master/userjs/gigablast.com.user.js
 
 ### DuckDuckGo
 
