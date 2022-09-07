@@ -235,6 +235,7 @@ Access-Control-Allow-Origin: *
 * Don't mirror obsolete ones affected by #redaction or #forked_message_correction
 * Don't mirror message content for privacy reasons
 * Allow a commenter editing their comment to fork off a question to a new disjoint thread or to position the reply under another, more on-topic thread via #forked_message_correction and others can suggest the same via #message_correction_suggestion
+* TODO: For mass scaling, it might be desirable to only list the URLs of accounts of all commenters or if this is still massive, provide for handling as #forums and listing the URLs of trusted #mirroring nodes. Note that such a scale is actually a degenerate use for threading in the real world, but consider whether unifying #threads and #forums would be a feasible workaround.
 * https://dev.twtxt.net/doc/twtsubjectextension.html
 * https://en.wikipedia.org/wiki/Conversation_threading
 
