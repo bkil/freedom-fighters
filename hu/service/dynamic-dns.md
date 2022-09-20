@@ -27,3 +27,13 @@ Nem tartanak nyilván regisztrációnként személyes adatokat vagy email címet
 * https://www.duckdns.org/
 * https://dns.he.net/
 * http://freedns.afraid.org/
+
+### noip.com
+
+* https://www.noip.com/sign-up
+* 30 naponta be kell lépni
+
+### sauteed-onions
+
+* https://www.sauteed-onions.org/
+* Tor Onion címeket tesz megismerhetővé TLS certificate transparency segítségével
