@@ -48,4 +48,5 @@ Not restricted by CORS, but awkward due to navigating away and back via a callba
 One way only, egress via query parameters, but their content can't be read, except for 1 bit of information for each resource regarding success or failure:
 
 * `<img>`, `<video>`, `<audio>`, `background-image`: sometimes blocked for bandwidth or accessibility
-* `<iframe>`: sometimes blocked for privacy
+* `<iframe>`: sometimes blocked for privacy, but where available, could wrap JSONP more cleanly via `postMessage()`
+* https://html.spec.whatwg.org/#crossDocumentMessages
