@@ -92,6 +92,14 @@ Előnye, hogy olyan protokollt és titkosítást telepítünk rá amilyet szeret
 * cég: Zoom
 * ország: USA
 
+### Storj DCS
+
+* https://www.storj.io/pricing
+* 150GB tárhely
+* 150GB/hó forgalom
+* E2EE titkosítás
+* szolgáltató országa: USA (Atlanta, GA)
+
 ## TODO: Elemzésre vár
 
 * Google Cloud Storage http://code.google.com/apis/storage/
