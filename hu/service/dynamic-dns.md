@@ -26,6 +26,7 @@ Nem tartanak nyilván regisztrációnként személyes adatokat vagy email címet
 * https://entrydns.net/
 * https://www.duckdns.org/
 * https://dns.he.net/
+* https://ydns.io/features
 * http://freedns.afraid.org/
 
 ### noip.com
