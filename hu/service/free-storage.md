@@ -48,6 +48,16 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
 * zero-knowledge
 * böngészős-, asztali- és mobilalkalmazással
 
+## Etikus alternatívák
+
+### Proton Drive
+
+* https://proton.me/drive/free
+* 1GB tárhely
+* E2EE
+* 1 kattintással megosztható linkek
+* saját szervereken (nem a felhőben) üzemeltetik
+
 ## Kevéssé etikus alternatívák
 
 ### Kevésbé etikus VPS
