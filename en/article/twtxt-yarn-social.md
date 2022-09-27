@@ -198,6 +198,7 @@ Access-Control-Allow-Origin: *
 * The poster could cryptographically sign individual messages
 * Include a monotonic message counter to better inform about skipped messages
 * A message could be signed along with the hash of its predecessor if forming a blockchain is desirable
+* https://git.mills.io/tkanos/twtxt-encrypted-communication-proposal
 
 ### Compaction
 
