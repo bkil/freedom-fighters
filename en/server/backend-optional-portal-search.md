@@ -56,6 +56,13 @@ Request a separate file for each keyword and use further indirection for dedupli
 * Bundle records together based on correlation, predicting future requests or by preseeding globally popular records
 * Ideally cryptographically sign the bundles on the server side so clients can replicate them between other clients over WebRTC
 * It may reduce server storage due to block size overheads and inode count
+* Inline short records
+
+### Dictionary entries
+
+* If an indexed phrase has too many words, only inline the most often occurring index files and put pointers to the other files
+* If a term index file has too many results, either paginate or only store pointers for the non-top results
+* Improves possibility for intersection
 
 ## Crawler
 
@@ -201,3 +208,5 @@ Depending on the replication strategy, synonyms and typos should be either:
 
 * https://sphider.worldspaceflight.com/about.php
 * https://lunrjs.com/docs/index.html
+* https://github.com/blevesearch/bleve
+* https://git.mills.io/prologic/spyda
