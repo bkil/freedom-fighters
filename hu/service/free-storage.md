@@ -57,6 +57,8 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
 * E2EE
 * 1 kattintással megosztható linkek
 * saját szervereken (nem a felhőben) üzemeltetik
+* frontend FOSS:
+* https://github.com/ProtonMail/WebClients/tree/main/applications/drive
 
 ## Kevéssé etikus alternatívák
 
