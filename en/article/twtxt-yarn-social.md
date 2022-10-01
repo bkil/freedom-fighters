@@ -18,6 +18,41 @@
 * Remain similarly minimalist as Gemini: a well versed developer should be able to implement a full featured client (or server) on a single weekend
 * [../server/backend-optional-web-apps.md](../server/backend-optional-web-apps.md)
 
+### Client compatibility
+
+Compatibility should be checked against all maintained or packaged clients.
+
+Threaded:
+
+* https://yarn.social/
+* https://www.uninformativ.de/git/jenny
+* https://github.com/jdtron/twet
+* https://git.isobeef.org/lyse/tt
+
+No threading:
+
+* https://hub.darcs.net/dertuxmalwieder/twtxtc/changes
+* https://github.com/deadblackclover/twtxt-el/commits/master
+* https://github.com/buckket/twtxt/
+* https://github.com/andinus/pyxis
+* https://github.com/raspbeguy/twt-tools
+* https://github.com/CipherDogs/twtvk-app
+* https://github.com/neauoire/twtxtc
+* https://github.com/AAorris/hallway
+* https://github.com/Luqaska/twtxtExplorer
+* https://github.com/hxii/picoblog
+* https://gitlab.com/dbohdan/twtxt.tcl
+
+Abandoned:
+
+* https://github.com/rustwtxt/rustwtxt
+
+References:
+
+* https://github.com/topics/twtxt-client
+* https://github.com/topics/twtxt
+* https://github.com/buckket/twtxt#user-content-contributions
+
 ## Client suggestions
 
 ### Inline attachments
@@ -189,6 +224,7 @@ Access-Control-Allow-Origin: *
 * https://github.com/buckket/twtxt/issues/122
 * To allow #mirroring
 * The poster should cryptographically sign their whole feed
+* To facilitate redacting messages by mirrors, the poster may separately sign the set of message signatures in case of #signed_messages or just the set of timestamps if they are unique as in #federated_message_identifiers , otherwise just the message hashes
 * The feed should include a monotonic timestamp that is signed separately and updated regularly to declare that "no messages were created since the last message up to this time instant"
 
 ### Signed messages
@@ -196,8 +232,8 @@ Access-Control-Allow-Origin: *
 * https://git.mills.io/yarnsocial/yarn/issues/770
 * May allow for feed aggregating services such as trustless decentralized #forums via #mirroring
 * The poster could cryptographically sign individual messages
-* Include a monotonic message counter to better inform about skipped messages
-* A message could be signed along with the hash of its predecessor if forming a blockchain is desirable
+* May include a monotonic message counter to better inform about skipped messages
+* A message may be signed along with the hash of its predecessor if forming a blockchain is desirable
 * https://git.mills.io/tkanos/twtxt-encrypted-communication-proposal
 
 ### Compaction
@@ -220,10 +256,10 @@ Access-Control-Allow-Origin: *
 
 * We should be able to reference any single message (for threaded replies, #redaction #read_receipt #forked_message_correction #message_correction_suggestion )
 * Could be conveniently a URL
-* Should include the full URL of the feed
-* Should include an approximate timestamp
-* Must include a hash generated from the message and its metadata
-* The existing hash extension requires that a server keeps (an index of) all messages in the world (or at least within the intersecting followership circles) loaded in memory or poll a remote backend
+* Must include the full main URL of the feed
+* Should include a timestamp that guarantees uniqueness. Seconds accuracy should be sufficient for all real world use cases, but nanoseconds is commonly supported as well.
+* May include a cryptographic signature generated from the message and its metadata if tamper-resistance is required in the given use case
+* The existing hash extension requires that a server keeps (an index of) all messages in the world (or at least within the intersecting followership circles) loaded in memory or poll a remote backend. This poses a barrier to scaling.
 * https://dev.twtxt.net/doc/twthashextension.html
 * https://git.mills.io/yarnsocial/yarn/issues/327
 * https://git.mills.io/yarnsocial/yarn/issues/42
@@ -240,17 +276,31 @@ Access-Control-Allow-Origin: *
 * https://dev.twtxt.net/doc/twtsubjectextension.html
 * https://en.wikipedia.org/wiki/Conversation_threading
 
+To represent the two separate types of message links, we could either overload the hashtag URL to link to the thread root, or the message text could include the other composite ID as free text. Both would allow for grep'ping for threads without having to walk through possibly incomplete reply chains. The twtxt mention and twtxt subject would be used to link direct replies together in a clickable way, while the ID at the beginning of the text would help connect the whole topic together (i.e., to the ID of the root status). A dedicated client would hide it from the interface, while it still wouldn't look terrible from a legacy client. Especially for a simple, flat thread where it would be omitted completely. It would be symmetrical with the original subject this way, but we might consider putting it at the end for legibility. Here's a 4 line example:
+
+```
+bkil: 2022-10-31T06:54:32Z\tWhy do programmers confuse Halloween with Christmas?
+lola: 2022-10-31T11:11:11Z\t@http://example.com/bkil (2022-10-31T06:54:32Z) Something related to eight?
+kids: 2022-10-31T22:22:22Z\t@http://example.com/bkil (2022-10-31T06:54:32Z) Beats me
+bkil: 2022-10-31T23:00:00Z\t@http://example.com/lola (2022-10-31T11:11:11Z) @http://example.com/bkil (2022-10-31T06:54:32Z) Spot on! Oct 31 = Dec 25
+```
+
+Separating these two links allows for the user or moderator to either reply to a specific comment within the topic and to break out a related conversation to a new topic and linking the two together via designating a topic starter.
+
 ### Redaction
 
 * Possibility to hide a past message either recent or archived
-* Insert a redaction by ID
-* Remove from the feed files
+* Insert a redaction by referencing #federated_message_identifiers
+* Remove from the feed files.
+* The timestamp itself might be preserved without the message content to maintain stable #federated_message_identifiers along with the optional signature if using #signed_messages
 * A person can redact either their own message or a message from #forums where they are a moderator
 
 ### Forked message correction
 
 * Possibility to reply to your own (misspelled) message in a relation that would hide or strike through the old one and show the corrected content instead.
 * Both previous replies to the old message and new ones should be linked to the new one, but in a way so that it would be obvious that they were in reaction to different text (click to reveal, etc.).
+* https://git.mills.io/yarnsocial/yarn/issues/327
+* https://git.mills.io/yarnsocial/yarn/issues/517
 
 ### Message correction suggestion
 
@@ -284,20 +334,38 @@ Access-Control-Allow-Origin: *
 * They can broadcast their email address in the metadata
 * We can send an email to them to notify about the mention (follow request)
 
-### Indexing
+### Content indexing
 
 * To facilitate search
 * Publish reverse word indexes of the "best" search words, phrases and tags present in our feeds
 * Sign
 * Also a good candidate for #mirroring
 
+### Gossip user index
+
+* A feed may consent to participating in a semi-global index
+* A user may include hashtags or key-value pairs in their feed to facilitate discovery
+* The consent must be considered expired after a few months of inactivity to protect privacy and right to be forgotten
+* All such metadata including its update date should be signed by the author
+* Propagating clients should share the index of participating feeds ever seen among each other via a dedicated file.
+* Propagating clients may sign entries and the date of their last successful and last failing fetch (if the last one didn't succeed).
+* Propagating clients may prune the index to honor their storage quota. They may use heuristics of maximizing reach or utility within the network.
+
+### Feed discovery
+
+* A client should offer to search for and follow a limited set of feeds initially after installation to seed federation. This may be either a manually curated list (either feeds moderately and diversely connected or ones providing content catering to a new joiner within the target audience), computed by crawlers based on semi-global statistics or just republishing the #gossip_user_index of a given user (e.g., of the developer)
+* The client may locally store a private ephemeral index of all feeds ever seen, possibly along with context, statistics and metadata of each occurrence, similarly to a search engine crawler
+* The client may make recommendations about feeds to follow based on its local index and the #gossip_user_index
+
 ### HTML formatting
 
-* https://git.mills.io/yarnsocial/yarn/issues/755
-* https://git.mills.io/yarnsocial/yarn/issues/846
-* https://git.mills.io/yarnsocial/yarn/issues/215
 * Instead of storing markdown and requiring the newline extension
 * Store the supported rich text formatting subset with HTML markup
+* https://git.mills.io/yarnsocial/yarn/issues/755
+* https://git.mills.io/yarnsocial/yarn/issues/846
+* https://git.mills.io/yarnsocial/yarn/issues/215#issuecomment-3074
+* https://git.mills.io/yarnsocial/yarn/pulls/166#issuecomment-3783
+* https://dbohdan.com/wiki/twtxt-line-breaks
 
 ### Abuser lists
 
