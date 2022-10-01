@@ -341,7 +341,7 @@ Separating these two links allows for the user or moderator to either reply to a
 * Sign
 * Also a good candidate for #mirroring
 
-### Gossip user index
+### Gossip feed index
 
 * A feed may consent to participating in a semi-global index
 * A user may include hashtags or key-value pairs in their feed to facilitate discovery
