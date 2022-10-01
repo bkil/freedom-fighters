@@ -91,6 +91,8 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 
 * motorja: Gogs https://gogs.io/
 * helyszín: Németország
+* a REST API csak olvasni tud fájlokat, ezt leszámítva teljes értékű
+  * https://github.com/gogs/docs-api
 * cenzúrázatlan: Kuba
 
 ### teknik.io
@@ -119,6 +121,8 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * motorja: Sourcehut
 * CI/CD
   * https://man.sr.ht/builds.sr.ht/compatibility.md
+* az API csak webhook és felhasználói beállításokra használható
+  * https://man.sr.ht/api-conventions.md
 * később fizetősnek tervezik
 
 ## Negatív példák
