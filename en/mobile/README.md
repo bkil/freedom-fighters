@@ -6,6 +6,10 @@
 * [../../hu/fitness-tracker.md](../../hu/fitness-tracker.md)
 * [../../hu/content-music.md#Kliens](../../hu/content-music.md#Kliens)
 
+## Compatibility
+
+* https://github.com/techlore/plexus
+
 ## External lists
 
 * https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects
