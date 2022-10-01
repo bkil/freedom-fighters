@@ -347,15 +347,15 @@ Separating these two links allows for the user or moderator to either reply to a
 * A user may include hashtags or key-value pairs in their feed to facilitate discovery
 * The consent must be considered expired after a few months of inactivity to protect privacy and right to be forgotten
 * All such metadata including its update date should be signed by the author
-* Propagating clients should share the index of participating feeds ever seen among each other via a dedicated file.
-* Propagating clients may sign entries and the date of their last successful and last failing fetch (if the last one didn't succeed).
+* Propagating clients should share the index of consenting feeds ever seen among each other via a dedicated file.
+* If a feed fails to be fetched, propagating clients may sign its entry with mentioning the date of the first failing fetch after the most successful fetch and the number of unique days of failure. This should provide testimony for deleting the feed from the index more rapidly.
 * Propagating clients may prune the index to honor their storage quota. They may use heuristics of maximizing reach or utility within the network.
 
 ### Feed discovery
 
-* A client should offer to search for and follow a limited set of feeds initially after installation to seed federation. This may be either a manually curated list (either feeds moderately and diversely connected or ones providing content catering to a new joiner within the target audience), computed by crawlers based on semi-global statistics or just republishing the #gossip_user_index of a given user (e.g., of the developer)
-* The client may locally store a private ephemeral index of all feeds ever seen, possibly along with context, statistics and metadata of each occurrence, similarly to a search engine crawler
-* The client may make recommendations about feeds to follow based on its local index and the #gossip_user_index
+* A client should offer to search for and follow a limited set of feeds initially after installation to seed federation. This may be either a manually curated list (either feeds moderately and diversely connected or ones providing content catering to a new joiner from the target audience), computed by crawlers based on semi-global statistics or just republishing the #gossip_feed_index of a given user (e.g., of the developer)
+* The client may locally store a private ephemeral index of all feeds ever mentioned, possibly along with context, statistics and metadata of each occurrence, similarly to a search engine crawler
+* The client may make recommendations about feeds to follow based on its private index and the #gossip_feed_index
 
 ### HTML formatting
 
