@@ -1,5 +1,10 @@
 # Publicly exposing-fronting HTTP servers within LAN
 
+* The server may not have a publicly reachable port
+* The client may be just a web browser without anything else installed
+* Neither side should be required to pay a monthly subscription or run an exposed host themselves.
+* See also: [hidden-port-forwarding.md](hidden-port-forwarding.md)
+
 ## Self-hosted FOSS client and server
 
 ## Hosted FOSS client and server
