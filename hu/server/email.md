@@ -24,6 +24,7 @@
 * https://mailcow.email/
 * https://mailinabox.email/
 * https://mailu.io/
+* https://github.com/LukeSmithxyz/emailwiz
 * https://github.com/jeekkd/iRedMail-scripts
 * https://github.com/modoboa/modoboa
 * Lásd még: [palette-installer.md](palette-installer.md)
