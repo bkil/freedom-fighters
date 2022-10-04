@@ -170,11 +170,12 @@ Access-Control-Allow-Origin: *
 
 ### Poll frequency
 
-* https://dev.twtxt.net/doc/metadataextension.html#refresh
-* https://git.mills.io/yarnsocial/yarn/issues/427
 * Some use cases call for frequent polling (chat) while others allow for daily or on demand updates (blog)
 * If the value would be stored in a separately signed metadata file, could also represent "online status" of sorts (poll within 1 minute vs. poll within 8 hours changing dynamically)
 * The poll rate should be adaptive based on the expected time of the next post. This could be extrapolated from the time of day, day of week and the weighted posting rate.
+* This setting only applies for humans and software directly making requests on behalf of humans. For crawler preferences, see #clawlers This is also distinct from how the "refresh" property is interpreted both by Yarnd as the follower feed polling interval and yearn-search as a visitation interval.
+* https://dev.twtxt.net/doc/metadataextension.html#refresh
+* https://git.mills.io/yarnsocial/yarn/issues/427
 
 ### Poll quota
 
@@ -185,6 +186,19 @@ Access-Control-Allow-Origin: *
 * Number of HTTP requests
 * Volume of data transferred
 * Divide by number of followers
+
+### Crawlers
+
+* Honor /robots.txt (TODO: and potentially the non-standard ./robots.txt ?)
+* Introduce feed metadata for declaring robot crawling preferences. This is separate from #poll_frequency #incremental_updates
+* Revisiting within 24 hours would be undesirable. If the "refresh" property exists, its value must also be considered as a lower bound.
+* Set a unique and versioned client identifier within the user agent along with a contact to the robot operator
+* Load balance based on #poll_quota #backup_accounts #mirroring
+* Honor #feed_deletion #redaction #forked_message_correction
+* Run on a separate IP address so it can be blocked
+* Support gzip and brotli for HTTP compression
+* https://en.wikipedia.org/wiki/Noindex
+* https://en.wikipedia.org/wiki/Robots_exclusion_standard
 
 ### Unlisted followers
 
@@ -343,7 +357,7 @@ Separating these two links allows for the user or moderator to either reply to a
 
 ### Gossip feed index
 
-* A feed may consent to participating in a semi-global index
+* A feed may consent to participating in semi-global #content_indexing
 * A user may include hashtags or key-value pairs in their feed to facilitate discovery
 * The consent must be considered expired after a few months of inactivity to protect privacy and right to be forgotten
 * All such metadata including its update date should be signed by the author
