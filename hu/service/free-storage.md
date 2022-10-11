@@ -40,6 +40,14 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
 
 ## FOSS alternatívák
 
+### Charm
+
+* https://github.com/charmbracelet/charm#user-content-faq
+* 1GB tárhely
+* kulcs-érték tár
+* magunk által is üzemeltethető
+* protokoll: SSH
+
 ### Filen.io
 
 * https://filen.io/
