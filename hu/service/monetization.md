@@ -71,6 +71,7 @@ Lehet kampányszerű vagy rendszeres
   * https://en.wikipedia.org/wiki/DonorBox
 * https://en.wikipedia.org/wiki/Micropayment#Recent_systems
   * https://en.wikipedia.org/wiki/Flattr
+  * https://tippin.me/
   * https://www.theverge.com/2020/1/28/21111865/scroll-ad-free-website-subscription-launches
   * Általános előfizetés a reklámok kiváltására, de sajnos ehhez követniük kell a látogatókat
 
