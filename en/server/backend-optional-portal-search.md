@@ -209,4 +209,5 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://sphider.worldspaceflight.com/about.php
 * https://lunrjs.com/docs/index.html
 * https://github.com/blevesearch/bleve
+* https://github.com/blugelabs/bluge
 * https://git.mills.io/prologic/spyda
