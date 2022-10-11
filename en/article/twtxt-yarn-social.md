@@ -121,6 +121,8 @@ Access-Control-Allow-Origin: *
 * Honor HTTP If-Modified-Since
 * Lazily only fetch as few archives resulted from #compaction as possible to satisfy a user action
 * Where supported, scan backwards (forwards?) in the file with HTTP range requests to only fetch metadata updates and newly appended entries
+* Optimize feed for chronologically incremental ordering, but accept appending a few edited older entries at the end
+* Allow variable width empty whiteout filler entries so larger feeds may be edited in-place in a bandwidth efficient way
 
 ### Instance federation
 
@@ -156,7 +158,7 @@ Access-Control-Allow-Origin: *
 * At a minimum, a forum file should list its members (who are both followers and who the forum follows)
 * List the members who have moderator privilege: ability for message #redaction and removal of users from the forum
 * Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members)
-* Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but may attribute individual messages to the holder with a slash command to waive this right
+* Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass before allowing this.
 * Members have a separate subaccount to store their answers for each forum they participate in
 * https://git.mills.io/yarnsocial/yarn/issues/325
 * https://git.mills.io/yarnsocial/yarn/issues/344
@@ -191,7 +193,7 @@ Access-Control-Allow-Origin: *
 
 * Honor /robots.txt (TODO: and potentially the non-standard ./robots.txt ?)
 * Introduce feed metadata for declaring robot crawling preferences. This is separate from #poll_frequency #incremental_updates
-* Revisiting within 24 hours would be undesirable. If the "refresh" property exists, its value must also be considered as a lower bound.
+* Revisiting within 24 hours would be undesirable. If the Yarnd "refresh" property exists, its value must also be considered as a lower bound.
 * Set a unique and versioned client identifier within the user agent along with a contact to the robot operator
 * Load balance based on #poll_quota #backup_accounts #mirroring
 * Honor #feed_deletion #redaction #forked_message_correction
@@ -207,7 +209,6 @@ Access-Control-Allow-Origin: *
 
 ### Backup accounts
 
-* https://dev.twtxt.net/doc/metadataextension.html#url
 * Represent a single meta-feed with multiple alternative URLs
 * A feed could have reciprocal mirrors (see #mirroring )
 * Introduce a new metadata field to mark which ones are considered master copies (which ones do the author usually push to at the same time) and which are considered replicas (and what is the maximum allowed time lag before declaring each as dead). Failover might also consider #poll_frequency #poll_quota and the monotonic timestamp in #signed_feeds.
@@ -215,6 +216,9 @@ Access-Control-Allow-Origin: *
 * Resolve HTTP 301 redirects and memorize new target implicitly
 * If somebody follows one of the account URLs, they should follow all of them together
 * If access is lost to some of them (either write-access or read as well), the meta-feed could still live on, the live mirrors should delist the dead mirrors and followers should unfollow the dead mirrors eventually.
+* https://dev.twtxt.net/doc/metadataextension.html#url
+* See nomadic identities in ActivityPub:
+* https://codeberg.org/streams/streams/src/branch/dev/FEDERATION.md
 
 ### Mirroring
 
@@ -235,11 +239,15 @@ Access-Control-Allow-Origin: *
 
 ### Signed feed
 
-* https://github.com/buckket/twtxt/issues/122
 * To allow #mirroring
 * The poster should cryptographically sign their whole feed
+* Followers may exercise trust on first use
+* Followers should exercise certificate pinning
+* Add further metadata fields to declare the minimal amount of time to enforce signature verification
+* https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
 * To facilitate redacting messages by mirrors, the poster may separately sign the set of message signatures in case of #signed_messages or just the set of timestamps if they are unique as in #federated_message_identifiers , otherwise just the message hashes
 * The feed should include a monotonic timestamp that is signed separately and updated regularly to declare that "no messages were created since the last message up to this time instant"
+* https://github.com/buckket/twtxt/issues/122
 
 ### Signed messages
 
@@ -293,13 +301,18 @@ Access-Control-Allow-Origin: *
 To represent the two separate types of message links, we could either overload the hashtag URL to link to the thread root, or the message text could include the other composite ID as free text. Both would allow for grep'ping for threads without having to walk through possibly incomplete reply chains. The twtxt mention and twtxt subject would be used to link direct replies together in a clickable way, while the ID at the beginning of the text would help connect the whole topic together (i.e., to the ID of the root status). A dedicated client would hide it from the interface, while it still wouldn't look terrible from a legacy client. Especially for a simple, flat thread where it would be omitted completely. It would be symmetrical with the original subject this way, but we might consider putting it at the end for legibility. Here's a 4 line example:
 
 ```
-bkil: 2022-10-31T06:54:32Z\tWhy do programmers confuse Halloween with Christmas?
-lola: 2022-10-31T11:11:11Z\t@http://example.com/bkil (2022-10-31T06:54:32Z) Something related to eight?
-kids: 2022-10-31T22:22:22Z\t@http://example.com/bkil (2022-10-31T06:54:32Z) Beats me
-bkil: 2022-10-31T23:00:00Z\t@http://example.com/lola (2022-10-31T11:11:11Z) @http://example.com/bkil (2022-10-31T06:54:32Z) Spot on! Oct 31 = Dec 25
+joke: 2022-10-31T06:54:32Z\tWhy do programmers confuse Halloween with Christmas?
+lola: 2022-10-31T11:11:11Z\t@http://example.com/joke (2022-10-31T06:54:32Z) Something related to eight?
+kids: 2022-10-31T22:22:22Z\t@http://example.com/joke (2022-10-31T06:54:32Z) Beats me
+joke: 2022-10-31T23:00:00Z\t@http://example.com/lola (2022-10-31T11:11:11Z) @http://example.com/joke (2022-10-31T06:54:32Z) Spot on! Oct 31 = Dec 25
 ```
 
-Separating these two links allows for the user or moderator to either reply to a specific comment within the topic and to break out a related conversation to a new topic and linking the two together via designating a topic starter.
+Separating these two links allows for the user or moderator to either reply to a specific comment within the topic or to break out a related conversation to a new topic and linking the two together via designating a topic starter.
+
+### Public vs. follower-only threads
+
+* A user could decide whether the content of the reply they submit could be mirrored within the feeds of the #threads and #forums that it targets, or if only #federated_message_identifiers can be published.
+* This trades off potential further privacy guarantees vs. opportunities for lowering the request count when displaying threads
 
 ### Redaction
 
