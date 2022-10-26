@@ -6,6 +6,10 @@
 
 ## Hosted FOSS client and server
 
+### I2P
+
+* https://en.wikipedia.org/wiki/I2P
+
 ### IPFS P2P
 
 * https://github.com/ipfs/kubo/blob/master/docs/experimental-features.md#user-content-ipfs-p2p
