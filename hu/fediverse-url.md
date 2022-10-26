@@ -14,9 +14,14 @@
 * https://the-federation.info/#protocols Szerver és protokoll statisztikák
 * https://fediverse.party/en/miscellaneous szoftver kereső
 * https://fediverse.party/en/portal/servers kategorikus példány kereső
+* https://nodes.fediverse.party/
+  * https://github.com/Minoru/minoru-fediverse-crawler
 * https://dir.friendica.social/servers
+* https://index.community/instances
 * https://instances.joinpeertube.org/instances PeerTube
 * https://instances.orion-hub.fr/instances PeerTube
+* https://www.fediverse.to/
+* https://fedidb.org/software
 * https://friendica.fediverse.observer/ Szerver kereső táblázat (régi nevén: podupti.me)
   * javasolt szűrőfeltételek:
     * Signups=yes
