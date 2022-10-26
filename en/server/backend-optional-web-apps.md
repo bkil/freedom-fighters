@@ -77,14 +77,13 @@ You may look into microservices for an inspiration, but you don't need to overdo
 
 * [backend-optional-portal-search.md](backend-optional-portal-search.md)
 * https://0data.app/glance/
+* https://solidproject.org/apps
+* https://unhosted.org/apps/
 
 ## References
 
 * https://nobackend.org/solutions.html
-* https://unhosted.org/
 * https://cweb.gitlab.io/OPDA.html
-* https://0data.app/
-* https://solidproject.org/apps
 * https://github.com/remotestorage
 * https://github.com/jorishermans/storagestack
 * https://en.wikipedia.org/wiki/Static_web_page
