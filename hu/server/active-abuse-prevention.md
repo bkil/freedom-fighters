@@ -69,17 +69,17 @@ Célunk, hogy vagy ne érje meg a támadónak nagy számban végrehajtani a viss
 Korábban bennük is felmerültek alternatívák:
 
 * https://github.com/vector-im/riot-web/issues/3606
-* https://github.com/matrix-org/matrix-doc/issues/1281
+* https://github.com/matrix-org/matrix-spec/issues/295
 * https://github.com/zeratax/matrix-registration
 * https://codeberg.org/Codeberg-Infrastructure/CaptchaService#user-content-other-solutions
 * https://switching.software/replace/google-recaptcha/
 * https://gitlab.com/gitlab-org/gitlab-foss/-/issues/45684
+* https://gitlab.com/gitlab-org/gitlab-foss/-/issues/46548
 
 ### FOSS CAPTCHA
 
 * https://www.phpcaptcha.org/try-securimage/
 * https://github.com/subwindow/negative-captcha
-* https://www.mtcaptcha.com/#mtcaptcha-demo
 * https://hackint.org/transport/tor#Anonymous_Account_Registration
 * https://www.w3.org/WAI/GL/wiki/Captcha_Alternatives_and_thoughts
 * https://captcheck.netsyms.com/
@@ -88,8 +88,6 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/desirepath41/visualCaptcha
   * Piktogramok közt kell választani
   * Példa: https://demo.visualcaptcha.net/
-* https://www.solvemedia.com/publishers/captcha-type-in
-  * Olvasható reklámszlogent kell bemásolni
 * https://www.mediawiki.org/wiki/Extension:QuestyCaptcha
   * Szöveges kérdés-válaszok
 * https://www.drupal.org/project/captcha_pack
@@ -106,6 +104,22 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/DanWin/le-chat-php/blob/9056439295a203dac28aa7a0edfb92872beb5282/chat.php#L436
 * https://github.com/steambap/captcha
 * https://gitea.com/go-chi/captcha/src/branch/master/image.go#L293
+* https://github.com/ArgoZhang/SliderCaptcha
+* https://github.com/fabianwennink/IconCaptcha-Plugin-jQuery-PHP
+* https://github.com/fabianwennink/IconCaptcha-Plugin-Front-End
+* https://github.com/lepture/captcha
+* https://github.com/wjcrowcroft/MotionCAPTCHA
+
+### FOSS CAPTCHA client
+
+A self-hostable backend is not supplied
+
+* https://github.com/zpfz/RVerify.js
+* https://github.com/rubensrocha/solvemedia-captcha
+  * https://www.solvemedia.com/publishers/captcha-type-in
+  * Olvasható reklámszlogent kell bemásolni
+* https://github.com/mtcaptcha-public/mtcaptcha-php-sdk
+  * https://www.mtcaptcha.com/#mtcaptcha-demo
 
 ### Google reCAPTCHA
 
@@ -124,6 +138,10 @@ kritika:
 
 * https://friendlycaptcha.com/
 
+### UniqPin
+
+* http://uniqpin.com/
+
 ### GeeTest
 
 * https://www.geetest.com/en
@@ -133,6 +151,11 @@ kritika:
 * https://www.arkoselabs.com/
 * also used by GitHub
 
+### BotDetect
+
+* https://captcha.com/demos/features/captcha-demo.aspx
+* https://github.com/captcha-com/jquery-captcha
+
 ### KeyCaptcha
 
 * https://www.keycaptcha.com/
@@ -141,6 +164,12 @@ kritika:
 
 * https://mcaptcha.org/
 * proof of work
+
+### Friendly Captcha
+
+* https://github.com/FriendlyCaptcha/friendly-lite-server
+* https://friendlycaptcha.com/#demo
+* 1000 lekérés/hó ingyen
 
 ### Capy
 
