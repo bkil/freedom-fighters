@@ -83,6 +83,10 @@ References:
 * https://dev.twtxt.net/doc/useragentextension.html
 * The viewer could submit their identity as a search request
 
+### gemini subscription
+
+* https://gemini.circumlunar.space/docs/companion/subscription.gmi
+
 ### Friendica addon
 
 * Render our Friendica feed as twtxt
@@ -201,6 +205,7 @@ Access-Control-Allow-Origin: *
 * Support gzip and brotli for HTTP compression
 * https://en.wikipedia.org/wiki/Noindex
 * https://en.wikipedia.org/wiki/Robots_exclusion_standard
+* https://gemini.circumlunar.space/docs/companion/robots.gmi
 
 ### Unlisted followers
 
@@ -365,6 +370,7 @@ Separating these two links allows for the user or moderator to either reply to a
 
 * To facilitate search
 * Publish reverse word indexes of the "best" search words, phrases and tags present in our feeds
+* To improve results for composite queries, also consider to accumulate each thread and also index it as a meta-entity
 * Sign
 * Also a good candidate for #mirroring
 
