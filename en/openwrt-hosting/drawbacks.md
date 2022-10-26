@@ -21,6 +21,7 @@ Additional drawbacks of hosting at home:
 
 * Additional cost for CCTV, UPS, backup generator, ECC RAM
 * Low SLA of consumer ISP
+* A consumer ISP preferred that you don't share your connection or operate public services at home. You are legally bound via the terms of service, but it is usually not enforced.
 * Slowness of transfer on asymmetric ISP uplink
 * More difficult to cooperatively manage with another admin
 * Lack of a 24/7 armed security guard
@@ -29,6 +30,10 @@ Additional drawbacks of hosting at home:
 * Fire hazard
 * Prone to get damaged: tripping over wire, tackling it, chewing toy of pet or child, water damage
 * Takes expensive floor space: except if placed on top of a drawer, but that introduces a fall hazard
+
+See also:
+
+* https://en.wikipedia.org/wiki/Home_server
 
 ## Cheap routers
 
