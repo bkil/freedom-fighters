@@ -8,7 +8,8 @@
 ## Szerverlisták
 
 * https://list.jabber.at/
-* https://xmpp.net/directory.php
+* https://web.archive.org/web/20220728135210/https://xmpp.net/directory.php
+* https://providers.xmpp.net/
 * https://xmpp-servers.404.city/
   * https://github.com/E-404/xmpp-servers
 * https://www.jabberes.org/servers/
