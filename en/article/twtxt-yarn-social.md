@@ -97,7 +97,7 @@ References:
 
 * To allow implementing a web client on a different domain
 * twtxt.txt files should be served with permissive CORS headers where configuring this is possible
-* Take care to not serve authorization on the same API domain for security
+* Exercise caution against serving authorization on the same API domain for security
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 ```
@@ -109,6 +109,13 @@ Access-Control-Allow-Origin: *
 * [./circumvent-cors.md](./circumvent-cors.md)
 * To allow implementing a web client on a different domain without having to add headers that our web server should output
 * Store a copy of each feed in .css
+
+### Search engine optimization
+
+* Store a copy of each feed in HTML
+* Preferably under the main feed URL that others are referring to
+* Insert cross-feed links
+* Optionally format as a twtxt-HTML polyglot via a preformatted block to minimize storage overhead
 
 ### CORS proxy
 
@@ -143,6 +150,7 @@ Access-Control-Allow-Origin: *
 * Post introduction and ask for permission
 * Propagate kick & ban
 * Map as #forums
+* https://github.com/mastodon/mastodon/pull/19059
 
 ## Protocol suggestions
 
@@ -193,6 +201,14 @@ Access-Control-Allow-Origin: *
 * Volume of data transferred
 * Divide by number of followers
 
+### Feed metadata for CORS avoidance
+
+* Timestamp of most recent post
+* Timestamp of last update to the feed file
+* File size
+* To allow #incremental_updates with #cors_avoidance
+* `access-control-allow-headers` is prone to failure even when the server can be made CORS-aware
+
 ### Crawlers
 
 * Honor /robots.txt (TODO: and potentially the non-standard ./robots.txt ?)
@@ -221,6 +237,7 @@ Access-Control-Allow-Origin: *
 * Resolve HTTP 301 redirects and memorize new target implicitly
 * If somebody follows one of the account URLs, they should follow all of them together
 * If access is lost to some of them (either write-access or read as well), the meta-feed could still live on, the live mirrors should delist the dead mirrors and followers should unfollow the dead mirrors eventually.
+* Rewrite mentions within our past posted messages upon changes to the main account of who we mentioned via #forked_message_correction
 * https://dev.twtxt.net/doc/metadataextension.html#url
 * See nomadic identities in ActivityPub:
 * https://codeberg.org/streams/streams/src/branch/dev/FEDERATION.md
@@ -233,6 +250,40 @@ Access-Control-Allow-Origin: *
 * Can be used when the origin is down, slow, in a load balanced fashion or if nearing its #poll_quota
 * Enables those on the same host or LAN to share feeds to lower costs
 * Reshare a feed with greater accessibility for #cors_avoidance - i.e., with CORS headers or CSS encapsulation as a workaround
+
+### High availability bots
+
+* Similar to #mirroring but the stream is generated in parallel by multiple users
+* The should eventually reproduce the exact same feed independently (minus the update date)
+* The should advertise their mutual trust and their independent keys similar to a #backup_account
+* This is equivalent power to being admin or moderator within #forums
+* Could be used by client side bridges
+
+### Alternate feed links
+
+Use case:
+
+* A user may publish their feed in a subset of formats: with or without CORS, twtxt.txt, Atom, CSS, JSON, prerendered HTML, txt in HTML
+* It might be feasible to host them under the same path with different file extensions
+* Users may also be #mirroring feeds of other users
+* Update the set of references everywhere after one is migrating between #backup_accounts via #forked_message_correction
+
+Mechanism:
+
+* When referring to a feed within a post, it would aid compatibility and efficiency if we shared all existing alternate formats
+* The client could choose one supported alternative and only fetch from that one (if it is up to date), not from all redundant versions
+* The client could save multiple round trips of indirection, checking for CORS and existence of alternatives
+* The mapping could be done inline or via metadata at the beginning of the feed file
+* See also #cors_headers #cors_avoidance #search_engine_optimization #mapping
+
+### Alias mention
+
+* Declare the nickname along the URL of our followers or who we follow in the metadata
+* A new metadata field could be introduced to share the nickname we use for other feeds we communicate with otherwise
+* Mentions could be shortened to @nickname instead of @<nickname feedurl> that is more realistic to type by hand
+* Take care to update the metadata on changes to our followings and ensure uniqueness
+* Rewrite our past posted messages upon changes via #forked_message_correction
+* Canonicalize mentions in incoming posts by expanding the URL
 
 ### Feed deletion
 
@@ -262,6 +313,7 @@ Access-Control-Allow-Origin: *
 * May include a monotonic message counter to better inform about skipped messages
 * A message may be signed along with the hash of its predecessor if forming a blockchain is desirable
 * https://git.mills.io/tkanos/twtxt-encrypted-communication-proposal
+* https://w3c.github.io/vc-data-integrity/
 
 ### Compaction
 
@@ -297,7 +349,7 @@ Access-Control-Allow-Origin: *
 * A reply should include the #federated_message_idedentifiers of its parent that defines the subthread (similar to `In-Reply-To` in email)
 * Each user who comments on a given thread should start to mirror all #federated_message_identifiers of messages within that thread up to the root (somewhat similar to `References` in email)
 * Don't mirror obsolete ones affected by #redaction or #forked_message_correction
-* Don't mirror message content for privacy reasons
+* Don't mirror message content in order to respect privacy
 * Allow a commenter editing their comment to fork off a question to a new disjoint thread or to position the reply under another, more on-topic thread via #forked_message_correction and others can suggest the same via #message_correction_suggestion
 * TODO: For mass scaling, it might be desirable to only list the URLs of accounts of all commenters or if this is still massive, provide for handling as #forums and listing the URLs of trusted #mirroring nodes. Note that such a scale is actually a degenerate use for threading in the real world, but consider whether unifying #threads and #forums would be a feasible workaround.
 * https://dev.twtxt.net/doc/twtsubjectextension.html
@@ -306,10 +358,10 @@ Access-Control-Allow-Origin: *
 To represent the two separate types of message links, we could either overload the hashtag URL to link to the thread root, or the message text could include the other composite ID as free text. Both would allow for grep'ping for threads without having to walk through possibly incomplete reply chains. The twtxt mention and twtxt subject would be used to link direct replies together in a clickable way, while the ID at the beginning of the text would help connect the whole topic together (i.e., to the ID of the root status). A dedicated client would hide it from the interface, while it still wouldn't look terrible from a legacy client. Especially for a simple, flat thread where it would be omitted completely. It would be symmetrical with the original subject this way, but we might consider putting it at the end for legibility. Here's a 4 line example:
 
 ```
-joke: 2022-10-31T06:54:32Z\tWhy do programmers confuse Halloween with Christmas?
-lola: 2022-10-31T11:11:11Z\t@http://example.com/joke (2022-10-31T06:54:32Z) Something related to eight?
-kids: 2022-10-31T22:22:22Z\t@http://example.com/joke (2022-10-31T06:54:32Z) Beats me
-joke: 2022-10-31T23:00:00Z\t@http://example.com/lola (2022-10-31T11:11:11Z) @http://example.com/joke (2022-10-31T06:54:32Z) Spot on! Oct 31 = Dec 25
+joke: 2022-10-31T06:54Z\tWhy do programmers confuse Halloween with Christmas?
+lola: 2022-10-31T11:11Z\t@<http://example.com/joke> (2022-10-31T06:54Z) Something related to eight?
+kids: 2022-10-31T22:22Z\t@<http://example.com/joke> (2022-10-31T06:54Z) Beats me
+joke: 2022-10-31T23:00Z\t@<http://example.com/lola> (2022-10-31T11:11Z) @<http://example.com/joke> (2022-10-31T06:54Z) Spot on! Oct 31 = Dec 25
 ```
 
 Separating these two links allows for the user or moderator to either reply to a specific comment within the topic or to break out a related conversation to a new topic and linking the two together via designating a topic starter.
