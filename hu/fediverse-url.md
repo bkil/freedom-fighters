@@ -16,6 +16,7 @@
 * https://fediverse.party/en/portal/servers kategorikus példány kereső
 * https://nodes.fediverse.party/
   * https://github.com/Minoru/minoru-fediverse-crawler
+* http://demo.fedilist.com/
 * https://dir.friendica.social/servers
 * https://index.community/instances
 * https://instances.joinpeertube.org/instances PeerTube
