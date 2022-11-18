@@ -97,6 +97,7 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 
 ### Frontend widget
 
+- https://www.mediawiki.org/wiki/Extension:Gadgets
 - https://git.sr.ht/~spiral/misskey/tree/main/item/src/docs/en-US/create-plugin.md
   - https://git.sr.ht/~spiral/misskey/tree/main/item/src/docs/en-US/features/widgets.md
 - https://element.io/element-matrix-store
