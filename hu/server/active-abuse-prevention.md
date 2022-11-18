@@ -109,6 +109,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/fabianwennink/IconCaptcha-Plugin-Front-End
 * https://github.com/lepture/captcha
 * https://github.com/wjcrowcroft/MotionCAPTCHA
+* https://github.com/processone/ejabberd/blob/master/tools/captcha-ng.sh
 
 ### FOSS CAPTCHA client
 
