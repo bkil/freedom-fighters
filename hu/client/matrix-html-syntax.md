@@ -8,41 +8,103 @@ A kérdés, hogy melyik kliens mennyire támogatja a `markdown` vagy `/html` for
 
 `/html <details><summary><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" width=140 alt="cat sleeping on top of flat TV" title="cat on TV" /><span data-mx-bg-color="#888888" data-mx-color="#ffffff">Kattints a nagyításhoz</span><br> <i>Cat on top of TV: Technology doesn't change everything for the better</i></summary> <a href="https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27"><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" height=700 alt="cat sleeping on top of flat TV" title="cat on TV" /></a> </details>`
 
+## Element Web markdown 1
+
+````
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+<sub>sub</sub> <sup>sup</sup> <del>del</del> <u>u</u> ~tilde~ ~~ttilde~~ -minus- ++pplus++  
+br
+
+---
+
+hr **ab** *ai* __ub__ _ui_ _**uabi**_
+
+p 🎆 🎊 ❄️ 👾 🌦️ 💝
+
+42. item 42
+43. item 43
+
+* some bullet
+* another bullet
+
+key|value
+-|-
+0|a
+1|b
+2|c
+
+>!Stack Overflow spoiler
+
+<span data-mx-maths="span \over{ data-mx-maths}"> `span \over{ data-mx-maths}` </span>
+
+> blockquote
+
+`var code = ""; // highlight`
+
+```haxe
+var preCode = "language-haxe"; // highlight
+```
+
+```
+var pre = ""; // highlight
+```
+
+    var pre = ""; // indented
+
+![cat sleeping on top of flat TV](mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg "Cat on top of TV: Technology doesn't change everything for the better")
+[reference 1][1]
+[reference a][]
+localhost autolink, @user:a.invalid #room:a.invalid https://matrix.to/#/#room:a.invalid https://matrix.to/#/@user:a.invalid
+<bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz>
+<ftp://example.com/path>
+<geo:37.786971,-122.399677;u=35?z=20>
+<http://localhost/path>
+[a href https:](https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27 "title")
+<im:user@example.com>
+<irc://example.com:6667/*matrix?keyword>
+<ircs://example.com:6667/*matrix?keyword>
+<magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04>
+<mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix>
+<matrix:#room:example.com>
+<mms://example.com:1755/path>
+<news:news:example.group.*>
+<nntp://news.server.example:119/example.group.this/12345>
+<openpgp4fpr:653909A2F0E37C106F5FAF546C8857E0D8E8F074>
+<sip:user@example.com:5060>
+<sftp://user:password;fingerprint=SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw@server.example:22/path>
+<sms:+15105550101,+15105550102?body=hello%20there>
+<smsto:+15105550101,+15105550102?body=hello%20there>
+<ssh://user:password;fingerprint=SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw@server.example:22>
+<tel:1.2-3(4)*5#6f;phone-context=c.example.com;isub=x;ext=9>
+<urn:ietf:rfc:2648>
+<webcal://example.com/calendar.ics>
+<wtai://wp/mc/+18165551212>
+<xmpp:romeo@montague.net?message;subject=Test%20Message;body=Here%27s%20a%20test%20message>
+````
+` `  
+`[1]: http://localhost/1 "one"`  
+`[reference a]: http://localhost/a "alink"`
+
+### Element Web markdown
+
+* https://github.com/matrix-org/matrix-react-sdk/blob/abd39c61b170c18b9b734dd0b5469ed5a17848af/src/Markdown.ts#L24
+* https://github.com/matrix-org/matrix-react-sdk/blob/abd39c61b170c18b9b734dd0b5469ed5a17848af/src/editor/serialize.ts
+* https://github.com/commonmark/commonmark.js/blob/9a16ff4fb8111bc0f71e03206f5e3bdbf7c69e8d/lib/inlines.js#L73
+
 ## Element Web tesztüzenet 1
 
-`/html <h1>h1</h1> <h2>h2</h2> <h3>h3</h3> <h4>h4</h4> <h5>h5</h5> <h6>h6</h6> <del>del</del> <strike>strike</strike> <sub>sub</sub> <span data-mx-color="#00ff00">span data-mx-color green</span> <span data-mx-bg-color="#ff0000">span data-mx-bg-color red</span> <sup>sup</sup> <br> ... br <font data-mx-color="#00ff00">font data-mx-color green</font> <font data-mx-bg-color="#ff0000">font data-mx-bg-color red</font> <font color="#00ff00">font color green</font> <hr> ... hr <b>b</b> <i>i</i> <strong>strong</strong> <em>em</em> <p>p</p> <u>u</u> <ol start=42><li>item 42</li><li>item 43</li></ol> <ul><li>some bullet</li><li>another bullet</li></ul> <table><caption>table caption</caption><thead><tr><th>table head column 1</th> <th>col 2</th> <th>col 3</th></tr></thead> <tbody><tr><th>body row 2 head</th> <td>r2c2</td> <td>r2c3</td></tr> <tr><th>r3h</th> <td>r3c2</td> <td>r3c3</td></tr></tbody></table> <details><summary>summary (click to see details)</summary> details</details> <span data-mx-spoiler="click to reveal">span data-mx-spoiler</span> <span data-mx-maths="span \over{ data-mx-maths}"><code>span \over{ data-mx-maths}</code></span> <div data-mx-maths="div \over{ data-mx-maths}"><code>div \over{ data-mx-maths}</code></div> <blockquote>blockquote</blockquote> <code>var code = ""; // highlight</code> <pre><code class="language-haxe">var preCode = "language-haxe"; // highlight</code></pre> <code class="language-haxe">var code = "language-haxe"; // highlight</code> <pre>var pre = ""; // highlight</pre> <pre><code>var preCode = ""; // highlight</code></pre> <a href="https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27"><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" width=130 alt="cat sleeping on top of flat TV" title="&lt;img&gt; Cat on top of TV: Technology doesn't change everything for the better" /></a> ... mxc:// img <a href="https://diasp.eu/posts/aa9dc730ab7b013a1d0b101b0efced44">a href https://</a> <a href="mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix">a href mailto:</a> <a href="magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04">a href magnet:</a> <a href="ftp://example.com/">a href ftp://</a>`
-
-* bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz
-* ftp://example.com/path
-* geo:37.786971,-122.399677;u=35?z=20
-* http://localhost/path
-* https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27
-* im:user@example.com
-* irc://example.com:6667/*matrix?keyword
-* ircs://example.com:6667/*matrix?keyword
-* magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04
-* mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix
-* matrix:#room:example.com
-* mms://example.com:1755/path
-* news:news:example.group.*
-* nntp://news.server.example:119/example.group.this/12345
-* openpgp4fpr:653909A2F0E37C106F5FAF546C8857E0D8E8F074
-* sip:user@example.com:5060
-* sftp://user:password;fingerprint=SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw@server.example:22/path
-* sms:+15105550101,+15105550102?body=hello%20there
-* smsto:+15105550101,+15105550102?body=hello%20there
-* ssh://user:password;fingerprint=SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw@server.example:22
-* tel:1.2-3(4)*5#6f;phone-context=c.example.com;isub=x;ext=9
-* urn:ietf:rfc:2648
-* webcal://example.com/calendar.ics
-* wtai://wp/mc/+18165551212
-* xmpp:romeo@montague.net?message;subject=Test%20Message;body=Here%27s%20a%20test%20message
+`/html <h1>h1</h1> <h2>h2</h2> <h3>h3</h3> <h4>h4</h4> <h5>h5</h5> <h6>h6</h6> <del>del</del> <strike>strike</strike> <sub>sub</sub> <span data-mx-color="#00ff00">span data-mx-color green</span> <span data-mx-bg-color="#ff0000">span data-mx-bg-color red</span> <sup>sup</sup> <br> ... br <font data-mx-color="#00ff00">font data-mx-color green</font> <font data-mx-bg-color="#ff0000">font data-mx-bg-color red</font> <font color="#00ff00">font color green</font> <hr> ... hr <b>b</b> <i>i</i> <strong>strong</strong> <em>em</em> <p>p</p> <u>u</u> <ol start=42><li>item 42</li><li>item 43</li></ol> <ul><li>some bullet</li><li>another bullet</li></ul> <table><caption>table caption</caption><thead><tr><th>table head column 1</th> <th>col 2</th> <th>col 3</th></tr></thead> <tbody><tr><th>body row 2 head</th> <td>r2c2</td> <td>r2c3</td></tr> <tr><th>r3h</th> <td>r3c2</td> <td>r3c3</td></tr></tbody></table> <details><summary>summary (click to see details)</summary> details</details> <span data-mx-spoiler="click to reveal">span data-mx-spoiler</span> <span data-mx-maths="span \over{ data-mx-maths}"><code>span \over{ data-mx-maths}</code></span> <div data-mx-maths="div \over{ data-mx-maths}"><code>div \over{ data-mx-maths}</code></div> <blockquote>blockquote</blockquote> <code>var code = ""; // highlight</code> <pre><code class="language-haxe">var preCode = "language-haxe"; // highlight</code></pre> <code class="language-haxe">var code = "language-haxe"; // highlight</code> <pre>var pre = ""; // highlight</pre> <pre><code>var preCode = ""; // highlight</code></pre> <a href="https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27"><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" width=130 alt="cat sleeping on top of flat TV" title="&lt;img&gt; Cat on top of TV: Technology doesn't change everything for the better" /></a> ... mxc:// img <a href="https://diasp.eu/posts/aa9dc730ab7b013a1d0b101b0efced44">a href https://</a> <a href="mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix">a href mailto:</a> <a href="magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04">a href magnet:</a> <a href="ftp://example.com/">a href ftp://</a> 🎆 🎊 ❄️ 👾 🌦️ 💝`
 
 ### Element Web asztali
 
 Algoritmus:
 
-* https://github.com/matrix-org/matrix-react-sdk/blob/65d55bd0d972e4546990eaabc0e4365f736469f6/src/HtmlUtils.tsx#L236
+* https://github.com/matrix-org/matrix-react-sdk/blob/ad190b1dcc8aa332b9492c9dc8508e25c2914d94/src/HtmlUtils.tsx#L259
 * https://github.com/apostrophecms/sanitize-html
 
 Jó:
