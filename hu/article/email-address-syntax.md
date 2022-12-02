@@ -38,6 +38,14 @@ Szintaxisa megegyezik a HTML input form példával amennyiben a levélcím `<` �
 [>]
 ```
 
+### commonmark.js linkify
+
+```
+/^<([a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>/
+```
+
+* https://github.com/commonmark/commonmark.js/blob/9a16ff4fb8111bc0f71e03206f5e3bdbf7c69e8d/lib/inlines.js#L73
+
 ### GitHub flavored Markdown linkify
 
 Más heurisztikákat használ amennyiben csak szabad szövegben fordul elő a levélcím. A kiegészítések C-ben vannak megírva, becslés alapján rekonstruálva a regexp:
