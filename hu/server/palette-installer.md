@@ -102,6 +102,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://github.com/drduh/Debian-Privacy-Server-Guide
 * https://git.hcoop.net/?a=project_list;o=age;pf=hcoop
 * https://github.com/DanWin/hosting
+* https://landchad.net/
 
 ### Rendszergazdai automatizmusok
 
