@@ -23,6 +23,7 @@
 * https://instances.orion-hub.fr/instances PeerTube
 * https://www.fediverse.to/
 * https://fedidb.org/software
+* https://mastodon.help/instances/
 * https://friendica.fediverse.observer/ Szerver kereső táblázat (régi nevén: podupti.me)
   * javasolt szűrőfeltételek:
     * Signups=yes
