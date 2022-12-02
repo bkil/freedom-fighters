@@ -6,6 +6,7 @@ Egyes szoftver projekt tárolóknak is része a statikus webkiszolgálás és a 
 
 ## Keretrendszerek
 
+* https://github.com/GetPublii/Publii
 * https://en.wikipedia.org/wiki/Category:Static_website_generators
 * https://en.wikipedia.org/wiki/Category:Free_static_website_generators
 * https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
