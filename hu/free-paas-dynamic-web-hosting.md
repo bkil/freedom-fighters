@@ -443,6 +443,7 @@
   * akár több feladat
   * csak egy saját URI-t (scriptet) tud meghívni
 * email: csak fizetős csomagban
+* reklámbanner képet helyez el a HTML fájl végére
 
 ### Byet
 
