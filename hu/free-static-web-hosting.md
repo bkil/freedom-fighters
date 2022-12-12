@@ -540,6 +540,14 @@ Lásd még:
 * 250MB/hó forgalom
 * aldomain
 
+### StaticSave
+
+* https://staticsave.com/pricing.php
+* max. 2 mappa, max. 5 fájl/mappa, max. 30000 karakter/fájl
+* inaktivitás esetén törlés
+* fájltípusok: CSS, JavaScript, TXT, JSON, XML
+* CloudFlare
+
 ### WebNode.info
 
 * https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
