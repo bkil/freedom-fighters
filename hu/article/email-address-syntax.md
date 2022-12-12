@@ -240,6 +240,14 @@ PHP kódból visszafejtve, alapvetően kb.:
 * A TLD nem lehet `/^[0-9]+$/`
 * Domén név `A`, `MX`, `CNAME` vagy `AAAA` bejegyzése opcionálisan feloldva
 
+### Pleroma change user email
+
+* https://git.pleroma.social/pleroma/pleroma/-/blob/20790c1dd30fcaf1db29de1e2b425da8d8a81131/lib/pleroma/user.ex#L53
+
+```
+/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+```
+
 ### RoundCube parse_host
 
 * https://github.com/roundcube/roundcubemail/blob/0044673e112d3f1e553333ac3d6fa6e896b1223b/program/lib/Roundcube/rcube_utils.php#L711
