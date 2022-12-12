@@ -90,6 +90,42 @@ localhost autolink, @user:a.invalid #room:a.invalid https://matrix.to/#/#room:a.
 `[1]: http://localhost/1 "one"`  
 `[reference a]: http://localhost/a "alink"`
 
+### Element Web markdown topic
+
+````
+<sub>sub</sub> <sup>sup</sup> <del>del</del> <u>u</u> ~tilde~ ~~ttilde~~ -minus- ++pplus++  
+br **ab** *ai* __ub__ _ui_ _**uabi**_
+
+<span data-mx-maths="span \over{ data-mx-maths}"> span \over{ data-mx-maths} </span>
+
+localhost autolink, @user:a.invalid #room:a.invalid https://matrix.to/#/#room:a.invalid https://matrix.to/#/@user:a.invalid
+<bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz>
+<ftp://example.com/path>
+<geo:37.786971,-122.399677;u=35?z=20>
+<http://localhost/path>
+[a href https:](https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27 "title")
+<im:user@example.com>
+<irc://example.com:6667/*matrix?keyword>
+<ircs://example.com:6667/*matrix?keyword>
+<magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04>
+<mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix>
+<matrix:#room:example.com>
+<mms://example.com:1755/path>
+<news:news:example.group.*>
+<nntp://news.server.example:119/example.group.this/12345>
+<openpgp4fpr:653909A2F0E37C106F5FAF546C8857E0D8E8F074>
+<sip:user@example.com:5060>
+<sftp://user:password;fingerprint=SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw@server.example:22/path>
+<sms:+15105550101,+15105550102?body=hello%20there>
+<smsto:+15105550101,+15105550102?body=hello%20there>
+<ssh://user:password;fingerprint=SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw@server.example:22>
+<tel:1.2-3(4)*5#6f;phone-context=c.example.com;isub=x;ext=9>
+<urn:ietf:rfc:2648>
+<webcal://example.com/calendar.ics>
+<wtai://wp/mc/+18165551212>
+<xmpp:romeo@montague.net?message;subject=Test%20Message;body=Here%27s%20a%20test%20message>
+````
+
 ### Element Web markdown
 
 * https://github.com/matrix-org/matrix-react-sdk/blob/abd39c61b170c18b9b734dd0b5469ed5a17848af/src/Markdown.ts#L24
