@@ -135,6 +135,14 @@ Access-Control-Allow-Origin: *
 * Optimize feed for chronologically incremental ordering, but accept appending a few edited older entries at the end
 * Allow variable width empty whiteout filler entries so larger feeds may be edited in-place in a bandwidth efficient way
 
+### Feed priorization
+
+* First fetch followees who we have mentioned recently
+* Then who we have participated in the same threads with recently
+* Then who have mentioned us recently
+* Then based on most recent post
+* We may condense this information into the order of the follow metadata lines
+
 ### Instance federation
 
 * Federate with ActivityPub and Yarn.social instances
@@ -143,6 +151,7 @@ Access-Control-Allow-Origin: *
 * Register a puppet user on each instance of interest to be able to submit comments
 * Deduplicate content
 * Map as #forums
+* https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/
 
 ### Forum federation
 
@@ -151,6 +160,32 @@ Access-Control-Allow-Origin: *
 * Propagate kick & ban
 * Map as #forums
 * https://github.com/mastodon/mastodon/pull/19059
+
+### Feed health indication
+
+* A user could see the health of each followed feed
+* HTTP redirect for #backup_accounts
+* HTTP 4xx, 5xx, timeout
+* Linter: empty file, obvious syntax errors, parser warnings
+* The status could be color coded and the list rearranged to show those in error at the top
+* Show the timestamp of the last successful poll of the feed
+* Show the timestamp of the most recent post within the feed
+* Potentially also order the followed feeds by last update date, least recently updated first
+
+## Hosted account state
+
+### Color scheme
+
+### Show inline images
+
+### Followers metadata
+
+* For #feed_priorization
+* To enable lazy loading when using multiple devices
+* The poll order of our followed feeds
+* The desired poll frequency of each feed adapted to the most recent observed activity
+* The last poll timestamp
+* Per feed metadata mentioned in #feed_metadata_for_cors_avoidance
 
 ## Protocol suggestions
 
@@ -166,6 +201,7 @@ Access-Control-Allow-Origin: *
 
 * The account holder creating the main forum account controls participants
 * Invite-only or confirmed per message: the account holder may add members manually after direct messaging, ideally by forwarding the message the new member would like to send
+* Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed
 * Any member could invite others through a slash command
 * At a minimum, a forum file should list its members (who are both followers and who the forum follows)
 * List the members who have moderator privilege: ability for message #redaction and removal of users from the forum
