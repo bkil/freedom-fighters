@@ -33,6 +33,11 @@ Hasznos opcionális szolgáltatások:
 
 * https://www2.vcn.bc.ca/free-mailing-lists/ talán csak helyiek regisztrálhatnak
 
+### alwaysdata
+
+* https://blog.alwaysdata.com/2018/12/11/stay-close-to-your-people-here-are-the-mailing-lists/
+* Mailman (Postorius)
+
 ## Nagy szereplők
 
 * https://en.wikipedia.org/wiki/Google_Groups
