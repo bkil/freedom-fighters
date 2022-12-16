@@ -107,6 +107,23 @@
 * 10 domén, 100 aldomén
 * 100 email postafiók, 10 alias
 
+### alwaysData
+
+* https://www.alwaysdata.com/en/
+  * https://blog.alwaysdata.com/tag/free-offer/
+  * https://help.alwaysdata.com/en/accounts/public-cloud-restrictions/
+* székhely: Párizs
+* 100MB tárhely
+* Node.js, Python, PHP, Ruby
+* SSL
+* scheduled tasks
+* MariaDB, PostgreSQL
+* napi biztonsági mentés 30 napra visszamenőleg
+* be kell lépni 4-12 havonta a webes felületre
+  * https://help.alwaysdata.com/en/accounts/alerts-notifications/#lack-of-activity
+* email, levelezőlista
+* FTP, API
+
 ### AspOne
 
 * https://www.aspone.cz/cz/Webhosting/Freehosting/
