@@ -90,10 +90,18 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 ### NotABug.org
 
 * motorja: Gogs https://gogs.io/
+* https://notabug.org/hp/gogs
 * helyszín: Németország
 * a REST API csak olvasni tud fájlokat, ezt leszámítva teljes értékű
   * https://github.com/gogs/docs-api
 * cenzúrázatlan: Kuba
+
+### gogs
+
+* a kérdés, hogy a NotAbug.org frissítette-e a forkját, vagy a régit használja
+* gazdag REST API funkciók (2022 óta fájl írással)
+  * https://github.com/gogs/docs-api
+  * https://github.com/gogs/gogs/pull/7114
 
 ### teknik.io
 
