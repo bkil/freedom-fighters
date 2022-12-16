@@ -170,6 +170,8 @@ Lásd még:
 * https://teknik.io/
 * szakmai hírek (blog, podcast)
 * Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, személyes blogok
+* megszűnés vagy átvétel alatt
+* https://blog.teknik.io/uncled1023/p/17042
 
 ### trom.tf
 
@@ -267,7 +269,7 @@ Lásd még:
 ### Feneas.org
 
 * http://feneas.org/
-* jelenleg 12 EUR/év a tagdíj, de van amelyik szolgáltatásuk díjmentes
+* 12 EUR/év a tagdíj, de van amelyik szolgáltatásuk díjmentes
 * WeDistribute (hírek, leírások), Fediverse.party (népszerűsítés)
 * Searx (kereső), Matrix/Element (csevegés), Friendica (közösségi háló), Diaspora (közösségi háló), Etherpad (közös jegyzetelés), GitLab (kód), Nextcloud (biztonsági mentésnek vagy doksik, stb), Collabora (dokumentumszerkesztés), Discourse (fórum)
 * infrastruktúra: https://git.feneas.org/feneas/infrastructure/ansible
