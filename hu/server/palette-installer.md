@@ -24,9 +24,6 @@ Lásd még:
 * https://gitlab.com/flap-box/flap
 * https://ubos.net/apps/
 * https://github.com/nextcloud/nextcloudpi
-* Docker
-  * https://dockstarter.com/
-    * https://github.com/GhostWriters/DockSTARTer/
 * https://gitlab.com/bitsii/Bitsii/-/wikis/home
   * Raspberry Pi: Snap, nginx, NextCloud, Domoticz, Syncthing, webshell, File browser, Notebook, Webcam
   * https://gitlab.com/bitsii/BBridge/-/blob/master/resources/bpinstalls.json
@@ -50,6 +47,13 @@ Lásd még:
     * https://github.com/nodiscc/xsrv#user-content-roles
 * Kubernetes
   * https://github.com/bobbyd0g/commlab
+
+### Docker
+
+* https://dockstarter.com/
+  * https://github.com/GhostWriters/DockSTARTer/
+* https://github.com/DFabric/dppm
+  * https://github.com/DFabric/dppm-packages-source
 
 ### CapRover
 
