@@ -37,7 +37,7 @@ Note that such a system is not suitable for groups that are mostly conversationa
   * https://gitlab.com/bashrc2/epicyon/-/blob/main/content.py#L1185
 * only redaction supported:
   * Mastodon
-    * https://github.com/mastodon/mastodon/blob/52e5c07948c4c91b73062846e1f19ea278ec0e24/app/javascript/mastodon/features/status/index.js#L65
+    * https://github.com/mastodon/mastodon/blob/2889c686108e89a87317505f93b841f5a8a6649b/app/javascript/mastodon/features/status/index.js#L70
     * https://github.com/mastodon/mastodon/blob/a8a7066e977cb0aa1988d340ef8b7c542f179b14/app/javascript/mastodon/reducers/compose.js#L424)
   * Diaspora
   * Pleroma
