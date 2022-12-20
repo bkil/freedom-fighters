@@ -115,7 +115,7 @@ Access-Control-Allow-Origin: *
 * Store a copy of each feed in HTML
 * Preferably under the main feed URL that others are referring to
 * Insert cross-feed links
-* Optionally format as a twtxt-HTML polyglot via a preformatted block to minimize storage overhead
+* Optionally format as a twtxt-HTML polyglot via a preformatted block to minimize storage overhead as per #static_html_rendering
 
 ### CORS proxy
 
@@ -310,16 +310,25 @@ Mechanism:
 * The client could choose one supported alternative and only fetch from that one (if it is up to date), not from all redundant versions
 * The client could save multiple round trips of indirection, checking for CORS and existence of alternatives
 * The mapping could be done inline or via metadata at the beginning of the feed file
-* See also #cors_headers #cors_avoidance #search_engine_optimization #mapping
+* See also #cors_headers #cors_avoidance #search_engine_optimization #mapping #static_html_rendering
 
-### Alias mention
+### Static HTML rendering
+
+* Alternate content metadata field to link to a HTML/gemini version of the feed (unless a polyglot to begin with as per )
+* The HTML version should be accessible though a minimal web client without JavaScript and for #search_engine_optimization
+* Posts should be legible, but it need not look perfect
+* It may be shown in full fidelity by a dedicated client or web app using progressive enhancement
+* Messages and threads should carry unique anchors
+* #message_mention and #thread_subtree_mention should be rendered to a URL (e.g. http://example.com/joke#%32022-10-31T06:54Z )
+
+### Mention aliases
 
 * Declare the nickname along the URL of our followers or who we follow in the metadata
 * A new metadata field could be introduced to share the nickname we use for other feeds we communicate with otherwise
 * Mentions could be shortened to @nickname instead of @<nickname feedurl> that is more realistic to type by hand
 * Take care to update the metadata on changes to our followings and ensure uniqueness
 * Rewrite our past posted messages upon changes via #forked_message_correction
-* Canonicalize mentions in incoming posts by expanding the URL
+* Canonicalize mentions in incoming posts by expanding the URL and then contracting to our own nick in our own view
 
 ### Feed deletion
 
@@ -378,6 +387,18 @@ Mechanism:
 * https://dev.twtxt.net/doc/twthashextension.html
 * https://git.mills.io/yarnsocial/yarn/issues/327
 * https://git.mills.io/yarnsocial/yarn/issues/42
+
+### Message mention
+
+* A syntax through which a post can mention (reference, point towards) one or more messages based on #federated_message_identifiers
+* Should ideally produce a ping for the mentioned user with existing parsers
+* e.g., @<http://example.com/joke>(2022-10-31T06:54Z)
+
+### Thread subtree mention
+
+* A syntax through which a post can mention (reference, point towards) all messages under the thread subtree based on #federated_message_identifiers
+* Might produce a ping for either only the top poster user or everyone within the thread
+* e.g., @<http://example.com/joke>(2022-10-31T06:54Z*)
 
 ### Threads
 
@@ -444,8 +465,9 @@ Separating these two links allows for the user or moderator to either reply to a
 * For mentions of people who we don't follow
 * Either a dedicated real time, self-hosted endpoint
 * Or one or more registries used by us along with multiple people
-* A registry would then store and forward these mentions later by other private means: webhook, email, XMPP, etc. or each user may poll the registry
+* A registry would then store and forward these mentions later by other private means: webhook, #uri_query_push , #email_mentions , XMPP, etc. or each user may poll the registry
 * Might consider also using the User-Agent HTTP request header for this where supported
+* See #uri_query_push
 
 ### Email mentions
 
@@ -453,6 +475,14 @@ Separating these two links allows for the user or moderator to either reply to a
 * Or if we have not received a #read_receipt from them for a long time (24 hours?)
 * They can broadcast their email address in the metadata
 * We can send an email to them to notify about the mention (follow request)
+* See #webhooks
+
+### URI query push
+
+* For clients where setting the HTTP User-Agent request header is not possible
+* Allows for follower discovery on static web hosting via analysing the server request log
+* Optionally pass in the feed of the reader within the query
+* See #webhooks
 
 ### Content indexing
 
