@@ -392,13 +392,21 @@ Mechanism:
 
 * A syntax through which a post can mention (reference, point towards) one or more messages based on #federated_message_identifiers
 * Should ideally produce a ping for the mentioned user with existing parsers
-* e.g., @<http://example.com/joke>(2022-10-31T06:54Z)
+
+```
+@<http://example.com/joke>(2022-10-31T06:54Z)
+@joke(2022-10-31T06:54Z)
+```
 
 ### Thread subtree mention
 
 * A syntax through which a post can mention (reference, point towards) all messages under the thread subtree based on #federated_message_identifiers
 * Might produce a ping for either only the top poster user or everyone within the thread
-* e.g., @<http://example.com/joke>(2022-10-31T06:54Z*)
+
+```
+@<http://example.com/joke>(2022-10-31T06:54Z*)
+@joke(2022-10-31T06:54Z*)
+```
 
 ### Threads
 
