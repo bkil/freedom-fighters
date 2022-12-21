@@ -57,7 +57,24 @@ References:
 
 ### Inline attachments
 
-* "data: URI" could be allowed to share tiny (few kB) GIF/SVG images or binaries
+* data: URI
+* up to a few kilobytes
+* images of GIF, JPEG, WebP or AVIF
+* sandboxed HTML documents for CSS-based diagrams, animation or interaction
+* SVG sanitized manually for security
+* sharing certificates or binaries
+* https://en.wikipedia.org/wiki/Data_URI_scheme
+
+### Origin funneling
+
+* A user may receive deep anchor links from other users on external channels
+* Links may point to frontend HTML hosted on different origins
+* Browser caching is per-origin
+* Improve efficiency by funneling cached content to a stable origin either via an iframe or by redirecting
+* Redirecting to a trusted frontend also enables trusted password entry
+* A customized bookmarklet to redirect to their "home" frontend and transfer any loaded data from the body through the anchor
+* An option to migrate between frontends
+* The preloader offers redirection upon first opening the given origin so the user may also override the version of the app embedded
 
 ### Expiration
 
@@ -191,6 +208,7 @@ Access-Control-Allow-Origin: *
 * The desired poll frequency of each feed adapted to the most recent observed activity
 * The last poll timestamp
 * Per feed metadata mentioned in #feed_metadata_for_cors_avoidance
+* Private follows
 
 ## Protocol suggestions
 
@@ -407,6 +425,7 @@ Mechanism:
 
 * A syntax through which a post can mention (reference, point towards) all messages under the thread subtree based on #federated_message_identifiers
 * Might produce a ping for either only the top poster user or everyone within the thread
+* see: #threads
 
 ```
 @<http://example.com/joke>(2022-10-31T06:54Z*)
