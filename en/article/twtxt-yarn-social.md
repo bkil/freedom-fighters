@@ -122,6 +122,11 @@ Access-Control-Allow-Origin: *
 * To bridge the gap of following feeds not reachable by #cors_headers #cors_avoidance #mirroring
 * A server that can proxy an HTTP request and add #cors_headers
 
+### HTTPS mixed content
+
+* Can be worked around on the client side or via a proxy backend
+* [./circumvent-https-mixed-content.md](./circumvent-https-mixed-content.md)
+
 ### Mapping
 
 * If the URL maps to a path on the same machine, avoid duplication during #mirroring

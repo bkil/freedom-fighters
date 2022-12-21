@@ -39,7 +39,7 @@ A `<form>` post to an HTTP target still succeeds on most browsers, but gives a w
 * Pass any form data to submit as URI parameters
 * The URI should be at most 2KB and must be at most 8KB
 * Encode the response as an uncompressed `.png` on the backend
-* Decode the returned resource in JavaScript
+* Decode the returned resource in JavaScript (if using CORS)
 
 ### CSP report
 
@@ -77,6 +77,24 @@ Content-Security-Policy-Report-Only: default-src 'none'; report-uri http://examp
 ```
 <meta http-equiv="refresh" content="0; url=https://example.com/?i=callbackInput&o=responseData">
 ```
+
+### postMessage
+
+* If we do not control the endpoints that provide the, but are CORS-enabled (or we utilize workarounds).
+* Create a long lived insecure context that does all needed individual requests and communicate with the secure app through Window.postMessage in JavaScript.
+
+Alternatives:
+
+* The user could open a window for an insecure document that embeds the app in an iframe
+* The user could open a window for an insecure document that opens the app in a window
+* The user could open a window for a data: URI that embeds the app in an iframe
+* The user could open a window for a data: URI that opens the app in a window
+* The app could open a window for an insecure document
+
+See a proof of concept implementation here:
+
+* https://github.com/bkil/static-wonders.js/blob/master/jump/secure-context-mixer.html
+* https://github.com/bkil/static-wonders.js/blob/master/jump/secure-context-fetch.html
 
 ## Past workarounds
 
