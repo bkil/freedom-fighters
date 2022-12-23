@@ -1,5 +1,11 @@
 # Fediverse
 
+## Bemutatkozás
+
+https://axbom.com/fediverse/
+
+> The many branches of the Fediverse
+
 ## Telepítés
 
 * https://github.com/friendica/friendica/blob/develop/doc/Install.md Friendica telepítés ssh-n
