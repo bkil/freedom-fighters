@@ -36,9 +36,6 @@ Note that such a system is not suitable for groups that are mostly conversationa
   * https://gitlab.com/bashrc2/epicyon/-/blob/main/posts.py#L5131
   * https://gitlab.com/bashrc2/epicyon/-/blob/main/content.py#L1185
 * only redaction supported:
-  * Mastodon
-    * https://github.com/mastodon/mastodon/blob/2889c686108e89a87317505f93b841f5a8a6649b/app/javascript/mastodon/features/status/index.js#L70
-    * https://github.com/mastodon/mastodon/blob/a8a7066e977cb0aa1988d340ef8b7c542f179b14/app/javascript/mastodon/reducers/compose.js#L424)
   * Diaspora
   * Pleroma
     * https://git.pleroma.social/pleroma/pleroma/-/issues/1429
@@ -49,6 +46,8 @@ Note that such a system is not suitable for groups that are mostly conversationa
   * only the most recent message mutable later on
   * fully mutable after reaching a certain level of reputation within the system
 * fully mutable: Matrix, FluxBB, Friendica, Hubzilla, Epicyon blog post (plans to limit this to 5 minutes), issue tracker, OSM diary, mediawiki
+  * Mastodon
+    * https://github.com/mastodon/mastodon/blob/7bdb2433f1a6e0b6a5e4df068003ac6e2e296048/app/javascript/mastodon/features/status/components/action_bar.js#L15
 
 ### Features
 
