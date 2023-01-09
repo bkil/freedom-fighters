@@ -80,8 +80,11 @@ Az `opcionális:` jelölés alatt azt értjük, hogy mivel a többihez képest j
   * adott fájlok struktúrájának vagy változástörténetének ismerete szerint céltudatos ofszettel frissíteni, majd szintetizálni az új változatot
     * RSS feed: ha az elejére kerülnek az új bejegyzések és adott számú bejegyzés van benne, annak elég csak elejét olvasni a végét pedig eldobni, méret alapján visszaellenőrizni
     * honlap: sok egyszerűbb hír- és hirdetőoldalon csak a reklám változik, az időjárás, névnap, utolsó frissítés dátuma, ezen kívül az új bejegyzések a HTML tetejére kerülnek
+    * https://en.wikipedia.org/wiki/SDCH
+    * https://en.wikipedia.org/wiki/Delta_encoding#Delta_encoding_in_HTTP
 * gzip helyett brotli kényszerítése HTTPS nélkül is
 * fájl magic és fejlécek alapján adaptív HTTP range request hívásokkal részleges letöltés
+  * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Range
   * Néha kivonatolható a mozgó gif előnézeti képe, fotók előnézete (progressive JPEG)
 
 ### Távoli proxy nélkül hasznos böngésző szolgáltatások
