@@ -112,6 +112,13 @@ Előnye, hogy olyan protokollt és titkosítást telepítünk rá amilyet szeret
 * cég: Zoom
 * ország: USA
 
+### Planetscale
+
+* https://planetscale.com/pricing
+* 5GB tárhely
+* 1 milliárd sor olvasása/hó
+* 10 millió sor írása/hó
+
 ### Storj DCS
 
 * https://www.storj.io/pricing
