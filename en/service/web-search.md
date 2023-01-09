@@ -38,6 +38,13 @@ Here are some reasons why this is not desirable:
 * returns results within an iframe - opening the link directly allows viewing the results without JavaScript
 * https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
 
+### Marginalia
+
+* https://search.marginalia.nu/
+* FOSS, can also be self-hosted
+* https://git.marginalia.nu/marginalia/marginalia.nu
+* can be used without JavaScript
+
 ## Worrisome
 
 ### ExaLead
@@ -107,6 +114,7 @@ Here are some reasons why this is not desirable:
 * https://advancedweb.fr/detecter-les-robots-de-recherche-via-javascript/
 * https://community.centminmod.com/threads/blocking-bad-or-aggressive-bots.6433/
 * https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/
+* https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/
 
 ## Image search
 
