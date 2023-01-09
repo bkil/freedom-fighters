@@ -55,14 +55,64 @@ References:
 
 ## Client suggestions
 
+### Versatile storage
+
+* GitLab, Gitea, Gogs, MediaWiki, WebDAV, GitHub, BitBucket
+* Custom CGI
+* Manually export to HTML or twtxt to transfer over SFTP, SCP or git
+* https://github.com/BeyondCodeBootcamp/Bliss
+* https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-12.html
+
+### Link preview
+
+* May also trigger based on file extension within a shared bare URI
+* Images of GIF, JPEG, WebP or AVIF
+* Sandboxed HTML documents in iframe for ASCII graphics in txt, CSS-based diagrams, screenshots, animation or interaction
+* SVG possibly also sanitized manually for security
+* Sharing certificates or binaries
+* https://blog.tomayac.com/2019/12/01/animated-svg-favicons/
+* See #trusted_origins #image_dimensions
+* https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-allow
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+* https://microformats.org/wiki/rel-license
+
+### Image dimensions
+
+```
+![screenshot](screenshot.png#256x128 title)
+![screenshot](screenshot.png title =256x128)
+![screenshot](screenshot.png title =256x)
+![screenshot](screenshot.png title =x128)
+![screenshot](screenshot.png title){width=256 height=128}
+![screenshot](screenshot.png title){width=256px height=128px}
+![screenshot](screenshot.png title){width="256px" height="128px"}
+![screenshot](screenshot.png title){:width=256 height=128}
+![screenshot](screenshot.png title){:style="width:256px; height:128px"}
+<img src="screenshot.png" alt="screenshot" title="title" width="256" height="128">
+```
+
+* https://docs.gitlab.com/ee/user/markdown.html#change-the-image-dimensions
+* https://github.com/jgm/commonmark-hs/blob/02603646899f4a0c2acc580e5b5a8818c4e68684/commonmark-extensions/test/attributes.md
+* https://gitlab.com/gitlab-org/gitlab/-/blob/1c3f7bdac188a45d819365e76fde2101e0dada6a/lib/banzai/filter/attributes_filter.rb#L19
+* https://kramdown.gettalong.org/syntax.html#images
+* https://github.com/gettalong/kramdown/blob/0b0a9e072f9a76e59fe2bbafdf343118fb27c3fa/lib/kramdown/parser/kramdown/extensions.rb#L139
+* https://github.com/flutter/packages/blob/a75d69cfa82fe9c9cdfc2539d4f23558d3a95afe/packages/flutter_markdown/lib/src/builder.dart#L528
+* https://stackoverflow.com/questions/49074666/changing-image-size-in-markdown-on-gitlab/74906593#74906593
+
+### Trusted origins
+
+* The origin of the frontend is trusted, see #origin_funneling
+* The origin of our feed is trusted
+* The origins of who the user follows are trusted
+* Certain well known UGC hosting portals may be considered trusted
+* The user should be able to specify a list of additional trusted origins
+* Should confirm before #link_preview or external links attempt to navigate to other origins
+
 ### Inline attachments
 
-* data: URI
-* up to a few kilobytes
-* images of GIF, JPEG, WebP or AVIF
-* sandboxed HTML documents for CSS-based diagrams, animation or interaction
-* SVG sanitized manually for security
-* sharing certificates or binaries
+* Option to share #link_preview via `data:` or `javascript:` URI
+* Up to a few kilobytes
 * https://en.wikipedia.org/wiki/Data_URI_scheme
 
 ### Origin funneling
@@ -75,6 +125,7 @@ References:
 * A customized bookmarklet to redirect to their "home" frontend and transfer any loaded data from the body through the anchor
 * An option to migrate between frontends
 * The preloader offers redirection upon first opening the given origin so the user may also override the version of the app embedded
+* https://developer.mozilla.org/en-US/docs/Web/API/Storage_Access_API
 
 ### Expiration
 
@@ -142,6 +193,7 @@ Access-Control-Allow-Origin: *
 ### HTTPS mixed content
 
 * Can be worked around on the client side or via a proxy backend
+* The client should retry with HTTP or HTTPS upon failure to fetch: expired certificate vs. mixed content
 * [./circumvent-https-mixed-content.md](./circumvent-https-mixed-content.md)
 
 ### Mapping
@@ -173,7 +225,12 @@ Access-Control-Allow-Origin: *
 * Register a puppet user on each instance of interest to be able to submit comments
 * Deduplicate content
 * Map as #forums
+* https://codeberg.org/fediverse/delightful-activitypub-development/issues/16#issuecomment-758257
+* https://gitlab.com/paulkiddle/fedi-inbox
 * https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/
+* https://github.com/dariusk/express-activitypub/blob/master/routes/inbox.js
+* https://github.com/Kirschn/mastodon.js
+* https://notabug.org/halcyon-suite/halcyon
 
 ### Forum federation
 
@@ -181,7 +238,11 @@ Access-Control-Allow-Origin: *
 * Post introduction and ask for permission
 * Propagate kick & ban
 * Map as #forums
+* Option for a bridged user to take over their puppet account subject to verification via a link in their profile
+* Option for a remote moderator to specify whether individual bridged users may opt out or not
 * https://github.com/mastodon/mastodon/pull/19059
+* https://tilde.news/
+* https://a.gup.pe/
 
 ### Feed health indication
 
@@ -194,11 +255,32 @@ Access-Control-Allow-Origin: *
 * Show the timestamp of the most recent post within the feed
 * Potentially also order the followed feeds by last update date, least recently updated first
 
+### Yarn hash resolution
+
+* Need to resolve the truncated blake2b hash to #federated_message_identifiers in order to follow conversations
+* Based on user mentions within the thread
+* Based on intersections of followers of participants (and mentioned users) in the thread
+* Query the missing message through the API (after made CORS-aware) on one or more participating yarnd servers
+* If #mirroring a feed containing hash references, also publish a modified feed with references resolved
+* https://dev.twtxt.net/doc/twthashextension.html
+
+### Thread synthesis
+
+* Certain posts (or certain users) may fail to mention which exact message they are replying to
+* In case when the post includes a mention (especially if it starts with a mention), the most recent post of the mentioned user before that point in time could be searched for
+* The previous or the next message of the mentioned user may include a thread reference
+* Citation may be detected to find a recent message that contains the text
+* See #federated_message_identifiers #threads
+
 ## Hosted account state
 
 ### Color scheme
 
 ### Show inline images
+
+As per #link_preview
+
+### Trusted domains
 
 ### Followers metadata
 
@@ -209,6 +291,8 @@ Access-Control-Allow-Origin: *
 * The last poll timestamp
 * Per feed metadata mentioned in #feed_metadata_for_cors_avoidance
 * Private follows
+
+### Multiple account logins
 
 ## Protocol suggestions
 
@@ -228,9 +312,16 @@ Access-Control-Allow-Origin: *
 * Any member could invite others through a slash command
 * At a minimum, a forum file should list its members (who are both followers and who the forum follows)
 * List the members who have moderator privilege: ability for message #redaction and removal of users from the forum
-* Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members)
+* Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members), potentially served as a registry file
 * Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass before allowing this.
-* Members have a separate subaccount to store their answers for each forum they participate in
+* Members should create a separate subaccount to store their answers for each forum they participate in
+* A member may reuse a single subaccount between forums to facilitate cross-posting
+* A member may indicate that they only wish to broadcast posts that mention the forum user
+* A forum may indicate that all broadcast posts should be considered to carry a set of hashtags for search
+* A member may indicate that all their posts broadcast towards the forum should be considered to carry a set of hashtags for search
+* A forum may list allowed hashtags and it will only broadcast posts (or roots) containing it
+* Sticky post links in metadata about detailed topic and rules
+# Possibly connect member profiles as a webring in #static_html_rendering
 * https://git.mills.io/yarnsocial/yarn/issues/325
 * https://git.mills.io/yarnsocial/yarn/issues/344
 
@@ -240,6 +331,8 @@ Access-Control-Allow-Origin: *
 * Allow confirmed members to comment
 * Allow participants and guests to RSVP
 * Consider combining with the following features: #forums #aggregated_message_reactions #webhooks #email_mentions
+* https://aaronparecki.com/2019/12/21/4/indieweb-events
+* https://indieweb.org/rsvp#How_to_publish
 
 ### Poll frequency
 
@@ -342,7 +435,8 @@ Mechanism:
 * Posts should be legible, but it need not look perfect
 * It may be shown in full fidelity by a dedicated client or web app using progressive enhancement
 * Messages and threads should carry unique anchors
-* #message_mention and #thread_subtree_mention should be rendered to a URL (e.g. http://example.com/joke#%32022-10-31T06:54Z )
+* #message_mention and #thread_subtree_mention should be rendered to a URL (e.g. http://example.com/joke/2022.html#%32022-10-31T06:54Z )
+* https://indieweb.org/URL_design
 
 ### Mention aliases
 
@@ -352,6 +446,7 @@ Mechanism:
 * Take care to update the metadata on changes to our followings and ensure uniqueness
 * Rewrite our past posted messages upon changes via #forked_message_correction
 * Canonicalize mentions in incoming posts by expanding the URL and then contracting to our own nick in our own view
+* Collect URL of undeclared mentions based on the aliases used by follows of the post parent, of thread ancestors upwards, of any participants of the thread tree or of anyone who we follow
 
 ### Feed deletion
 
@@ -481,6 +576,7 @@ Separating these two links allows for the user or moderator to either reply to a
 * Broadcast a suggested rewording or #redaction for the author
 * They could accept it to be applied through #forked_message_correction
 * After the edit is applied, the edit suggestion could be removed
+* Help captioning previewable content such as multimedia
 * The suggestion may come from outside the followers of the author through either forwarding (unreviewed) or a vow (review) by shared contacts (or via moderators in case of #forums )
 
 ### Aggregated message reactions
@@ -500,6 +596,7 @@ Separating these two links allows for the user or moderator to either reply to a
 * A registry would then store and forward these mentions later by other private means: webhook, #uri_query_push , #email_mentions , XMPP, etc. or each user may poll the registry
 * Might consider also using the User-Agent HTTP request header for this where supported
 * See #uri_query_push
+* http://superkuh.com/blog/2020-01-10-1.html
 
 ### Email mentions
 
@@ -523,6 +620,11 @@ Separating these two links allows for the user or moderator to either reply to a
 * To improve results for composite queries, also consider to accumulate each thread and also index it as a meta-entity
 * Sign
 * Also a good candidate for #mirroring
+
+### Sitemap
+
+* Enumerating all public files on our host
+* https://en.wikipedia.org/wiki/Sitemaps
 
 ### Gossip feed index
 
