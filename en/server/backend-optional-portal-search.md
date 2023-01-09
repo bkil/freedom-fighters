@@ -211,3 +211,5 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://github.com/blevesearch/bleve
 * https://github.com/blugelabs/bluge
 * https://git.mills.io/prologic/spyda
+* https://memex.marginalia.nu/log/69-creepy-website-similarity.gmi
+* https://memex.marginalia.nu/log/06-optimization.gmi
