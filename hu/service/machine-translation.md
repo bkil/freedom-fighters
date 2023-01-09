@@ -82,6 +82,7 @@ Az üzemeltetőnek kell betanítani és tesztelni.
 ### Online szótár
 
 * http://szotar.sztaki.hu/
+* https://www.keybot.com/
 
 ### Offline is használható szótár
 
