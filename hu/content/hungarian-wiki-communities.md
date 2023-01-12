@@ -20,7 +20,7 @@ Ezen kívül túl sok egyént kellene megneveznünk aki egyedül gyárt FOSS tar
 * https://wiki.openstreetmap.org/wiki/Hungary
 * https://warframe.fandom.com/hu/wiki/Kezd%C5%91lap
 
-### Wikimedia Commons
+### Wikimedia Foundation
 
 * https://hu.wikipedia.org/wiki/Kezd%C5%91lap
 * https://hu.wikinews.org/wiki/Kezd%C5%91lap

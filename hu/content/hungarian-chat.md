@@ -8,12 +8,12 @@
 ## IRC
 
 * https://www.gyaloglo.hu/ IRC
-* https://dumanet.hu/chat/?chan=DumaNet ircs://irc.dumanet.hu:6666/DumaNet irc6://ipv6.dumanet.hu:6666/DumaNet
-* https://www.dumanet.eu/ Kiwi ircs://irc.dumanet.hu:6666/DumaNet
-* https://www.fiatalok.net/ irc://ircline.org/FreeBNC,Fiatalok
-* https://ircline.org/ irc://ircline.org/pcpult
-* https://hup.hu/faq/irc irc://irc.libera.chat/hup.hu
-* irc://irc.quakenet.eu.org/magyaritasok.hu
+* https://dumanet.hu/chat/?chan=DumaNet <ircs://irc.dumanet.hu:6666/DumaNet> <irc6://ipv6.dumanet.hu:6666/DumaNet>
+* https://www.dumanet.eu/ Kiwi <ircs://irc.dumanet.hu:6666/DumaNet>
+* https://www.fiatalok.net/ <irc://ircline.org/FreeBNC,Fiatalok>
+* https://ircline.org/ <irc://ircline.org/pcpult>
+* https://hup.hu/faq/irc <irc://irc.libera.chat/hup.hu>
+* <irc://irc.quakenet.eu.org/magyaritasok.hu>
 
 ## Egyéb
 
@@ -24,7 +24,7 @@ email megerősítés szükséges.
 * https://chatchat.hu/
 * https://chat.hu/
 * https://www.csaladinet.hu/csaladi-chat/
-* https://heavenface.com/ olvasható regisztráció nélkül
+* https://heavenface.com/ olvasható regisztráció nélkül is
 * https://www.jmpoint.hu/modules.php?name=4nChat
 * https://picibaba.hu/chat/
 * https://royalchat.hu/chat/

@@ -283,5 +283,5 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 
 ## Külső hivatkozások
 
-* [../free-static-web-hosting.md#Magyar blog](../free-static-web-hosting.md#Magyar%20blog)
+* [../free-static-web-hosting.md#Magyar blog](../free-static-web-hosting.md#user-content-magyar-blog)
 * https://forum.lap.hu/
