@@ -113,6 +113,16 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * http://softair.hu/
 * https://www.testbike.hu/velemeny/
 
+### Vallás
+
+* https://alfa-omega.hu/forum2/index.php
+* http://erdelyikeresztyenek.network.hu/forum
+* https://jmpoint.hu/modules.php?name=Forums bejelentkezés után
+* https://listserv.osb.hu/mailman/listinfo
+* https://lutheran.hu/
+* https://nvda.hu/mailman/listinfo/lista_nvda.hu
+* https://forum.szkeptikus.hu/
+
 ## Tudomány
 
 * https://csillagvaros.hu/
@@ -226,16 +236,6 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * http://lists.ubk.hu/
 * https://skamilinux.hu/phpBB3/
 * https://ubuntu.hu/
-
-### Vallás
-
-* https://alfa-omega.hu/forum2/index.php
-* http://erdelyikeresztyenek.network.hu/forum
-* https://jmpoint.hu/modules.php?name=Forums bejelentkezés után
-* https://listserv.osb.hu/mailman/listinfo
-* https://lutheran.hu/
-* https://nvda.hu/mailman/listinfo/lista_nvda.hu
-* https://forum.szkeptikus.hu/
 
 ## Vegyes
 
