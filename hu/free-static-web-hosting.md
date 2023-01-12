@@ -82,6 +82,12 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * regisztráció csak papíron, levélben vagy faxolva beküldve, évente meg kell újítani!
 * reklámokat helyez el
 
+### Lapunk.hu
+
+* https://lapunk.hu/
+* korlátlan számú oldal
+* kiegészítők: blog, hírek, cikkek, webshop, képgaléria, fórum, email kapcsolati űrlap, vendégkönyv, szavazás, látogatói statisztikák
+
 ## Magyar blog
 
 A tárhely általában korlátlan.
