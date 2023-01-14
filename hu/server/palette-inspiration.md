@@ -114,6 +114,7 @@ Lásd még:
 
 ### nogafam.es
 
+* https://www.nobigtech.es/
 * https://www.nogafam.es/#servicios
 * Szolgaltatások
   * Mastodon ("masto")
@@ -133,7 +134,7 @@ Lásd még:
   * WriteFreely ("writeas")
   * Miniflux ("rss", RSS aggregátor)
   * Wallabag ("share")
-  * [Porl](https://github.com/cydrobolt/polr) ("u", linkrövidítő)
+  * [Polr](https://github.com/cydrobolt/polr) ("u", linkrövidítő)
 * adományok fogadása: LibrePay, PayPal, bankszámla
 
 ### poddery.com
@@ -164,14 +165,6 @@ Lásd még:
 * Searx kereső ("search"), PrivateBin (pastebin, "bin"), HedgeDoc (markdown koeditálás, "pad"), Etherpad (WYSIWYG koeditálás), EtherCalc, XMPP, Mastodon ("social"), Jitsi Meet ("talk"), Framadate ("poll"), CyberChef ("toolbox"), Tiny Tiny RSS, Invidious, Nitter, Bibliogram
   * https://github.com/gchq/CyberChef
 * Tor hidden service átjáró a legtöbb szolgáltatásukra
-
-### teknik.io
-
-* https://teknik.io/
-* szakmai hírek (blog, podcast)
-* Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, személyes blogok
-* megszűnés vagy átvétel alatt
-* https://blog.teknik.io/uncled1023/p/17042
 
 ### trom.tf
 
@@ -244,7 +237,7 @@ Lásd még:
   * Building photo and video galleries: Piwigo, Lychee
   * Conducting surveys, polls and questionnaires: Kobo/Enketo
   * Collecting ethical usage and traffic analytics: Matomo, AWStats
-* https://github.com/Wakoma/Lokal/tree/main/config
+* https://github.com/Wakoma/Lokal/tree/15905f005a58fba63b3b6f10c24a1c6caa2c1232/roles
   * https://wakoma.co/lokal/
   * Kiwix
   * Nextcloud
@@ -273,6 +266,14 @@ Lásd még:
 * WeDistribute (hírek, leírások), Fediverse.party (népszerűsítés)
 * Searx (kereső), Matrix/Element (csevegés), Friendica (közösségi háló), Diaspora (közösségi háló), Etherpad (közös jegyzetelés), GitLab (kód), Nextcloud (biztonsági mentésnek vagy doksik, stb), Collabora (dokumentumszerkesztés), Discourse (fórum)
 * infrastruktúra: https://git.feneas.org/feneas/infrastructure/ansible
+
+### teknik.io
+
+* https://teknik.io/
+* szakmai hírek (blog, podcast)
+* Upload Files (kliens oldali titkosítású fájlmegosztás), Pastebin, Vault (mappák upload és paste részére), Url Shortener, Vault, Git (gitea), email (1GB, Rainloop), Mumble, IRC, személyes blogok
+* https://blog.teknik.io/uncled1023/p/17042
+* https://blog.teknik.io/uncled1023/p/18302
 
 ## Külső hivatkozások
 
