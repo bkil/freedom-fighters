@@ -34,19 +34,24 @@ Lásd még:
 * https://syncloud.org/apps.html
   * https://github.com/syncloud/platform
 * https://github.com/Wakoma/Lokal#user-content-current-services
-* Ansible
-  * https://github.com/debops/debops/tree/master/ansible/playbooks
-  * https://github.com/DaveStephens/ansible-nas
-  * https://github.com/jaywink/ansible-diaspora
-    * https://github.com/jaywink?tab=repositories&q=ansible&type=&language=&sort=
-  * https://github.com/Cloudbox/Cloudbox
-  * https://github.com/osm-fr/ansible-peertube
-  * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
-  * https://github.com/JeroenED/Ansible-Role-Friendica
-  * https://gitlab.com/nodiscc/xsrv/#roles
-    * https://github.com/nodiscc/xsrv#user-content-roles
 * Kubernetes
   * https://github.com/bobbyd0g/commlab
+
+### Ansible
+
+* https://github.com/debops/debops/tree/master/ansible/playbooks
+* https://github.com/DaveStephens/ansible-nas
+* https://github.com/jaywink/ansible-diaspora
+  * https://github.com/jaywink?tab=repositories&q=ansible&type=&language=&sort=
+* https://github.com/Cloudbox/Cloudbox
+* https://github.com/osm-fr/ansible-peertube
+* https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
+* https://github.com/JeroenED/Ansible-Role-Friendica
+* https://gitlab.com/nodiscc/xsrv/#roles
+  * https://github.com/nodiscc/xsrv#user-content-roles
+* https://github.com/Wakoma/Lokal/tree/15905f005a58fba63b3b6f10c24a1c6caa2c1232/roles
+* https://gitlab.com/feneasorg/infrastructure
+* https://git.disroot.org/Disroot-Ansible
 
 ### Docker
 
@@ -107,6 +112,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://git.hcoop.net/?a=project_list;o=age;pf=hcoop
 * https://github.com/DanWin/hosting
 * https://github.com/LukeSmithxyz/landchad
+* https://git.envs.net/envs/ops
 
 ### Rendszergazdai automatizmusok
 
