@@ -103,6 +103,16 @@ Lásd még:
     * FTPS
   * Korlátlan email átirányítás
 
+### DotRoll domain és tárhely
+
+* https://dotroll.com/hu/szolgaltatasok/tarhely/
+  * https://dotroll.com/hu/tudasbazis/dotroll-ingyenes-tarhely/
+* 50MB statikus tárhely ingyen
+* 25GB/hó adatforgalom
+* FTP feltöltés
+* 1 domain, 1 aldomain
+* 10 email átirányítás
+
 ### HonlapTárhely domain
 
 * https://honlaptarhely.hu/domain

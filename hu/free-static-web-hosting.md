@@ -20,12 +20,6 @@ Teljes HTML testreszabást ad.
 Tipikusan FTP klienssel is feltölthető.
 A kiszolgált oldal legfeljebb reklámbeszúrásban térhet el.
 
-### DotRoll
-
-* https://dotroll.com/hu/szolgaltatasok/tarhely/
-* 50MB tárhely
-* FTP feltöltés
-
 ### IngyenWeb
 
 * http://www.ingyenweb.hu/
