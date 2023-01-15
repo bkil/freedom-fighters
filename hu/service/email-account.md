@@ -129,6 +129,19 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 * támogatott ekvivalencia: ".", "-", kis-nagybetű
 * támogatott subaddressing: "+"
 
+### Zoho Mail
+
+* https://www.zoho.com/mail/zohomail-pricing.html
+* csak saját domain alá
+* max. 5 felhasználó
+* max. 5GB tárhely/felhasználó
+* max. 25MB csatolmány
+* max. 1GB feltöltött fájl
+* kétfaktoros hitelesítés
+* elérés kizárólag webes felületen és mobilalkalmazásból
+* székhely: India
+* adattárolás választható: US, EU, CN, IN, AU, JP
+
 ## Etikus országban másodlagos email cím ingyen
 
 * https://webmail.vivaldi.net/ 5GB tárhely, max. 20MB/csatolmány, webmail, IMAPs, SMTPs, POP3s, 6 hónap után a weben inaktív fiókokat törlik, Norvégia (Vivaldi Technologies AS)
