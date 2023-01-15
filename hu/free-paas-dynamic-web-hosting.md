@@ -2,6 +2,39 @@
 
 ## Magyar reklámmentes
 
+### aWh.hu
+
+* https://www.awh.hu/hosting/webhosting
+* 1GB SSD
+* 100GB/ho adatforgalom
+* 1 domain
+* 0 postafiók
+* 1 email átirányítás
+* TLS ingyen
+* PHP 7.4, 8.0, 8.1
+* 1 MySQL adatbázis
+* korlátlan aldomain
+* HTTP/2
+* .htaccess támogatott
+
+### CWeb.hu
+
+* https://cweb.hu/ingyen-tarhely
+* 1GB SSD tárhely
+* 3 adatbázis
+* 3 domain, 3 aldomain (*.nvs.hu)
+* 3 email fiók: POP3, IMAP, webmail
+* PHP, Node.js, Python
+* cPanel vezérlőpult
+* alkalmazástelepítő: WordPress, Joomla, Opencart, Magento
+* cron
+* TLS ingyen
+* CloudFlare
+* CloudLinux
+  * 10 MB/s I/O
+  * 1024 IOPS
+  * 25 belépő folyamat
+
 ### Nethely
 
 * https://www.nethely.hu/ingyenes-tarhely
@@ -24,6 +57,20 @@
 * egy tesztelt kiszolgáló: 200GB HDD RAID-1, 10GB RAM, AMD EPYC 7351P 16-Core @ 2.4GHz
 * CMS alkalmazás telepítő: WebAppInstaller (WAI)
 * csak a fizetős csomagban: cron időzített folyamatok, PHP gyorsító, SSD, részletes látogatottsági statisztika, HTTP/2, biztonsági mentés (Budapesten és Szegeden)
+
+### NextNet.hu
+
+* https://nextnet.hu/ingyen-ssd-tarhely/
+* https://my.nextnet.hu/store/ingyen-tarhely
+* 100MB tárhely
+* korlátlan adatforgalom
+* TLS ingyen
+* SSD
+* 2 email cím: IMAP, POP3, SMTP
+* 1 domain + (1 domain vagy 2 aldomain)
+* Apache2
+* DirectAdmin vezérlőpult
+* alkalmazástelepítő: WordPress, Joomla, Drupal, OpenCart
 
 ## Magyar reklámos
 
@@ -63,15 +110,6 @@
   * HTTP/2
 * biztonsági mentés: Jet backup
 
-### P8
-
-* http://p8.hu/
-* 100MB tárhely
-* PHP
-* MySQL
-* 1 aldomén rendelkezésre áll
-* nincsenek időzített cron folyamatok
-
 ## Külföldi reklámmentes aldoménre is
 
 ### 000webhost
@@ -96,6 +134,13 @@
 * ASP 3.0, MS Access adatbázis
 * korlátlan domén, 1 aldomén
 * Windows 2012 R2
+
+### 1GB.ua
+
+* https://free.1gb.ua/
+* 1GB tárhely
+* PHP
+* 3 postafiók: POP3, SMTP
 
 ### 50Webs
 
@@ -386,6 +431,7 @@
   * Free-Host-Space: https://www.freehostspace.com/free-web-hosting.html
   * FreeSiteHosting: http://freesitehosting.com/
   * FreeWebPageHost: http://freewebpagehost.net/
+  * GAT Free Host http://gatfreehost.runhosting.com/
   * iBestHosting http://ibesthosting.com/
   * iwebzhost https://iwebzhost.net/free-web-hosting.html
   * RedWebHost: https://www.redwebhost.com/free-web-hosting.html
@@ -393,6 +439,7 @@
   * RunHosting
     * https://go.runhosting.com/index.html
     * https://go.runhosting.com/free-web-hosting.html
+  * Tarhely.ml http://tarhely.ml/free-web-hosting.html
   * TekCities https://www.tekcities.com/
   * WebFreeHosting: https://webfreehosting.net/
   * ZettaHost
@@ -767,6 +814,7 @@ Százával akadnak még külföldi alternatívák:
 * https://www.hostsearch.com/free-web-hosting
 * https://www.thefreecountry.com/webhosting/freewebhosts.shtml
 * https://www.thefreesite.com/Free_Web_Space/
+* https://github.com/publicsuffix/list
 
 ### Elévült
 
@@ -844,3 +892,12 @@ A domén vagy már szabad, vagy árulják, vagy reklámokat és ártó kódokat 
 * SSL
 * 4 domén, 4 aldomén
 * 158MB RAM
+
+#### P8
+
+* http://p8.hu/ (404)
+* 100MB tárhely
+* PHP
+* MySQL
+* 1 aldomén rendelkezésre áll
+* nincsenek időzített cron folyamatok
