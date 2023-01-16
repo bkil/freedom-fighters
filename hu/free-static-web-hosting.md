@@ -24,7 +24,7 @@ A kiszolgált oldal legfeljebb reklámbeszúrásban térhet el.
 
 * http://www.ingyenweb.hu/
 * 200MB tárhely
-* FTP feltöltés
+* FTP és weboldalon feltöltés
 
 ## Magyar honlapépítő
 
@@ -81,6 +81,20 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * https://lapunk.hu/
 * korlátlan számú oldal
 * kiegészítők: blog, hírek, cikkek, webshop, képgaléria, fórum, email kapcsolati űrlap, vendégkönyv, szavazás, látogatói statisztikák
+
+### NanoWeb.hu
+
+* https://nanoweb.hu/
+* 20MB tárhely
+* korlátlan adatforgalom
+* 1 honlap, max. 8 oldal (menüpont)
+* max. 50 kép
+* max. 15 fájl (képen kívül)
+* 1 aldomain
+* kiegészítők: kapcsolati űrlap, vendégkönyv
+* 1 widget: óra, eseménynaptár, névnap emlékeztető, szavazás, linkdoboz, szövegdoboz, megosztó gombok
+* hirdetést jelenít meg
+* saját hirdetés nem helyezhető el
 
 ## Magyar blog
 
@@ -532,6 +546,17 @@ Lásd még:
   * fájltípusok: js, gif, jpeg, png, svg, css, pdf, ttf, woff, eot
   * https://help.jimdo.com/hc/en-us/articles/115005512006-Which-file-types-can-I-use-in-the-File-Download-Element-
   * https://funnycat.jimdo.com/en/jimdotutorials-1/change-the-css-of-a-template/
+
+### Mozello.com
+
+* https://www.mozello.hu/arak/
+* teljesen magyarítva
+* aldomain
+* 500MB tárhely
+* ingyen TLS (Cloudflare)
+* webshop: 5 termék, 1 termékopció, 5 termékváltozat, PayPal
+* üzemeltető: Lettország (Mozello SIA)
+* egyedi HTML, CSS és JavaScript
 
 ### site123
 
