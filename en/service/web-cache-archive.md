@@ -4,31 +4,31 @@
 
 ### MementoWeb
 
-http://timetravel.mementoweb.org/memento/2023/https://en.m.wikipedia.org/wiki/Main_Page
-http://timetravel.mementoweb.org/list/20230101000000/https://en.m.wikipedia.org/wiki/Main_Page
-https://web.archive.org/web/en.m.wikipedia.org/wiki/Main_Page
-https://swap.stanford.edu/was/20230101000000mp_/http://en.m.wikipedia.org/wiki/Main_Page
-https://arquivo.pt/wayback/20230101000000mp_/https://en.m.wikipedia.org/wiki/Main_Page
-https://webarchive.loc.gov/all/20230101000000/https://en.m.wikipedia.org/wiki/Main_Page
-https://digital.library.yorku.ca/wayback/20230101000000/https://en.wikipedia.org/wiki/Main_Page
-https://haw.nsk.hr/wayback/20230101000000/http://en.m.wikipedia.org/wiki/Main_Page
-https://archive.ph/submit/?url=https://en.m.wikipedia.org/wiki/Main_Page
-https://wayback.archive-it.org/all/https://en.m.wikipedia.org/wiki/Main_Page
-https://wayback.nli.org.il/*/https://en.m.wikipedia.org/wiki/Main_Page
-https://haw.nsk.hr/wayback/*/https://en.m.wikipedia.org/wiki/Main_Page
+* http://timetravel.mementoweb.org/memento/2023/https://en.m.wikipedia.org/wiki/Main_Page
+* http://timetravel.mementoweb.org/list/20230101000000/https://en.m.wikipedia.org/wiki/Main_Page
+* https://web.archive.org/web/en.m.wikipedia.org/wiki/Main_Page
+* https://swap.stanford.edu/was/20230101000000mp_/http://en.m.wikipedia.org/wiki/Main_Page
+* https://arquivo.pt/wayback/20230101000000mp_/https://en.m.wikipedia.org/wiki/Main_Page
+* https://webarchive.loc.gov/all/20230101000000/https://en.m.wikipedia.org/wiki/Main_Page
+* https://digital.library.yorku.ca/wayback/20230101000000/https://en.wikipedia.org/wiki/Main_Page
+* https://haw.nsk.hr/wayback/20230101000000/http://en.m.wikipedia.org/wiki/Main_Page
+* https://archive.ph/submit/?url=https://en.m.wikipedia.org/wiki/Main_Page
+* https://wayback.archive-it.org/all/https://en.m.wikipedia.org/wiki/Main_Page
+* https://wayback.nli.org.il/*/https://en.m.wikipedia.org/wiki/Main_Page
+* https://haw.nsk.hr/wayback/*/https://en.m.wikipedia.org/wiki/Main_Page
 
 ### YaCy
 
-https://searchlab.eu/IndexBrowser_p.html?path=https://en.m.wikipedia.org/wiki/Main_Page
+* https://searchlab.eu/IndexBrowser_p.html?path=https://en.m.wikipedia.org/wiki/Main_Page
 
 ### Google
 
-https://webcache.googleusercontent.com/search?q=cache:https://en.m.wikipedia.org/wiki/Main_Page
-https://webcache.googleusercontent.com/search?q=cache:https://en.m.wikipedia.org/wiki/Main_Page&strip=1
+* https://webcache.googleusercontent.com/search?q=cache:https://en.m.wikipedia.org/wiki/Main_Page
+* https://webcache.googleusercontent.com/search?q=cache:https://en.m.wikipedia.org/wiki/Main_Page&strip=1
 
 ### Proxy
 
-https://morty.searx.work/?mortyurl=https://en.m.wikipedia.org/wiki/Main_Page
+* https://morty.searx.work/?mortyurl=https://en.m.wikipedia.org/wiki/Main_Page
 
 ## Needs JavaScript
 
@@ -36,7 +36,7 @@ https://morty.searx.work/?mortyurl=https://en.m.wikipedia.org/wiki/Main_Page
 
 Can also be downloaded in bulk, but they also operate an index:
 
-https://index.commoncrawl.org/CC-MAIN-2022-49-index?url=https://en.m.wikipedia.org/wiki/Main_Page&limit=1&sort=reverse&output=json
+* https://index.commoncrawl.org/CC-MAIN-2022-49-index?url=https://en.m.wikipedia.org/wiki/Main_Page&limit=1&sort=reverse&output=json
 
 ```
 curl \
@@ -48,10 +48,10 @@ zcat
 
 ### Others
 
-http://www.bing.com/search?q=url:https://en.m.wikipedia.org/wiki/Main_Page
-http://search.yahoo.com/search?p=url:https://en.m.wikipedia.org/wiki/Main_Page
-http://baidu.com/search grep http://cache.baiducontent.com/
+* http://www.bing.com/search?q=url:https://en.m.wikipedia.org/wiki/Main_Page
+* http://search.yahoo.com/search?p=url:https://en.m.wikipedia.org/wiki/Main_Page
+* http://baidu.com/search grep http://cache.baiducontent.com/
 
 ## References
 
-http://timetravel.mementoweb.org/about/#find
+* http://timetravel.mementoweb.org/about/#find
