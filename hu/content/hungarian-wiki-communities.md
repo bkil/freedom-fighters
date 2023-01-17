@@ -12,12 +12,22 @@ Ezen kívül túl sok egyént kellene megneveznünk aki egyedül gyárt FOSS tar
 
 ## MediaWiki
 
+* https://apocalypse.rulez.org/kozos
+* https://wiki.cserkesz.hu/
+* https://gowiki.hu/
+* https://wiki.ham.hu/
+* https://hogyankell.hu/Kezd%C5%91lap
+* https://hu.wikifur.com/wiki/Kezd%C5%91lap
 * https://wiki.hup.hu/
 * https://wiki.prog.hu/wiki/Kezd%C5%91lap
 * https://wiki.szkeptikus.hu/wiki/Kezd%C5%91lap
 * https://minecraft.fandom.com/hu/wiki/Minecraft_Wiki
 * https://narnia.fandom.com/hu/wiki/Kezd%C5%91lap
+* https://net.fandom.com/hu/wiki/Kezd%C5%91lap
 * https://wiki.openstreetmap.org/wiki/Hungary
+* https://hu.opensuse.org/
+* https://unciklopedia.org/
+* http://veteraninfo.hu/index.php?title=Kezd%C5%91lap
 * https://warframe.fandom.com/hu/wiki/Kezd%C5%91lap
 
 ### Wikimedia Foundation
