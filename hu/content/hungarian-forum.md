@@ -252,6 +252,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://momus.hu/list_forumcategory.php
 * https://omega.ttk.pte.hu/cgi-bin/mailman/listinfo
 * https://punkportal.hu/forum/forum.php
+* https://www.szeretgom.hu/forumok/
 
 ### Nyílt kategóriák
 
