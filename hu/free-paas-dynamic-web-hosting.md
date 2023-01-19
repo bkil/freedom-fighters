@@ -7,15 +7,20 @@
 * https://www.awh.hu/hosting/webhosting
 * 1GB SSD
 * 100GB/ho adatforgalom
-* 1 domain
-* 0 postafiók
+* 1 domain vagy aldomain (*.frw.hu *.gameblog.hu *.dck.hu)
+* korlátlan aldomain
+* 0 email postafiók
 * 1 email átirányítás
 * TLS ingyen
 * PHP 7.4, 8.0, 8.1
 * 1 MySQL adatbázis
-* korlátlan aldomain
 * HTTP/2
 * .htaccess támogatott
+* regisztrációnál kötelező, de nem ellenőrzik: személyi igazolvány szám, telefonszám
+* Kliens portál: WHMCS (magyarul)
+* vezérlőpult: https://www.keyhelp.de/ angol és német nyelven (magyarul nincs!)
+* üzemeltető: https://csb-it.hu/  CSB IT Hosting & Consulting Bt.
+* telepítés: 1 FTP/FTPS fiók és webes fájlkezelő
 
 ### Nethely
 
