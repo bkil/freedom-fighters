@@ -25,6 +25,7 @@ A kiszolgált oldal legfeljebb reklámbeszúrásban térhet el.
 * http://www.ingyenweb.hu/
 * 200MB tárhely
 * FTP és weboldalon feltöltés
+* reklámot helyez el az oldal tetején
 
 ## Magyar honlapépítő
 
