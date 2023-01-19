@@ -230,6 +230,26 @@ Lásd még:
 * Az adatbázisra kisebb korlát is vonatkozhatna mint a teljes tárhelyre
   * Korlátlan = tárhelybe számít bele, nincs külön korlát
 
+### CWeb.hu
+
+* https://cweb.hu/directadmin-webtarhely/
+* megszűnt az ingyen tárhely
+* 2400 Ft/év
+* 1GB SSD tárhely
+* 3 adatbázis
+* 3 domain, 3 aldomain (*.nvs.hu)
+* 3 email fiók: POP3, IMAP, webmail
+* PHP, Node.js, Python
+* cPanel vezérlőpult
+* alkalmazástelepítő: WordPress, Joomla, Opencart, Magento
+* cron
+* TLS ingyen
+* CloudFlare
+* CloudLinux
+  * 10 MB/s I/O
+  * 1024 IOPS
+  * 25 belépő folyamat
+
 ### HostingBázis tárhely
 
 * Promóciós partnerlink ha támogatnátok: https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142

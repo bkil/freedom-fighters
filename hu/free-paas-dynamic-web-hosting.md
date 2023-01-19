@@ -17,24 +17,6 @@
 * HTTP/2
 * .htaccess támogatott
 
-### CWeb.hu
-
-* https://cweb.hu/ingyen-tarhely
-* 1GB SSD tárhely
-* 3 adatbázis
-* 3 domain, 3 aldomain (*.nvs.hu)
-* 3 email fiók: POP3, IMAP, webmail
-* PHP, Node.js, Python
-* cPanel vezérlőpult
-* alkalmazástelepítő: WordPress, Joomla, Opencart, Magento
-* cron
-* TLS ingyen
-* CloudFlare
-* CloudLinux
-  * 10 MB/s I/O
-  * 1024 IOPS
-  * 25 belépő folyamat
-
 ### Nethely
 
 * https://www.nethely.hu/ingyenes-tarhely
