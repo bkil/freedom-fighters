@@ -58,10 +58,13 @@ References:
 ### Versatile storage
 
 * GitLab, Gitea, Gogs, MediaWiki, WebDAV, GitHub, BitBucket
+* DirectAdmin CMD_FILE_MANAGER (HTM_FILE_MANAGER_EDIT)
+* Virtualmin, Vestacp, BlueOnyx, Webmin
 * Custom CGI
 * Manually export to HTML or twtxt to transfer over SFTP, SCP or git
 * https://github.com/BeyondCodeBootcamp/Bliss
 * https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-12.html
+* https://www.stackscale.com/blog/popular-web-hosting-control-panels/
 
 ### Link preview
 
@@ -125,6 +128,7 @@ References:
 * A customized bookmarklet to redirect to their "home" frontend and transfer any loaded data from the body through the anchor
 * An option to migrate between frontends
 * The preloader offers redirection upon first opening the given origin so the user may also override the version of the app embedded
+* May support staged rollout where users are assigned a periodically rotated delay of updating
 * https://developer.mozilla.org/en-US/docs/Web/API/Storage_Access_API
 
 ### Expiration
@@ -437,6 +441,8 @@ Mechanism:
 * Messages and threads should carry unique anchors
 * #message_mention and #thread_subtree_mention should be rendered to a URL (e.g. http://example.com/joke/2022.html#%32022-10-31T06:54Z )
 * https://indieweb.org/URL_design
+* Test with existing data set
+* https://github.com/tkanos/we-are-twtxt
 
 ### Mention aliases
 
