@@ -133,6 +133,45 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
   * https://man.sr.ht/api-conventions.md
 * később fizetősnek tervezik
 
+### CodebaseHQ
+
+* https://www.codebasehq.com/pricing
+* git, subversion, mercurial
+* 100MB tárhely
+* 2 felhasználó
+* 1 projekt
+
+### GitGud
+
+* https://gitgud.io/users/sign_in
+* GitLab
+* kérés után osztott CI futtató
+* API főleg kiadások kapcsán
+  * https://osdn.net/projects/osdn-codes/wiki/CommandLineInterface
+
+### perforce
+
+* https://www.perforce.com/products/helix-teamhub/pricing
+* 1GB tárhely
+* Git, SVN, Mercurial
+
+### PlasticSCM
+
+* https://www.plasticscm.com/pricing
+* 5GB tárhely
+
+### RocketGit
+
+* https://rocketgit.com/op/pricing
+* korlátlan
+* API csak metaadatok olvasására
+  * https://rocketgit.com/op/doc/api
+
+### OSDN
+
+* https://osdn.net/
+* Git, Subversion, Mercurial
+
 ## Negatív példák
 
 ### GitHub.com
