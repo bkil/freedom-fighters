@@ -125,7 +125,7 @@ References:
 * Browser caching is per-origin
 * Improve efficiency by funneling cached content to a stable origin either via an iframe or by redirecting
 * Redirecting to a trusted frontend also enables trusted password entry
-* A customized bookmarklet to redirect to their "home" frontend and transfer any loaded data from the body through the anchor
+* A customized bookmarklet to redirect to their "home" frontend and transfer any loaded data from the body through the anchor or an opener-based relay
 * An option to migrate between frontends
 * The preloader offers redirection upon first opening the given origin so the user may also override the version of the app embedded
 * May support staged rollout where users are assigned a periodically rotated delay of updating
@@ -210,8 +210,9 @@ Access-Control-Allow-Origin: *
 * Honor HTTP If-Modified-Since
 * Lazily only fetch as few archives resulted from #compaction as possible to satisfy a user action
 * Where supported, scan backwards (forwards?) in the file with HTTP range requests to only fetch metadata updates and newly appended entries
-* Optimize feed for chronologically incremental ordering, but accept appending a few edited older entries at the end
-* Allow variable width empty whiteout filler entries so larger feeds may be edited in-place in a bandwidth efficient way
+* Optimize feed for chronologically incremental ordering (an immutable append-only log), but accept appending a few edited older entries at the end
+* Allow variable width empty whiteout filler entries so larger feeds may be edited in-place in a bandwidth efficient way by preserving post offsets
+* See #append_only_metadata_updates
 
 ### Feed priorization
 
@@ -246,7 +247,15 @@ Access-Control-Allow-Origin: *
 * Option for a remote moderator to specify whether individual bridged users may opt out or not
 * https://github.com/mastodon/mastodon/pull/19059
 * https://tilde.news/
+* https://lemmy.ml/
 * https://a.gup.pe/
+* https://midnight.pub/
+* https://bearblog.dev/discover/
+* https://dev.to/t/go
+* https://hashnode.com/n/go
+* gemini://station.martinrue.com/
+* https://status.cafe/
+* https://angel-town.cinni.net/
 
 ### Feed health indication
 
@@ -310,24 +319,45 @@ As per #link_preview
 
 ### Forums
 
-* The account holder creating the main forum account controls participants
-* Invite-only or confirmed per message: the account holder may add members manually after direct messaging, ideally by forwarding the message the new member would like to send
 * Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed
-* Any member could invite others through a slash command
-* At a minimum, a forum file should list its members (who are both followers and who the forum follows)
-* List the members who have moderator privilege: ability for message #redaction and removal of users from the forum
 * Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members), potentially served as a registry file
 * Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass before allowing this.
 * Members should create a separate subaccount to store their answers for each forum they participate in
-* A member may reuse a single subaccount between forums to facilitate cross-posting
+* A member may reuse a single subaccount between strongly related forums to facilitate cross-posting
 * A member may indicate that they only wish to broadcast posts that mention the forum user
-* A forum may indicate that all broadcast posts should be considered to carry a set of hashtags for search
-* A member may indicate that all their posts broadcast towards the forum should be considered to carry a set of hashtags for search
 * A forum may list allowed hashtags and it will only broadcast posts (or roots) containing it
+* A forum may indicate that all broadcast posts should be considered to carry a set of hashtags for search engines
+* A member may indicate that all their posts broadcast towards the forum should be considered to carry a set of hashtags for search engines
 * Sticky post links in metadata about detailed topic and rules
-# Possibly connect member profiles as a webring in #static_html_rendering
+* See also: #forum_access_control #directory
 * https://git.mills.io/yarnsocial/yarn/issues/325
 * https://git.mills.io/yarnsocial/yarn/issues/344
+
+### Forum access control
+
+* The account holder creating the main forum account controls participants
+* The account holder and moderators automatically act upon commands sent by a member: accept, forward, invite, follow
+* The account holder and moderators act upon commands sent by a member after reviewing: -accept, [-]acceptlist, -forward, -invite, -follow, [-]ban, [-]banlist, message #redact , #forked_message_correction
+* The account holder automatically acts upon commands sent by a moderator: [-]accept, [-]acceptlist, [-]forward, [-]invite, [-]follow, [-]ban, message #redaction , #forked_message_correction
+* The account holder acts upon commands sent by a moderator after reviewing: [-]moderator
+* At a minimum, a forum file should list its members (who are both followers and who the forum follows)
+* List the members who have moderator privilege (implies membership)
+* List users who can not be invited either individually or by referring to #abuser_lists (ban)
+* List users either individually or by referring to #abuser_lists and #directory whose forward and invite request will be automatically accepted (turned into a forward and invite respectively)
+* A member can issue a time limited invite for a specific non-banned user (main feed) through a slash command (implies accept). This is expensive as it involves polling the invited feed for a follow request.
+* A member can share #webhooks that include a time-limited token for accepting requests for forward and follow. The member shall review this push channel and issue a forum forward or follow to acceptable requests: #webhooks #email_mentions #uri_query_push
+* Forwarded per message: a new, untrusted outsider may just want to ask a question without the forum having to worry about flooding. The message can be delivered through any feed in common with a member or in #webhooks. Each external reply should also be forwarded the same way.
+
+```
+# moderator = http://m.example/main/f.txt
+# invite = 2022-01-01 http://i.example/main.txt
+# follow = http://u.example/main/f.txt
+# access = banlist http://m.example/main/b.txt
+# access = acceptlist http://m.example/main/a.txt
+# access = ban http://*.evil.example/*
+# access = accept http://a.example/main.txt
+# access = accept http://*.pub.example/*
+```
 
 ### Calendar events
 
@@ -454,6 +484,19 @@ Mechanism:
 * Canonicalize mentions in incoming posts by expanding the URL and then contracting to our own nick in our own view
 * Collect URL of undeclared mentions based on the aliases used by follows of the post parent, of thread ancestors upwards, of any participants of the thread tree or of anyone who we follow
 
+### Append-only metadata updates
+
+* Interpret and generate all metadata in a feed in a way that allows for updates that are offset-preserving and enable append-only following
+* For scalar keys, use the last occurrence of the key and undefine the key if set to the empty value
+* For multivalued keys (follow, link, mention), if the key is prefixed with minus, undo its effect (e.g., `# -follow = http://test.example` )
+* For `link`, use the last occurrence per URL for the description
+* For multivalued keys that possess subkey uniqueness semantics (mention), use for the last occurrence per subkey and interpreted an empty value as cancellation
+* For `follow`, interpret the special nick of `-` as cancellation (e.g., `# follow = - http://test.example` )
+* The effect of a change should only be visible after the modification (e.g., renaming the alias of a follower would not need to rewrite mentions in previous posts)
+* Insert the special meta command line of `# reloadFeed = 1` to the exact tail byte offset if in-place modifications were made to the earlier parts of the feed that could not be represented as patches or which resulted in relocation of posts
+* If the whole feed could be made append-only, #federated_message_identifiers may be replaced with file offset
+* Should state this invariant of feed via `# appendOnly = 1`
+
 ### Feed deletion
 
 * A new metadata field should signal a grace period
@@ -493,6 +536,8 @@ Mechanism:
 * The archive links should be marked up with bounding timestamps to allow ID based partial lookups
 * Potentially store the archive links as a separate file or as a tree if there would be too many (>16)
 * The feed with the most recent posts should be as short as possible and potentially pruned by the #read_receipt of our followers for chat use cases
+* Normal publishing feeds should not be pruned so every post maintains permalinks
+* Introduce new metadata that points to the next feed after this one is closed and indicate either the most recent update if that one is also closed, or no timestamp (if it is not closed), (e.g., `#next = 2023-01-01T00:00Z http://test.example/2022-12.txt` ).
 
 ### Read receipt
 
@@ -518,8 +563,9 @@ Mechanism:
 * Should ideally produce a ping for the mentioned user with existing parsers
 
 ```
-@<http://example.com/joke>(2022-10-31T06:54Z)
-@joke(2022-10-31T06:54Z)
+@<http://example.com/joker>(2022-10-31T06:54Z)
+@<http://example.com/joker#2022-10-31T06:54Z>
+@joker(2022-10-31T06:54Z)
 ```
 
 ### Thread subtree mention
@@ -529,17 +575,20 @@ Mechanism:
 * see: #threads
 
 ```
-@<http://example.com/joke>(2022-10-31T06:54Z*)
-@joke(2022-10-31T06:54Z*)
+@<http://example.com/joker>(2022-10-31T06:54Z*)
+@<http://example.com/joker#2022-10-31T06:54Z_replies>
+@joker(2022-10-31T06:54Z*)
 ```
 
 ### Threads
 
 * To aid decentralized discovery and to opt into viewing the full context
 * A reply should include the #federated_message_idedentifiers of its parent that defines the subthread (similar to `In-Reply-To` in email)
-* Each user who comments on a given thread should start to mirror all #federated_message_identifiers of messages within that thread up to the root (somewhat similar to `References` in email)
+* Idea#1: Each user who comments on a given thread should start to mirror all #federated_message_identifiers of messages within that thread up to the root (somewhat similar to `References` in email)
+* Idea#2: Each user who comments on a given thread should mirror all #federated_message_identifiers (or at least their feed URL) of siblings and on each level towards the root, all predecessor siblings. This enables resilience against parent redaction.
 * Don't mirror obsolete ones affected by #redaction or #forked_message_correction
 * Don't mirror message content in order to respect privacy
+* A user who comments on the thread may decide to rearrange the thread or hide (via #redaction ) any comment from their followers viewing the thread through their timeline. They will be notified about any alteration.
 * Allow a commenter editing their comment to fork off a question to a new disjoint thread or to position the reply under another, more on-topic thread via #forked_message_correction and others can suggest the same via #message_correction_suggestion
 * TODO: For mass scaling, it might be desirable to only list the URLs of accounts of all commenters or if this is still massive, provide for handling as #forums and listing the URLs of trusted #mirroring nodes. Note that such a scale is actually a degenerate use for threading in the real world, but consider whether unifying #threads and #forums would be a feasible workaround.
 * https://dev.twtxt.net/doc/twtsubjectextension.html
@@ -601,6 +650,7 @@ Separating these two links allows for the user or moderator to either reply to a
 * Or one or more registries used by us along with multiple people
 * A registry would then store and forward these mentions later by other private means: webhook, #uri_query_push , #email_mentions , XMPP, etc. or each user may poll the registry
 * Might consider also using the User-Agent HTTP request header for this where supported
+* A user must list all of their pending outgoing hooks within their feed to authenticate the request, otherwise it should be disregarded. I.e., in case of a follow request, a counter-follow must already be present.
 * See #uri_query_push
 * http://superkuh.com/blog/2020-01-10-1.html
 
@@ -648,6 +698,17 @@ Separating these two links allows for the user or moderator to either reply to a
 * The client may locally store a private ephemeral index of all feeds ever mentioned, possibly along with context, statistics and metadata of each occurrence, similarly to a search engine crawler
 * The client may make recommendations about feeds to follow based on its private index and the #gossip_feed_index
 
+### Directory
+
+* Anyone may moderate and share a set of feeds
+* They should share the criteria for inclusion in the description and include hashtags in the metadata
+* Represented just like a #forum except that a timeline should not be rendered from the posts of the followers and none should be mirrored either
+* Thus it is permitted to also subscribe to a directory with a main user feed
+* Members should hold the directory list they are part of in a different metadata field (`# directory = http://a.example/`)
+* A widget can be shown on the user profile for each listed directory with description and links to a previous, next and random profile similarly to webrings in #static_html_rendering
+* Membership can also be used for acceptance #abuser_lists
+* See also #feed_discovery
+
 ### HTML formatting
 
 * Instead of storing markdown and requiring the newline extension
@@ -663,6 +724,7 @@ Separating these two links allows for the user or moderator to either reply to a
 * https://git.mills.io/yarnsocial/yarn/issues/344
 * Any user may share a file where they share their recommendations for "censorship"
 * Abusive feed URLs
+* Iterative positive & negative globs and regexp for matching a URL
 * Hashes of email addresses for abusive accounts
 * Regexp content filters for abusive content
 * Lists of IDs for concrete abusive posts - effectively #redaction
