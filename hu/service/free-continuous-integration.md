@@ -106,3 +106,11 @@ Egyes szoftver projekt tárolóknak is része:
 * https://aws.amazon.com/codepipeline/
 * CI/CD
 * AWS free tier mellé felármentes
+
+### DigitalOcean
+
+* https://www.digitalocean.com/pricing/app-platform
+* CI/CD
+* forrás: GitHub
+* TLS
+* CDN
