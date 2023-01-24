@@ -437,6 +437,13 @@ Lásd még:
 > Developers who need to directly commit code to modules in the core GNOME GitLab group
 > Contributors who need to use services which are restricted to GNOME accounts owners. This includes Nextcloud, Openshift and meet.gnome.org.
 
+### ichi.city
+
+* https://ichi.city/
+* TLS
+* van aldomain
+* SFTP feltöltés
+
 ### Ubuntu membership
 
 * https://wiki.ubuntu.com/Membership#The_Perks
@@ -537,6 +544,12 @@ Lásd még:
 
 ## Külföldi honlapépítő
 
+### carrd.co
+
+* https://carrd.co/
+* max. 3 lap ingyen
+* További elérhető domain: cdr.co
+
 ### jimdo
 
 * https://www.jimdo.com/website/how-to-create/
@@ -573,6 +586,21 @@ Lásd még:
 * inaktivitás esetén törlés
 * fájltípusok: CSS, JavaScript, TXT, JSON, XML
 * CloudFlare
+
+### versoly
+
+* https://versoly.com/pricing
+* 3 lap
+* 5000 napon belül egyedi látogató/hó
+* 50 CMS sor
+* 50 űrlapbeküldés
+* szerkeszthető HTML, CSS, JS
+* kiszolgálás: Amazon AWS
+* szemantikus HTML, Tailwind CSS
+* TLS
+* aldomain: `*.versolyi.page`
+* népszerűsíti magát az oldalunkon
+* átirányítások
 
 ### WebNode.info
 
@@ -629,6 +657,15 @@ Lásd még:
 * reklámokat szúr be
 * biztonsági mentés
 * egyedi HTML
+
+## gemini
+
+* https://cities.yesterweb.org/ HTML is
+* https://flounder.online/ HTML is, van aldomain
+* https://midnight.pub/ HTML is, nincs aldomain
+* https://smol.pub/ egyedi CSS támogatva HTML kiszolgálásnál, van aldomain
+* https://tilde.pink/ csak gemini és gopher, nincs aldomain csak mappa, van CGI
+* gemini://station.martinrue.com/ csak gemini, nincs aldomain, blog és hozzászólások
 
 ## Nagy szereplők
 
