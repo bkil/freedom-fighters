@@ -99,6 +99,85 @@
 
 ## Külföldi reklámmentes aldoménre is
 
+### AlterVista.org
+
+* https://en.altervista.org/create-free-site.php
+* TLS 1.3 ingyen
+* HTTP/2
+* kétféle csomag
+
+WordPress:
+* korlátlan SSD tárhely
+* korlátlan forgalom
+* FTP médiafeltöltéshez és személyre szabáshoz
+* WordPress telepítve
+* PHP 7.3
+* szerkeszthető CSS
+
+File manager:
+* 3GB tárhely
+* 30GB/hó forgalom
+* FTP, PhpMyAdmin, webes fájlkezelő
+* PHP 7/8, MySQL 8
+* .htaccess, mod_rewrite
+* cron
+
+### Anvil.works
+
+* https://anvil.works/pricing
+* Python
+* alacsony CPU
+* adattábla: 100MB hely, max. 50000 sor
+* 30 másodperc háttérfolyamat időtúllépés
+
+### Panteon.io
+
+* 2 sandbox weblap
+  * https://pantheon.io/docs/guides/legacy-dashboard/create-sites/#sandbox-resources
+  * PHP végrehajtó: 4
+  * PHP RAM: 256MB
+* javasolt alkalmazásméret max. 2GB
+* PHP 7.x, 8.0, 8.1, 8.2
+  * GlobalCDN csatlakozási korlát: 59 másodperc
+  * max_file_uploads = 20
+  * max_execution_time = 120
+  * upload_max_filesize = post_max_size = 100MB
+  * max. fájlméret SFTP vagy rsync útján felmásolva: 256MB
+* MariaDB
+* nginx
+* 1 óra inaktivitás után alszik, kb. 30 másodperc felkelteni
+* óránkénti Drupal cron: max 180 másodperc/alkalom, csak nem alvó konténeren, így külső szolgáltatást javasolnak használni
+* Wordpress, Drupal with Composer, Drupal 7
+* deploy: GitHub-Github Actions, GitHub CircleCI, GitLab-GitLabCI, BitBucket-BitBucket Pipelines
+* ingyen TLS
+* Fastly GCDN
+
+### Railway.app
+
+* https://railway.app/pricing
+* majdnem IaaS
+* 512MB RAM
+* 1GB tárhely
+* 100GB/hó kimenő forgalom
+* 500 óra/hó futás
+* CI/CD GitHub tárolóból
+
+### Render.com
+
+* https://render.com/pricing
+  * https://render.com/docs/free#free-web-services
+* 0.1 vCPU, 750 óra használat/hó
+* 512MB RAM
+* 15 perc inaktivitás után alszik, kb. 30 másodperc felkelteni
+* 100GB/hó kimenő forgalom
+* PostgreSQL: 90 naponta törlődik, 256MB RAM, 0.1 vCPU, 1GB SSD tárhely, max 97 kapcsolat
+* Redis: 25MB RAM, max. 50 kapcsolat, nem perzisztens
+* nincs tartós tárhely
+* HTTP/2
+* TLS
+* statikusan is: egyedi HTTP fejlécek, átirányítások, Brotli
+* 400 óra/hó/projekt CI/CD wafy 500 perc/hó/fő: GitHub és GitLab tárolóból
+
 ### 000webhost
 
 * https://www.000webhost.com/cheap-web-hosting
@@ -802,6 +881,7 @@ Százával akadnak még külföldi alternatívák:
 * https://www.thefreecountry.com/webhosting/freewebhosts.shtml
 * https://www.thefreesite.com/Free_Web_Space/
 * https://github.com/publicsuffix/list
+* https://github.com/ripienaar/free-for-dev
 
 ### Elévült
 

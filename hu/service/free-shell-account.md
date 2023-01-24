@@ -92,6 +92,7 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 ### SDF
 
 * https://sdf.org/
+* további domain: freeshell.org
 
 ## Korlátozott ideig
 
