@@ -4,6 +4,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 
 ## Gazdaság
 
+* http://epitkezes.forum.hu/
 * https://netbiznisz.hu/
 * http://www.pokerakademia.com/vBulletin/forum.php
 * https://forum.portfolio.hu/
@@ -88,6 +89,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 ## Életmód
 
 * https://natours.hu/hu/naturizmus-hirek/naturlista/
+* https://zene.hu/forum/temak.php
 
 ### Feminin
 
