@@ -26,6 +26,9 @@ A kiszolgált oldal legfeljebb reklámbeszúrásban térhet el.
 * 200MB tárhely
 * FTP és weboldalon feltöltés
 * reklámot helyez el az oldal tetején
+* nincs TLS
+* aldomain: *.ingyenweb.hu
+* nincs CORS
 
 ## Magyar honlapépítő
 
@@ -39,6 +42,9 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * 10MB tárhely
 * reklámot helyez el
 * nincs fájlfeltöltés
+* aldomain: *.5mp.eu
+* van TLS
+* nincs CORS
 
 ### eOldal.hu
 
@@ -47,6 +53,9 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * tulajdonos: Central Médiacsoport Zrt.
 * infrastruktúra: Websitemaster a.s. a NETHOST s.r.o., Csehország
 * legalább 3 havonta be kell lépni az adminisztrációs felületre
+* van TLS
+* aldomain: *.eoldal.hu
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### ewk.hu
 
@@ -56,6 +65,9 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * 50MB tárhely
 * nincs fájlfeltöltés
 * reklámot helyeznek el
+* van TLS
+* aldomain: *.ewk.hu
+* nincs CORS
 
 ### HuPont.hu
 
@@ -67,6 +79,9 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * nincs fájlfeltöltés
 * nincs iframe beágyazás (csak YouTube)
 * korlátozott HTML szerkeszthetőség
+* nincs TLS
+* aldomain: *.hupont.hu
+* nincs CORS
 
 ### ini.hu
 
@@ -76,12 +91,17 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * üzemeltető: Deltha Rendszerház Kft.
 * regisztráció csak papíron, levélben vagy faxolva beküldve, évente meg kell újítani!
 * reklámokat helyez el
+* nincs TLS
+* nincs CORS
 
 ### Lapunk.hu
 
 * https://lapunk.hu/
 * korlátlan számú oldal
 * kiegészítők: blog, hírek, cikkek, webshop, képgaléria, fórum, email kapcsolati űrlap, vendégkönyv, szavazás, látogatói statisztikák
+* nincs TLS
+* aldomain: *.honlapepito.hu *.qwqw.hu *.lapunk.hu
+* nincs CORS
 
 ### NanoWeb.hu
 
@@ -91,11 +111,12 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * 1 honlap, max. 8 oldal (menüpont)
 * max. 50 kép
 * max. 15 fájl (képen kívül)
-* 1 aldomain
 * kiegészítők: kapcsolati űrlap, vendégkönyv
 * 1 widget: óra, eseménynaptár, névnap emlékeztető, szavazás, linkdoboz, szövegdoboz, megosztó gombok
 * hirdetést jelenít meg
 * saját hirdetés nem helyezhető el
+* 1 aldomain: *.nanoweb.hu
+* nincs CORS
 
 ## Magyar blog
 
@@ -117,6 +138,8 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * https://segitseg.blog.hu/2012/04/01/hogyan_tudok_tetszoleges_html_tartalmaz_berakni_az_oldaldobozokhoz
   * egyedi HTML és CSS
   * JavaScript kód is beszúrható
+* aldomain: *.blog.hu
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### Blogger.hu
 
@@ -132,6 +155,8 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * Love.hu
   * Talalka.hu
   * myVIP.com
+* aldomain: *.blogger.hu
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### G-Portal.hu
 
@@ -147,6 +172,8 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * http://g-portal.hu/gindex.php?pg=15&qid=5790281
 * üzemeltető: Egonet Kft.
 * további szolgáltatás: gmail.hu (g-mail.hu)
+* aldomain: *.gportal.hu
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### Reblog.hu
 
@@ -156,6 +183,8 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * videa.hu
   * videakid.hu
   * videaloop.hu
+* aldomain: *.reblog.hu
+* nincs CORS az oldalra de van az RSS-re
 
 ## Magyar ISP
 
@@ -198,6 +227,7 @@ Ezek sajnos "elkoptak".
 * egyéni hibaoldalak nincsenek
 * naplófájlok elérése nincs
 * van könyvtárlistázás
+* nincs CORS
 
 ### Externet ISP
 
@@ -404,7 +434,7 @@ Lásd még:
 * https://www.freehosting.io/hosting
 * korlátlan tárhely
 * korlátlan forgalom
-* ingyen freesite.vip aldomain
+* ingyen aldomain: *.freesite.vip
 * iFastNet partner
 
 ### Gnome membership
@@ -416,6 +446,7 @@ Lásd még:
 * email átirányítás
 * Wordpress blog (httsp://blogs.gnome.org/xxxxx/)
   * https://wiki.gnome.org/Infrastructure/NewBlogRequest
+  * nincs CORS sem az oldalon, sem RSS-en
 * Discourse https://discourse.gnome.org/
 * Indico https://events.gnome.org/
   * https://github.com/indico/indico
@@ -425,9 +456,11 @@ Lásd még:
   * NextCloud https://cloud.gnome.org/
   * BigBlueButton https://meet.gnome.org/
   * GitLab https://gitlab.gnome.org/
+    * van API CORS
     * GitLab Snippets https://paste.gnome.org/
     * https://gitlab.gnome.org/Infrastructure/static-web
     * https://static.gnome.org/
+      * van CORS
   * ssh
   * statikus webtárhely megszűnt
     * https://mail.gnome.org/archives/desktop-devel-list/2022-March/msg00004.html
@@ -441,8 +474,18 @@ Lásd még:
 
 * https://ichi.city/
 * TLS
-* van aldomain
+* aldomain *.ichi.city
 * SFTP feltöltés
+* van CORS
+
+### kintohub.com
+
+* https://www.kintohub.com/pricing/
+* 1GB tárhely
+* 10GB/hó forgalom
+* 3000 perc CI/CD
+* 512MB RAM
+* alszik
 
 ### Ubuntu membership
 
@@ -455,6 +498,7 @@ Lásd még:
 * Libera.Chat IRC cloak (álnév)
 * Ubuntu Advanage (livepatches)
 * domén regisztrációs kedvezmény
+* nincs CORS sem az oldalon, sem RSS-en
 
 > Use of this service should be with the aim of helping Ubuntu in some way
 
@@ -467,12 +511,16 @@ Lásd még:
 * FTP feltöltés
 * Kombinálható, CMS komponensek
   * szerver oldali JavaScript (TODO???)
+* nincs TLS
+* aldomain: *.ucoz.hu *.ucoz.com
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### GitLab
 
 * https://docs.gitlab.com/ee/user/project/pages/
 * 10GB tárhely https://about.gitlab.com/blog/2015/04/08/gitlab-dot-com-storage-limit-raised-to-10gb-per-repo/
 * rugalmas CI
+* van CORS
 
 ### GitHub
 
@@ -484,11 +532,14 @@ Lásd még:
 * csak nem-kereskedelmi felhasználásra
   * https://docs.github.com/en/github/site-policy/github-additional-product-terms#4-pages
 * CI: Jekyll (esetleg Travis útján más)
+* van CORS
 
 ### BitBucket
 
 * https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/
 * 1GB tárhely https://support.atlassian.com/bitbucket-cloud/docs/what-kind-of-limits-do-you-have-on-repositoryfile-size/
+* aldomain: *.bitbucket.io
+* van CORS
 
 ### Netlify
 
@@ -502,6 +553,8 @@ Lásd még:
 * serverless functions
 * SSL
 * CDN: CloudFlare
+* aldomain: *.netlify.app
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### gatsbyjs
 
@@ -513,19 +566,23 @@ Lásd még:
 * CI/CD: 1 vCPU, 1GB RAM
 * forrás: GitHub, GitLab, BitBucket
 * CDN: 33 POPS
-* ingyenes kimenet: Netlify
+* ingyenes kimenet: Netlify és hasonló, illetve saját hozott domain alatt
 
 ### Vercel
 
 * https://vercel.com/pricing
 * korlátlan tárhely és forgalom
+* aldomain: *.vercel.app
 * CI
 * kedvezmény a fizetős csomagokból szabad szoftveres projekteknek
 * serverless functions
+* van CORS
 
 ### Surge
 
 * https://surge.sh/
+* aldomain: *.surge.sh
+* CORS fizetős csomagban bekapcsolható https://github.com/surge-sh/example-cors
 
 ### MongoDB
 
@@ -548,7 +605,7 @@ Lásd még:
 
 * https://carrd.co/
 * max. 3 lap ingyen
-* További elérhető domain: cdr.co
+* aldomain: *.carrd.co *.cdr.co
 
 ### jimdo
 
@@ -556,25 +613,29 @@ Lásd még:
   * https://help.jimdo.com/hc/en-us/articles/360000205806-Wie-viel-Speicherplatz-und-Bandbreite-habe-ich-zur-Verf%C3%BCgung-
 * 500MB tárhely
 * 2GB/hó forgalom
+* aldomain: *.jimdo.com *.jimdofree.com
 * egyedi HTML, CSS
   * fájltípusok: js, gif, jpeg, png, svg, css, pdf, ttf, woff, eot
   * https://help.jimdo.com/hc/en-us/articles/115005512006-Which-file-types-can-I-use-in-the-File-Download-Element-
   * https://funnycat.jimdo.com/en/jimdotutorials-1/change-the-css-of-a-template/
+* nincs CORS
 
 ### Mozello.com
 
 * https://www.mozello.hu/arak/
 * teljesen magyarítva
-* aldomain
+* aldomain: *.mozello.com
 * 500MB tárhely
 * ingyen TLS (Cloudflare)
 * webshop: 5 termék, 1 termékopció, 5 termékváltozat, PayPal
 * üzemeltető: Lettország (Mozello SIA)
 * egyedi HTML, CSS és JavaScript
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### site123
 
 * https://site123.com/pricing#accordion-1213
+* magyar felület
 * 250MB tárhely
 * 250MB/hó forgalom
 * aldomain
@@ -586,6 +647,17 @@ Lásd még:
 * inaktivitás esetén törlés
 * fájltípusok: CSS, JavaScript, TXT, JSON, XML
 * CloudFlare
+* TLS
+* prefix: static.staticsave.com/content/${USER}/${BASENAME}.css
+* van CORS minden fájltípusra
+
+### txti.es
+
+* http://txti.es/
+  * http://motherfuckingwebsite.com/
+* Csak minimális markdown formázást támogat
+* 6 hónap után törli amit kevesebb mint 2 látogató nyitott meg
+* nincs CORS
 
 ### versoly
 
@@ -606,6 +678,7 @@ Lásd még:
 
 * https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
 * magyar felület (sok helyen gépi fordítás)
+* aldomain: *.webnode.hu *.webnode.page *.webnode.fr *.webnode.sk *.webnode.at
 * blog CMS
 * üzemeltető: Webnode AG, Svájc
 * 100MB tárhely
@@ -619,14 +692,17 @@ Lásd még:
     * https://www.webnode.info/szerkeszto-es-tartalom
   * egyedi HTML kód szúrható a fejlécbe és láblécbe is ami JavaScriptet is tartalmazhat
     * https://www.webnode.info/kozossegi-oldalak-es-widgetek/hogyan-illessz-be-facebook-widgetet
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### Weebly.com
 
 * https://www.weebly.com/pricing
 * üzemeltető: Block Inc., USA
 * 500MB tárhely
+* aldomain: *.weebly.com
 * TLS
 * egyedi HTML, CSS
+* nincs CORS
 
 ## Külföldi blog
 
@@ -645,6 +721,7 @@ Lásd még:
 * reklámokat szúr be
 * bővítmények
   * https://www.wix.com/app-market
+* csak saját domain mellé
 
 ### Wordpress.com
 
@@ -657,15 +734,88 @@ Lásd még:
 * reklámokat szúr be
 * biztonsági mentés
 * egyedi HTML
+* aldomain: *.wordpress.com
+* nincs CORS
+
+### WriteFreely
+
+* https://writefreely.org/instances
+  * https://write.as/blog/changing-free-registrations
+  * újabban már csak meghívás alapon lehet fiókot regisztrálni, de névtelen bejegyzéseket továbbra is lehet külsősként is írni
+  * https://write.as/new
+* 1 blog
+* 3-15 bejegyzés/nap
+* korlátlan megtekintés
+* formázás: Markdown, MathJax, szerkesztő
+* publikalási API
+* RSS olvasás
+* van TLS
+* prefix: write.as/${USER}/
+* ActivityPub
+* ingyenesben nincs: beágyazás, statikus oldalak, saját domain, témák
+* nincs CORS az oldalra de van az RSS-re
 
 ## gemini
 
-* https://cities.yesterweb.org/ HTML is
-* https://flounder.online/ HTML is, van aldomain
-* https://midnight.pub/ HTML is, nincs aldomain
-* https://smol.pub/ egyedi CSS támogatva HTML kiszolgálásnál, van aldomain
-* https://tilde.pink/ csak gemini és gopher, nincs aldomain csak mappa, van CGI
-* gemini://station.martinrue.com/ csak gemini, nincs aldomain, blog és hozzászólások
+### yesterweb.org
+
+* https://cities.yesterweb.org/
+* csak gemini
+* van aldomain: *.cities.yesterweb.org
+* nincs CORS
+* van CORS: https://zine.yesterweb.org/
+
+### flounder.online
+
+* https://flounder.online/
+* van gemini és HTML is
+* van aldomain: *.flounder.online
+* van TLS
+* nincs CORS
+
+### midnight.pub
+
+* https://midnight.pub/
+* van gemini és HTML is
+* nincs aldomain
+* blog és hozzászólások
+* van TLS
+* nincs CORS
+
+### smol.pub
+
+* https://smol.pub/
+* van gemini és HTML is
+* egyedi CSS támogatva HTML kiszolgálásnál
+* van TLS
+* van aldomain: *.smol.pub
+* nincs CORS az oldalra de van az RSS-re
+
+### tilde.pink
+
+* https://tilde.pink/
+* van gemini és HTML is
+* van TLS
+* nincs aldomain csak mappa
+* van CGI
+* nincs CORS
+* TODO: .htaccess?
+
+### tilde.team
+
+* https://tilde.team/
+* van gemini és HTML is
+* van TLS
+* van aldomain: *.tilde.team
+* nincs CORS
+* TODO: .htaccess?
+
+### station.martinrue.com
+
+* gemini://station.martinrue.com/
+* csak gemini
+* nincs aldomain
+* blog és hozzászólások
 
 ## Nagy szereplők
 
@@ -676,15 +826,21 @@ Lásd még:
   * max. 1MB/oldal
 * bizonyos korlátozások a HTML, CSS, JS testreszabásával kapcsolatban
 * üzemeltető: Google
+* van TLS
+* aldomain: *.blogspot.com
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### Cloudflare Pages
 
 * https://pages.cloudflare.com/
-* CI
+* támogatott a manuális feltöltés és GitHub/GitHub CI is
 * korlátlan forgalom
 * CDN
 * serverless functions
   * https://workers.cloudflare.com/
+* van TLS
+* aldomain: *.pages.dev
+* van CORS
 
 ### Firebase
 
@@ -705,13 +861,18 @@ Lásd még:
   * 10 új létrehozható portál 5 napos csúszóablakkal
     * korlátlan oldalszám
 * üzemeltető: Google
+* nincs aldomain
+* prefix: sites.google.com/site/${USER}
+* nincs CORS
 
 ### Tumblr
 
-* https://en.m.wikipedia.org/wiki/Tumblr
+* https://en.wikipedia.org/wiki/Tumblr
 * korlátlan tárhely
 * üzemeltető: Automattic, USA
 * egyedi HTML, CSS, JavaScript
+* aldomain: *.tumblr.com
+* nincs CORS sem az oldalon, sem RSS-en
 
 ## Megszűnt
 
