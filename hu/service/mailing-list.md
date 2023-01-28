@@ -31,6 +31,7 @@ Hasznos opcionális szolgáltatások:
 
 ## Külföldi általános
 
+* https://www.freelists.org/
 * https://www2.vcn.bc.ca/free-mailing-lists/ talán csak helyiek regisztrálhatnak
 
 ### alwaysdata
