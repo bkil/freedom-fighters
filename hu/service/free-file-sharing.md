@@ -16,6 +16,13 @@ WebRTC alapú
 
 * https://file.pizza/
 
+### tiiny.host
+
+* https://tiiny.host/web-hosting-free-sites/
+* 7 napig tárolják a feltöltést ingyen
+* regisztráció nélkül
+* aldomain
+
 ## TODO
 
 * egységesítendő ezzel: [free-storage.md](free-storage.md)
