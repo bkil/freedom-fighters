@@ -115,7 +115,7 @@ References:
 ### Inline attachments
 
 * Option to share #link_preview via `data:` or `javascript:` URI
-* Up to a few kilobytes
+* Up to a few kilobytes (encoded): prefer up to 1kB, warn above 2kB, error above 8kB
 * https://en.wikipedia.org/wiki/Data_URI_scheme
 
 ### Origin funneling
@@ -129,6 +129,7 @@ References:
 * An option to migrate between frontends
 * The preloader offers redirection upon first opening the given origin so the user may also override the version of the app embedded
 * May support staged rollout where users are assigned a periodically rotated delay of updating
+* Unless disabled by a parameter, should check for a hotfix version on every anonymous page load
 * https://developer.mozilla.org/en-US/docs/Web/API/Storage_Access_API
 
 ### Expiration
@@ -423,6 +424,7 @@ As per #link_preview
 * Resolve HTTP 301 redirects and memorize new target implicitly
 * If somebody follows one of the account URLs, they should follow all of them together
 * If access is lost to some of them (either write-access or read as well), the meta-feed could still live on, the live mirrors should delist the dead mirrors and followers should unfollow the dead mirrors eventually.
+* See #account_slicing
 * Rewrite mentions within our past posted messages upon changes to the main account of who we mentioned via #forked_message_correction
 * https://dev.twtxt.net/doc/metadataextension.html#url
 * See nomadic identities in ActivityPub:
@@ -439,11 +441,28 @@ As per #link_preview
 
 ### High availability bots
 
-* Similar to #mirroring but the stream is generated in parallel by multiple users
-* The should eventually reproduce the exact same feed independently (minus the update date)
-* The should advertise their mutual trust and their independent keys similar to a #backup_account
+* Similar to #mirroring but the stream is generated in parallel by multiple users with possibly different operating schedules
+* They should eventually reproduce the exact same feed independently (minus the update date)
+* They should advertise their mutual trust and their independent keys similar to a #backup_account
 * This is equivalent power to being admin or moderator within #forums
 * Could be used by client side bridges
+* The accountable bot operator should be specified (`# operator = http://example`)
+* See #account_slicing
+
+### Account slicing
+
+* A user must be able to both use the native system and also keep using external accounts on bridged platforms
+* Bridges may operate 24/7 and with lower latency than a client
+* Exactly one feed among the slices must be a main slice and it must be marked within each feed (`# main = http://example`)
+* All slices must be interlinked to signal trust (`# slice = http://example`)
+* The main slice may mark any other slice as distrusted (`# unslice = http://example`)
+* A user should see posts from all of their slices under a single unified timeline
+* A user should not be pinged by their own posts within other slices
+* Posts by all slices of a given user should be attributed to the same user account and should be mostly indistinguishable on the interface for others
+* Following a feed should follow all sibling slices at the same time
+* A user may aggregate and sign posts from all of their slices again to their main slice
+* A user should be #mirroring the whole set together
+* See #high_availability_bots #backup_accounts
 
 ### Alternate feed links
 
