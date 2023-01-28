@@ -14,6 +14,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * https://gitlab.com/
 * gazdag az API-ja
   * https://docs.gitlab.com/ee/api/
+* van API CORS
 * CI/CD, statikus webkiszolgálás
 * cenzúrázva: Kuba
 
@@ -25,6 +26,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * nincs kifejezett REST API, de a frontendről elérhetők a projekt menedzsment funkciók és levelezés
   * https://savannah.gnu.org/maintenance/SavannahInternals/
 * cenzúrázatlan: Kuba
+* nincs CORS
 
 ### LaunchPad.net
 
@@ -34,6 +36,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * https://help.launchpad.net/API/Hacking
 * Bazaar, Git
 * cenzúrázatlan: Kuba
+* nincs API CORS
 
 ### Pagure.io
 
@@ -42,6 +45,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * REST API funkciók: projekt menedzsment, PR és hibajegy kezelés
   * https://src.fedoraproject.org/api
 * cenzúrázatlan: Kuba
+* nincs API CORS
 
 ### SourceForge.net
 
@@ -50,10 +54,14 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * REST API funkciók: hibajegyek, üzenetek, wiki oldal és blogbejegyzés
   * https://forge-allura.apache.org/docs/getting_started/administration.html#public-api-documentation
 * cenzúrázva: Kuba
+* van API CORS
 
 ### Debian Salsa GitLab
 
-* engedélyezve az összes GitLab szolgáltatás, beleértve a CI/CD és Pages (https://*.pages.debian.net/)
+* engedélyezve az összes GitLab szolgáltatás, beleértve a CI/CD
+  * van API CORS
+* van Pages (https://*.pages.debian.net/)
+  * van CORS
 * https://wiki.debian.org/Salsa/Doc#Web_page_hosting
 * https://wiki.debian.org/Salsa/FAQ#How_can_I_use_salsa.debian.org_without_JavaScript.3F
 
@@ -84,6 +92,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * CI/CD kutatás alatt
   * Woodpecker CI - Drone.io fork
   * https://codeberg.org/Codeberg-CI/request-access
+* nincs API CORS
 
 ### Gitea.com
 
@@ -94,6 +103,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * gazdag REST API funkciók: projekt menedzsment, hibajegyek, változáscsomagok, fájlok létrehozása
   * https://docs.gitea.io/en-us/api-usage/
 * cenzúrázatlan: Kuba
+* van API CORS
 
 ### NotABug.org
 
@@ -102,6 +112,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * helyszín: Németország
 * a REST API csak olvasni tud fájlokat, ezt leszámítva teljes értékű
   * https://github.com/gogs/docs-api
+  * nincs API CORS
 * cenzúrázatlan: Kuba
 
 ### GitGud
@@ -111,6 +122,13 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * kérés után osztott CI futtató
 * API főleg kiadások kapcsán
   * https://osdn.net/projects/osdn-codes/wiki/CommandLineInterface
+* van CORS
+
+### gittea.dev
+
+* https://gittea.dev/
+* Gitea
+* nincs API CORS
 
 ### gogs
 
@@ -118,6 +136,13 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * gazdag REST API funkciók (2022 óta fájl írással)
   * https://github.com/gogs/docs-api
   * https://github.com/gogs/gogs/pull/7114
+  * nincs API CORS és az API csak belépes után hívható
+
+### git.mills.io
+
+* https://git.mills.io/
+* Gitea
+* nincs API CORS
 
 ### OSDN
 
@@ -141,11 +166,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * korlátlan
 * API csak metaadatok olvasására
   * https://rocketgit.com/op/doc/api
-
-### teknik.io
-
-* motorja: gitea
-* cenzúrázatlan: Kuba
+* van API CORS
 
 ## Korlátozott tagsággal
 
@@ -154,10 +175,20 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 ### git.disroot.org
 
 * Amszterdam
+* Gitea
+* nincs API CORS
+
+### git.envs.net
+
+* https://git.envs.net/
+* Gitea
+* nincs API CORS
 
 ### framagit.org
 
 * Franciaország
+* GitLab
+* van API CORS
 
 ### libregit.org
 
@@ -172,6 +203,12 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
   * https://man.sr.ht/api-conventions.md
 * később fizetősnek tervezik
 
+### tildegit.org
+
+* https://tildegit.org/
+* Gitea
+* nincs API CORS
+
 ## Negatív példák
 
 ### GitHub.com
@@ -179,6 +216,7 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * https://github.com/
 * gazdag az API-ja
   * https://docs.github.com/en/free-pro-team@latest/rest
+  * van API CORS
 * CI/CD: GitHub Actions
   * https://github.com/features/actions
 * statikus webkiszolgálás
@@ -186,11 +224,12 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * üzemeltető: Microsoft
 * cenzúrázatlan: Kuba
 
-### BitBucket.com
+### BitBucket
 
-* https://bitbucket.com/
+* https://bitbucket.org/
 * gazdag az API-ja
   * https://developer.atlassian.com/server/bitbucket/reference/rest-api/
+  * van API CORS
 * CI/CD
   * https://bitbucket.org/product/features/pipelines
   * https://www.atlassian.com/software/bitbucket/pricing
