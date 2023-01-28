@@ -102,6 +102,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://kritikustomeg.org/forum/
 * https://www.pirateclub.hu/
 * https://sztar.com/forum/
+* http://sztar-ring.ucoz.hu/forum/
 
 ### Társkeresés
 
@@ -203,6 +204,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 
 * https://avx.hu/forum/
 * https://ipon.hu/forum
+* https://forum.hwsw.hu/
 * https://miui.hu/forum/
 * https://mobilarena.hu/forum/index.html
 * http://pdafanclub.com/forum/index.php
