@@ -284,6 +284,7 @@ Access-Control-Allow-Origin: *
 * In case when the post includes a mention (especially if it starts with a mention), the most recent post of the mentioned user before that point in time could be searched for
 * The previous or the next message of the mentioned user may include a thread reference
 * Citation may be detected to find a recent message that contains the text
+* If a post that is not a reply contains hashtag labels, it should start a new thread (appearing in the respective topic partition of #forums )
 * See #federated_message_identifiers #threads
 
 ## Hosted account state
@@ -320,17 +321,18 @@ As per #link_preview
 
 ### Forums
 
-* Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed
+* Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed: #directory
 * Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members), potentially served as a registry file
 * Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass before allowing this.
 * Members should create a separate subaccount to store their answers for each forum they participate in
 * A member may reuse a single subaccount between strongly related forums to facilitate cross-posting
 * A member may indicate that they only wish to broadcast posts that mention the forum user
 * A forum may list allowed hashtags and it will only broadcast posts (or roots) containing it
+* If a root post (that is not a reply) contains hashtag labels, it should start a new thread appearing in the respective topic partition (forum category or subforum)
 * A forum may indicate that all broadcast posts should be considered to carry a set of hashtags for search engines
 * A member may indicate that all their posts broadcast towards the forum should be considered to carry a set of hashtags for search engines
 * Sticky post links in metadata about detailed topic and rules
-* See also: #forum_access_control #directory
+* See also: #forum_access_control
 * https://git.mills.io/yarnsocial/yarn/issues/325
 * https://git.mills.io/yarnsocial/yarn/issues/344
 
@@ -348,6 +350,8 @@ As per #link_preview
 * A member can issue a time limited invite for a specific non-banned user (main feed) through a slash command (implies accept). This is expensive as it involves polling the invited feed for a follow request.
 * A member can share #webhooks that include a time-limited token for accepting requests for forward and follow. The member shall review this push channel and issue a forum forward or follow to acceptable requests: #webhooks #email_mentions #uri_query_push
 * Forwarded per message: a new, untrusted outsider may just want to ask a question without the forum having to worry about flooding. The message can be delivered through any feed in common with a member or in #webhooks. Each external reply should also be forwarded the same way.
+* A moderator may preemptively issue a redaction against a given forward request so that others won't accidentally forward it later
+* A member who sends an accept, invite or follow for another member will be partially responsible for the actions of that member. In case of complaints, they will be mentioned to help them personalize the warning for their peer.
 
 ```
 # moderator = http://m.example/main/f.txt
@@ -359,6 +363,14 @@ As per #link_preview
 # access = accept http://a.example/main.txt
 # access = accept http://*.pub.example/*
 ```
+
+### Thread feeds
+
+* For discussions spanning long time intervals, sometimes occurring in #forums
+* It would be beneficial for a late joiner or an anonymous viewer if contents of a thread were stored in a separate file
+* It could save bandwidth for core members if they could ignore threads they are not interested in
+* All content should be posted in the thread feed and only the #federated_message_identifiers posted in the forum content feed
+* The content of each new root post may be duplicated in the forum content feed
 
 ### Calendar events
 
@@ -460,9 +472,18 @@ As per #link_preview
 * A user should not be pinged by their own posts within other slices
 * Posts by all slices of a given user should be attributed to the same user account and should be mostly indistinguishable on the interface for others
 * Following a feed should follow all sibling slices at the same time
+* Each slice should be signed with independent keys
 * A user may aggregate and sign posts from all of their slices again to their main slice
 * A user should be #mirroring the whole set together
+* A user on various sides of bridging could declare interlinking of their own accounts via forming rel=me meshes (or at least a directed cycle)
+* In case of #forums , the forum feed itself could be sliced to allow multiple admins
 * See #high_availability_bots #backup_accounts
+
+### Account successor
+
+* The main in #account_slicing should specify a timeout for each account slice after which they may take over in case of inactivity
+* Should be at least 1 month, spaced apart, specified with a continuously updated timestamp (`# slice = 2021-01-02 http://example`)
+* Intended to support replacement of person, not just of infrastructure as in case of #backup_accounts
 
 ### Alternate feed links
 
@@ -721,7 +742,7 @@ Separating these two links allows for the user or moderator to either reply to a
 
 * Anyone may moderate and share a set of feeds
 * They should share the criteria for inclusion in the description and include hashtags in the metadata
-* Represented just like a #forum except that a timeline should not be rendered from the posts of the followers and none should be mirrored either
+* Represented just like #forums except that a timeline should not be rendered from the posts of the followers and none should be mirrored either
 * Thus it is permitted to also subscribe to a directory with a main user feed
 * Members should hold the directory list they are part of in a different metadata field (`# directory = http://a.example/`)
 * A widget can be shown on the user profile for each listed directory with description and links to a previous, next and random profile similarly to webrings in #static_html_rendering
