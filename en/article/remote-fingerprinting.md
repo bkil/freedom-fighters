@@ -211,7 +211,13 @@ We could introduce a small perturbation into the scroll position for new visitor
 Certain services may have images, scripts, styles, pages or other assets that produce different side effects based on whether the user is logged in or not.
 There are various technicalities for embedding.
 
-https://www.grepular.com/Abusing_HTTP_Status_Codes_to_Expose_Private_Information
+* https://www.grepular.com/Abusing_HTTP_Status_Codes_to_Expose_Private_Information
+* https://github.com/RobinLinus/socialmedia-leak
+* https://meta.stackoverflow.com/questions/336337/stack-overflow-logged-in-information-leak-part-2
+
+### Favicon cache
+
+https://arstechnica.com/information-technology/2021/02/new-browser-tracking-hack-works-even-when-you-flush-caches-or-go-incognito/
 
 ### Content Security Policy reports
 
