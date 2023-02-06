@@ -89,6 +89,20 @@ Here are some reasons why this is not desirable:
 ## FOSS
 
 * https://en.wikipedia.org/wiki/Yacy
+* https://github.com/wibyweb/wiby/
+* https://github.com/chatnoir-eu
+* https://github.com/capjamesg/indieweb-search
+* https://git.mills.io/prologic/spyda
+* https://github.com/presearchofficial
+* https://github.com/mwmbl/mwmbl
+* https://github.com/RimoChan/sese-engine
+* https://github.com/YunYouJun/sese-engine-ui
+* https://en.wikipedia.org/wiki/Lemur_Project
+* https://gitlab.com/users/infinitysearch/projects
+* https://github.com/orgs/WordPress/repositories?q=openverse&type=all&language=&sort=
+
+Crawler roots:
+
 * https://domainsproject.org/
 * https://github.com/tb0hdan/domains
 
@@ -121,3 +135,8 @@ Here are some reasons why this is not desirable:
 * https://en.wikipedia.org/wiki/Reverse_image_search#Application_in_popular_search_systems
 * https://en.wikipedia.org/wiki/List_of_CBIR_engines
 * https://en.wikipedia.org/wiki/Content-based_image_retrieval#Techniques
+
+## References
+
+* https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/
+* https://thenewleafjournal.com/a-2021-list-of-alternative-search-engines-and-search-resources/
