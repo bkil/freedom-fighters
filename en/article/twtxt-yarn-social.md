@@ -572,12 +572,13 @@ Mechanism:
 * https://dev.twtxt.net/doc/archivefeedsextension.html
 * A publishing platform use case (personal blog, knowledge base forum) assumes that you wish to make your content available indefinitely (or until #redaction )
 * We would like to reduce bandwidth requirement of syncing long timelines
-* Older messages should be archived either in fixed time frames (annually, monthly) or based on an order of magnitude of volume (like about 1000 messages or 100kB) and paged
-* The archive links should be marked up with bounding timestamps to allow ID based partial lookups
+* Mature content feeds should be archived (made mostly read-only) either in fixed time intervals (annually, monthly) or based on an order of magnitude of volume (like about 1000 messages or 100kB) and cross-linked with both paging and a catalog
+* The archive links should be listed in the metafeed of the user and marked up with bounding timestamps to allow ID based partial lookups (`# content = 2023-01-01T00:00Z http://test.example/2022-12.txt`)
 * Potentially store the archive links as a separate file or as a tree if there would be too many (>16)
 * The feed with the most recent posts should be as short as possible and potentially pruned by the #read_receipt of our followers for chat use cases
 * Normal publishing feeds should not be pruned so every post maintains permalinks
-* Introduce new metadata that points to the next feed after this one is closed and indicate either the most recent update if that one is also closed, or no timestamp (if it is not closed), (e.g., `#next = 2023-01-01T00:00Z http://test.example/2022-12.txt` ).
+* New metadata in content feeds to point to the next content feed after this one is closed and indicate either the most recent update if that one is also closed, or no timestamp (if it is not closed), (e.g., `# next = 2023-01-01T00:00Z http://test.example/2022-12.txt` ).
+* New metadata in content feeds to point to the parent metafeed representing the user (`# contentParent = http://test.example/t.txt`)
 
 ### Read receipt
 
