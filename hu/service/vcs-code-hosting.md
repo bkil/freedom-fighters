@@ -94,6 +94,12 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * https://codeberg.org/Codeberg-CI/request-access
 * nincs API CORS
 
+### cryto.net
+
+* https://git.cryto.net/
+* pages nincs engedélyezve
+* nincs API CORS
+
 ### Gitea.com
 
 * 2019
@@ -104,6 +110,13 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * https://docs.gitea.io/en-us/api-usage/
 * cenzúrázatlan: Kuba
 * van API CORS
+
+### GitNet.fr
+
+* https://gitnet.fr/
+  * nincs API CORS
+* van statikus HTML pages: https://gitnet.page/
+  * nincs pages CORS
 
 ### NotABug.org
 
