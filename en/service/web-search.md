@@ -100,6 +100,7 @@ Here are some reasons why this is not desirable:
 * https://en.wikipedia.org/wiki/Lemur_Project
 * https://gitlab.com/users/infinitysearch/projects
 * https://github.com/orgs/WordPress/repositories?q=openverse&type=all&language=&sort=
+* https://seekseek.org/technology
 
 Crawler roots:
 
