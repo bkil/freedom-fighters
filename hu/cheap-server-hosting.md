@@ -209,6 +209,7 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
   * kriptovaluta elfogadott
   * cég: Litvánia
   * szerver: USA(San Jose, Chicago, New York), UK(Manchester), Netherlands(Amsterdam), Germany(Frankfurt), Canada(Montreal), France(Paris)
+* http://cryto.net/~joepie91/bitcoinvps.html
 
 ## Árösszehasonlító oldalak
 
