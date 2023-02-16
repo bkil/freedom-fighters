@@ -36,12 +36,16 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * legrövidebb használható felhasználónév: 2 karakter
 * webmail, IMAP, POP3, SMTP
 * 100MB tárhely regisztráció után, de minden nap "használat" (belépés?) után emelkedik egészen 10GB-ig
+* nem igényel CAPTCHA-t bejelentkezéshez
 * ha nem történik sem webmail belépés, sem kliens lekérés:
   * 90 (60?) nap után nem fogad új leveleket (inaktiválódik)
   * 270 nap után törlődik minden adat
   * bármikor újra be lehet lépni
 * megszüntetett fiók újra nem regisztrálható
 * belépési adatokat (időpont, IP cím) 1 évig tárolnak
+* nem támogatott ekvivalencia: "."
+* nem támogatott subaddressing alias: "+"
+* támogatott ekvivalencia: kis-nagybetű
 
 ### Freemail
 
@@ -60,35 +64,23 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * @gportal.hu végződés is elérhető
 * 120 naponta be kell lépni
 
-### indamail
+### Mailbox.hu
 
-* https://indamail.hu/
-* 2GB tárhely, legfeljebb 1GB-es levélcsatolmány
-* POP3, IMAP
-* korábbi nevén: VIPmail, Indexmail, DrótPostaGalamb
-* tulajdonos: Inda-Labs Magyarország Zrt.
-* érdekeltség: Indamedia csoport (hirdetések)
-* üzemeltető: Media Future Technológiai Szolgáltató Zrt., Fjordmail (korábban: Citromail)
-* választható végződések: indamail.hu, vipmail.hu, webmail.hu
-* 120 naponta be kell lépni a weboldalon, különben felfüggesztik a levélfogadást
-* további szolgáltatások:
-  * Index.hu, Totalcar.hu, Totalbike.hu, Nepitelet.hu, Divany.hu, Femina.hu, Port.hu, Indavideo.hu, Blog.hu, Indamail.hu, Forum.index.hu, Indafoto.hu, Penge.hu, Indafax.hu
-  * Velvet.hu, Konyvek.index.hu, Totalcarmagazine.com, Napi.hu, konferenciak.napi.hu, Retikul.hu, Noifriss.hu, Feminamedia.hu, Feminaklub.hu, Színház.hu, FeminaShop.hu, otthonterkep.hu, ingatlantajolo.hu, irodahaz.info, raktar.info
-
-### Citromail
-
-* https://www.citromail.hu/
-* 2GB tárhely
-* max. 5MB/csatolmány
-* TODO: IMAP, POP3
-* hirdetések: Central Média, Adverticum, Google
-* üzemeltető: Fjordmail International (korábban: Central Médiacsoport Zrt.)
-  * https://www.fjordmail.no/fjordmail-acquires-citromail-in-hungary/
-* utolsó belépést követő:
-  * 110 nap után nem fogad leveleket
-  * 240 nap után törlődik minden levél
-  * 720 nap után nem lehet belépni
-  * https://www.citromail.hu/adatvedelmi-nyilatkozat/aktualis
+* https://mailbox.hu/
+* 200MB tárhely
+* reklámmentesítés és további tárhely: 1.75 EUR/hó
+* hirdetések: Google
+* üzemeltető: Yellow Hashtag OÜ., Észtország
+* médiapartnere: 24.hu hirradar.hu
+* további fizetős szolgáltatás: http://postino.hu/
+* IMAP, POP3, SMTP
+* 30 naponta be kell lépni, különben törlik a fiókot
+* 2FA: email, TOTP authenticator mobilalkalmazás
+* Mailvelope PGP bővítmény
+* nem támogatott ekvivalencia: ".", "-"
+* nem támogatott subaddressing alias: "-"
+* támogatott subaddressing alias: "+"
+* támogatott ekvivalencia: kis-nagybetű
 
 ### euromail
 
@@ -106,7 +98,6 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * https://www.mikrovps.net/hu/email-hosting/basic 15GB tárhely, 3000 Ft+áfa/év (0.89 EUR/hó) (MikroVPS Kft.)
 * https://megacp.com/hosting.php?aid=urb40687&spt=1 Induló tárhely csomag, 500 MB tárhely, saját domén, korlátlan címek, 5600 Ft + ÁFA / 2 év (bruttó 300 Ft/hó) (3 in 1 Hosting Bt.)
 * https://www.forpsi.hu/email/ bruttó 1905 Ft/év domén mellé, 1GB
-* https://mailbox.hu/ 1 EUR/hó
 * https://www.mhosting.hu/tarhely email csomag 1892Ft/év+áfa, 250MB
   * támogatott ekvivalencia: kis-nagybetű, "\", localpart idézőjelezés
   * nem támogatott: ".", "-", "%", "+"
@@ -178,6 +169,39 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 ## Megszűnt
 
 * https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
+
+### Citromail
+
+* https://www.citromail.hu/
+* jelenleg nem enged regisztrálni
+* 2GB tárhely
+* max. 5MB/csatolmány
+* TODO: IMAP, POP3
+* hirdetések: Central Média, Adverticum, Google
+* médiapartnere: hirstart.hu
+* üzemeltető: Fjordmail International (korábban: Central Médiacsoport Zrt.)
+  * https://www.fjordmail.no/fjordmail-acquires-citromail-in-hungary/
+* utolsó belépést követő:
+  * 110 nap után nem fogad leveleket
+  * 240 nap után törlődik minden levél
+  * 720 nap után nem lehet belépni
+  * https://www.citromail.hu/adatvedelmi-nyilatkozat/aktualis
+
+### indamail
+
+* https://indamail.hu/
+* jelenleg nem enged regisztrálni és a webmail sem enged belépni
+* 2GB tárhely, legfeljebb 1GB-es levélcsatolmány
+* POP3, IMAP
+* korábbi nevén: VIPmail, Indexmail, DrótPostaGalamb
+* tulajdonos: Inda-Labs Magyarország Zrt.
+* érdekeltség: Indamedia csoport (hirdetések)
+* üzemeltető: Media Future Technológiai Szolgáltató Zrt., Fjordmail (korábban: Citromail)
+* választható végződések: indamail.hu, vipmail.hu, webmail.hu
+* 120 naponta be kell lépni a weboldalon, különben felfüggesztik a levélfogadást
+* további szolgáltatások:
+  * Index.hu, Totalcar.hu, Totalbike.hu, Nepitelet.hu, Divany.hu, Femina.hu, Port.hu, Indavideo.hu, Blog.hu, Indamail.hu, Forum.index.hu, Indafoto.hu, Penge.hu, Indafax.hu
+  * Velvet.hu, Konyvek.index.hu, Totalcarmagazine.com, Napi.hu, konferenciak.napi.hu, Retikul.hu, Noifriss.hu, Feminamedia.hu, Feminaklub.hu, Színház.hu, FeminaShop.hu, otthonterkep.hu, ingatlantajolo.hu, irodahaz.info, raktar.info
 
 ## Pingback
 
