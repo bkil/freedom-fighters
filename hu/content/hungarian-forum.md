@@ -38,7 +38,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://iranynemetorszag.com/forum.html
 * https://kempingmania.hu/box/forum
 * http://lakoautoklub.hu/f%C3%B3rum/friss-t%C3%A9m%C3%A1k
-* https://navigyurci.hu/forums/
+* https://navigyurci.hu/forums/ nem lehet regisztrálni
 
 ### Gépjármű
 
@@ -114,6 +114,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://www.futas.net/futasnetforum/
 * http://lazarus.elte.hu/cgi-bin/mailman/listinfo/tajfutas
 * http://softair.hu/
+* http://www.turatars.com/forum/ fórumba vagy blogba írni csak fizetés után lehetséges, hozzászólni lehet, regisztráltak között a túraszervezés ingyenes
 * https://www.testbike.hu/velemeny/
 
 ### Vallás
@@ -252,7 +253,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
   * https://hun.politika.narkive.com/ NNTP
 * https://kislabnyom.hu/nagycsalad-kislabnyom/forum/index.html
 * https://labrisz.hu/forum/index.php
-* https://margit2.hu/forum/index.php
+* https://margit2.hu/forum/index.php regisztráció lezárva (privát)
 * https://momus.hu/list_forumcategory.php
 * https://omega.ttk.pte.hu/cgi-bin/mailman/listinfo
 * https://punkportal.hu/forum/forum.php
