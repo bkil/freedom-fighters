@@ -86,17 +86,19 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 
 * 2019
 * motorja: gitea
-* feldolgozás nélküli statikus webkiszolgálás (Gitea Pages)
+  * nincs API CORS
+* feldolgozás nélküli statikus webkiszolgálás (Gitea Pages) *.codeberg.page
+  * nics Pages CORS, nincs RSS CORS
 * helyszín: Németország
 * cenzúrázatlan: Kuba
 * CI/CD kutatás alatt
   * Woodpecker CI - Drone.io fork
   * https://codeberg.org/Codeberg-CI/request-access
-* nincs API CORS
 
 ### cryto.net
 
 * https://git.cryto.net/
+* motorja Gitea
 * pages nincs engedélyezve
 * nincs API CORS
 
@@ -114,6 +116,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 ### GitNet.fr
 
 * https://gitnet.fr/
+* motorja Gitea
   * nincs API CORS
 * van statikus HTML pages: https://gitnet.page/
   * nincs pages CORS
