@@ -130,6 +130,17 @@ File manager:
 * adattábla: 100MB hely, max. 50000 sor
 * 30 másodperc háttérfolyamat időtúllépés
 
+### Koyeb.com
+
+* https://www.koyeb.com/pricing
+* $5.5/hó kredit ingyen
+  * $2.7/hó 1vCPU, 256MB RAM, 2.5GB SSD
+  * $5.4/hó 1vCPU, 512MB RAM, 5GB SSD
+* 100GB/hó kimenő forgalom ingyen
+* CI/CD git integráció
+* HTTP/2, Let's Encrypt TLS, Websocket, gRPC
+* Docker/OCI konténerek, Node, Python, Go, Rust, Ruby, Elixir, PHP, Java, egyebek
+
 ### Panteon.io
 
 * 2 sandbox weblap
@@ -176,7 +187,7 @@ File manager:
 * HTTP/2
 * TLS
 * statikusan is: egyedi HTTP fejlécek, átirányítások, Brotli
-* 400 óra/hó/projekt CI/CD wafy 500 perc/hó/fő: GitHub és GitLab tárolóból
+* 400 óra/hó/projekt CI/CD vagy 500 perc/hó/fő: GitHub és GitLab tárolóból
 
 ### 000webhost
 
