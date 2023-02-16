@@ -142,6 +142,7 @@ Algoritmus:
 
 * https://github.com/matrix-org/matrix-react-sdk/blob/ad190b1dcc8aa332b9492c9dc8508e25c2914d94/src/HtmlUtils.tsx#L259
 * https://github.com/apostrophecms/sanitize-html
+* https://spec.matrix.org/v1.5/client-server-api/#mroommessage-msgtypes
 
 Jó:
 
