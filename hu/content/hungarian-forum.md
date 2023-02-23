@@ -150,7 +150,6 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 ### Földrajz
 
 * https://geocaching.hu/forum.geo
-* http://lazarus.elte.hu/cgi-bin/mailman/listinfo/
 * https://lists.openstreetmap.org/listinfo/talk-hu
 * https://turistautak.hu/forum.php
 
