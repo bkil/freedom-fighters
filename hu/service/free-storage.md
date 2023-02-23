@@ -127,6 +127,16 @@ Előnye, hogy olyan protokollt és titkosítást telepítünk rá amilyet szeret
 * E2EE titkosítás
 * szolgáltató országa: USA (Atlanta, GA)
 
+### Supabase
+
+* https://supabase.com/pricing
+* max. 2 projekt
+* 500MB adatbázis, 1GB fájl tárhely
+* max. fájlméret 50MB
+* 2GB/hó kifelé menő forgalom
+* serverless lambda: 10db, max. 2MB forrás, 500k/hó meghívás, TypeScript, WASM
+* 1 hét inaktivitás után szüneteltetik
+
 ## TODO: Elemzésre vár
 
 * Google Cloud Storage http://code.google.com/apis/storage/
