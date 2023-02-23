@@ -36,9 +36,22 @@ Lásd még:
 * https://github.com/Wakoma/Lokal#user-content-current-services
 * Kubernetes
   * https://github.com/bobbyd0g/commlab
+* https://en.wikipedia.org/wiki/Bitnami
+  * https://bitnami.com/stacks
+* https://en.wikipedia.org/wiki/TurnKey_Linux_Virtual_Appliance_Library
+  * https://www.turnkeylinux.org/all
+  * https://github.com/turnkeylinux-apps
+* https://supermarket.chef.io/cookbooks
+* https://github.com/saltstack-formulas
+* https://forge.puppet.com/modules
+* https://registry.terraform.io/browse/modules
+* https://exchange.stackstorm.org/
+* https://charmhub.io/
 
 ### Ansible
 
+* https://galaxy.ansible.com/
+* https://ansible.build/
 * https://github.com/debops/debops/tree/master/ansible/playbooks
 * https://github.com/DaveStephens/ansible-nas
 * https://github.com/jaywink/ansible-diaspora
@@ -52,6 +65,7 @@ Lásd még:
 * https://github.com/Wakoma/Lokal/tree/15905f005a58fba63b3b6f10c24a1c6caa2c1232/roles
 * https://gitlab.com/feneasorg/infrastructure
 * https://git.disroot.org/Disroot-Ansible
+* https://codeberg.org/Codeberg-Infrastructure/configuration-as-code
 
 ### Docker
 
@@ -113,6 +127,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://github.com/DanWin/hosting
 * https://github.com/LukeSmithxyz/landchad
 * https://git.envs.net/envs/ops
+* https://codeberg.org/Codeberg-Infrastructure/scripted-configuration
 
 ### Rendszergazdai automatizmusok
 
