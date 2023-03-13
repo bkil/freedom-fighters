@@ -73,6 +73,7 @@ Lásd még:
   * https://github.com/GhostWriters/DockSTARTer/
 * https://github.com/DFabric/dppm
   * https://github.com/DFabric/dppm-packages-source
+* https://github.com/osresearch/hackerspace-zone
 
 ### CapRover
 
