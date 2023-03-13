@@ -230,6 +230,9 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * https://tildegit.org/
 * Gitea
 * nincs API CORS
+* van statikus pages
+  * https://tildepages.org/
+  * nincs pages CORS
 
 ## Negatív példák
 
