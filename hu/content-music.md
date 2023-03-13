@@ -25,6 +25,7 @@
 
 * https://en.wikipedia.org/wiki/Comparison_of_online_music_stores
 * https://www.beatport.com/ vásárlás előtt enged regisztráció nélkül 2 percet belehallgatni
+* https://www.beatsource.com/ vásárlás előtt enged regisztráció nélkül 90 másodpercet belehallgatni
 * https://www.pastemagazine.com/noisetrade/music/ reklámbejátszásmentes, a regisztráció ingyenes, anélkül csak az első 30 másodperc hallgatható, azzal akár le is tölthető vagy a készítők is támogathatóak
 * http://www.8bitpeoples.com/ Letöltés csak regisztráció után, sokszor ingyen, retro chiptune
 * https://www.mp3va.com/ vásárlás előtt enged 1 percet belehallgatni
