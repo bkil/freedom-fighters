@@ -38,8 +38,9 @@ Egyes szoftver projekt tárolóknak is része:
 * 5 projekt
 * 120 futás/hó
 * 1 GB RAM, 2 vCPU
+* 300 perc*GB(RAM) CI/CD, 1GB gyorsítótár
 * 1 párhuzamos futás
-* 512MB tárhely
+* 1GB kiszolgált tárhely, 300 perc*GB
 * VCS integráció: GitLab, GitHub, BitBucket
 
 ### BuildKite
