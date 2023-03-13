@@ -166,6 +166,36 @@ Lásd még:
   * https://github.com/gchq/CyberChef
 * Tor hidden service átjáró a legtöbb szolgáltatásukra
 
+### tildeverse.org
+
+* ssh
+* "zone" (Mastodon)
+* "geminicapsule" (gemini)
+* "bbj" (fórum)
+* "chat" (IRC)
+* "pad" (CryptPad)
+* "news" (lobste.rs)
+* "bookwyrm"
+* "ttm" (fájlmegosztás)
+* "paste" (PrivateBin)
+* "tildegit" (Gitea)
+* "tildepages" (statikus tárhely)
+* "gopher"
+* "slbr" (Suicide Linux: Battle Royale)
+* "quotes" (IRC citations)
+* "wiki" (MediaWiki)
+* "rss" (Tiny Tiny RSS)
+* "write" (WriteFreely)
+* "jitsi"
+* "factorio"
+* "news" (NNTP)
+* "drone" (Drone CI)
+* "tel" (SIP PBX)
+* "crawl" (roguelike adventure)
+* "lists" (GNU Mailman, Postorius)
+* "gopher" (go-gopher web proxy)
+* webrádió
+
 ### trom.tf
 
 * https://trom.tf/
