@@ -17,6 +17,8 @@
   * https://youtube.com/audiolibrary csak Google regisztrációval elérhető, letölthető háttérzenék és effektek főleg YouTube videók készítéséhez
 * Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes csak DRM bekapcsolásával használható, de egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
 * https://music.amazon.com/ csak regisztrációval használható, ingyenes regisztrációval csak rádiózást tud
+* https://www.qobuz.com/us-en/ regisztráció nélkül csak az első 30 másodperc hallgatható
+* https://us.7digital.com/ regisztráció nélkül csak az első 30 másodperc hallgatható, lejátszólisták, vásárláskor DRM mentes letöltés
 * https://Deezer.com/ regisztráció nélkül csak az első 30 másodperc hallgatható, ingyenes regisztrációval csak rádiózás tud
 * https://listen.tidal.com/ fizetős regisztráció, anélkül csak az első 30 másodperc hallgatható
 * https://music.apple.com/ fizetős regisztráció, anélkül csak az első 30 másodperc hallgatható
