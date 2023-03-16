@@ -40,6 +40,8 @@ key|value
 
 >!Stack Overflow spoiler
 
+||Nheko spoiler warning|spoiled||
+
 <span data-mx-maths="span \over{ data-mx-maths}"> `span \over{ data-mx-maths}` </span>
 
 > blockquote
@@ -157,6 +159,59 @@ Rossz:
 * thead: bár kezelésben elkülönül a fejléc a törzstől, de egyszínűvé válik ettől a felső két sor
 * h2: kicsit kisebb mint a h3, de nagyobb mint a h4 és több a térköz
 * h1: kicsit kisebb mint a h2, de nagyobb mint a h4 és több a térköz
+
+### Nheko Linux markdown
+
+Jó:
+
+* h1, h2, h3, h4, h5
+* sub, sup, del, u
+* br
+* ab, ai, ub, ui, uabi
+* p
+* ol, ul
+* code
+* pre
+* named references
+
+Nem jó:
+
+* h6
+* ~~ttilde~~
+* hr: nagyobb térközt hagy mint a p
+* localhost, @user #room
+* szintaxis kiemelés
+
+Algoritmus:
+
+* https://github.com/Nheko-Reborn/nheko/blob/0839c641506c4624f392917c5c7ab278aa5a06ba/man/nheko.1.adoc#user-content-markdown-extensions
+
+### Nheko Linux HTML
+
+Jó:
+
+* h1, h2, h3, h4, h5
+* del, strike, sub, sup
+* font color
+* br
+* b, strong, i, em, u
+* p
+* ol, ul, table (th, tr, td)
+* data-mx-spoiler: fehér háttérrel mutatja amit kijelölve látható a tartalma
+* pre
+* blockquote: csak a behúzását növeli
+
+Nem jó:
+
+* h6
+* data-mx-*color
+* hr: ugyanakkor térközt hagy mint a p előtt
+* table caption
+* details summary: mindkettőt mutatja
+* code: pre-ként mutatja teljes szélességben
+* data-mx-maths
+* szintaxis kiemelés
+* img mxc:// (kimaradt)
 
 ### Element iOS
 
