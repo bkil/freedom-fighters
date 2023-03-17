@@ -15,6 +15,16 @@ Language: PHP
 
 Language: C
 
+### Courier Mail Server
+
+* https://en.wikipedia.org/wiki/Courier_Mail_Server
+* https://github.com/svarshavchik/courier/tree/master/sqwebmail
+* http://www.courier-mta.org/sqwebmail/
+
+Language: C
+
+> Javascript and cookies are not required.
+
 ### Cypht
 
 * https://github.com/jasonmunro/cypht
@@ -39,6 +49,13 @@ Language: PHP
 https://github.com/manusa/isotope-mail
 
 Language: Java
+
+### Kopano WebApp
+
+* https://en.wikipedia.org/wiki/Kopano_(software)
+* https://github.com/Kopano-dev/kopano-webapp
+
+Language: C++, PHP
 
 ### LibreMail
 
