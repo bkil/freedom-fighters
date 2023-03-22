@@ -18,10 +18,10 @@
 * Spotify: csak regisztrációval hallgatható, mobilon csak rádió üzemmódot tud ingyen, a webes csak DRM bekapcsolásával használható, de egyre több és tolakodóbb reklámért cserébe lehetővé teszi kiválasztott számok lejátszását is
 * https://music.amazon.com/ csak regisztrációval használható, ingyenes regisztrációval csak rádiózást tud
 * https://www.qobuz.com/us-en/ regisztráció nélkül csak az első 30-60 másodperc hallgatható
-* https://us.7digital.com/ regisztráció nélkül csak az első 30-60 másodperc hallgatható, lejátszólisták, vásárláskor DRM mentes letöltés
 * https://Deezer.com/ regisztráció nélkül csak az első 30 másodperc hallgatható, ingyenes regisztrációval csak rádiózás tud
 * https://listen.tidal.com/ fizetős regisztráció, anélkül csak az első 30 másodperc hallgatható
 * https://music.apple.com/ fizetős regisztráció, anélkül csak az első 90 másodperc hallgatható
+* https://www.boomplay.com/ regisztráció nélkül is hallgatható, ingyenes használat mellett elvileg reklámokat játszik be
 
 ### Digitális lemezboltok
 
@@ -33,6 +33,15 @@
 * https://www.mp3va.com/ vásárlás előtt enged 1 percet belehallgatni
 * https://www.junodownload.com/ vásárlás előtt enged egyben 2 percet belehallgatni vagy 30 másodpercenként tetszőlegesen áttekerni
 * https://dalok.hu/ vásárlás előtt enged 1 percet belehallgatni, DRM mentes, FLAC vagy 320 kbps MP3 (régi fájlokra 192 kbps)
+* https://us.7digital.com/ regisztráció nélkül csak az első 30-60 másodperc hallgatható, lejátszólisták, vásárláskor DRM mentes letöltés
+  * https://www.emusic.com/ 7digital alapú
+* https://www.prostudiomasters.com/ vásárlás előtt enged 90 másodpercet belehallgatni: 192kb/s 44.1kHz MP3
+* https://www.traxsource.com/ vásárlás előtt enged 2 percet belehallgatni
+* https://www.classicalarchives.com/ vásárlás előtt enged 1 percet belehallgatni, csak klasszikus zenék
+* https://www.hdtracks.com/ vásárlás előtt enged 15-30 másodpercet belehallgatni
+* https://mora.jp/ DRM-mentes, vásárlás előtt enged 90 másodpercet belehallgatni: 320kb/s AAC-LC
+* https://www.supraphonline.cz/ vásárlás előtt enged 30 másodpercet belehallgatni
+* https://www.kkbox.com/ vásárlás előtt enged 30 másodpercet belehallgatni: 128kb/s mp3
 
 ## Szoftverek
 
@@ -83,6 +92,8 @@
 * Rádiózás https://www.di.fm/ 30 percet regisztráció nélkül is lejátszik, utána ingyenes regisztrációt vár el
 * Hallgatás/letöltés https://bandcamp.com/tag/free-download A hallgatás mindig ingyenes, de van amelyik szám letöltése fizetős, amelyik ingyenes, azt regisztráció nélkül is le lehet tölteni
 * Hallgatás https://bleep.com/ a letöltés mindig fizetős
+* Rádiózás https://www.accuradio.com/
+* Rádiózás https://play.anghami.com/ csak ingyenes regisztráció után, Google reCAPTCHA
 
 ### Vegyes demoscene és retro chiptune
 
