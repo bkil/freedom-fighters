@@ -42,6 +42,8 @@
 * https://mora.jp/ DRM-mentes, vásárlás előtt enged 90 másodpercet belehallgatni: 320kb/s AAC-LC
 * https://www.supraphonline.cz/ vásárlás előtt enged 30 másodpercet belehallgatni
 * https://www.kkbox.com/ vásárlás előtt enged 30 másodpercet belehallgatni: 128kb/s mp3
+* https://www.dischord.com/label/dischord főleg rock, egyes albumokról vásárlás előtt enged 20 másodpercet belehallgatni, de van ami nincs digitalizálva
+* https://folkways.si.edu/ főleg country, vásárlás előtt 30 másodpercet enged belehallgatni: 160kb/s 44.1kHz mp3
 
 ## Szoftverek
 
@@ -73,7 +75,7 @@
 ### Főleg szabad tartalmak
 
 * Hallgatás/letöltés https://www.jamendo.com/ Hipstereknek különösen ajánlott, mert ez nagyon indie (Clementine és Libre.fm támogatás)
-* Hallgatás/letöltés https://open.audio/
+* Hallgatás/letöltés https://open.audio/ FunkWhale
 * Letöltés https://www.europeana.eu/en/search?page=1&qf=TYPE%3A%22SOUND%22&query=RIGHTS%3A*creative*
 * Hallgatás/letöltés https://commons.wikimedia.org/
 * Hallgatás/letöltés https://freemusicarchive.org/
