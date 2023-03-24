@@ -12,20 +12,32 @@ Ezen kívül túl sok egyént kellene megneveznünk aki egyedül gyárt FOSS tar
 
 ## MediaWiki
 
+* https://algowiki.miraheze.org/
+* https://alternativgazdasag.fandom.com/
 * https://apocalypse.rulez.org/kozos
+* https://avpwarfrpg.fandom.com/
+* http://bve.shoutwiki.com/
 * https://wiki.cserkesz.hu/
+* https://dont-starve-magyarorszag.fandom.com/
+* https://earthvision.miraheze.org/
+* https://hu.wikifur.com/wiki/Kezd%C5%91lap
 * https://gowiki.hu/
 * https://wiki.ham.hu/
 * https://hogyankell.hu/Kezd%C5%91lap
-* https://hu.wikifur.com/wiki/Kezd%C5%91lap
+* https://homokora.fandom.com/
+* https://hungarian-folk-tales.fandom.com/
 * https://wiki.hup.hu/
-* https://wiki.prog.hu/wiki/Kezd%C5%91lap
-* https://wiki.szkeptikus.hu/wiki/Kezd%C5%91lap
+* https://kikezekahulyek.fandom.com/
+* https://konyvvarazs.miraheze.org/
+* http://linzmagyaroknak.shoutwiki.com/
 * https://minecraft.fandom.com/hu/wiki/Minecraft_Wiki
 * https://narnia.fandom.com/hu/wiki/Kezd%C5%91lap
 * https://net.fandom.com/hu/wiki/Kezd%C5%91lap
 * https://wiki.openstreetmap.org/wiki/Hungary
 * https://hu.opensuse.org/
+* https://wiki.prog.hu/wiki/Kezd%C5%91lap
+* https://wiki.szkeptikus.hu/wiki/Kezd%C5%91lap
+* https://szk.miraheze.org/
 * https://unciklopedia.org/
 * http://veteraninfo.hu/index.php?title=Kezd%C5%91lap
 * https://warframe.fandom.com/hu/wiki/Kezd%C5%91lap
