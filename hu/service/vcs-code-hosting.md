@@ -188,6 +188,14 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 
 A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 
+### blesmrt.net
+
+* https://gitea.blesmrt.net/
+* Gitea
+* Csehország
+* felület: cseh
+* nincs API CORS
+
 ### git.disroot.org
 
 * Amszterdam
