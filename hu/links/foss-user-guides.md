@@ -23,6 +23,7 @@ Lásd még:
 * http://prism-break.org/
 * https://privacyguides.org/ (former privacytools.io)
 * https://securityinabox.org/en/
+* https://degooglisons-internet.org/en/
 * https://ethical.net/resources/
 * https://myshadow.org/resources
 * https://ssd.eff.org/en
@@ -56,6 +57,13 @@ Lásd még:
   * https://github.com/arkenfox/user.js _Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening_
 * https://git.nixnet.services/you/stop_cloudflare/src/branch/master/subfiles/change-firefox-dns.md
 * https://github.com/claustromaniac/detect-cloudflare-plus/blob/cdcfe71a6217f263cbba331bee6296bb8e34be74/src/background/classes.js
+
+### Thunderbird magánszféra javítás
+
+* enigmail
+* TODO: csomó jó nem-Tor specifikus beállítás kinézhető a TorBirdy kiegészítőből (xul-ext-torbirdy)
+* https://trac.torproject.org/projects/tor/wiki/torbirdy/preferences
+* https://gitweb.torproject.org/torbirdy.git/tree/components/torbirdy.js
 
 ### Android magánszféra javítás
 
