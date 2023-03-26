@@ -38,6 +38,14 @@ Szintaxisa megegyezik a HTML input form példával amennyiben a levélcím `<` �
 [>]
 ```
 
+### chat.indieweb.org
+
+https://github.com/indieweb/chat.indieweb.org/blob/11ee4c527f3e7f7ff38c07dd3d571f73ac5a4bfb/lib/Regex.php#L161
+
+```
+/([a-z0-9_\.\+\-]+@[a-z0-9_\.\+\-]+\.[a-z0-9\.]{2,4})/i
+```
+
 ### commonmark.js linkify
 
 ```
