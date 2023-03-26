@@ -110,6 +110,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/lepture/captcha
 * https://github.com/wjcrowcroft/MotionCAPTCHA
 * https://github.com/processone/ejabberd/blob/master/tools/captcha-ng.sh
+* https://git.friendi.ca/tobias/mathcaptcha/src/branch/master/mathcaptcha.php
 
 ### FOSS CAPTCHA client
 
