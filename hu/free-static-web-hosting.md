@@ -12,6 +12,7 @@ Egyes szoftver projekt tárolóknak is része a statikus webkiszolgálás és a 
 * https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 * https://en.wikipedia.org/wiki/Static_web_page
 * https://staticadventures.netlib.re/blog/entering-the-static-web/
+* https://feather.wiki/
 
 ## Magyar tárhely
 
@@ -607,6 +608,12 @@ Lásd még:
 * max. 3 lap ingyen
 * aldomain: *.carrd.co *.cdr.co
 
+### TiddlyHost
+
+* https://tiddlyhost.com/
+* támogatott: TiddlyWiki, Feather.wiki
+* van API CORS amivel lekérhető a JSON!
+
 ### jimdo
 
 * https://www.jimdo.com/website/how-to-create/
@@ -747,7 +754,7 @@ Lásd még:
 * 3-15 bejegyzés/nap
 * korlátlan megtekintés
 * formázás: Markdown, MathJax, szerkesztő
-* publikalási API
+* publikálási API
 * RSS olvasás
 * van TLS
 * prefix: write.as/${USER}/
