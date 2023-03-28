@@ -5,6 +5,7 @@
 * https://wordsmith.social/matrix-magyarul/matrix-kezdoknek
 * https://blogg.grin.hu/2021/01/114-matrix_a_decentralizalt_nyilt_kommunikacios_platform_hasznalata/
 * https://video.ploud.fr/search?languageOneOf=hu&tagsAllOf=Matrix&sort=-match&searchTarget=local
+* https://rozsnet.hu/matrix
 
 ## Angol bevezetők
 
@@ -70,6 +71,7 @@
 * https://glowers.club/wiki/doku.php?id=wiki:newfriends#what_homeserver_should_i_use
 * https://hello-matrix.net/public_servers.php
 * https://matrix.grin.hu/rooms/
+* https://matrix.grin.hu/stat/
 * https://web.archive.org/web/20210612203339/publiclist.anchel.nl/
 * https://the-federation.info/matrix%7Csynapse
 * https://wiki.asra.gr/en:public_servers
