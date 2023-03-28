@@ -6,6 +6,7 @@ The fingerprinting actor does not need to be near our devices.
 They may observe our transmission through a MITM position or by operating or compromising a server or client that we connect to.
 
 * https://github.com/xsleaks/wiki/tree/master/content/docs/attacks
+* https://github.com/fingerprintjs/fingerprintjs
 
 See local options in case of physical proximity:
 
