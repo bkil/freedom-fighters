@@ -50,6 +50,7 @@
   * "Csetelj szabadon a Mátrixon - soroljuk az előnyeit"
   * "Messenger, WhatsApp, Snapchat, Viber és Skype - miért ne használjuk?"
   * "5 titok az üzenetküldő alkalmazásodról"
+  * "Így tudja megakadályozni a francia hadsereg a harmadik világháborút a megfelelő csevegőrendszerrel"
 * Kiemelendő megkülönböztető jellemzők
   * self-hostable, föderált
   * Szabad szoftver

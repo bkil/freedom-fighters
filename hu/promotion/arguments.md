@@ -27,6 +27,10 @@
 * Akinek kell kötegelt feldolgozás, arra léteznek Linuxon jól bevált eszközkészletek
 * Fejlesztőknél az LXC (docker, stb.) egy nagyon hasznos funkció, amely segíti a napi munkavégzést. Más operációs rendszeren ez csak virtuális géppel megy. Macen még több falba ütközik: 1000 alatti portokkal nem megy a Docker
 
+### Linux plakátötletek
+
+* "A legjobb védelem az óvszer után a pingvin. Mutatjuk miért"
+
 ## Linux használata elleni kifogások
 
 ### Előtelepítés
