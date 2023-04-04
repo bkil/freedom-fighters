@@ -4,25 +4,27 @@
 
 See the [#details](#details) chapter for an explanation.
 
-Mandatory:
+### Mandatory
 
 * Altruism: openly commit to regularly benefiting others without compensation
+* Discovery: link back to the ring from your page
 * Locality: speak the local language or conduct physical activities in the given country
+* Content: provide an incentive for users to visit you page
 * Replication: license your content so that others can reuse it
-* Accessibility: prepare for disabilities, old hardware, slow connections, privacy minded settings
-* Cooperation: stay in touch with the ring manager and your ring peers
+* Accessibility: prepare for disabilities, old hardware, slow connections and privacy minded settings
+* Cooperation: stay in touch with the ring manager and your peers in the ring
 
-Suggested:
+### Suggested
 
 * Outreach: communicate with your own community through at least one open platform
-* Syndication: enable humans and machines to follow new content
-* Offline: allow users with connectivity challenges portable takeouts
+* Syndication: enable humans and their machines to follow new content
+* Offline: offer portable takeouts for users with connectivity challenges
 * Intermediaries: prefer ethical service providers that treat users well
 
 ## Goals
 
 * This is a recipe we propose for starting community web ring services.
-* Depending on volunteer moderation resources available, it would be desirable to maintain dozens of separate rings for everyday areas of life to keep it interesting to less technically inclined people.
+* Depending on volunteer moderation resources available, it would be desirable to maintain dozens of separate rings to cover everyday areas of life. This should keep it interesting to less technically inclined people and enable variety.
 * Our aim is to honor the primary goals of the project of freedom of intellectual property and fair open competition for service providers.
 * Facilitate in producing content that can reduce the digital divide:
 * https://github.com/bkil/kisnux
@@ -31,7 +33,7 @@ Suggested:
 
 ### Altruism
 
-* We call an act "altruistic" if it is done for the benefit of another and accomplished irrespective of being granted fair compensation (i.e., as a job responsibility), not expecting a favor in exchange, and not being in extended family relations with the beneficiary
+* We call an act "altruistic" if it is done for the benefit of another and accomplished irrespective of being granted fair compensation (i.e., as part of a job responsibility), not expecting a favor in exchange, and not being in extended family relations with the beneficiary
 * The person or community behind a given member website shall volunteer to achieve altruistic acts regularly
 * They should declare the specific kind of activities beforehand and should publish regular updates about their progress
 
@@ -53,10 +55,27 @@ Such volunteering can be interpreted broadly, but here are a few common examples
 * Online community management, moderation, grooming, delegation, bridging
 * ... submit your examples to be included here!
 
+### Discovery
+
+* Your page must include a widget for pointing back to the ring
+* Ideally use a customized link that contains your URL or username
+* This allows for a user to browse through all members of the ring one by one by following the widget on each member page
+* The accessibility of your page and the presence of the links will be verified daily to maintain continuity
+
 ### Locality
 
-* If the topic of the ring requires physical presence for action, its position must reside within the country of the ring manager. The language used may include English in this case.
+* If the topic of the page requires physical presence for action, its position must reside within the country of the ring manager. The language used may include English in this case.
 * Otherwise require that the local language must be used on each member website and for the ring description.
+
+### Content
+
+You should provide a way for your community to meet in person by organizing regular open events if the topic is of physical nature.
+
+You should otherwise offer one of the following for your remote visitors to enjoy:
+
+* Regular interesting updates using a blog or an active social networking account
+* A vivid online community through a forum or frequented chat spaces
+* A valuable knowledge base in the form of articles, books, software or multimedia
 
 ### Replication
 
@@ -101,8 +120,9 @@ Such volunteering can be interpreted broadly, but here are a few common examples
 * Depending on your content, you may also consider providing a compressed folder with the HTML source if it can be opened without a web server, a versioned source control repository or a PDF document
 * You may ship a dedicated app or utilize Service Workers to offer a user to prefetch and update content when they are connected to the internet and possibly allow users to share such updates locally as a file
 * Lacking the above takeout option, allow scraping from a data center for implementing this by a third party
+* You should also provide a visitor with a way to style pages so that they can economically print individual articles, whole categories of articles or the whole website in book form for those without access to equipment or electricity
 
 ### Intermediaries
 
 * Prefer service providers that are detailed in other notes of this project
-* Some of the qualities we are looking for: non-monopolistic, open protocols, FOSS, local, no vendor lock-in, doesn't track users, sustainable
+* Some of the qualities we are looking for: open protocols, FOSS, local, sustainable, no vendor lock-in, doesn't track users, not glorifying oligopoly
