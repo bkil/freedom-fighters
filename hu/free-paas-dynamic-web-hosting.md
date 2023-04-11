@@ -16,7 +16,7 @@
 * 1 MySQL adatbázis
 * HTTP/2
 * .htaccess támogatott
-* regisztrációnál kötelező, de nem ellenőrzik: személyi igazolvány szám, telefonszám
+* regisztrációnál kötelező személyi igazolvány szám, illetve a nem ellenőrzött telefonszám
 * Kliens portál: WHMCS (magyarul)
 * vezérlőpult: https://www.keyhelp.de/ angol és német nyelven (magyarul nincs!)
 * üzemeltető: https://csb-it.hu/  CSB IT Hosting & Consulting Bt.
@@ -49,15 +49,24 @@
 
 * https://nextnet.hu/ingyen-ssd-tarhely/
 * https://my.nextnet.hu/store/ingyen-tarhely
+* infrastruktúra: ANEXIA Internetdienstleistungs GmbH, Ausztria
 * 100MB tárhely
 * korlátlan adatforgalom
 * TLS ingyen
 * SSD
-* 2 email cím: IMAP, POP3, SMTP
+* 2 email cím:
+  * IMAP, POP3, SMTP (Dovecot, Exim)
+  * max. 4000 email/nap küldhető
+  * nincs átirányítás
 * 1 domain + (1 domain vagy 2 aldomain)
-* Apache2
-* DirectAdmin vezérlőpult
+* 2 MySQL adatbázis
+* 2 FTP fiók (pure-ftpd)
+* cron időzített feladatok
+* DirectAdmin vezérlőpult, Softaculous telepítő
+* Apache (LiteSpeed?) webszerver, állítható ModSecurity
+* CGI, sok telepített Perl modul, PHP 4.4-8.1, Node.js, Python
 * alkalmazástelepítő: WordPress, Joomla, Drupal, OpenCart
+* szabadon állítható szinte minden, memory_limit=64-512MB, alapértelmezetten disable_functions = curl_multi_exec , dl , exec , passthru , pcntl_exec , popen , posix_kill , posix_mkfifo , posix_setuid , proc_close , proc_open , proc_terminate , shell_exec , system , ftp_exec , leak , posix_setpgid , posix_setsid , proc_get_status , proc_nice , show_source , escapeshellcmd , showsource, symlink, escapeshellarg, escapeshellcmd
 
 ## Magyar reklámos
 
