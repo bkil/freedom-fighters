@@ -30,6 +30,12 @@ Serve a benign purpose in agreement with the terms of service to mitigate abuse:
 
 Assuming that the user agent application can be anything that uses TCP/TLS or a generic HTTP transport.
 
+### TCP Fast Open cookie
+
+https://arxiv.org/pdf/1905.03518.pdf
+
+> Enhanced Performance and Privacy for TLS over TCP Fast Open
+
 ### Location, ISP subscription
 
 * GeoIP, reverse DNS
