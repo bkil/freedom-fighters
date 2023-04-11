@@ -2,6 +2,21 @@
 
 ## Validáló implementációk
 
+### PostgreSQL
+
+https://www.postgresql.org/docs/13/textsearch-parsers.html#:~:text=email%20characters
+
+> The parser's notion of a "letter" is determined by the database's locale setting, specifically lc_ctype.
+> [...] the only non-alphanumeric characters supported for email user names are period, dash, and underscore.
+
+It somewhat sanitizes the hostname and in practice, `/` is also allowed along with repeated and isolated `@`, so it supports approximately the following syntax:
+
+```
+/([0-9a-zA-Z_./-]+@)+host.domain.tld/
+```
+
+https://github.com/postgres/postgres/blob/c30f54ad732ca5c8762bb68bbe0f51de9137dd72/src/backend/tsearch/wparser_def.c#L986
+
 ### HTML5 input
 
 - https://html.spec.whatwg.org/multipage/input.html#valid-e-mail-address
