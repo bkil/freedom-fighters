@@ -19,13 +19,25 @@
 
 Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 
-### tildeverse hivatalos
+### breadpunk.club
+
+* https://breadpunk.club/join/
+* SSH, lokális NNTP, IRC, email
+* gopher, gemini és HTML
+* nincs CGI, de igényelhető
+* nincs aldomain, csak mappa
+* nincs CORS
+
+### envs.net
+
+* https://envs.net/
+* [../server/palette-inspiration.md#envs.net](../server/palette-inspiration.md#envs.net)
+
+### tildeverse egyéb hivatalos
 
 * https://aussies.space/
-* https://breadpunk.club/
 * https://cosmic.voyage/
 * http://ctrl-c.club/
-* https://envs.net/
 * http://rw.rs/
 * https://texto-plano.xyz/
 * https://www.thunix.net/
@@ -98,6 +110,21 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 
 * https://cloudssh.us/ 3 nap ingyen 1GB RAM, KVM
 * https://www.sshssl.com/ 20 nap
+
+## Betelt
+
+### soviet.circumlunar.space
+
+* gemini://soviet.circumlunar.space/signup.gmi
+* gemini://soviet.circumlunar.space/about.gmi
+* legfeljebb 48 felhasználó engedélyezett
+* 100MB tárhely
+* gopher és gemini
+* ssh, sftp
+* IRC
+* BBS fórum
+* email
+* több mint 365 nap inaktivitás után deaktiválnak
 
 ## Feldolgozandó
 

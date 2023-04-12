@@ -764,6 +764,15 @@ Lásd még:
 
 ## gemini
 
+### breadpunk.club
+
+* https://breadpunk.club/join/
+* gopher, gemini és HTML
+* nincs CGI, de igényelhető
+* nincs aldomain, csak mappa
+* nincs CORS
+* van TLS
+
 ### yesterweb.org
 
 * https://cities.yesterweb.org/
@@ -771,6 +780,42 @@ Lásd még:
 * van aldomain: *.cities.yesterweb.org
 * nincs CORS
 * van CORS: https://zine.yesterweb.org/
+
+### cosmic.voyage
+
+* https://cosmic.voyage/join.html
+* gopher, gemini és HTML
+* nincs aldomain, csak mappa
+* van TLS
+* nincs CORS
+* blog: közösen költött történet űrexpedícióhoz
+
+### ctrl-c.club
+
+* https://ctrl-c.club/
+* gemini://gemini.ctrl-c.club
+* gemini, HTML
+* nincs aldomain, csak mappa
+* nincs CORS
+* van TLS
+
+### heathens.club
+
+* https://heathens.club/
+* gemini, HTTP
+* nincs aldomain, csak mappa
+* van TLS
+* nincs CORS
+
+### envs.net
+
+* https://envs.net/
+* 1GB tárhely
+* gopher, gemini, HTML
+* van aldomain: *.envs.net
+* van TLS
+* nincs CORS
+* [../server/palette-inspiration.md#envs.net](../server/palette-inspiration.md#envs.net)
 
 ### flounder.online
 
@@ -780,6 +825,23 @@ Lásd még:
 * van TLS
 * nincs CORS
 
+### gemlog.blue
+
+* https://gemlog.blue/
+* csak gemini alatt van áttekintés, viszont az egyedi bejegyzések formázás nélküli HTTP+gmi alól is elérhetők
+* nincs aldomain csak mappa
+* csak blog
+* van TLS
+* nincs CORS
+
+### koyu.space
+
+* gemini://koyu.space/info.gmi
+* csak gemini
+* nincs aldomain, csak mappa
+* a domain alatt Mastodon is fut
+* FTP és git tároló alól publikál statikus gmi fájlokat
+
 ### midnight.pub
 
 * https://midnight.pub/
@@ -788,6 +850,27 @@ Lásd még:
 * blog és hozzászólások
 * van TLS
 * nincs CORS
+
+### rawtext.club
+
+* https://rawtext.club/sign-up.html
+* gopher, gemini, HTML
+* nincs aldomain, csak mappa
+* van TLS
+* nincs CORS, nincs RSS CORS
+
+### SDF
+
+* https://sdf.org/?faq?GOPHER?02
+* gopher (csak mappa), HTML (van aldomain, TLS)
+* nincs CORS, nincs RSS CORS
+
+### si3t.ch
+
+* https://gmi.si3t.ch/
+* csak gemini
+* nincs aldomain, csak mappa
+* SFTP
 
 ### smol.pub
 
@@ -883,4 +966,25 @@ Lásd még:
 
 ## Megszűnt
 
+### circumlunar.space
+
+* https://gemini.circumlunar.space/news/2023_01_14.gmi
+* gemini://gemini.circumlunar.space/users/
+* már nem él az ajánlat, email megkeresés alapján ment
+* csak gemini
+* nincs aldomain csak mappa
+
+### srht.site
+
+* gemini://srht.site/
+* https://sourcehut.org/pricing/
+* gemini, HTML
+* 1GB tárhely
+* van aldomain: *.srht.site
+* új tárolók létrehozása nem ingyenes
+* újabban már nem jönnek be alóla gemini oldalak
+
+### Egyéb megszűnt
+
 * EzyWebs
+* https://pollux.casa/
