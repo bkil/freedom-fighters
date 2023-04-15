@@ -37,6 +37,7 @@ Here are some reasons why this is not desirable:
 * uses various other providers under the hood
 * returns results within an iframe - opening the link directly allows viewing the results without JavaScript
 * https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
+* option to open result hits through their proxy
 
 ### Marginalia
 
@@ -53,14 +54,6 @@ Here are some reasons why this is not desirable:
 * FR
 * TODO: what other providers does it use?
 * can be used without JavaScript
-
-### Gigablast
-
-* https://gigablast.com/
-* USA
-* FOSS, can also be self-hosted
-* requires JavaScript, but copying the `rand=` and `pxb=` values from the HTML source and appending `&fromjs=1&rand=...&opxb=...` to the end shows the results
-* https://github.com/bkil/static-wonders.js/blob/master/userjs/gigablast.com.user.js
 
 ### DuckDuckGo
 
@@ -136,6 +129,16 @@ Crawler roots:
 * https://en.wikipedia.org/wiki/Reverse_image_search#Application_in_popular_search_systems
 * https://en.wikipedia.org/wiki/List_of_CBIR_engines
 * https://en.wikipedia.org/wiki/Content-based_image_retrieval#Techniques
+
+## Defunct
+
+### Gigablast
+
+* https://gigablast.com/
+* USA
+* FOSS, can also be self-hosted
+* requires JavaScript, but copying the `rand=` and `pxb=` values from the HTML source and appending `&fromjs=1&rand=...&opxb=...` to the end shows the results
+* https://github.com/bkil/static-wonders.js/blob/master/userjs/gigablast.com.user.js
 
 ## References
 
