@@ -208,8 +208,13 @@ Depending on the replication strategy, synonyms and typos should be either:
 
 * https://sphider.worldspaceflight.com/about.php
 * https://lunrjs.com/docs/index.html
+* https://github.com/weixsong/elasticlunr.js
 * https://github.com/blevesearch/bleve
 * https://github.com/blugelabs/bluge
 * https://git.mills.io/prologic/spyda
 * https://memex.marginalia.nu/log/69-creepy-website-similarity.gmi
 * https://memex.marginalia.nu/log/06-optimization.gmi
+* https://www.algolia.com/blog/engineering/inside-the-algolia-engine-part-1-indexing-vs-search/
+* https://wiki.nikiv.dev/web/search-engines
+* https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
+* https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html
