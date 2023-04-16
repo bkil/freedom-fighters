@@ -129,6 +129,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://github.com/LukeSmithxyz/landchad
 * https://git.envs.net/envs/ops
 * https://codeberg.org/Codeberg-Infrastructure/scripted-configuration
+* https://github.com/codespeaknet/sysadmin/
 
 ### Rendszergazdai automatizmusok
 
