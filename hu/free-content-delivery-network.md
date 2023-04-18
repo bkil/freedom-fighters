@@ -79,6 +79,14 @@
   * CDN: CloudFlare
   * feldolgozás: Google Cloud
 
+### Gcore
+
+* https://gcore.com/pricing
+* 1TB/hó forgalom
+* 1000M kérés/hó
+* ingyen TLS tanúsítvány
+* regisztrációhoz címadatokat kér és Google reCAPTCHA, de bejelentkezéshez nem
+
 ### Cloudinary
 
 * https://cloudinary.com/pricing
