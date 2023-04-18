@@ -71,6 +71,7 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * reklámmentesítés és további tárhely: 1.75 EUR/hó
 * hirdetések: Google
 * üzemeltető: Yellow Hashtag OÜ., Észtország
+* max. 64MB fájl csatolható
 * médiapartnere: 24.hu hirradar.hu
 * további fizetős szolgáltatás: http://postino.hu/
 * IMAP, POP3, SMTP
@@ -119,6 +120,21 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 * http://protonmail.com/ Svájc, csak webmail ingyenes, 500MB tárhely, 150 üzenet/nap
 * támogatott ekvivalencia: ".", "-", kis-nagybetű
 * támogatott subaddressing: "+"
+
+### 25mail.st
+
+* https://25mail.st/
+* csak saját domain alá
+* infrastruktúra: Dallas, Auckland, London
+* üzemeltető: RimuHosting
+* 1 postafiók
+* korlátlan alias
+* 500MB tárhely
+* max. 200 küldött üzenet/hó
+* max. 2000 továbbított üzenet/hó
+* spam- és vírusvédelem (SpamAssassin)
+* RoundCube webmail
+* Postfix (SMTP), Dovecot (IMAP, POP3)
 
 ### Zoho Mail
 
