@@ -65,6 +65,7 @@ References:
 * https://github.com/BeyondCodeBootcamp/Bliss
 * https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-12.html
 * https://www.stackscale.com/blog/popular-web-hosting-control-panels/
+* https://codeberg.org/Alamantus/FeatherWiki/src/branch/main/nests
 
 ### Link preview
 
@@ -257,12 +258,14 @@ Access-Control-Allow-Origin: *
 * gemini://station.martinrue.com/
 * https://status.cafe/
 * https://angel-town.cinni.net/
+* https://chat.indieweb.org/
+  * https://github.com/indieweb/chat.indieweb.org/
 
 ### Feed health indication
 
 * A user could see the health of each followed feed
 * HTTP redirect for #backup_accounts
-* HTTP 4xx, 5xx, timeout
+* HTTP 4xx, 5xx, timeout, HTML error page
 * Linter: empty file, obvious syntax errors, parser warnings
 * The status could be color coded and the list rearranged to show those in error at the top
 * Show the timestamp of the last successful poll of the feed
@@ -322,7 +325,7 @@ As per #link_preview
 ### Forums
 
 * Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed: #directory
-* Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members), potentially served as a registry file
+* Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members), potentially served as a twtxt registry file
 * Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass before allowing this.
 * Members should create a separate subaccount to store their answers for each forum they participate in
 * A member may reuse a single subaccount between strongly related forums to facilitate cross-posting
@@ -386,7 +389,7 @@ As per #link_preview
 * Some use cases call for frequent polling (chat) while others allow for daily or on demand updates (blog)
 * If the value would be stored in a separately signed metadata file, could also represent "online status" of sorts (poll within 1 minute vs. poll within 8 hours changing dynamically)
 * The poll rate should be adaptive based on the expected time of the next post. This could be extrapolated from the time of day, day of week and the weighted posting rate.
-* This setting only applies for humans and software directly making requests on behalf of humans. For crawler preferences, see #clawlers This is also distinct from how the "refresh" property is interpreted both by Yarnd as the follower feed polling interval and yearn-search as a visitation interval.
+* This setting only applies for humans and software directly making requests on behalf of humans. For crawler preferences, see #crawlers This is also distinct from how the "refresh" property is interpreted both by Yarnd as the follower feed polling interval and yarn-search as a visitation interval.
 * https://dev.twtxt.net/doc/metadataextension.html#refresh
 * https://git.mills.io/yarnsocial/yarn/issues/427
 
@@ -504,7 +507,7 @@ Mechanism:
 
 ### Static HTML rendering
 
-* Alternate content metadata field to link to a HTML/gemini version of the feed (unless a polyglot to begin with as per )
+* Alternate content metadata field to link to a HTML/gemini version of the feed (unless a polyglot to begin with as per #search_engine_optimization )
 * The HTML version should be accessible though a minimal web client without JavaScript and for #search_engine_optimization
 * Posts should be legible, but it need not look perfect
 * It may be shown in full fidelity by a dedicated client or web app using progressive enhancement
@@ -626,7 +629,7 @@ Mechanism:
 * To aid decentralized discovery and to opt into viewing the full context
 * A reply should include the #federated_message_idedentifiers of its parent that defines the subthread (similar to `In-Reply-To` in email)
 * Idea#1: Each user who comments on a given thread should start to mirror all #federated_message_identifiers of messages within that thread up to the root (somewhat similar to `References` in email)
-* Idea#2: Each user who comments on a given thread should mirror all #federated_message_identifiers (or at least their feed URL) of siblings and on each level towards the root, all predecessor siblings. This enables resilience against parent redaction.
+* Idea#2: Each user who comments on a given thread should mirror all #federated_message_identifiers (or at least their feed URL) of siblings, all children to this message and on each level towards the root, all predecessor siblings. This enables resilience against parent redaction.
 * Don't mirror obsolete ones affected by #redaction or #forked_message_correction
 * Don't mirror message content in order to respect privacy
 * A user who comments on the thread may decide to rearrange the thread or hide (via #redaction ) any comment from their followers viewing the thread through their timeline. They will be notified about any alteration.
@@ -706,7 +709,7 @@ Separating these two links allows for the user or moderator to either reply to a
 ### URI query push
 
 * For clients where setting the HTTP User-Agent request header is not possible
-* Allows for follower discovery on static web hosting via analysing the server request log
+* Allows for follower discovery on static web hosting via analyzing the server request log
 * Optionally pass in the feed of the reader within the query
 * See #webhooks
 
@@ -764,10 +767,10 @@ Separating these two links allows for the user or moderator to either reply to a
 
 * https://git.mills.io/yarnsocial/yarn/issues/344
 * Any user may share a file where they share their recommendations for "censorship"
-* Abusive feed URLs
+* Abusive accounts, feed URLs
 * Iterative positive & negative globs and regexp for matching a URL
 * Hashes of email addresses for abusive accounts
-* Regexp content filters for abusive content
+* Regexp content filters for abusive content (including embedding, link targets and attachments)
 * Lists of IDs for concrete abusive posts - effectively #redaction
 * The client could subscribe to any number of such lists
 * The client would have a default subscription after installation to one recommended by the software developer
