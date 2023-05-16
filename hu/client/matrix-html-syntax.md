@@ -4,6 +4,8 @@
 
 A kérdés, hogy melyik kliens mennyire támogatja a `markdown` vagy `/html` formázott üzenetek megjelenítését illetve beküldését.
 
+* https://en.wikipedia.org/wiki/Lightweight_markup_language#Comparison_of_lightweight_markup_language_syntax
+
 ## Element Web lenyíló bélyegkép
 
 `/html <details><summary><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" width=140 alt="cat sleeping on top of flat TV" title="cat on TV" /><span data-mx-bg-color="#888888" data-mx-color="#ffffff">Kattints a nagyításhoz</span><br> <i>Cat on top of TV: Technology doesn't change everything for the better</i></summary> <a href="https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27"><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" height=700 alt="cat sleeping on top of flat TV" title="cat on TV" /></a> </details>`
@@ -17,7 +19,7 @@ A kérdés, hogy melyik kliens mennyire támogatja a `markdown` vagy `/html` for
 #### h4
 ##### h5
 ###### h6
-<sub>sub</sub> <sup>sup</sup> <del>del</del> <u>u</u> ~tilde~ ~~ttilde~~ -minus- ++pplus++  
+<sub>sub</sub> <sup>sup</sup> <del>del</del> <u>u</u> ~tilde~ ~~ttilde~~ -minus- --mminus-- +plus+ ++pplus++  
 br
 
 ---
@@ -38,7 +40,7 @@ key|value
 1|b
 2|c
 
->!Stack Overflow spoiler
+>!Stack Overflow spoiler!<
 
 ||Nheko spoiler warning|spoiled||
 
@@ -140,6 +142,22 @@ localhost autolink, @user:a.invalid #room:a.invalid https://matrix.to/#/#room:a.
 ## Element Web tesztüzenet 1
 
 `/html <h1>h1</h1> <h2>h2</h2> <h3>h3</h3> <h4>h4</h4> <h5>h5</h5> <h6>h6</h6> <del>del</del> <strike>strike</strike> <sub>sub</sub> <span data-mx-color="#00ff00">span data-mx-color green</span> <span data-mx-bg-color="#ff0000">span data-mx-bg-color red</span> <sup>sup</sup> <br> ... br <font data-mx-color="#00ff00">font data-mx-color green</font> <font data-mx-bg-color="#ff0000">font data-mx-bg-color red</font> <font color="#00ff00">font color green</font> <hr> ... hr <b>b</b> <i>i</i> <strong>strong</strong> <em>em</em> <p>p</p> <u>u</u> <ol start=42><li>item 42</li><li>item 43</li></ol> <ul><li>some bullet</li><li>another bullet</li></ul> <table><caption>table caption</caption><thead><tr><th>table head column 1</th> <th>col 2</th> <th>col 3</th></tr></thead> <tbody><tr><th>body row 2 head</th> <td>r2c2</td> <td>r2c3</td></tr> <tr><th>r3h</th> <td>r3c2</td> <td>r3c3</td></tr></tbody></table> <details><summary>summary (click to see details)</summary> details</details> <span data-mx-spoiler="click to reveal">span data-mx-spoiler</span> <span data-mx-maths="span \over{ data-mx-maths}"><code>span \over{ data-mx-maths}</code></span> <div data-mx-maths="div \over{ data-mx-maths}"><code>div \over{ data-mx-maths}</code></div> <blockquote>blockquote</blockquote> <code>var code = ""; // highlight</code> <pre><code class="language-haxe">var preCode = "language-haxe"; // highlight</code></pre> <code class="language-haxe">var code = "language-haxe"; // highlight</code> <pre>var pre = ""; // highlight</pre> <pre><code>var preCode = ""; // highlight</code></pre> <a href="https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27"><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" width=130 alt="cat sleeping on top of flat TV" title="&lt;img&gt; Cat on top of TV: Technology doesn't change everything for the better" /></a> ... mxc://path img ... <img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO" width=130 alt="cat sleeping on top of flat TV" title="&lt;img&gt; Cat on top of TV: Technology doesn't change everything for the better" /> mxc://base64 img <a href="https://diasp.eu/posts/aa9dc730ab7b013a1d0b101b0efced44">a href https://</a> <a href="mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix">a href mailto:</a> <a href="magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04">a href magnet:</a> <a href="ftp://example.com/">a href ftp://</a> 🎆 🎊 ❄️ 👾 🌦️ 💝`
+
+### HTML táblázat
+
+```
+/html <table><tr><th> 1st
+</th><td>a
+</td><td>b
+</td></tr><tr><th>
+ 2nd
+</th><td>x
+</td><td>y
+</td></tr><tr><th>
+ 3rd
+</th><td>u
+</td><td>v</td></tr></table>
+```
 
 ### Element Web asztali
 
