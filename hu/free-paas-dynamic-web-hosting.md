@@ -49,7 +49,9 @@
 
 * https://nextnet.hu/ingyen-ssd-tarhely/
 * https://my.nextnet.hu/store/ingyen-tarhely
+* üzemeltető: Cweb Hosting Kft., Center Webhost Kft. cweb.hu (weblap: Hetzner ASN, Németország)
 * infrastruktúra: ANEXIA Internetdienstleistungs GmbH, Ausztria
+* ISP: Frantech / Ponynet ASN, Luxemburg
 * 100MB tárhely
 * korlátlan adatforgalom
 * TLS ingyen
@@ -58,13 +60,15 @@
   * IMAP, POP3, SMTP (Dovecot, Exim)
   * max. 4000 email/nap küldhető
   * nincs átirányítás
-* 1 domain + (1 domain vagy 2 aldomain)
+* csak saját domain mellé: 1 domain + (1 domain vagy 2 aldomain)
 * 2 MySQL adatbázis
 * 2 FTP fiók (pure-ftpd)
 * cron időzített feladatok
+* CloudFlare
 * DirectAdmin vezérlőpult, Softaculous telepítő
 * Apache (LiteSpeed?) webszerver, állítható ModSecurity
 * CGI, sok telepített Perl modul, PHP 4.4-8.1, Node.js, Python
+* 2FA TOTP
 * alkalmazástelepítő: WordPress, Joomla, Drupal, OpenCart
 * szabadon állítható szinte minden, memory_limit=64-512MB, alapértelmezetten disable_functions = curl_multi_exec , dl , exec , passthru , pcntl_exec , popen , posix_kill , posix_mkfifo , posix_setuid , proc_close , proc_open , proc_terminate , shell_exec , system , ftp_exec , leak , posix_setpgid , posix_setsid , proc_get_status , proc_nice , show_source , escapeshellcmd , showsource, symlink, escapeshellarg, escapeshellcmd
 
@@ -114,6 +118,7 @@
 * TLS 1.3 ingyen
 * HTTP/2
 * kétféle csomag
+* jár hozzá ingyen aldomain, vagy vásárolhatunk tőlük domain nevet
 
 WordPress:
 * korlátlan SSD tárhely
@@ -124,6 +129,7 @@ WordPress:
 * szerkeszthető CSS
 
 File manager:
+* Magyarországon nem elérhető
 * 3GB tárhely
 * 30GB/hó forgalom
 * FTP, PhpMyAdmin, webes fájlkezelő
@@ -142,12 +148,15 @@ File manager:
 ### Koyeb.com
 
 * https://www.koyeb.com/pricing
+* üzemeltető: Franciaország
 * $5.5/hó kredit ingyen
   * $2.7/hó 1vCPU, 256MB RAM, 2.5GB SSD
   * $5.4/hó 1vCPU, 512MB RAM, 5GB SSD
 * 100GB/hó kimenő forgalom ingyen
 * CI/CD git integráció
 * HTTP/2, Let's Encrypt TLS, Websocket, gRPC
+* 1 saját domain név díjmentesen beköthető
+* regisztráció: Google reCAPTCHA
 * Docker/OCI konténerek, Node, Python, Go, Rust, Ruby, Elixir, PHP, Java, egyebek
 
 ### Panteon.io
