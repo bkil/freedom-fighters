@@ -84,6 +84,7 @@ Egyes elemek akár ismeretlenek között név megismerése nélkül
 * vészhelyzet: ki hagyta a gépjárműben az élőlényt és mikor ér vissza?
 * nálatok sincs víz/villany/internet? Közműszünet alatt:
   * xy óra-perckor lesz átmenetileg központi aggregátorról áram x óra ideig
+  * xy napokon nem lesz emberi fogyasztásra alkalmas a vezetékes víz
   * xy koordináta alatt található lajtos kocsiból kiszolgálva a víz, bejelentve ha kifogyott
 * elromlott utcabútor
 * nálatok sem vitték el a kukát?
