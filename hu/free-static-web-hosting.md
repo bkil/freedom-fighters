@@ -762,6 +762,28 @@ Lásd még:
 * ingyenesben nincs: beágyazás, statikus oldalak, saját domain, témák
 * nincs CORS az oldalra de van az RSS-re
 
+### angel-town.cinni.net
+
+* https://angel-town.cinni.net/
+* nincs CORS, nincs RSS
+
+### bearblog.dev
+
+* https://bearblog.dev/
+* nincs CORS sem az oldalon, sem RSS-en
+
+### mataroa.blog
+
+* https://mataroa.blog/
+* nincs CORS sem az oldalon, sem RSS-en
+* Van API saját blogon publikáláshoz és saját bejegyzések lekéréséhez:
+* https://mataroa.blog/api/docs/
+
+### status.cafe
+
+* https://status.cafe/
+* nincs CORS az oldalra de van az RSS-re
+
 ## gemini
 
 ### breadpunk.club
