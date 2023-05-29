@@ -199,3 +199,6 @@ Stílusok:
 * https://en.wikipedia.org/wiki/Vision_Mobile_Browser
 * https://en.wikipedia.org/wiki/OnSpeed
 * https://en.wikipedia.org/wiki/Heigh_Speed
+* https://en.wikipedia.org/wiki/Agora_(web_browser)
+* https://web.archive.org/web/20160103124026/https://www.isoc.org/inet97/proceedings/A1/A1_1.HTM
+* https://en.wikipedia.org/wiki/Nokia_Xpress
