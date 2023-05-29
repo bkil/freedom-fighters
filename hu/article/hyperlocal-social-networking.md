@@ -63,12 +63,13 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
   * nyitva maradt az ajtó
   * kitört az ablak
   * ki vannak teregetve a ruhák és jön a vihar
-  * Hívjuk-e a 112-t? Mi az amit látok vagy hallok (feltörik az autót, ablakot, ajtót, lövöldözés, sírás, veszekedés)?
+  * Hívjuk-e a 112-t? Mi az amit látok vagy hallok (feltörik az autót, ablakot, ajtót, lövöldözés, csörömpölés, sírás, veszekedés)?
 * patakzik a víz az úton (csőtörés, tűzcsap)
 * hozzátok is jár a mókus vagy nyest?
 * mi ez a hangzavar, akár az éjszaka közepén (nyest, bagoly, macskák, esetleg a saját macskánkat marcangolják a kutyák)
   * egész éjszaka ugat valakinek a kutyája, kéretik kezelni a problémát (TODO: hangfelismeréssel akár automatizálható a tulajdonos felkeresése)
 * utólag érdeklődni a közelmúltban tapasztalt szokatlan események okáról (kit vitt el a mentő, rendőr, milyen ügyben jöttek űrruhások, mi lett a szokásos postással)
+* porral járó munkálatok előzetes bejelentése, hogy mások ne teregessenek vagy ne rakjanak ki az ablakba vagy erkélyre ételt hűlni
 * zajjal járó munkálatok előzetes bejelentése
 * zajjal járó rendszeres munkák (fűnyírás) egyeztetése, hogy azt minél többen végezzék párhuzamosan, ezáltal minimalizálva a zajjal terhelt órákat
 * költségmegosztás
