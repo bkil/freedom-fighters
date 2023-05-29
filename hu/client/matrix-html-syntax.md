@@ -143,6 +143,33 @@ localhost autolink, @user:a.invalid #room:a.invalid https://matrix.to/#/#room:a.
 
 `/html <h1>h1</h1> <h2>h2</h2> <h3>h3</h3> <h4>h4</h4> <h5>h5</h5> <h6>h6</h6> <del>del</del> <strike>strike</strike> <sub>sub</sub> <span data-mx-color="#00ff00">span data-mx-color green</span> <span data-mx-bg-color="#ff0000">span data-mx-bg-color red</span> <sup>sup</sup> <br> ... br <font data-mx-color="#00ff00">font data-mx-color green</font> <font data-mx-bg-color="#ff0000">font data-mx-bg-color red</font> <font color="#00ff00">font color green</font> <hr> ... hr <b>b</b> <i>i</i> <strong>strong</strong> <em>em</em> <p>p</p> <u>u</u> <ol start=42><li>item 42</li><li>item 43</li></ol> <ul><li>some bullet</li><li>another bullet</li></ul> <table><caption>table caption</caption><thead><tr><th>table head column 1</th> <th>col 2</th> <th>col 3</th></tr></thead> <tbody><tr><th>body row 2 head</th> <td>r2c2</td> <td>r2c3</td></tr> <tr><th>r3h</th> <td>r3c2</td> <td>r3c3</td></tr></tbody></table> <details><summary>summary (click to see details)</summary> details</details> <span data-mx-spoiler="click to reveal">span data-mx-spoiler</span> <span data-mx-maths="span \over{ data-mx-maths}"><code>span \over{ data-mx-maths}</code></span> <div data-mx-maths="div \over{ data-mx-maths}"><code>div \over{ data-mx-maths}</code></div> <blockquote>blockquote</blockquote> <code>var code = ""; // highlight</code> <pre><code class="language-haxe">var preCode = "language-haxe"; // highlight</code></pre> <code class="language-haxe">var code = "language-haxe"; // highlight</code> <pre>var pre = ""; // highlight</pre> <pre><code>var preCode = ""; // highlight</code></pre> <a href="https://framasphere.org/posts/5557d800db2001370ad8543d7eeced27"><img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO/cat-on-tv-technology-doesnt-change-everything-for-the-better.jpeg" width=130 alt="cat sleeping on top of flat TV" title="&lt;img&gt; Cat on top of TV: Technology doesn't change everything for the better" /></a> ... mxc://path img ... <img src="mxc://grin.hu/iXjxZOXmgszkaLgchvrNSVCO" width=130 alt="cat sleeping on top of flat TV" title="&lt;img&gt; Cat on top of TV: Technology doesn't change everything for the better" /> mxc://base64 img <a href="https://diasp.eu/posts/aa9dc730ab7b013a1d0b101b0efced44">a href https://</a> <a href="mailto:a@example.com,b@example.com?cc=c@example.com&amp;bcc=d@example.com&amp;subject=hello&amp;body=from%20matrix">a href mailto:</a> <a href="magnet:?xt=urn:btih:ef6b1a1a21767fd63332674b77f900e33017a778&amp;dn=Ubuntu%20%C3%89retts%C3%A9gi%20Remix%2019.04">a href magnet:</a> <a href="ftp://example.com/">a href ftp://</a> 🎆 🎊 ❄️ 👾 🌦️ 💝`
 
+### matrix-static view
+
+Jó:
+
+* h1, h2, h3, h4, h5, h6
+* br, p, hr
+* del, strike, b, strong, i, em, u
+* font color
+* ul, ol, table (border nélkül), caption, thead, tbody, th, td
+* blockquote
+* a href: http, https, mailto, ftp
+
+Nem jó:
+
+* sub, sup, data-mx-*
+* details
+* highlight
+* code és pre: használja a címkét, de a megjelenítésben semmiben nem különbözik
+* data-mx-color, data-mx-bg-color: meghagyja, de nem színez
+* data-mx-maths, data-mx-spoiler: eltávolítja
+* img
+
+Algoritmus:
+
+* https://github.com/matrix-org/matrix-static/blob/d9a41b696f2489504b6108cecdba2037cc89754f/sanitizer/sanitizer.go#L44
+* https://github.com/microcosm-cc/bluemonday/blob/f6787c629a0d3734029e7ca3417125fc93898c2d/sanitize.go
+
 ### HTML táblázat
 
 ```
