@@ -5,6 +5,7 @@
 A kérdés, hogy melyik kliens mennyire támogatja a `markdown` vagy `/html` formázott üzenetek megjelenítését illetve beküldését.
 
 * https://en.wikipedia.org/wiki/Lightweight_markup_language#Comparison_of_lightweight_markup_language_syntax
+* https://github.com/bkil/wiki/blob/master/en/widget-toolkit-html-rich-text.md
 
 ## Element Web lenyíló bélyegkép
 
