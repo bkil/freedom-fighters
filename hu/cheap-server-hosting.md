@@ -55,49 +55,51 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
 
 ### Legolcsóbb magyarok
 
-* https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142 301 + áfa (383, 1 év)
-  * **LXC VPS Micro**, LXC, 1 vCPU (HP ProLiant DL360e Gen8, 2 * E5-2430L v2 @ 2.6-2.8GHz), 1GB RAM (DDR3 ECC), 10GB SSD (SAS RAID10), 1GB vSwap, 8 napi mentés, korlátlan adatforgalom, 1Gb/s, IPv4 + /128 IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
-  * fizetés: Stripe bankkártya, banki átutalás, OTP bankfiók befizetés, PayPal checkout, PayPal fizetés
-  * bejelentkezés: egy kattintásos reCAPTCHA
 * https://rackoonet.hu/openvz-7-vps/ 417 (1 év, alanyi adómentes)
   * **OVZ7-START (2020)**: OpenVZ 7, 1 vCPU (HP DL380, 2x Intel Xeon 6-core +HT, 3GHz), 512MB RAM, 5GB HDD (6x HP 10k SAS, HP HW RAID10 + FBWC), korlátlan adatforgalom, 200Mb/s, IPv4 (elvileg magyar: Victor Hugo 18-22)
-* https://atw.hu/vps 445 + áfa (2 év)
+* https://ugyfelkapu.hostingbazis.hu/aff.php?aff=142 529 + áfa (1 év)
+  * **LXC VPS Micro**, LXC, 1 vCPU (HP ProLiant DL360e Gen8, 2 * E5-2430L v2 @ 2.6-2.8GHz), 1GB RAM (DDR3 ECC), 10GB SSD (SAS RAID10), 1GB vSwap, 8db napi mentés, korlátlan adatforgalom, 1Gb/s, IPv4 + /128 IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
+  * fizetés: Stripe bankkártya, banki átutalás, OTP bankfiók befizetés, PayPal checkout, PayPal fizetés
+  * bejelentkezés: egy kattintásos reCAPTCHA
+* https://vgh.hu/linux_vps 690 (alanyi adómentes)
+  * **Linux VPS**, VMWare, 1 vCPU, 1GB RAM, 10GB HDD, korlátlan adatforgalom, IPv4
+  * 20% kedvezmény az első hónapban kuponkód: `SAVE20`
+* https://atw.hu/vps 651 + áfa (2 év)
   * **egyéni VPS konfigurátor**, KVM, 1 vCPU, 512MB RAM, 5GB SSD (DRBD mirror), 1Gb/s, IPv4 + /56 IPv6 (magyar: Victor Hugo 11-15, 18-22)
   * cég: magyar; ATW Internet Kft.; H-1138 Budapest, Esztergomi út 66. fsz. 1.; Adószám: 13471868-2-41; Cégjegyzékszám: 01-09-736956
-* https://vps4you.hu/r/vives 699 Ft/hó vagy 6962 Ft/év (alanyi adómentes)
-  * **SSD VPS 512MB**, KVM, 1 vCPU (Dell C6100, Intel Xeon CPU X5650 @ 2.67GHz), 512MB RAM (DDR3 ECC), 5GB SSD (ZFS SSD RAID), ~30TB/hó adatforgalom (<100Mb/s), 1Gb/s (2*1Gb/s szerverenként), IPv4 + /128 IPv6 (magyar: DENINET Kft 1132 Budapest, Victor Hugo 18-22)
+* https://vps4you.hu/r/vives 653 + áfa (1 év)
+  * **EPYC VPS**: KVM, 1 vCPU (AMD EPYC 7313 @ 3.0 GHz), 1GB RAM (DDR4 ECC REG), 10GB SSD (DC NVME), max. 400Mb/s hálózat, IPv4 + /128 IPv6 (2*1Gb/s szerverenként)
+  * készlethiányos: **SSD VPS 512MB**, KVM, 1 vCPU (Dell C6100, Intel Xeon CPU X5650 @ 2.67GHz), 512MB RAM (DDR3 ECC), 5GB SSD (ZFS SSD RAID), ~30TB/hó adatforgalom (<100Mb/s), 1Gb/s (2*1Gb/s szerverenként), IPv4 + /128 IPv6 (magyar: DENINET Kft 1132 Budapest, Victor Hugo 18-22),  699 Ft/hó vagy 6962 Ft/év (alanyi adómentes)
   * 3 nap tesztelés ingyen
   * Előfizetéskor +1 hónap ingyen kuponkód: `Firstimer2021`
   * Előfizetéskor bérleti idő duplázáshoz Ryzen 3900X NVME VPS kuponkód: `RYZEN02`
 * https://szerverplex.hu/virtualis-szerver-berles/ 672 + áfa (1 év)
-  * **KVM VPS 1/1/10 HDD 2020**, KVM, 1 vCPU (HP DL580 4x Intel E7 szériás 8-10 magos), 1GB RAM (DDR3 ECC), 10GB HDD (HP SAS 6G, 10K RPM, HW RAID10, FBWC), korlátlan adatforgalom, 1Gb/s (garantált 20% belföld, 5% külföld, 10Gb/s szerverenként), IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22)
-* https://xethost.hu/vps-berles/ 890 + áfa
-  * **Linux Cole**, VMware ESXi?, 1 vCPU (2.0GHz, E5-2530 v4?), 512MB RAM, 10GB SSD, korlátlan adatforgalom, 100Mb/s, IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22)
+  * **KVM VPS 1/1/10 HDD 2020**, KVM, 1 vCPU (HP DL580 4x Intel E7 szériás 8-10 magos), 1GB RAM (DDR3 ECC), 10GB HDD (HP SAS 6G, 10K RPM, HW RAID10, FBWC), korlátlan adatforgalom, 1Gb/s (garantált 20% belföld, 5% külföld, 10Gb/s szerverenként), IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22), 2 db heti mentés
+* https://xethost.hu/vps-berles/ 941 + áfa (1 év)
+  * **Linux Dax**, VMware ESXi?, 1 vCPU (2.0GHz, E5-2530 v4?), 1GB RAM, 10GB SSD, korlátlan adatforgalom, 100Mb/s, IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22)
 
 ### Normál árú magyarok
 
 * http://szervernet.hu/vps 1000 + áfa
   * **Xencloud Small**, Xen, 1 vCPU, 1GB RAM, 20GB HDD, korlátlan adatforgalom, IPv4 (tesztelve magyar: Victor Hugo 18-22)
-* https://www.mikrovps.net/hu/vps/lxc 1000 + áfa
-  * **LXC-1G**, LXC, 1 vCPU (Xeon E5), 1GB RAM, 20GB SSD, 1-5TB adatforgalom, 10Gb/s, IPv4 + /128 IPv6 (elvileg magyar, DoclerWeb 1101 Budapest, Expo tér 5-7?)
-* https://www.mhosting.hu/vps/ssd-vps 1000 + áfa
-  * **SSD VPS - 0.5**, KVM, 1 vCPU (Dell PowerEdge, 6-magos Xeon 3.3-4.0GHz), 512MB RAM (DDR3 ECC), 15GB SSD, korlátlan adatforgalom, 1Gb/s (5Gb/s BIX uplink, 500Mb/s nemzetközi), IPv4 (elvileg magyar: Victor Hugo 18-22)
-* https://www.seedworld.hu/vps.html 1000 + áfa (1270)
-  * **VPS Start**, 1 vCPU, 1GB RAM, 15GB HDD, korlátlan adatforgalom, 100Mb/s (talán magyar: szerverpark.eu Victor Hugo 11-15)
-* https://clans.hu/vps-standard 1000 + ?
-  * **VPS Standard S**: KVM, 2 vCPU (INTEL XEON E5-2450 MAX 2.30 GHZ), 2GB RAM (DDR3 1600MHz), 10GB SSD (NVMe RAID), korlátlan adatforgalom, 100/100Mb/s, IPv4 (elvileg magyar, de ismeretlen helyen)
-* https://vgh.hu/linux_vps 1250 (alanyi adómentes)
-  * **HDD 1024**, VMWare, 1 vCPU, 1GB RAM, 20GB HDD, korlátlan adatforgalom, IPv4
-* https://client.ezit.hu/cart.php?a=add&pid=477 1083 + áfa (1 év) (régi nevükön: cloud.hu)
-  * **Neo Cloud VPS+ 1-1-25**, KVM, 1 vCPU (Dell PowerEdge, 6 magos Xeon), 1GB RAM, 25GB SSD (RAID), korlátlan adatforgalom, 100Mb/s (2 * 1Gb/s szerverenként, 2 * 10Gb/s BIX, 2 * 10Gb/s nemzetközi, 1 * 3Gb/s magyar), IPv4 (elvileg magyar: Victor Hugo 18-22)
+* https://rackforest.com/szolgaltatasok/vps/#linux-vps 1125 + áfa (1 év)
+  * **Linux VPS One**, KVM, 1 vCPU (Xeon E5), 1GB RAM, 20GB SSD, 10Gb/s (2Gb/s garantált), 30TB/hó adatforgalom (efölött 100Mb/s korlátlan), IPv4 + /56 IPV6 kérésre (elvileg magyar: Dataneum Kozma utca 2, Victor Hugo 18-22, Dataplex Asztalos Sándor utca 13)
 * https://szerverpark.eu/vps 1250 + áfa (1 év)
   * **VPS START**, 1 vCPU, 1GB RAM, 15GB HDD, korlátlan adatforgalom, 100Mb/s (elvileg magyar: Victor Hugo 11-15)
 * http://www.profivps.hu/vps 1260 + áfa (1600)
   * **Magyar VPS minimál**, OpenVZ (kérésre teljes virtualizáció), 2 vCPU (1500MHz), 512MB RAM, 10GB HDD (SAS), korlátlan adatforgalom, 1 IPv4 + 5 IPv6 (elvileg magyar: DENINET Kft -> Victor Hugo 18-22)
+* https://www.seedworld.hu/vps.html 1000 + áfa (1270)
+  * **VPS Start**, 1 vCPU, 1GB RAM, 15GB HDD, korlátlan adatforgalom, 100Mb/s (talán magyar: szerverpark.eu Victor Hugo 11-15)
+* https://www.mikrovps.net/hu/vps/lxc 1400 + áfa
+  * **LXC-1G**, LXC, 1 vCPU (Xeon E5), 1GB RAM, 20GB SSD, 1-5TB/hó adatforgalom, 10Gb/s, IPv4 + /128 IPv6 (elvileg magyar, DoclerWeb 1101 Budapest, Expo tér 5-7?)
+* https://clans.hu/vps-standard 1500 + ?
+  * **VPS Standard S**: KVM, 2 vCPU (INTEL XEON E5-2450 MAX 2.30 GHZ), 2GB RAM (DDR3 1600MHz), 10GB SSD (NVMe RAID, Samsung 970 EVO PLUS), korlátlan adatforgalom, 100/100Mb/s, IPv4 (elvileg magyar, de ismeretlen helyen)
 * https://jztkft.hu/vpshosting.php#level-1-0 1500 + ?
   * **Linux VPS Mini**, Xen, 1 vCPU (Intel Xeon X5675), 2GB RAM (DDR3L 1333MHz ECC), 20GB HDD (WD Gold Enterprise, Dell Raid10), korlátlan adatforgalom, 1Gb/s (10Gb/s szerverenként), IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22)
-* https://rackforest.com/szolgaltatasok/vps/#linux-vps 1500 + áfa
-  * **Linux VPS One**, KVM, 1 vCPU (Xeon E5), 1GB RAM, 20GB SSD, 10Gb/s (2Gb/s garantált), 30TB/hó adatforgalom (efölött 100Mb/s korlátlan), IPv4 + /56 IPV6 kérésre (elvileg magyar: Dataneum Kozma utca 2, Victor Hugo 18-22, Dataplex Asztalos Sándor utca 13)
+* https://www.mhosting.hu/vps/ssd-vps 2010 + áfa
+  * **SSD-VPS Egyedi**, KVM, 1 vCPU (Dell PowerEdge, 6-magos Xeon 3.3-4.0GHz), 1GB RAM (DDR3 ECC), 10GB SSD, korlátlan adatforgalom, 1Gb/s (5Gb/s BIX uplink, 500Mb/s nemzetközi), IPv4 (elvileg magyar: Victor Hugo 18-22)
+* https://client.ezit.hu/cart.php?a=add&pid=477 2355 + áfa (1 év) (régi nevükön: cloud.hu)
+  * **Pro Cloud VPS+ Scaledo**, KVM, 1 vCPU (Dell PowerEdge, 6 magos Xeon), 1GB RAM, 15GB SSD (RAID), korlátlan adatforgalom, 100Mb/s (2 * 1Gb/s szerverenként, 2 * 10Gb/s BIX, 2 * 10Gb/s nemzetközi, 1 * 3Gb/s magyar), IPv4 (elvileg magyar: Victor Hugo 18-22)
 
 ## Nemzetközi
 
