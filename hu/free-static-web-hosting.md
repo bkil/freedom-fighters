@@ -479,6 +479,19 @@ Lásd még:
 * SFTP feltöltés
 * van CORS
 
+### NeoCities
+
+* https://neocities.org/
+  * https://github.com/neocities
+  * https://en.wikipedia.org/wiki/Neocities
+* 1GB tárhely
+* webes honlapszerkesztő, RSS, webes feltöltés, API, parancssoros elérés
+* tags (webring)
+* TLS, egyedi subdomain
+* támogatott fájlkiterjesztések: HTML (.html, .htm), Image (.jpg, .jpeg, .png, .gif, .svg, .ico, .webp), Markdown (.md, .markdown), JavaScript (.js, .json, .geojson), CSS (.css, .less, .sass, .scss), Text (.txt, .text, .csv, .tsv), XML (.xml), Web Fonts (.eot, .ttf, .woff, .woff2, .svg), egyéb (asc atom bin dae epub gltf gpg key kml knowl manifest map mf mid midi mtl obj opml otf pdf pgp rdf resolveHandle rss webapp webmanifest xcf xml)
+* hotlinking tiltva külső oldalról
+* nincs CORS, nincs RSS CORS
+
 ### kintohub.com
 
 * https://www.kintohub.com/pricing/
@@ -681,6 +694,14 @@ Lásd még:
 * népszerűsíti magát az oldalunkon
 * átirányítások
 
+### VistaServ
+
+* https://www.vistaserv.net/
+* HTTP és HTTPS
+* dinamikus modulok: letöltésszámláló, vendégkönyv, webring
+* HTML nagyja szerkeszthető
+* nincs CORS
+
 ### WebNode.info
 
 * https://www.webnode.info/fizetos-es-ingyenes-szolgaltatasok
@@ -772,12 +793,24 @@ Lásd még:
 * https://bearblog.dev/
 * nincs CORS sem az oldalon, sem RSS-en
 
+### Dreamwidth
+
+* https://dreamwidth.org/
+* nincs CORS, nincs RSS CORS
+
 ### mataroa.blog
 
 * https://mataroa.blog/
 * nincs CORS sem az oldalon, sem RSS-en
 * Van API saját blogon publikáláshoz és saját bejegyzések lekéréséhez:
 * https://mataroa.blog/api/docs/
+
+### SpaceHey
+
+* https://spacehey.com/
+* profil, blog: egyedi HTML, CSS
+* fórum
+* nincs CORS, nincs RSS CORS
 
 ### status.cafe
 
