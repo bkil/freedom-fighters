@@ -112,6 +112,11 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/processone/ejabberd/blob/master/tools/captcha-ng.sh
 * https://git.friendi.ca/tobias/mathcaptcha/src/branch/master/mathcaptcha.php
 
+### Alovoa OxCaptcha
+
+* https://github.com/Alovoa/alovoa/blob/master/src/main/java/com/nonononoki/alovoa/service/CaptchaService.java
+* https://github.com/Alovoa/alovoa/blob/master/src/main/java/com/nonononoki/alovoa/lib/OxCaptcha.java
+
 ### FOSS CAPTCHA client
 
 A self-hostable backend is not supplied
