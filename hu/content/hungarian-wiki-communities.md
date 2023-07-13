@@ -10,6 +10,10 @@ Ezen kívül túl sok egyént kellene megneveznünk aki egyedül gyárt FOSS tar
 
 * https://hsbp.org/projects
 
+## DokuWiki
+
+* https://szit.hu/
+
 ## MediaWiki
 
 * https://algowiki.miraheze.org/
