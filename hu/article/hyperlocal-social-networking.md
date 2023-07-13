@@ -56,7 +56,7 @@ A "globális" jó tevéssel mindig az a baj, hogy még ha mindkét fél jó szá
 
 ### Példák utca léptékű interakcióra
 
-* vészhelyzet: hagyjuk el az épülettömböt vagy szomszédságot mert gázszivárgás, tűz vagy épületszerkezeti hiba keletkezett, majd utána amikor visszamehetünk a lakásunkba
+* vészhelyzet: hagyjuk el az épülettömböt vagy szomszédságot mert gázszivárgás, veszélyes vegyi anyag kiömlése, tűz vagy épületszerkezeti hiba keletkezett, majd utána amikor visszamehetünk a lakásunkba
 * elkapta a szél az antennát, tetőcserepet, virágcserepet, ágat
 * égve maradt a lámpa nappal vagy ahogy mennek el otthonról
 * vagyonbiztonság
@@ -92,6 +92,7 @@ Egyes elemek akár ismeretlenek között név megismerése nélkül
 * elromlott utcabútor
 * nálatok sem vitték el a kukát?
   * szelektív- vagy zöldhulladék-gyűjtési szabályok változása
+  * elfelejtette a megbízott holnapra kihúzni a kukát, valaki pótolja amíg lehet
 * zsebpénzes munkák vagy szívességkör (takarítás, kutyasétáltatás, bevásárlás, autómosás, segítség összeszereléshez, kerti munkák, segédmunka, gyermekfelügyelet)
 * megmaradt építőanyagok elvihetők
 * csere-bere, könyvek
