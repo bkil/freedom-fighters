@@ -47,6 +47,7 @@ Lásd még:
 * https://registry.terraform.io/browse/modules
 * https://exchange.stackstorm.org/
 * https://charmhub.io/
+* https://kernelpanic.cafe/drafts/marigoldos.html
 
 ### Ansible
 
