@@ -819,6 +819,15 @@ Lásd még:
 
 ## gemini
 
+### archipielago.uno
+
+* https://archipielago.uno/eng/about.html
+* főleg spanyol nyelvű és közép-amerikai közönség részére
+* szolgáltatások: gemini (saját HTML proxy is van), Pleroma, XMPP
+* van aldomain
+* nincs CORS
+* van TLS
+
 ### breadpunk.club
 
 * https://breadpunk.club/join/
@@ -904,6 +913,17 @@ Lásd még:
 * nincs aldomain
 * blog és hozzászólások
 * van TLS
+* nincs CORS
+
+### pub.phreedom.club
+
+* https://pub.phreedom.club/
+* csak orosz nyelven használható
+* csak gemini, de HTML alól is elérhető (saját proxy)
+* van TLS
+* gemini://pub.phreedom.club/~username
+* https://pub.phreedom.club/~username
+* nincs aldomain, csak almappa
 * nincs CORS
 
 ### rawtext.club
@@ -1038,6 +1058,28 @@ Lásd még:
 * van aldomain: *.srht.site
 * új tárolók létrehozása nem ingyenes
 * újabban már nem jönnek be alóla gemini oldalak
+
+### e-worm.club
+
+* http://e-worm.club/
+* csak gemini, de HTML alól is elérhető (saját proxy)
+* van aldomain
+* nincs TLS
+* regisztráció nem nyitott
+
+### gemini.hackers.town
+
+* gemini://gemini.hackers.town/
+* csak gemini
+* nincs aldomain, csak almappa
+* regisztráció nem nyitott
+
+### reisub.nsupdate.info
+
+* gemini://reisub.nsupdate.info/test/
+* csak spanyol nyelvű
+* 50MB tárhely
+* nem elérhető
 
 ### Egyéb megszűnt
 
