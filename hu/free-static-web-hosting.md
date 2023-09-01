@@ -671,6 +671,14 @@ Lásd még:
 * prefix: static.staticsave.com/content/${USER}/${BASENAME}.css
 * van CORS minden fájltípusra
 
+### tilda.cc
+
+* https://tilda.cc/
+* 1 weboldal, 50 lap
+* 50MB tárhely
+* ingyenes aldomain: username.tilda.ws
+* nincs egyedi HTML
+
 ### txti.es
 
 * http://txti.es/
