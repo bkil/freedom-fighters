@@ -205,6 +205,7 @@ File manager:
 * HTTP/2
 * TLS
 * statikusan is: egyedi HTTP fejlécek, átirányítások, Brotli
+* egyedi Docker vagy Node.js, Python, Go, Rust, Ruby Elixir
 * 400 óra/hó/projekt CI/CD vagy 500 perc/hó/fő: GitHub és GitLab tárolóból
 
 ### 000webhost
@@ -636,21 +637,6 @@ File manager:
 * 5 aldomén rendelkezésre áll
 * saját domén is használható
 
-### FreeCloudHost
-
-* https://freecloudhost.org/
-* Ez is szerepel a FAQ-ban: Cloudy.eu.org
-* 1GB tárhely
-  * 10MB fájlméret korlát
-* 10GB/hó forgalom
-* PHP
-  * 24MB PHP memory_limit
-* 1 MySQL adatbázis
-* SSL
-* LiteSpeed Enterprise quic.cloud CDN
-* elvárás a fórumban való aktív részvétel
-* nincs cron ("cannot run stand-alone, unattended server-side processes")
-
 ### dc7.us
 
 * http://dc7.us/free-web-hosting.html
@@ -669,6 +655,21 @@ File manager:
 * aldomén, korlátlan domén
 * SSL
 * 10 email fiók
+
+### FreeCloudHost
+
+* https://freecloudhost.org/
+* Ez is szerepel a FAQ-ban: Cloudy.eu.org
+* 1GB tárhely
+  * 10MB fájlméret korlát
+* 10GB/hó forgalom
+* PHP
+  * 24MB PHP memory_limit
+* 1 MySQL adatbázis
+* SSL
+* LiteSpeed Enterprise quic.cloud CDN
+* elvárás a fórumban való aktív részvétel
+* nincs cron ("cannot run stand-alone, unattended server-side processes")
 
 ### Free-Hoster
 
@@ -748,6 +749,65 @@ File manager:
 * aldomén
 * cronjob
 * < 70% CPU
+
+## bubble.io
+
+* https://bubble.io/pricing
+* https://manual.bubble.io/account-and-marketplace/account-and-billing/pricing-plans/what-contributes-to-workload
+* 512MB RAM
+* 50k work unit/hó
+* adatbázis: 200 sor
+
+## glitch.com
+
+* https://help.glitch.com/hc/en-us/articles/16287495313293-Technical-Restrictions
+* https://support.glitch.com/t/language-support-on-glitch-a-list/5466
+* 200MB tartós tárhely (tömörítve)
+  * korlátlan /tmp tárhely, indításkor kitörölve
+  * 1GB node.js modules tárhely
+  * 512MB assets tárhely, max. 256MB fájlméret
+* 512MB RAM
+* 4000 kérés/óra
+* 5 perc üresjárat után alszik
+* 1000 óra/hó
+* szinte bármilyen nyelv binárisa: node.js (elsődlegesen optimalizált)
+
+## mdbgo.com
+
+* https://mdbgo.com/pricing/
+* 2 project (weboldal)
+* 500MB RAM/projekt
+* 1GB tárhely, 2 hét után törlődik, SFTP
+* 1 MySQL/MongoDB adatbázis
+* ingyen aldomain: username.mdbgo.io
+* PHP, Node.js, Python
+* TLS
+
+## qoddi.com
+
+* https://qoddi.com/pricing/
+* debit vagy credit bankkártya szükséges regisztrációhoz
+* 3 alkalmazáshoz
+* 512MB RAM
+* korlátlan forgalom
+* git alapján frissítve
+* háttérfolyamatok
+
+## serv00.com
+
+* https://www.serv00.com/
+* korlátlan forgalom
+* 3GB tárhely, git tároló
+* 512MB RAM
+* 10 MySQL adatbázis, 3 PostegreSQL, 3 MongoDB
+* PHP, Node.js, Python (Django, Pyramid, Trac), Ruby (RoR, Redmine), Perl (Catalyst), Java, TCL/TK, Lua, Erlang, Rust, Pascal, C, C++, D, R
+* 3 párhuzamos PHP interpreter, 15 párhuzamos folyamat
+* 7 napi biztonsági mentés
+* ingyen aldomain: username.serv00.net
+* alap SSH elérés
+* HTTP/2, max_execution_time=180
+* postafiók: IMAP, POP3, webmail
+* Let's Encrypt TLS + SNI
 
 ## Külföldi reklámmentes teljes doménre
 
@@ -928,6 +988,7 @@ Megszűntnek látszik az alapján, hogy nagyon régen nem volt frissítve, nem m
 * https://www.netfirms.com/
 * https://vimlyhost.net/
 * https://x10hosting.com/ "a regisztráció átmenetileg szünetel"
+* https://www.lecturify.net/index.en.html
 
 #### 1freehosting
 
