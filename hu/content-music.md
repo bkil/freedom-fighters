@@ -96,6 +96,7 @@
 * Hallgatás https://bleep.com/ a letöltés mindig fizetős
 * Rádiózás https://www.accuradio.com/
 * Rádiózás https://play.anghami.com/ csak ingyenes regisztráció után, Google reCAPTCHA
+* Rádiózás https://en.wikipedia.org/wiki/Soma.fm
 
 ### Vegyes demoscene és retro chiptune
 
