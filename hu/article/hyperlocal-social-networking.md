@@ -100,6 +100,7 @@ Egyes elemek akár ismeretlenek között név megismerése nélkül
 * Elszabadult veszélyes haszonállat, háziállat, megfigyelt vadállat (medve, nagymacska)
 * Ki hagyta el XY koordinátán a kulcsát?
 * Kik hangoskodnak éjszaka XY koordinátán?
+* Egy különleges jelenségről tudna valaki készíteni kép- és hangfelvételt avagy egy korábbiról megosztaná valaki aki készített?
 
 ## Megvalósítás
 
