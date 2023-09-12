@@ -111,6 +111,8 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/wjcrowcroft/MotionCAPTCHA
 * https://github.com/processone/ejabberd/blob/master/tools/captcha-ng.sh
 * https://git.friendi.ca/tobias/mathcaptcha/src/branch/master/mathcaptcha.php
+* https://mywiki.wooledge.org/HelpOnSpam#TextChas
+  * https://github.com/moinwiki/moin-1.9/blob/fc8fc67a765bc5468795bcfde30561cb7e110bdb/MoinMoin/security/textcha.py
 
 ### Alovoa OxCaptcha
 
