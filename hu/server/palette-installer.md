@@ -131,6 +131,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://git.envs.net/envs/ops
 * https://codeberg.org/Codeberg-Infrastructure/scripted-configuration
 * https://github.com/codespeaknet/sysadmin/
+* https://github.com/adsr/rw.rs
 
 ### Rendszergazdai automatizmusok
 
