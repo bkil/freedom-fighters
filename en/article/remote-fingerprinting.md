@@ -208,6 +208,8 @@ The `history.length` property can still be read:
 * Either just when clicking their back/forward button, or when opening links.
 * If they then reopen our page, we could establish more referrers.
 
+### Scroll Restoration
+
 The app layout could allow showing the same content even for small perturbations of the scroll position.
 We could introduce a small perturbation into the scroll position for new visitors and possibly use than for limited tracking.
 
