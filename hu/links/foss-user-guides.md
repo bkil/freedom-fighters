@@ -46,6 +46,7 @@ Lásd még:
 * https://alternativeto.net/
 * https://switching.software/
 * https://privacy-handbuch.de/
+* https://european-alternatives.eu/
 
 ### Böngésző magánszféra javítás
 
