@@ -66,6 +66,7 @@ Hence the ones which are not public domain needs to be rethought from scratch un
 * https://en.wikipedia.org/wiki/PlayOK#Games_available
 * https://en.wikipedia.org/wiki/Clubhouse_Games#Gameplay
 * https://en.wikipedia.org/wiki/Clubhouse_Games:_51_Worldwide_Classics#Game_list
+* https://en.wikipedia.org/wiki/List_of_play-by-mail_games
 
 ### Single player
 
