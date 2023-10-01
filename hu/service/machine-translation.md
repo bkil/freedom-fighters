@@ -28,6 +28,10 @@ Ideális, ha nem épít profil a tevékenységünkből, illetve ha API segítsé
 
 * https://www.translate.com/machine-translation
 
+### modernmt.com
+
+* https://www.modernmt.com/translate/
+
 ### Google Translate
 
 * https://translate.google.com/
