@@ -54,6 +54,7 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * üzemeltető: Mediaworks Hungary Zrt. (korábban: New Wave Media Group Kft.)
 * érdekeltség: Magyar Telekom Nyrt.
 * láthatatlan Google ReCaptcha bejelentkezésnél
+* 90 naponta be kell lépni vagy POP3/IMAP útján szinkronizálni kell, különben visszautasítják a beérkező leveleket a legközelebbi bejelentkezésig, 380 nap után pedig törlik a leveleket
 
 ### GMail.hu
 

@@ -7,7 +7,7 @@
 * https://www.awh.hu/hosting/webhosting
 * 1GB SSD
 * 100GB/ho adatforgalom
-* 1 domain vagy aldomain (*.frw.hu *.gameblog.hu *.dck.hu)
+* 1 domain vagy aldomain (*.frw.hu)
 * korlátlan aldomain
 * 0 email postafiók
 * 1 email átirányítás
@@ -37,6 +37,7 @@
   * max. 50 email/óra küldhető
 * 9 aldomén is rendelkezésre áll, SSL nélkül, prefix `[0-9a-z]{3,}`
 * Let's Encrypt SSL: csak saját domén esetén használható, varázslóval
+* inaktivitás: 365 naponta legalább egyszer bejelentkezés, különben felszólítás és 7 nap türelmi idő után törlik a fiókot
 * nincsenek időzített cron folyamatok
 * Egy kérés időkorlátja: kb. 22 másodperc, bár max_execution_time=60
 * regisztráció: nem fogadja el a plusz karaktert email címben, email megerősítés és Google ReCAPTCHA
