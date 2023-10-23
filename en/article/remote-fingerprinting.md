@@ -215,6 +215,12 @@ We could introduce a small perturbation into the scroll position for new visitor
 
 * https://developer.mozilla.org/en-US/docs/Web/API/History/scrollRestoration
 
+### Lazy loading
+
+Real time reading position and scroll restoration may be unveiled remotely using images. Some browsers hence disable lazy loading when JavaScript is disabled. Notably, this side channel may still be present if JavaScript is globally enabled within the browser but interactively blocked by a user extension.
+
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#lazy
+
 ### Services where you are logged in
 
 Certain services may have images, scripts, styles, pages or other assets that produce different side effects based on whether the user is logged in or not.
