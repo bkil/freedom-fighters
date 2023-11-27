@@ -27,6 +27,7 @@ Például Signal vagy Telegram regisztrációhoz.
 * http://silent.link/
 * https://mysudo.com/
 * https://telnum.net/pay-with-cryptocurrencies/
+* https://www.fongo.com/
 
 ## Pingback
 
