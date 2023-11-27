@@ -4,7 +4,7 @@ Olyan etikus projekt tároló portál (VCS hosting) ami mind ingyenesen hostolt 
 
 Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor harmadik fél által üzemeltetett szolgáltatásként is beköthető:
 
-* [service/free-continuous-integration.md](service/free-continuous-integration.md)
+* [free-continuous-integration.md](free-continuous-integration.md)
 * [../free-static-web-hosting.md](../free-static-web-hosting.md)
 
 ## Régi, nagy publikus szereplők
@@ -88,7 +88,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * motorja: gitea
   * nincs API CORS
 * feldolgozás nélküli statikus webkiszolgálás (Gitea Pages) *.codeberg.page
-  * nics Pages CORS, nincs RSS CORS
+  * nincs Pages CORS, nincs RSS CORS
 * helyszín: Németország
 * cenzúrázatlan: Kuba
 * CI/CD kutatás alatt
