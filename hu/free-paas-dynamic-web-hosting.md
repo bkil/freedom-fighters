@@ -446,6 +446,11 @@ File manager:
 * forrás feltöltése: git, mercurial, webes felület
 * üzemeltetési háttér: Amazon EC2
 
+### SilverTree
+
+* https://www.silvertree.org/
+* WordPress vagy online játékokhoz
+
 ### Webhosting-For-Free
 
 * http://webhosting-for-free.com/free-web-hosting.html
