@@ -42,10 +42,12 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://texto-plano.xyz/
 * https://www.thunix.net/
 * https://tilde.club/
+* https://tilde.guru/
 * https://tilde.institute/
 * https://tilde.pink/
 * https://tilde.team/
 * https://tilde.town/
+* https://tilde.green/
 * https://tildeverse.org/
 
 ### tildeverse külsősök
@@ -67,17 +69,30 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://thunix.net/
   * Minetest, Minecraft, webmail, email, Tor, BZFlag, LAMP hosting, Django hosting, Wireguard VPN, ZNC, TLDP mirror
 * https://tilde.cafe/
-* https://tilde.guru/
 * https://tilde.fun/
 * https://tilde.institute/ OpenBSD
 * https://ttylde.karx.xyz/
 * https://yourtilde.com/
 * https://xinu.me/ - spanyol
+* https://trash.town/signup.html
+* https://tilde.pt/ portugál
+* https://vern.cc/
+* https://piepi.art/
+* https://projectsegfau.lt/pubnix
 
 ## Független tartós szolgáltatók
 
-* http://grex.org/
 * https://hashbang.sh/#!
+* https://picrofo.com/clinux/
+* http://bitcoinshell.mooo.com/
+* http://m-net.arbornet.org/free_shell_accounts.php
+* https://freeshell.de/register/ papír képeslapot kér
+* https://www.arieshosting.net/ papír képeslapot kér
+* https://allamoox.wixsite.com/ashellz
+* https://yunix.net/whatisyunix
+* https://www.fromhell.ee/
+* https://platinum.edu.pl/en/welcome-at-platinum-linux-non-profit-servers-website/
+* http://netburst.org/ssh-access Discord
 
 ### blinkenshell
 
@@ -106,6 +121,20 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://sdf.org/
 * további domain: freeshell.org
 
+## Személyes adatokat kezel
+
+### Nyx
+
+* https://nyx.net/cgi-bin/webhost.cgi
+* vagy személyesen fel kell keresni egy meglévő tagot, vagy egy személyazonosság igazolására alkalmas igazolvány közjegyző által hitelesíttet másolatát kell postán feladni
+* Usenet, ssh, email, webmail, 56k betárcsázós net
+* tárhely: https://www.nyx.net/~your_user_name
+
+## Csak meghívóval
+
+* https://signup.insomnia247.nl/
+* https://lispshell.surge.sh/
+
 ## Korlátozott ideig
 
 * https://cloudssh.us/ 3 nap ingyen 1GB RAM, KVM
@@ -126,7 +155,9 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * email
 * több mint 365 nap inaktivitás után deaktiválnak
 
-## Feldolgozandó
+## Külső listák
 
 * https://shells.red-pill.eu/
 * https://aruljohn.com/freeshell/
+* https://tildeverse.org/members/
+* https://tilde.wiki/wiki/Known_tildes
