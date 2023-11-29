@@ -871,14 +871,6 @@ Lásd még:
 * nincs CORS
 * van TLS
 
-### heathens.club
-
-* https://heathens.club/
-* gemini, HTTP
-* nincs aldomain, csak mappa
-* van TLS
-* nincs CORS
-
 ### envs.net
 
 * https://envs.net/
@@ -903,6 +895,14 @@ Lásd még:
 * csak gemini alatt van áttekintés, viszont az egyedi bejegyzések formázás nélküli HTTP+gmi alól is elérhetők
 * nincs aldomain csak mappa
 * csak blog
+* van TLS
+* nincs CORS
+
+### heathens.club
+
+* https://heathens.club/
+* gemini, HTTP
+* nincs aldomain, csak mappa
 * van TLS
 * nincs CORS
 
@@ -942,6 +942,14 @@ Lásd még:
 * van TLS
 * nincs CORS, nincs RSS CORS
 
+### tilde.green
+
+* https://wiki.tilde.green/gemini
+* gemini, HTTP, CGI
+* nincs aldomain, csak almappa
+* van TLS
+* nincs CORS
+
 ### SDF
 
 * https://sdf.org/?faq?GOPHER?02
@@ -954,6 +962,13 @@ Lásd még:
 * csak gemini
 * nincs aldomain, csak mappa
 * SFTP
+
+### station.martinrue.com
+
+* gemini://station.martinrue.com/
+* csak gemini
+* nincs aldomain
+* blog és hozzászólások
 
 ### smol.pub
 
@@ -983,12 +998,12 @@ Lásd még:
 * nincs CORS
 * TODO: .htaccess?
 
-### station.martinrue.com
+### vern.cc
 
-* gemini://station.martinrue.com/
-* csak gemini
-* nincs aldomain
-* blog és hozzászólások
+* https://vern.cc/
+* van gemini, gopher, HTTP
+* van aldomain
+* saját webszerver démon socket
 
 ## Nagy szereplők
 
