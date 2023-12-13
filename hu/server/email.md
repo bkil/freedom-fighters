@@ -19,6 +19,13 @@
 * állítólag csak pár MB RAM-ot eszik és villámgyors
 * teljesen testre szabható: DKIM 1 sor a beállításokban, egy centralizált, teljesen egyedi bejelentkezéskezelést is lehet írni bővítményként pár tucat sorból
 
+### Stalwart
+
+* https://github.com/stalwartlabs/jmap-server
+* JMAP
+* Rust
+* Docker
+
 ## Telepítők
 
 * https://mailcow.email/
