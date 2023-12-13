@@ -27,6 +27,7 @@
 * https://github.com/LukeSmithxyz/emailwiz
 * https://github.com/jeekkd/iRedMail-scripts
 * https://github.com/modoboa/modoboa
+* https://github.com/deltachat/chatmail
 * Lásd még: [palette-installer.md](palette-installer.md)
 
 ### Telepítési útmutatók
