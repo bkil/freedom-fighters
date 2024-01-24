@@ -14,6 +14,7 @@
   * https://github.com/E-404/xmpp-servers
 * https://www.jabberes.org/servers/
 * https://xmpp.is/account/register/
+* https://xmppnetwork.goodbytes.im/
 
 ## Szobakereső
 
