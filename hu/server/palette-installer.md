@@ -132,6 +132,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://codeberg.org/Codeberg-Infrastructure/scripted-configuration
 * https://github.com/codespeaknet/sysadmin/
 * https://github.com/adsr/rw.rs
+* https://github.com/tcpipuk/tcpipuk.github.io
 
 ### Rendszergazdai automatizmusok
 
