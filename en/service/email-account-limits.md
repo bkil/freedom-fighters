@@ -4,13 +4,32 @@ Sending limits where not otherwise specified over SMTP or the API suitable to be
 
 ## Freemium
 
-### Gmail.com
+### Gmail.com before Workspace
+
+These limits do not seem to apply any more as of 2024
 
 * max. 500 recipient/body
 * max. 500 recipient/interval
 * max. 60 received/minute
 * interval: 24h
 * https://support.google.com/mail/answer/22839?hl=en
+
+### Gmail.com in Google Workspace
+
+These limits come from an error message received in 2024 relating to a free personal account:
+
+* max. 100 recipient/body
+* max. 2000 recipient/interval
+* interval: 24h
+* https://support.google.com/a/answer/166852
+
+> 2024-01-07
+> Error
+> Permanent SMTP error: permanent:
+> 5.4.5 Daily user sending limit exceeded. For more information on Gmail;
+> 5.4.5 sending limits go to;
+> 5.4.5 https://support.google.com/a/answer/166852
+> -gsmtp
 
 ### Mailbox.org
 
