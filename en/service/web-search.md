@@ -94,6 +94,8 @@ Here are some reasons why this is not desirable:
 * https://gitlab.com/users/infinitysearch/projects
 * https://github.com/orgs/WordPress/repositories?q=openverse&type=all&language=&sort=
 * https://seekseek.org/technology
+* https://git.marginalia.nu/marginalia/marginalia.nu
+* https://github.com/gigablast/open-source-search-engine
 
 Crawler roots:
 
