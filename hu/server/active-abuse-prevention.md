@@ -116,6 +116,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/CERN/captcha-api
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/captcha_generator.py
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/static/captcha.js
+* https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
 
 ### Alovoa OxCaptcha
 
