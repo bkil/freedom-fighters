@@ -28,8 +28,9 @@
 
 ### Proxy
 
-* https://morty.searx.work/?mortyurl=https://en.m.wikipedia.org/wiki/Main_Page
-* https://metager.org/
+See
+
+* [./web-proxy.md](./web-proxy.md)
 
 ## Needs JavaScript
 
