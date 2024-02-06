@@ -88,8 +88,6 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/desirepath41/visualCaptcha
   * Piktogramok közt kell választani
   * Példa: https://demo.visualcaptcha.net/
-* https://www.mediawiki.org/wiki/Extension:QuestyCaptcha
-  * Szöveges kérdés-válaszok
 * https://www.drupal.org/project/captcha_pack
   * Többféle típus kombinációja
   * Példák: https://www.drupal.org/files/images/captcha_pack_examples.png
@@ -117,6 +115,21 @@ Korábban bennük is felmerültek alternatívák:
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/captcha_generator.py
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/static/captcha.js
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
+
+### OCR wikicaptcha
+
+* https://github.com/CristianCantoro/wikicaptcha
+* https://wikimania2012.wikimedia.org/wiki/Submissions/Wikicaptcha:_a_ReCAPTCHA-like_solution_for_Wikisource
+
+### mediawiki
+
+FancyCaptcha, MathCaptcha, QuestyCaptcha, SimpleCaptcha
+
+* https://github.com/wikimedia/mediawiki-extensions-ConfirmEdit
+* https://www.thingelstad.com/2013/07/09/stopping-mediawiki-spam.html
+* https://www.mediawiki.org/wiki/Extension:ConfirmEdit
+* https://www.mediawiki.org/wiki/Extension:QuestyCaptcha
+  * Szöveges kérdés-válaszok
 
 ### Alovoa OxCaptcha
 
