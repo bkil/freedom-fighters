@@ -35,6 +35,7 @@
 * https://github.com/jeekkd/iRedMail-scripts
 * https://github.com/modoboa/modoboa
 * https://github.com/deltachat/chatmail
+* https://github.com/HaschekSolutions/opentrashmail
 * Lásd még: [palette-installer.md](palette-installer.md)
 
 ### Telepítési útmutatók
