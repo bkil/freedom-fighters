@@ -61,9 +61,6 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
   * **LXC VPS Micro**, LXC, 1 vCPU (HP ProLiant DL360e Gen8, 2 * E5-2430L v2 @ 2.6-2.8GHz), 1GB RAM (DDR3 ECC), 10GB SSD (SAS RAID10), 1GB vSwap, 8db napi mentés, korlátlan adatforgalom, 1Gb/s, IPv4 + /128 IPv6 (tesztelve magyar: SzerverPlex.hu Kft. Budapest, 1132 Victor Hugo utca 18-22)
   * fizetés: Stripe bankkártya, banki átutalás, OTP bankfiók befizetés, PayPal checkout, PayPal fizetés
   * bejelentkezés: egy kattintásos reCAPTCHA
-* https://vgh.hu/linux_vps 690 (alanyi adómentes)
-  * **Linux VPS**, VMWare, 1 vCPU, 1GB RAM, 10GB HDD, korlátlan adatforgalom, IPv4
-  * 20% kedvezmény az első hónapban kuponkód: `SAVE20`
 * https://atw.hu/vps 651 + áfa (2 év)
   * **egyéni VPS konfigurátor**, KVM, 1 vCPU, 512MB RAM, 5GB SSD (DRBD mirror), 1Gb/s, IPv4 + /56 IPv6 (magyar: Victor Hugo 11-15, 18-22)
   * cég: magyar; ATW Internet Kft.; H-1138 Budapest, Esztergomi út 66. fsz. 1.; Adószám: 13471868-2-41; Cégjegyzékszám: 01-09-736956
@@ -75,6 +72,10 @@ _TODO: Ideálisan utána kéne járni egyenként, hogy kinek hol vannak a szerve
   * Előfizetéskor bérleti idő duplázáshoz Ryzen 3900X NVME VPS kuponkód: `RYZEN02`
 * https://szerverplex.hu/virtualis-szerver-berles/ 672 + áfa (1 év)
   * **KVM VPS 1/1/10 HDD 2020**, KVM, 1 vCPU (HP DL580 4x Intel E7 szériás 8-10 magos), 1GB RAM (DDR3 ECC), 10GB HDD (HP SAS 6G, 10K RPM, HW RAID10, FBWC), korlátlan adatforgalom, 1Gb/s (garantált 20% belföld, 5% külföld, 10Gb/s szerverenként), IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22), 2 db heti mentés
+* https://vgh.hu/linux_vps 900 (alanyi adómentes)
+  * **Linux VPS**, VMWare, 1 vCPU, 2GB RAM, 10GB HDD, korlátlan adatforgalom, IPv4
+  * 20% kedvezmény az első hónapban kuponkód: `SAVE20`
+  * volt régen 1GB RAM VPS is, de "kifogytak az IPv4 címből"
 * https://xethost.hu/vps-berles/ 941 + áfa (1 év)
   * **Linux Dax**, VMware ESXi?, 1 vCPU (2.0GHz, E5-2530 v4?), 1GB RAM, 10GB SSD, korlátlan adatforgalom, 100Mb/s, IPv4 + /128 IPv6 (elvileg magyar: Victor Hugo 18-22)
 
