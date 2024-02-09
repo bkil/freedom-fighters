@@ -898,6 +898,16 @@ Lásd még:
 * van TLS
 * nincs CORS
 
+### geidontei.chaotic.ninja
+
+* https://geidontei.chaotic.ninja/
+* https://chaotic.ninja/register/
+* csak gopher és HTTP
+* van TLS
+* nincs aldomain, csak almappa
+* https://geidontei.chaotic.ninja/usr/username
+* nincs CORS
+
 ### gemlog.blue
 
 * https://gemlog.blue/

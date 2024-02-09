@@ -94,6 +94,11 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://platinum.edu.pl/en/welcome-at-platinum-linux-non-profit-servers-website/
 * http://netburst.org/ssh-access Discord
 
+### geidontei.chaotic.ninja
+
+* https://geidontei.chaotic.ninja/
+* https://chaotic.ninja/register/
+
 ### blinkenshell
 
 * https://blinkenshell.org/wiki/Start
