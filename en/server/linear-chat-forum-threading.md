@@ -267,12 +267,11 @@ Allow for more slack if the message does not contain:
 
 Using Discourse over email is inferior to a real mailing list for the following reasons:
 
-* The only supported mode is treating the whole Discourse instance as a single mailing list. I.e., you can't subscribe to a single category, but you will receive all emails from everyone in every language, most of which you probably don't speak.
-* No digest mode. `mailto:` links within a digest mail or on the archive page can be used to reply with correct threading.
 * On most mailing lists, you receive the sender address as well so you can start a private conversation with the original poster about something confidential. Not sure whether Discourse does some kind of a proxy to translate those to direct messages.
 * Given the email address of your peers either coming from your own mailbox or a mail archive on the web, you can reach them even years after the mailing list has been shut down.
 * You may have the option to subscribe to a mailing list from your MUA, not having to install a web browser at all on a vintage platform.
 * Some mailing lists may even enable you to post without registration, allowing for sending your announcement or patch via cc: to multiple related lists at the same time if this is requested in the project page for example.
+* On a mailing list, you have the option to cc: within a thread reply another user concerned about or knowledgeable on the given question. This mentioned user may (or may not) be registered on the same list server (Discourse instance) and may not be subscribed on the given list on the server (or equivalently having muted the parent category on Discourse).
 * You need to register and log in on the site with JavaScript to configure email notifications. This precludes using any alternative web browser lacking a full JavaScript engine other than the 2 big ones.
 * In instances without OAuth 2, you will also need to come up with and remember a username, password and sometimes further profile recovery options.
 * Not sure whether it has settings for switching between HTML and text mails or chopping off attachment and images.
@@ -280,12 +279,29 @@ Using Discourse over email is inferior to a real mailing list for the following 
 * A mailing list can preserve a bunch of metadata that is useful for spam filtering, while such notifications are usually synthesized according to a template on Discourse.
 * email is federated - you can be present on multiple mailing lists with the same email address, while you need to create a new account on each individual centralized Discourse instance that you use.
 * You can universally unfollow a topic or poster in your email client as well: it's usually called Archive, Mute, Ignore, etc.
+* Web-based mailing list archives usually provide for a way to download messages from past months or years in bulk so you can import it into your MUA to search in, interact with or cite even when offline. Forums only allow online searching.
+* Web-based mailing list archives usually provide a tree-shaped condensed outline of all conversations within a time frame, while Discourse only offers an expanded and linear view.
 
-Based on:
+No digest (abridged) mode to lessen load for servers and users. `mailto:` links within a digest mail or on the archive page can be used to reply with correct threading.
+
+* https://meta.discourse.org/t/more-granular-mailing-list-mode/38107
+
+A user will need to enable mailing list mode globally and then individually `mute` categories which you don't want to receive emails about and new categories are added regularly on some instances. This is less intuitive than subscribing to categories of interest. `Watching` and `tracking` categories without mailing list mode works confusingly differently.
 
 * https://meta.discourse.org/t/what-is-mailing-list-mode/46008
+* https://meta.discourse.org/t/apply-mailing-list-mode-per-category/47772
 
-> “Mailing list mode” is a red herring, and will email you for every new post across the entirety of our Discourse instance, so don’t enable it, unless you want that of course!
+The admin needs additional work to set up each category they want to allow topic creation initiated through email in
+
+* https://meta.discourse.org/t/configure-incoming-email-to-create-new-topics-or-group-messages/62977
+
+There may exist unfixed Discourse bugs related to forwarded messages related to stripping, notifications and attachments
+
+* https://meta.discourse.org/t/enable-forwarded-emails-doesnt-behave-like-conventional-email-forwarding/111501/3
+
+There may exist unfixed Discourse bugs related to in-reply-to, reply-to, references, message-id, inline replies:
+
+* https://meta.discourse.org/t/feedback-from-a-community-about-mailing-list-feature/27695
 
 ## TODO
 
