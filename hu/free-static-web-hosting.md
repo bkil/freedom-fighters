@@ -827,6 +827,15 @@ Lásd még:
 
 ## gemini
 
+### dimension.sh
+
+* https://dimension.sh/
+* gopher, gemini és HTTP
+* van TLS
+* ssh, email (IMAPS)
+* van aldomain: *.dimension.sh
+* nincs CORS
+
 ### archipielago.uno
 
 * https://archipielago.uno/eng/about.html
@@ -927,12 +936,22 @@ Lásd még:
 
 * https://pub.phreedom.club/
 * csak orosz nyelven használható
-* csak gemini, de HTML alól is elérhető (saját proxy)
+* csak gemini, de HTTP/HTML alól is elérhető (saját proxy)
 * van TLS
+* ssh
 * gemini://pub.phreedom.club/~username
 * https://pub.phreedom.club/~username
 * nincs aldomain, csak almappa
 * nincs CORS
+
+### quietplace.xyz
+
+* https://gemini.quietplace.xyz/
+* csak orosz
+* gopher, gemini és HTTP
+* van TLS
+* nincs aldomain, csak almappa
+* nincs CORS, nincs RSS CORS
 
 ### rawtext.club
 
@@ -979,6 +998,15 @@ Lásd még:
 * van aldomain: *.smol.pub
 * nincs CORS az oldalra de van az RSS-re
 
+### tilde.cafe
+
+* https://tilde.cafe/
+* gemini (CGI), HTTP (PHP, CGI: Python, Lua, sh), spartan (CGI)
+* ssh, email (IMAPS, STMP, POP3, sieve, RainLoop)
+* van TLS
+* van aldomain: *.tilde.cafe
+* nincs CORS
+
 ### tilde.pink
 
 * https://tilde.pink/
@@ -998,12 +1026,32 @@ Lásd még:
 * nincs CORS
 * TODO: .htaccess?
 
+### tilde.town
+
+* https://tilde.town/
+* gemini, HTTP
+* ssh
+* van TLS
+* nincs aldomain, csak almappa
+* https://tilde.town/~username/
+* nincs CORS, nincs RSS CORS
+
 ### vern.cc
 
 * https://vern.cc/
 * van gemini, gopher, HTTP
 * van aldomain
 * saját webszerver démon socket
+
+### zaibatsu.circumlunar.space
+
+* gemini://zaibatsu.circumlunar.space/asylum.gmi
+* gopher, gemini, HTTP
+* 200MB tárhely
+* szinkronizált BBS, IRC
+* van TLS
+* sftp
+* nincs CORS
 
 ## Nagy szereplők
 
