@@ -67,6 +67,8 @@ Lásd még:
 * https://gitlab.com/feneasorg/infrastructure
 * https://git.disroot.org/Disroot-Ansible
 * https://codeberg.org/Codeberg-Infrastructure/configuration-as-code
+* https://github.com/mother-of-all-self-hosting/mash-playbook/blob/main/docs/supported-services.md
+* https://github.com/spantaleev/matrix-docker-ansible-deploy
 
 ### Docker
 
