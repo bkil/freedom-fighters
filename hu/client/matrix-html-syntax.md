@@ -327,6 +327,81 @@ Nem jó:
 * details, summary: mindkét szöveget mutatja egyszerre
 * Amennyiben `a href`-ben ékezetes UTF-8 karakterek szerepelnek nyersen percentile kódolás nélkül
 
+### Cinny recieved HTML
+
+Jó:
+
+* h1, h2, h3, h4, h5, h6
+* del strike sub sup
+* hr br p
+* font color
+* b strong i em u
+* ol (start), ul
+* table, thead, caption, tr, th, td: megy, de nincs kerete (kellene border=1)
+* summary, details
+* data-mx-spoiler: majdnem jó, üresen mutatja kattintásig majd utána csak a megoldást
+* blockquote
+* pre, code: színezés nélkül (viszont a language-xx attribútumot megőrzi)
+* img mxc:// (width, height, alt, title, src, data-mx-emoticon)
+* img src http: átalakítja a rel=noopener target=_blank
+* a href http, https, ftp, mailto, magnet
+* data-mx-pill
+* data-mx-ping
+
+Nem jó:
+
+* data-mx-maths (viszont az attribútumot megőrzi)
+
+Forrás:
+
+* https://github.com/cinnyapp/cinny/blob/dev/src/util/sanitize.js
+* https://github.com/apostrophecms/sanitize-html
+
+### Cinny sent markdown
+
+Jó:
+
+* h1, h2, h3, h4, h5, h6
+* ~~ttilde~~
+* "  $" (br)
+* **ab**
+* *ai* _ui_
+* __ub__
+* _**uabi**_
+* ul ("*")
+* ol ("-"): csak ha szám nélkül írjuk be, mindig 1-től indul
+* ||Nheko spoiler warning|spoiled|| majdnem jó, üresen mutatja kattintásig majd utána az egészet
+* blockquote
+* pre, code: színezés nélkül
+* autolink: mailto, http, https, ftp
+* [a](https://...)
+
+Nem jó:
+
+* table, thead, caption, tr, th, td: bug, mivel elvileg támogatja
+* img: bug, mivel elvileg támogatja
+* a title: bug, mivel elvileg támogatja
+
+Forrás:
+
+* https://github.com/cinnyapp/cinny/blob/dev/src/util/markdown.js
+* https://github.com/Khan/perseus/blob/main/packages/simple-markdown/src/index.ts
+* https://github.com/Hypercontext/linkifyjs/blob/main/packages/linkifyjs/src/scanner.js
+
+### Cinny sent rich editor
+
+Jó
+
+* h1, h2, h3
+* strong, i, u, del
+* code: adds "\n" at end
+* pre: produces pre & code with "\n" at end
+* span data-mx-spoiler
+* ul: adds extra p inside li
+* ol: adds extra p inside li, converted to "ul" under non-rich key
+* blockquote: adds br at end
+* img data-mx-emoticon
+
 ### Geany markdown plugin
 
 Jó:
