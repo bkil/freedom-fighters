@@ -26,6 +26,14 @@
 * Rust
 * Docker
 
+### maddy.email
+
+* https://maddy.email/
+* https://github.com/foxcpp/maddy
+* Go
+* SMTP, IMAP
+* DKIM, SPF, DMARC, DANE, MTA-STS
+
 ## Telepítők
 
 * https://mailcow.email/
