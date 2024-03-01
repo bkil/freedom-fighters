@@ -78,6 +78,11 @@ Lásd még:
   * https://github.com/DFabric/dppm-packages-source
 * https://github.com/osresearch/hackerspace-zone
 
+### CasaOS
+
+* https://github.com/IceWhaleTech/CasaOS-AppStore/tree/main/Apps
+* https://github.com/IceWhaleTech/CasaOS
+
 ### CapRover
 
 * https://github.com/caprover/one-click-apps/tree/master/public/v4/apps
