@@ -61,11 +61,3 @@ The main difference between forums and chat is that content on forums is usually
 ## Defunct
 
 * http://wiby.me/chat
-* https://breadpunk.club/~pandecoco/breadbook/
-
-### breadboard
-
-* https://breadpunk.club/~pandecoco/breadboard/index.php
-* https://github.com/sandlind/smolbbs
-* anonymous
-* BBS without registration

@@ -38,3 +38,14 @@ The main difference between forums and chat is that content on forums is usually
 * https://mastodon.help/instances/
 * https://instances.social/list
 * https://friendica.fediverse.observer/ (formerly: podupti.me)
+
+## Defunct
+
+* https://breadpunk.club/~pandecoco/breadbook/
+
+### breadboard
+
+* https://breadpunk.club/~pandecoco/breadboard/index.php
+* https://github.com/sandlind/smolbbs
+* anonymous
+* BBS without registration
