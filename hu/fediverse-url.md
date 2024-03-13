@@ -6,6 +6,10 @@ https://axbom.com/fediverse/
 
 > The many branches of the Fediverse
 
+Lásd még:
+
+[../en/content/independent-forum.md](../en/content/independent-forum.md)
+
 ## Telepítés
 
 * https://github.com/friendica/friendica/blob/develop/doc/Install.md Friendica telepítés ssh-n

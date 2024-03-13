@@ -14,6 +14,10 @@
 * https://ircline.org/ <irc://ircline.org/pcpult>
 * https://hup.hu/faq/irc <irc://irc.libera.chat/hup.hu>
 * <irc://irc.quakenet.eu.org/magyaritasok.hu>
+* https://www.ircdriven.com/search/?q=magyar
+* https://netsplit.de/channels/?chat=magyar
+* https://kiwiirc.com/search?q=magyar&network=*
+* https://search.mibbit.com/search/magyar
 
 ## Egyéb
 
