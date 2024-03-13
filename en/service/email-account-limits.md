@@ -37,6 +37,12 @@ These limits come from an error message received in 2024 relating to a free pers
 * interval: day
 * https://kb.mailbox.org/en/private/e-mail-article/is-there-a-limit-on-the-amount-of-e-mails-that-i-can-send-from-my-account
 
+### Mailbox.hu
+
+* max. 5/interval
+* interval: day
+* https://mailbox.hu/help
+
 ### Mail.de
 
 * max. 50 recipient/interval

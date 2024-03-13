@@ -67,15 +67,16 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 
 ### Mailbox.hu
 
-* https://mailbox.hu/
+* https://mailbox.hu/help
 * 200MB tárhely
-* reklámmentesítés és további tárhely: 1.75 EUR/hó
+* Roundcube webmail
+* fizetős csomag: 1.75 EUR/hó, reklámmentesítés, további tárhely, több küldhető email/nap, IMAP, POP3, SMTP
+* ingyenes csomagban küldhető 5 email/nap
 * hirdetések: Google
 * üzemeltető: Yellow Hashtag OÜ., Észtország
 * max. 64MB fájl csatolható
 * médiapartnere: 24.hu hirradar.hu
 * további fizetős szolgáltatás: http://postino.hu/
-* IMAP, POP3, SMTP
 * 30 naponta be kell lépni, különben törlik a fiókot
 * 2FA: email, TOTP authenticator mobilalkalmazás
 * Mailvelope PGP bővítmény
