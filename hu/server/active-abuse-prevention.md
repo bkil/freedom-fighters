@@ -62,6 +62,24 @@ Célunk, hogy vagy ne érje meg a támadónak nagy számban végrehajtani a viss
 * https://joseconstela.github.io/acio-js/
 * https://github.com/sedflix/SadlyDistributed
 
+## Hálózati ujjlenyomat alapú
+
+Lásd:
+
+[../../en/article/remote-fingerprinting.md](../../en/article/remote-fingerprinting.md)
+
+### Akismet
+
+* https://akismet.com/pricing/
+
+### AbuseIPDB
+
+* https://www.abuseipdb.com/about
+
+### StopForumSpam
+
+* https://www.stopforumspam.com/
+
 ## CAPTCHA
 
 ### Alternatív CAPTCHA áttekintések
@@ -75,6 +93,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://switching.software/replace/google-recaptcha/
 * https://gitlab.com/gitlab-org/gitlab-foss/-/issues/45684
 * https://gitlab.com/gitlab-org/gitlab-foss/-/issues/46548
+* https://near.blog/you-probably-dont-need-recaptcha/
 
 ### FOSS CAPTCHA
 
@@ -92,6 +111,8 @@ Korábban bennük is felmerültek alternatívák:
   * Többféle típus kombinációja
   * Példák: https://www.drupal.org/files/images/captcha_pack_examples.png
 * https://django-simple-captcha.readthedocs.io/en/latest/
+* https://github.com/mbi/django-simple-captcha
+* https://github.com/mewebstudio/captcha/blob/master/src/Captcha.php
 * https://github.com/Lokno/click-captcha
 * https://github.com/hasadna/OpenCaptcha
 * https://github.com/produck/svg-captcha
@@ -103,6 +124,16 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/steambap/captcha
 * https://gitea.com/go-chi/captcha/src/branch/master/image.go#L293
 * https://github.com/ArgoZhang/SliderCaptcha
+* https://wordpress.org/plugins/slider-captcha/#developers
+* https://github.com/ist-dsi/jquery-ui-slider-captcha
+* https://github.com/shacker2/slidecaptcha
+* https://github.com/superwf/slider-puzzle-captcha
+* https://wordpress.org/plugins/really-simple-captcha/#developers
+* https://www.drupal.org/project/draggable_captcha
+* https://www.drupal.org/project/riddler
+* https://git.drupalcode.org/project/nocaptcha_recaptcha/-/blob/8.x-1.x/src/NocaptchaGenerator.php?ref_type=heads
+* https://git.drupalcode.org/project/hidden_captcha/-/blob/7.x-1.x/hidden_captcha.module?ref_type=heads#L48
+* https://www.drupal.org/project/botcha
 * https://github.com/fabianwennink/IconCaptcha-Plugin-jQuery-PHP
 * https://github.com/fabianwennink/IconCaptcha-Plugin-Front-End
 * https://github.com/lepture/captcha
@@ -115,6 +146,7 @@ Korábban bennük is felmerültek alternatívák:
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/captcha_generator.py
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/static/captcha.js
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
+* https://github.com/chenyeric/captcha/blob/master/cryptographp.inc.php
 
 ### OCR wikicaptcha
 
@@ -146,6 +178,7 @@ A self-hostable backend is not supplied
   * Olvasható reklámszlogent kell bemásolni
 * https://github.com/mtcaptcha-public/mtcaptcha-php-sdk
   * https://www.mtcaptcha.com/#mtcaptcha-demo
+* https://www.drupal.org/project/textcaptcha
 
 ### Google reCAPTCHA
 
