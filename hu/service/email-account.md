@@ -47,6 +47,10 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * nem támogatott subaddressing alias: "+"
 * támogatott ekvivalencia: kis-nagybetű
 
+### csodacsiga
+
+* http://www.csodacsiga.hu/connect/reg.html
+
 ### Freemail
 
 * https://freemail.hu/
