@@ -7,7 +7,7 @@
 
 ## IRC
 
-* https://www.gyaloglo.hu/ IRC
+* https://www.gyaloglo.hu/sugo/irc.php IRC
 * https://dumanet.hu/chat/?chan=DumaNet <ircs://irc.dumanet.hu:6666/DumaNet> <irc6://ipv6.dumanet.hu:6666/DumaNet>
 * https://www.dumanet.eu/ Kiwi <ircs://irc.dumanet.hu:6666/DumaNet>
 * https://www.fiatalok.net/ <irc://ircline.org/FreeBNC,Fiatalok>
@@ -37,6 +37,8 @@ email megerősítés szükséges.
 ### Regisztráció nélkül
 
 * https://anotalk.hu/
+* https://www.bazischat.eu/
+* http://www.csodacsiga.hu/connect/chat.html
 * https://szabadchat.hu/
 
 ## Nagy szereplők
