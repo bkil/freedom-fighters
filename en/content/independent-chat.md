@@ -18,6 +18,8 @@ The main difference between forums and chat is that content on forums is usually
 ### Mattermost
 
 * https://chat.almalinux.org/
+* https://framateam.org/
+* https://mattermost.fsinf.at/
 
 ### Mumble
 
@@ -30,11 +32,13 @@ The main difference between forums and chat is that content on forums is usually
 ### Zulip
 
 * https://docs.zulip.com/communities/
+* https://chat.zulip.org/
 
 ## Federated
 
 ### Delta.Chat
 
+* https://davidsm100.codeberg.page/@mailing-lists/
 * https://publicgroups.0x90.space/
 * https://deltachat-bot.github.io/public-bots/data.json
 
