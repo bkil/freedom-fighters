@@ -6,6 +6,14 @@
 * Using a small platform provider improves potential for competition and may create jobs locally
 * It is easier to target a few larger providers than a multitude of small ones
 
+## Competition
+
+It is much easier for a small third party or hobbist to set up a shared hosting PaaS and compete in service & support offered than setting up an IaaS where you mostly compete by buying as much floor space and electricity as cheap as possible. You could operate a PaaS hosted from home even (from a business fiber ISP), just redirecting a (sub)domain as appropriate or a reverse proxy at your convenience and switch it around.
+
+Almost all IaaS (except budget NAT/IPv6-only ones) require you to route the full raw IP traffic to their own address and you don't have control about scaling or distributing content over CDN or DDoS protection according to demand.
+
+As you outgrow demand, even tiny countries usually offer at least three open access data centers where you could relocate all or part of your subscribers to a VPS or a dedicated rack.
+
 ## Efficiency
 
 * Resources of most servers are usually underutilized and see bursts: CPU, RAM, networking
