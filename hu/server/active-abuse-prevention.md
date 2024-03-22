@@ -80,6 +80,10 @@ Lásd:
 
 * https://www.stopforumspam.com/
 
+## Csapda
+
+* https://github.com/inspircd/inspircd-contrib/blob/master/3/m_fakelist.cpp
+
 ## CAPTCHA
 
 ### Alternatív CAPTCHA áttekintések
@@ -147,6 +151,7 @@ Korábban bennük is felmerültek alternatívák:
   * https://github.com/CERN/captcha-api/blob/master/captcha_api/static/captcha.js
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
 * https://github.com/chenyeric/captcha/blob/master/cryptographp.inc.php
+* https://github.com/inspircd/inspircd-contrib/blob/master/3/m_solvemsg.cpp
 
 ### OCR wikicaptcha
 
