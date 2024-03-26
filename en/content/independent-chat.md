@@ -8,6 +8,16 @@ The main difference between forums and chat is that content on forums is usually
 
 ## Centralized
 
+### Without registration
+
+* http://www.magnachat.com/whochat.shtml
+* https://www.peelified.com/cgi-bin/chat.cgi
+* https://www.ccdominoes.com/cgi-bin/Lobby.cgi
+
+### With registration
+
+* http://www.doctorhectic.com/cgi-bin/chat.cgi
+
 ### IRC
 
 * https://www.ircdriven.com/search/
@@ -65,3 +75,4 @@ The main difference between forums and chat is that content on forums is usually
 ## Defunct
 
 * http://wiby.me/chat
+* https://web.archive.org/web/19970401190605/http://www.hula.net/~hulaboy/1_chtscl.htm
