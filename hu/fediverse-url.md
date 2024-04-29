@@ -83,7 +83,15 @@ Lásd még:
 ## Kit kövessünk
 
 * https://communitywiki.org/trunk categorical directory, find interesting Mastodon & fediverse accounts to follow based on special interests
-
+* https://fedi.directory/
+* https://cartolab.at/cartography-on-mastodon/
+* https://find.sciences.social/
+* https://github.com/gabipurcaru/followgraph
+* https://mapperfr.github.io/mastodon-cartographers/
+* https://github.com/jsanz/geospatial-people-fediverse
+* https://all-geo.org/mastodon-earthsci/
+* https://fediverse.info/explore/people
+* https://mapstodon.space/explore
 * https://dir.friendica.social/ akik publikussá tették a profiljukat
 * https://forum.friendi.ca/directory Friendica támogatói csoportok
 
