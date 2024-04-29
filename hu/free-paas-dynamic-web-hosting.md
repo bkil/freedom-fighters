@@ -433,6 +433,22 @@ File manager:
 * Zope/Plone (Python) keretrendszert futtat
   * https://en.wikipedia.org/wiki/Zope
 
+### OpenStreetMap developers
+
+* https://wiki.openstreetmap.org/wiki/Using_the_dev_server
+* https://wiki.openstreetmap.org/wiki/Dev_Server_Account_Policy
+* ssh
+* MySQL, PostgreSQL
+* Apache, .htaccess
+* https://username.dev.openstreetmap.org/
+* CGI
+* PHP
+* Ruby on Rails
+* Python WSGI: Flask, Pyramid
+
+> Requirements: Directly OpenStreetMap related. Non-Commercial. Preferably Open Source
+> Strongly Discouraged: Installing and making large web applications publicly available.
+
 ### PythonAnywhere
 
 * https://eu.pythonanywhere.com/pricing/
