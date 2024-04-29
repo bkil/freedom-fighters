@@ -6,6 +6,8 @@ If a FOSS web application requires complicated server side processing, its conti
 
 Hosting such a backend also usually incurs a non-negligible server cost.
 
+Implementing your backend in any other way can be described as a form of VPS-tax: require operators to pay for a VPS and for contributors to fiddle with setting up their development environment to mimic your build steps.
+
 ## Backend categories
 
 When you develop a web application, you could minimize reliance on a backend by choosing one of the following solutions.
@@ -93,3 +95,5 @@ You may look into microservices for an inspiration, but you don't need to overdo
 * https://en.wikipedia.org/wiki/Shared_web_hosting_service
 * https://github.com/sandhawke/crosscloud
 * https://github.com/linkeddata/cimba/
+* https://willowprotocol.org/more/compare/
+* https://github.com/peter0x7f/DecentralizedTransferProtocol
