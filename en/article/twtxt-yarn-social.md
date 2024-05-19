@@ -582,6 +582,7 @@ Mechanism:
 * Normal publishing feeds should not be pruned so every post maintains permalinks
 * New metadata in content feeds to point to the next content feed after this one is closed and indicate either the most recent update if that one is also closed, or no timestamp (if it is not closed), (e.g., `# next = 2023-01-01T00:00Z http://test.example/2022-12.txt` ).
 * New metadata in content feeds to point to the parent metafeed representing the user (`# contentParent = http://test.example/t.txt`)
+* https://datatracker.ietf.org/doc/html/rfc5005
 
 ### Read receipt
 
