@@ -176,6 +176,7 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 * https://www.privacytools.io/providers/email/
 * https://github.com/deltachat/eppdperf
 * https://providers.delta.chat/
+* https://delta.chat/en/chatmail
 * https://en.wikipedia.org/wiki/Comparison_of_webmail_providers#General
 * https://github.com/arnt/freemail
 * https://gist.github.com/tbrianjones/5992856
