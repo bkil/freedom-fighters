@@ -218,3 +218,4 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://wiki.nikiv.dev/web/search-engines
 * https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
 * https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html
+* https://github.com/lucaong/minisearch
