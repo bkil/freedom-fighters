@@ -125,6 +125,7 @@ Crawler roots:
 * https://community.centminmod.com/threads/blocking-bad-or-aggressive-bots.6433/
 * https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/
 * https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/
+* https://github.com/StractOrg/stract
 
 ## Image search
 
