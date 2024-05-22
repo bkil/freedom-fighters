@@ -57,7 +57,7 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * 10GB tárhely
 * üzemeltető: Mediaworks Hungary Zrt. (korábban: New Wave Media Group Kft.)
 * érdekeltség: Magyar Telekom Nyrt.
-* láthatatlan Google ReCaptcha bejelentkezésnél
+* néha láthatatlan Google ReCaptcha bejelentkezésnél
 * 90 naponta be kell lépni vagy POP3/IMAP útján szinkronizálni kell, különben visszautasítják a beérkező leveleket a legközelebbi bejelentkezésig, 380 nap után pedig törlik a leveleket
 
 ### GMail.hu
@@ -88,17 +88,6 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * nem támogatott subaddressing alias: "-"
 * támogatott subaddressing alias: "+"
 * támogatott ekvivalencia: kis-nagybetű
-
-### euromail
-
-* https://www.euromail.hu/
-* 50MB tárhely
-* csak webmail (nincs IMAP/POP3/SMTP)
-* Google Captcha regisztrációnál és sokszor bejelentkezésnél is
-* érdekeltség: Humankraft Kft. (független)
-* nem támogatott ekvivalencia: ".", "-", "_"
-* nem támogatott subaddressing alias: "%", "=", "-", "+"
-* támogatott ekvivalencia: kis-nagybetű, "\", "\\"
 
 ## Magyarországon fizetős
 
@@ -210,6 +199,18 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
   * 240 nap után törlődik minden levél
   * 720 nap után nem lehet belépni
   * https://www.citromail.hu/adatvedelmi-nyilatkozat/aktualis
+
+### euromail
+
+* https://www.euromail.hu/
+* 50MB tárhely
+* csak webmail (nincs IMAP/POP3/SMTP)
+* Google Captcha regisztrációnál és sokszor bejelentkezésnél is
+* érdekeltség: Humankraft Kft. (független)
+* nem támogatott ekvivalencia: ".", "-", "_"
+* nem támogatott subaddressing alias: "%", "=", "-", "+"
+* támogatott ekvivalencia: kis-nagybetű, "\", "\\"
+* új regisztrációt már nem fogad: 2024-01-31
 
 ### indamail
 
