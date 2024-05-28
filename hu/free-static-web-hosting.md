@@ -70,11 +70,27 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * aldomain: *.ewk.hu
 * nincs CORS
 
+### freewb.hu
+
+* https://freewb.hu/csomagok/
+* https://freewb.hu/csomagok-osszehasonlitasa
+* 50MB tárhely
+* 50 lap
+* ingyen aldomain: *.freewb.hu freewb.hu/_userfiles_/${user}/*
+* saját hirdetés nem helyezhető el
+* korlátlan adatforgalom
+* modulok: blog, képgaléria (jpg, mp4), Google Analytics, Google Webmaster tools, vendégkönyv (dapphp/securimage CAPTCHA), szavazás
+* elvileg csak a fizetős csomagban van TLS, de látszólag mintha mindenhol lenne
+* nincs CORS
+
 ### HuPont.hu
 
 * https://www.hupont.hu/
 * tárhely: korlátlan szövegeknek és képeknek
+* korlátlan oldal, korlátlan aldomain (webhely)
+* korlátlan adatforgalom
 * reklámot helyeznek el
+* felhasználó elhelyezheti saját hirdetését
 * tulajdonos: Mass Presence Kft.
 * infrastruktúra: INTEGRITY Kft. (1132 Budapest, Victor Hugo u. 18-22.)
 * nincs fájlfeltöltés
@@ -92,6 +108,7 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * üzemeltető: Deltha Rendszerház Kft.
 * regisztráció csak papíron, levélben vagy faxolva beküldve, évente meg kell újítani!
 * reklámokat helyez el
+* aldomain: *.ini.hu
 * nincs TLS
 * nincs CORS
 
@@ -117,6 +134,7 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * hirdetést jelenít meg
 * saját hirdetés nem helyezhető el
 * 1 aldomain: *.nanoweb.hu
+* nincs TLS
 * nincs CORS
 
 ## Magyar blog
@@ -140,6 +158,7 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * egyedi HTML és CSS
   * JavaScript kód is beszúrható
 * aldomain: *.blog.hu
+* van TLS
 * nincs CORS sem az oldalon, sem RSS-en
 
 ### Blogger.hu
@@ -157,6 +176,7 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * Talalka.hu
   * myVIP.com
 * aldomain: *.blogger.hu
+* van TLS
 * nincs CORS sem az oldalon, sem RSS-en
 
 ### G-Portal.hu
@@ -174,6 +194,7 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
 * üzemeltető: Egonet Kft.
 * további szolgáltatás: gmail.hu (g-mail.hu)
 * aldomain: *.gportal.hu
+* van TLS
 * nincs CORS sem az oldalon, sem RSS-en
 
 ### Reblog.hu
@@ -185,6 +206,7 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
   * videakid.hu
   * videaloop.hu
 * aldomain: *.reblog.hu
+* van TLS
 * nincs CORS az oldalra de van az RSS-re
 
 ## Magyar ISP
@@ -370,6 +392,15 @@ Ezek sajnos "elkoptak".
   * alapértelmezésben Creative Commons Nevezd meg!-Ne add el!-Így add tovább! 2.5 Magyarország licenc a feltöltött tartalmakra
   * üzemeltető: Belvárosi Hirdető Kft.
 
+### oldalunk.hu
+
+* https://oldalunk.hu/main.php
+* ingyen aldomain: *.oldalunk.hu
+* a regisztráció ideiglenesen szünetel
+* honlapépítő
+* nincs TLS
+* nincs CORS
+
 ### Pr-Telecom ISP
 
 * https://cellkabel.hu/impressum
@@ -534,6 +565,7 @@ Lásd még:
 * https://docs.gitlab.com/ee/user/project/pages/
 * 10GB tárhely https://about.gitlab.com/blog/2015/04/08/gitlab-dot-com-storage-limit-raised-to-10gb-per-repo/
 * rugalmas CI
+* van TLS
 * van CORS
 
 ### GitHub
@@ -546,6 +578,7 @@ Lásd még:
 * csak nem-kereskedelmi felhasználásra
   * https://docs.github.com/en/github/site-policy/github-additional-product-terms#4-pages
 * CI: Jekyll (esetleg Travis útján más)
+* van TLS
 * van CORS
 
 ### BitBucket
@@ -553,6 +586,7 @@ Lásd még:
 * https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/
 * 1GB tárhely https://support.atlassian.com/bitbucket-cloud/docs/what-kind-of-limits-do-you-have-on-repositoryfile-size/
 * aldomain: *.bitbucket.io
+* van TLS
 * van CORS
 
 ### Netlify
@@ -591,12 +625,14 @@ Lásd még:
 * kedvezmény a fizetős csomagokból szabad szoftveres projekteknek
 * serverless functions
 * van CORS
+* van TLS
 
 ### Surge
 
 * https://surge.sh/
 * aldomain: *.surge.sh
 * CORS fizetős csomagban bekapcsolható https://github.com/surge-sh/example-cors
+* van TLS
 
 ### MongoDB
 
@@ -620,11 +656,16 @@ Lásd még:
 * https://carrd.co/
 * max. 3 lap ingyen
 * aldomain: *.carrd.co *.cdr.co
+* Cloudflare
+* van TLS
+* nincs CORS
 
 ### TiddlyHost
 
 * https://tiddlyhost.com/
 * támogatott: TiddlyWiki, Feather.wiki
+* aldomain: *.tiddlyhost.com
+* van TLS
 * van API CORS amivel lekérhető a JSON!
 
 ### jimdo
@@ -638,7 +679,8 @@ Lásd még:
   * fájltípusok: js, gif, jpeg, png, svg, css, pdf, ttf, woff, eot
   * https://help.jimdo.com/hc/en-us/articles/115005512006-Which-file-types-can-I-use-in-the-File-Download-Element-
   * https://funnycat.jimdo.com/en/jimdotutorials-1/change-the-css-of-a-template/
-* nincs CORS
+* van TLS
+* nincs CORS sem az oldalon, sem RSS-en
 
 ### Mozello.com
 
@@ -671,6 +713,19 @@ Lásd még:
 * prefix: static.staticsave.com/content/${USER}/${BASENAME}.css
 * van CORS minden fájltípusra
 
+### strikingly.com
+
+* https://www.strikingly.com/s/pricing
+* 500MB tárhely
+* 5GB/hó forgalom
+* ingyenes aldomain: *.mystrikingly.com
+* fizetős csomagban egyedi domain
+* nincs egyedi HTML csak fizetős csomagban
+* 1 weboldal, 5 lap
+* 1 webshop: 1 termék
+* van TLS
+* nincs CORS
+
 ### tilda.cc
 
 * https://tilda.cc/
@@ -678,29 +733,25 @@ Lásd még:
 * 50MB tárhely
 * ingyenes aldomain: username.tilda.ws
 * nincs egyedi HTML
-
-### txti.es
-
-* http://txti.es/
-  * http://motherfuckingwebsite.com/
-* Csak minimális markdown formázást támogat
-* 6 hónap után törli amit kevesebb mint 2 látogató nyitott meg
+* van TLS
 * nincs CORS
 
 ### versoly
 
 * https://versoly.com/pricing
 * 3 lap
-* 5000 napon belül egyedi látogató/hó
+* 1000, egy napon belül egyedi látogató/hó
 * 50 CMS sor
 * 50 űrlapbeküldés
 * szerkeszthető HTML, CSS, JS
 * kiszolgálás: Amazon AWS
 * szemantikus HTML, Tailwind CSS
-* TLS
-* aldomain: `*.versolyi.page`
+* engedélyezett egyedi HTML, CSS, JS
+* aldomain: `*.versoly.page`
 * népszerűsíti magát az oldalunkon
 * átirányítások
+* TLS
+* van CORS
 
 ### VistaServ
 
@@ -771,7 +822,7 @@ Lásd még:
 * biztonsági mentés
 * egyedi HTML
 * aldomain: *.wordpress.com
-* nincs CORS
+* nincs CORS sem az oldalon, sem az RSS-en
 
 ### WriteFreely
 
@@ -794,21 +845,29 @@ Lásd még:
 ### angel-town.cinni.net
 
 * https://angel-town.cinni.net/
+* van almappa és aldomain: cinni.net/${user} *.cinni.net
+* van TLS
 * nincs CORS, nincs RSS
 
 ### bearblog.dev
 
 * https://bearblog.dev/
+* van aldomain: *.bearblog.dev
+* van TLS
 * nincs CORS sem az oldalon, sem RSS-en
 
 ### Dreamwidth
 
 * https://dreamwidth.org/
+* van aldomain: *.dreamwidth.org
+* van TLS
 * nincs CORS, nincs RSS CORS
 
 ### mataroa.blog
 
 * https://mataroa.blog/
+* van aldomain: *.mataroa.blog
+* van TLS
 * nincs CORS sem az oldalon, sem RSS-en
 * Van API saját blogon publikáláshoz és saját bejegyzések lekéréséhez:
 * https://mataroa.blog/api/docs/
@@ -818,11 +877,15 @@ Lásd még:
 * https://spacehey.com/
 * profil, blog: egyedi HTML, CSS
 * fórum
+* nincs aldomain: spacehey.com/${user} blog.spacehey.com/${user}
+* van TLS
 * nincs CORS, nincs RSS CORS
 
 ### status.cafe
 
 * https://status.cafe/
+* nincs aldomain: status.cafe/users/${user}
+* van TLS
 * nincs CORS az oldalra de van az RSS-re
 
 ## gemini
@@ -982,7 +1045,8 @@ Lásd még:
 ### SDF
 
 * https://sdf.org/?faq?GOPHER?02
-* gopher (csak mappa), HTML (van aldomain, TLS)
+* gopher (csak mappa), HTML (van aldomain: *.sdf.org)
+* nincs TLS
 * nincs CORS, nincs RSS CORS
 
 ### si3t.ch
@@ -1050,8 +1114,10 @@ Lásd még:
 
 * https://vern.cc/
 * van gemini, gopher, HTTP
-* van aldomain
+* van aldomain: *.vern.cc
 * saját webszerver démon socket
+* van TLS
+* nincs CORS sem az oldalon, sem az RSS-en
 
 ### zaibatsu.circumlunar.space
 
@@ -1161,6 +1227,16 @@ Lásd még:
 * csak spanyol nyelvű
 * 50MB tárhely
 * nem elérhető
+
+### txti.es
+
+* http://txti.es/
+  * http://motherfuckingwebsite.com/
+* megszűnt
+* nincs aldomain
+* Csak minimális markdown formázást támogat
+* 6 hónap után törli amit kevesebb mint 2 látogató nyitott meg
+* nincs CORS
 
 ### Egyéb megszűnt
 
