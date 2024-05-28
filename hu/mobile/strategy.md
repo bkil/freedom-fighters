@@ -65,6 +65,8 @@ Kompatibilis módszerek a régen használt szolgáltatások átmeneti használat
 
 Ha valamire nem létezik alternatíva és muszáj feltenni az eredeti programot mondjuk teszteléshez. Sérti minimum az ÁSZF-et, esetleg szerzői jogokat és DMCA-t is.
 
+* https://github.com/ImranR98/Obtainium
+* https://github.com/accrescent/accrescent
 * https://f-droid.org/en/packages/com.github.yeriomin.yalpstore/
 * https://f-droid.org/en/packages/com.aurora.store/
 
