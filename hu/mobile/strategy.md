@@ -78,3 +78,9 @@ Ha valamire nem létezik alternatíva és muszáj feltenni az eredeti programot 
 * https://en.wikipedia.org/wiki/List_of_custom_Android_distributions
 * https://en.wikipedia.org/wiki/Category:Custom_Android_firmware
 * https://en.wikipedia.org/wiki/Category:Android_forks
+
+### Linux alkalmazások mobilon
+
+* https://en.wikipedia.org/wiki/Termux
+* https://en.wikipedia.org/wiki/UserLAnd_Technologies
+* https://en.wikipedia.org/wiki/OS_virtualization_and_emulation_on_Android#Emulation
