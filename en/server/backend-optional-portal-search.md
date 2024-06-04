@@ -219,3 +219,7 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
 * https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html
 * https://github.com/lucaong/minisearch
+* https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html
+* https://github.com/alexmolas/microsearch/blob/main/src/microsearch/engine.py
+* https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/
+* https://github.com/bartdegoede/python-searchengine
