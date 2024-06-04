@@ -2,6 +2,7 @@
 
 * https://hide.me/en/proxy
 * https://free-proxy-list.net/
+* http://www.frogfind.com/read.php?a=https://en.m.wikipedia.org/wiki/Main_Page
 
 ## Live search engine results
 
