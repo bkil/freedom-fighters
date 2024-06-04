@@ -10,6 +10,7 @@
 * https://list.jabber.at/
 * https://web.archive.org/web/20220728135210/https://xmpp.net/directory.php
 * https://providers.xmpp.net/
+* https://join.movim.eu/
 * https://xmpp.404.city/
   * https://github.com/haansn08/xmpp-servers
   * https://web.archive.org/web/20201104033015/github.com/E-404/xmpp-servers
