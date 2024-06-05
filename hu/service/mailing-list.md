@@ -39,6 +39,13 @@ Hasznos opcionális szolgáltatások:
 * https://blog.alwaysdata.com/2018/12/11/stay-close-to-your-people-here-are-the-mailing-lists/
 * Mailman (Postorius)
 
+### groups.io
+
+* https://groups.io/
+* korlátlan üzenet
+* max. 100 tag
+* 1 GB tárhely
+
 ## Nagy szereplők
 
 * https://en.wikipedia.org/wiki/Google_Groups
