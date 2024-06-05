@@ -48,9 +48,29 @@ The main difference between forums and chat is that content on forums is usually
 
 ### Delta.Chat
 
-* https://davidsm100.codeberg.page/@mailing-lists/
-* https://publicgroups.0x90.space/
 * https://deltachat-bot.github.io/public-bots/data.json
+
+Will be decommissioned unless a new mailing list host can be found:
+
+* https://davidsm100.codeberg.page/@mailing-lists/
+
+Encrypted groups are not ideal for public discourse in general, so further development is expected in the future about this:
+
+* https://publicgroups.0x90.space/
+
+### DeltaLab
+
+A fork of Delta.Chat with advanced features you can install for Android from here:
+
+* https://github.com/deltalab-org/deltalab-android#deltalab-android-client
+
+You can then join so called anonymous "communities" that opens up the possibility to collaborate in separate topics. Get in contact with the following to join the community named "DeltaFans":
+
+* https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&n=adb&i=_vLu0fUI53k&s=teNGaPzemPW
+
+You can read more about this feature here:
+
+* https://support.delta.chat/t/deltafans-anonymous-community/3038
 
 ### Matrix
 
