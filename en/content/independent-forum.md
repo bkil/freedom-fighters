@@ -8,6 +8,14 @@ The main difference between forums and chat is that content on forums is usually
 
 ## Centralized
 
+### answers.com
+
+* https://www.answers.com/
+
+### boardhost.com
+
+* http://listings.boardhost.com/
+
 ### BBJ
 
 * https://bbj.tildeverse.org/
@@ -20,6 +28,33 @@ The main difference between forums and chat is that content on forums is usually
 * https://github.com/BetterMeetHQ/Discourse-Subdomains
 * https://github.com/rugpullindex/awesome-discourse-communities
 * https://trends.builtwith.com/websitelist/Discourse
+
+### ProBoards.com
+
+* https://www.proboards.com/forum-directory
+
+### forumotion.com
+
+* https://www.forumotion.com/
+* https://www.board-directory.net/
+
+### nabble.com
+
+* https://www.nabble.com/free-apps/page1.html
+
+### reddit.com
+
+* https://www.reddit.com/
+* Google reCAPTCHA kitöltése szükséges beküldés előtt
+* API fizetős
+
+### stackoverflow.com
+
+* https://stackoverflow.com/
+* A beküldött tartalmak CC-BY-SA-4.0 alatt licenszelve
+* https://meta.stackexchange.com/questions/344491/an-update-on-creative-commons-licensing
+* letölthető az egész friss adatbázis
+* https://archive.org/details/stackexchange
 
 ## Federated
 
