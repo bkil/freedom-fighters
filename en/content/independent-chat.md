@@ -28,7 +28,16 @@ The main difference between forums and chat is that content on forums is usually
 ### Mattermost
 
 * https://chat.almalinux.org/
+* https://mattermost.developersforfuture.org/signup_user_complete
 * https://framateam.org/
+* https://joomlacommunity.cloud.mattermost.com/
+ * https://identity.joomla.org/
+* https://chat.koha-community.org/
+* https://organise.earth/
+ * https://rebeltoolkit.extinctionrebellion.uk/books/the-hub-mattermost-cloud-and-forums/page/inviting-people-to-your-group
+* https://chat.opennms.com/
+* https://chat.reactos.org/
+* https://community.mattermost.com/
 * https://mattermost.fsinf.at/
 
 ### Mumble
