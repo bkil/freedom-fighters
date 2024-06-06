@@ -39,6 +39,13 @@ Hasznos opcionális szolgáltatások:
 * https://blog.alwaysdata.com/2018/12/11/stay-close-to-your-people-here-are-the-mailing-lists/
 * Mailman (Postorius)
 
+### emaildodo.com
+
+* https://emaildodo.com/pricing.php
+* max. 10 csoport
+* max. 50 tag/csoport
+* reklám az üzenetek végén
+
 ### groups.io
 
 * https://groups.io/
@@ -51,3 +58,7 @@ Hasznos opcionális szolgáltatások:
 * https://en.wikipedia.org/wiki/Google_Groups
 * https://en.wikipedia.org/wiki/Meetup
   * nem teljes értékű lista
+
+## Megszűnt
+
+* https://en.wikipedia.org/wiki/Yahoo!_Groups
