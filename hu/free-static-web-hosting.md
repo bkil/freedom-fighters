@@ -820,7 +820,12 @@ Lásd még:
   * Inspiráció egy régi bővítményből: https://wordpress.org/plugins/really-static/
 * reklámokat szúr be
 * biztonsági mentés
-* egyedi HTML
+* van korlátozott egyedi HTML és beágyazható magasabb szintű blokkok, de nincs JavaScript vagy CSS
+* https://wordpress.com/support/code/#html
+* https://wordpress.com/support/wordpress-editor/blocks/embed-block/#supported-services
+* https://wordpress.com/support/wordpress-editor/blocks/shortcode-block/#available-shortcodes
+* számtalan telepített bővítmény:
+* https://wordpress.com/support/plugins/install-a-plugin/#before-installing-a-plugin
 * aldomain: *.wordpress.com
 * nincs CORS sem az oldalon, sem az RSS-en
 
@@ -1176,6 +1181,12 @@ Lásd még:
 * nincs aldomain
 * prefix: sites.google.com/site/${USER}
 * nincs CORS
+
+### LiveJournal.com
+
+* https://www.livejournal.com/support/faq/38.html
+* https://www.livejournal.com/support/faq/263.html
+* nincs CORS, nincs RSS CORS
 
 ### Tumblr
 
