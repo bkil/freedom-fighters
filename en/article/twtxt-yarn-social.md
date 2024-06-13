@@ -322,6 +322,17 @@ As per #link_preview
 * The main account feed of a user should link to their own subaccounts (separate feeds) in the metadata for discovery
 * Optimizes bandwidth use and reduces clutter
 
+### Tag taxonomy
+
+* Each user may declare their own tag taxonomy that they obey in their posts.
+* Support actions that would declare that a given tag (category) is a synonym for, a subtag of (contained), a supertag of (containing) or otherwise partially overlapping another tag.
+* The taxonomy tree of (hierarchical relationships between) tags may change over time.
+* The tags on a given subaccount and on individual posts may be altered.
+* The client of followers should adjust their subscription automatically, possibly opening an interactive prompt for confirmation. Subtags and synonyms of blocked or subscribed tags should be blocked or followed respectively, while supertags would benefit from confirmation. If a previously undetermined tag or content is changed to a subtag of a blocked or subscribed tag, it should be interpreted as being blocked or subscribed respectively.
+* Conflict resolution resulting from changes may ask for user interaction or specificity rules may be applied automatically.
+* A user feed may declare foreign tag synonyms or alternative taxonomy schemes they have witnessed others to be using. The user will not create posts based on such alternative schemes.
+* A user feed may declare per-user feed overrides based on (multiple) inheritance from alternative taxonomy schemes. The user can customize which tags to follow with fewer manual steps this way.
+
 ### Forums
 
 * Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed: #directory
