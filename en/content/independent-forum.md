@@ -33,10 +33,23 @@ The main difference between forums and chat is that content on forums is usually
 
 * https://www.proboards.com/forum-directory
 
+### fandom.com discussions
+
+* https://community.fandom.com/wiki/Help:Discussions
+
+### fandom.com wiki-style forums
+
+* https://community.fandom.com/wiki/Help:Wiki-style_forums
+* https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:DPLforum
+
 ### forumotion.com
 
 * https://www.forumotion.com/
 * https://www.board-directory.net/
+
+### lobste.rs
+
+* https://lobste.rs/
 
 ### nabble.com
 
@@ -51,10 +64,14 @@ The main difference between forums and chat is that content on forums is usually
 ### stackoverflow.com
 
 * https://stackoverflow.com/
-* A beküldött tartalmak CC-BY-SA-4.0 alatt licenszelve
+* Submitted content is licensed under CC-BY-SA-4.0
 * https://meta.stackexchange.com/questions/344491/an-update-on-creative-commons-licensing
-* letölthető az egész friss adatbázis
+* The whole set can be downloaded in bulk
 * https://archive.org/details/stackexchange
+
+### news.ycombinator.com
+
+* https://news.ycombinator.com/
 
 ## Federated
 
