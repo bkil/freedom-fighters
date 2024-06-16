@@ -38,6 +38,7 @@ Hasznos opcionális szolgáltatások:
 
 * https://blog.alwaysdata.com/2018/12/11/stay-close-to-your-people-here-are-the-mailing-lists/
 * Mailman (Postorius)
+* 100MB tárhely
 
 ### emaildodo.com
 
