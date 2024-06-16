@@ -1051,7 +1051,7 @@ Lásd még:
 
 * https://sdf.org/?faq?GOPHER?02
 * gopher (csak mappa), HTML (van aldomain: *.sdf.org)
-* nincs TLS
+* van TLS
 * nincs CORS, nincs RSS CORS
 
 ### si3t.ch
