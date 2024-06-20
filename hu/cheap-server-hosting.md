@@ -189,6 +189,12 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 
 ### Privátszféra
 
+* https://1984.hosting/
+* https://buyvm.net/
+* https://flokinet.is/
+* https://kyun.host/
+* https://nicevps.net/
+* https://orangewebsite.com/
 * https://njal.la/
   * 15 EUR/hó, 1 vCPU, 1.5GB RAM, 15GB SSD tárhely, 1.5TB/hó adatforgalom
   * kriptovaluta elfogadott
