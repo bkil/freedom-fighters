@@ -83,6 +83,7 @@ You can read more about this feature here:
 
 ### Matrix
 
+* https://matrixrooms.info/
 * https://matrix.to/#/#secuchart:matrix.org
 * https://view.matrix.org/
 * https://matrix.grin.hu/rooms/
