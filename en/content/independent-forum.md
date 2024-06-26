@@ -58,14 +58,16 @@ The main difference between forums and chat is that content on forums is usually
 ### reddit.com
 
 * https://www.reddit.com/
-* Google reCAPTCHA kitöltése szükséges beküldés előtt
-* API fizetős
+* Filling of Google reCAPTCHA may be required before submitting posts
+* browsing is DDoS protected by Cloudflare & hCAPTCHA
+* API after payment
 
 ### stackoverflow.com
 
 * https://stackoverflow.com/
 * Submitted content is licensed under CC-BY-SA-4.0
 * https://meta.stackexchange.com/questions/344491/an-update-on-creative-commons-licensing
+* reading DDoS protected by Cloudflare & hCAPTCHA
 * The whole set can be downloaded in bulk
 * https://archive.org/details/stackexchange
 
