@@ -14,6 +14,10 @@ Adott, általunk megbízhatónak tartott támadáselhárítást biztosító kül
 * Ha utólag kiderül, hogy egy ajánlás rossz volt, elévülő negatív visszacsatolása (reputáció, jogvesztés, további ellenőriztetés)
 * web of trust: GnuPG kulcsaláírás vagy más hasonló módon következtethető, hogy van legalább adott számú ismerőse a rendszerünkben akik univerzálisan kezeskednek a valódiságukért
 
+Kapcsolódó:
+
+* https://github.com/hyphanet/plugin-WebOfTrust
+
 ### Áttételes
 
 * Gyakorlatilag bármit kérhetnénk amire sokan regisztráltak a lehetséges felhasználóink közül
