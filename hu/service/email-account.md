@@ -112,9 +112,19 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 ### Protonmail
 
-* http://protonmail.com/ Svájc, csak webmail ingyenes, 500MB tárhely, 150 üzenet/nap
+* https://proton.me/pricing
+* Svájc
+* csak webmail ingyenes, nincs POP3/IMAP/STMP
+* 3 naptár
+* 1GB postafiók tárhely, 3 mappa, 3 címke
+* küldhető 150 üzenet/nap
+* max. 25MB csatolmány
+* 1 szűrő
+* max. 10 átmeneti továbbító alias (hide-my-email)
 * támogatott ekvivalencia: ".", "-", kis-nagybetű
 * támogatott subaddressing: "+"
+* 5GB drive fájl felhőtárhely
+* 1 VPN: WireGuard, OpenVPN
 
 ### 25mail.st
 
