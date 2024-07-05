@@ -748,6 +748,8 @@ Separating these two links allows for the user or moderator to either reply to a
 * If a feed fails to be fetched, propagating clients may sign its entry with mentioning the date of the first failing fetch after the most successful fetch and the number of unique days of failure. This should provide testimony for deleting the feed from the index more rapidly.
 * Propagating clients may prune the index to honor their storage quota. They may use heuristics of maximizing reach or utility within the network.
 
+https://github.com/hyphanet/wiki/wiki/Library#user-content-distributed-searching
+
 ### Feed discovery
 
 * A client should offer to search for and follow a limited set of feeds initially after installation to seed federation. This may be either a manually curated list (either feeds moderately and diversely connected or ones providing content catering to a new joiner from the target audience), computed by crawlers based on semi-global statistics or just republishing the #gossip_feed_index of a given user (e.g., of the developer)
