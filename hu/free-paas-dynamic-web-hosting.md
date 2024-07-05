@@ -598,35 +598,6 @@ File manager:
 * 10 MySQL
 * 10 domén, 10 aldomén
 
-### BooomHost
-
-* http://booomhost.com/about-free-hosting.php
-* üzemeltetője: MyOwnFreeHost, MX és hostname: ByetCluster.com, terméktámogatás: SecureSignup.net, iFastNet.com, byet.net
-* 10GB tárhely
-  * max. 10MB fájlméret
-  * max. 30k inode
-* 100GB/hó forgalom
-  * max. 50k betöltés/nap
-* 10 aldomén
-  * xxxx.booomhost.com
-  * booomhost.com powertechpoint.com suprahost.cu.cc 22web.org 10001mb.com 2kool4u.net 66ghz.com a0001.net fast-page.org html-5.me iblogger.org is-best.net is-great.net is-great.org likesyou.org loveslife.biz my-board.org my-style.in mydiscussion.net nichesite.org social-networking.me synergize.co talk4fun.net totalh.net web1337.net
-* PHP 7.4.8
-* cPanel vezérlőpult
-  * Softaculous Apps Installer telepítő
-  * nginx (Apache .htaccess értelmezés)
-* TLS tanúsítvány beállítható
-  * elsősorban csak fizetős
-  * a Let's Encrypt .well-known HTTP kihívása nem működik mivel JavaScript nélkül nem elérhető
-  * CNAME beállítható, így TXT proxy útján körüljárható Let's Encrypt is
-* 10 MySQL korlátlan adatbázis
-* cronjob
-  * 5 másodpercen belül be kell fejeződnie vagy eltávolítják
-  * akár 2 percenkénti gyakorisággal
-  * akár több feladat
-  * csak egy saját URI-t (scriptet) tud meghívni
-* email: csak fizetős csomagban
-* reklámbanner képet helyez el a HTML fájl végére
-
 ### Byet
 
 * https://byet.host/free-hosting
@@ -1058,6 +1029,35 @@ A domén vagy már szabad, vagy árulják, vagy reklámokat és ártó kódokat 
 * http://www.webspawner.com/
 * http://wehostyou360.ml/
 * http://xhosting.ml/
+
+### BooomHost
+
+* http://booomhost.com/about-free-hosting.php
+* üzemeltetője: MyOwnFreeHost, MX és hostname: ByetCluster.com, terméktámogatás: SecureSignup.net, iFastNet.com, byet.net
+* 10GB tárhely
+  * max. 10MB fájlméret
+  * max. 30k inode
+* 100GB/hó forgalom
+  * max. 50k betöltés/nap
+* 10 aldomén
+  * xxxx.booomhost.com
+  * booomhost.com powertechpoint.com suprahost.cu.cc 22web.org 10001mb.com 2kool4u.net 66ghz.com a0001.net fast-page.org html-5.me iblogger.org is-best.net is-great.net is-great.org likesyou.org loveslife.biz my-board.org my-style.in mydiscussion.net nichesite.org social-networking.me synergize.co talk4fun.net totalh.net web1337.net
+* PHP 7.4.8
+* cPanel vezérlőpult
+  * Softaculous Apps Installer telepítő
+  * nginx (Apache .htaccess értelmezés)
+* TLS tanúsítvány beállítható
+  * elsősorban csak fizetős
+  * a Let's Encrypt .well-known HTTP kihívása nem működik mivel JavaScript nélkül nem elérhető
+  * CNAME beállítható, így TXT proxy útján körüljárható Let's Encrypt is
+* 10 MySQL korlátlan adatbázis
+* cronjob
+  * 5 másodpercen belül be kell fejeződnie vagy eltávolítják
+  * akár 2 percenkénti gyakorisággal
+  * akár több feladat
+  * csak egy saját URI-t (scriptet) tud meghívni
+* email: csak fizetős csomagban
+* reklámbanner képet helyez el a HTML fájl végére
 
 #### Mipropia
 
