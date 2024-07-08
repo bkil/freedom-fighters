@@ -112,6 +112,14 @@ These limits come from an error message received in 2024 relating to a free pers
 * interval: 24h
 * https://www.infomaniak.com/en/support/faq/search?q=rate+limits
 
+### migadu.com
+
+* https://www.migadu.com/pricing/
+* $19/year Micro plan
+* max. 200 email/day received
+* max. 20 email/day sent
+* 5GB storage
+
 ### NameCheap
 
 Per domain sending limit:
