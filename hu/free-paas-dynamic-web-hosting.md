@@ -598,6 +598,20 @@ File manager:
 * 10 MySQL
 * 10 domén, 10 aldomén
 
+### aeonfree.com
+
+* https://aeonfree.com/
+* 5GB tárhely (korábban: korlátlan)
+* korlátlan forgalom
+* 400 MySQL adatbázis
+* 1 FTP fiók
+* 15 subdomain: USERNAME.hstn.me USERNAME.iceiy.com USERNAME.zya.me
+* TLS
+* Cloudflare CDN
+* havonta legalább 20 látogató kell vagy havonta be kell lépni a vezérlőpultra, különben 3 hónap múlva törölnek
+* cPanel vezérlőpult
+* .htaccess
+
 ### Byet
 
 * https://byet.host/free-hosting
@@ -827,6 +841,7 @@ File manager:
 ### FreeHosting.com
 
 * https://www.freehosting.com/free-hosting.html
+* https://www.freehosting.com/client/index.php/store/website-hosting
 * 10GB tárhely
 * korlátlan forgalom
 * PHP
