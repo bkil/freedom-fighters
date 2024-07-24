@@ -3,6 +3,7 @@
 ## Books
 
 * https://packages.debian.org/bookworm/doc/
+* https://openlibrary.org/
 
 ## External lists
 
