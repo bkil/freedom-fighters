@@ -13,6 +13,9 @@ The main difference between forums and chat is that content on forums is usually
 * http://www.magnachat.com/whochat.shtml
 * https://www.peelified.com/cgi-bin/chat.cgi
 * https://www.ccdominoes.com/cgi-bin/Lobby.cgi
+* https://gikopoi.com/
+* gemini://auragem.letz.dev/chat
+* gemini://chat.mozz.us/
 
 ### With registration
 
