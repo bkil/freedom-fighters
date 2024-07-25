@@ -15,6 +15,19 @@ Here are some reasons why this is not desirable:
 * You help improve the upstream search provider by providing input to popularity, phrases, parsing, query refinement and result ranking
 * You are not helping improve the competitors by withholding these crowdsourced inputs
 
+## Small web
+
+Gopher:
+
+* http://gophervista.benjojo.co.uk/query?pg=q&what=0&q=gopher&search.x=0&search.y=0
+
+Gemini:
+
+* gemini://auragem.letz.dev/search/s?gemini
+* gemini://gemplex.space/search?gemini
+* gemini://kennedy.gemi.dev/search?gemini
+* gemini://tlgs.one/
+
 ## Independent with index
 
 ### activesearchresults.com
@@ -76,7 +89,7 @@ Here are some reasons why this is not desirable:
 ### exactseek.com
 
 * Canada
-# https://www.exactseek.com/cgi-bin/search.cgi?sub=Search&q=indexer
+* https://www.exactseek.com/cgi-bin/search.cgi?sub=Search&q=indexer
 * can be used without JavaScript
 * own index
 
@@ -508,6 +521,12 @@ Here are some reasons why this is not desirable:
 * https://github.com/orgs/WordPress/repositories?q=openverse&type=all&language=&sort=
 * https://seekseek.org/technology
 * https://github.com/gigablast/open-source-search-engine
+* https://github.com/benjojo/gophervista
+* https://gitlab.com/clseibold/auragem_sis
+* https://gitlab.com/clseibold/auragem_crawler
+* https://github.com/elektito/gemplex
+* https://github.com/acidus99/Kennedy
+* https://github.com/marty1885/tlgs
 
 ## Monopolists
 
@@ -576,6 +595,10 @@ Crawler roots:
 * https://github.com/Kukei-eu/spider/blob/914b8dfffc10cb3a948561aef2bf86937d3a0b2e/index-sources.js
 
 ## Defunct
+
+### geminispace.info
+
+* gemini://geminispace.info/
 
 ### ExaLead
 
