@@ -83,6 +83,7 @@
 * Hallgatás/letöltés https://archive.org/details/audio_music
 * Hallgatás/letöltés http://magnatune.com/info/whynotevil (ingyen is használható, de etikusan felkér az adakozásra)
 * Letöltés https://www.liberliber.it/ (European Classical Music)
+* Hallgatás gemini://auragem.letz.dev/music/public_radio/
 
 ### Főleg ingyenes tartalmak
 
