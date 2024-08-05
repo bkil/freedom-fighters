@@ -103,7 +103,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://gitlab.com/gitlab-org/gitlab-foss/-/issues/46548
 * https://near.blog/you-probably-dont-need-recaptcha/
 
-### FOSS CAPTCHA
+## FOSS CAPTCHA
 
 * https://www.phpcaptcha.org/try-securimage/
 * https://github.com/subwindow/negative-captcha
@@ -156,6 +156,21 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
 * https://github.com/chenyeric/captcha/blob/master/cryptographp.inc.php
 * https://github.com/inspircd/inspircd-contrib/blob/master/3/m_solvemsg.cpp
+
+### DokuWiki captcha
+
+* https://github.com/splitbrain/dokuwiki-plugin-captcha/blob/master/helper.php
+* https://www.dokuwiki.org/plugin:captcha
+
+### DokuWiki preregister
+
+* https://github.com/turnermm/preregister/blob/master/action.php
+* https://www.dokuwiki.org/plugin:preregister
+
+### DokuWiki extras requiz
+
+* https://github.com/miconda/dokuwiki-extras/blob/master/plugins/requiz/helper.php
+* https://www.dokuwiki.org/plugin:requiz
 
 ### OCR wikicaptcha
 
