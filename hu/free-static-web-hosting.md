@@ -602,7 +602,8 @@ Lásd még:
 * SSL
 * CDN: CloudFlare
 * aldomain: *.netlify.app
-* nincs CORS sem az oldalon, sem RSS-en
+* bekapcsolható a CORS
+* https://answers.netlify.com/t/support-guide-handling-cors-on-netlify/107739
 
 ### gatsbyjs
 
