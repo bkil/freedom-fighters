@@ -72,13 +72,16 @@ Encrypted groups are not ideal for public discourse in general, so further devel
 
 ### DeltaLab
 
-A fork of Delta.Chat with advanced features you can install for Android from here:
+### ArcaneChat
 
+A fork of Delta.Chat with advanced features you can install for Android from the following link. It was formerly called "DeltaLab".
+
+* https://github.com/ArcaneChat/android#arcanechat-android-client
 * https://github.com/deltalab-org/deltalab-android#deltalab-android-client
 
-You can then join so called anonymous "communities" that opens up the possibility to collaborate in separate topics. Get in contact with the following to join the community named "DeltaFans":
+You can then join so called anonymous "communities" built on shared mailboxes that opens up the possibility to collaborate in separate topics. Get in contact with the following to join the community named "DeltaFans":
 
-* https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&n=adb&i=_vLu0fUI53k&s=teNGaPzemPW
+* https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&n=Puerco%20Punk&i=_vLu0fUI53k&s=teNGaPzemPW
 
 You can read more about this feature here:
 
