@@ -223,7 +223,6 @@ Itt egy másik jegyzetünk ami arra koncentrált, hogy hol lehet hónapokig, év
 ## Árösszehasonlító oldalak
 
 * https://www.serverhunter.com/
-* https://en.metadedi.net/
 * https://getfastvps.com/
 * https://www.comparevps.com/
 * http://www.lowendstock.com/
