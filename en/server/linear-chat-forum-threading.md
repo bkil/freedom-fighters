@@ -312,3 +312,4 @@ There may exist unfixed Discourse bugs related to in-reply-to, reply-to, referen
   * http://cvs.prohost.org/index.php FUDforum
 * https://sourceforge.net/projects/m2f/
 * https://amrhein.eu/newsportal
+* https://gitlab.com/technostructures/kazarma/kazarma
