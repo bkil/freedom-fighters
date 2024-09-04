@@ -829,6 +829,8 @@ Lásd még:
 * https://wordpress.com/support/plugins/install-a-plugin/#before-installing-a-plugin
 * aldomain: *.wordpress.com
 * nincs CORS sem az oldalon, sem az RSS-en
+* van gazdag CORS REST API mind lekérésre, mind módosításra
+* https://public-api.wordpress.com/wp/v2/
 
 ### WriteFreely
 
