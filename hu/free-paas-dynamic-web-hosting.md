@@ -427,6 +427,25 @@ File manager:
 * telefonszám megadása kötelező
 * régi nevén: 3Jelly
 
+### leprd.space
+
+* https://leprd.space/
+* tárhely: 1GB, RAID 10 SSD
+* forgalom: 10GB/hó
+* FTP
+* korlátlan email fiók
+* korlátlan MariaDB adatbázis
+* PHP
+* CloudLinux, LiteSpeed, .htaccess
+* cPanel, Softaculous telepítő
+* JetBackup biztonsági mentések
+* TLS
+* subdomain: name.leprd.space name.meowandsparkle.party name.bouvardia.blue name.haliya.net
+* akár 6-11 saját domain névre is
+* saját reklám nem megengedett, kivéve borravaló adományozásra
+* üzemeltető országa: Manila, szerver országa Hollandia
+* felfüggesztésre kerül amennyiben 3 hónapig nem történik látogatási forgalom, ami után figyelmeztetnek és 1 hét után törlik a fiókot
+
 ### Objectis
 
 * http://www.objectis.org/
