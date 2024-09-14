@@ -627,6 +627,8 @@ Lásd még:
 * serverless functions
 * van CORS
 * van TLS
+* van REST API
+* https://vercel.com/docs/rest-api
 
 ### Surge
 
@@ -830,6 +832,7 @@ Lásd még:
 * aldomain: *.wordpress.com
 * nincs CORS sem az oldalon, sem az RSS-en
 * van gazdag CORS REST API mind lekérésre, mind módosításra
+* https://developer.wordpress.org/rest-api/
 * https://public-api.wordpress.com/wp/v2/
 
 ### WriteFreely
@@ -849,6 +852,8 @@ Lásd még:
 * ActivityPub
 * ingyenesben nincs: beágyazás, statikus oldalak, saját domain, témák
 * nincs CORS az oldalra de van az RSS-re
+* van gazdag CORS REST API mind lekérésre, mind módosításra
+* https://developers.write.as/docs/api/
 
 ### angel-town.cinni.net
 
@@ -945,7 +950,7 @@ Lásd még:
 ### ctrl-c.club
 
 * https://ctrl-c.club/
-* gemini://gemini.ctrl-c.club
+* gemini://gemini.ctrl-c.club/
 * gemini, HTML
 * nincs aldomain, csak mappa
 * nincs CORS
@@ -1199,6 +1204,9 @@ Lásd még:
 * egyedi HTML, CSS, JavaScript
 * aldomain: *.tumblr.com
 * nincs CORS sem az oldalon, sem RSS-en
+* gazdag CORS REST API, de csak egyéni kulccsal használható, rate limit
+* https://github.com/tumblr/docs/blob/master/api.md
+* https://help.tumblr.com/developer-resources/
 
 ## Megszűnt
 
