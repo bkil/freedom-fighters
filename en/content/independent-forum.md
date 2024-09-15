@@ -34,6 +34,7 @@ The main difference between forums and chat is that content on forums is usually
 * https://github.com/BetterMeetHQ/Discourse-Subdomains
 * https://github.com/rugpullindex/awesome-discourse-communities
 * https://trends.builtwith.com/websitelist/Discourse
+* https://free.discourse.group/
 
 ### ProBoards.com
 
