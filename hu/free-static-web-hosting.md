@@ -716,6 +716,19 @@ Lásd még:
 * prefix: static.staticsave.com/content/${USER}/${BASENAME}.css
 * van CORS minden fájltípusra
 
+### straw.page
+
+* https://straw.page/
+* max. 2 weboldal, max. 5 lap/weboldal
+* domain: name.straw.page
+* TLS
+* beágyazás: YouTube, SoundCloud, tenor, giphy
+* hangfájlok: mp3, wav
+* képek: png sticker, webp, mozgó gif
+* CDN: Cloudflare
+* fizetős csomagban: egyedi HTML
+* nincs CORS
+
 ### strikingly.com
 
 * https://www.strikingly.com/s/pricing
