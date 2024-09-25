@@ -132,9 +132,9 @@ Gemini:
 * http://metager.de/
 * https://gitlab.metager.de/open-source/MetaGer
 * DE
-* own index: Scopia
-* free metasearch: Yahoo, Yandex
-* paid metasearch: Brave, Mojeek, Bing
+* paid Service
+* own index: Scopia 
+* metasearch: Brave, Mojeek, Bing
 * returns results within an iframe - opening the link directly allows viewing the results without JavaScript
 * https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
 * option to open result hits through their proxy
