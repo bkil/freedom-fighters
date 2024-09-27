@@ -36,9 +36,10 @@ The main difference between forums and chat is that content on forums is usually
 * https://trends.builtwith.com/websitelist/Discourse
 * https://free.discourse.group/
 
-### ProBoards.com
+### EchoJS
 
-* https://www.proboards.com/forum-directory
+* https://www.echojs.com/about
+* https://github.com/echojs/echojs
 
 ### fandom.com discussions
 
@@ -61,6 +62,10 @@ The main difference between forums and chat is that content on forums is usually
 ### nabble.com
 
 * https://www.nabble.com/free-apps/page1.html
+
+### ProBoards.com
+
+* https://www.proboards.com/forum-directory
 
 ### reddit.com
 
