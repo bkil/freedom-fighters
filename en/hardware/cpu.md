@@ -54,3 +54,22 @@ Manufacturing integrated circuits at home (not recommended):
 * https://www.e-basteln.de/computing/lgp21/lgp21/
 
 > LGP-21 had about 460 transistors and about 375 diodes
+
+### Calculators
+
+* https://en.wikipedia.org/wiki/Mechanical_computer
+* https://en.wikipedia.org/wiki/Analog_computer
+
+## From raw materials
+
+### Ridel mechanical Turing machine in wood
+
+* https://hackaday.com/2018/03/08/mechanical-wooden-turing-machine/
+* https://gwern.net/doc/cs/hardware/2017-ridel.pdf
+
+### Jim MacArthur Turing machine
+
+* https://github.com/jmacarthur/millihertz/tree/master/scad/newbuild/
+* https://hackaday.com/2011/03/25/mechanical-turing-machine-can-compute-anything-slowly/
+* https://srimech.blogspot.com/2011/03/turing-machine-and-maker-faire.html
+* https://www.srimech.com/Mechanical%20Turing%20Machine.html
