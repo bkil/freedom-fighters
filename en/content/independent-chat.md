@@ -83,6 +83,22 @@ You can then join so called anonymous "communities" built on shared mailboxes th
 
 * https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&n=Puerco%20Punk&i=_vLu0fUI53k&s=teNGaPzemPW
 
+Further groups:
+
+* https://i.delta.chat/#024C525D627CBF5A292FC428A40BF74BE66DA1BC&a=feedsb%40mailchat.pl&n=FeedsBot&i=6eMHA8T69SF&s=M53-Un3pKPa
+* https://i.delta.chat/#20DE15B4DEF2E3CA1E38603B937E0A82561433B1&a=rmm6qzuux%40nine.testrun.org&n=Alice&i=8vnTnaiEEdX&s=OGEhnhBUS_Y
+* https://i.delta.chat/#2FE05BD53A28A912A4AA74BF7BE6FD5E547473CC&a=txt2image%40nine.testrun.org&n=Text%20To%20Image&i=cbTmzlMa0-C&s=EWZ_FsPcd0R
+* https://i.delta.chat/#4621CA5183772B621E7C700E4451DB9D18629FE8&a=gh0stz0x%40nine.testrun.org&n=Gh0stz0x&i=eOvhSMjgjal&s=_-An94OAR9U
+* https://i.delta.chat/#5E656935FDF285ABED885D9FB6D13B937EB5F030&a=zenito%40zengod.gr&n=Zenito&i=7Tt6_dNRlo1&s=EqoyAkB0l9w
+* https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH
+* https://i.delta.chat/#6FE1642916908F1AC9CC7557CC99CF5DDB92043C&a=groupsbot%40testrun.org&g=Delta%20Chat%20Italia&x=EgfqweCNi8h&i=_r8qVxe7uTv&s=lBk9h2qZSY3
+* https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN
+* https://i.delta.chat/#9DE7DADDC37828D75499BBDC45CA5FACF50E9B18&a=stickersb%40mehl.cloud&n=StickersBot&i=tHkRoHiugej&s=n0x9TjRcUxo
+* https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&g=Offtopic%20Talks&x=_88VYgh4TDq&i=X5p87aF1QLG&s=YbBOlom75DZ
+* https://i.delta.chat/#DA642F9D22532B4E8ABF336A7AE962EE97B48811&a=gr4re7xro%40nine.testrun.org&g=Global%20Offtopic&x=egQvbd4Lcz5&i=5onwhhnFlkg&s=RICT68ZscyR
+* https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&g=Deutschland&x=ckCvKAkfE8Z&i=seH0zv3HJbN&s=qzN1c-JAeG6
+* https://i.delta.chat/#F31530C2A35C98ADF31709F1BDCFC11D0DC69F18&a=adbenitez%40hispanilandia.net&n=adb&i=hwQvaFLUkJa&s=tMPPidN7N9g
+
 You can read more about this feature here:
 
 * https://support.delta.chat/t/deltafans-anonymous-community/3038
