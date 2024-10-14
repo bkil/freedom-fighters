@@ -946,9 +946,11 @@ Lásd még:
 ### yesterweb.org
 
 * https://cities.yesterweb.org/
+* gemini://cities.yesterweb.org/tips.gmi
 * csak gemini
 * van aldomain: *.cities.yesterweb.org
-* nincs CORS
+* nincs CGI, de van guestbook és igényelhető szerver oldali szövegbe ágyazott JavaScript
+* nincs CORS, de van WebDAV és gemini/titan upload
 * van CORS: https://zine.yesterweb.org/
 
 ### cosmic.voyage
