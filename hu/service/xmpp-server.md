@@ -23,6 +23,13 @@
 * https://gist.github.com/andr4s/8af151f9d8be544a18921dd199fdaa6b
 * https://github.com/qbi/xmpp-onion-map
 
+### Tor
+
+* https://github.com/akashdhanwar/DarkWeb/blob/main/xmpp-servers-tor-hidden-service.md
+* https://gist.github.com/dllud/a46d4a555e31dfeff6ad41dcf20729ac
+* https://gist.github.com/samahmaalouf/c65a2b2a3b4e36cb24415212fe7d2e52
+* https://github.com/qbi/xmpp-onion-map
+
 ## Szobakereső
 
 * https://search.jabber.network/
