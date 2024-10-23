@@ -644,6 +644,21 @@ Lásd még:
 * AWS, Azure vagy GCP felhasználásra
 * 512MB tárhely
 
+### Replit
+
+* https://en.wikipedia.org/wiki/Replit
+* https://replit.com/pricing
+* 3 publikus fejlesztési projekt
+* 2GB RAM
+* 2GB tárhely
+* 1200 perc/hó fejlesztési idő
+* Replit saját adatbázis
+* tetszőleges Nixpkg által támogatott nyelv: Python, JavaScript, Node.js, TypeScript, C++, Golang, Java, Ruby, stb.
+* titkos hitelesítési adatok
+* opcionális integráció: GitHub
+* 1 statikus deployment, 10GB/hó kimenő forgalom
+* online IDE fejlesztői környezet számos funkcióval
+
 ### CodeSandbox
 
 * https://codesandbox.io/s/
@@ -1210,6 +1225,17 @@ Lásd még:
 * https://www.livejournal.com/support/faq/38.html
 * https://www.livejournal.com/support/faq/263.html
 * nincs CORS, nincs RSS CORS
+
+### Microsoft Azure Static Web Apps
+
+* https://azure.microsoft.com/en-gb/pricing/details/app-service/static/
+* https://learn.microsoft.com/en-gb/azure/static-web-apps/configuration
+* regisztrációhoz GitHub vagy Microsoft fiók szükséges
+* tárhely: 500MB összesen, 250MB/alkalmazás
+* forgalom: 100GB/hó
+* CI/CD: GitHub Actions vagy Azure DevOps pipelines
+* támogatott: egyedi fejlécek, átirányítás, hibakódok, hálózati szűrés, elvárt kérés fejlécek
+* TLS
 
 ### Tumblr
 
