@@ -128,12 +128,14 @@ FTP hozzáférést és teljes HTML testreszabást nem ad.
 * korlátlan adatforgalom
 * 1 honlap, max. 8 oldal (menüpont)
 * max. 50 kép
-* max. 15 fájl (képen kívül)
-* kiegészítők: kapcsolati űrlap, vendégkönyv
-* 1 widget: óra, eseménynaptár, névnap emlékeztető, szavazás, linkdoboz, szövegdoboz, megosztó gombok
-* hirdetést jelenít meg
-* saját hirdetés nem helyezhető el
-* 1 aldomain: *.nanoweb.hu
+* max. 15 fájl (képen felül): css doc pdf jpg gif png avi wmv flv mp4 mp3 xml xls docx xlsx txt html htm class
+* oldalanként kitölthető metaadatok: címsor, keresőszavak, leírás, Google Search Console, Google Analytics
+* formázás: oszlopok száma, sablonelrendezés, felsorolás, táblázat, színek, YouTube beágyazás, megszorított HTML forráskód szerkesztés
+* kiegészítő modulok (widget): kapcsolati űrlap (email), vendégkönyv (oldalankénti hozzászólás), analóg óra, eseménynaptár, képgaléria, névnap emlékeztető, szavazás, linkdoboz, szövegdoboz, megosztó gombok, időjárás, beúszó ablak, hírek (bejegyzések listája előzetessel)
+* minden menüpontonhoz egyedileg beállítható, hogy melyik modul legyen a bal, jobb és középső sávban: sávonként legfeljebb 1-1
+* alap látogatottsági statisztika: összes látogató havi vagy menüpont szerinti lebontásban
+* hirdetést jelenít meg, saját hirdetés nem helyezhető el
+* 1 aldomain: `*.nanoweb.hu`
 * nincs TLS
 * nincs CORS
 
