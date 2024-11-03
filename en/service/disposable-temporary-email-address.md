@@ -61,4 +61,5 @@
 
 ## References
 
-https://github.com/FGRibreau/mailchecker/blob/master/list.txt
+* https://github.com/FGRibreau/mailchecker/blob/master/list.txt
+* https://github.com/disposable-email-domains/disposable-email-domains/blob/main/disposable_email_blocklist.conf
