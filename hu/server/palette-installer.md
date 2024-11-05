@@ -141,6 +141,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://github.com/adsr/rw.rs
 * https://github.com/tcpipuk/tcpipuk.github.io
 * https://github.com/Linux-Installation/Ubuntu-Installations-Script
+* https://git.tchncs.de/milan/tchncs-scripts
 
 ### Rendszergazdai automatizmusok
 
