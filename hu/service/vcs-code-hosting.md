@@ -67,6 +67,15 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 
 > What can be hosted on salsa? The answer is simple: As long as it is opensource and/or can be included in Debian, it is fine to use salsa. If in doubt, ask.
 
+### FreeDesktop GitLab
+
+* https://www.freedesktop.org/wiki/
+* https://gitlab.freedesktop.org/freedesktop/freedesktop/-/wikis/GitLab-CI
+* https://gitlab.freedesktop.org/users/sign_up
+* GitLab, CI, Pages
+* https://NAMESPACE.pages.freedesktop.org/PROJECT
+* van API CORS, van Pages CORS
+
 ## Új, kis szereplők
 
 ### ChiselApp.com
