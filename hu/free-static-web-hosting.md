@@ -1003,6 +1003,7 @@ Lásd még:
 * https://flounder.online/
 * van gemini és HTML is
 * van aldomain: *.flounder.online
+* webes publikáció
 * van TLS
 * nincs CORS
 
@@ -1021,6 +1022,7 @@ Lásd még:
 * https://gemlog.blue/
 * csak gemini alatt van áttekintés, viszont az egyedi bejegyzések formázás nélküli HTTP+gmi alól is elérhetők
 * nincs aldomain csak mappa
+* webes publikáció
 * csak blog
 * van TLS
 * nincs CORS
@@ -1046,7 +1048,16 @@ Lásd még:
 * https://midnight.pub/
 * van gemini és HTML is
 * nincs aldomain
+* webes publikáció
 * blog és hozzászólások
+* van TLS
+* nincs CORS
+
+### nightfall.city
+
+* https://nightfall.city/citizenship/manual.txt
+* protokoll: gemini, gopher, HTTP, NEX
+* nincs aldomain, csak almappa: https://nightfall.city/shore/USERNAME/
 * van TLS
 * nincs CORS
 
@@ -1126,6 +1137,16 @@ Lásd még:
 * van aldomain: *.tilde.cafe
 * nincs CORS
 
+### tilde.club
+
+* https://tilde.club/wiki/gopher.html
+* protokol: gemini, gopher, HTTP
+* szoftver: gophernicus
+* tárhely: 1GB
+* van TLS
+* nincs aldomain, csak almappa
+* nincs CORS, nincs RSS CORS
+
 ### tilde.pink
 
 * https://tilde.pink/
@@ -1154,6 +1175,14 @@ Lásd még:
 * nincs aldomain, csak almappa
 * https://tilde.town/~username/
 * nincs CORS, nincs RSS CORS
+
+### unbon.cafe
+
+* https://unbon.cafe/gemini.html
+* nyelv: francia
+* protokoll: gemini
+* OpenBSD
+* email: Postfix, Dovecot, Rspamd, 2GB tárhely
 
 ### vern.cc
 
