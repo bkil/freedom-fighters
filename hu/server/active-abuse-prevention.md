@@ -310,6 +310,7 @@ kritika:
 ## Kijátszás
 
 * https://en.wikipedia.org/wiki/CAPTCHA#Circumvention
+* https://github.com/ZiYang-xie/PyCAPTCHA
 * Gépi felismerés
   * https://capmonster.cloud/
 * A legolcsóbb és legcélravezetőbb rövid- és középtávra ha simán felbérelünk embereket
