@@ -534,6 +534,28 @@ Lásd még:
 * 512MB RAM
 * alszik
 
+### pages.casa
+
+* https://pages.casa/register-on-pagescasa.html/
+* tárhely: 1GB, legfeljebb 5000 fájl
+* protokoll: HTTPS
+* aldomain: USERNAME.pages.casa
+* akár saját domain
+* feltöltés: SFTP, FTP over TLS
+* TLS: van, kényszerített
+* nincs CORS
+
+Szoftver:
+* lighttpd with simple vhost module (no CGI, no PHP, no nodejs, no database)
+* Operating system: Debian 12
+
+Hardver:
+* dedicated server in OVH datacenter in North of France
+* Processor: Intel ATOM N2800 - 2c/4t - 1.86 GHz
+* RAM: 4GB 1066 MHz
+* Disk: 2×2 TB HDD SATA in soft RAID 1
+* Internet bandwidth: 100 Mb/s
+
 ### Ubuntu membership
 
 * https://wiki.ubuntu.com/Membership#The_Perks
@@ -1061,6 +1083,30 @@ Lásd még:
 * van TLS
 * nincs CORS
 
+### pollux.casa
+
+* https://pollux.casa/
+* tárhely: 1GB
+* protokoll: gemini, HTTP, HTTPS
+* aldomain: USERNAME.pollux.casa
+* feltöltés: SFTP, FTP over TLS
+* van TLS
+* nincs CORS
+
+Szoftver:
+* https://github.com/calacuda/gemserv
+* https://codeberg.org/adele/ergol-http
+* https://codeberg.org/pollux.casa/cockpit
+* Lighttpd
+* OS: Archlinux
+
+Hardver:
+* Intel NUC
+* Processor Celeron N2830 @2.16GHz, 64bits
+* 4 GB RAM
+* 1 TB HDD, SATA, 5400rpm
+* ADSL connection 6Mb/s egress and 23Mb/s ingress
+
 ### pub.phreedom.club
 
 * https://pub.phreedom.club/
@@ -1101,7 +1147,7 @@ Lásd még:
 ### SDF
 
 * https://sdf.org/?faq?GOPHER?02
-* gopher (csak mappa), HTML (van aldomain: *.sdf.org)
+* protokoll: gemini, gopher (csak mappa), HTTP (van aldomain: *.sdf.org)
 * van TLS
 * nincs CORS, nincs RSS CORS
 
@@ -1335,4 +1381,3 @@ Lásd még:
 ### Egyéb megszűnt
 
 * EzyWebs
-* https://pollux.casa/
