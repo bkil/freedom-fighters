@@ -95,6 +95,12 @@ Lásd még:
 * https://dir.friendica.social/ akik publikussá tették a profiljukat
 * https://forum.friendi.ca/directory Friendica támogatói csoportok
 
+### Relék
+
+* https://relaylist.com/
+* https://api.relaylist.com/relays
+* https://github.com/mlapida/relaylist-api
+
 ## Pingback
 
 Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
