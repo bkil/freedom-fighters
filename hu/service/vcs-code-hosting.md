@@ -18,6 +18,12 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * CI/CD, statikus webkiszolgálás
 * cenzúrázva: Kuba
 
+### gitee.com
+
+* https://en.wikipedia.org/wiki/Gitee
+* https://gitee.com/help/articles/4136
+* van Pages
+
 ### Savannah
 
 * https://savannah.gnu.org/
@@ -53,6 +59,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * forrás: https://allura.apache.org/
 * REST API funkciók: hibajegyek, üzenetek, wiki oldal és blogbejegyzés
   * https://forge-allura.apache.org/docs/getting_started/administration.html#public-api-documentation
+* van Pages
 * cenzúrázva: Kuba
 * van API CORS
 
