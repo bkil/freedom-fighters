@@ -44,6 +44,7 @@
 * https://github.com/modoboa/modoboa
 * https://github.com/deltachat/chatmail
 * https://github.com/HaschekSolutions/opentrashmail
+* https://github.com/mjl-/mox
 * Lásd még: [palette-installer.md](palette-installer.md)
 
 ### Telepítési útmutatók
