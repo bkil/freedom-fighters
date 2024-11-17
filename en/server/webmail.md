@@ -2,6 +2,10 @@
 
 ## FOSS backend and frontend
 
+### migadu Alps
+
+* https://git.sr.ht/~migadu/alps
+
 ### Afterlogic WebMail Lite
 
 * https://github.com/afterlogic/webmail-lite-8
