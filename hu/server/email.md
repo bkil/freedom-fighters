@@ -8,8 +8,39 @@
 
 ## Szerverek
 
-* postfix+dovecot
 * https://en.wikipedia.org/wiki/Message_transfer_agent
+
+### Postfix
+
+* https://en.wikipedia.org/wiki/Postfix_(software)
+* SMTP
+* IBM Public License
+
+### Dovecot
+
+* https://en.wikipedia.org/wiki/Dovecot_(software)
+* https://dovecot.org/
+* IMAP
+
+### Apache James
+
+* http://james.apache.org/
+* SMTP, LMTP, POP3, IMAP, ManageSieve, JMAP, Mailbox API, Search API, User API
+* Java, Scala
+* Apache 2.0
+
+### Cyrus
+
+* https://www.cyrusimap.org/
+* IMAP, JMAP
+* C
+* BSD-4-Clause
+
+### Group-Office
+
+* https://github.com/Intermesh/groupoffice
+* PHP
+* Server API, Webclient API, JMAP API
 
 ### Haraka
 
@@ -21,8 +52,8 @@
 
 ### Stalwart
 
-* https://github.com/stalwartlabs/jmap-server
-* JMAP
+* https://github.com/stalwartlabs/mail-server
+* JMAP, IMAP4, POP3, SMTP
 * Rust
 * Docker
 
@@ -39,6 +70,7 @@
 * https://mailcow.email/
 * https://mailinabox.email/
 * https://mailu.io/
+* https://github.com/Mailu/Mailu
 * https://github.com/LukeSmithxyz/emailwiz
 * https://github.com/jeekkd/iRedMail-scripts
 * https://github.com/modoboa/modoboa
