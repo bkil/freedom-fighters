@@ -188,6 +188,7 @@ Stílusok:
 * https://en.wikipedia.org/wiki/Opera_Mini
   * https://www.ghacks.net/2011/04/14/opera-turbo-overview-discovering-opera-part-1/
 * https://en.wikipedia.org/wiki/UC_Browser
+* https://en.wikipedia.org/wiki/Google_Web_Light
 * https://www.ghacks.net/2019/04/24/google-deprecates-chrome-data-saver-extension-for-the-desktop/
   * https://blog.browsernative.com/data-compression-feature-of-chrome-mobile-175/
 * https://www.groovypost.com/howto/amazon-kindle-fire-silk-browser-disable-cloud-page-accelerator/
