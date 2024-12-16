@@ -33,3 +33,14 @@
 
 * https://morty.searx.work/?mortyurl=https://en.m.wikipedia.org/wiki/Main_Page
 * https://www.startpage.com/en/anonymous-view/
+
+## RSS
+
+* https://rss2json.com/docs
+
+## Web search
+
+* https://hasdata.com/prices
+* https://scrapingrobot.com/pricing/
+* https://serper.dev/
+* https://serply.io/pricing
