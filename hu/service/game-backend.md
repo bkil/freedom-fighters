@@ -16,22 +16,24 @@ Kifejleszthető egy játék úgy is, hogy nagyrészt P2P módon végezze a szám
 - Tűzfal mögötti játékosok összekötése játéktér szinkronizáció vagy esetleg üzenetküldés okán
 - Játékszabály ellenőrzés
 
-## Egyedi szerverként
+### Egyedi szerverként
 
-- (Ingyenes) virtuális felhőszerveren
-  - https://gitlab.com/bkil/hardware/-/blob/master/doc/hu/free-cloud.md
-  - [../cheap-server-hosting.md](../cheap-server-hosting.md)
-  - Sok rendszergazdai tudással és többletfeladattal jár
-- Ingyenes PaaS webszolgáltatás
-  - [../free-paas-dynamic-web-hosting.md](../free-paas-dynamic-web-hosting.md)
-  - Egy ilyen versenyen lehetőleg a játékra szeretnének koncentrálni, és ha lehet, nem a körítésre amennyiben nulláról kellene a backendet is implementálni.
+(Ingyenes) virtuális felhőszerveren:
 
-## Bővítményként
+* https://gitlab.com/bkil/hardware/-/blob/master/doc/hu/free-cloud.md
+* [../cheap-server-hosting.md](../cheap-server-hosting.md)
+* Sok rendszergazdai tudással és többletfeladattal jár
 
-Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sakkfórumon sakkozni, egy pókercsoportban pókerezni?
-Érdemes a világszinten legelterjedtebb keretrendszereket megvizsgálni.
+Ingyenes PaaS webszolgáltatás:
 
-### Föderált rendszerek bővítményeként
+* [../free-paas-dynamic-web-hosting.md](../free-paas-dynamic-web-hosting.md)
+* Egy ilyen versenyen lehetőleg a játékra szeretnének koncentrálni, és ha lehet, nem a körítésre amennyiben nulláról kellene a backendet is implementálni.
+
+Bővítményként:
+
+* Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sakkfórumon sakkozni, egy pókercsoportban pókerezni? Érdemes a világszinten legelterjedtebb keretrendszereket megvizsgálni.
+
+## Föderált rendszerek bővítményeként
 
 - https://github.com/friendica/friendica-addons PHP
 - https://framagit.org/hubzilla/addons PHP
@@ -44,7 +46,7 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
   - https://nextcloud.com/blog/category/federation/
   - https://nextcloud.com/federation/
 
-### PHP bővítményként
+## PHP bővítményként
 
 - https://extensions.joomla.org/
   - https://github.com/joomla/rfc/pull/13
@@ -67,35 +69,44 @@ Néha életszerűtlennek hat, de máskor kézenfekvő: miért ne lehetne egy sak
 - https://marketplace.concretecms.com/marketplace/addons
 - https://www.opencart.com/index.php?route=marketplace/extension&filter_license=0
 
-### Python bővítményként
+## Python bővítményként
 
 - https://wagtail.io/packages/
 - https://marketplace.django-cms.org/en/addons/browse/
 - https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone
   - https://www.plone.org/download/add-ons
 
-### Perl bővítményként
+## Perl bővítményként
 
 - https://plugins.movabletype.org/featured/plugins/
 
-### JavaScript bővítményként
+## JavaScript bővítményként
 
 - https://community.nodebb.org/category/7/nodebb-plugins
 - https://ghost.org/integrations/
 
-### Java bővítményként
+## Java bővítményként
 
 - https://marketplace.magnolia-cms.com/all-extensions.html
 - https://hub.alfresco.com/t5/alfresco-content-services-add/bd-p/add-ons
   - https://docs.alfresco.com/content-services/6.2/develop/repo-ext-points/
 
-### Ruby bővítményként
+## Ruby bővítményként
 
 - https://github.com/publify/publify/wiki/In-Page-Plugins
 - https://guides.alchemy-cms.com/about.html#the-core-modules
 - https://www.redmine.org/plugins?page=1
 
-### Frontend widget
+### Discourse bővítményként
+
+* https://github.com/discourse/discourse/blob/main/docs/PLUGINS.md
+* https://github.com/discourse/discourse/blob/main/lib/plugin/metadata.rb
+* https://github.com/discourse/discourse/tree/main/plugins
+* https://www.discourse.org/plugins
+* https://meta.discourse.org/c/plugin/22
+* https://github.com/topics/discourse-plugin
+
+## Frontend widget
 
 - https://www.mediawiki.org/wiki/Extension:Gadgets
 - https://git.sr.ht/~spiral/misskey/tree/main/item/src/docs/en-US/create-plugin.md
