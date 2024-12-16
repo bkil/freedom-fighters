@@ -97,6 +97,7 @@ Further groups:
 * https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&g=Offtopic%20Talks&x=_88VYgh4TDq&i=X5p87aF1QLG&s=YbBOlom75DZ
 * https://i.delta.chat/#DA642F9D22532B4E8ABF336A7AE962EE97B48811&a=gr4re7xro%40nine.testrun.org&g=Global%20Offtopic&x=egQvbd4Lcz5&i=5onwhhnFlkg&s=RICT68ZscyR
 * https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&g=Deutschland&x=ckCvKAkfE8Z&i=seH0zv3HJbN&s=qzN1c-JAeG6
+* https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&n=adb&i=_vLu0fUI53k&s=teNGaPzemPW
 * https://i.delta.chat/#F31530C2A35C98ADF31709F1BDCFC11D0DC69F18&a=adbenitez%40hispanilandia.net&n=adb&i=hwQvaFLUkJa&s=tMPPidN7N9g
 
 You can read more about this feature here:
