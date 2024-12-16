@@ -748,7 +748,10 @@ Separating these two links allows for the user or moderator to either reply to a
 * If a feed fails to be fetched, propagating clients may sign its entry with mentioning the date of the first failing fetch after the most successful fetch and the number of unique days of failure. This should provide testimony for deleting the feed from the index more rapidly.
 * Propagating clients may prune the index to honor their storage quota. They may use heuristics of maximizing reach or utility within the network.
 
-https://github.com/hyphanet/wiki/wiki/Library#user-content-distributed-searching
+Related:
+
+* https://github.com/hyphanet/wiki/wiki/Library#user-content-distributed-searching
+* https://github.com/mastodon/fediverse_auxiliary_service_provider_specifications
 
 ### Feed discovery
 
