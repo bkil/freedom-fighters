@@ -21,6 +21,11 @@
 * https://www.vpnbook.com/webproxy
 * http://www.kproxy.com/
 
+## Needs client
+
+* https://github.com/shadowmere-xyz/shadowmere
+* https://old.shadowmere.akiel.dev/
+
 ## Lists
 
 * https://free-proxy-list.net/
