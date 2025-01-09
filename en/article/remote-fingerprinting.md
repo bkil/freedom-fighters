@@ -135,6 +135,7 @@ Assuming that the user agent is a web browser. Includes device fingerprinting, u
 
 * HTTP client side cache status of various locally generated assets or global CDN referenced ones
 * client side handling of various HTTP caching headers
+* https://blog.mozilla.org/security/2021/01/26/supercookie-protections/
 
 ### Browser CPU speed estimate
 
@@ -144,6 +145,14 @@ Assuming that the user agent is a web browser. Includes device fingerprinting, u
 * predict implemented decompression algorithm
 * predict parser kind for HTTP/HTML/CSS/Javascript/images/fonts, inline vs. file content
 * estimate CPU speed and cache amount
+
+### HTML-only
+
+* Determine which resources get downloaded: application manifest, size and image format for favicon and an image set
+* How meta viewport is handled
+* Which proprietary meta and markup is interpreted
+* Determine which subsets of resources are hidden by a web browser extension (e.g., reading mode) or a browser setting
+* Effect of color-scheme determined manually
 
 ### CSS-only
 
@@ -211,7 +220,7 @@ The `history.length` property can still be read:
 ### Scroll Restoration
 
 The app layout could allow showing the same content even for small perturbations of the scroll position.
-We could introduce a small perturbation into the scroll position for new visitors and possibly use than for limited tracking.
+We could introduce a small perturbation into the scroll position for new visitors and possibly use that for limited tracking.
 
 * https://developer.mozilla.org/en-US/docs/Web/API/History/scrollRestoration
 
@@ -233,6 +242,8 @@ There are various technicalities for embedding.
 ### Favicon cache
 
 https://arstechnica.com/information-technology/2021/02/new-browser-tracking-hack-works-even-when-you-flush-caches-or-go-incognito/
+
+Can work without JavaScript my meta refresh redirects.
 
 ### Content Security Policy reports
 
