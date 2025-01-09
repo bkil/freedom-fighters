@@ -91,6 +91,7 @@ Further groups:
 * https://i.delta.chat/#4621CA5183772B621E7C700E4451DB9D18629FE8&a=gh0stz0x%40nine.testrun.org&n=Gh0stz0x&i=eOvhSMjgjal&s=_-An94OAR9U
 * https://i.delta.chat/#5E656935FDF285ABED885D9FB6D13B937EB5F030&a=zenito%40zengod.gr&n=Zenito&i=7Tt6_dNRlo1&s=EqoyAkB0l9w
 * https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH
+* https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=Linux%20Users&x=vVB1d8njR6Q-4eV_jiYuVSG1&i=JIR9tnQXKnl&s=uvTG14iYQmD
 * https://i.delta.chat/#6FE1642916908F1AC9CC7557CC99CF5DDB92043C&a=groupsbot%40testrun.org&g=Delta%20Chat%20Italia&x=EgfqweCNi8h&i=_r8qVxe7uTv&s=lBk9h2qZSY3
 * https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN
 * https://i.delta.chat/#9DE7DADDC37828D75499BBDC45CA5FACF50E9B18&a=stickersb%40mehl.cloud&n=StickersBot&i=tHkRoHiugej&s=n0x9TjRcUxo
