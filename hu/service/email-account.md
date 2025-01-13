@@ -110,6 +110,12 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 * https://tutanota.com/ Németország, csak webmail ingyenes, 1GB tárhely
 * https://disroot.org/en/services/email Hollandia, nem alanyi jogon jár, regisztrációhoz átmenetileg szükséges egy elsődleges email fiók megadása
 
+### mailfence.com
+
+* https://mailfence.com/
+* 500MB tárhely leveleknek, 500MB tárhely dokumentumoknak
+* csak webalkalmazás és Android, iOS mobil, nincs IMAP, nincs TLS
+
 ### Protonmail
 
 * https://proton.me/pricing
