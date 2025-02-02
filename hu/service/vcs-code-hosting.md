@@ -85,6 +85,11 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 
 ## Új, kis szereplők
 
+### 0xacab.org
+
+* https://about.0xacab.org/
+* GitLab
+
 ### ChiselApp.com
 
 * https://chiselapp.com/
@@ -146,6 +151,10 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * https://github.com/gogs/docs-api
   * nincs API CORS
 * cenzúrázatlan: Kuba
+
+### Phorge.it
+
+* https://we.phorge.it/
 
 ### GitGud
 
