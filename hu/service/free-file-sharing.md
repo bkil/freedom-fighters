@@ -5,6 +5,7 @@
 * https://data.hu/
 * http://toldacuccot.hu/
 * https://keptarhely.eu/
+* https://mammutmail.com/
 
 ## Külföldi
 
