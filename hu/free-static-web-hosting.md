@@ -181,6 +181,29 @@ A rugalmasabbak számtalan HTML címkét támogatnak, CSS-t, esetleg korlátozot
 * van TLS
 * nincs CORS sem az oldalon, sem RSS-en
 
+### blogolok.hu
+
+* https://blogolok.hu/blog-keszites-ingyen
+* https://info.blogolok.hu/hogyan-hozz-letre-bejegyzest-6511
+* regisztrációhoz Google reCAPTCHA
+* betűformázás
+* nincs kép vagy videó feltöltés, csak külső hivatkozás és iframe alapján beágyazás
+* legfeljebb 3 címke bejegyzésenként
+* bejegyzésenként engedélyezhető a további blogolok.hu felhasználóktól jött hozzászólás
+* nincs CORS, nincs RSS CORS
+
+### bloglap.hu
+
+* https://bloglap.hu/blog_regisztracio.php
+* https://bloglap.bloglap.hu/oldalak/gyakran-feltett-kerdesek-gyik-22/
+* domain: xxx.bloglap.hu xxx.csapata.hu xxx.fanoldal.hu
+* nagyjából honlapépítő elrendezése van: legfeljebb 10 oldal, oldalanként 100 lap, korlátlan cikk (blogbejegyzés)
+* vannak hozzászólások
+* feltölthető kép
+* egy feltöltött nem kép fájl legfeljebb 20MB lehet
+* elhelyezhető saját JavaScript és CSS
+* nincs CORS, nincs RSS CORS
+
 ### G-Portal.hu
 
 * https://g-portal.hu/gindex.php?pg=15&qid=5790206
@@ -1381,3 +1404,7 @@ Hardver:
 ### Egyéb megszűnt
 
 * EzyWebs
+
+# References
+
+* https://github.com/citizenlab/test-lists/blob/master/lists/hu.csv
