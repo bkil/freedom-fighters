@@ -126,6 +126,28 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://sdf.org/
 * további domain: freeshell.org
 
+## root
+
+virtuális gépen
+
+### distrosea.com
+
+* https://distrosea.com/
+
+### linuxzoo.net
+
+* https://linuxzoo.net/page/howtouse.html
+* root, virtuális gép
+* telnet, ssh, JavaScript VNC
+* a virtuális gép bekapcsolása előtt sorba kell állni
+* 512MB RAM
+* 200MHz CPU
+* gyakorló feladatsorokat is adnak aminek teljesítését ellenőrizni is tudják
+
+### onworks.net
+
+* https://www.onworks.net/os-distributions/ubuntu-based/free-ubuntu-online-gnome
+
 ## Személyes adatokat kezel
 
 ### Nyx
