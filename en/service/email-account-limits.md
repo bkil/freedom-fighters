@@ -78,6 +78,12 @@ These limits come from an error message received in 2024 relating to a free pers
 
 ## Donation-based
 
+### autistici.org
+
+* max. 100 recipient/day
+* max. 10 messages/hour
+* https://www.autistici.org/docs/faq/faq_mail
+
 ## Paid
 
 ### Apple iCloud
