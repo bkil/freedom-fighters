@@ -186,7 +186,7 @@ nntp://endofthelinebbs.com
 * No SSL
 * No Posting
 
-## Long term Usenet trial
+## Long-term Usenet trial
 
 ### easynews.com
 
