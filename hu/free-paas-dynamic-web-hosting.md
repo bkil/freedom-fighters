@@ -146,6 +146,15 @@ File manager:
 * adattábla: 100MB hely, max. 50000 sor
 * 30 másodperc háttérfolyamat időtúllépés
 
+### blueworldhosting
+
+* https://blueworldhosting.com/
+* PHP 7.x, 8.x
+* nginx, Apache, HAProxy
+* MySQL, MariaDB, PostgreSQL
+* SMTP, IMAP4, POP3
+* FreeBSD 13.1
+
 ### Koyeb.com
 
 * https://www.koyeb.com/pricing
