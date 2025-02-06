@@ -71,7 +71,6 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 
 ### Fotózás
 
-* https://lists.c3.hu/pipermail/artinfo/
 * http://fotosokvilaga.hu/
 * https://fotovilag.hu/forum
 * https://fotozz.hu/
@@ -285,6 +284,12 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * Facebook
 * Google Groups
 * Telegram
+
+## Megszűnt
+
+### Fotózás
+
+* `lists.c3.hu/pipermail/artinfo/`
 
 ## Külső hivatkozások
 
