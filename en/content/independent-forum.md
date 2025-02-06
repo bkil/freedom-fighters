@@ -5,7 +5,6 @@
 The main difference between forums and chat is that content on forums is usually readable publicly without registration and readily indexed by web search engines. See also:
 
 * [./independent-chat.md](./independent-chat.md)
-* [../service/nntp-usenet-news.md](../service/nntp-usenet-news.md)
 
 ## Centralized
 
@@ -71,7 +70,7 @@ The main difference between forums and chat is that content on forums is usually
 ### reddit.com
 
 * https://www.reddit.com/
-* Filling of Google reCAPTCHA may be required before submitting posts
+* Filling of Google reCAPTCHA may be required before actions such as submitting posts
 * browsing is DDoS protected by Cloudflare & hCAPTCHA
 * API after payment
 
@@ -80,9 +79,14 @@ The main difference between forums and chat is that content on forums is usually
 * https://stackoverflow.com/
 * Submitted content is licensed under CC-BY-SA-4.0
 * https://meta.stackexchange.com/questions/344491/an-update-on-creative-commons-licensing
-* reading DDoS protected by Cloudflare & hCAPTCHA
+* browsing DDoS protected by Cloudflare & hCAPTCHA
 * The whole set can be downloaded in bulk
 * https://archive.org/details/stackexchange
+
+### tilde.news
+
+* https://tilde.news/
+* software: lobste.rs
 
 ### news.ycombinator.com
 
@@ -104,15 +108,21 @@ The main difference between forums and chat is that content on forums is usually
 * https://fedidb.org/software
 * https://mastodon.help/instances/
 * https://instances.social/list
-* https://friendica.fediverse.observer/ (formerly: podupti.me)
+* https://friendica.fediverse.observer/ (formerly: `podupti.me`)
+
+### NNTP
+
+See:
+
+* [../service/nntp-usenet-news.md](../service/nntp-usenet-news.md)
 
 ## Defunct
 
-* https://breadpunk.club/~pandecoco/breadbook/
+* `breadpunk.club/~pandecoco/breadbook/`
 
 ### breadboard
 
-* https://breadpunk.club/~pandecoco/breadboard/index.php
+* `breadpunk.club/~pandecoco/breadboard/index.php`
 * https://github.com/sandlind/smolbbs
 * anonymous
 * BBS without registration
