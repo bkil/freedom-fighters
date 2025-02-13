@@ -1006,6 +1006,7 @@ Százával akadnak még külföldi alternatívák:
 * https://www.thefreecountry.com/webhosting/freewebhosts.shtml
 * https://www.thefreesite.com/Free_Web_Space/
 * https://github.com/publicsuffix/list
+* https://github.com/nextdns/public-suffixes-extras/blob/main/domains
 * https://github.com/ripienaar/free-for-dev
 
 ### Elévült
