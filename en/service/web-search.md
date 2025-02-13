@@ -623,3 +623,5 @@ Crawler roots:
 * https://searchengine.party/
 * https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines
 * https://wutsearch.com/
+* https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nosafesearch.txt
+* https://github.com/nextdns/no-safesearch/blob/main/domains
