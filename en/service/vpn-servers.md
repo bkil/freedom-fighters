@@ -53,3 +53,7 @@
 * https://atlasvpn.com/servers
 * https://www.avira.com/en/free-vpn
 * https://hola.org/
+
+## References
+
+* https://github.com/nextdns/dns-bypass-methods/blob/main/vpn
