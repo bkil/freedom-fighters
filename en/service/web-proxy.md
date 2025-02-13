@@ -49,3 +49,7 @@
 * https://scrapingrobot.com/pricing/
 * https://serper.dev/
 * https://serply.io/pricing
+
+## References
+
+* https://github.com/nextdns/dns-bypass-methods/blob/main/proxies
