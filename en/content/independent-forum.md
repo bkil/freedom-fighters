@@ -102,7 +102,8 @@ The main difference between forums and chat is that content on forums is usually
 * https://nodes.fediverse.party/
 * https://github.com/Minoru/minoru-fediverse-crawler
 * http://demo.fedilist.com/
-* https://dir.friendica.social/servers
+* https://dir.friendica.social/group
+* https://dir.friendica.social/organization
 * https://instances.joinpeertube.org/instances PeerTube
 * https://www.fediverse.to/
 * https://fedidb.org/software
