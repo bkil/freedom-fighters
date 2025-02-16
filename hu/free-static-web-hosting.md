@@ -486,6 +486,14 @@ Lásd még:
 
 * [service/free-shell-account.md](service/free-shell-account.md)
 
+### nekoweb.org
+
+* https://nekoweb.org/faq
+* max. 1kB elements.css
+* gazdag API
+* https://nekoweb.org/api
+* ingyenes csomagban csak online szerkesztő (fizetősben FTP és git)
+
 ### FreeHosting.io
 
 * https://www.freehosting.io/hosting
