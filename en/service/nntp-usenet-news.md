@@ -114,8 +114,6 @@
 
 ## Read-only Usenet
 
-nntp://endofthelinebbs.com
-
 ### club.cc.cmu.edu
 
 * nntp://news.club.cc.cmu.edu
@@ -128,6 +126,12 @@ nntp://endofthelinebbs.com
 
 * http://diesel.cu.mi.it/
 * nntp://diesel.cu.mi.it
+* NNTP
+
+### endofthelinebbs.com
+
+* https://endofthelinebbs.com/
+* nntp://endofthelinebbs.com
 * NNTP
 
 ### mixmin.net
