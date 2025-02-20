@@ -23,10 +23,12 @@ Gopher:
 
 Gemini:
 
+* gemini://auragem.ddns.net/search/s?gemini
 * gemini://auragem.letz.dev/search/s?gemini
 * gemini://gemplex.space/search?gemini
 * gemini://kennedy.gemi.dev/search?gemini
 * gemini://tlgs.one/
+* gemini://auragemhkzsr5rowsaxauti6yhinsaa43wjtcqxhh7fw5tijdoqbreyd.onion/
 
 ## Independent with index
 
