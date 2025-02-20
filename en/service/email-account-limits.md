@@ -6,7 +6,7 @@ Sending limits where not otherwise specified over SMTP or the API suitable to be
 
 ### Gmail.com before Workspace
 
-These limits do not seem to apply any more as of 2024
+These limits do not seem to apply anymore as of 2024
 
 * max. 500 recipient/body
 * max. 500 recipient/interval
