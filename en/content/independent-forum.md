@@ -88,6 +88,13 @@ The main difference between forums and chat is that content on forums is usually
 * https://tilde.news/
 * software: lobste.rs
 
+### tildes.net
+
+* https://tildes.net/
+* https://gitlab.com/tildes/tildes
+* https://docs.tildes.net/
+* https://blog.tildes.net/announcing-tildes
+
 ### news.ycombinator.com
 
 * https://news.ycombinator.com/
