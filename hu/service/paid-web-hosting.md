@@ -440,3 +440,7 @@ Lásd még:
 * 5 postafiók, 10 alias: webmail, IMAP, POP3, SMTP
 * napi és havi biztonsági mentés
 * cron
+
+## Kritika
+
+* https://researchasahobby.com/full-list-eig-hosting-companies-brands/
