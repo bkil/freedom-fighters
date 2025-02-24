@@ -96,8 +96,8 @@ These limits come from an error message received in 2024 relating to a free pers
 
 ### Fastmail
 
-* max. recipient 4000/24h, 2000/h, 1000/10m
-* max. received: 60/min, 4000/24h, <50% per peer
+* max. sent (recipient): 4000/24h, 2000/h, 1000/10m, smaller hidden limit of unique recipients
+* max. received: 100/min, 4000/24h, <50% per peer
 * interval: 24h
 * https://www.fastmail.help/hc/en-us/articles/1500000277382-Account-limits
 
