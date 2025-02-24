@@ -489,7 +489,8 @@ Lásd még:
 ### nekoweb.org
 
 * https://nekoweb.org/faq
-* max. 1kB elements.css
+* 500MB tárhely
+* max. 1kB elements.css, egyéb HTML és CSS szabadon
 * gazdag API
 * https://nekoweb.org/api
 * ingyenes csomagban csak online szerkesztő (fizetősben FTP és git)
@@ -501,6 +502,13 @@ Lásd még:
 * korlátlan forgalom
 * ingyen aldomain: *.freesite.vip
 * iFastNet partner
+
+### glitch.me
+
+* https://glitch.com/
+* csak webes feltöltés
+* tetszőleges HTML, CSS
+* aldomain: *.glitch.me
 
 ### Gnome membership
 
@@ -549,6 +557,7 @@ Lásd még:
   * https://github.com/neocities
   * https://en.wikipedia.org/wiki/Neocities
 * 1GB tárhely
+* 200GB/hó forgalom
 * webes honlapszerkesztő, RSS, webes feltöltés, API, parancssoros elérés
 * tags (webring)
 * TLS, egyedi subdomain
@@ -733,14 +742,6 @@ Hardver:
 * van TLS
 * nincs CORS
 
-### TiddlyHost
-
-* https://tiddlyhost.com/
-* támogatott: TiddlyWiki, Feather.wiki
-* aldomain: *.tiddlyhost.com
-* van TLS
-* van API CORS amivel lekérhető a JSON!
-
 ### jimdo
 
 * https://www.jimdo.com/website/how-to-create/
@@ -754,6 +755,36 @@ Hardver:
   * https://funnycat.jimdo.com/en/jimdotutorials-1/change-the-css-of-a-template/
 * van TLS
 * nincs CORS sem az oldalon, sem RSS-en
+
+### hot.page
+
+* https://hot.page/pricing
+* https://hot.page/about
+* https://docs.hot.page/
+* aldomain: *.hot.page
+* max. 5 oldal
+* egyéñi HTML
+* 1 CSS
+* 100MB tárhely
+* 1GB/hó sávszélesség
+
+### hotglue.me
+
+* https://hotglue.me/manual
+* aldomain: *.hotglue.me
+* videó és hang feltölthető
+* beágyazható: YouTube, Vimeo, SoundCloud, iframe
+* gazdag vizuális szerkesztő formázás
+* egyedi HTML
+
+### mmm.page
+
+* https://mmm.page/
+* max. 5 oldal, 40 blokk oldalanként
+* max. 5MB kép
+* nincs egyéni HTML
+* aldomain: *.mmm.page
+* Cloudflare
 
 ### Mozello.com
 
@@ -774,6 +805,16 @@ Hardver:
 * 250MB tárhely
 * 250MB/hó forgalom
 * aldomain
+
+### SlashPage.com
+
+* https://slashpage.com/
+* https://help.slashpage.com/?tl=en
+* blog
+* hozzászólások
+* feliratkozás
+* csevegő, szálak
+* űrlapkitöltés
 
 ### StaticSave
 
@@ -811,6 +852,14 @@ Hardver:
 * 1 webshop: 1 termék
 * van TLS
 * nincs CORS
+
+### TiddlyHost
+
+* https://tiddlyhost.com/
+* támogatott: TiddlyWiki, Feather.wiki
+* aldomain: *.tiddlyhost.com
+* van TLS
+* van API CORS amivel lekérhető a JSON!
 
 ### tilda.cc
 
@@ -877,7 +926,29 @@ Hardver:
 * egyedi HTML, CSS
 * nincs CORS
 
+### xmit.co
+
+* https://xmit.co/
+* API, CLI
+* aldomain: *.xmit.co *.madethis.site
+
+### yay.boo
+
+* https://yay.boo/
+* https://yay.boo/faq
+* nincs szerkesztő, kizárólag böngészőből tallózva tölthetők fel fájlok
+* támogatott fájltípusok: HTML, CSS, képek, (beágyazva JavaScript is működik)
+* JavaScript-alapú vízjel díjmentes fiókon
+* max. 10MB/fájl (vagy 10MB teljes tárhely?)
+* aldomain: *.yay.boo
+
 ## Külföldi blog
+
+### fc2.com
+
+* https://blog.fc2.com/en/
+* `web.fc2.com/en/`
+* elvileg sajtát 1GB weboldal tárhelyet is nyújtanak, de jelenleg nem elérhető
 
 ### Wix.com
 
@@ -950,6 +1021,9 @@ Hardver:
 * https://bearblog.dev/
 * van aldomain: *.bearblog.dev
 * van TLS
+* markdown szövegtörzs szerkesztő, nincs HTML
+* egyedi CSS szerkeszthető
+* nincs fájlfelöltés
 * nincs CORS sem az oldalon, sem RSS-en
 
 ### Dreamwidth
@@ -1416,3 +1490,4 @@ Hardver:
 # References
 
 * https://github.com/citizenlab/test-lists/blob/master/lists/hu.csv
+* https://web.pixelshannon.com/freehosts/
