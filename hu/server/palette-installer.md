@@ -97,6 +97,12 @@ Lásd még:
 * https://git.coopcloud.tech/coop-cloud/
 * https://autonomic.zone/blog/co-op-cloud/
 
+### runtipi.io
+
+* https://github.com/runtipi/runtipi
+* https://github.com/runtipi/runtipi-appstore
+* https://runtipi.io/docs/apps-available
+
 ### sovereign
 
 * https://github.com/sovereign/sovereign
@@ -160,3 +166,8 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://installatron.com/apps
 * https://netenberg.com/fantastico-scripts.html
 * https://www.plesk.com/extensions/category/web_app/
+
+### unraid.net
+
+* https://unraid.net/community/apps
+* nincs díjmentes változata, csak fizetős
