@@ -74,7 +74,7 @@
 * https://matrix.grin.hu/rooms/
 * https://matrix.grin.hu/stat/
 * https://web.archive.org/web/20210612203339/publiclist.anchel.nl/
-* https://the-federation.info/matrix%7Csynapse
+* https://the-federation.info/protocol/21
 * https://wiki.asra.gr/en:public_servers
 * https://joinmatrix.org/servers/
   * https://github.com/austinhuang0131/joinmatrix/
