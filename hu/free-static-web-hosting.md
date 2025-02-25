@@ -486,6 +486,17 @@ Lásd még:
 
 * [service/free-shell-account.md](service/free-shell-account.md)
 
+### autistici.org
+
+* https://www.autistici.org/services/website
+* https://www.autistici.org/docs/faq/faq_websites
+* nincs aldomain, csak könyvtár: www.autistici.org/xxxxxx or www.inventati.org/xxxxxx
+* WebDAV feltöltés
+* van HTTPS
+* csak az meghatározott politikai nézeteket terjesztő oldal megengedett
+
+> anti-fascism, anti-racism, anti-sexism, anti-militarism, non-commercial
+
 ### nekoweb.org
 
 * https://nekoweb.org/faq
@@ -949,6 +960,13 @@ Hardver:
 * https://blog.fc2.com/en/
 * `web.fc2.com/en/`
 * elvileg sajtát 1GB weboldal tárhelyet is nyújtanak, de jelenleg nem elérhető
+
+### noblogs.org
+
+* https://noblogs.org/registrati/
+* https://www.autistici.org/services/blog
+* Wordpress
+* regisztrálható csak független szolgáltatónál üzemeltetett email címmel
 
 ### Wix.com
 
