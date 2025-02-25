@@ -40,6 +40,10 @@ Hasznos opcionális szolgáltatások:
 * Mailman (Postorius)
 * 100MB tárhely
 
+### autistici.org
+
+* https://lists.autistici.org/splash/index.en.html
+
 ### emaildodo.com
 
 * https://emaildodo.com/pricing.php
