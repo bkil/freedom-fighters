@@ -291,7 +291,11 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 
 * `lists.c3.hu/pipermail/artinfo/`
 
-## Külső hivatkozások
+## Lásd még
 
 * [../free-static-web-hosting.md#Magyar blog](../free-static-web-hosting.md#user-content-magyar-blog)
+* [../service/mailing-list.md](../service/mailing-list.md)
+
+### Külső hivatkozások
+
 * https://forum.lap.hu/

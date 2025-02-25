@@ -5,6 +5,7 @@
 The main difference between forums and chat is that content on forums is usually readable publicly without registration and readily indexed by web search engines. See also:
 
 * [./independent-chat.md](./independent-chat.md)
+* [../../hu/service/mailing-list.md](../../hu/service/mailing-list.md)
 
 ## Centralized
 
