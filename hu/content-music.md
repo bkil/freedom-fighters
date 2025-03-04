@@ -53,6 +53,7 @@
 * https://funkwhale.audio/
 * https://github.com/airsonic/airsonic
 * https://github.com/sentriz/gonic
+* https://github.com/navidrome/navidrome
 
 ### Kliens
 
