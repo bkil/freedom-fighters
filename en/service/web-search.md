@@ -188,6 +188,12 @@ Gemini:
 * can only find pages hosted in Switzerland
 * can be used without JavaScript
 
+### searchcode.com
+
+* https://searchcode.com/
+* can be used without JavaScript
+* only indexes program source code
+
 ### searchmysite.net
 
 * https://searchmysite.net/
