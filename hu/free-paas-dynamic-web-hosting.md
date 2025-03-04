@@ -46,33 +46,6 @@
 * CMS alkalmazás telepítő: WebAppInstaller (WAI)
 * csak a fizetős csomagban: cron időzített folyamatok, PHP gyorsító, SSD, részletes látogatottsági statisztika, HTTP/2, biztonsági mentés (Budapesten és Szegeden)
 
-### NextNet.hu
-
-* https://nextnet.hu/ingyen-ssd-tarhely/
-* https://my.nextnet.hu/store/ingyen-tarhely
-* üzemeltető: Cweb Hosting Kft., Center Webhost Kft. cweb.hu (weblap: Hetzner ASN, Németország)
-* infrastruktúra: ANEXIA Internetdienstleistungs GmbH, Ausztria
-* ISP: Frantech / Ponynet ASN, Luxemburg
-* 100MB tárhely
-* korlátlan adatforgalom
-* TLS ingyen
-* SSD
-* 2 email cím:
-  * IMAP, POP3, SMTP (Dovecot, Exim)
-  * max. 4000 email/nap küldhető
-  * nincs átirányítás
-* csak saját domain mellé: 1 domain + (1 domain vagy 2 aldomain)
-* 2 MySQL adatbázis
-* 2 FTP fiók (pure-ftpd)
-* cron időzített feladatok
-* CloudFlare
-* DirectAdmin vezérlőpult, Softaculous telepítő
-* Apache (LiteSpeed?) webszerver, állítható ModSecurity
-* CGI, sok telepített Perl modul, PHP 4.4-8.1, Node.js, Python
-* 2FA TOTP
-* alkalmazástelepítő: WordPress, Joomla, Drupal, OpenCart
-* szabadon állítható szinte minden, memory_limit=64-512MB, alapértelmezetten disable_functions = curl_multi_exec , dl , exec , passthru , pcntl_exec , popen , posix_kill , posix_mkfifo , posix_setuid , proc_close , proc_open , proc_terminate , shell_exec , system , ftp_exec , leak , posix_setpgid , posix_setsid , proc_get_status , proc_nice , show_source , escapeshellcmd , showsource, symlink, escapeshellarg, escapeshellcmd
-
 ## Magyar reklámos
 
 ### ATW

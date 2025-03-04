@@ -336,6 +336,39 @@ Lásd még:
   * Perl 5, SSI
   * HTTPS: osztott, saját vagy Let's Encrypt
 
+### NextNet.hu
+
+* 2500Ft/év
+* megszűnt az ingyen tárhely
+* https://nextnet.hu/directadmin-tarhely/
+* https://my.nextnet.hu/store/directadmin
+* üzemeltető: Cweb Hosting Kft., Center Webhost Kft. cweb.hu (weblap: Hetzner ASN, Németország)
+* infrastruktúra: ANEXIA Internetdienstleistungs GmbH, Ausztria
+* ISP: Frantech / Ponynet ASN, Luxemburg
+* 512MB NVMe SSD tárhely
+* 2MB RAM
+* 2 CPU mag
+* 30 entry process
+* korlátlan adatforgalom
+* TLS ingyen
+* SSD
+* korlátlan email cím:
+  * IMAP, POP3, SMTP (Dovecot, Exim)
+  * max. 4000 email/nap küldhető
+  * nincs átirányítás
+* korlátlan saját domain
+* korlátlan MySQL és PostgreSQL adatbázis
+* korlátlan FTP fiók (pure-ftpd)
+* van ssh
+* cron időzített feladatok
+* CloudFlare
+* DirectAdmin vezérlőpult, Softaculous telepítő
+* Apache (LiteSpeed?) webszerver, állítható ModSecurity
+* CGI, sok telepített Perl modul, PHP 4.4-8.0
+* 2FA TOTP
+* alkalmazástelepítő: WordPress, Joomla, Drupal, OpenCart
+* szabadon állítható szinte minden, memory_limit=64-512MB, alapértelmezetten disable_functions = curl_multi_exec , dl , exec , passthru , pcntl_exec , popen , posix_kill , posix_mkfifo , posix_setuid , proc_close , proc_open , proc_terminate , shell_exec , system , ftp_exec , leak , posix_setpgid , posix_setsid , proc_get_status , proc_nice , show_source , escapeshellcmd , showsource, symlink, escapeshellarg, escapeshellcmd
+
 ### RackForest tárhely
 
 * https://rackforest.com/szolgaltatasok/tarhely/
