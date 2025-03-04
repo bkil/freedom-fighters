@@ -92,6 +92,7 @@
 * **[Bandcamp Free Downloads](https://bandcamp.com/tag/free-download)** – Listening is always free, but some downloads are paid, while others are free without registration  
 * **[Bleep](https://bleep.com/)** – Downloads are always paid  
 * **[AccuRadio](https://www.accuradio.com/)**  
+* [Anghami](https://play.anghami.com/) – Only after free registration; requires Google reCAPTCHA
 * **[SomaFM](https://en.wikipedia.org/wiki/Soma.fm)**  
 
 ### Demoscene & Retro Chiptune
