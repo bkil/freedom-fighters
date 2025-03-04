@@ -120,8 +120,5 @@
 
 If this file is renamed or relocated, all direct links must be updated:
 
-* [Pingback](https://hup.hu/comment/2568145#comment-2568145)
-
----
-
-Translated from https://github.com/bkil/freedom-fighters/blob/master/hu/content-music.md
+* [HUP comment](https://hup.hu/comment/2568145#comment-2568145)
+* Translated from [../../hu/content/music.md](../../hu/content/music.md)
