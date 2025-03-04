@@ -126,3 +126,4 @@
 Ha átnevezésre vagy áthelyezésre kerül ez a fájl, az összes közvetlen hivatkozást frissíteni kell:
 
 * https://hup.hu/comment/2568145#comment-2568145
+* [../../en/content/music.md](../../en/content/music.md)
