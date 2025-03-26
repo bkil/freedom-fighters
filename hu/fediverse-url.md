@@ -83,6 +83,7 @@ Lásd még:
 ## Kit kövessünk
 
 * https://communitywiki.org/trunk categorical directory, find interesting Mastodon & fediverse accounts to follow based on special interests
+* https://joinfediverse.wiki/Notable_Fediverse_accounts
 * https://fedi.directory/
 * https://cartolab.at/cartography-on-mastodon/
 * https://find.sciences.social/
