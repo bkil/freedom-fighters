@@ -28,7 +28,7 @@
 ## Elévült
 
 * DJabberd https://github.com/djabberd/DJabberd/blob/master/doc/status.txt
-* in.jabber http://rawsontetley.org/proj_inetdxtra.html
+* in.jabber https://github.com/bobintetley/inetdxtra/tree/master/in.jabberd https://rawsontetley.org/posts/inetdxtra/
 * jabberd2 https://github.com/jabberd2/jabberd2/blob/master/README.protocol
 * Kwickserver
 * psyced https://about.psyc.eu/Jabber#psyced_and_the_XMPP
