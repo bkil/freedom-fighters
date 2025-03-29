@@ -953,6 +953,24 @@ Hardver:
 * max. 10MB/fájl (vagy 10MB teljes tárhely?)
 * aldomain: *.yay.boo
 
+### yola.com
+
+* https://www.yola.com/pricing
+* https://helpcenter.yola.com/hc/en-us/articles/360013970099-Adding-custom-code-to-your-site
+* https://helpcenter.yola.com/hc/en-us/articles/11961136539922-HTML-widget
+* https://helpcenter.yola.com/hc/en-us/articles/360014307359-HTML-embed-block
+* 1 weboldal
+* max.2 lap
+* 100MB tárhely
+* korlátlan forgalom
+* max. 5MB/fájl
+* kiválasztható sablon, blokk és widget (YouTube, Google Maps), kép
+* iframe: Google Documents, Googe Calendar, Google Sheet
+* kapcsolati űrlap
+* egyedi kód csak premium felhasználóknak
+* nincs látogató statisztika
+* nyelvek: angol, francia, portugál, spanyol, olasz, német
+
 ## Külföldi blog
 
 ### fc2.com
