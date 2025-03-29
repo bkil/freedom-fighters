@@ -182,6 +182,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://prog.hu/tarsalgo/ olvasásához is: JavaScript, sütik és adott típusú böngésző
 * http://forum.ucoz.hu/
 * http://weblabor.hu/forum
+* https://board.ddmt2.net/index.php?action=forum
 
 ### Szoftver használók
 
@@ -228,6 +229,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://sg.hu/forum/
 * https://forum.vegzetur.hu/
 * https://wotinfo.hu/index.php/kunena kizárólag Google és Facebook fiókkal lehet hozzászólni
+* https://forum.duome.eu/viewforum.php?f=171
 
 ### Linux
 
@@ -256,6 +258,7 @@ A rendezés a szokásos szempontok szerint történik, levágva az elejéről a 
 * https://omega.ttk.pte.hu/cgi-bin/mailman/listinfo
 * https://punkportal.hu/forum/forum.php
 * https://www.szeretgom.hu/forumok/
+* https://www.hungarianforum.com/
 
 ### Nyílt kategóriák
 
