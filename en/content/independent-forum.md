@@ -51,10 +51,46 @@ The main difference between forums and chat is that content on forums is usually
 * https://community.fandom.com/wiki/Help:Wiki-style_forums
 * https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:DPLforum
 
+### forumfree.it
+
+* https://index.forumfree.it/
+* https://www.forumfree.it/?wiki
+* only Italian language interface
+* data centre: OVH
+
 ### forumotion.com
 
 * https://www.forumotion.com/
 * https://www.board-directory.net/
+* software can be chosen: ModernBB, phpBB3, phpBB2, punBB, Invision
+
+Lots of user subdomains to choose from:
+
+* 666forum.com
+* ace.st
+* actieforum.com
+* aforumfree.com
+* ahlamontada.com
+* all-up.com
+* board-directory.net
+* catsboard.com
+* darkbb.com
+* editboard.com
+* forumattivo.com
+* forumgreek.com
+* forumkorean.com
+* forumotion.asia
+* forumotion.com
+* forumotion.co.uk
+* forumotion.net
+* forum.st
+* forumtl.com
+* forumvi.com
+* goodforum.net
+* hungarianforum.com
+* niceboard.com
+* serbianforum.info
+* thai-forum.net
 
 ### lobste.rs
 
@@ -83,6 +119,12 @@ The main difference between forums and chat is that content on forums is usually
 * browsing DDoS protected by Cloudflare & hCAPTCHA
 * The whole set can be downloaded in bulk
 * https://archive.org/details/stackexchange
+
+### tapatalk.com
+
+* https://www.tapatalk.com/tapatalk_groups
+* https://www.tapatalk.com/groups/tapatalksupport/
+* path, not subdomains: https://www.tapatalk.com/groups/*/
 
 ### tilde.news
 
@@ -118,6 +160,9 @@ The main difference between forums and chat is that content on forums is usually
 * https://mastodon.help/instances/
 * https://instances.social/list
 * https://friendica.fediverse.observer/ (formerly: `podupti.me`)
+* https://lemmyverse.net/communities
+* https://join-lemmy.org/instances
+* https://lemmy.fediverse.observer/list
 
 ### NNTP
 
