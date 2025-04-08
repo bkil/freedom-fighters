@@ -450,6 +450,18 @@ File manager:
 > Requirements: Directly OpenStreetMap related. Non-Commercial. Preferably Open Source
 > Strongly Discouraged: Installing and making large web applications publicly available.
 
+### osuosl.org
+
+* https://osuosl.org/services/hosting/details/
+* web: PHP, Python, Ruby, MySQL, PostgreSQL
+* CI/CD, OpenCompute
+* FTP
+* email, Mailman
+* monitoring: Nagios, PagerDutyPrometheus, Grafana, Munin
+* rdiff-backup
+
+> hosting for projects and communities involved with open source software development. The OSUOSL supports a large number of growing, high-impact open source communities. 
+
 ### PythonAnywhere
 
 * https://eu.pythonanywhere.com/pricing/
