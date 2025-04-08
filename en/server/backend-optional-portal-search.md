@@ -223,3 +223,5 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://github.com/alexmolas/microsearch/blob/main/src/microsearch/engine.py
 * https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/
 * https://github.com/bartdegoede/python-searchengine
+* https://indieweb.org/search#site_search_with_site_backend_-_level_4
+* https://wiki.nikiv.dev/web/search-engines
