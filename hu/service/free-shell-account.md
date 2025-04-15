@@ -28,10 +28,48 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * nincs aldomain, csak mappa
 * nincs CORS
 
+### efn.lt
+
+* https://efn.lt/
+* https://efn.lt/services
+* https://efn.lt/euterpe
+* 500MB tárhely
+* 256MB RAM
+* 3 háttérfolyamat
+* 20 előtérfolyamat
+* 6 párhuzamos bejelentkezés
+* van linger
+* webtárhely
+* PHP, MySQL
+* https://XXX.users.efn.lt/
+* átirányított porton saját szolgáltatás nyitása
+* engedélyezett IRC bot és bouncer
+* regisztrációhoz kéri: IRC név, Telegram fiók, valós név, lakcím, email, magyarázat
+
 ### envs.net
 
 * https://envs.net/
 * [../server/palette-inspiration.md#envs.net](../server/palette-inspiration.md#envs.net)
+
+### grex.org
+
+* https://www.grex.org/newuser/index.xhtml
+* https://www.grex.org/shell.xhtml
+* https://www.grex.org/wwwfaq.xhtml
+* https://www.grex.org/faq.xhtml
+* 100MB tárhely
+* OpenBSD
+* email: SMTP, IMAP, átirányítás
+* statikus webtárhely, 10MB/nap forgalom
+* http://www.grex.org/~youraccount/index.html
+* csak takarékos CGI és egyedi elbírálás alapján
+* nincs aldomain
+* nem engedélyezett IRC bot és bouncer
+* elvileg van kilépés után screen reconnect (linger)
+* 3 hónap inaktivitás
+
+> No commercial use.
+> We do permit incidental commercial use such as an individual selling shareware, as long as it does not generate too much traffic.
 
 ### tildeverse egyéb hivatalos
 
@@ -147,6 +185,13 @@ virtuális gépen
 ### onworks.net
 
 * https://www.onworks.net/os-distributions/ubuntu-based/free-ubuntu-online-gnome
+
+## Programozási nyelvi fordító
+
+### tutorialspoint.com
+
+* https://www.tutorialspoint.com/execute_bash_online.php
+* online fordító, parancsértelmező
 
 ## Személyes adatokat kezel
 
