@@ -37,6 +37,7 @@ Bővítményként:
 
 - https://github.com/friendica/friendica-addons PHP
 - https://framagit.org/hubzilla/addons PHP
+- https://codeberg.org/GNUsocial/gnu-social/src/branch/v3/plugins PHP
 - Matrix Synapse plugin/module (lásd mjolnir) Python
 - https://wordpress.org/plugins/ PHP
   - https://wordpress.org/plugins/activitypub/
