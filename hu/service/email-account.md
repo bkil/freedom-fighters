@@ -197,7 +197,11 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 ## Megszűnt
 
+### tvn.hu
+
 * https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
+* xfree.hu
+* blog.xfree.hu
 
 ### Citromail
 
