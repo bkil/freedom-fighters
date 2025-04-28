@@ -993,6 +993,7 @@ Százával akadnak még külföldi alternatívák:
 * https://github.com/publicsuffix/list
 * https://github.com/nextdns/public-suffixes-extras/blob/main/domains
 * https://github.com/ripienaar/free-for-dev
+* https://fmhy.net/storage#dynamic-page-hosting
 
 ### Elévült
 

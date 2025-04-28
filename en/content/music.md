@@ -115,6 +115,7 @@
 ## External Lists
 
 * [Defective by Design Audio Guide](https://www.defectivebydesign.org/guide/audio)
+* https://fmhy.net/audiopiracyguide
 
 ## Pingback
 

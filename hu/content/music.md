@@ -120,6 +120,7 @@
 ## Külső felsorolások
 
 * https://www.defectivebydesign.org/guide/audio
+* https://fmhy.net/audiopiracyguide
 
 ## Pingback
 

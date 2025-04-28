@@ -30,3 +30,4 @@
 ## Külső felsorolások
 
 * https://www.defectivebydesign.org/guide/video
+* https://fmhy.net/videopiracyguide

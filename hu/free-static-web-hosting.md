@@ -1527,3 +1527,4 @@ Hardver:
 
 * https://github.com/citizenlab/test-lists/blob/master/lists/hu.csv
 * https://web.pixelshannon.com/freehosts/
+* https://fmhy.net/storage#static-page-hosting

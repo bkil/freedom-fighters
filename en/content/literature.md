@@ -8,3 +8,4 @@
 ## External lists
 
 * https://www.defectivebydesign.org/guide/ebooks
+* https://fmhy.net/readingpiracyguide
