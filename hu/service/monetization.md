@@ -63,6 +63,7 @@ Másoknak motivációt nyújthat ha ezen felül egy kis bevételre is tehet szer
 
 Lehet kampányszerű vagy rendszeres
 
+* https://wiki.snowdrift.coop/market-research/other-crowdfunding
 * https://en.wikipedia.org/wiki/Brave_(web_browser)#Controversies
 * https://en.wikipedia.org/wiki/Crowdfunding
 * https://en.wikipedia.org/wiki/Category:Crowdfunding_platforms
