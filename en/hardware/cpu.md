@@ -119,6 +119,65 @@ Manufacturing integrated circuits at home (not recommended):
 * https://www.electronicsforu.com/technology-trends/printed-integrated-circuits-that-consist-of-several-hundred-transistors
 * http://sam.zeloof.xyz/
 
+## Relay
+
+### Harry Porter 2006
+
+* 415 four pole, double throw relays, 111 switches, 350 LED
+* 8-24 cycles per instruction
+* 16-bit address: PC
+* 8-bit registers: A, B, C, D, indirect (X & Y, M1 & M2), flags (Z, Cy, S)
+* 32KB SRAM
+
+Instructions:
+* add, inc, and, or, xor, not, shl, nop
+* load signed 5-bit immediate, load 16-bit immediate, clear
+* 8-bit and 16-bit move, 16-bit increment, load, store
+* goto, call, branch indirect, branch if negative, branch if carry, branch if zero, branch if not zero
+* halt
+
+References:
+* https://web.cecs.pdx.edu/~harry/Relay/RelayPaper.htm
+* https://web.cecs.pdx.edu/~harry/Relay/
+* https://meatfighter.com/tofu/harryporter/index.html
+* https://jenda.hrach.eu/f2/RelayTalk.pdf
+* https://www.relaycomputer.co.uk/pages/overview/
+
+### Jon Stanley 2007
+
+* 168 SPDT relay, 100 4PDT relay, 13 other relays, 26 switches, 100 LED
+* 2kB SRAM
+* 8-bit registers: A, B, C
+
+Instructions:
+* load immediate, load, store, move
+* A+B, A and B, not A, increment, nop
+* shift right, shift left
+* branch, branch if (not) positive/zero/negative
+* halt
+
+References:
+* https://www.electronixandmore.com/projects/relaycomputertwo/index.html
+
+### Daniel Fremont 2009
+
+* 200 four pole, double throw relays
+* 9-12 cycles per instruction
+* 16-bit address: PC
+* 8-bit registers: A, B, result (C), indirect (X & Y), flags (Z, Cy, S)
+* 32KB SRAM
+
+Instructions:
+* lda, ldb, ldia, ldib, ldx, ldy
+* stic
+* ctx, cty
+* add, and, or, nota, notb, xor, xnor, atc, btc
+* goto, braz, bran, brac
+* lsh
+
+References:
+* https://asr.menloschool.org/wp-content/uploads/2022/01/d9030-computer_daniel.pdf
+
 ## Historical
 
 ### Librascope LGP-21
