@@ -131,12 +131,12 @@ Gemini:
 
 ### MetaGer
 
-* http://metager.de/
+* https://metager.org/search-engine
 * https://gitlab.metager.de/open-source/MetaGer
 * DE
 * paid Service
 * own index: Scopia 
-* metasearch: Brave, Mojeek, Bing
+* metasearch: Bing, Mojeek, Brave, Serper (Google), Pixabay, OneNewspage, Ebay, Minisucher Wissenschaft, TUBdok, BASE
 * returns results within an iframe - opening the link directly allows viewing the results without JavaScript
 * https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
 * option to open result hits through their proxy
@@ -172,7 +172,7 @@ Gemini:
 * FR
 * has its own index
 * also uses Bing
-* can be used without JavaScript
+* requires JavaScript
 * shows a CAPTCHA if searching for too long strings
 * the search result description does not match Bing, seems to be faithfully summarized
 
