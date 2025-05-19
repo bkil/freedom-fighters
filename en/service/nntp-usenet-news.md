@@ -28,6 +28,11 @@
 
 > If you wish to post, please e-mail for an account.
 
+### complete.org
+
+* https://www.complete.org/usenet-over-nncp/
+* NNTP over NNCP
+
 ### eternal-september.org
 
 * https://www.eternal-september.org/
