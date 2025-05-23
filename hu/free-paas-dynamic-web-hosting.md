@@ -480,6 +480,19 @@ File manager:
 * https://www.silvertree.org/
 * WordPress vagy online játékokhoz
 
+### Val.Town
+
+* https://www.val.town/pricing
+* https://www.val.town/features
+* TypeScript
+* csak webes szerkesztő
+* van cron: legalább 15 perc időköz, 60s CPU
+* SQLite tárhely
+* hálózati kapcsolat
+* email küldés és fogadás
+* korlátlan publikus útvonal, 10 privát
+* 100k futás/nap
+
 ### Webhosting-For-Free
 
 * http://webhosting-for-free.com/free-web-hosting.html
