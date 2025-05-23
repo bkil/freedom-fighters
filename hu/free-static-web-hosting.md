@@ -514,13 +514,6 @@ Lásd még:
 * ingyen aldomain: *.freesite.vip
 * iFastNet partner
 
-### glitch.me
-
-* https://glitch.com/
-* csak webes feltöltés
-* tetszőleges HTML, CSS
-* aldomain: *.glitch.me
-
 ### Gnome membership
 
 * https://wiki.gnome.org/MembershipCommittee/MembershipBenefits
@@ -1501,6 +1494,13 @@ Hardver:
 * csak gemini
 * nincs aldomain, csak almappa
 * regisztráció nem nyitott
+
+### glitch.me
+
+* https://blog.glitch.com/post/changes-are-coming-to-glitch/
+* csak webes feltöltés
+* tetszőleges HTML, CSS
+* aldomain: *.glitch.me
 
 ### reisub.nsupdate.info
 
