@@ -17,6 +17,14 @@
 * protocol: TCP, HTTP
 * bearer: IPFS
 
+### netbird.io
+
+* https://netbird.io/
+* https://github.com/netbirdio/netbird
+* bearer: WireGuard
+* protocol: WebRTC (ICE, STUN, TURN)
+* hosted free tier: 100 devices, 5 user accounts
+
 ### Spork
 
 * https://github.com/atek-cloud/spork
