@@ -209,6 +209,12 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * https://rocketgit.com/op/doc/api
 * van API CORS
 
+### shithub.us
+
+* http://shithub.us/
+
+> It is running on git9, hosted on 9front and uses dp9ik authentication for pushing code
+
 ## Korlátozott tagsággal
 
 A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
