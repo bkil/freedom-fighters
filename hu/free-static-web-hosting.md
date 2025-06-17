@@ -1055,10 +1055,25 @@ Hardver:
 * nincs fájlfelöltés
 * nincs CORS sem az oldalon, sem RSS-en
 
+### deadjournal.com
+
+* https://www.deadjournal.com/
+* csak meghívóval vagy előfizetéssel
+* cloudflare
+
 ### Dreamwidth
 
-* https://dreamwidth.org/
+* https://www.dreamwidth.org/support/faqbrowse?faqid=4
+* 500MB tárhely képeknek
 * van aldomain: *.dreamwidth.org
+* van TLS
+* nincs CORS, nincs RSS CORS
+
+### insanejournal
+
+* https://www.insanejournal.com/paidaccounts/
+* csak meghívóval vagy előfizetéssel
+* nincs aldomain, csak almappa: https://asylums.insanejournal.com/*/
 * van TLS
 * nincs CORS, nincs RSS CORS
 
