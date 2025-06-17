@@ -166,6 +166,13 @@ Gemini:
 * own index
 * can be used without JavaScript
 
+### oldavista
+
+* http://oldavista.com/
+* can be used without JavaScript
+* own index
+* mostly focuses on archived versions of classic web pages
+
 ### Qwant.com
 
 * https://www.qwant.com/
