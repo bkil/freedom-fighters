@@ -132,5 +132,9 @@ You can read more about this feature here:
 
 ## Defunct
 
-* http://wiby.me/chat
 * https://web.archive.org/web/19970401190605/http://www.hula.net/~hulaboy/1_chtscl.htm
+
+### GhostChat
+
+`http://wiby.me/chat`
+* https://github.com/wibyweb/ghostchat
