@@ -16,6 +16,7 @@
 * https://videa.hu/
 * http://videok.hu/
 * https://hu.wikipedia.org/wiki/Indavide%C3%B3
+* https://www.vidlii.com/
 
 ## Szoftver
 
