@@ -156,6 +156,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
 * https://github.com/chenyeric/captcha/blob/master/cryptographp.inc.php
 * https://github.com/inspircd/inspircd-contrib/blob/master/3/m_solvemsg.cpp
+* https://fossil-scm.org/home/file?name=src/captcha.c&ci=trunk
 
 ### DokuWiki captcha
 
