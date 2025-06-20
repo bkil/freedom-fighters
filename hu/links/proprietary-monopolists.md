@@ -8,7 +8,10 @@
 ## Amazon
 
 - https://tosdr.org/en/service/190
+- https://tosdr.org/en/service/2444
+- https://tosdr.org/en/service/1339
 - https://www.gnu.org/proprietary/malware-amazon.html
+- https://en.wikipedia.org/wiki/Criticism_of_Amazon
 
 ## Facebook Meta
 
