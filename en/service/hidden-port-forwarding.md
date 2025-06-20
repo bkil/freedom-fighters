@@ -63,6 +63,12 @@
 
 * https://goteleport.com/pricing/
 
+### innernet
+
+* https://github.com/tonarino/innernet
+* https://blog.tonari.no/introducing-innernet
+* bearer: WireGuard
+
 ### Nebula
 
 * https://github.com/slackhq/nebula
