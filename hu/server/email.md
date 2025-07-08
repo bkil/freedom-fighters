@@ -77,6 +77,7 @@
 * https://github.com/deltachat/chatmail
 * https://github.com/HaschekSolutions/opentrashmail
 * https://github.com/mjl-/mox
+* https://codeberg.org/jssfr/canned-mail
 * Lásd még: [palette-installer.md](palette-installer.md)
 
 ### Telepítési útmutatók
