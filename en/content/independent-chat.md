@@ -97,6 +97,7 @@ Further groups:
 * https://i.delta.chat/#9DE7DADDC37828D75499BBDC45CA5FACF50E9B18&a=stickersb%40mehl.cloud&n=StickersBot&i=tHkRoHiugej&s=n0x9TjRcUxo
 * https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&g=Offtopic%20Talks&x=_88VYgh4TDq&i=X5p87aF1QLG&s=YbBOlom75DZ
 * https://i.delta.chat/#C2846EB4C1CB8DF84B1818F5E3A638FC3FBDC981&a=stalebot1%40nine.testrun.org&g=Quake%20Arena&x=pjeIsFKmtG39Azdew_Yev0tU&i=r3xArWgqYLiHV7lYad5DDHby&s=iZ8M84iRON0KX4GTpCvAWf5G
+* https://i.delta.chat/#C753A22A447DE8CA18653B9C7668BC822C0561CA&a=pixsocial%40arcanechat.me&n=PixelSocial&i=sz7HYOnPmjG1WWOclOFlGLFv&s=XJFfgZRHwvTVAvBAQKJxFL2F
 * https://i.delta.chat/#DA642F9D22532B4E8ABF336A7AE962EE97B48811&a=gr4re7xro%40nine.testrun.org&g=Global%20Offtopic&x=egQvbd4Lcz5&i=5onwhhnFlkg&s=RICT68ZscyR
 * https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&g=Deutschland&x=ckCvKAkfE8Z&i=seH0zv3HJbN&s=qzN1c-JAeG6
 * https://i.delta.chat/#F2175B65C599D9AB58FDBE35A1D2B46E62A29658&a=friendscaaj3%40testrun.org&n=adb&i=_vLu0fUI53k&s=teNGaPzemPW
