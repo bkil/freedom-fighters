@@ -9,6 +9,10 @@ The main difference between forums and chat is that content on forums is usually
 
 ## Centralized
 
+### 4chan.org
+
+* https://www.4chan.org/faq#what4chan
+
 ### answers.com
 
 * https://www.answers.com/
@@ -36,6 +40,11 @@ The main difference between forums and chat is that content on forums is usually
 * https://github.com/rugpullindex/awesome-discourse-communities
 * https://trends.builtwith.com/websitelist/Discourse
 * https://free.discourse.group/
+
+### dollchan.net
+
+* https://dollchan.net/
+* https://github.com/SthephanShinkufag/atomboard
 
 ### EchoJS
 
@@ -92,9 +101,24 @@ Lots of user subdomains to choose from:
 * serbianforum.info
 * thai-forum.net
 
+### endchan.net
+
+* https://endchan.net/
+* https://gitgud.io/LynxChan/LynxChan
+
+### ernstchan.top
+
+* https://ernstchan.top/
+* https://gitlab.com/ernstchan/phutaba
+
 ### lobste.rs
 
 * https://lobste.rs/
+
+### kohlchan.net
+
+* https://kohlchan.net/int/catalog.html
+* https://gitgud.io/LynxChan/LynxChan
 
 ### nabble.com
 
@@ -142,6 +166,18 @@ Lots of user subdomains to choose from:
 
 * https://news.ycombinator.com/
 
+## Archivers
+
+### archived.moe
+
+* https://archived.moe/
+* https://github.com/FoolCode/FoolFuuka
+
+### warosu.org
+
+* https://warosu.org/
+* https://github.com/eksopl/fuuka
+
 ## Federated
 
 ### Fediverse
@@ -180,3 +216,12 @@ See:
 * https://github.com/sandlind/smolbbs
 * anonymous
 * BBS without registration
+
+### ponychan.net
+
+* `https://www/ponychan.net/`
+* https://github.com/savetheinternet/Tinyboard
+
+## References
+
+* https://dollchan.net/chanlist/chanlist-en.html
