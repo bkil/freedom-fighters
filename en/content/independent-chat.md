@@ -87,6 +87,7 @@ Further groups:
 
 * https://i.delta.chat/#024C525D627CBF5A292FC428A40BF74BE66DA1BC&a=feedsb%40mailchat.pl&n=FeedsBot&i=6eMHA8T69SF&s=M53-Un3pKPa
 * https://i.delta.chat/#20DE15B4DEF2E3CA1E38603B937E0A82561433B1&a=rmm6qzuux%40nine.testrun.org&n=Alice&i=8vnTnaiEEdX&s=OGEhnhBUS_Y
+* https://i.delta.chat/#2C39B1F8A7C5830C4C0B6996160057E5DF800598&a=outofcrea%40nine.testrun.org&g=Geminauts&x=hv3bq5ZGKPMdnyA-iL5SUaQr&i=cH31K3fppY-DGqyDTssgPQY6&s=jPWgBmL3BmzEr1phr5eYYWfb
 * https://i.delta.chat/#2FE05BD53A28A912A4AA74BF7BE6FD5E547473CC&a=txt2image%40nine.testrun.org&n=Text%20To%20Image&i=cbTmzlMa0-C&s=EWZ_FsPcd0R
 * https://i.delta.chat/#4621CA5183772B621E7C700E4451DB9D18629FE8&a=gh0stz0x%40nine.testrun.org&n=Gh0stz0x&i=eOvhSMjgjal&s=_-An94OAR9U
 * https://i.delta.chat/#5E656935FDF285ABED885D9FB6D13B937EB5F030&a=zenito%40zengod.gr&n=Zenito&i=7Tt6_dNRlo1&s=EqoyAkB0l9w
