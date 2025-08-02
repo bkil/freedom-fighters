@@ -22,6 +22,8 @@
 * https://github.com/akashdhanwar/DarkWeb/blob/main/xmpp-servers-tor-hidden-service.md
 * https://gist.github.com/andr4s/8af151f9d8be544a18921dd199fdaa6b
 * https://github.com/qbi/xmpp-onion-map
+* https://compliance.conversations.im/test/xep0077/
+* https://joinjabber.org/docs/servers/
 
 ### Tor
 
