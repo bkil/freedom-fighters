@@ -23,6 +23,8 @@
 ### Tor
 
 * https://en.wikipedia.org/wiki/Tor_(network)
+* https://blog.torproject.org/tor-heart-bridges-and-pluggable-transports/
+* https://torproject.github.io/manual/circumvention/
 * link: custom
 * service: TCP client and server
 * supports rotation over an array of proxy servers (exit nodes)
