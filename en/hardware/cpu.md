@@ -178,6 +178,29 @@ Instructions:
 References:
 * https://asr.menloschool.org/wp-content/uploads/2022/01/d9030-computer_daniel.pdf
 
+## Storage
+
+Read-only:
+
+* https://en.wikipedia.org/wiki/Serinette
+* https://en.wikipedia.org/wiki/Barrel_organ#Barrel
+* https://en.wikipedia.org/wiki/Music_box
+* https://en.wikipedia.org/wiki/Jacquard_machine#Principles_of_operation
+* https://en.wikipedia.org/wiki/Music_roll
+* https://en.wikipedia.org/wiki/Piano_roll
+* https://en.wikipedia.org/wiki/Book_music
+* https://en.wikipedia.org/wiki/Core_rope_memory
+
+Write-once, read-multiple:
+
+* https://en.wikipedia.org/wiki/Punched_tape
+* https://en.wikipedia.org/wiki/Punched_card
+
+Read-write:
+
+* https://en.wikipedia.org/wiki/Drum_memory
+* https://en.wikipedia.org/wiki/Magnetic-core_memory
+
 ## Historical
 
 ### Librascope LGP-21
