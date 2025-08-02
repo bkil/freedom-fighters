@@ -628,6 +628,18 @@ Hardver:
 * aldomain: *.ucoz.hu *.ucoz.com
 * nincs CORS sem az oldalon, sem RSS-en
 
+### w10.host
+
+* https://w10.host/
+* 100MB tárhely (500MB ha valaki aktív a közösségben)
+* aldomain: xxxxxx.w10.site, xxxxxx.w0.am, xxxxxx.narod.ws xxxxxx.oldcities.org
+* saját domain is használható
+* kiszolgált protokoll: HTTPS, HTTP (domain, IPv4 cím, IPv6 cím), WAP 1.0, WAP 2.0, Yggdrasil (ALFIS blockchain DNS, ws.ygg.at, IPv6)
+* feltöltés: FTP, web
+* webmail (régi eszközökkel is kompatibilis)
+* L2TP/ipsec: port átirányítás útján otthoni publikus web szerver, VLAN játékok
+* SSI
+
 ### GitLab
 
 * https://docs.gitlab.com/ee/user/project/pages/
