@@ -206,6 +206,11 @@ See:
 
 * [../service/nntp-usenet-news.md](../service/nntp-usenet-news.md)
 
+### twtxt
+
+* https://github.com/tkanos/we-are-twtxt
+* https://github.com/XXIIVV/webring/blob/main/index.html
+
 ## Defunct
 
 * `breadpunk.club/~pandecoco/breadbook/`
