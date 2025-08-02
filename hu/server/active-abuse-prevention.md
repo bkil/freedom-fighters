@@ -156,7 +156,12 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
 * https://github.com/chenyeric/captcha/blob/master/cryptographp.inc.php
 * https://github.com/inspircd/inspircd-contrib/blob/master/3/m_solvemsg.cpp
+
+### Fossil
+
 * https://fossil-scm.org/home/file?name=src/captcha.c&ci=trunk
+* https://fossil-scm.org/home/honeypot
+> Fossil: I think you are a robot. Login. You seem like a robot. Is that incorrect? Are you really human? If so, please prove it by transcribing the captcha text into the entry box below and pressing "Submit". Captcha: Alternatively, you can log in using an existing userid. We regret this inconvenience. However, robots have become so prolific and so aggressive that they will soak up too much CPU time and network bandwidth on our servers if allowed to run unchecked. Your cooperation in demonstrating that you are human is appreciated.
 
 ### DokuWiki captcha
 
