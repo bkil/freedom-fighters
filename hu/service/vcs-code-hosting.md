@@ -110,6 +110,7 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
   * nincs API CORS
 * feldolgozás nélküli statikus webkiszolgálás (Gitea Pages) *.codeberg.page
   * nincs Pages CORS, nincs RSS CORS
+* van CORS: https://raw.codeberg.page/USER/REPO/file.txt
 * helyszín: Németország
 * cenzúrázatlan: Kuba
 * CI/CD kutatás alatt
