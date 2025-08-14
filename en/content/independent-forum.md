@@ -114,6 +114,7 @@ Lots of user subdomains to choose from:
 ### lobste.rs
 
 * https://lobste.rs/
+* https://github.com/lobsters/lobsters
 
 ### kohlchan.net
 
@@ -134,6 +135,7 @@ Lots of user subdomains to choose from:
 * Filling of Google reCAPTCHA may be required before actions such as submitting posts
 * browsing is DDoS protected by Cloudflare & hCAPTCHA
 * API after payment
+* proprietary
 
 ### stackoverflow.com
 
@@ -165,6 +167,11 @@ Lots of user subdomains to choose from:
 ### news.ycombinator.com
 
 * https://news.ycombinator.com/
+
+Source:
+
+* https://web.archive.org/web/20090728102853/https://www.ycombinator.com/arc/news.6sep06.arc
+* https://github.com/arclanguage/anarki/blob/master/apps/news/news.arc
 
 ## Archivers
 
