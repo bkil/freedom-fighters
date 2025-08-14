@@ -528,7 +528,7 @@ Lásd még:
 * Indico https://events.gnome.org/
   * https://github.com/indico/indico
 * Gandi E-Rate kedvezmény domain és tárhely csomagokra
-* Rocket.Chat https://chat.gnome.org/
+* megszűnt: https://chat.gnome.org/
 * https://wiki.gnome.org/Infrastructure/NewAccounts
   * NextCloud https://cloud.gnome.org/
   * BigBlueButton https://meet.gnome.org/
