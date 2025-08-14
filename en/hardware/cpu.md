@@ -195,6 +195,11 @@ Write-once, read-multiple:
 
 * https://en.wikipedia.org/wiki/Punched_tape
 * https://en.wikipedia.org/wiki/Punched_card
+* plotter
+
+Write-only:
+
+* 3D printer
 
 Read-write:
 
