@@ -54,6 +54,13 @@
 * link: TCP
 * service: HTTP, HTTPS
 
+### Pangolin
+
+* https://github.com/fosrl/pangolin
+* https://pangolin.fossorial.io/auth/signup
+* link: WireGuard
+* service: UDP, TCP, HTTP, HTTPS
+
 ### sish
 
 * https://github.com/antoniomika/sish
