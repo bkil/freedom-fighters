@@ -20,6 +20,7 @@ The main difference between forums and chat is that content on forums is usually
 ### auragem ask
 
 * gemini://auragem.letz.dev/~ask/
+* gemini://auragem.ddns.net/~ask/
 * https://gitlab.com/clseibold/auragem_sis/-/tree/main/gemini/ask?ref_type=heads
 * requires registration to ask, but no data is collected at all: a username is pinned to a possibly randomly generated client certificate
 
@@ -32,6 +33,11 @@ The main difference between forums and chat is that content on forums is usually
 * https://bbj.tildeverse.org/
 * https://bbj.envs.net/
 * BBS with registration
+
+### Bubble BBS
+
+* gemini://bbs.geminispace.org/
+* certificate based anonymous registration
 
 ### Discourse
 
