@@ -68,7 +68,7 @@
 
 ## Mátrix homeszerverek
 
-* https://github.com/ara4n/matrixservers#matrix-server-list
+* https://web.archive.org/web/20241201181545/github.com/ara4n/matrixservers#matrix-server-list
 * https://glowers.club/wiki/doku.php?id=wiki:newfriends#what_homeserver_should_i_use
 * https://hello-matrix.net/public_servers.php
 * https://matrix.grin.hu/rooms/
