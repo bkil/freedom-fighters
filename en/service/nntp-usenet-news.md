@@ -83,11 +83,6 @@
 * web-based
 * backend is eternal-september.org
 
-### novabbs.com
-
-* https://www.novabbs.com/common/grouplist.php
-* web-based
-
 ### nntp4.net
 
 * https://news.nntp4.net/
@@ -303,6 +298,18 @@ Open peers:
 * https://en.wikipedia.org/wiki/Google_Groups
 
 > Google Groups would end support posting or viewing new Usenet content on February 22, 2024, with existing archives remaining available.
+
+### novabbs.com
+
+* went defunct in 2025
+* `https://www.novabbs.com/common/grouplist.php`
+* web-based
+
+### novabbs.pugleaf.net
+
+* https://web.archive.org/web/20250822115027/https://novabbs.pugleaf.net/
+* https://web.archive.org/web/20250729064305/https://rocksolid-us.pugleaf.net/
+* https://news.admin.peering.narkive.com/9LhD8CdF/announcement-first-go-pugleaf-node-online
 
 ## References
 
