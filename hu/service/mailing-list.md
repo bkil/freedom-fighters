@@ -44,6 +44,20 @@ Hasznos opcionális szolgáltatások:
 
 * https://lists.autistici.org/splash/index.en.html
 
+### debian.org
+
+Registration:
+* https://www.debian.org/MailingLists/HOWTO_start_list
+* https://www.debian.org/MailingLists/
+
+> The mailing lists exist to foster the development and use of Debian.
+
+Content:
+* https://lists.debian.org/completeindex.html
+* https://www.debian.org/MailingLists/subscribe
+* https://alioth-lists.debian.net/cgi-bin/mailman/listinfo
+* https://alioth-lists-archive.debian.net/pipermail/
+
 ### emaildodo.com
 
 * https://emaildodo.com/pricing.php
