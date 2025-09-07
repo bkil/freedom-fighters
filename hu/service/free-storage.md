@@ -56,6 +56,29 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
 * zero-knowledge
 * böngészős-, asztali- és mobilalkalmazással
 
+### NextCloud
+
+* https://buy.thegood.cloud/en/individuals
+* https://clients.webo.hosting/cart/nextcloud/
+* https://cloud.tab.digital/
+* https://disroot.org/en/services/nextcloud
+* https://github.com/nextcloud/providers/blob/7ce54772fdee748adcbafa2f6fcf46f6c1ac2479/README.md
+* https://help.nextcloud.com/c/hosting/14
+* https://help.nextcloud.com/t/a-list-of-hosters/193327
+* https://nextcloud.com/sign-up/
+* https://nextcloud.com/wp-json/signup/providers
+* https://portal.owndrive.com/index.php/order/main/packages/freedrive/?group_id=3
+* https://shadow.tech/de/drive/offers/
+* https://woelkli.com/en/packages
+* https://www.hosting.de/nextcloud/managed-nextcloud/#details
+* https://www.tcrserver.de/nextcloud
+* https://www.vioffice.de/portfolio/pricing/
+* https://www.zaclys.com/#famille
+
+Germany:
+
+* https://cloud.telekom-dienste.de/tarife
+
 ## Etikus alternatívák
 
 ### Proton Drive

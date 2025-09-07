@@ -119,11 +119,9 @@ You can read more about this feature here:
 
 ### NextCloud
 
-* https://github.com/nextcloud/providers/blob/7ce54772fdee748adcbafa2f6fcf46f6c1ac2479/README.md
-* https://nextcloud.com/sign-up/
-* https://shadow.tech/drive
-* https://help.nextcloud.com/t/a-list-of-hosters/193327
-* https://help.nextcloud.com/c/hosting/14
+See:
+
+[../../hu/service/free-storage.md#user-content-NextCloud](../../hu/service/free-storage.md#user-content-NextCloud)
 
 ### Rocket.Chat
 
