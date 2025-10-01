@@ -92,31 +92,27 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 
 * https://dimension.sh/
 * http://hackers.cool/
-* http://palvelin.club/ - finn
 * http://pebble.ink/
 * http://protocol.club/ - várólistás
 * https://rawtext.club/
 * https://www.remotes.club/
-* https://salyut.one/ - FreeBSD
 * http://skylab.org/ - FreeBSD
 * https://southlondon.cc/
 * https://squiggle.city/
-* https://texto-plano.xyz/
 * https://texto-plano.xyz/ OpenBSD, spanyol
-* https://theasylum.team/ - IRC bemutatkozás után
 * https://thunix.net/
   * Minetest, Minecraft, webmail, email, Tor, BZFlag, LAMP hosting, Django hosting, Wireguard VPN, ZNC, TLDP mirror
-* https://tilde.cafe/
 * https://tilde.fun/
 * https://tilde.institute/ OpenBSD
 * https://ttylde.karx.xyz/
 * https://yourtilde.com/
 * https://xinu.me/ - spanyol
-* https://trash.town/signup.html
 * https://tilde.pt/ portugál
 * https://vern.cc/
-* https://piepi.art/
 * https://projectsegfau.lt/pubnix
+* https://fr.tild3.org/
+* https://bonn.cafe/
+* https://goober.cloud/
 
 ## Független tartós szolgáltatók
 
@@ -125,7 +121,6 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * http://bitcoinshell.mooo.com/
 * http://m-net.arbornet.org/free_shell_accounts.php
 * https://freeshell.de/register/ papír képeslapot kér
-* https://www.arieshosting.net/ papír képeslapot kér
 * https://allamoox.wixsite.com/ashellz
 * https://yunix.net/whatisyunix
 * https://www.fromhell.ee/
@@ -134,8 +129,9 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 
 ### geidontei.chaotic.ninja
 
-* https://geidontei.chaotic.ninja/
+* `https://geidontei.chaotic.ninja/`
 * https://chaotic.ninja/register/
+* megszűnt
 
 ### blinkenshell
 
@@ -226,6 +222,34 @@ virtuális gépen
 * BBS fórum
 * email
 * több mint 365 nap inaktivitás után deaktiválnak
+
+### Megszűnt
+
+* `https://crime.team/`
+* `https://heathens.club/`
+* `https://hextilde.xyz/`
+* `https://nand.club/`
+* `https://palvelin.club/` - finn
+* `https://pebble.ink/`
+* `https://piepi.art/`
+* `https://radiofreqs.space/`
+* `https://salyut.one/` - FreeBSD
+* `https://southlondon.cc/`
+* `https://theasylum.team/` - IRC bemutatkozás után
+* `https://tilde.amcforum.wiki/`
+* `https://tilde.best/`
+* `https://tilde.cafe/`
+* `https://tilde.cat/`
+* `https://tilde.center/`
+* `https://tilde.org.nz/`
+* `https://tilde.pw/`
+* `https://tildespark.ddns.net/`
+* `https://trash.town/signup.html`
+* `https://unix.lgbt/`
+* `https://wilde.ftp.sh/`
+* `https://www.arieshosting.net/` papír képeslapot kér
+* `https://www.tildecow.com/`
+* `https://yourtilde.com/`
 
 ## Külső listák
 
