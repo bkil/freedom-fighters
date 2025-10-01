@@ -26,7 +26,8 @@ The main difference between forums and chat is that content on forums is usually
 * https://www.ircdriven.com/search/
 * https://netsplit.de/channels/
 * https://kiwiirc.com/search
-* https://search.mibbit.com/
+* https://irc4fun.net/channels/
+* discontinued: `search.mibbit.com`
 
 ### Mattermost
 
