@@ -52,6 +52,7 @@ References:
 * https://github.com/topics/twtxt-client
 * https://github.com/topics/twtxt
 * https://github.com/buckket/twtxt#user-content-contributions
+* https://texudus.readthedocs.io/en/latest/
 
 ## Client suggestions
 
@@ -263,7 +264,7 @@ Access-Control-Allow-Origin: *
 
 ### Feed health indication
 
-* A user could see the health of each followed feed
+* A user could see the health of each followed feed and share it via #feed_health_recording
 * HTTP redirect for #backup_accounts
 * HTTP 4xx, 5xx, timeout, HTML error page
 * Linter: empty file, obvious syntax errors, parser warnings
@@ -314,6 +315,16 @@ As per #link_preview
 
 ## Protocol suggestions
 
+### Feed health recording
+
+If the client notices that a feed they had subscribed to earlier fails to fetch for days, it should record the dates for the first failing fetch after the most recent successful fetch and of the most recent failing fetch, and change its respective `follow` subscription key to:
+
+```
+# gone = foo 2001-08-31 2001-10-01 http://t.example/
+```
+
+If the feed fails to fetch for a prolonged period of time (30 days), any interactive clients, discovery directories and non-monitoring tools should not fetch the feed any more or recommend it for others in the future. The nick should be omitted or renamed for privacy reasons, but mentions in the feed content will then need to be updated.
+
 ### Subaccounts
 
 * A user could regularly publish content and reply in a few very distinct categories of interest with little expected overlap in followers
@@ -337,7 +348,7 @@ As per #link_preview
 
 * Pseudo-forums of categorical feed bookmark sets where no interaction is required on part of the feed: #directory
 * Ideally, a forum should also act as a mirror (see #mirroring section) and for efficiency, it should intersperse messages based on timestamps (i.e., it could be understood to be a bot who reposts content from members), potentially served as a twtxt registry file
-* Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass before allowing this.
+* Messages are proprietary to their submitter and will get hidden after the member leaves the group (or #feed_deletion ), but the submitter may attribute individual messages to the forum account with a slash command to waive this right. At least a minimal amount of time must pass since posting the message before allowing this.
 * Members should create a separate subaccount to store their answers for each forum they participate in
 * A member may reuse a single subaccount between strongly related forums to facilitate cross-posting
 * A member may indicate that they only wish to broadcast posts that mention the forum user
@@ -346,6 +357,7 @@ As per #link_preview
 * A forum may indicate that all broadcast posts should be considered to carry a set of hashtags for search engines
 * A member may indicate that all their posts broadcast towards the forum should be considered to carry a set of hashtags for search engines
 * Sticky post links in metadata about detailed topic and rules
+* Each forum may specify quotas such as maximum number of messages per day and per hour per member, maximum number of characters per post, additional imposed delay before forwarding each post. Disable posting of URLs. Force grammar checking.
 * See also: #forum_access_control
 * https://git.mills.io/yarnsocial/yarn/issues/325
 * https://git.mills.io/yarnsocial/yarn/issues/344
@@ -389,8 +401,8 @@ As per #link_preview
 ### Calendar events
 
 * Time, place, description (website, end time)
-* Allow confirmed members to comment
-* Allow participants and guests to RSVP
+* Allow confirmed participants to comment
+* Allow members and guests to RSVP
 * Consider combining with the following features: #forums #aggregated_message_reactions #webhooks #email_mentions
 * https://aaronparecki.com/2019/12/21/4/indieweb-events
 * https://indieweb.org/rsvp#How_to_publish
@@ -432,6 +444,7 @@ As per #link_preview
 * Honor #feed_deletion #redaction #forked_message_correction
 * Run on a separate IP address so it can be blocked
 * Support gzip and brotli for HTTP compression
+* You must not republish the content of others without their consent to honor privacy and copyright
 * https://en.wikipedia.org/wiki/Noindex
 * https://en.wikipedia.org/wiki/Robots_exclusion_standard
 * https://gemini.circumlunar.space/docs/companion/robots.gmi
@@ -479,12 +492,12 @@ As per #link_preview
 
 * A user must be able to both use the native system and also keep using external accounts on bridged platforms
 * Bridges may operate 24/7 and with lower latency than a client
-* Exactly one feed among the slices must be a main slice and it must be marked within each feed (`# main = http://example`)
+* Exactly one feed among the slices must be a main slice and it must be marked the same within each feed (`# main = http://example`)
 * All slices must be interlinked to signal trust (`# slice = http://example`)
 * The main slice may mark any other slice as distrusted (`# unslice = http://example`)
 * A user should see posts from all of their slices under a single unified timeline
 * A user should not be pinged by their own posts within other slices
-* Posts by all slices of a given user should be attributed to the same user account and should be mostly indistinguishable on the interface for others
+* Posts by all slices of a given user should be attributed to the same user account and should be mostly indistinguishable on the interface for other viewers
 * Following a feed should follow all sibling slices at the same time
 * Each slice should be signed with independent keys
 * A user may aggregate and sign posts from all of their slices again to their main slice
@@ -503,7 +516,8 @@ As per #link_preview
 
 Use case:
 
-* A user may publish their feed in a subset of formats: with or without CORS, twtxt.txt, Atom, CSS, JSON, prerendered HTML, txt in HTML
+* A user may publish their feed in a subset of formats: with or without CORS, twtxt.txt (manually edited), yarnd txt (with hashes), Atom, CSS, JSON, JSONP, prerendered HTML, txt in HTML
+* #incremental_updates is only possible with CORS raw txt files (and further exposed range headers?)
 * It might be feasible to host them under the same path with different file extensions
 * Users may also be #mirroring feeds of other users
 * Update the set of references everywhere after one is migrating between #backup_accounts via #forked_message_correction
@@ -515,6 +529,37 @@ Mechanism:
 * The client could save multiple round trips of indirection, checking for CORS and existence of alternatives
 * The mapping could be done inline or via metadata at the beginning of the feed file
 * See also #cors_headers #cors_avoidance #search_engine_optimization #mapping #static_html_rendering
+
+```
+# alternate = html0,twtxt,cors http://a.example/tw.htm
+# alternate = html5,twtxt,cors http://a.example/tw.html
+# alternate = atom http://a.example/tw.xml
+# alternate = yarnd,cors http://yarn.example/user/twtxt.txt
+# alternate = twtxt http://a.example/tw.txt
+# alternate = json,cors http://a.example/cors.json
+# alternate = json http://a.example/server.json
+# alternate = jsonp0 http://a.example/tw0.js
+# alternate = jsonp6,twtxt http://a.example/tw6.js
+# alternate = cssp http://a.example/twp_.css
+```
+
+Content of html5 can only be accessed on an up to date Big Tech engine, while html0 can also be used on a lightweight engine based on gemiweb0. The rendered HTML profile may also contain the raw twtxt as a polyglot, such as:
+
+```
+<!DOCTYPE html><html><head><meta charset=utf-8></head><body><form name=f><textarea name=t>
+2001-02-03 Hello
+2001-02-04 world!
+# </textarea></form><script src=twtxt.js></body></html>
+```
+
+A jsonp0 file must not use syntax outside the restricted JS0. jsonp6 may use ES2015 (ES6 JavaScript) syntax. The latter allows for optionally creating a polyglot file which parses almost perfectly both as raw twtxt and which can execute as JSONP (if the host can't or doesn't want to set the `Access-Control-Allow-Origin: *` HTTP header). Its mime type must correspond to js. For example:
+
+```
+jsonp(`
+2001-02-03 Hello
+2001-02-04 world!
+# `);
+```
 
 ### Static HTML rendering
 
@@ -540,16 +585,16 @@ Mechanism:
 
 ### Append-only metadata updates
 
-* Interpret and generate all metadata in a feed in a way that allows for updates that are offset-preserving and enable append-only following
+* Interpret and generate all metadata in a feed in a way that allows for updates that are offset-preserving and enable append-only following (i.e., fetch using HTTP range request)
 * For scalar keys, use the last occurrence of the key and undefine the key if set to the empty value
 * For multivalued keys (follow, link, mention), if the key is prefixed with minus, undo its effect (e.g., `# -follow = http://test.example` )
 * For `link`, use the last occurrence per URL for the description
-* For multivalued keys that possess subkey uniqueness semantics (mention), use for the last occurrence per subkey and interpreted an empty value as cancellation
+* For multivalued keys that possess subkey uniqueness semantics (mention), use the last occurrence per subkey and interpret an empty value as cancellation
 * For `follow`, interpret the special nick of `-` as cancellation (e.g., `# follow = - http://test.example` )
-* The effect of a change should only be visible after the modification (e.g., renaming the alias of a follower would not need to rewrite mentions in previous posts)
+* The effect of a change should only be visible in messages following the modification (e.g., renaming the alias of a follower would not need to rewrite mentions in previous posts)
 * Insert the special meta command line of `# reloadFeed = 1` to the exact tail byte offset if in-place modifications were made to the earlier parts of the feed that could not be represented as patches or which resulted in relocation of posts
 * If the whole feed could be made append-only, #federated_message_identifiers may be replaced with file offset
-* Should state this invariant of feed via `# appendOnly = 1`
+* Should state this invariant of a feed via `# appendOnly = 1`
 
 ### Feed deletion
 
@@ -644,7 +689,7 @@ Mechanism:
 * Idea#2: Each user who comments on a given thread should mirror all #federated_message_identifiers (or at least their feed URL) of siblings, all children to this message and on each level towards the root, all predecessor siblings. This enables resilience against parent redaction.
 * Don't mirror obsolete ones affected by #redaction or #forked_message_correction
 * Don't mirror message content in order to respect privacy
-* A user who comments on the thread may decide to rearrange the thread or hide (via #redaction ) any comment from their followers viewing the thread through their timeline. They will be notified about any alteration.
+* A user who comments on the thread may decide to rearrange the thread or hide (via #redaction ) any comment from their followers viewing the thread through their timeline. The viewer should be notified about any alteration.
 * Allow a commenter editing their comment to fork off a question to a new disjoint thread or to position the reply under another, more on-topic thread via #forked_message_correction and others can suggest the same via #message_correction_suggestion
 * TODO: For mass scaling, it might be desirable to only list the URLs of accounts of all commenters or if this is still massive, provide for handling as #forums and listing the URLs of trusted #mirroring nodes. Note that such a scale is actually a degenerate use for threading in the real world, but consider whether unifying #threads and #forums would be a feasible workaround.
 * https://dev.twtxt.net/doc/twtsubjectextension.html
@@ -687,7 +732,7 @@ Separating these two links allows for the user or moderator to either reply to a
 * Broadcast a suggested rewording or #redaction for the author
 * They could accept it to be applied through #forked_message_correction
 * After the edit is applied, the edit suggestion could be removed
-* Help captioning previewable content such as multimedia
+* Help with accessibility captioning previewable content such as multimedia
 * The suggestion may come from outside the followers of the author through either forwarding (unreviewed) or a vow (review) by shared contacts (or via moderators in case of #forums )
 
 ### Aggregated message reactions
@@ -704,18 +749,21 @@ Separating these two links allows for the user or moderator to either reply to a
 * For mentions of people who we don't follow
 * Either a dedicated real time, self-hosted endpoint
 * Or one or more registries used by us along with multiple people
-* A registry would then store and forward these mentions later by other private means: webhook, #uri_query_push , #email_mentions , XMPP, etc. or each user may poll the registry
+* A registry would then store and forward these mentions later by other private means: webhook, #uri_query_push , #email_mentions , XMPP, SIP, ActivityPub, Matrix, web guestbook or comment widget on webpage builders, etc. or each user may poll the registry
 * Might consider also using the User-Agent HTTP request header for this where supported
 * A user must list all of their pending outgoing hooks within their feed to authenticate the request, otherwise it should be disregarded. I.e., in case of a follow request, a counter-follow must already be present.
 * See #uri_query_push
 * http://superkuh.com/blog/2020-01-10-1.html
 
+txtnix mentioned a similar feature, but never gave a concrete syntax recommendation or shared a backend that consumed it:
+* https://github.com/mdom/txtnix#user-content-plugins
+
 ### Email mentions
 
 * If somebody is not following us
 * Or if we have not received a #read_receipt from them for a long time (24 hours?)
-* They can broadcast their email address in the metadata
-* We can send an email to them to notify about the mention (follow request)
+* They can broadcast their email address, a fixed subject and PGP public key in the metadata (e.g., using a mailto: URI)
+* We can send a PGP-signed email (to reduce spam) to them to notify about the mention (follow request)
 * See #webhooks
 
 ### URI query push
@@ -745,7 +793,8 @@ Separating these two links allows for the user or moderator to either reply to a
 * The consent must be considered expired after a few months of inactivity to protect privacy and right to be forgotten
 * All such metadata including its update date should be signed by the author
 * Propagating clients should share the index of consenting feeds ever seen among each other via a dedicated file.
-* If a feed fails to be fetched, propagating clients may sign its entry with mentioning the date of the first failing fetch after the most successful fetch and the number of unique days of failure. This should provide testimony for deleting the feed from the index more rapidly.
+* If a feed fails to be fetched, propagating clients may sign its entry with mentioning the date of the first failing fetch after the most recent successful fetch and the number of unique days of failure. This should provide testimony for deleting the feed from the index more rapidly.
+* See also: #feed_health_recording
 * Propagating clients may prune the index to honor their storage quota. They may use heuristics of maximizing reach or utility within the network.
 
 Related:
