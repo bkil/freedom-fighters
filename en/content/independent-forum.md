@@ -237,7 +237,7 @@ See:
 
 ### ponychan.net
 
-* `https://www/ponychan.net/`
+* `https://www.ponychan.net/`
 * https://github.com/savetheinternet/Tinyboard
 
 ## References
