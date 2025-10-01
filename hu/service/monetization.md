@@ -69,6 +69,7 @@ Lehet kampányszerű vagy rendszeres
 * https://en.wikipedia.org/wiki/Category:Crowdfunding_platforms
   * http://liberapay.com/
   * https://en.wikipedia.org/wiki/Patreon
+  * https://thanks.dev/
   * https://en.wikipedia.org/wiki/DonorBox
 * https://en.wikipedia.org/wiki/Micropayment#Recent_systems
   * https://en.wikipedia.org/wiki/Flattr
