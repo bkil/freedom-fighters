@@ -477,3 +477,7 @@ Lásd még:
 ## Kritika
 
 * https://researchasahobby.com/full-list-eig-hosting-companies-brands/
+
+## Továbbiak
+
+* https://github.com/libresh/awesome-librehosters
