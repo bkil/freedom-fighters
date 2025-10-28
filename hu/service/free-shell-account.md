@@ -79,6 +79,7 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * http://rw.rs/
 * https://texto-plano.xyz/
 * https://www.thunix.net/
+  * Minetest, Minecraft, webmail, email, Tor, BZFlag, LAMP hosting, Django hosting, Wireguard VPN, ZNC, TLDP mirror
 * https://tilde.club/
 * https://tilde.guru/
 * https://tilde.institute/
@@ -100,8 +101,6 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://southlondon.cc/
 * https://squiggle.city/
 * https://texto-plano.xyz/ OpenBSD, spanyol
-* https://thunix.net/
-  * Minetest, Minecraft, webmail, email, Tor, BZFlag, LAMP hosting, Django hosting, Wireguard VPN, ZNC, TLDP mirror
 * https://tilde.fun/
 * https://tilde.institute/ OpenBSD
 * https://ttylde.karx.xyz/
@@ -113,6 +112,9 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://fr.tild3.org/
 * https://bonn.cafe/
 * https://goober.cloud/
+* https://tilde.32bit.cafe/
+* https://tilde.horse/
+* https://zbeul.party/
 
 ## Független tartós szolgáltatók
 
@@ -126,6 +128,7 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://www.fromhell.ee/
 * https://platinum.edu.pl/en/welcome-at-platinum-linux-non-profit-servers-website/
 * http://netburst.org/ssh-access Discord
+* https://pico.sh/ https://pgs.sh/
 
 ### geidontei.chaotic.ninja
 
@@ -223,6 +226,10 @@ virtuális gépen
 * email
 * több mint 365 nap inaktivitás után deaktiválnak
 
+## Tervezett
+
+* tilde.red
+
 ### Megszűnt
 
 * `https://crime.team/`
@@ -257,3 +264,4 @@ virtuális gépen
 * https://aruljohn.com/freeshell/
 * https://tildeverse.org/members/
 * https://tilde.wiki/wiki/Known_tildes
+* https://list.tilde.link/
