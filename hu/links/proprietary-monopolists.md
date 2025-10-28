@@ -180,6 +180,7 @@
 - https://spyware.neocities.org/articles/discord.html
 - https://stallman.org/discord.html
 - https://www.forbes.com/sites/thomasbrewster/2019/01/29/discord-the-2-billion-gamers-paradise-coming-to-terms-with-data-thieves-child-groomers-and-fbi-investigators/
+- https://www.theverge.com/news/792032/discord-customer-service-data-breach-hack
 
 ## Slack
 
