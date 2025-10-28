@@ -74,6 +74,7 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
 * https://www.tcrserver.de/nextcloud
 * https://www.vioffice.de/portfolio/pricing/
 * https://www.zaclys.com/#famille
+* https://vern.cc/eng/services
 
 Germany:
 
