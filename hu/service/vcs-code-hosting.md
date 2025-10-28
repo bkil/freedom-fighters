@@ -310,3 +310,4 @@ A regisztrációkat tipikusan egyenként hagyják jóvá az üzemeltetők.
 * https://www.ubuntubuzz.com/2020/02/ethical-code-hosting-services-in-2020.html
 * https://www.gnu.org/software/repo-criteria-evaluation.html
 * https://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities
+* https://wiki.p2pfoundation.net/List_of_Community-Hosted_GitLab_Instances
