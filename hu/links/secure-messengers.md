@@ -5,6 +5,7 @@
 Lásd még:
 
 * [foss-user-guides.md](foss-user-guides.md)
+* [./proprietary-monopolists.md](./proprietary-monopolists.md)
 
 ## Összehasonlító táblázatok
 
@@ -65,4 +66,3 @@ Lásd még:
   * https://old.reddit.com/r/Threema/comments/qn870u/threema_three_strikes_youre_out/hjxi28l/?context=3
 * https://mtpsym.github.io/ _Security Analysis of Telegram (Symmetric Part)_
 * https://words.filippo.io/dispatches/telegram-ecdh/ _THE MOST BACKDOOR-LOOKING BUG I’VE EVER SEEN: discovered and fixed in Telegram's self-rolled cryptographic protocol about seven years ago_
-* https://spyware.neocities.org/articles/discord.html
