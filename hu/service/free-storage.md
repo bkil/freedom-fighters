@@ -80,6 +80,10 @@ Germany:
 
 * https://cloud.telekom-dienste.de/tarife
 
+OwnCloud:
+
+* https://owncloud.projectsegfau.lt/
+
 ## Etikus alternatívák
 
 ### Proton Drive
