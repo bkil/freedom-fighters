@@ -48,6 +48,10 @@ The main difference between forums and chat is that content on forums is usually
 
 * https://www.mumble.com/serverlist/
 
+### Spacebar
+
+* https://fermi.chat/channels/@me
+
 ### ssh-chat
 
 * https://github.com/shazow/ssh-chat
