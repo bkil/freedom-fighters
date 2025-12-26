@@ -28,6 +28,7 @@ Gemini:
 * gemini://gemplex.space/search?gemini
 * gemini://kennedy.gemi.dev/search?gemini
 * gemini://tlgs.one/
+* https://tlgs.one/
 * gemini://auragemhkzsr5rowsaxauti6yhinsaa43wjtcqxhh7fw5tijdoqbreyd.onion/
 
 ## Independent with index
@@ -294,6 +295,14 @@ Gemini:
 * https://github.com/RimoChan/sese-engine
 * https://github.com/YunYouJun/sese-engine-ui
 * https://sese.yyj.moe/search?q=
+* FOSS
+* own index
+* requires JavaScript
+
+### vyntr.com
+
+* https://vyntr.com/
+* https://github.com/outpoot/vyntr
 * FOSS
 * own index
 * requires JavaScript
@@ -608,6 +617,331 @@ Crawler roots:
 * https://domainsproject.org/
 * https://github.com/tb0hdan/domains
 * https://github.com/Kukei-eu/spider/blob/914b8dfffc10cb3a948561aef2bf86937d3a0b2e/index-sources.js
+
+## TODO
+
+https://2me.global
+https://www.activesearchresults.com
+https://www.alltheinternet.com
+https://alohafind.com
+http://www.amidalla.de (finds websites not pages within websites)
+https://www.anoox.com
+https://www.aol.ca
+https://www.artadosearch.com (Turkish)
+https://www.askjeeves.net (now Google)
+https://www.base-search.net
+https://www.blogsearchengine.org
+https://bonzamate.com.au (Australian search engine for and by Australians)
+https://breachdirectory.org
+https://www.chatnoir.eu
+https://www.crawlson.com
+https://coccoc.com/search (Vietnamese)
+https://www.daum.net (Korean)
+https://www.dogpile.com
+https://www.donttrack.us (now DuckDuckGo)
+https://www.dsearch.com
+https://www.entireweb.com
+https://www.ekoru.org
+https://en-int.seekweb.com (uses many search engines)
+https://www.fastbot.de (German)
+https://www.findresultsnow.com
+https://fireball.de
+https://freespoke.com
+https://glowstery.com
+https://www.gnomit.com (finds websites not pages within websites)
+https://www.gogoprivate.com
+https://www.goodgopher.com
+https://www.homeandgardenideas.com
+https://www.hotbot.com
+https://info.com
+https://infospace.com
+https://intelx.io
+https://www.izito.ca
+http://kaz.kz (Kazakhstanian and Russian)
+https://kids.kiddle.co
+https://kozmonavt.ml (Russian) (Finds websites not pages within websites)
+https://www.lukol.com
+https://luxxle.com
+https://mail.ru (Russian)
+https://www.millionshort.com
+https://www.moose.at (German)
+https://netzzappen.com
+https://www.nona.de
+https://northboot.xyz
+https://www.nowtopresults.com
+https://oceanhero.today (uses Bing)
+https://oh-aha.com
+https://www.onesearch.com
+https://www.oscobo.com
+https://www.pdfdrive.com
+https://peekier.com
+https://plumb.one
+https://privacytools.io
+https://www.privacywall.org
+https://private.sh
+https://www.reference.com
+https://search.aibull.io
+https://www.search.ch (Switzerland)
+http://search.thunderstone.com/texis/websearch15 (finds websites not pages within websites)
+http://www.search.tl (finds websites not pages within websites)
+https://www.searchandshopping.org
+https://searchcode.com
+https://www.searchforplanet.org
+https://searchmysite.net
+https://search.carrot2.org
+https://search.disconnect.me (now DuckDuckGo)
+https://search.disroot.org
+https://search.fuckoffgoogle.net (no ads)
+https://search.gmx.com/web
+https://search.lixialabs.com
+https://search.ononoki.org
+https://search.sidewalk.com
+https://search.thunderstone.com/texis/websearch15
+http://www.search.tl
+https://search.tosdr.org
+http://www.secretsearchenginelabs.com
+http://www.seekport.com (German)
+https://www.semanticscholar.org (academic PDFs)
+https://www.sengine.info (finds websites not pages within websites)
+https://www.slzii.com
+https://www.sogou.com (Chinese)
+https://solofield.net (Japanese)
+https://spot.ecloud.global
+http://www.suche.tw (German)
+https://tiger.ch (German, uses 8 different search engines)
+https://togoda.com
+https://www.torry.io
+https://www.toutiao.com (Chinese)
+https://www.visymo.com
+https://www.vuhuv.com.tr (Turkish)
+https://vulners.com
+https://web.search.ch
+https://www.wolframalpha.com
+https://www.wow.com
+https://www.yahoo.com
+https://www.yessle.com
+https://www.yioop.com
+https://you.com
+https://youcare.world
+https://www.youdao.com (Chinese)
+https://www.zapmeta.ca
+https://www.whodoyou.com
+
+local=/search.0xcb.dev/
+local=/searx.32bitflo.at/
+local=/search.activemail.de/
+local=/haku.ahmia.fi/
+local=/search.ahwx.org/
+local=/search.albony.xyz/
+local=/alltheinternet.com/
+local=/zoek.anchel.nl/
+local=/andisearch.com/
+local=/recherche.aol.fr/
+local=/search.aol.ca/
+local=/search.aol.com/
+local=/suche.aol.de/
+local=/search.azkware.net/
+local=/librex.baczek.me/
+local=/searx.baczek.me/
+local=/baidu.com/
+local=/baresearch.org/
+local=/search.biboumail.fr/
+local=/searx.bissisoft.com/
+local=/search.bluelock.org/
+local=/boomle.com/
+local=/search.bowlman.org/
+local=/search.bus-hit.me/
+local=/searx.catfluori.de/
+local=/sx.catgirl.cloud/
+local=/recherche.catmargue.org/
+local=/search.aol.co.uk/
+local=/websearch.excite.co.jp/
+local=/searx.com.au/
+local=/librex.yogeshlamichhane.com.np/
+local=/copp.gg/
+local=/search.cronobox.one/
+local=/searx.daetalytica.io/
+local=/darmarit.org/
+local=/suche.dasnetzundich.de/
+local=/search.davidovski.xyz/
+local=/whoogle.dcs0.hu/
+local=/searx.decatec.de/
+local=/search.decentrala.org/
+local=/searx.deepak.pro/
+local=/search.demoniak.ch/
+local=/librex.devol.it/
+local=/searx.devol.it/
+local=/searxng.diadz.de/
+local=/search.disroot.org/
+local=/searx.divided-by-zero.eu/
+local=/dogpile.com/
+local=/searx.dojocasts.com/
+local=/search.dojoro.de/
+local=/search.dr460nf1r3.org/
+local=/searx.dresden.network/
+local=/wgl.frail.duckdns.org/
+local=/dynabyte.ca/
+local=/spot.ecloud.global/
+local=/searx.ericaftereric.top/
+local=/search.ethibox.fr/
+local=/etsi.me/
+local=/eulie.de/
+local=/searx.everdot.org/
+local=/results.excite.com/
+local=/search.fascinated.cc/
+local=/fireball.de/
+local=/searx.foo.li/
+local=/searx.forked.io/
+local=/searx.fossencdi.org/
+local=/whoogle.ftw.lol/
+local=/search.funami.tech/
+local=/search.garudalinux.org/
+local=/search.gcomm.ch/
+local=/gibiru.com/
+local=/gigablast.com/
+local=/searx.gnu.style/
+local=/searx.gotrust.de/
+local=/gruble.de/
+local=/searx.hardwired.link/
+local=/whoogle.hostux.net/
+local=/seeks.hsbp.org/
+local=/search.im-in.space/
+local=/search.jpope.org/
+local=/jsearch.pw/
+local=/searx.juancord.xyz/
+local=/kagi.com/
+local=/trovu.komun.org/
+local=/searx.kvch.me/
+local=/search.laksith.dev/
+local=/searx.lavatech.top/
+local=/search.leptons.xyz/
+local=/search.lgbtq.cool/
+local=/searx.linux.pizza/
+local=/lukol.com/
+local=/whoogle.lunar.icu/
+local=/search.lvkaszus.pl/
+local=/searx.lynnesbian.space/
+local=/go.mail.ru/
+local=/searx.mastodontech.de/
+local=/searx.maxxblow.de/
+local=/search.mdosch.de/
+local=/metacrawler.com/
+local=/metager.de/
+local=/metager.org/
+local=/metager3.de/
+local=/searx.mha.fi/
+local=/mijisou.com/
+local=/millionshort.com/
+local=/search.modalogi.com/
+local=/mojeek.com/
+local=/spot.murena.io/
+local=/mwmbl.org/
+local=/searx.mxchange.org/
+local=/librex.myroware.eu/
+local=/searx.nakhan.net/
+local=/searx.namejeff.xyz/
+local=/search.nebulacentre.net/
+local=/search.neet.works/
+local=/searx.netzspielplatz.de/
+local=/nibblehole.com/
+local=/searxng.nicfab.eu/
+local=/searx.nightmare.life/
+local=/nigma.eu/
+local=/searx.nixnet.services/
+local=/searxng.no-logs.com/
+local=/whoogle.no-logs.com/
+local=/librex.nohost.network/
+local=/timdor.noip.me/
+local=/northboot.xyz/
+local=/search.notrustverify.ch/
+local=/null.media/
+local=/searx.oakleycord.dev/
+local=/offtheradar.info/
+local=/search.ononoki.org/
+local=/ooglester.com/
+local=/searx.openhoofd.nl/
+local=/searx.openpandora.org/
+local=/search.opentunisia.org/
+local=/openworlds.info/
+local=/opnxng.com/
+local=/oscobo.com/
+local=/searx.ouahpiti.info/
+local=/searx.ox2.fr/
+local=/search.pabloferreiro.es/
+local=/paulgo.io/
+local=/peekier.com/
+local=/perfectpixel.de/
+local=/presearch.com/
+local=/priv.au/
+local=/whoogle.privacydev.net/
+local=/search.privacytools.io/
+local=/search.in.projectsegfau.lt/
+local=/search.projectsegfau.lt/
+local=/search.us.projectsegfau.lt/
+local=/librex.pufe.org/
+local=/lite.qwant.com/
+local=/search.rabbit-company.com/
+local=/nova.rambler.ru/
+local=/searx.rasp.fr/
+local=/librex.ratakor.com/
+local=/whoogle-search--replitcomreside.repl.co/
+local=/search.rhscz.eu/
+local=/searx.roflcopter.fr/
+local=/wtf.roflcopter.fr/
+local=/roteserver.de/
+local=/search.rowie.at/
+local=/search.rubberverse.xyz/
+local=/search.sapti.me/
+local=/searchencrypt.com/
+local=/searchx.mobi/
+local=/searx.bar/
+local=/searx.be/
+local=/searx.ch/
+local=/searx.info/
+local=/searx.ir/
+local=/searx.ninja/
+local=/searx.org/
+local=/searx.ro/
+local=/searx.ru/
+local=/searx.run/
+local=/searx.si/
+local=/searx.work/
+local=/searx.xyz/
+local=/searx.semipvt.com/
+local=/search.sethforprivacy.com/
+local=/searx.sev.monster/
+local=/search.seznam.cz/
+local=/search.smnz.de/
+local=/searx.solusar.de/
+local=/searx.sp-codes.de/
+local=/search.spaceint.fr/
+local=/search.spaeth.me/
+local=/search.st8.at/
+local=/search.stinpriza.org/
+local=/suchfeuer.de/
+local=/searx.thefloatinglab.world/
+local=/searx.thegreenwebfoundation.org/
+local=/searx.tiekoetter.com/
+local=/search.tildevarsh.in/
+local=/s.tokhmi.xyz/
+local=/search.trom.tf/
+local=/suche.tromdienste.de/
+local=/s.trung.fun/
+local=/searx.tuxcloud.net/
+local=/unmonito.red/
+local=/lx.vern.cc/
+local=/wg.vern.cc/
+local=/searx.vitanetworks.link/
+local=/gowogle.voring.me/
+local=/webcrawler.com/
+local=/searx.wegeeks.win/
+local=/wiby.me/
+local=/xo.wtf/
+local=/yep.com/
+local=/yippy.com/
+local=/you.com/
+local=/searx.zapashcanon.fr/
+local=/searx.zdechov.net/
 
 ## Defunct
 
