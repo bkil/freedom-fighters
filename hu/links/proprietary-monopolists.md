@@ -168,6 +168,7 @@
 - https://en.wikipedia.org/wiki/Zoom_(software)#Privacy
 - https://www.fsf.org/blogs/community/better-than-zoom-try-these-free-software-tools-for-staying-in-touch Better than Zoom: Try these free software tools for staying in touch
 - https://www.kontalk.org/
+- https://stallman.org/zoom.html
 - http://rss.slashdot.org/~r/Slashdot/slashdot/~3/lw2tTb7MYX0/zoom-deleted-events-discussing-zoom-censorship
 
 ## Discord
