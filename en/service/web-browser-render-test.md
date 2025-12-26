@@ -10,7 +10,7 @@
 * weekly accessibility monitoring for 5 pages
 * browsers: Chrome, Edge, Firefox, Safari
 
-### Cypress
+### Cypress.io
 
 * https://www.cypress.io/pricing
 * https://docs.cypress.io/cloud/account-management/billing-and-usage#Open-Source-Plan
