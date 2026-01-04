@@ -90,6 +90,7 @@
 ### Ben Eater 8-bit breadboard computer
 
 * https://github.com/space1649/8-bit-SAP-Breadboard-Computer-by-Space-Man
+* https://eater.net/8bit
 
 ## From transistors
 
@@ -118,6 +119,12 @@ Manufacturing integrated circuits at home (not recommended):
 
 * https://www.electronicsforu.com/technology-trends/printed-integrated-circuits-that-consist-of-several-hundred-transistors
 * http://sam.zeloof.xyz/
+
+### Tiny Tapeout
+
+It is not plausible to manufacture an ASIC at home. However, many CPU designs in the competition are extremely minimized. Hence porting them to other fabrication technologies might be feasible.
+
+https://tinytapeout.com/chips/
 
 ## Relay
 
