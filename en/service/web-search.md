@@ -122,13 +122,30 @@ Gemini:
 * can be used without JavaScript
 * own index
 
-### Marginalia
+### marginalia-search.com
 
-* https://search.marginalia.nu/
+* https://marginalia-search.com/
 * FOSS, can also be self-hosted
-* https://git.marginalia.nu/marginalia/marginalia.nu
+* requires Anubis with JavaScript
+* own index
+
+### old-search.marginalia.nu
+
+* https://old-search.marginalia.nu/search?query=gemini&js=&adtech=&searchTitle=&profile=&recent=
+* FOSS, can also be self-hosted
 * can be used without JavaScript
 * own index
+
+Source code:
+
+* https://github.com/MarginaliaSearch/MarginaliaSearch
+* https://git.marginalia.nu/marginalia/marginalia.nu
+
+Downloadable database dumps:
+
+* https://downloads.marginalia.nu/exports/
+* https://github.com/MarginaliaSearch/PublicData
+
 
 ### MetaGer
 
