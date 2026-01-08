@@ -164,6 +164,7 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 * https://webmail.vivaldi.net/ 5GB tárhely, max. 20MB/csatolmány, webmail, IMAPs, SMTPs, POP3s, 6 hónap után a weben inaktív fiókokat törlik, Norvégia (Vivaldi Technologies AS)
 * https://mailtie.com/
+* https://simplelogin.io/pricing/
 
 ## Etikus országban fizetős
 
