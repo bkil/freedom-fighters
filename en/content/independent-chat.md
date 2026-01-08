@@ -77,14 +77,14 @@ Encrypted groups are not ideal for public discourse in general, so further devel
 
 Read-only broadcast channels:
 
-* https://i.delta.chat/#0A45953086F0C166D3BAF1D4BB2025496E4C2704&x=MVPi07rQBEmHO4FRb3brpwDe&j=n8mkKqu42WAKKUCx1bQOVh23&s=tsb0YVRembZp445bIquc7WOM&a=adb%40arcanechat.me&n=adb&b=ArcaneChat+Channel
+* https://i.delta.chat/#0A45953086F0C166D3BAF1D4BB2025496E4C2704&x=MVPi07rQBEmHO4FRb3brpwDe&j=n8mkKqu42WAKKUCx1bQOVh23&s=RxuXoa0vhvTs0QLsWM45Ues0&a=adb%40arcanechat.me&n=adb&b=ArcaneChat+Channel
 
 Public groups:
 
 * https://i.delta.chat/#45AC0444EB183B1987225D0D4D688ECC7AE42ECD&a=social%2Dde%40arcanechat.me&n=Bildpunkt%20Sozial&i=fSHNaxy4rMYwKaMsvZvDqn7J&s=B3ZpH_TS3tIMwTY7wPiNXJOg
+* https://i.delta.chat/#515606E9C2F97321BDA08C0B3E9F5021D62B1B84&i=1T4Tm74Y2OPv0WWKYe-kH8BW&s=gLCnTcQX-YNQZ8gwwmDE1bld&a=luanwwjzq%40nine.testrun.org&n=Confluence
 * https://i.delta.chat/#9CB65C898E3AD0C628133BD4C089D214BD536346&a=social-es%40arcanechat.me&n=PixelSocial%20%F0%9F%87%AA%F0%9F%87%B8&i=23RERfRXBQScBpf0dTNRHs75&s=Ch_-qhmLnrMxfK3Ko4w7HCRy
 * https://i.delta.chat/#C753A22A447DE8CA18653B9C7668BC822C0561CA&a=pixsocial%40arcanechat.me&n=PixelSocial&i=sz7HYOnPmjG1WWOclOFlGLFv&s=XJFfgZRHwvTVAvBAQKJxFL2F
-* https://i.delta.chat/#515606E9C2F97321BDA08C0B3E9F5021D62B1B84&i=1T4Tm74Y2OPv0WWKYe-kH8BW&s=gLCnTcQX-YNQZ8gwwmDE1bld&a=luanwwjzq%40nine.testrun.org&n=Confluence
 
 Private groups:
 
