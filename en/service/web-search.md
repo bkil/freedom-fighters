@@ -479,6 +479,9 @@ Downloadable database dumps:
 ### 4get.ca
 
 * https://4get.ca/
+* https://4get.ca/instances
+* https://4get.maid.zone/
+* https://4get.aishiteiru.moe/
 * metasearch engine: DuckDuckGo, Brave, Yandex, Google, Qwant, Yep, Greppr, Crowdview, mwmbl, mojeek, marginalia, wiby, curlie
 * can be used without JavaScript
 * need to solve an image ticker CAPTCHA every 100 search queries (FIXME somehow always asks it, maybe due to cookies?), it works without JavaScript or cookies
