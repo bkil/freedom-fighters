@@ -85,6 +85,7 @@ Public groups:
 * https://i.delta.chat/#515606E9C2F97321BDA08C0B3E9F5021D62B1B84&i=1T4Tm74Y2OPv0WWKYe-kH8BW&s=gLCnTcQX-YNQZ8gwwmDE1bld&a=luanwwjzq%40nine.testrun.org&n=Confluence
 * https://i.delta.chat/#9CB65C898E3AD0C628133BD4C089D214BD536346&a=social-es%40arcanechat.me&n=PixelSocial%20%F0%9F%87%AA%F0%9F%87%B8&i=23RERfRXBQScBpf0dTNRHs75&s=Ch_-qhmLnrMxfK3Ko4w7HCRy
 * https://i.delta.chat/#C753A22A447DE8CA18653B9C7668BC822C0561CA&a=pixsocial%40arcanechat.me&n=PixelSocial&i=sz7HYOnPmjG1WWOclOFlGLFv&s=XJFfgZRHwvTVAvBAQKJxFL2F
+* https://i.delta.chat/#CEE46FBFF1AF7D0A221BDE244ACD3C99A9489AC8&i=2RDgWNoIutgyC_PG1sHYwm0C&s=VsJg0uusOHSz-igbAXF2xZt1&a=k9pzoxitx%40nine.testrun.org&n=DC+Community
 
 Private groups:
 
