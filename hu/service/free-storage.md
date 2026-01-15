@@ -75,6 +75,7 @@ Az API elérés olyan használati eseteket tehet lehetővé, mint a világszint�
 * https://www.vioffice.de/portfolio/pricing/
 * https://www.zaclys.com/#famille
 * https://vern.cc/eng/services
+* https://hostux.network/en/
 
 Germany:
 
