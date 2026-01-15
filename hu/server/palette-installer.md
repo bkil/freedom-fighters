@@ -50,6 +50,11 @@ Lásd még:
 * https://kernelpanic.cafe/drafts/marigoldos.html
 * https://github.com/webmin/webmin
 
+### Synology
+
+* https://github.com/SynoCommunity/spksrc/tree/master/spk
+* https://synocommunity.com/packages
+
 ### Ansible
 
 * https://galaxy.ansible.com/
@@ -61,7 +66,7 @@ Lásd még:
 * https://github.com/Cloudbox/Cloudbox
 * https://github.com/osm-fr/ansible-peertube
 * https://docs.joinpeertube.org/install-unofficial?id=ansible-on-debian
-* https://github.com/JeroenED/Ansible-Role-Friendica
+* https://web.archive.org/web/20201015064208/https://github.com/JeroenED/Ansible-Role-Friendica
 * https://gitlab.com/nodiscc/xsrv/#roles
   * https://github.com/nodiscc/xsrv#user-content-roles
 * https://github.com/Wakoma/Lokal/tree/15905f005a58fba63b3b6f10c24a1c6caa2c1232/roles
@@ -166,6 +171,7 @@ Avagy így csinálják a többiek, akik nem akarnak GUI-ból kattintgatni vagy b
 * https://installatron.com/apps
 * https://netenberg.com/fantastico-scripts.html
 * https://www.plesk.com/extensions/category/web_app/
+* https://www.alwaysdata.com/en/marketplace/
 
 ### unraid.net
 
