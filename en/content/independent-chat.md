@@ -78,6 +78,7 @@ Encrypted groups are not ideal for public discourse in general, so further devel
 Read-only broadcast channels:
 
 * https://i.delta.chat/#0A45953086F0C166D3BAF1D4BB2025496E4C2704&x=MVPi07rQBEmHO4FRb3brpwDe&j=n8mkKqu42WAKKUCx1bQOVh23&s=RxuXoa0vhvTs0QLsWM45Ues0&a=adb%40arcanechat.me&n=adb&b=ArcaneChat+Channel
+* https://i.delta.chat/#932FED725DF45248A40F17F7CE45B8012B118C82&x=J05TCfe1IBinVG8TPBQXWiyJ&j=osCc5BQqO_Hfz99Y2Ft5L4nF&s=KIw5ibE_w_4kIvqkacZOb4zR&a=38a4ns209%40xat.fedi.cat&n=Bot+N5L&b=Nom%C3%A9s+5+L%C3%ADnies+%28Posts%29
 
 Public groups:
 
@@ -104,6 +105,7 @@ Other bots:
 * https://i.delta.chat/#279714071CC59EB4A9943122A3B4FF4BB7264A0E&a=faqbot%40testrun.org&n=FAQ%20Bot&i=PhdQtXTJQkp&s=WAPGhvIBtEy
 * https://i.delta.chat/#2E1267AC03F8D5DF66A77900E8834ECF42B40E08&a=faqbot001%40koffer.szh.homes&n=FAQ%20Bot&i=AIusNLOYgED&s=BYS8Kx_vvpE
 * https://i.delta.chat/#2FE05BD53A28A912A4AA74BF7BE6FD5E547473CC&a=txt2image%40nine.testrun.org&n=Text%20To%20Image&i=cbTmzlMa0-C&s=EWZ_FsPcd0R
+* https://i.delta.chat/#3A1AA7D00655BA5EF141A5BBB2FFB9E3D9C91A95&a=publickey%40nine.testrun.org&n=%F0%9F%94%91%20PGP%20Key%20Bot&i=_XUak8rjLSVeTCMcF7NsYBic&s=vA7-gD16lb-cLHWU2QQJ3qBq
 * https://i.delta.chat/#3CD6F460C18365C226A3115E5D5DCC2B68286A7A&a=simplebot%40testrun.org&n=MASTODON%20BRIDGE&i=vliFxNkyG5I&s=CEHn5i91saa
 * https://i.delta.chat/#43B48FD6AFE0B780E08DEDE70A0DB16EDBE137EC&a=web2pdf01%40bcc.chat&n=Web%20to%20PDF&i=aVeg_0fMaME&s=48WGSWyaIru
 * https://i.delta.chat/#4A7E5FE883D4E8969F2697E8EF7CA3474F072C65&a=web2imgbt%40chatd.de&n=Web%20To%20Image&i=nnQhWLoBXt_&s=b9ZuEWbjojm
