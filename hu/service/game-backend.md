@@ -69,6 +69,7 @@ Bővítményként:
 - https://getgrav.org/downloads/plugins#extras
 - https://marketplace.concretecms.com/marketplace/addons
 - https://www.opencart.com/index.php?route=marketplace/extension&filter_license=0
+- https://github.com/wintercms/awesome-wintercms?tab=readme-ov-file#plugins
 
 ## Python bővítményként
 
