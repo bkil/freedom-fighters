@@ -50,6 +50,7 @@ zcat
 
 ### Others
 
+* https://openwebindex.eu/
 * http://www.bing.com/search?q=url:https://en.m.wikipedia.org/wiki/Main_Page
 * http://search.yahoo.com/search?p=url:https://en.m.wikipedia.org/wiki/Main_Page
 * http://baidu.com/search grep http://cache.baiducontent.com/
