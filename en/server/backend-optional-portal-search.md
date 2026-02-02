@@ -225,3 +225,6 @@ Depending on the replication strategy, synonyms and typos should be either:
 * https://github.com/bartdegoede/python-searchengine
 * https://indieweb.org/search#site_search_with_site_backend_-_level_4
 * https://wiki.nikiv.dev/web/search-engines
+
+https://pagefind.app/
+> Pagefind is a fully static search library that aims to perform well on large sites, while using as little of your users’ bandwidth as possible, and without hosting any infrastructure. Search index is split into chunks, so that searching in the browser only ever needs to load a small subset of the search index. 
