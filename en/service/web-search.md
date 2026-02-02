@@ -17,19 +17,36 @@ Here are some reasons why this is not desirable:
 
 ## Small web
 
-Gopher:
+### GopherVista
 
 * http://gophervista.benjojo.co.uk/query?pg=q&what=0&q=gopher&search.x=0&search.y=0
+* https://github.com/benjojo/gophervista
 
 Gemini:
 
+### Auragem
+
 * gemini://auragem.ddns.net/search/s?gemini
 * gemini://auragem.letz.dev/search/s?gemini
+* https://gitlab.com/clseibold/auragem_sis
+* https://web.archive.org/web/20241009014158/https://gitlab.com/clseibold/auragem_crawler
+
+### Gemplex
+
 * gemini://gemplex.space/search?gemini
+* https://github.com/elektito/gemplex
+
+### Kennedy
+
 * gemini://kennedy.gemi.dev/search?gemini
+* https://github.com/acidus99/Kennedy
+
+### TLGS
+
 * gemini://tlgs.one/
 * https://tlgs.one/
 * gemini://auragemhkzsr5rowsaxauti6yhinsaa43wjtcqxhh7fw5tijdoqbreyd.onion/
+* https://github.com/marty1885/tlgs
 
 ## Independent with index
 
@@ -145,7 +162,6 @@ Downloadable database dumps:
 
 * https://downloads.marginalia.nu/exports/
 * https://github.com/MarginaliaSearch/PublicData
-
 
 ### MetaGer
 
@@ -559,18 +575,14 @@ Downloadable database dumps:
 * https://github.com/chatnoir-eu
 * https://github.com/capjamesg/indieweb-search
 * https://git.mills.io/prologic/spyda
+* https://github.com/meilisearch/meilisearch
+* https://github.com/typesense/typesense
 * https://github.com/presearchofficial
 * https://en.wikipedia.org/wiki/Lemur_Project
 * https://gitlab.com/users/infinitysearch/projects
 * https://github.com/orgs/WordPress/repositories?q=openverse&type=all&language=&sort=
 * https://seekseek.org/technology
 * https://github.com/gigablast/open-source-search-engine
-* https://github.com/benjojo/gophervista
-* https://gitlab.com/clseibold/auragem_sis
-* https://gitlab.com/clseibold/auragem_crawler
-* https://github.com/elektito/gemplex
-* https://github.com/acidus99/Kennedy
-* https://github.com/marty1885/tlgs
 
 ## Monopolists
 
