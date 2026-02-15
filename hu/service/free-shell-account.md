@@ -128,7 +128,6 @@ Egy részüknél tilos a publikusan elérhető szolgáltatások üzemeltetése.
 * https://www.fromhell.ee/
 * https://platinum.edu.pl/en/welcome-at-platinum-linux-non-profit-servers-website/
 * http://netburst.org/ssh-access Discord
-* https://pico.sh/ https://pgs.sh/
 
 ### geidontei.chaotic.ninja
 

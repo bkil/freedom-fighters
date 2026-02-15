@@ -497,6 +497,11 @@ Lásd még:
 
 > anti-fascism, anti-racism, anti-sexism, anti-militarism, non-commercial
 
+### pico.sh
+
+* https://pico.sh/
+* https://pgs.sh/
+
 ### nekoweb.org
 
 * https://nekoweb.org/faq
