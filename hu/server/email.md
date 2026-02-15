@@ -65,6 +65,12 @@
 * SMTP, IMAP
 * DKIM, SPF, DMARC, DANE, MTA-STS
 
+### madmail
+
+https://github.com/themadorg/madmail
+
+> A mad fork of maddy, bringing the madness to mail delivery — optimized for instant, secure messaging with #deltachat.
+
 ## Telepítők
 
 * https://mailcow.email/
