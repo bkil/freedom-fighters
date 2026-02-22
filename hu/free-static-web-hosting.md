@@ -501,6 +501,13 @@ Lásd még:
 
 * https://pico.sh/
 * https://pgs.sh/
+* GeoIP: Austria
+* ASN: ANX Group, anexia.at anexia-it.com
+* NS: netcup.net
+* ASN: DE, Nuernberg AS197540 (Netcup by ANX), AS42473 (Anexia Cloud)
+* facility: DATASIX Vienna
+* protocol: IPv4 and IPv6
+* host: netcup.de KVM Vienna
 
 ### nekoweb.org
 
