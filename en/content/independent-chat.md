@@ -79,6 +79,7 @@ Read-only broadcast channels:
 
 * https://i.delta.chat/#0A45953086F0C166D3BAF1D4BB2025496E4C2704&x=MVPi07rQBEmHO4FRb3brpwDe&j=n8mkKqu42WAKKUCx1bQOVh23&s=RxuXoa0vhvTs0QLsWM45Ues0&a=adb%40arcanechat.me&n=adb&b=ArcaneChat+Channel
 * https://i.delta.chat/#932FED725DF45248A40F17F7CE45B8012B118C82&x=J05TCfe1IBinVG8TPBQXWiyJ&j=osCc5BQqO_Hfz99Y2Ft5L4nF&s=KIw5ibE_w_4kIvqkacZOb4zR&a=38a4ns209%40xat.fedi.cat&n=Bot+N5L&b=Nom%C3%A9s+5+L%C3%ADnies+%28Posts%29
+* https://i.delta.chat/#65496C11C7A166DAF18CB800B17C2AB406A90FC0&x=ZWNnveXpV6wCKPKKTJ_sTJBl&j=J9U2J0jQXa7sqp5T32hWCet6&s=qNoCYiOkJpb6ZUSZcuEcRq9H&a=awohoykgh%40arcanechat.me&n=davio2012&b=Rebelde
 
 Public groups:
 
