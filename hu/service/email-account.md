@@ -116,6 +116,19 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 * 500MB tárhely leveleknek, 500MB tárhely dokumentumoknak
 * csak webalkalmazás és Android, iOS mobil, nincs IMAP, nincs TLS
 
+### message.casa
+
+Email:
+* 128 MB storage
+* 64 email/hour
+* 8 MB attachments
+* unlimited aliases
+
+XMPP:
+* 8-day history
+* 256 contacts
+* 16 members per MUC
+
 ### Protonmail
 
 * https://proton.me/pricing
