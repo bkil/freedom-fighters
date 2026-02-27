@@ -62,6 +62,12 @@
 * AXFR zone transfer
 * dynamic redirection: country, city, ASN, failover, server load balancing via API, custom PHP-like scripts
 
+### Hurricane Electric
+
+* https://dns.he.net/
+* records: A, AAAA, ALIAS, CNAME, CAA, MX, NS, TXT, SRV, SSHFP, SPF, RP, NAPTR, HINFO, LOC, PTR
+* served domains: multiple
+
 ### Hosted.name
 
 * https://hosted.name/
