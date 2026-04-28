@@ -4,6 +4,9 @@
 
 * https://myiphide.com/proxy-site.html
 * http://www.frogfind.com/read.php?a=https://en.m.wikipedia.org/wiki/Main_Page
+* http://www.ipv6proxy.net/
+* https://www.proxfree.com/
+* https://ungleich.ch/en-us/cms/via-ipv6/
 
 ## Needs JavaScript
 
@@ -62,6 +65,8 @@
 * https://vpncentral.com/best-proxy-server/
 * https://www.cloudwards.net/best-free-proxy/
 * https://getproxi.es/proxies-by-country/
+* https://proxyscrape.com/free-proxy-list
+* https://geonode.com/free-proxy-list
 
 ## Live search engine results
 
