@@ -59,6 +59,18 @@
 * https://docs.maildrop.cc/api-reference/overview
 * requires JavaScript
 
+## Registration
+
+### addy.io
+
+* https://addy.io/#pricing
+* available alias domain: 2
+* active user subdomain aliases: unlimited
+* active shared domain aliases: 10
+* bandwidth limit: 10MB/month
+* xxxx@anonaddy.me, xxxx@{NAME}.anonaddy.com
+* PGP encryption
+
 ## References
 
 * https://github.com/FGRibreau/mailchecker/blob/master/list.txt
