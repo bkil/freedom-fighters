@@ -670,6 +670,18 @@ File manager:
 * 5 aldomén rendelkezésre áll
 * saját domén is használható
 
+### cyclic.sh
+
+* https://www.cyclic.sh/pricing/
+* https://github.com/cyclic-software
+* 1GB RAM
+* 10s/kérés
+* 1000 kérés/hó
+* nyelv: JavaScript, Python, Go
+* 1GB DynamoDB
+* 1GB S3
+* 3 cron
+
 ### dc7.us
 
 * http://dc7.us/free-web-hosting.html
