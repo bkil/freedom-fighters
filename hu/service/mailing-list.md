@@ -28,6 +28,7 @@ Hasznos opcionális szolgáltatások:
 ## Külföldi szoftverfejlesztői
 
 * https://sourceforge.net/create/ publikus
+* https://mailman3.com/ FOSS projekteknek ingyen
 
 ## Külföldi általános
 
