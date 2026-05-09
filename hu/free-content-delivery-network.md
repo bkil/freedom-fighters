@@ -151,7 +151,7 @@
 * https://jetpack.com/features/comparison/
 * Számos kiegészítő WordPress funkció
 * Site Accelerator: alapértelmezetten ki van kapcsolva
-* Egyedi tartalok:
+* Egyedi tartalom:
   * Képek: gif, jpg, png
   * 80/HTTP, 443/HTTPS portok
   * automatikus webp újratömörítés
