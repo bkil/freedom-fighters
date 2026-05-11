@@ -455,6 +455,12 @@ Downloadable database dumps:
 * can be used without JavaScript
 * the search result description seems to be summarized with hallucination (Google)
 
+### xprivo.com
+
+* https://www.xprivo.com/search/?q=xprivo+search+engine+crawler
+* source: Qwant
+* requires JavaScript
+
 ## Monopolist proxy
 
 ### DuckDuckGo.com
