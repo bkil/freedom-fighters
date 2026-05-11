@@ -77,9 +77,9 @@
 * nntp://freenews.netfront.net
 * appends an advertising signature line to the end of each message
 
-### newsgrouper.org.uk
+### newsgrouper.org
 
-* https://newsgrouper.org.uk/help.htm
+* https://newsgrouper.org/help.htm
 * web-based
 * backend is eternal-september.org
 
@@ -157,6 +157,11 @@
 
 * nntp://photonic.trudheim.com
 * Linux groups
+
+### planetusenet.com
+
+* https://planetusenet.com/
+* web-based
 
 ### uni-stuttgart.de
 
@@ -292,6 +297,12 @@ Open peers:
 * nntp://tilde.team
 
 ## Discontinued
+
+### aioe.org
+
+* went defunct by 2023
+* `nntp.aioe.org`
+* https://web.archive.org/web/20221224034408/https://www.aioe.org/
 
 ### Google Groups
 
