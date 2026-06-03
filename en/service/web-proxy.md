@@ -28,6 +28,12 @@
 
 * https://github.com/shadowmere-xyz/shadowmere
 * https://old.shadowmere.akiel.dev/
+* https://github.com/igareck/vpn-configs-for-russia/blob/main/README-EN-US.md
+
+### vless
+
+* https://github.com/26info/vless-proxy-list
+* https://github.com/zieng2/wl
 
 ## Residential
 
@@ -67,6 +73,7 @@
 * https://getproxi.es/proxies-by-country/
 * https://proxyscrape.com/free-proxy-list
 * https://geonode.com/free-proxy-list
+* https://freesocks.org/
 
 ## Live search engine results
 
