@@ -94,6 +94,10 @@
 
 ## From transistors
 
+* https://en.wikipedia.org/wiki/Diode_logic
+* https://en.wikipedia.org/wiki/Wired_logic_connection
+* https://en.wikipedia.org/wiki/Diode%E2%80%93transistor_logic
+
 ### FullTr-11
 
 * http://recursion.jp/comp/e/
@@ -113,6 +117,12 @@ Table sized CPU that would be plausible to both review and construct at home:
 * https://monster6502.com/
 * https://news.ycombinator.com/item?id=11703596
 
+### Manufacturing transistors
+
+* https://en.wikipedia.org/wiki/Crystal_detector
+* https://en.wikipedia.org/wiki/Point-contact_transistor
+* https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Early_manufacturing_techniques
+
 ### Manufacturing IC
 
 Manufacturing integrated circuits at home (not recommended):
@@ -127,6 +137,23 @@ It is not plausible to manufacture an ASIC at home. However, many CPU designs in
 https://tinytapeout.com/chips/
 
 ## Relay
+
+* https://en.wikipedia.org/wiki/Mechanical_computer#Electro-mechanical_computers
+* https://en.wikipedia.org/wiki/Category:Electro-mechanical_computers
+
+### Simon
+
+* components: 120 relays, 30 diodes (optimized version: 80 4DPT relays, 86 diodes)
+* 10 cycles per instruction
+* registers: 16 2-bit
+* memory: 5-row paper tape
+
+Instructions:
+* addition, negation, greater than, selection, and, not, or, adc, ngc
+
+References:
+* https://en.wikipedia.org/wiki/Simon_(computer)
+* https://web.archive.org/web/20161207050705/http://www.cs.ubc.ca/~hilpert/e/simon/imp.html
 
 ### Harry Porter 2006
 
@@ -212,8 +239,45 @@ Read-write:
 
 * https://en.wikipedia.org/wiki/Drum_memory
 * https://en.wikipedia.org/wiki/Magnetic-core_memory
+* https://en.wikipedia.org/wiki/Regenerative_capacitor_memory#History
+* https://en.wikipedia.org/wiki/Delay-line_memory#Magnetostrictive_delay_lines
 
 ## Historical
+
+### BINAC
+
+* https://en.wikipedia.org/wiki/BINAC
+* bit-serial
+* memory: 512 words
+* components: 700 vacuum tubes
+
+### Harwell computer
+
+* https://en.wikipedia.org/wiki/Harwell_computer
+* memory: 20 8-digit decimal registers (828 dekatron)
+* components: 480 relays for sequence control, 199 vacuum tube valves for calculation
+
+### Pilot ACE
+
+* https://en.wikipedia.org/wiki/Pilot_ACE
+* memory: 128 32-bit words
+* components: 800 vacuum tubes
+
+### Manchester Baby
+
+* https://en.wikipedia.org/wiki/Manchester_Baby#Programming
+* registers: 32-bit accumulator, program counter
+* memory: 32 words (Williams tube CRT)
+* components: 550 vacuum tube valves, 300 diodes, 250 pentodes
+
+Instructions:
+* jmp: indirect branch,
+* jrp: PC-relative branch,
+* ldn: load from memory and negate,
+* sto: store to memory,
+* sub: subtract memory from accumulator,
+* cmp: skip next instruction if negative,
+* stp: halt
 
 ### Librascope LGP-21
 
