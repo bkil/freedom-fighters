@@ -46,7 +46,15 @@ The main difference between forums and chat is that content on forums is usually
 
 ### Mumble
 
+List:
+* https://www.gametracker.com/search/mumble
+* https://gamemonitoring.net/mumble/servers
 * https://www.mumble.com/serverlist/
+* https://mumist.eu/
+* https://imumble.orgn.nl/servers.php
+
+Scripts:
+* https://github.com/mumble-voip/backend-services
 
 ### Spacebar
 
