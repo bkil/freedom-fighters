@@ -141,9 +141,9 @@ https://tinytapeout.com/chips/
 * https://en.wikipedia.org/wiki/Mechanical_computer#Electro-mechanical_computers
 * https://en.wikipedia.org/wiki/Category:Electro-mechanical_computers
 
-### Simon
+### Edmund Berkeley Simon 1950
 
-* components: 120 relays, 30 diodes (optimized version: 80 4DPT relays, 86 diodes)
+* components: 120 relays, 30 diodes (optimized version: 80 4PDT relays, 86 diodes)
 * 10 cycles per instruction
 * registers: 16 2-bit
 * memory: 5-row paper tape
@@ -244,26 +244,26 @@ Read-write:
 
 ## Historical
 
-### BINAC
+### BINAC 1949
 
 * https://en.wikipedia.org/wiki/BINAC
 * bit-serial
 * memory: 512 words
 * components: 700 vacuum tubes
 
-### Harwell computer
+### Harwell computer 1951
 
 * https://en.wikipedia.org/wiki/Harwell_computer
 * memory: 20 8-digit decimal registers (828 dekatron)
 * components: 480 relays for sequence control, 199 vacuum tube valves for calculation
 
-### Pilot ACE
+### Pilot ACE 1950
 
 * https://en.wikipedia.org/wiki/Pilot_ACE
 * memory: 128 32-bit words
 * components: 800 vacuum tubes
 
-### Manchester Baby
+### Manchester Baby 1948
 
 * https://en.wikipedia.org/wiki/Manchester_Baby#Programming
 * registers: 32-bit accumulator, program counter
@@ -279,7 +279,7 @@ Instructions:
 * cmp: skip next instruction if negative,
 * stp: halt
 
-### Librascope LGP-21
+### Librascope LGP-21 1963
 
 * https://en.wikipedia.org/wiki/LGP-30#LGP-21
 * https://www.e-basteln.de/computing/lgp21/lgp21/
@@ -288,7 +288,6 @@ Instructions:
 
 ### Calculators
 
-* https://en.wikipedia.org/wiki/Mechanical_computer
 * https://en.wikipedia.org/wiki/Analog_computer
 
 ## From raw materials
