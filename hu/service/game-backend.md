@@ -104,8 +104,9 @@ Bővítményként:
 * https://github.com/discourse/discourse/blob/main/docs/PLUGINS.md
 * https://github.com/discourse/discourse/blob/main/lib/plugin/metadata.rb
 * https://github.com/discourse/discourse/tree/main/plugins
+* https://github.com/discourse/all-the-plugins
 * https://www.discourse.org/plugins
-* https://meta.discourse.org/c/plugin/22
+* https://meta.discourse.org/c/customization/plugin/22
 * https://github.com/topics/discourse-plugin
 
 ## Frontend widget
