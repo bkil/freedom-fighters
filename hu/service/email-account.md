@@ -47,10 +47,6 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * nem támogatott subaddressing alias: "+"
 * támogatott ekvivalencia: kis-nagybetű
 
-### csodacsiga
-
-* http://www.csodacsiga.hu/connect/reg.html
-
 ### Freemail
 
 * https://freemail.hu/
@@ -104,6 +100,10 @@ Regisztrációhoz meglévő működő elektronikus levélcím szükséges, viszo
 
 * https://www.nethely.hu/ingyenes-tarhely
 * https://atw.hu/ingyenes-webtarhely
+
+### csodacsiga
+
+* http://www.csodacsiga.hu/connect/reg.html
 
 ## Etikus országban ingyen
 
@@ -211,12 +211,6 @@ XMPP:
 
 ## Megszűnt
 
-### tvn.hu
-
-* https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
-* xfree.hu
-* blog.xfree.hu
-
 ### Citromail
 
 * https://www.citromail.hu/
@@ -261,6 +255,12 @@ XMPP:
 * további szolgáltatások:
   * Index.hu, Totalcar.hu, Totalbike.hu, Nepitelet.hu, Divany.hu, Femina.hu, Port.hu, Indavideo.hu, Blog.hu, Indamail.hu, Forum.index.hu, Indafoto.hu, Penge.hu, Indafax.hu
   * Velvet.hu, Konyvek.index.hu, Totalcarmagazine.com, Napi.hu, konferenciak.napi.hu, Retikul.hu, Noifriss.hu, Feminamedia.hu, Feminaklub.hu, Színház.hu, FeminaShop.hu, otthonterkep.hu, ingatlantajolo.hu, irodahaz.info, raktar.info
+
+### tvn.hu
+
+* https://www.tvn.hu/reg/reg2.tvn (TVN.hu Kft.)
+* xfree.hu
+* blog.xfree.hu
 
 ## Pingback
 
