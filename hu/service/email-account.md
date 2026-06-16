@@ -65,26 +65,6 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * @gportal.hu végződés is elérhető
 * 120 naponta be kell lépni
 
-### Mailbox.hu
-
-* https://mailbox.hu/help
-* 200MB tárhely
-* Roundcube webmail
-* fizetős csomag: 1.75 EUR/hó, reklámmentesítés, további tárhely, több küldhető email/nap, IMAP, POP3, SMTP
-* ingyenes csomagban küldhető 5 email/nap
-* hirdetések: Google
-* üzemeltető: Yellow Hashtag OÜ., Észtország
-* max. 64MB fájl csatolható
-* médiapartnere: 24.hu hirradar.hu
-* további fizetős szolgáltatás: http://postino.hu/
-* 30 naponta be kell lépni, különben törlik a fiókot
-* 2FA: email, TOTP authenticator mobilalkalmazás
-* Mailvelope PGP bővítmény
-* nem támogatott ekvivalencia: ".", "-"
-* nem támogatott subaddressing alias: "-"
-* támogatott subaddressing alias: "+"
-* támogatott ekvivalencia: kis-nagybetű
-
 ## Magyarországon fizetős
 
 * https://www.mikrovps.net/hu/email-hosting/basic 15GB tárhely, 3000 Ft+áfa/év (0.89 EUR/hó) (MikroVPS Kft.)
@@ -255,6 +235,27 @@ XMPP:
 * további szolgáltatások:
   * Index.hu, Totalcar.hu, Totalbike.hu, Nepitelet.hu, Divany.hu, Femina.hu, Port.hu, Indavideo.hu, Blog.hu, Indamail.hu, Forum.index.hu, Indafoto.hu, Penge.hu, Indafax.hu
   * Velvet.hu, Konyvek.index.hu, Totalcarmagazine.com, Napi.hu, konferenciak.napi.hu, Retikul.hu, Noifriss.hu, Feminamedia.hu, Feminaklub.hu, Színház.hu, FeminaShop.hu, otthonterkep.hu, ingatlantajolo.hu, irodahaz.info, raktar.info
+
+### Mailbox.hu
+
+* már csak fizetős csomag elérhető
+* https://web.archive.org/web/20231002043044/https://mailbox.hu/register/
+* 200MB tárhely
+* Roundcube webmail
+* fizetős csomag: 1.75 EUR/hó, reklámmentesítés, további tárhely, több küldhető email/nap, IMAP, POP3, SMTP
+* ingyenes csomagban küldhető 5 email/nap
+* hirdetések: Google
+* üzemeltető: Yellow Hashtag OÜ., Észtország (A.I.Inside?)
+* max. 64MB fájl csatolható
+* médiapartnere: 24.hu hirradar.hu
+* további fizetős szolgáltatás: http://postino.hu/
+* 30 naponta be kell lépni, különben törlik a fiókot
+* 2FA: email, TOTP authenticator mobilalkalmazás
+* Mailvelope PGP bővítmény
+* nem támogatott ekvivalencia: ".", "-"
+* nem támogatott subaddressing alias: "-"
+* támogatott subaddressing alias: "+"
+* támogatott ekvivalencia: kis-nagybetű
 
 ### tvn.hu
 
