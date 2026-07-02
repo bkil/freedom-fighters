@@ -68,6 +68,7 @@
 
 * https://free-proxy-list.net/
 * https://github.com/proxifly/free-proxy-list
+* https://github.com/roosterkid/openproxylist
 * https://vpncentral.com/best-proxy-server/
 * https://www.cloudwards.net/best-free-proxy/
 * https://getproxi.es/proxies-by-country/
