@@ -64,6 +64,7 @@ Technológiai okokból elképzelhető, hogy akkor is megérkezik egy levél a fi
 * webmail, mobil, POP3, SMTP
 * @gportal.hu végződés is elérhető
 * 120 naponta be kell lépni
+* azonosító: `[0-9a-z._-]+`
 
 ## Magyarországon fizetős
 
