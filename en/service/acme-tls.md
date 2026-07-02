@@ -2,6 +2,12 @@
 
 ## Providers
 
+### Actalis
+
+* https://www.actalis.com/subscription
+* 90 days validity
+* Italy
+
 ### BuyPass
 
 * https://buypass.com/products/tls-ssl-certificates/go-ssl
