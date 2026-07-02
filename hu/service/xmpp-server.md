@@ -8,6 +8,7 @@
 ## Szerverlisták
 
 * https://list.jabber.at/
+* https://xmppnetwork.goodbytes.im/data.json?skipAnon
 * https://web.archive.org/web/20220728135210/https://xmpp.net/directory.php
 * https://providers.xmpp.net/
 * https://join.movim.eu/
