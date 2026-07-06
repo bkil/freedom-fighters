@@ -136,7 +136,9 @@ File manager:
   * $2.7/hó 1vCPU, 256MB RAM, 2.5GB SSD
   * $5.4/hó 1vCPU, 512MB RAM, 5GB SSD
 * 100GB/hó kimenő forgalom ingyen
+* 0.1 vCPU, 512MB RAM ingyen, alszik
 * CI/CD git integráció
+* ingyen Postgres: 5 óra/hó, 0.25 vCPU, 1GB RAM, 1GB tárhely
 * HTTP/2, Let's Encrypt TLS, Websocket, gRPC
 * 1 saját domain név díjmentesen beköthető
 * regisztráció: Google reCAPTCHA
@@ -167,12 +169,17 @@ File manager:
 ### Railway.app
 
 * https://railway.app/pricing
-* majdnem IaaS
+* $1/hó ingyen kredit
+* majdnem IaaS: Docker és Nixpack
+* 1vCPU
 * 512MB RAM
-* 1GB tárhely
+* 1GB átmeneti tárhely, 0.5GB tartós tárhely
+* nincs cron (csak próbaidő alatt)
 * 100GB/hó kimenő forgalom
 * 500 óra/hó futás
-* CI/CD GitHub tárolóból
+* CI/CD GitHub tárolóból, max. 10 perc/build
+* max. 4GB lemezkép méret
+* nem igényel hitelkártyát
 
 ### Render.com
 
@@ -190,6 +197,22 @@ File manager:
 * statikusan is: egyedi HTTP fejlécek, átirányítások, Brotli
 * egyedi Docker vagy Node.js, Python, Go, Rust, Ruby Elixir
 * 400 óra/hó/projekt CI/CD vagy 500 perc/hó/fő: GitHub és GitLab tárolóból
+
+### SnapDeploy.dev
+
+* https://snapdeploy.dev/pricing
+* https://snapdeploy.dev/docs/scaling
+* 512MB RAM, 0.25 vCPU
+* nincs tárhely
+* 45 perc inaktivitás után alszik, max. 60 másodperc az ébredés bejövő forgalomnál
+* 5 deploy/12 óra
+* ingyen TLS
+* csak aldomain
+* max. 2 Docker konténer
+* integráció: Docker Hub, Amazon ECR, GitHub Container Registry
+* max 5 perc/build
+* max. 7 naplózás: API, letöltés, keresés, szűrés, valós idejű streaming
+* nem igényel hitelkártyát
 
 ### 000webhost
 
