@@ -214,6 +214,20 @@ File manager:
 * max. 7 naplózás: API, letöltés, keresés, szűrés, valós idejű streaming
 * nem igényel hitelkártyát
 
+### deno.com/deploy
+
+* https://deno.com/deploy/pricing
+* https://docs.deno.com/deploy/
+* https://deno.com/deploy/sandbox
+* platform: JavaScript és TypeScript
+* 1M kérés/hó
+* 20GB/hó kimenő forgalom
+* 15 óra/hó CPU, 350 GB*h/hó allokáció
+* 1GB kötet tárhely, 1GB kulcs-érték tároló
+* valós idejű naplózás, 1 nap tárolás
+* van cron
+* 2 vCPU, 1.2GB RAM, 10GB átmeneti tárhely
+
 ### 000webhost
 
 * https://www.000webhost.com/cheap-web-hosting
