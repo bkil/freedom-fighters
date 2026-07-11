@@ -117,18 +117,23 @@ Table sized CPU that would be plausible to both review and construct at home:
 * https://monster6502.com/
 * https://news.ycombinator.com/item?id=11703596
 
+## Manufacturing IC
+
+Manufacturing integrated circuits at home needs further research and as of now is not recommended.
+
 ### Manufacturing transistors
 
 * https://en.wikipedia.org/wiki/Crystal_detector
 * https://en.wikipedia.org/wiki/Point-contact_transistor
 * https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Early_manufacturing_techniques
 
-### Manufacturing IC
-
-Manufacturing integrated circuits at home (not recommended):
+### Printed circuits
 
 * https://www.electronicsforu.com/technology-trends/printed-integrated-circuits-that-consist-of-several-hundred-transistors
-* http://sam.zeloof.xyz/
+
+### Sam Zeloof transistors
+
+* https://sam.zeloof.xyz/second-ic/
 
 ### Tiny Tapeout
 
