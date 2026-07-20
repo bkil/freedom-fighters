@@ -39,3 +39,13 @@ Nem tartanak nyilván regisztrációnként személyes adatokat vagy email címet
 
 * https://www.sauteed-onions.org/
 * Tor Onion címeket tesz megismerhetővé TLS certificate transparency segítségével
+
+## Átirányítás
+
+### forwarddomain.net
+
+* https://forwarddomain.net/
+
+### redirs.com
+
+* https://www.redirs.com/
