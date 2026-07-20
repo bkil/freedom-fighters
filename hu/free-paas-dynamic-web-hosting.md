@@ -128,6 +128,26 @@ File manager:
 * SMTP, IMAP4, POP3
 * FreeBSD 13.1
 
+### domcloud.co
+
+* https://domcloud.co/docs/intro/free-plan
+* https://github.com/domcloud/bridge/blob/main/src/whitelist/sites.conf
+* regisztrációhoz előfizetés, meghívókód (Discord alatt publikálják) vagy GitHub fiók szükséges
+* 1.5GB NVME tárhely
+* RAM: 64MB üresjáratban, max. 1GB csúcs
+* 2GB/hó kimenő forgalom
+* tűzfal: csak adott domain elérése engedélyezett, 25-ös port blokkolva
+* CPU: ARM64, max. 3 párhuzamos példány
+* platform: szinte bármi amihez nem kell folyamatos háttérfolyamat és sudo, dokumentálva PHP, Node, Python, Perl, Ruby, Rust, Go, Java, Deno, Bun, Java, Go, .NET, Zig, clang, gcc, g++
+* Postgres, MariaDB (MySQL), Valkey (Redis)
+* ssh, fail2ban, nincs sudo
+* óránként 1 cron futás
+* git deploy
+* ingyen aldomain: `*.dom.my.id`, viszont ezen reklámot (figyelmeztetést) jelenít meg
+* használható saját domain is
+* Rocky Linux, nginx, fastcgi, Phusion Passenger
+* 60 naponta be kell jelentkezni
+
 ### Koyeb.com
 
 * https://www.koyeb.com/pricing
