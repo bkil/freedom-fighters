@@ -156,6 +156,7 @@ Korábban bennük is felmerültek alternatívák:
 * https://github.com/gigablast/open-source-search-engine/blob/master/TuringTest.cpp
 * https://github.com/chenyeric/captcha/blob/master/cryptographp.inc.php
 * https://github.com/inspircd/inspircd-contrib/blob/master/3/m_solvemsg.cpp
+* https://github.com/altcha-org/altcha#code-challenges
 
 ### Fossil
 
