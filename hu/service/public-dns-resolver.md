@@ -6,8 +6,13 @@
 * https://www.digitale-gesellschaft.ch/dns/
 * https://blog.uncensoreddns.org/
 * https://www.privacytools.io/providers/dns/
-* https://blahdns.com/ _"A hobby Adblock DNS project with DoH, DoT, DoQ, DNSCryptv2 support"_
-  * https://github.com/ookangzheng/blahdns
+* https://web.archive.org/web/20220130062137mp_/https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
+
+## blahdns
+
+* https://blahdns.com/
+* https://web.archive.org/web/20260210021954/https://github.com/zoonderkins/blahdns
+> A hobby Adblock DNS project with DoH, DoT, DoQ, DNSCryptv2 support
 
 ## References
 
