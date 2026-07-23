@@ -7,6 +7,7 @@
 * https://blog.uncensoreddns.org/
 * https://www.privacytools.io/providers/dns/
 * https://web.archive.org/web/20220130062137mp_/https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
+* https://digitalcourage.de/support/zensurfreier-dns-server
 
 ## blahdns
 
