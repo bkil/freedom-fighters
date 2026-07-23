@@ -29,6 +29,7 @@ Nem tartanak nyilván regisztrációnként személyes adatokat vagy email címet
 * https://ddns.freedombox.org/
 * https://ydns.io/features
 * http://freedns.afraid.org/
+* https://desec.io/deDyn.io
 
 ### noip.com
 
