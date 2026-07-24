@@ -56,14 +56,6 @@ Gemini:
 * own index
 * can be used without JavaScript
 
-### alexandria.org
-
-* https://www.alexandria.org/
-* https://github.com/alexandria-org
-* FOSS
-* own index
-* can be used without JavaScript
-
 ### artadosearch.com
 
 * https://www.artadosearch.com/search?Button1=Artado&i=test
@@ -79,14 +71,14 @@ Gemini:
 
 ### blog-search.com
 
-* https://www.blog-search.com/cgi-bin/search.cgi
+* https://www.blog-search.com/cgi-bin/search.cgi?q=test
 * source: ExactSeek.com
 * can be used without JavaScript
 
 ### brave.com
 
 * US
-* https://search.brave.com
+* https://search.brave.com/search?q=test
 * can be used without JavaScript
 * own index
 * the search result description seems to be generated from the beginning of the static HTML (Brave)
@@ -97,12 +89,12 @@ Gemini:
 * https://clew.se/search?q=
 * https://codeberg.org/Clew
 * FOSS frontend and backend (except crawler)
-* can be used without JavaScript
+* requires Anubis with JavaScript
 * own index
 
 ### curlie.org
 
-* https://curlie.org/search
+* https://curlie.org/search?q=test
 * can be used without JavaScript
 * own index
 
@@ -113,29 +105,11 @@ Gemini:
 * can be used without JavaScript
 * own index
 
-### ichi.do
-
-* https://ichi.do/search?q=
-* can be used without JavaScript
-* own index
-* host: AWS
-
-### infotiger.com
-
-* https://infotiger.com/
-* can be used without JavaScript
-* own index
-* also offers a Tor onion address
-
-### jambot.com
-
-* https://jambot.com/se?query=
-* can be used without JavaScript
-* own index
-
 ### kukei.eu
 
 * https://kukei.eu/?q=gemini
+* https://codeberg.org/kukei/search
+* FOSS, can also be self-hosted
 * can be used without JavaScript
 * own index
 
@@ -163,30 +137,17 @@ Downloadable database dumps:
 * https://downloads.marginalia.nu/exports/
 * https://github.com/MarginaliaSearch/PublicData
 
-### MetaGer
-
-* https://metager.org/search-engine
-* https://gitlab.metager.de/open-source/MetaGer
-* DE
-* paid Service
-* own index: Scopia 
-* metasearch: Bing, Mojeek, Brave, Serper (Google), Pixabay, OneNewspage, Ebay, Minisucher Wissenschaft, TUBdok, BASE
-* returns results within an iframe - opening the link directly allows viewing the results without JavaScript
-* https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
-* option to open result hits through their proxy
-* the search result description seems to be a subset of DuckDuckGo
-
 ### Mojeek
 
 * https://mojeek.com/
 * GB
-* can be used without JavaScript
+* can be used without JavaScript, but may require CAPTCHA
 * own index
 * the search result description seems to be unique
 
 ### mwmbl.org
 
-* https://mwmbl.org/
+* https://mwmbl.org/search?q=test
 * https://github.com/mwmbl/mwmbl
 * FOSS
 * can be used without JavaScript
@@ -217,23 +178,11 @@ Downloadable database dumps:
 * shows a CAPTCHA if searching for too long strings
 * the search result description does not match Bing, seems to be faithfully summarized
 
-### rightdao.com
-
-* https://rightdao.com/
-* can be used without JavaScript
-* own index
-
 ### search.ch
 
-* https://search.ch/
+* https://search.ch/web/
 * can only find pages hosted in Switzerland
 * can be used without JavaScript
-
-### searchcode.com
-
-* https://searchcode.com/
-* can be used without JavaScript
-* only indexes program source code
 
 ### searchmysite.net
 
@@ -252,21 +201,14 @@ Downloadable database dumps:
 ### secretsearchenginelabs.com
 
 * http://www.secretsearchenginelabs.com/find/
+* Finland
 * own index
 * can be used without JavaScript
-
-### stract.com
-
-* https://stract.com/search
-* https://github.com/StractOrg/stract
-* FOSS
-* can be used without JavaScript
-* own index
 
 ### webcrawler.com
 
 * https://www.webcrawler.com/serp
-* can be used without JavaScript
+* can be used without JavaScript, but may sometimes require filling a Cloudflare CAPTCHA
 * own index
 * the search result description seems to match Startpage
 
@@ -282,16 +224,10 @@ Downloadable database dumps:
 
 * https://en.wikipedia.org/wiki/Yacy
 * FOSS
-* https://yacy.searchlab.eu/yacysearch.html?query=yacy
+* https://yacy.space/
 * can be used without JavaScript
 * own index
 * the search result description seems to be generated from certain boring parts from the beginning of the static HTML (YaCy)
-
-### yessle.com
-
-* https://www.yessle.com/index.php?keyword=
-* own index
-* can be used without JavaScript
 
 ## Worrisome with index
 
@@ -299,13 +235,7 @@ Downloadable database dumps:
 
 * https://greppr.org/
 * own index
-* requires JavaScript
-
-### plumb.one
-
-* https://plumb.one/results/?q=index
-* own index
-* requires JavaScript
+* requires JavaScript to submit form
 
 ### seekport.com
 
@@ -351,8 +281,9 @@ Downloadable database dumps:
 
 ### dogpile.com
 
+* USA
 * https://www.dogpile.com/serp?q=
-* can be used without JavaScript
+* requires JavaScript
 * source: Bing
 * Infospace Holdings LLC, a System1 Company
 * the search result description seems to match Bing
@@ -362,7 +293,7 @@ Downloadable database dumps:
 * DE
 * https://www.ecosia.org/
 * source: Bing
-* can be used without JavaScript
+* requires JavaScript
 * the search result description does not match Bing, seems to be faithfully summarized
 
 ### etools.ch
@@ -375,7 +306,7 @@ Downloadable database dumps:
 ### excite.com
 
 * https://results.excite.com/serp?q=
-* can be used without JavaScript
+* requires JavaScript for Cloudflare CAPTCHA
 * source: Bing
 * the search result description seems to match Bing
 
@@ -385,12 +316,6 @@ Downloadable database dumps:
 * can be used without JavaScript
 * source: DuckDuckGo
 * the search result description seems to match DuckDuckGo
-
-### ghosterysearch.com
-
-* https://ghosterysearch.com/search?q=
-* can be used without JavaScript
-* search result descriptions seem to match Brave
 
 ### good-search.org
 
@@ -404,13 +329,13 @@ Downloadable database dumps:
 
 * https://search.lilo.org/?q=
 * source: Bing
-* can be used without JavaScript
+* requires JavaScript
 * the search result description seems to match a subset of Bing
 
 ### metacrawler.com
 
 * https://www.metacrawler.com/serp?q=
-* can be used without JavaScript
+* requires JavaScript for Cloudflare CAPTCHA
 * source: Bing
 * the search result description seems to match Bing
 
@@ -421,13 +346,6 @@ Downloadable database dumps:
 * can be used without JavaScript
 * Searx
 * the search result description seems to match DuckDuckGo
-
-### nona.de
-
-* https://www.nona.de/
-* can be used without JavaScript
-* source: Bing
-* the search result description seems to be unique
 
 ### privacywall.org
 
@@ -441,19 +359,10 @@ Downloadable database dumps:
 * metasearch engine, does not have a crawler
 * https://github.com/searx/searx
 * https://github.com/searxng/searxng
+* https://searx.space/
 * https://searx.neocities.org/nojs
-* https://searxng.online/search
-* https://searx.nixnet.services/
 * FOSS
 * can be used without JavaScript
-
-### whoogle.org
-
-* https://whoogle.herokuapp.com/
-* https://whoogle.org/
-* source: Google
-* can be used without JavaScript
-* the search result description seems to be summarized with hallucination (Google)
 
 ### xprivo.com
 
@@ -475,14 +384,14 @@ Downloadable database dumps:
 
 ### lycos.com
 
-* https://search11.lycos.com/web/?q=
+* https://search11.lycos.com/search?kw=test
 * can be used without JavaScript
 * source: Yahoo (Bing)
 * the search result description seems to match Bing
 
 ### Startpage
 
-* http://startpage.com/
+* https://www.startpage.com/sp/search
 * NL
 * owned by adtech company System1
 * source: Bing (formerly: Google)
@@ -524,12 +433,6 @@ Downloadable database dumps:
 * source: Yahoo (Bing)
 * requires JavaScript
 
-### findx.com
-
-* https://www.findx.com/search?noscript=1&q=
-* requires JavaScript
-* Source: Bing
-
 ### gibiru.com
 
 * https://gibiru.com/
@@ -555,6 +458,7 @@ Downloadable database dumps:
 ### search.com
 
 * https://www.search.com/
+* chat bot based
 * requires JavaScript
 
 ### swisscows.com
@@ -588,7 +492,31 @@ Downloadable database dumps:
 * https://gitlab.com/users/infinitysearch/projects
 * https://github.com/orgs/WordPress/repositories?q=openverse&type=all&language=&sort=
 * https://seekseek.org/technology
+
+### alexandria.org
+
+* `https://www.alexandria.org/`
+* https://github.com/alexandria-org
+* FOSS
+* own index
+* can be used without JavaScript
+
+### Gigablast
+
+* `https://gigablast.com/`
 * https://github.com/gigablast/open-source-search-engine
+* USA
+* FOSS, can also be self-hosted
+* requires JavaScript, but copying the `rand=` and `pxb=` values from the HTML source and appending `&fromjs=1&rand=...&opxb=...` to the end shows the results
+* https://github.com/bkil/static-wonders.js/blob/master/userjs/gigablast.com.user.js
+
+### stract.com
+
+* `https://stract.com/search`
+* https://github.com/StractOrg/stract
+* FOSS
+* can be used without JavaScript
+* own index
 
 ## Monopolists
 
@@ -658,24 +586,99 @@ Crawler roots:
 
 ## Defunct
 
-### geminispace.info
-
-* gemini://geminispace.info/
-
 ### ExaLead
 
-* https://www.exalead.com/search/
+* `https://www.exalead.com/search/`
 * FR
 * TODO: what other providers does it use?
 * can be used without JavaScript
 
-### Gigablast
+### findx.com
 
-* https://gigablast.com/
-* USA
-* FOSS, can also be self-hosted
-* requires JavaScript, but copying the `rand=` and `pxb=` values from the HTML source and appending `&fromjs=1&rand=...&opxb=...` to the end shows the results
-* https://github.com/bkil/static-wonders.js/blob/master/userjs/gigablast.com.user.js
+* `https://www.findx.com/search?noscript=1&q=`
+* domain squatted by a company stock chart service
+* required JavaScript
+* Source: Bing
+
+### geminispace.info
+
+* `gemini://geminispace.info/`
+
+### ghosterysearch.com
+
+* `https://ghosterysearch.com/search?q=`
+* search result descriptions seem to match Brave
+
+### ichi.do
+
+* `https://ichi.do/search?q=test`
+* can be used without JavaScript
+* own index
+* host: AWS
+
+### infotiger.com
+
+* `https://infotiger.com/`
+* can be used without JavaScript
+* own index
+* also offers a Tor onion address
+
+### jambot.com
+
+* `https://jambot.com/se?query=`
+* can be used without JavaScript
+* own index
+
+### MetaGer
+
+* https://metager.org/search-engine
+* https://gitlab.metager.de/open-source/MetaGer
+* DE
+* now requires registration and payment
+* own index: Scopia
+* metasearch: Bing, Mojeek, Brave, Serper (Google), Pixabay, OneNewspage, Ebay, Minisucher Wissenschaft, TUBdok, BASE
+* returns results within an iframe - opening the link directly allows viewing the results without JavaScript
+* https://github.com/bkil/static-wonders.js/blob/master/userjs/metager.de.user.js
+* option to open result hits through their proxy
+* the search result description seems to be a subset of DuckDuckGo
+
+### nona.de
+
+* https://www.nona.de/
+* requires registration and payment
+* source: Bing
+* the search result description seems to be unique
+
+### plumb.one
+
+* `https://plumb.one/results/?q=index`
+* own index
+* requires JavaScript
+
+### rightdao.com
+
+* `https://rightdao.com/`
+* can be used without JavaScript
+* own index
+
+### searchcode.com
+
+* `https://searchcode.com/`
+* the squatted domain now server a paid GitHub repository analyzer
+* only indexed program source code around the world
+
+### whoogle.org
+
+* https://github.com/benbusby/whoogle-search/blob/main/misc/instances.txt
+* source: Google
+* can be used without JavaScript
+* the search result description seems to be summarized with hallucination (Google)
+
+### yessle.com
+
+* `https://www.yessle.com/index.php?keyword=`
+* own index
+* can be used without JavaScript
 
 ## References
 
