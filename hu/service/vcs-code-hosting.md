@@ -103,6 +103,10 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * 2 felhasználó
 * 1 projekt
 
+### codefloe.com
+
+* https://codefloe.com/
+
 ### codeberg.org
 
 * 2019
@@ -186,6 +190,11 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * Gitea
 * nincs API CORS
 
+### mpaq.org
+
+* https://vcs.mpaq.org/
+* Gitea
+
 ### OSDN
 
 * https://osdn.net/
@@ -215,6 +224,10 @@ Azon szolgáltatóknál ahol nincs CI/CD vagy statikus webkiszolgálás, sokszor
 * http://shithub.us/
 
 > It is running on git9, hosted on 9front and uses dp9ik authentication for pushing code
+
+### vibeberg.org
+
+* https://vibeberg.org/
 
 ## Korlátozott tagsággal
 
