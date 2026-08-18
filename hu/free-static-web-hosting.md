@@ -486,6 +486,24 @@ Lásd még:
 
 * [service/free-shell-account.md](service/free-shell-account.md)
 
+### 0hosting.net
+
+* https://web1.0hosting.net/
+* 100MB tárhely
+* ingyen domain: saját, .w10.site, short .w0.am, .narod.ws and .oldcities.org
+* domain név nélkül IPv4 és IPv6 cím alapú elérés
+* Yggdrasil és xxxx.ws.ygg ALFIS blockchain DNS
+* webmail
+* WAP1 proxy
+* opcionális L2TP port forward útján saját otthoni kiszolgálás
+* hotlinking engedélyezett
+* korlátlan forgalom
+* HTTP és HTTPS
+* FTP és FTPS feltöltés
+* SSI
+* scriptek: contact form, guestbook, photogallery, audio catalog, chat, blog, visitors counter, and likes
+* honlapépítő: HamsterCMS
+
 ### autistici.org
 
 * https://www.autistici.org/services/website
